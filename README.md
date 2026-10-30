@@ -1,6 +1,6 @@
 # Deadlock Việt Hóa 🇻🇳
 
-> **Bản Việt hóa cộng đồng dành cho Deadlock trên PC.** Tập trung vào giao diện, mô tả kỹ năng và vật phẩm, cảnh báo trong trận, phím tắt, chế độ thử nghiệm và thống kê. Cách dịch ưu tiên **tự nhiên, ngắn gọn, dễ đọc khi chơi**, đồng thời giữ lại các tên riêng quan trọng.
+> **Bản Việt hóa cộng đồng dành cho Deadlock tại Việt Nam.** Tập trung vào giao diện, mô tả kỹ năng và vật phẩm, cảnh báo trong trận, phím tắt, chế độ thử nghiệm và thống kê. Cách dịch ưu tiên **tự nhiên, ngắn gọn, dễ đọc khi chơi**, đồng thời giữ lại các tên riêng quan trọng.
 
 
 ## 📷 Hình ảnh trong game
@@ -27,7 +27,6 @@
 - **Vật phẩm và cửa hàng:** mô tả công dụng, chỉ số, hướng dẫn mua; giữ tên item để dễ tra cứu build.
 - **Hồ sơ và thống kê:** lịch sử trận, số trận thắng/thua, hạ gục, hỗ trợ và các số liệu khác.
 - **Sandbox / Hero Testing / Replay:** nút điều khiển, công cụ thử nghiệm, xem trận và camera.
-- **Hiển thị:** ưu tiên các câu ngắn, hạn chế tràn/chồng chữ; có bản cấu hình font **Radiance** tùy chọn.
 
 ### Các thuật ngữ được giữ nguyên
 
@@ -37,13 +36,6 @@ Ví dụ: `Souls thu được`, `Bảo vệ Guardian`, `Unstable Rift xuất hi�
 
 ## 📥 Cài đặt bản Việt hóa
 
-### 1. Sao lưu
-
-Thoát **Deadlock** hoàn toàn. Trong Steam, nhấp chuột phải vào Deadlock → **Manage → Browse local files** (hoặc **Properties → Installed Files → Browse**).
-
-Sao lưu các file ngôn ngữ `*_english.txt` mà bạn chuẩn bị ghi đè, hoặc sao lưu cả thư mục `resource/localization` nếu cần.
-
-### 2. Chép bản dịch
 
 Tải gói bản Việt hóa của dự án, giải nén và sao chép **thư mục `localization`** vào:
 
@@ -51,36 +43,14 @@ Tải gói bản Việt hóa của dự án, giải nén và sao chép **thư m�
 <SteamLibrary>/steamapps/common/Deadlock/game/citadel/resource/
 ```
 
-Ví dụ với Steam cài ở ổ D:
+Ví dụ với Steam cài ở ổ C:
 
 ```text
-D:\SteamLibrary\steamapps\common\Deadlock\game\citadel\resource\
+C:\SteamLibrary\steamapps\common\Deadlock\game\citadel\resource\
 ```
 
 Chọn **Replace the files in the destination** khi Windows hỏi có ghi đè hay không.
 
-Cấu trúc các file bản dịch hiện tại:
-
-```text
-resource/
-└── localization/
-    ├── citadel_main/
-    │   └── citadel_main_english.txt
-    ├── citadel_heroes/
-    │   └── citadel_heroes_english.txt
-    ├── citadel_mods/
-    │   └── citadel_mods_english.txt
-    ├── citadel_attributes/
-    │   └── citadel_attributes_english.txt
-    └── citadel_gc/
-        └── citadel_gc_english.txt
-```
-
-### 3. Khởi động game
-
-- Để ngôn ngữ Deadlock là **English**.
-- Xóa `-language vietnamese` khỏi **Steam → Deadlock → Properties → General → Launch Options**; không cần tham số khởi động đặc biệt.
-- Mở lại game và kiểm tra menu, hướng dẫn hotkey hoặc phần mô tả item.
 
 
 ## 🧰 Khắc phục sự cố
