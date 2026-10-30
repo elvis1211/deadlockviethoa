@@ -62,5 +62,6 @@ Bạn có thể tạo **GitHub Issue** khi thấy lỗi dịch, sai ngữ cảnh
 3. Phiên bản hoặc ngày cập nhật game và các bước để tái hiện lỗi.
 
 ---
+Nếu đã cài việt hoá mà muốn trở lại tiếng anh như bản gốc thì có thể vào cài đặt game ở Steam vào phần Installed Files > Verify integrity of game files
 
 **Deadlock Việt Hóa** — Dịch để chơi dễ hiểu hơn.
