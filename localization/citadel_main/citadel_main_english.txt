@@ -1610,7 +1610,7 @@
 
 		"Citadel_Main_EarlyDevBuild"								"Phiên bản đang phát triển"
 		"Citadel_Main_ViewProfile"									"View Profile"
-		"Citadel_Main_PlayMode"										"Select Play Mode:"
+		"Citadel_Main_PlayMode"										"Chọn chế độ chơi"
 
 		"Citadel_Playtest_Status"									"Trạng thái:"
 		"Citadel_Playtest_Upcoming"									"Đợt thử nghiệm bắt đầu lúc {t:l:t:m:playtest_start}"
@@ -1786,7 +1786,7 @@
 
 		"Citadel_Watch_Page_NetWorthTeam0"							"{d:net_worth_team_0}k"
 		"Citadel_Watch_Page_NetWorthTeam1"							"{d:net_worth_team_1}k"
-		"Citadel_Watch_Page_Spectators:f"							"{d:spectators} {spectators, plural, one{Spectator} other{Spectators}}"
+		"Citadel_Watch_Page_Spectators:f"							"{d:spectators} người xem"
 		"Citadel_Watch_Page_FriendInMatch"							"Bạn Steam đang chơi"
 		"Citadel_Watch_Page_MatchID"								"ID: {s:match_id}"
 		"Citadel_Watch_FriendsCheckbox"								"Chỉ hiện trận của bạn bè"
@@ -2690,9 +2690,9 @@
 
 		"ShopFilter_HintSecondary"				"Nhấn {g:citadel_key:'MOUSE1'} để chọn một bộ lọc.<br>Nhấn {g:citadel_key:'MOUSE2'} để chọn nhiều bộ lọc"
 
-		"Minimap_HintControls_MinimapPing"	"{g:citadel_key:'MOUSE1'} / {g:citadel_binding:'Ping'} Đánh dấu"
-		"Minimap_HintControls_MinimapRadialMenu"	"Giữ {g:citadel_key:'MOUSE1'} / {g:citadel_binding:'Ping'} để mở vòng lệnh ping"
-		"Minimap_HintControls_MinimapDrawing"		"{g:citadel_key:'MOUSE2'} Vẽ lên bản đồ nhỏ"
+		"Minimap_HintControls_MinimapPing"	"{g:citadel_key:'MOUSE1'} Ping/giữ mở menu · {g:citadel_key:'MOUSE2'} Vẽ"
+		"Minimap_HintControls_MinimapRadialMenu"	""
+		"Minimap_HintControls_MinimapDrawing"		""
 
 		"EShopFilterItemWeapon"					"Vật phẩm vũ khí"
 		"EShopFilterItemSpirit"					"Vật phẩm phép thuật"
@@ -4206,7 +4206,7 @@
 		"citadel_settings_custom_ui_colors_new_setting_desc"		"New accessibility options reduce how often you need to hold or press keys: fire without holding the Fire key, double-tap Move Forward to keep moving, and mantle onto ledges automatically. You can also now freely choose the color used for enemy health bars and other enemy indicators in the UI."
 		"citadel_settings_camera_shake_new_setting"			"Reduce Camera Shake"
 		"citadel_settings_camera_shake_new_setting_desc"		"You can now reduce camera shake in the Camera Settings."
-		"citadel_settings_spectator_camera_new_setting"		"Spectator Camera"
+		"citadel_settings_spectator_camera_new_setting"		"Camera người xem"
 		"citadel_settings_spectator_camera_new_setting_desc"		"You can now adjust camera fading and other spectator and replay camera options in Advanced settings."
 		"citadel_settings_spectate_player_hotkeys_new_setting"		"Phím tắt xem người chơi"
 		"citadel_settings_spectate_player_hotkeys_new_setting_desc"		"Khi xem trận hoặc replay, nhấn các phím số để chuyển ngay sang tướng tương ứng. Bạn cũng có thể tự đặt phím. Các phím điều chỉnh tốc độ replay đã được cập nhật."
@@ -4336,23 +4336,23 @@
 		//-----------------------------------------------------------------------------
 
 
-		"citadel_spectator_voice_mode_0"		"Player Voice On"
-		"citadel_spectator_voice_mode_1"		"Player Voice Off"
-		"hud_free_cursor_mode_0"				"Enable Cursor"
-		"hud_free_cursor_mode_1"				"Enable Camera Control"
-		"hud_prev_player"						"{g:citadel_binding:'Spectator.SpectatorPrevTarget'}Người chơi trước" 
-		"hud_next_player"						"{g:citadel_binding:'Spectator.SpectatorNextTarget'}Người chơi tiếp" 
+		"citadel_spectator_voice_mode_0"		"Bật thoại người chơi"
+		"citadel_spectator_voice_mode_1"		"Tắt thoại người chơi"
+		"hud_free_cursor_mode_0"				"Bật con trỏ"
+		"hud_free_cursor_mode_1"				"Bật điều khiển camera"
+		"hud_prev_player"						"{g:citadel_binding:'Spectator.SpectatorPrevTarget'} Trước" 
+		"hud_next_player"						"{g:citadel_binding:'Spectator.SpectatorNextTarget'} Tiếp" 
 		"hud_spectating"						"Đang xem trận"
-		"hud_change_camera"						"{g:citadel_binding:'Spectator.ToggleSpectatorCamera'}Change Camera"
+		"hud_change_camera"						"{g:citadel_binding:'Spectator.ToggleSpectatorCamera'} Đổi góc nhìn"
 
-		"hud_spectating_camera_dolly_out"		"{g:citadel_binding:'Spectator.SpectatorChase'}Zoom Out"
-		"hud_spectating_camera_dolly_in"		"{g:citadel_binding:'Spectator.SpectatorInEye'}Zoom In"
-		"hud_spectating_camera_dolly"			"{g:citadel_binding:'Spectator.SpectatorInEye'}{g:citadel_binding:'Spectator.SpectatorChase'}Zoom"
+		"hud_spectating_camera_dolly_out"		"{g:citadel_binding:'Spectator.SpectatorChase'} Thu nhỏ"
+		"hud_spectating_camera_dolly_in"		"{g:citadel_binding:'Spectator.SpectatorInEye'} Phóng to"
+		"hud_spectating_camera_dolly"			"{g:citadel_binding:'Spectator.SpectatorInEye'} / {g:citadel_binding:'Spectator.SpectatorChase'} Thu phóng"
 	
 		"hud_spectate_next_prev"				"Tiếp / Trước"
-		"hud_spectate_fly_down"					"{g:citadel_binding:'Spectator.SpectatorFlyDown'}Bay xuống"
-		"hud_spectate_fly_up"					"{g:citadel_binding:'Spectator.SpectatorFlyUp'}Bay lên"
-		"hud_spectate_change_team"				"{g:citadel_binding:'Spectator.ToggleSpectatorTeam'}Đổi đội"
+		"hud_spectate_fly_down"					"{g:citadel_binding:'Spectator.SpectatorFlyDown'} Bay xuống"
+		"hud_spectate_fly_up"					"{g:citadel_binding:'Spectator.SpectatorFlyUp'} Bay lên"
+		"hud_spectate_change_team"				"{g:citadel_binding:'Spectator.ToggleSpectatorTeam'} Đổi đội"
 		"hud_spectate_count"					"{d:spectatorCount}"
 		"hud_spectate_count_tooltip"			"Số người đang xem trực tiếp"
 
@@ -4739,7 +4739,7 @@
 		"Ranked_AbandonTriggerTeam"					"You can no longer lose ranked points this match; it is now safe to leave. If you stay and win, it will count as a win."
 
 		"MyRosterTitle"								"MY ROSTER"
-		"Roster_Create_Title"						"Create Roster"
+		"Roster_Create_Title"						"Tạo danh sách tướng"
 		"Select_Hero_Title"							"Chọn tướng"		
 		//"MyRoster_SelectHeroes"						"<span class=\"highlight\">Select Heroes</span> to add or remove them from your Roster."
 		//"MyRoster_PreferHeroes"						"<span class=\"highlight\">Star a hero</span> to prefer them for the next match."
