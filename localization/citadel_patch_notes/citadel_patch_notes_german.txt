@@ -1,0 +1,244 @@
+﻿"lang"
+{
+	"Language"		"german"
+	"Tokens"
+	{
+
+		//-----------------------------------------------------------------------------
+		// hero_astro
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_astro_1" "<b>24.10.2024</b><br>
+			<li>Held zum Helden-Labor hinzugefügt.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_astro_2" "<b>29.10.2024</b><br>
+			<li><i>Sprungpad</i>: Fügt jetzt ordnungsgemäß Schaden im Umkreis des Aufprallortes zu.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_astro_3" "<b>07.11.2024</b><br>
+			<li><i>Sprungpad</i>: Fähigkeit aktualisiert, sodass nur noch ein Aufprall nach einem Sprung mit einem Sprungpad möglich ist.</li>
+			<li><i>Sprungpad</i>: Partikeleffekte werden nicht mehr für Verbündete angezeigt, die ein Sprungpad benutzen.</li>
+			<li><i>Waffe</i>: Visuelle Effekte der Waffe aktualisiert.</li>
+			<li><i>Pulverfass</i>: Sichteinschränkungen durch die visuellen Effekte in der Nähe des Pulverfasses reduziert.</li>
+			<li><i>Trickschuss</i>: Sichteinschränkungen durch die visuellen Effekte für das Ziel der Fähigkeit reduziert.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_nano
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_nano_1" "<b>24.10.2024</b><br>
+			<li>Held zum Helden-Labor hinzugefügt.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_nano_2" "<b>29.10.2024</b><br>
+			<li><i>Waffe</i>: Nachladedauer von 3,5 s auf 3 s reduziert.</li>
+			<li><i>Waffe</i>: Magazinkapazität von 18 auf 16 Kugeln reduziert.</li>
+			<li><i>Waffe</i>: Kugelschaden des alternativen Feuermodus (Standard: Maustaste 2) von 6 auf 7 erhöht.</li>
+			<li><i>Sekhmets Geist</i>: Explosion kann jetzt sofort nach dem Fähigkeitseinsatz ausgelöst werden.</li>
+			<li><i>Sekhmets Geist</i>: Schleudert nur noch Ziele in die Luft, die von Ava getroffen bzw. mitgeschleift wurden.</li>
+			<li><i>Nekomata-Wächter</i>: Hat keine Aufladungen mehr.</li>
+			<li><i>Nekomata-Wächter</i>: Hat jetzt eine separate Angriffsreichweite von 30 m.</li>
+			<li><i>Nekomata-Wächter</i>: Lebensdauer von 120 s auf 60 s reduziert.</li>
+			<li><i>Nekomata-Wächter</i>: Skalierung des Schaden pro Sekunde durch Magiekraft von 0,4 auf 0,3 reduziert.</li>
+			<li><i>Nekomata-Wächter</i>: Skalierung von Avas LP durch Magiekraft von 3,0 auf 2,0 reduziert.</li>
+			<li><i>Nekomata-Wächter</i>: Zusätzliche Aufladungen aus der Stufe-2-Aufwertung entfernt und durch +30 s Dauer ersetzt.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_wrecker
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_1" "<b>24.10.2024</b><br>
+			<li>Held zum Helden-Labor hinzugefügt.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_2" "<b>07.11.2024</b><br>
+			<li><i>Waffe</i>: Magazinkapazität von 10 auf 15 Kugeln erhöht.</li>
+			<li><i>Waffe</i>: Kugeln pro Sekunde von 2,86 auf 4 erhöht.</li>
+			<li><i>Waffe</i>: Kugelschaden von 25 auf 21 reduziert.</li>
+			<li><i>Schrottkugel</i>: Explodiert jetzt beim Aufprall.</li>
+			<li><i>Schrottkugel</i>: Grundschaden von 80 auf 150 erhöht.</li>
+			<li><i>Schrottkugel</i>: Wurftempo von 1500 auf 2000 erhöht.</li>
+			<li><i>Schrottkugel</i>: Rückstoßreichweite von 280 auf 1500 erhöht.</li>
+			<li><i>Schrottkugel</i>: Entstehungsverzögerung von 1,2 s auf 1,4 s erhöht.</li>
+			<li><i>Schrottkugel</i>: Skalierung durch Magiekraft von 1,0 auf 1,4 erhöht.</li>
+			<li><i>Schrottkugel</i>: Grundabklingzeit von 21 s auf 31 s erhöht.</li>
+			<li><i>Zerlegen</i>: Kann jetzt auf alle gegnerischen Einheiten eingesetzt werden.</li>
+			<li><i>Zerlegen</i>: Betäubt bzw. schleudert das Ziel nicht mehr in die Luft.</li>
+			<li><i>Zerlegen</i>: Grundschaden pro Sekunde von 80 auf 40 reduziert.</li>
+			<li><i>Zerlegen</i>: Stufe-1-Aufwertung gewährt jetzt 75 % Heilung des zugefügten Schadens.</li>
+			<li><i>Zerlegen</i>: Stufe-2-Aufwertung von +40 auf +80 Schaden pro Sekunde erhöht.</li>
+			<li><i>Zerlegen</i>: Stufe-3-Aufwertung gewährt jetzt +2 zusätzliche Ziele.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_3" "<b>21.11.2024</b><br>
+			<li><i>Schrottkugel</i>: Wrecker kann jetzt mit reduzierter Höhe springen, während er die Kugel trägt.</li>
+			<li><i>Schrottkugel</i>: Auslöseradius für Projektil von 92 auf 65 reduziert.</li>
+			<li><i>Zerlegen</i>: Visuelle Aktualisierungen vorgenommen.</li>
+			<li><i>Zerlegen</i>: Grundschaden pro Sekunde von 40 auf 60 erhöht.</li>
+			<li><i>Zerlegen</i>: Einsatzreichweite von 12 m auf 15 m erhöht.</li>
+			<li><i>Zerlegen</i>: Hat jetzt eine max. Reichweite von 20 m.</li>
+			<li><i>Zerlegen</i>: Erfordert jetzt für die Aufrechterhaltung der Verbindung eine direkte Sichtlinie zum Ziel.</li>
+			<li><i>Zerlegen</i>: Unterbricht nicht mehr die Bewegung von Gegnern.</li>
+			<li><i>Zerlegen</i>: Feuerrate-Stärkungseffekt entfernt.</li>
+			<li><i>Zerlegen</i>: Grundfähigkeit heilt jetzt um 50 % während des Fähigkeitseinsatzes.</li>
+			<li><i>Zerlegen</i>: Bonus der Stufe-1-Aufwertung von +75 % auf +25 % Heilung während des Fähigkeitseinsatzes reduziert.</li>
+			<li><i>Explosive Biomasse</i>: Anfängliche Reichweite von 5 m auf 10 m erhöht.</li>
+			<li><i>Explosive Biomasse</i>: Kegelförmiger Einsatzbereich leicht angepasst.</li>
+			<li><i>Explosive Biomasse</i>: HUD-Verdunkelungseffekt beim Fähigkeitseinsatz entfernt.</li>
+			<li><i>Astralwanderung</i>: Fähigkeit entfernt und durch neue ultimative Fähigkeit „Überladung“ ersetzt.</li>
+			<li><i>Überladung</i>: Visuelle Aktualisierungen vorgenommen.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_4" "<b>06.12.2024</b><br>
+			<li><i>Schrottkugel</i>: Verhalten der Fähigkeit überarbeitet.</li>
+			<li><i>Schrottkugel</i>: Visuelle Aktualisierungen vorgenommen.</li>
+			<li><i>Überladung</i>: Kamera zoomt jetzt weiter heraus.</li>
+			<li><i>Überladung</i>: Stufe-2-Aufwertung reduziert jetzt die Abklingzeit um 35 Sekunden.</li>
+			<li><i>Überladung</i>: Bewegungstempoverlangsamung wird jetzt in der Beschreibung aufgeführt und im HUD angezeigt.</li>"
+		//-----------------------------------------------------------------------------
+		// hero_trapper
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_1" "<b>07.11.2024</b><br>
+			<li>Held zum Helden-Labor hinzugefügt.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_2" "<b>08.11.2024</b><br>
+			<li><i>Seidenfalle</i>: Fehler behoben, durch den der Fadeneffekt gelegentlich unsichtbar wurde.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_3" "<b>21.11.2024</b><br>
+			<li><i>Phantasmizidflakon</i>: Anfänglicher Radius von 5 m auf 3 m reduziert.</li>
+			<li><i>Phantasmizidflakon</i>: Dauer von 9 s auf 8 s reduziert.</li>
+			<li><i>Phantasmizidflakon</i>: Grundabklingzeit von 20 s auf 25 s erhöht.</li>
+			<li><i>Phantasmizidflakon</i>: Stufe-1-Aufwertung zu −20 % Magieschaden gegen Ziele in der Giftpfütze geändert.</li>
+			<li><i>Phantasmizidflakon</i>: Stufe-2-Aufwertung zu +4 s Dauer geändert.</li>
+			<li><i>Seidenfalle</i>: Kann jetzt neutrale Einheiten und Infanteristen anvisieren.</li>
+			<li><i>Seidenfalle</i>: Fehler behoben, durch den die Falle Schaden durch eine Wand zufügen konnte.</li>
+			<li><i>Seidenfalle</i>: Fehler behoben, durch den die Falle gelegentlich nicht beschworen wurde.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_4" "<b>24.11.2024</b><br>
+			<li><i>Phantasmizidflakon</i>: Berechnung für Größe der Giftpfütze zu einer fixen Radiuszunahme pro Sekunde geändert, die mit der Fähigkeitsreichweite skaliert.</li>
+			<li><i>Seidenfalle</i>: Visuelle Effekte der Vorschau verbessert.</li>
+			<li><i>Seidenfalle</i>: Fehler behoben, durch den die Falle gelegentlich nicht beschworen wurde.</li>
+			<li><i>Seidenfalle</i>: Hat jetzt eine benötigte min. Reichweite für die Falle.</li>
+			<li><i>Seidenfalle</i>: Stufe-3-Aufwertung lässt Gegner jetzt für 2,5 s verstummen, statt diese für 4 s zu entwaffnen.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_5" "<b>06.12.2024</b><br>
+			<li><i>Phantasmizidflakon</i>: Anfänglicher Radius von 3 m auf 4,5 m erhöht.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_6" "<b>20.02.2025</b><br>
+			<li><i>Phantasmizidflakon</i>: Anfänglicher Radius von 4,5 m auf 6 m erhöht.</li>
+			<li><i>Phantasmizidflakon</i>: Fügt keinen Schaden mehr zu. Verstummt jetzt alle Gegner im Wirkungsbereich.</li>
+			<li><i>Phantasmizidflakon</i>: Abklingzeit von 25 s auf 30 s erhöht.</li>
+			<li><i>Phantasmizidflakon</i>: Stufe-3-Aufwertung zu −25 % Magieresistenz für Gegner in der Giftpfütze geändert.</li>
+			<li><i>Phantasmizidflakon</i>: Skalierung durch Magiekraft aktualisiert, um die Verlangsamung zu erhöhen.</li>
+			<li><i>Seidenfalle</i>: Fügt jetzt kontinuierlich Schaden zu.</li>
+			<li><i>Seidenfalle</i>: Deckt jetzt Gegner auf, die mit der Falle in Kontakt kommen.</li>
+			<li><i>Seidenfalle</i>: Anfängliche Dauer von 60 s auf 120 s erhöht.</li>
+			<li><i>Seidenfalle</i>: Schwächungsdauer von 2 s auf 3 s erhöht.</li>
+			<li><i>Seidenfalle</i>: Stufe-3-Aufwertung erhöht jetzt auch die Schwächungsdauer um 2 s.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_slork
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_slork_1" "<b>24.10.2024</b><br>
+			<li>Held zum Helden-Labor hinzugefügt.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_slork_2" "<b>29.10.2024</b><br>
+			<li><i>Waffe</i>: Schaden pro Schrotkugel von 5 auf 4,5 reduziert.</li>
+			<li><i>Waffe</i>: Schrotkugelstreuung erhöht und Entfernung, ab der der Schaden abnimmt, von 20 m auf 18 m reduziert.</li>
+			<li><i>Verbrühung</i>: Partikeleffekt aktualisiert, damit dieser nicht Fathoms Sicht einschränkt, sowie Treffereffekt hinzugefügt.</li>
+			<li><i>Durchbruch</i>: Andere Fähigkeiten können jetzt während dem Sprung eingesetzt werden.</li>
+			<li><i>Durchbruch</i>: Partikeleffekte aktualisiert.</li>
+			<li><i>Korallenharpune</i>: Fathom kann jetzt jede beliebige Aktion durchführen, während er sich festgehakt hat, um die Fähigkeit abzubrechen und sich zu lösen.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_3" "<b>01.11.2024</b><br>
+			<li>Lebenspunkte pro Gabe von 41 auf 36 reduziert.</li>
+			<li><i>Waffe</i>: Schaden pro Schrotkugel von 4,5 auf 4 reduziert.</li>
+			<li><i>Waffe</i>: Entfernung, ab der der Schaden der Schrotflinte abnimmt, von 18 m auf 16 m reduziert.</li>
+			<li><i>Verbrühung</i>: Zuwachs des Waffenschadens pro Sekunde von 8 % auf 7 % reduziert.</li>
+			<li><i>Aderlass (Fathom)</i>: Fähigkeit aktualisiert, um den Werten der neuesten Version von Shivs Aderlass zu entsprechen.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_4" "<b>08.11.2024</b><br>
+			<li><b>Neue Fähigkeit</b>: <i>Lauernder Hinterhalt</i></li>
+			<li><i>Aderlass (Fathom)<i>: Durch <i>Korallenharpune</i> ersetzt.</li>
+			<li><i>Korallenharpune</i>: Erhält 2 Aufladung, sobald sich Fathom an einer Oberfläche festgehakt hat.</li>
+			<li><i>Korallenharpune</i>: Kann nicht mehr auf den Boden eingesetzt werden.</li>
+			<li><i>Korallenharpune</i>: Kann nicht mehr eingesetzt werden, wenn die anvisierte Oberfläche zu weit entfernt ist.</li>
+			<li><i>Korallenharpune</i>: Deckt beim Fähigkeitseinsatz die Unsichtbarkeit nicht mehr auf.</li>
+			<li><i>Korallenharpune</i>: Löst beim Fähigkeitseinsatz die Unsichtbarkeit von Lauernder Hinterhalt aus.</li>
+			<li><i>Korallenharpune</i>: Abklingzeit beginnt jetzt nach dem Ablösen von einer Oberfläche.</li>
+			<li><i>Korallenharpune</i>: Passive Regeneration entfernt.</li>
+			<li><i>Korallenharpune</i>: Passive Unsichtbarkeit entfernt.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_5" "<b>21.11.2024</b><br>
+			<li><i>Waffe</i>: Kugelschaden pro Gabe von 0,57 auf 0,35 reduziert.</li>
+			<li><i>Lauernder Hinterhalt</i>: Partikeleffekte aktualisiert.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_6" "<b>06.12.2024</b><br>
+			<li><i>Verbrühung</i>: Partikeleffekte aktualisiert.</li>
+			<li><i>Lauernder Hinterhalt</i>: Wassereffekt für das HUD von festgesetzten Gegner hinzugefügt.</li>
+			<li><i>Lauernder Hinterhalt</i>: Projektilradius der aktiven Komponente beträgt jetzt 2,5 m.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_7" "<b>17.12.2024</b><br>
+			<li>Standard-Build für Gegenstände hinzugefügt.</li>
+			<li>Spezialeffekte für alle Fähigkeiten aktualisiert und verbessert.</li>"
+
+
+		//-----------------------------------------------------------------------------
+		// hero_viper
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_viper_1" "<b>24.10.2024</b><br>
+			<li>Held zum Helden-Labor hinzugefügt.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_2" "<b>29.10.2024</b><br>
+			<li><i>Bumerangklinge</i> durch <i>Verlangsamungsdolch</i> ersetzt.</li>
+			<li><i>Tödliches Gift</i>: Kann jetzt nur noch gegnerische Helden anvisieren.</li>
+			<li><i>Tödliches Gift</i>: Visuelle Effekte verbessert.</li>
+			<li><i>Schlittern</i>: Wird jetzt bei Partiebeginn automatisch auf Stufe 1 aufgewertet.</li>
+			<li><i>Schlittern</i>: Stufe-1-Aufwertung zu +25 % Rutschdistanz, Stufe-2-Aufwertung zu +2 Ausdauer, und Stufe-3-Aufwertung zu +30 % Kugel-/Magieresistenz geändert.</li>
+			<li><i>Versteinerung</i>: Verzögerung bis zur Versteinerung von 0,6 s auf 1,0 s erhöht.</li>
+			<li><i>Versteinerung</i>: Visuelle bzw. Spezialeffekte sowie Kamerasteuerung während der Versteinerung verbessert.</li>
+			<li><i>Versteinerung</i>: Schadensblock skaliert jetzt mit Magiekraft.</li>
+			<li><i>Versteinerung</i>: Kann nicht mehr in der Luft eingesetzt werden.</li>
+			<li><i>Versteinerung</i>: Wird jetzt ordnungsgemäß durch den Gegenstand „Unaufhaltsam“ geblockt.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_3" "<b>21.11.2024</b><br>
+			<li><i>Versteinerung</i> durch <i>Versteinernde Bola</i> ersetzt.</li>
+			<li><i>Versteinernde Bola</i>: Visuelle Überarbeitung der Projektile vorgenommen.</li>
+			<li><i>Verlangsamungsdolch</i>: Unterbricht nicht mehr das Rutschen.</li>
+			<li><i>Verlangsamungsdolch</i>: Visuelle Überarbeitung des Aufpralls der Projektile vorgenommen, um die Sichtbarkeit zu verbessern.</li>
+			<li><i>Tödliches Gift</i>: Hat jetzt einen HUD-Effekt.</li>
+			<li><i>Waffe</i>: Schaden von 12 auf 11 reduziert.</li>
+			<li><i>Waffe</i>: Überarbeitung der Leuchtspuren vorgenommen, um die Sichtbarkeit bei hoher Feuerrate zu verbessern.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_4" "<b>26.11.2024</b><br>
+			<li><i>Waffe</i>: Schaden von 11 auf 9 reduziert.</li>
+			<li><i>Waffe</i>: Kugeltempo von 81 m/s auf 411 m/s erhöht.</li>
+			<li><i>Waffe</i>: Magazinkapazität von 18 auf 24 erhöht.</li>
+			<li><i>Versteinernde Bola</i>: Projektilradius von 30 auf 45 erhöht.</li>
+			<li>Bonuslebenspunkte pro Gabe von 35 auf 30 reduziert.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_5" "<b>06.12.2024</b><br>
+			<li>Modellgröße um 15 % erhöht.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_magician
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_magician_1" "<b>24.10.2024</b><br>
+			<li>Held zum Helden-Labor hinzugefügt.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_2" "<b>24.10.2024</b><br>
+			<li><i>Waffe:</i>Schaden nimmt mit zunehmender Entfernung ordnungsgemäß ab.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_3" "<b>07.11.2024</b><br>
+			<li>Hat jetzt eine ultimative Fähigkeit: <i>Großes Finale</i></li>
+			<li><i>Waffe</i>: Magazinkapazität von 20 auf 22 Kugeln erhöht.</li>
+			<li><i>Magischer Blitz</i>: Verlangsamt jetzt die Feuerrate (statt das Bewegungstempo) um 20 %.</li>
+			<li><i>Magischer Blitz</i>: Schaden von 100 auf 120 erhöht. Skalierung durch Magiekraft von 1,2 auf 1,4 erhöht.</li>
+			<li><i>Magischer Blitz</i>: Schwächungsdauer von 2 s auf 5 s erhöht.</li>
+			<li><i>Magischer Blitz</i>: Magieresistenzreduzierung der Stufe-2-Aufwertung von −15 % auf −20 % erhöht.</li>
+			<li><i>Magischer Blitz</i>: Stufe-3-Aufwertung gewährt jetzt erhöhtes Tempo.</li>
+			<li><i>Magischer Blitz</i>: Hinweis zur Benutzeroberfläche hinzugefügt, sobald das Umlenken verfügbar ist.</li>
+			<li><i>Spektrale Assistentin</i>: Kann jetzt in der Luft eingesetzt werden.</li>
+			<li><i>Hasenfluch</i>: Kann nicht mehr auf Verbündete eingesetzt werden.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_4" "<b>21.11.2024</b><br>
+			<li><i>Magischer Blitz</i>: Wird jetzt immer zusammen mit der Assistentin mit reduziertem Schaden eingesetzt.</li>
+			<li><i>Magischer Blitz</i>: Aufwertungen aktualisiert, um das neue Verhalten zu berücksichtigen.</li>
+			<li><i>Magischer Blitz</i>: Skalierung durch Magieschaden von 1,4 auf 1,2 reduziert.</li>
+			<li><i>Hasenfluch</i>: Magician kennt jetzt den Unterschied zwischen Hasen und Fröschen, und verwandelt Ziele jetzt in richtige Hasen.</li>
+			<li><i>Hasenfluch</i>: Kann nicht mehr auf sich selbst eingesetzt werden.</li>
+			<li><i>Hasenfluch</i>: Belegt Ziele jetzt mit einem max. Bewegungstempolimit, anstatt das Tempo zu erhöhen.</li>
+			<li><i>Hasenfluch</i>: Stufe-3-Aufwertung wirkt jetzt eine Verzauberung mit voller Dauer auf alle Ziele im Wirkungsbereich.</li>
+			<li><i>Spektrale Assistentin</i>: Lädt jetzt die Waffe beim Fähigkeitseinsatz nach.</li>
+			<li><i>Spektrale Assistentin</i>: Gibt jetzt einen Feuerstoß mit zwei Kugeln ab.</li>
+			<li><i>Spektrale Assistentin</i>: Magieschaden von 1 × 60 mit einer Skalierung von 0,5 auf 2 × 30 mit einer Skalierung von 0,3 reduziert.</li>
+			<li><i>Spektrale Assistentin</i>: Leuchtspur entspricht jetzt der Leuchtspur der Waffe.</li>
+			<li><i>Spektrale Assistentin</i>: Zielsuche verbessert.</li>
+			<li><i>Spektrale Assistentin</i>: Fehler behoben, durch den ein Umlenken der Blitze gelegentlich nicht möglich war, nachdem die Assistenten Blitze beschworen hat.</li>
+			<li><i>Spektrale Assistentin</i>: Weicherer Kameraübergang beim Teleportieren hinzugefügt.</li>
+			<li><i>Spektrale Assistentin</i>: Einsatzreichweite von 20 m auf 15 m reduziert.</li>
+			<li><i>Spektrale Assistentin</i>: Aufwertungen aktualisiert, um das neue Verhalten zu berücksichtigen.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_operative
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_operative_1" "<b>06.12.2024</b><br>
+			<li>Held zum Helden-Labor hinzugefügt.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_operative_2" "<b>17.12.2024</b><br>
+			<li>Standard-Build für Gegenstände hinzugefügt.</li>"
+
+		}
+}

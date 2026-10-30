@@ -1,0 +1,1022 @@
+﻿"lang"
+{
+	"Language"		"indonesian"
+	"Tokens"
+	{
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Weapon
+		//-----------------------------------------------------------------------------
+
+		//Ammo Scavenger
+		"upgrade_ammo_scavenger_desc"		"Setiap kali kamu mendapatkan atau mencuri Jiwa dari unit yang terbunuh, kamu akan <span class=\"highlight\">memulihkan amunisi</span> dan mendapatkan <span class=\"highlight\">Kekuatan Spirit</span> yang berakumulasi.<br>Pada Akumulasi Maks, dapatkan bonus kecepatan Spirit."
+		"AmmoPerSoul_prefix"				"+"
+		"AmmoPerSoul_label"					"Amunisi per Jiwa"
+		"AmmoPerSoul_postvalue_label"					"Amunisi per Jiwa"
+		"SpiritPowerPerSoul_prefix"			"+"
+		"SpiritPowerPerSoul_label"			"Kekuatan Spirit per Jiwa"
+		"SpiritPowerPerSoul_postvalue_label"			"Kekuatan Spirit per Jiwa"
+		"AmmoScavengerDuration_label"		"Durasi"
+		"AmmoScavengerDuration_postvalue_label"		"Durasi"
+		"AmmoScavengerDuration_postfix"		" dtk."
+
+		//Melee Lifesteal
+		"upgrade_lifestrike_gauntlets_desc"	"Serangan <span class=\"highlight\">Jarak Dekat</span> selanjutnya akan <span class=\"highlight\">menyembuhkanmu</span>. <span class=\"diminish\"><br><br>Penyembuhan ini sebesar {s:NonHeroHealPct}% efektif terhadap non-hero. <br>Cooldown akan menjadi {s:LightMeleeCooldownMult} kali lebih lama untuk hit Jarak Dekat Ringan.</span>"
+		"LifestrikeHeal_label"				"Penyembuhan dari Serangan Jarak Dekat"
+		"LifestrikeHeal_postvalue_label"				"Penyembuhan dari Serangan Jarak Dekat"
+
+		//Tesla Bullets
+		"upgrade_chain_lightning_desc"	"Pelurumu memiliki peluang untuk memberikan efek <span class=\"highlight\">kejut</span> pada target. Efek <span class=\"highlight\">kejut</span> akan memantul ke musuh terdekat."
+
+		//Galvanic Storm
+		"GalvanicBuffDuration_label"						"Durasi"
+		"GalvanicBuffDuration_postvalue_label"						"Durasi"
+		"GalvanicBuffDuration_postfix"					" dtk."
+
+		//Silence Glyph
+		"upgrade_targeted_silence_desc"	"Meluncurkan proyektil yang membesar yang memberikan efek <span class=\"highlight\">Bungkam</span> terhadap musuh untuk durasi singkat dan memberikan damage benturan. <br><br><span class=\"diminish\">Efek Bungkam tidak mengganggu skill yang sedang dilakukan.</span>"
+		"ResistReductionDuration_label"	"Durasi Pengurangan Pertahanan"
+		"ResistReductionDuration_postvalue_label"	"Durasi Pengurangan Pertahanan"
+		"ResistReductionDuration_postfix"	" dtk."
+
+		//EMP Bullets
+		"upgrade_proc_silence_desc"		"Pelurumu akan memberikan efek <span class=\"highlight\">Bungkam</span>. Korban kebal dari efek tersebut selama <span class=\"highlight\">{s:ImmunityDuration} dtk.</span> setelah efek bungkam berakhir."
+		"upgrade_proc_silence_debuff_desc"		"Pelurumu mengurangi <span class=\"highlight\">kekuatan damage spirit</span> target."
+		"proc_silence_buildup"			"Bangunan Hening..."
+		"modifier_citadel_silence_proc_tech_damage_reduction"	"-Damage Spirit"
+
+		//Silencer
+		"upgrade_silencer_active"		"Untuk {s:AbilityDuration} dtk. berikutnya, <span class=\"highlight\">semua peluru akan secara langsung memberikan efek Bungkam</span>. Efek Bungkam mencegah target menggunakan skill."
+
+		//Slowing Bullets
+		"upgrade_slowing_bullets_desc"	"Pelurumu membangun <span class=\"highlight\">Perlambatan Gerakan</span> pada musuh."
+		"upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base"					"Diperlambat"
+
+		//Inhibitor
+		"upgrade_inhibitor_desc"	"Peningkatan pelurumu akan mengurangi <span class=\"highlight\">kekuatan damage</span> target dan menerapkan <span class=\"highlight\">pengurangan penyembuhan</span>."
+		"OutgoingDamagePenaltyPercent_label"	"Penalti Damage"
+		"OutgoingDamagePenaltyPercent_postvalue_label"	"Penalti Damage"
+		"OutgoingDamagePenaltyPercent_postfix"	"%"
+
+		//Hunter's Aura
+		"upgrade_bullet_armor_reduction_aura_desc"		"Mengurangi <span class=\"highlight\">Pertahanan Peluru dan Tingkat Tembakan</span> musuh terdekat. Jika hanya ada satu hero musuh terdekat, <span class=\"highlight\">efek diperbesar dua kali lipat</span>."
+
+		//Heroic Aura
+		"upgrade_dps_aura_active_desc"	"Menyediakan <span class=\"highlight\">{g:citadel_inline_attribute:'MoveSpeed'}</span> dan <span class=\"highlight\">{g:citadel_inline_attribute:'FireRate'}</span> untukmu dan rekan tim terdekat. <span class=\"highlight\">Minion</span> mendapatkan nilai ganda."
+		"upgrade_dps_aura_desc"			"Memberikan <span class=\"highlight\">Pertahanan Peluru</span> ke unit rekan tim terdekat."		
+		"modifier_dps_aura_active"		"Heroik Aktif"
+		"modifier_dps_aura_player"		"Tingkat Tembakan Heroik"
+
+		//"BonusBaseDamage_label"			"Base Bullet and Melee Damage"
+		"BonusBaseDamage_postfix"		"%"
+
+		//Warp Stone
+		"upgrade_warp_stone_desc"	"<span class=\"highlight\">Berteleportasi</span> ke depan dan mendapatkan <span class=\"highlight\">Pertahanan Peluru</span>."
+		"WarpStoneRange_label"		"Jarak Teleportasi"
+		"WarpStoneRange_postvalue_label"		"Jarak Teleportasi"
+		"WarpStoneRange_postfix"		" m"
+		"CasterBuffDuration_label"	"Durasi Buff"
+		"CasterBuffDuration_postvalue_label"	"Durasi Buff"
+		"CasterBuffDuration_postfix"	" dtk."
+		"CasterSlowPercent_postfix"	"%"
+
+		//Torment Pulse
+		"upgrade_tech_damage_pulse_desc"	"Secara berkala memberikan {g:citadel_inline_attribute:'SpiritDamage'} kepada dua musuh terdekat."
+
+		//Mystic Burst
+		"upgrade_magic_burst_desc"	"Mengisi daya {g:citadel_inline_attribute:'BonusSpiritDamage'} seiring waktu yang menyebabkan skill memberikan damage lebih dari <span class=\"highlight\">{s:MinimumDamage}</span> untuk memberikan damage tambahan."
+		"MagicBurstDamage_label"		"Bonus Damage"
+
+		"MagicBurstDamage_postvalue_label"		"Bonus Damage"
+
+		//Improved Burst Tankbuster
+		"upgrade_magic_shock_desc"	"Mengisi daya seiring waktu dengan {g:citadel_inline_attribute:'BonusSpiritDamage'}, menyebabkan skill memberikan damage lebih dari <span class=\"highlight\">{s:MinimumDamage}</span> untuk memberikan damage tambahan. <span class=\"highlight\">Mengabaikan Pertahanan Spirit.</span>"
+		"MagicShockDamage_label"		"Bonus Damage Health Saat Ini"
+		"MagicShockDamage_postvalue_label"		"Bonus Damage Health Saat Ini"
+		"MagicShockDamage_postfix"	"%"
+
+		//Mystic Reverb
+		"upgrade_tech_bleed_desc" "Mengisi skill dengan <span class=\"highlight\">Curi HP</span> dan menerapkan <span class=\"highlight\">perlambatan</span> pada target yang terkena dan memberikan <span class=\"highlight\">sebagian % damage</span> kepada musuh di sekitar target setelah penundaan singkat."
+	
+		//Toxic Bullets
+		"upgrade_toxic_bullets_desc"	"Pelurumu meningkatkan <span class=\"highlight\">Pendarahan</span> pada musuh yang menyebabkan mereka kehilangan <span class=\"highlight\">sebagian %</span> <span class=\"highlight\">Health Maks.</span> mereka dari waktu ke waktu. Juga mengurangi <span class=\"highlight\">Penyembuhan Diterima</span> pada target yang terkena pendarahan."
+		"upgrade_toxic_bullets_buildup"					"Meningkatkan racun..."
+		"upgrade_bleeding_bullets_buildup"				"Meningkatkan pisau gerigi..."
+		"modifier_item_burning_bullets_damageovertime" 	"Pendarahan"
+		"upgrade_hemorrhage/modifier_item_hemorrhage/modifier_hemorrhage" "Pendarahan"
+
+		// Weighted Shots
+		"upgrade_weighted_shots_desc"	"Pelurumu membangun <span class=\"highlight\">Perlambatan Gerakan</span> pada musuh."
+		//"upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base"					"Slowed"
+
+		//Spiritual Overflow
+		"upgrade_tech_overflow_desc"	"Mendapatkan bonus <span class=\"highlight\">Tingkat Tembakan</span>, <span class=\"highlight\">Kekuatan Spirit</span>, dan <span class=\"highlight\">Curi HP Spirit</span> dengan <span class=\"highlight\">mengisi daya</span> saat menembak hero musuh."
+		"modifier_tech_overflow_building" "Meningkatkan Luapan Spirit..."
+
+		"OverflowTechPower_label"		"Kekuatan Spirit"
+
+		"OverflowTechPower_postvalue_label"		"Kekuatan Spirit"
+		"OverflowBonusDamage_postfix"	"%"
+
+		//Ricochet
+		"upgrade_ricochet_desc"		"Pelurumu akan <span class=\"highlight\">memantul</span> ke musuh di dekat targetmu, menerapkan <span class=\"highlight\">aktivasi peluru apa pun</span> dan <span class=\"highlight\">memberikan sebagian % dari damage asli.</span>"
+		"RicochetTargetsTooltipOnly_label"			"Target Pantulan"
+		"RicochetTargetsTooltipOnly_postvalue_label"			"Target Pantulan"
+		"RicochetDamagePercent_label"					"Damage Pantulan"
+		"RicochetDamagePercent_postvalue_label"					"Damage Pantulan"
+		"RicochetDamagePercent_postfix"					"%"
+		"RicochetRadius_label"							"Jangkauan Pantulan"
+		"RicochetRadius_postvalue_label"							"Jangkauan Pantulan"
+		"RicochetRadius_postfix"							" m"
+
+		"ModelScaleGrowthTooltip_label"					"Skala Model"
+		"ModelScaleGrowthTooltip_postvalue_label"					"Skala Model"
+		"ModelScaleGrowthTooltip_postfix"					"%"
+
+		"ShrinkDuration_label"					"Durasi Pengecilan"
+		"ShrinkDuration_postvalue_label"					"Durasi Pengecilan"
+		"ShrinkDuration_postfix"					" dtk."
+		
+		"BonusBaseHealth_prefix"					"+"
+		"BonusBaseHealth_label"					"Health Dasar"
+		"BonusBaseHealth_postvalue_label"					"Health Dasar"
+		"BonusBaseHealth_postfix"					"%"
+
+		//Close Quarters
+		"upgrade_close_range_desc"	"Memberikan <span class=\"highlight\">Damage Senjata</span> tambahan saat berada <span class=\"highlight\">dalam jarak dekat</span> dengan target."
+		"upgrade_close_quarter_combat/modifier_cqc_proc/modifier_slow_base"			"Diperlambat"
+
+		//Long Range
+		"upgrade_long_range_desc"	"Memberikan <span class=\"highlight\">Damage Senjata</span> tambahan saat berada <span class=\"highlight\">di luar jarak minimum</span> dari target."
+
+		//Mystic Shot
+		"upgrade_crackshot_desc"	"Peluru berikutnya memberikan bonus {g:citadel_inline_attribute:'SpiritDamage'}."
+		"ProcBonusMagicDamage_prefix"	"{s:sign}"
+		"ProcBonusMagicDamage_label"	"Damage Spirit"
+
+		"ProcBonusMagicDamage_postvalue_label"	"Damage Spirit"
+
+		//Ethereal Bullets
+		"upgrade_ethereal_bullets_desc"	"Skill terisimu akan terisi dayanya dari waktu ke waktu dengan {g:citadel_inline_attribute:'BonusSpiritDamage'}, {g:citadel_inline_attribute:'BonusFireRate'}, dan <span class=\"highlight\">mengisi ulang peluru</span> saat digunakan. Sampai isi ulang berikutnya, <span class=\"highlight\">pelurumu akan memberikan {g:citadel_inline_attribute:'BonusSpiritDamage'}</span> berdasarkan Kekuatan Spiritmu."
+		"BulletsBonusMagicDamage_label"	"Damage Peluru Dasar"
+		"BulletsBonusMagicDamage_postvalue_label"	"Damage Peluru Dasar"
+		"BulletsBonusMagicDamage_prefix"	"+"
+		"BulletsBonusMagicDamage_postfix"	"%"
+
+		//Restorative Shot
+		"upgrade_medic_bullets_desc"	"Peluru berikutnya akan <span class=\"highlight\">menyembuhkanmu</span> berdasarkan jenis target yang terkena."
+		"HealFromHero_label"	"Penyembuhan dari Hero"
+		"HealFromHero_postvalue_label"	"Penyembuhan dari Hero"
+		"HealFromNPC_label"	 "Penyembuhan dari NPC/Bola"
+
+		"HealFromNPC_postvalue_label"	 "Penyembuhan dari NPC/Bola"
+
+		//Point Blank
+		"upgrade_close_quarter_combat_desc"	"Saat berada <span class=\"highlight\">dalam jarak dekat</span> dengan targetmu, mendapatkan <span class=\"highlight\">Damage Senjata</span> dan pelurumu memberikan <span class=\"highlight\">Perlambatan Gerakan</span>."
+
+		//Headshot Booster
+		"upgrade_headshot_booster_desc"		"Headshot-mu <span class=\"highlight\">selanjutnya</span> ke Hero musuh memberikan {g:citadel_inline_attribute:'BonusWeaponDamage'}."
+
+		//Weakening Headshot
+		"upgrade_headshot_booster2_desc"		"Menembakkan <span class=\"highlight\">Headshot</span> mengurangi <span class=\"highlight\">Pertahanan Peluru</span> mereka."
+
+		//Sharpshooter
+		"upgrade_sharpshooter_desc"				"Memberikan <span class=\"highlight\">Damage Senjata</span> tambahan saat berada <span class=\"highlight\">di luar jarak minimum</span> dari target."
+
+		//Headhunter
+		"upgrade_headhunter_desc"	"Headshot-mu <span class=\"highlight\">selanjutnya</span> ke Hero musuh memberikan {g:citadel_inline_attribute:'BonusWeaponDamage'}, {g:citadel_inline_attribute:'Heal'}, dan memberikan {g:citadel_inline_attribute:'BonusMoveSpeed'} untuk sementara waktu."
+		"HealPercentPerHeadshot_label"		"Penyembuhan per Headshot"
+		"HealPercentPerHeadshot_postvalue_label"		"Penyembuhan per Headshot"
+		"HealPercentPerHeadshot_postfix"	"%"
+		"BaseHealOnHeadshot_label"			"Penyembuhan per Headshot"
+		"BaseHealOnHeadshot_postvalue_label"			"Penyembuhan per Headshot"
+
+		//Spellslinger Headshots
+		"upgrade_spellslinger_headshots_part1_desc"	"Pelurumu memberikan debuff yang mengurangi <span class=\"highlight\">Pertahanan Spirit</span> target dan memberimu serta rekan timmu <span class=\"highlight\">Curi HP Spirit</span>."
+		"upgrade_spellslinger_headshots_part2_desc"	"<span class=\"highlight\">Headshot</span> terhadap target akan semakin mengurangi <span class=\"highlight\">Pertahanan Spirit</span> mereka."
+		"SpiritPowerGainPct_label"				"Kekuatan Spirit"
+		"SpiritPowerGainPct_postvalue_label"				"Kekuatan Spirit"
+		"SpiritPowerGainPct_postfix"			"%"
+		"SpellSlingerHeadshots_SpiritShredPerStack_label"		"Pertahanan Spirit pada Headshot"
+		"SpellSlingerHeadshots_SpiritShredPerStack_postvalue_label"		"Pertahanan Spirit terhadap Headshot"
+		"SpellSlingerHeadshots_SpiritShredPerStack_postfix"	"%"
+
+		//Crippling Headshot
+		"upgrade_banshee_slugs_headshots_desc"	"Menembakkan <span class=\"highlight\">Headshot</span> akan mengurangi <span class=\"highlight\">Pertahanan Peluru, Pertahanan Spirit, dan Penyembuhan Diterima</span>."
+
+		//Berserker
+		"upgrade_berserker_desc"		"<span class=\"highlight\">Damage Senjata</span> meningkat saat menerima damage berkelanjutan."
+
+		//Frenzy
+		"upgrade_fervor_passive"	"Saat <span class=\"highlight\">health di bawah {s:LowHealthThreshold}%</span>, kamu akan mendapatkan bonus stat selama beberapa waktu dan debuff saat ini akan dikurangi."
+		"FervorTechResist_postfix"  "%"
+		"modifier_fervor_aura_active"		"Gila"
+		"FervorBulletResist_label"		"Pertahanan Peluru"
+		"FervorBulletResist_postvalue_label"		"Pertahanan Peluru"
+		"FervorBulletResist_prefix"		"+"
+		"FervorBulletResist_postfix"	"%"
+
+		//Soul Shredder Bullets
+		"upgrade_tech_defense_shredders_desc"	"Pelurumu memberikan debuff yang mengurangi <span class=\"highlight\">Pertahanan Spirit</span> target dan memberimu serta rekan timmu <span class=\"highlight\">Curi HP Spirit</span>."
+		"ShreddersTechAmp_label"				"Pembesaran Spirit"
+		"ShreddersTechAmp_postvalue_label"				"Pembesaran Spirit"
+		"ShreddersTechAmp_postfix"			"%"
+
+		//Hollow Point Ward
+		"upgrade_hollow_point_rounds_desc"				"Saat memiliki <span class=\"highlight\">health di atas {s:LifeThreshold}%</span>, akan memberikan <span class=\"highlight\">Damage Senjata</span> tambahan dan pelurumu akan mengurangi <span class=\"highlight\">Pertahanan Peluru</span> musuh."
+
+		// Pristine Emblem
+		"upgrade_pristine_emblem_desc"	"Seranganmu memberikan <span class=\"highlight\">Damage Senjata</span> tambahan pada musuh dengan <span class=\"highlight\">health di atas {s:EnemyLifeThreshold}%</span>."
+		"BaseAttackDamagePercentBonus_label"	"Damage Senjata"
+		"BaseAttackDamagePercentBonus_postvalue_label"	"Damage Senjata"
+		"BaseAttackDamagePercentBonus_prefix"	"+"
+		"BaseAttackDamagePercentBonus_postfix"	"%"
+
+		//Disarming Bullets
+
+		//Glass Cannon
+		"upgrade_glass_cannon_desc"		"Setiap melakukan kill pada hero, akan memberikan akumulasi <span class=\"highlight\">Tingkat Tembakan permanen</span> (maks. hingga {s:MaxStacks} kali). Death akan mengakibatkan hilangnya 1 akumulasi."
+		"GlassCannon_SlowPercent_label"		"Aktivasi Perlambatan Peluru"
+		"GlassCannon_SlowPercent_postvalue_label"		"Aktivasi Perlambatan Peluru"
+		"GlassCannon_SlowPercent_postfix"	"%"
+		"GlassCannon_SlowPercent_prefix"	"+"
+		"upgrade_glass_cannon_plus1"		"Meriam Kaca +1"
+
+		//Fury Trance
+		"upgrade_fury_trance_active"	"Memberikan <span class=\"highlight\">Tingkat Tembakan</span>, <span class=\"highlight\">Pertahanan Spirit</span> dan <span class=\"highlight\">Kecepatan Gerakan</span>, dan menghapus penalti <span class=\"highlight\">Kecepatan Gerakan</span> saat menembak, tapi menerapkan <span class=\"highlight\">Bungkam</span> untukmu dan <span class=\"highlight\">menonaktifkan penggunaan stamina dan pemulihan</span>."
+
+		//Vampiric Burst
+		"upgrade_surging_power_active"	"Memberikan <span class=\"highlight\">Curi HP</span>, <span class=\"highlight\">Tingkat Tembakan</span>, dan <span class=\"highlight\">Amunisi</span>. Amunisi tambahan ini tidak dibatasi oleh ukuran maksimum magasin."
+		"ActiveBonusLifesteal_label"		"Curi HP Peluru"
+		"ActiveBonusLifesteal_postvalue_label"		"Curi HP Peluru"
+		"ActiveBonusLifesteal_postfix"	"%"
+
+		//Siphon Bullets
+		"upgrade_siphon_bullets_desc_passive2"	"Peluru <span class=\"highlight\">mencuri Maks. HP</span> dari musuh untuk sementara. Musuh mendapatkan kembali health mereka yang dicuri saat debuff berakhir."
+		"HealthSteal_label"						"Pencurian HP Maks. per Perluru"
+		"HealthSteal_postvalue_label"			"Pencurian HP Maks. per Perluru"
+		"SiphonBullets_HealthStealPctHero_label"			"Curi Maks. HP"
+		"SiphonBullets_HealthStealPctHero_postvalue_label"	"Curi Maks. HP"
+		"SiphonBullets_HealthStealPctHero_postfix"			"%"
+
+		//Overdrive Clip
+		"BonusReloadSpeed_label"						"Durasi Isi Ulang"
+		"BonusReloadSpeed_postvalue_label"						"Durasi Isi Ulang"
+		"BonusReloadSpeed_Postfix"						"%"
+		"OverdriveClipDuration_Postfix"					" dtk."
+
+		//Burst Fire Actuator
+		"BurstFireShotsFromClipPercent_Postfix"			"%"
+		"BonusHeadshotDamage_label"						"Bonus Damage Headshot"
+		"BonusHeadshotDamage_postvalue_label"						"Bonus Damage Headshot"
+		"BonusHeadshotDamage_postfix"					"%"
+		"BaseBonusWeaponPower_prefix"					"+"
+
+		//Lifestrike
+		"upgrade_boxing_glove_desc"						"Serangan <span class=\"highlight\">Jarak Dekatmu</span> akan menerapkan <span class=\"highlight\">Perlambatan Gerakan</span> dan <span class=\"highlight\">menyembuhkanmu</span> sebesar persentase dari <span class=\"highlight\">Damage Jarak Dekat</span> yang diberikan dan jumlah tetap penyembuhan. <span class=\"diminish\"><br><br>Penyembuhan ini sebesar {s:NonHeroHealPct}% efektif terhadap non-hero. <br>Cooldown akan menjadi {s:LightMeleeCooldownMult} kali lebih lama untuk hit Jarak Dekat Ringan.</span>"
+		"BonusMeleeSpeed_prefix"						"+"
+		"BonusMeleeSpeed_postfix"						"%"
+		"DisarmDuration_label"							"Durasi Pelucutan Senjata"
+		"DisarmDuration_postvalue_label"							"Durasi Pelucutan Senjata"
+		"DisarmDuration_postfix"						" dtk."
+		"LifestealHeal_label"				"Penyembuhan dari Serangan Jarak Dekat"
+		"LifestealHeal_postvalue_label"				"Penyembuhan dari Serangan Jarak Dekat"
+		"LifestealHealPercent_label"				"Penyembuhan Serangan Jarak Dekat"
+		"LifestealHealPercent_postvalue_label"				"Penyembuhan Serangan Jarak Dekat"
+		"LifestealHealPercent_postfix"				"%"
+
+		"MeleeLifesteal_label"				"Curi HP Jarak Dekat"
+		"MeleeLifesteal_postvalue_label"				"Curi HP Jarak Dekat"
+		"MeleeLifesteal_postfix"				"%"
+
+
+
+		//Belt-Fed Magazine
+		"SpinUpTime_postfix"							" dtk."
+		"InitialFireRateDecrease_prefix"				"-"
+		"InitialFireRateDecrease_postfix"				"%"
+		"MaxFireRateIncrease_prefix"					"+"
+		"MaxFireRateIncrease_postfix"							"%"
+		"BonusReloadTime_postfix"						" dtk."
+
+		//Stabilizing Tripod
+		"StationaryRecoilReduction_postfix"					"%"
+		"StationaryWeaponPower_prefix"						"+"
+		"CasterHealthPercent_postfix"					"%"
+
+		//Burst Fire
+		"upgrade_burst_fire_desc"						"Mendapatkan peningkatan <span class=\"highlight\">Tingkat Tembakan</span> dan <span class=\"highlight\">Kecepatan Gerakan</span> untuk sementara saat salah satu pelurumu mengenai hero."
+
+		//Intensifying Magazine
+		"upgrade_intensifying_clip_desc"				"Meningkatkan <span class=\"highlight\">Damage Senjata</span> saat menembakkan senjata secara terus-menerus."
+		"BaseAttackDamagePercentAtMaxDuration_label"	"Damage Senjata Maks."
+		"BaseAttackDamagePercentAtMaxDuration_postvalue_label"	"Damage Senjata Maks."
+		"BaseAttackDamagePercentAtMaxDuration_postfix"		"%"
+		"ShootDurationForMax_label"						"Durasi Damage Maks."
+		"ShootDurationForMax_postvalue_label"						"Durasi Damage Maks."
+		"ShootDurationForMax_postfix"							" dtk."
+		
+		//Escalating Resilience
+		"upgrade_reinforcing_casings_desc"    "Memberikan <span class=\"highlight\">Pertahanan Peluru</span> saat pelurumu mengenai hero musuh. <span class=\"highlight\">Setiap tembakan hanya memberikan satu akumulasi.</span>"
+		"MaxArmorStacks_label"				"Pertahanan Peluru Maks."
+		"MaxArmorStacks_postvalue_label"				"Pertahanan Peluru Maks."
+		"MaxArmorStacks_postfix"				"%"
+		"BulletResistPerStack_label"				"Pertahanan Peluru per Akumulasi"
+		"BulletResistPerStack_postvalue_label"				"Pertahanan Peluru per Akumulasi"
+		"BulletResistPerStack_postfix"			"%"
+		"BulletResistDuration_label"				"Durasi Akumulasi"
+		"BulletResistDuration_postvalue_label"				"Durasi Akumulasi"
+		"BulletResistDuration_postfix"			" dtk."
+
+		//Lucky Shot
+		"upgrade_critshot_desc"				"Pelurumu memiliki peluang untuk diperkuat, memberikan <span class=\"highlight\">bonus damage senjata</span> saat mengenai musuh.<br><span class=\"diminish\">bonus damage tidak dapat memberikan status Kritis.</span>"
+		"CritDamagePercent_prefix"			"+"
+		"CritDamagePercent_label"			"Bonus Damage Senjata"
+		"CritDamagePercent_postvalue_label"			"Bonus Damage Senjata"
+		"CritDamagePercent_postfix"			"%"
+
+		//Veil Walker
+		"upgrade_veil_walker_desc"			"Berjalan melewati <span class=\"highlight\">Tabir Kosmik</span> akan memberimu efek <span class=\"highlight\">Sembunyi</span>, <span class=\"highlight\">Penyembuhan</span>, dan peningkatan <span class=\"highlight\">Kecepatan Gerakan</span>."
+		"VeilWalker_MoveSpeed_label"			"Kecepatan Gerakan saat Tak Terlihat"
+		"VeilWalker_MoveSpeed_postvalue_label"			"Kecepatan Gerakan saat Tak Terlihat"
+		"VeilWalker_MoveSpeed_postfix"		" m/dtk."
+		"VeilWalker_Heal_label"			"Penyembuhan"
+		"VeilWalker_Heal_postvalue_label"			"Penyembuhan"
+		//Glass Cannon2
+		"upgrade_glass_cannon2_desc"		"Setiap melakukan kill pada hero, akan memberikan akumulasi <span class=\"highlight\">Damage Senjata permanen</span> (maks. hingga {s:MaxStacks} kali). Death akan mengakibatkan hilangnya 1 akumulasi."
+
+		//"upgrade_split_shot"					"Split Shot"
+		"upgrade_split_shot_desc"			"Menjadikan senjatamu melakukan <span class=\"highlight\">multitembakan</span>. <br><br>Mengenai lebih dari satu Hero per tembakan akan memberimu <span class=\"highlight\">akumulasi bonus damage senjata</span>.<br><br><span class=\"diminish\">Target hanya dapat dikenai sekali per multitembakan.</span>"
+		"upgrade_split_shot_desc_02"		"Bonus Multitembakan Tembakan Terpecah"
+		"SpecialShotsBonusFireRate_label"	"Tingkat Tembakan selama Multitembakan"
+		"SpecialShotsBonusFireRate_postvalue_label"	"Tingkat Tembakan selama Multitembakan"
+		"SpecialShotsBonusFireRate_postfix"	"%"
+		"SpecialShotsBonusFireRate_prefix"	"+"
+		"SplitShotWeaponDuration_label"		"Durasi Akumulasi"
+		"SplitShotWeaponDuration_postvalue_label"		"Durasi Akumulasi"
+		"SplitShotWeaponDuration_postfix"		" dtk."
+		
+		// upgrade_blood_tribute			// Blood Tribute
+		"upgrade_blood_tribute_desc"		"Alihkan: Menggunakan Health secara terus menerus untuk meningkatkan {g:citadel_inline_attribute:'FireRate'}, <span class=\"highlight\">Pertahanan Debuff</span> dan <span class=\"highlight\">Kecepatan Gerakan</span>. "
+
+		//"upgrade_non_player_bonus_sacrifice"	"Cultlist Sacrifice"
+		"upgrade_non_player_bonus_sacrifice_desc"	"Menargetkan NPC musuh dan menggunakan target untuk mendapatkan <span class=\"highlight\">{s:BonusSoulsPct}% Bonus Jiwa</span> dan buff yang kuat dan tahan lama."
+
+		//"upgrade_capacitor"						"Capacitor"
+		"upgrade_capacitor_desc"					"Meluncurkan proyektil yang memberikan <span class=\"highlight\">{g:citadel_inline_attribute:'SpiritIcon'}damage</span>, menerapkan perlambatan besar yang akan pulih seiring waktu, <span class=\"highlight\">mencegah penggunaan Stamina</span> dan memberikan efek <span class=\"highlight\">Bungkam</span> terhadap <span class=\"highlight\">item dan skill berbasis gerakan</span>."
+		
+		//"upgrade_enchanted_holsters"			"Enchanted Holsters"
+		"upgrade_enchanted_holsters_desc"		"Saat dalam pertarungan, setiap kali kamu menggunakan skill atau item, mendapatkan akumulasi buff yang meningkatkan tingkat tembakan dan kecepatan pengisian ulang amunisi. <br><span class=\"diminish\">Setiap akumulasi me-refresh durasi kecepatan.</span>"
+		
+		// "upgrade_weapon_backstabber"			"Stalker"
+		"upgrade_weapon_backstabber_desc"		"Memberikan {g:citadel_inline_attribute:'WeaponDamage'} pada jarak dekat akan memberikan efek luka dan memberikanmu {g:citadel_inline_attribute:'BonusMoveSpeed'}. <br><br>Musuh yang menerima efek luka, menerima {g:citadel_inline_attribute:'SpiritDPS'}, {g:citadel_inline_attribute:'BulletResist'} dikurangi, dan ditampilkan <span class=\"highlight\">melalui dinding</span>."
+		"BackstabberRadius_label"		"Bonus Radius"
+		"BackstabberRadius_postvalue_label"		"Bonus Radius"
+		"BackstabberRadius_postfix"		" m"
+		"ProcRadius_label"				"Jarak Dekat"
+		"ProcRadius_postvalue_label"	"Jarak Dekat"
+		"ProcRadius_postfix"			" m"
+		
+
+		//"upgrade_express_shot"				"Express Shot"
+		"upgrade_express_shot_desc"				"Seranganmu berikutnya akan menjadi <span class=\"highlight\">serangan ganda</span> berturut-turut dengan <span class=\"highlight\">damage dan kecepatan yang ditingkatkan</span>. Serangan ini menggunakan ekstra amunisi."
+		"ProcAmmoConsumed_label"				"Amunisi Ekstra yang Digunakan"
+		"ProcAmmoConsumed_postvalue_label"				"Amunisi Ekstra yang Digunakan"
+		//Melee Charge
+		"upgrade_melee_charge_desc"				"Serangan <span class=\"highlight\">Jarak Dekat Beratmu</span> selanjutnya terhadap musuh <span class=\"highlight\">memberikan damage yang ditingkatkan</span>."
+		"MeleeDistanceScale_label"				"Jarak Serangan Jarak Dekat Berat"
+		"MeleeDistanceScale_postvalue_label"				"Jarak Serangan Jarak Dekat Berat"
+		"MeleeDistanceScale_prefix"				"+"
+		"MeleeDistanceScale_postfix"			"%"
+		"BonusHeavyMeleeDamage_prefix"			"+"
+		"BonusHeavyMeleeDamage_label"			"Bonus Damage Berat"
+		"BonusHeavyMeleeDamage_postvalue_label"			"Bonus Damage Berat"
+		"BonusHeavyMeleeDamage_postfix"			" %"
+
+		// "upgrade_crushing_fists"				"Crushing Fists"
+		"upgrade_crushing_fists_desc"			"<span class=\"highlight\">{g:citadel_inline_attribute:'MeleeDamage'}</span> milikmu akan <span class=\"highlight\">memulihkan amunisi</span> dan menerapkan <span class=\"highlight\">akumulasi debuff pertahanan peluru</span> pada musuh. Serangan jarak dekat berat memberikan akumulasi ganda.<br><br>Jika target mencapai akumulasi maksimum, mereka akan terkena <span class=\"highlight\">stun</span>."
+		"notification_crushing_fists_stun"		"Pukulan Penghancur - Stun!"
+
+		//"upgrade_stackingdamageproc"		"Hungering Blade"
+		"upgrade_stackingdamageproc_desc"	"Memberikan damage kepada hero dengan <span class=\"highlight\">health rendah</span>, akan memberikan {g:citadel_inline_attribute:'BonusWeaponDamage'}. <br><br>Efek ini berakumulasi setiap kali aktif, secara permanen meningkatkan {g:citadel_inline_attribute:'BonusWeaponDamage'}."
+
+		//"upgrade_building_buster"				"Explosive Demolition"
+		"upgrade_building_buster_desc"		"Melemparkan sekumpulan peledak lengket sebesar {g:citadel_inline_attribute:'WeaponDamage'} yang meledak setelah penundaan.<br><br>Jika ledakan mengenai <span class=\"highlight\">bos</span>, akan memberikan memberikan {g:citadel_inline_attribute:'BonusWeaponDamage'}."
+		"BossDamage_postvalue_label" "Damage Bos"
+
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Tech
+		//-----------------------------------------------------------------------------
+		
+		// "upgrade_mystic_regeneration"		"Mystic Regeneration"
+		"upgrade_mystic_regeneration_desc"		"Memberikan {g:citadel_inline_attribute:'SpiritDamage'} kepada Hero musuh memberimu Bonus {g:citadel_inline_attribute:'Regen'}. Akumulasi diterapkan ketika memberikan damage kepada hero yang berbeda."
+
+		//Spirit Lifesteal
+		"NonHeroAbilityLifestealTooltipOnly_postfix"		"%"
+		
+		//Mystic Vulnerability
+		"upgrade_magic_vulnerability_desc"	"Ketika musuh menerima {g:citadel_inline_attribute:'SpiritDamage'}, {g:citadel_inline_attribute:'SpiritResist'} mereka dikurangi."		
+
+		//Healbane
+		"upgrade_healbane_desc"	"{g:citadel_inline_attribute:'SpiritDamage'} darimu mengurangi <span class=\"highlight\">Penyembuhan Diterima</span> musuh. Jika hero musuh mati saat terkena efek ini, kamu akan menerima penyembuhan yang besar."
+		"HealOnKill_label"		"Disembuhkan Saat Hero Kill"
+
+		"HealOnKill_postvalue_label"		"Disembuhkan Saat Kill Hero"
+
+		//Mystic Slow
+		"upgrade_magic_slow_desc"	"Ketika target menerima {g:citadel_inline_attribute:'SpiritDamage'}, <span class=\"highlight\">Kecepatan Gerakan</span> mereka dikurangi."
+
+		//Escalating Exposure
+		"upgrade_escalating_exposure_desc"	"Memberikan {g:citadel_inline_attribute:'SpiritDamage'} menerapkan akumulasi <span class=\"highlight\">Pembesaran Spirit</span> yang meningkatkan {g:citadel_inline_attribute:'SpiritDamage'} terhadap target."
+		"EscalatingExposureProcCooldown_label"	"Frekuensi Maks. per Target"
+		"EscalatingExposureProcCooldown_postvalue_label"	"Frekuensi Maks. per Target"
+		"EscalatingExposureProcCooldown_postfix"	" dtk."
+		"EscalatingExposureTechArmorDamageReduction_label"	"Pertahanan Spirit di Damage Spirit"
+		"EscalatingExposureTechArmorDamageReduction_postvalue_label"	"Pertahanan Spirit terhadap Damage Spirit"
+		"EscalatingExposureTechArmorDamageReduction_postfix"	"%"
+
+		//Mystic Reach
+		"upgrade_magic_reach_desc"			"Mengisi skill untuk meningkatkan <span class=\"highlight\">jarak</span> dan <span class=\"highlight\">radius efeknya</span>."
+
+		//Improved Reach
+		"upgrade_tech_range_desc"			"Meningkatkan <span class=\"highlight\">jangkauan</span> dan <span class=\"highlight\">radius efek</span> dari skill dan item."
+
+		//Omni Spirit
+		"upgrade_long_range_slowing_tech/modifier_long_range_slowing_tech_proc/modifier_slow_base"	"Diperlambat"
+
+		//Improved Cooldown
+		"upgrade_magic_tempo_desc"	"Mengisi skill untuk mengurangi durasi <span class=\"highlight\">Cooldown-nya</span>."
+
+		//Superior Cooldown
+		"upgrade_cooldown_reduction_desc"	"Mengurangi <span class=\"highlight\">Cooldown</span> skill."
+
+		//Transcendent Cooldown
+		"upgrade_transcendent_cooldown_desc"	"Mengurangi <span class=\"highlight\">Cooldown</span> skill dan item."
+
+		//Extra Charge
+		//"upgrade_extra_charge_desc"	"Adds one to your ability max <span class=\"highlight\">charges</span>."
+		"BonusSpiritForChargedAbilities_prefix"						"+"
+		"BonusSpiritForChargedAbilities_label"						"Bonus Kekuatan Spirit untuk Skill yang Diisi Daya"
+		"BonusSpiritForChargedAbilities_postvalue_label"						"Bonus Kekuatan Spirit untuk Skill yang Diisi Daya"
+
+		//Rapid Recharge
+		"CooldownReductionOnChargedAbilities_label"	"Pengurangan Cooldown untuk Skill yang Diisi Daya"
+		"CooldownReductionOnChargedAbilities_postvalue_label"	"Pengurangan Cooldown untuk Skill yang Diisi Daya"
+		"CooldownReductionOnChargedAbilities_postfix" "%"
+		"CooldownReductionOnChargedAbilities_prefix" "+"
+
+		//Alchemical Fire
+		"upgrade_thermal_detonator_desc"		"Melemparkan labu yang meledak saat terkena benturan, menciptakan area yang memberikan {g:citadel_inline_attribute:'SpiritDamage'} yang meningkat <span class=\"highlight\">per detik</span> dan mengurangi <span class=\"highlight\">Pertahanan Peluru</span> musuh. <br><br>{s:NonHeroReductionPercent}% kurang efektif untuk non-hero."
+		"BonusBaseWeaponDamageTaken_prefix"		"+"
+		"BonusBaseWeaponDamageTaken_label"		"Damage Senjata"
+		"BonusBaseWeaponDamageTaken_postvalue_label"		"Damage Senjata"
+		"BonusBaseWeaponDamageTaken_postfix"	"%"
+
+		//Fleetfoot
+		"upgrade_fleetfoot_boots_active_desc"	"Mendapatkan bonus <span class=\"highlight\">Kecepatan Gerakan</span> dan <span class=\"highlight\">Pertahanan Perlambatan</span>."
+		"upgrade_fleetfoot_boots_passive_desc"	"Menghapus pengurangan <span class=\"highlight\">Kecepatan Gerakan</span> saat menembak."
+
+		//Kinetic Dash
+		"upgrade_kinetic_sash_desc"		"Saat <span class=\"highlight\">Dash Lompat</span> berikutnya akan memberimu <span class=\"highlight\">Tingkat Tembakan</span> serta bonus <span class=\"highlight\">Amunisi</span> sampai isi ulang berikutnya. Berlangsung selama {s:AbilityDuration} dtk."
+
+		//Arcane Surge
+		"upgrade_arcane_surge_desc"			"Setelah melakukan <span class=\"highlight\">Dash-Lompat</span>, <span class=\"highlight\">skill berikutnya yang digunakan</span> dalam {s:ArcaneSurgeWindow} dtk. akan memiliki bonus <span class=\"highlight\">Jangkauan, Durasi,</span> dan <span class=\"highlight\">Kekuatan Spirit</span>."
+		"modifier_arcane_surge_triggered"	"Lonjakan Arkane!"
+		"modifier_arcane_surge_ability"		"Lonjakan Skill!"
+		"ArcaneSurgeWindow_label"				"Waktu Skill"
+		"ArcaneSurgeWindow_postvalue_label"		"Waktu Skill"
+		"ArcaneSurgeWindow_postfix"				" dtk."
+
+		//Active Reload
+		"upgrade_active_reload_desc"	"Saat mengisi ulang, menekan {g:citadel_binding:'Reload'} saat indikator berada di bagian yang disorot akan <span class=\"highlight\">langsung menyelesaikan pengisian ulang</span> dan memberimu <span class=\"highlight\">Tingkat Tembakan</span>, <span class=\"highlight\">Curi HP Peluru</span>, dan <span class=\"highlight\">Kecepatan Gerakan</span>."
+
+		//Slowing Hex
+		"upgrade_containment_desc"			"<span class=\"highlight\">Memperlambat gerakan</span> musuh yang ditarget. Efek lainnya adalah memberikan efek <span class=\"highlight\">Bungkam</span> pada <span class=\"highlight\">item dan skill berbasis gerakan mereka</span>.<br><span class=\"diminish\">Meningkatkan gravitasi target.<br>Tidak memengaruhi penggunaan stamina target.</span>"
+
+		//Spirit Sap
+		"upgrade_spirit_sap_desc"			"Menarget musuh untuk <span class=\"highlight\">mengurangi Pertahanan Spirit</span> dan <span class=\"highlight\">Kekuatan Spirit</span> mereka."
+
+		//Focus Lens
+		"upgrade_focus_lens_desc"			"Menarget musuh untuk memberikan efek <span class=\"highlight\">Bungkam</span>. Sebagian dari <span class=\"highlight\">total damage yang diberikan</span> selama efek bungkam berlangsung akan diterima target saat efek bungkam menghilang."
+		"PercentDamage_label"				"Damage saat Efek Berakhir"
+		"PercentDamage_postvalue_label"				"Damage Saat Efek Berakhir"
+		"PercentDamage_postfix"				"%"
+
+		//Withering Whip , Rusted Barrel
+		"upgrade_withering_whip_desc"		"Menarget musuh untuk mengurangi <span class=\"highlight\">Tingkat Tembakan</span> dan <span class=\"highlight\">Pertahanan Peluru</span> mereka."
+		"modifier_withering_whip_debuff"	"-Tingkat Tembakan"
+		"MagicAmp_label"					"Pembesaran Spirit"
+		"MagicAmp_postvalue_label"					"Pembesaran Spirit"
+		"MagicAmp_postfix"					"%"
+		"WitheringWhipDisarmDuration_label"	"Durasi"
+		"WitheringWhipDisarmDuration_postvalue_label"	"Durasi"
+		"WitheringWhipDisarmDuration_postfix"	" dtk."
+		"SpiritPower_label"					"Kekuatan Spirit"
+		"SpiritPower_postvalue_label"					"Kekuatan Spirit"
+		"SpiritPower_prefix"					"+"
+
+		// Disarming Hex
+		"upgrade_greater_withering_whip_desc"		"<span class=\"highlight\">Melucuti</span> musuh yang ditarget dan mengurangi <span class=\"highlight\">Pertahanan Peluru</span> mereka."
+		"upgrade_greater_withering_whip_debuff"		"Senjata Dilucuti"
+
+		//Ethereal Shift
+		"upgrade_self_bubble_desc"			"Langsung memasuki kondisi menghilang dan menjadi Kebal untuk durasi singkat."
+		"upgrade_self_bubble_desc2"			"Setelah itu, dapatkan berbagai buff sementara:"
+		"ShiftingVeil_channel_desc"			"Kebal"
+		"ShiftingVeilDuration_label"			"Durasi"
+		"ShiftingVeilDuration_postvalue_label"			"Durasi"
+		"ShiftingVeilDuration_postfix"		" dtk."
+		"BonusSpiritDuration_label"			"Bonus Durasi Spirit"
+		"BonusSpiritDuration_postvalue_label"			"Bonus Durasi Spirit"
+		"BonusSpiritDuration_postfix"			" dtk."
+		"BonusTechPower_prefix"				"{s:sign}"
+		"BonusTechPower_label"				"Kekuatan Spirit"
+		"BonusTechPower_postvalue_label"				"Kekuatan Spirit"
+		"shifting_veil_bonus"			"Kekuatan Spirit, Kecepatan, dan Pertahanan Spirit"
+
+		//Rescue Beam
+		"upgrade_rescue_beam_desc"		"<span class=\"highlight\">Menyembuhkan</span> rekan tim yang ditargetkan dan diri sendiri sebesar persentase <span class=\"highlight\">Health Maks.</span> Sekali saat menyembuhkan, kamu dapat <span class=\"highlight\">menarik</span> target ke arahmu. Dapat digunakan ke diri sendiri."
+		"SelfModifier_postfix"			"%"
+		"upgrade_rescue_beam_pull"		"Tarik Target"
+
+		//Slowing Spirit
+		"upgrade_slowing_tech/modifier_slowing_tech_proc/modifier_slow_base"						"Diperlambat"
+
+		//Refresher
+		"upgrade_ability_refresher_desc"	"<span class=\"highlight\">Mereset cooldown</span> semua skill-mu dan <span class=\"highlight\">memulihkan semua daya</span>."
+
+		//Cold Front
+		"upgrade_cold_front_desc"			"Melepaskan ledakan es yang meluas yang memberikan {g:citadel_inline_attribute:'SpiritDamage'} dan <span class=\"highlight\">Memperlambat</span> target yang terkena."
+
+		//Arctic Blast
+		"upgrade_arctic_blast_desc"			"Melepaskan ledakan es dahsyat yang memberikan {g:citadel_inline_attribute:'SpiritDamage'}, <span class=\"highlight\">Membekukan</span>, serta <span class=\"highlight\">Memperlambat</span> target yang terkena.<br><br><span class=\"highlight\">Pemulihan stamina</span>target yang terkena efek perlambatan akan dibekukan."
+		"ArcticBlastSlowDuration_label"		"Durasi Perlambatan"
+		"ArcticBlastSlowDuration_postvalue_label"		"Durasi Perlambatan"
+		"ArcticBlastSlowDuration_postfix"	" dtk."
+		"ArcticBlastPercentDamage_label"	"Bonus Damage Beku"
+		"ArcticBlastPercentDamage_postvalue_label"	"Bonus Damage Beku"
+		"ArcticBlastPercentDamage_postfix"	"%"
+
+		//Knockdown
+		"upgrade_target_stun_desc"			"Menerapkan efek <span class=\"highlight\">Stun</span> setelah <span class=\"highlight\">{s:StunDelay} dtk.</span> Durasi stun ditingkatkan terhadap <span class=\"highlight\">target yang berada di udara</span><br><br><span class=\"diminish\">Meningkatkan gravitasi target selama durasi stun.</span>"
+		
+		//Vortex Web
+		"upgrade_aoe_root_active"		"Melemparkan granat <span class=\"highlight\">vakum</span>, menarik semua musuh ke area kecil dan menerapkan <span class=\"highlight\">Kutukan Pelambat</span>. <span class=\"diminish\"><br><br>Berganti Skill untuk menargetkan unit langsung.</span>"
+
+		//Curse
+		"upgrade_glitch_desc"					"Mengutuk musuh - <span class=\"highlight\">menginterupsi, Membungkam, Melucuti Senjata</span>, dan <span class=\"highlight\">mencegah penggunaan item</span>.<span class=\"highlight\">Menghapus semua buff non-ultimate</span>.<br><br>Output Damage-mu<span class=\"highlight\">dikurangi selama durasi itu</span>."
+		"modifier_glitch_debuff"				"Dikutuk!"
+		"modifier_glitch_self_penalty"			"Efek Kutukan"
+
+		//Bullet Resist Shredder
+		"upgrade_bullet_resist_shredder_desc"	"Mengurangi <span class=\"highlight\">Pertahanan Peluru</span> musuh saat kamu memberikan {g:citadel_inline_attribute:'SpiritDamage'}."
+		"upgrade_bullet_resist_shredder/modifier_bullet_armor_shredder_proc/modifier_bullet_armor_shredder" "Pengurangan Armor Peluru"
+
+		//Echo Shard
+		"upgrade_ability_power_shard_active"	"<span class=\"highlight\">Reset cooldown</span> pada skill non-ultimate yang terisi.<br><br>Cooldown item ini ditingkatkan sabesar <span class=\"highlight\">cooldown skill terisi</span>."
+
+		//Duration Extender
+		"upgrade_arcane_extension_desc"	"Mengisi skill untuk meningkatkan <span class=\"highlight\">Durasinya</span>."
+
+		//Superior Duration
+		"upgrade_imbued_duration_extender_desc"	"Meningkatkan <span class=\"highlight\">durasi</span> skill dan item."
+
+		//Diviner's Kevlar
+		"upgrade_diviners_kevlar_desc"			"Saat melakukan <span class=\"highlight\">skill ultimate</span>, akan mendapatkan <span class=\"highlight\">Pengaman</span> dan <span class=\"highlight\">Kekuatan Spirit</span> sementara."
+		"BonusChannelTechPower_prefix"			"+"
+		
+		"BonusChannelTimePercentage_label"		"Durasi Skill"
+		"BonusChannelTimePercentage_postvalue_label"		"Durasi Skill"
+		"BonusChannelTimePercentage_prefix"		"+"
+		"BonusChannelTimePercentage_postfix"	"%"
+
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_label"		"Durasi Skill"
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_postvalue_label"		"Durasi Skill"
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_prefix"		"+"
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_postfix"	"%"
+
+		//Infuser
+		"upgrade_infuser_desc"			"Mendapatkan <span class=\"highlight\">Curi HP</span> dan <span class=\"highlight\">Kekuatan Spirit</span>."
+
+		//Spirit Strike
+		"upgrade_acolytes_glove_desc"			"Saat melakukan serangan <span class=\"highlight\">Jarak dekat Ringan atau Berat</span> pada hero, akan memberikan {g:citadel_inline_attribute:'SpiritDamage'} ekstra dan mengurangi <span class=\"highlight\">Pertahanan Spirit</span> target.<span class=\"diminish\"><br><<br>Cooldown akan menjadi {s:LightMeleeCooldownMult} kali lebih lama untuk hit Jarak Dekat Ringan.</span>"
+		"SpiritDamage_label"					"Damage Spirit"
+		"SpiritDamage_postvalue_label"					"Damage Spirit"
+
+		//Spirit Snatch
+		"upgrade_spirit_snatch_desc"			"Saat melakukan serangan <span class=\"highlight\">Jarak dekat Ringan atau Berat</span> pada hero, serangan akan memberikan {g:citadel_inline_attribute:'SpiritDamage'} ekstra, serta mencuri <span class=\"highlight\">Pertahanan Spirit</span> dan <span class=\"highlight\">Kekuatan Spirit</span>.<span class=\"diminish\"><br><<br>Efek dikurangi sebesar {s:LightMeleeReduction}% untuk hit Jarak Dekat Ringan.</span>"
+		"SpiritSnatch_TechArmorSteal_label"		"Curi Pertahanan Spirit"
+		"SpiritSnatch_TechArmorSteal_postvalue_label"		"Curi Pertahanan Spirit"
+		"SpiritSnatch_TechArmorSteal_postfix"	"%"
+		"SpiritSnatch_TechPowerSteal_label"		"Curi Kekuatan Spirit"
+		"SpiritSnatch_TechPowerSteal_postvalue_label"		"Curi Kekuatan Spirit"
+
+		//Clarity
+		//"upgrade_magic_clarity_desc"			"On ability or item use, gain a <span class=\"highlight\">move speed</span> bonus for {s:AbilityDuration}s. Your next ability cast will remove the move speed bonus and apply a <span class=\"highlight\">Spirit</span> bonus to that ability."
+		"ClarityBonusSpirit_prefix"				"{s:sign}"
+
+		//Surge of Power
+		"upgrade_magic_storm_desc"				"Mengisi skill dengan <span class=\"highlight\">Kekuatan Spirit permanen</span>. Saat skill tersebut digunakan, mendapatkan bonus <span class=\"highlight\">Kecepatan Gerakan</span> dan mempertahankan kecepatan penuh saat menyerang."
+
+		//Suppressor
+		"upgrade_suppressor_desc"					"Saat memberikan {g:citadel_inline_attribute:'SpiritDamage'} kepada musuh, <span class=\"highlight\">Tingkat Tembakan</span> mereka dikurangi."
+		"suppressor_debuff"						"-Tingkat Tembakan"
+
+		//Quicksilver Reload
+		"upgrade_quick_silver_desc"				"Skill terisimu akan terisi dayanya dari waktu ke waktu dengan {g:citadel_inline_attribute:'BonusSpiritDamage'}, {g:citadel_inline_attribute:'BonusFireRate'}, dan <span class=\"highlight\">isi ulang peluru</span> saat digunakan."
+
+		//Resonant Healing
+		"upgrade_resonant_healing_desc"			"<span class=\"highlight\">Menyembuhkan</span> dan mendapatkan bonus <span class=\"highlight\">Kecepatan Gerakan</span> untuk waktu singkat saat kamu menggunakan skill."
+		"HealingPerCast_Label"					"Penyembuhan saat Menggunakan Skill"
+
+		"HealingPerCast_postvalue_label"					"Penyembuhan saat Menggunakan Skill"
+
+		// Magic carpet
+		"upgrade_magic_carpet_desc"				"Memanggil Karpet Ajaib yang akan <span class=\"highlight\">menerbangkanmu</span>. Saat terbang, kamu kebal dari perlambatan dan melakukan tindakan apa pun akan menghilangkan karpetnya. <span class=\"diminish\"><br>Tidak dapat menggunakan skill saat memanggil karpet.</span>"
+		"modifier_summon_magiccarpet"			"Memanggil Karpet Ajaib"
+		"MagicCarpetMoveSpeed_prefix"			"+"
+		"MagicCarpetMoveSpeed_label"			"Bonus Kecepatan Terbang"
+		"MagicCarpetMoveSpeed_postvalue_label"			"Bonus Kecepatan Terbang"
+		"MagicCarpetMoveSpeed_postfix"			" m/dtk."
+		"MagicCarpetShieldDuration_label"		"Durasi Perisai"
+		"MagicCarpetShieldDuration_postvalue_label"		"Durasi Perisai"
+		"MagicCarpetShieldDuration_postfix"		" dtk."
+		"MagicCarpetSummoning_channel"			"Memanggil"
+
+		// Hex-Sealed Knuckles
+		"upgrade_superacolytes_glove_desc"			"Setelah memberikan <span class=\"highlight\">{s:StoredSpiritDamage}</span> Damage Spirit yang diakumulasi, <span class=\"highlight\">Serangan Jarak Dekat Berat</span> selanjutnya memberikan <span class=\"highlight\">{s:StoredSpiritDamage} Damage Spirit tambahan</span>."
+		"StoredSpiritDamage_label"			"Simpan Damage Spirit"
+		"StoredSpiritDamage_postvalue_label"			"Simpan Damage Spirit"
+		"upgrade_superacolytes_glove/modifier_superacoloytes_glove" "Kepalan Terbuka!"
+
+		//SpiritBurn
+		"upgrade_spirit_burn_desc"	"Memberikan {g:citadel_inline_attribute:'SpiritDamage'} yang besar kepada musuh selama {s:DamageThresholdDuration} dtk. dan menyebabkan ledakan yang memberikan damage yang membakar musuh yang sama. Saat terbakar, musuh menerima damage seiring waktu dan mendapatkan penyembuhan yang dikurangi.<br><span class=\"diminish\">Cooldown untuk per musuh, jadi setiap target hanya dapat dibakar sekali per cooldown. Memberikan setengah damage untuk target non-hero.</span>"
+		"modifier_spirit_burn_immunity"	"Kebal Api Spirit"
+		"MinDPS_label" "DPS minimum"
+
+		"MinDPS_postvalue_label" "DPS minimum"
+
+		//Lightning Scroll
+		"upgrade_ultimate_burst_desc"			"Damage dari skill ultimate milikmu menerapkan {g:citadel_inline_attribute:'Stun'} dan memberikan {g:citadel_inline_attribute:'BonusSpiritDamage'} setelah dijeda sebentar.</span>"
+		"upgrade_ultimate_burst_upgrade"		"<span class=\"highlight\">Efek Perlambatan Mistis</span>"
+		"upgrade_ultimate_burst_hint"			"<span class=\"diminish\">Efek ini hanya akan terpicu sekali per target per ultimate.</span>"
+		"LightningScrollMysticSlow_label"		"Kecepatan Gerakan terhadap Damage Spirit"
+		"LightningScrollMysticSlow_postvalue_label"		"Kecepatan Gerakan terhadap Damage Spirit"
+		"LightningScrollMysticSlow_prefix"		"-"
+		"LightningScrollMysticSlow_postfix"		"%"
+		"DelayBeforeStun_label"					"Penundaan sebelum Efek"
+		"DelayBeforeStun_postvalue_label"					"Penundaan sebelum Efek"
+		"DelayBeforeStun_postfix"				" dtk."
+
+		"MaxHealthDamage_label" "Damage Health Maks."
+		"MaxHealthDamage_postvalue_label" "Damage Health Maks."
+		"MaxHealthDamage_postfix" "%"
+
+		"CurrentHealthDamage_label" "Damage Health Saat Ini"
+		"CurrentHealthDamage_postvalue_label" "Damage Health Saat Ini"
+		"CurrentHealthDamage_postfix" "%"
+
+		"UltimateTechPower_label" "Kekuatan Spirit Ultimate"
+
+		"UltimateTechPower_postvalue_label" "Kekuatan Spirit Ultimate"
+
+		//Corpse Explosion
+		"upgrade_corpse_explosion_desc"			"Membunuh atau membantu menyebabkan <span class=\"highlight\">ledakan</span> yang membunuh korbannya. Membunuh hero musuh memberikan radius dan damage yang lebih besar."
+		"HeroMultiplier_label" "Pengganda Ledakan Hero"
+		"HeroMultiplier_postvalue_label" "Pengganda Ledakan Hero"
+		"HeroMultiplier_postfix" "%"
+
+		//Golden Goose Egg
+		"upgrade_goose_egg_desc"	"Mendapatkan <span class=\"highlight\">jiwa seiring waktu</span>, selama masih hidup."
+		"upgrade_goose_egg_active_desc"	"Menggunakan telur untuk mendapatkan <span class=\"highlight\">jiwa</span> dan <span class=\"highlight\">buff permanen</span>.<br><br>Semakin lama kamu memegang telur tersebut, semakin berharga nilainya.<br><br><span class=\"diminish\">Dapatkan satu buff permanen untuk setiap {s:BonusBuffsPerGold} Jiwa yang telah kamu kumpulkan saat kamu menggunakannya."
+		"upgrade_goose_egg_stacklabel" "Jiwa untuk Didapatkan"
+		"GoldPerMinute_postvalue_label" "Jiwa per Menit"
+		"GoldPerMinute_prefix" "{s:sign}"
+		"BonusGoldPerMinute_postvalue_label" "Nilai Jiwa per Menit"
+
+		"SellBonusSouls_label"	"Jual Bonus Jiwa:"
+
+		//"SellBonusSouls_postvalue_label"	"Sell Bonus Souls:"
+		//"SellBonusSouls_postvalue_prefix"	"{g:citadel_inline_attribute:'SoulsIcon'}"
+
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Armor
+		//-----------------------------------------------------------------------------
+		
+		//Healing Rite
+		"upgrade_health_stimpak_desc"					"Memberikan <span class=\"highlight\">Pemulihan</span> dan <span class=\"highlight\">Kecepatan Sprint</span> pada target. Efek hilang jika kamu menerima damage dari pemain atau minion musuh. Dapat digunakan ke diri sendiri."
+
+		//Shrink Ray
+		"upgrade_shrink_ray_desc"					"Mengurangi <span class=\"highlight\">Ukuran Model</span> dan memberikan <span class=\"highlight\">Kecepatan Gerakan</span> pada target. Memungkinkan <span class=\"highlight\">penggunaan lorong</span> di mode ini. Bisa diterapkan pada diri sendiri."
+		
+		//Guardian Ward
+		"upgrade_guardian_ward_desc"		"Memberikan <span class=\"highlight\">Pengaman</span> dan <span class=\"highlight\">Kecepatan Gerakan</span> sementara kepada target. <span class=\"diminish\"><br>Dapat diterapkan pada diri sendiri.<br>Cooldown berkurang setengahnya saat dilakukan pada orang lain.</span>"
+
+		//Divine Barrier
+		"upgrade_divine_barrier_desc"		"<span class=\"highlight\">Menghapus semua debuff non-stun</span> dari target dan memberikan <span class=\"highlight\">Pengaman</span> dan <span class=\"highlight\">Kecepatan Gerakan</span>. <span class=\"diminish\"><br>Dapat diterapkan pada diri sendiri. Cooldown berkurang setengahnya saat dilakukan pada orang lain.</span>"
+
+		//Restorative Locket
+		"upgrade_restorative_locket_active_desc"		"Saat musuh menggunakan skill dalam jangkauan {s:Radius} m dari lokasimu, simpan satu <span class=\"highlight\">Akumulasi Restoratif</span>. <br><br>Gunakan semua akumulasi untuk <span class=\"highlight\">menyembuhkan diri sendiri</span> dan mengisi ulang <span class=\"highlight\">hingga {s:MaxStaminaRestore} poin stamina</span> berdasarkan jumlah akumulasi yang didapatkan."
+		"HealPerStack_label"								"Penyembuhan per Akumulasi"	
+		"MinStaminaRestore_label"							"Pemulihan Stamina Min."
+		"MinStaminaRestore_postvalue_label"							"Pemulihan Stamina Min."
+		"MaxStaminaRestore_label"							"Pemulihan Stamina Maks."
+		"MaxStaminaRestore_postvalue_label"							"Pemulihan Stamina Maks."
+
+		"HealPerStack_postvalue_label"								"Penyembuhan per Akumulasi"
+
+		//Cheat Death
+		"upgrade_cheat_death_unkillable_passive"	"Saat kamu menerima damage yang mematikan, kamu akan menjadi <span class=\"highlight\">kebal dari death secara singkat</span> dan <span class=\"highlight\">menghapus semua debuff non-stun</span>.<br><br>Saat kebal dari death, kamu memberikan <span class=\"highlight\">damage yang dikurangi</span>, dan mendapatkan <span class=\"highlight\">penyembuhan yang dikurangi</span>."
+		"DeathImmunityDuration_label"	"Durasi Kebal dari Death"
+		"DeathImmunityDuration_postvalue_label"	"Durasi Kebal dari Death"
+		"DeathImmunityDuration_postfix"	" dtk."
+		"DeathImmunityDamageReduction_label"		"Pengurangan Damage"
+		"DeathImmunityDamageReduction_postvalue_label"		"Pengurangan Damage"
+		"DeathImmunityDamageReduction_postfix"		"%"
+
+		//Healing Booster
+		"upgrade_healing_booster_desc"		"Meningkatkan keefektifan <span class=\"highlight\">penyembuhanmu </span>."
+
+		//Debuff Reducer
+		"upgrade_debuff_reducer_desc"			"Mengurangi <span class=\"highlight\">durasi</span> semua efek negatif yang kamu terima."
+
+		//Debuff Remover | Dispel Magic
+		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Menghapus semua efek negatif non-ultimate</span> yang sedang diterapkan padamu. Jika ada efek yang dihapus, <span class=\"highlight\">sembuhkan diri sendiri</span> dan mendapatkan <span class=\"highlight\">bonus kecepatan gerakan</span>. <br><span class=\"diminish\">Tidak dapat digunakan saat terkena efek Stun atau Tidur.</span>"
+		"HealOnActivate_label"		"HP Dipulihkan Saat Aktif"
+		"HealOnActivate_postvalue_label"		"HP Dipulihkan Saat Aktif"
+
+		"damage_reduction_postfix"						"%"
+
+		//Decay
+		"upgrade_rupture_desc"				"Menerapkan <span class=\"highlight\">damage seiring waktu</span> ke target, memberikan damage berdasarkan status health mereka saat ini.<br>Damage dari Penyusutan tidak mematikan dan tidak diterapkan pada aktivasi item."
+		"HealReductionDuration_label"		"Durasi Pengurangan Penyembuhan"
+		"HealReductionDuration_postvalue_label"		"Durasi Pengurangan Penyembuhan"
+		"HealReductionDuration_postfix"		" dtk."
+
+		//Discord | Scourge
+		"upgrade_discord_desc"						"Menerapkan <span class=\"highlight\">Pertahanan Spirit</span>, <span class=\"highlight\">Pertahanan Debuff</span> dan aura pada target rekan tim yang memberikan <span class=\"highlight\">{g:citadel_inline_attribute:'SpiritIcon'}damage</span> ke musuh sesuai dengan health maksimum mereka. Debuff yang dimiliki target saat ini dikurangi.<br>Dapat digunakan pada diri sendiri."
+		"MaxHealthPercentAsDPS_label"				"Health Maks. per detik"
+		"MaxHealthPercentAsDPS_postvalue_label"				"Health Maks. per detik"
+		"MaxHealthPercentAsDPS_postfix"				"%"
+		
+		//Fortitude
+		"upgrade_chonky_desc"							"Setelah tidak menerima damage selama beberapa waktu, mendapatkan pemulihan health."
+		"upgrade_chonky_high_health_passive_desc"		"Saat <span class=\"highlight\">health di atas {s:HealthThreshold}%</span>, kamu akan menerima bonus <span class=\"highlight\">Kecepatan Gerakan</span>."
+
+		//Leech
+		"upgrade_damage_recycler_desc"				"Mengurangi efek <span class=\"highlight\">pengurangan penyembuhan</span> yang diberikan musuh."
+		"LeechHealOnKill_prefix"					"+"
+		"LeechHealOnKill_label"						"Maks. Heal HP dari Kill"
+		"LeechHealOnKill_postvalue_label"						"Maks. Heal HP dari Kill"
+		"LeechHealOnKill_postfix"					"%"
+		
+		//Rebirth
+		"upgrade_personal_rejuvenator_desc"		"Respawn hero di lokasi kematian."
+		"RespawnDelay_postfix"						" dtk."
+		"SpawnTimePenalty_prefix"				"+"
+		"SpawnTimePenalty_label"				"Waktu Respawn Ditingkatkan"
+		"SpawnTimePenalty_postvalue_label"				"Waktu Respawn Ditingkatkan"
+		"SpawnTimePenalty_postfix"				" dtk."
+
+		//Phantom Strike
+		"upgrade_phantom_strike_desc"			"<span class=\"highlight\">Berteleportasi</span> ke musuh yang ditarget dan menarik mereka ke tanah. Memberikan <span class=\"highlight\">damage</span>, pengurangan <span class=\"highlight\">Kecepatan gerakan</span> dan <span class=\"highlight\">Melucuti Senjata</span>."
+		"PhantomStrikeDebuffDuration_label"		"Durasi Debuff"
+		"PhantomStrikeDebuffDuration_postvalue_label"		"Durasi Debuff"
+		"PhantomStrikeDebuffDuration_postfix"		" dtk."
+		"modifier_phantom_strike_bulletshield"		"Perisai Peluru"
+
+		//Soul Rebirth
+		"upgrade_rebirth_passive"				"Jika kamu mati, setelah {s:RespawnDelay} dtk. kamu akan <span class=\"highlight\">respawn di lokasi death</span> dengan sebagian persentase health."
+
+		//Return Fire
+		"upgrade_return_fire_desc"					"Secara otomatis <span class=\"highlight\">menembakkan peluru</span> ke arah penyerang yang memberimu damage dengan skill atau senjata mereka."
+		"ActiveFireRate_label"						"Tingkat Tembakan"
+		"ActiveFireRate_postvalue_label"						"Tingkat Tembakan"
+		"ActiveFireRate_postfix"						"%"
+
+		//Metal Skin
+		"upgrade_metal_skin_desc"						"Menjadi <span class=\"highlight\">kebal terhadap peluru</span>."
+		"AbilityApplyDelay_postfix"						" dtk."
+
+		//Battle Vest
+		"upgrade_regenerating_bullet_shield_desc"	"Saat kamu memiliki <span class=\"highlight\">health di atas {s:LifeThreshold}%</span>, mendapatkan <span class=\"highlight\">{g:citadel_inline_attribute:'WeaponDamage'}</span> dan <span class=\"highlight\">{g:citadel_inline_attribute:'BonusFireRate'}</span>."
+
+		//Enchanter's Emblem
+		"upgrade_magic_shield_desc"		"Saat kamu memiliki <span class=\"highlight\">health di atas {s:LifeThreshold}%</span>, mendapatkan <span class=\"highlight\">{g:citadel_inline_attribute:'Spirit'}</span> dan <span class=\"highlight\">Pengurangan Cooldown</span>."
+		
+		// "upgrade_weapon_shielding"						"Weapon Shielding"
+		"upgrade_weapon_shielding_desc"			"Mendapatkan <span class=\"highlight\">Pengaman</span> saat kamu menerima {g:citadel_inline_attribute:'WeaponDamage'} yang cukup besar dari Hero Musuh dalam waktu yang berdekatan."
+		"DamageWindow_label"								"Rentang Waktu"
+		"DamageWindow_postvalue_label"								"Rentang Waktu"
+		"DamageWindow_postfix"								" dtk."
+		
+		// "upgrade_spirit_bubble"							"Spirit Bubble"
+		"upgrade_spirit_bubble_desc"			"Mendapatkan <span class=\"highlight\">Pengaman</span> saat kamu menerima {g:citadel_inline_attribute:'SpiritDamage'} yang cukup besar dari Hero Musuh dalam waktu yang berdekatan."
+
+		// "upgrade_grit"							"Grit"
+		"upgrade_grit_desc"			"Mendapatkan <span class=\"highlight\">Pengaman</span> untuk durasi singkat."
+
+		//Unstoppable
+		"upgrade_unstoppable_desc"				"Menekan <span class=\"highlight\">efek status negatif</span> untuk sementara waktu dan menjadi <span class=\"highlight\">kebal</span> terhadap efek <span class=\"highlight\">Stun, Bungkam, Tidur, Lumpuh, dan Pelucutan Senjata</span>. <br>Tidak dapat digunakan saat terkena <span class=\"highlight\">Stun</span> atau <span class=\"highlight\">Tidur</span>."
+
+		//Colossus
+		"upgrade_colossus_desc"			"<span class=\"highlight\">Ukuran menjadi lebih besar</span>, mendapatkan {g:citadel_inline_attribute:'BulletResist'}, {g:citadel_inline_attribute:'SpiritResist'}, dan {g:citadel_inline_attribute:'MeleeDamage'}. <br><br>Musuh terdekat menerima {g:citadel_inline_attribute:'Slow'} dan <span class=\"highlight\">kecepatan dash</span> yang dikurangi."
+		"BuffBulletResist_label"		"Pertahanan Peluru"
+		"BuffBulletResist_postvalue_label"		"Pertahanan Peluru"
+		"BuffBulletResist_postfix"		"%"
+		"BuffTechResist_label"			"Pertahanan Spirit"
+		"BuffTechResist_postvalue_label"			"Pertahanan Spirit"
+		"BuffTechResist_postfix"		"%"
+
+		// Rebuttal - upgrade_melee_rebuttal
+		"upgrade_melee_rebuttal_desc"				"Saat berhasil <span class=\"highlight\">Menangkis</span> Hero musuh, <span class=\"highlight\">Menyembuhkan</span> diri sendiri sebesar damage yang ditangkis dan mengembalikan damage itu pada target, sekaligus mendapatkan <span class=\"highlight\">damage</span> yang ditingkatkan untuk sementara."
+
+		// Counterspell
+		"upgrade_counterspell_desc"				"Tangkisan berikutnya akan <span class=\"highlight\"> melindungimu dari damage dan efek dari skill dan item musuh</span>. Mantra Tangkis yang berhasil akan memberikan {g:citadel_inline_attribute:'Heal'}, {g:citadel_inline_attribute:'MoveSpeed'}, dan {g:citadel_inline_attribute:'Spirit'}."
+		
+		"ParrySuccessHealPercentage_label"					"Damage yang Ditangkis sebagai Penyembuhan"
+		"ParrySuccessHealPercentage_postvalue_label"					"Damage yang Ditangkis sebagai Penyembuhan"
+		"ParrySuccessHealPercentage_postfix"					"%"
+
+		// 
+		"upgrade_tech_purge_desc"	"Saat health di bawah <span class=\"highlight\">{s:HealthThreshold}%</span>, dapatkan Pertahanan Spirit tambahan."
+		"upgrade_improved_bullet_armor_desc"	"Saat health di bawah <span class=\"highlight\">{s:HealthThreshold}%</span>, dapatkan <span class=\"highlight\">Pertahanan Peluru</span> tambahan."
+
+		// Spellbreaker
+		"upgrade_spellbreaker_desc"				"Serangan {g:citadel_inline_attribute:'SpiritDamage'} tinggi berikutnya yang diterima akan berkurang secara signifikan."
+		"SpiritDamageReductionProc_label"		"Pengurangan Damage Spirit"
+		"SpiritDamageReductionProc_postvalue_label"		"Pengurangan Damage Spirit"
+		"SpiritDamageReductionProc_postfix"		"%"
+
+		"upgrade_juggernaut_slow_desc"			"Musuh yang menembakmu mendapatkan penurunan <span class=\"highlight\">Tingkat Tembakan</span>."
+		"FireRateSlowDuration_label"			"Durasi"
+		"FireRateSlowDuration_postvalue_label"			"Durasi"
+		"FireRateSlowDuration_postfix"			" dtk."
+
+		"upgrade_trophy_collector_desc"			"Setiap kali kamu mendapatkan <span class=\"highlight\">assist atau kill</span>, mendapatkan ekstra <span class=\"highlight\">sprint</span>, <span class=\"highlight\">jangkauan skill</span>, dan <span class=\"highlight\">pengumpulan jiwa pasif</span>. Efek ini diakumulasikan dan terus berlangsung selama death."
+		"StackingGoldPerMinute_label"			"Jiwa per Menit"
+		"StackingGoldPerMinute_postvalue_label"			"Jiwa per Menit"
+		
+		// Indomitable
+		"upgrade_upgrade_auto_cleanse_desc"		"Efek <span class=\"highlight\">Stun, Rantai, Lumpuh, Tidur, Bungkam, atau Takut</span> yang terjadi setelahnya secara otomatis dihapus. Saat ini terjadi, kamu mendapatkan <span class=\"highlight\">pengaman</span> dan semua <span class=\"highlight\">cooldown skill</span> dikurangi sebesar {s:CooldownReductionOnProc}%."
+		
+		//-----------------------------------------------------------------------------
+		// Upgrades: Utility
+		//----------------------------------------------------------------------------- 
+		
+		//Superior Stamina
+		"upgrade_superior_stamina_passive"			"Memungkinkan penggunaan tambahan <span class=\"highlight\">Lompat di Udara</span> atau <span class=\"highlight\">Dash di Udara</span> sebelum mendarat."
+
+		//Enduring Speed
+		"upgrade_cardio_calibrator_desc"			"Mengurangi efek penalti <span class=\"highlight\">Kecepatan Gerakan</span> musuh."
+
+		//Health Nova
+		"upgrade_health_nova_desc"					"<span class=\"highlight\">Menyembuhkan</span> diri sendiri atau rekan tim terdekat."
+
+		//Shadow Weave
+		"upgrade_cloaking_device_active_desc"		"Menjadi <span class=\"highlight\">Tersembunyi</span>. Kamu akan terlihat dengan cepat setiap kali menerima damage saat Tersembunyi."
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>Menyerang atau menggunakan skill akan mengakhiri efek sembunyi dan memulai <span class=\"highlight\">penyergapan</span>, yang memberimu bonus <span class=\"highlight\">Tingkat Tembakan</span>, <span class=\"highlight\">Kekuatan Spirit</span> dan <span class=\"highlight\">Damage Jarak Dekat</span> untuk sementara."
+		"modifier_cloaking_device_active_stealth"		"Tenunan Bayangan - Sembunyi"
+		"modifier_cloaking_device_active_ambush"		"Tenunan Bayangan - Penyergapan"
+		"AmbushBonusTechPower_prefix"					"+"
+		"AmbushBonusTechPower_label"					"Kekuatan Spirit Penyergapan"
+		"AmbushBonusTechPower_postvalue_label"					"Kekuatan Spirit Penyergapan"
+		"AmbushBonusFireRate_prefix"					"+"
+		"AmbushBonusFireRate_label"					"Tingkat Tembakan Penyergapan"
+		"AmbushBonusFireRate_postvalue_label"					"Tingkat Tembakan Penyergapan"
+		"AmbushBonusFireRate_postfix"					"%"
+		"AmbushBonusMeleeDamage_label"					"Damage Jarak Dekat Penyergapan"
+		"AmbushBonusMeleeDamage_postvalue_label"		"Damage Jarak Dekat Penyergapan"
+		"AmbushBonusMeleeDamage_postfix"				"%"
+		"AmbushDuration_label"						"Durasi Penyergapan"
+		"AmbushDuration_postvalue_label"						"Durasi Penyergapan"
+		"AmbushDuration_postfix"						" dtk."
+		"StealthDuration_label"						"Durasi Sembunyi"
+		"StealthDuration_postvalue_label"						"Durasi Sembunyi"
+		"StealthDuration_postfix"						" dtk."
+		"SpottedRadius_label"						"Radius Bidik"
+		"SpottedRadius_postvalue_label"						"Radius Bidik"
+		"SpottedRadius_postfix"						" m"
+
+		//Majestic Leap
+		"upgrade_rocket_booster_desc"				"<span class=\"highlight\">Meluncurkan diri</span> ke udara dan memberikan <span class=\"highlight\">Pengaman</span> untuk diri sendiri. Saat di udara, kamu dapat menggunakan kemampuan ini lagi untuk mendarat lebih cepat.<br><br><span class=\"diminish\">Tidak dapat digunakan selama {s:InterruptCooldown} dtk. jika diserang oleh hero musuh.</span>"
+		"upgrade_rocket_booster_drop_down"			"Drop Down"
+		
+		//Drain Will
+		"SpiritStealDuration_postfix"	" dtk."
+
+		//Reactive Barrier
+		"upgrade_vex_barrier_desc"		"Mendapatkan <span class=\"highlight\">Pengaman</span> saat terkena efek <span class=\"highlight\">Stun, Rantai, Lumpuh, Tidur, atau Bungkam</span>."
+
+		//Spell Shield
+		"upgrade_spellshield_desc"		"Blokir {g:citadel_inline_attribute:'SpiritDamage'} atau <span class=\"highlight\">Debuff</span> berikutnya untuk mencegah efeknya. Hanya dipulihkan di luar pertempuran."
+		"upgrade_spellshield_shield"	"Panji Anti-Spirit"
+		"upgrade_spellshield/modifier_spellshield_linger_buff"  "Penangkal Sihir Hancur!"
+		"SpellShieldFlavorText_label"	"Label!"
+
+		"SpellShieldFlavorText_postvalue_label"	"Label!"
+
+		//Heal On Level
+		"upgrade_heal_on_level_desc"	"Saat menerima<span class=\"highlight\">Hadiah</span>, otomatis <span class=\"highlight\">disembuhkan</span>."
+		"upgrade_heal_on_level_buff"	"Sembuhkan Saat Naik Level"
+		"HealOnlevelHealAmount_label"	"Besar Penyembuhan"
+		"HealOnlevelHealAmount_postvalue_label"	"Besar Penyembuhan"
+		"upgrade_heal_on_level/heal_on_level_buff"			"Sembuhkan Saat Naik Level"
+
+		//Absorbing armor / witchmail
+		"upgrade_absorbing_armor_desc" "Menerima serangan berat dari {g:citadel_inline_attribute:'SpiritDamage'} musuh akan mengurangi <span class=\"highlight\">cooldown skill acak</span>."
+
+		//Healing Buff
+		"upgrade_healbuff_desc" "Memberikan {g:citadel_inline_attribute:'Heal'} untuk diri sendiri atau rekan tim akan memberikan {g:citadel_inline_attribute:'BonusFireRate'} dan {g:citadel_inline_attribute:'BonusMoveSpeed'} pada target.<br><br><span class=\"diminish\"> Tidak diterapkan pada Pemulihan bawaan atau Curi HP Peluru/Spirit pasif.</span>"
+
+		//Infinite Magazine
+		"upgrade_infinitemagazine_desc" "Mendapatkan <span class=\"highlight\">amunisi tanpa batas</span> dan {g:citadel_inline_attribute:'BonusFireRate'}."
+
+		//APRounds
+		"upgrade_aprounds_desc" "Pelurumu memiliki kemungkinan tidak dapat dihindari, <span class=\"highlight\">menembus</span> musuh, dan <span class=\"highlight\">mengabaikan Pertahanan Peluru</span>."
+
+		//Deflecting Armor
+		"upgrade_deflecting_armor_desc" "Mendapatkan kemungkinan untuk menghindari peluru yang menargetmu, menghindari {g:citadel_inline_attribute:'WeaponDamage'}, atau menghindari semua <span class=\"highlight\">semua efek saat terkena</span> peluru."
+		"DeflectionPercent_label" "Persentase Penghindaran"
+		"DeflectionPercent_postvalue_label" "Persentase Penghindaran"
+		"DeflectionPercent_postfix" "%"	
+		
+		"BulletProcDeflectionPercent_label" "Persentase Penghindaran Saat Terkena"
+		"BulletProcDeflectionPercent_postvalue_label" "Persentase Penghindaran Saat Terkena"
+		"BulletProcDeflectionPercent_postfix" "%"
+
+		// Shadow Step Active
+		"upgrade_shadow_step_desc"	"<span class=\"highlight\">Berteleportasi</span> langsung ke target lokasi."
+
+		//Shadow Step Passive
+		"upgrade_shadow_step_passive_desc"	"Secara berkala memberikan {g:citadel_inline_attribute:'SpiritDamage'} kepada semua musuh terdekat."
+
+		"upgrade_haunting_scream_desc"	"Meluncurkan proyektil yang menyebar dan memberikan efek <span class=\"highlight\">Kutukan</span> terhadap musuh untuk sementara waktu."
+		
+		"upgrade_apex_combat_desc"		"Pelurumu akan <span class=\"highlight\">memantul</span> ke musuh di dekat targetmu, menerapkan <span class=\"highlight\">aktivasi peluru apa pun</span> dan <span class=\"highlight\">memberikan sebagian % dari damage asli.</span>"
+
+		"upgrade_aerial_supremacy_passive"			"Memungkinkan penggunaan <span class=\"highlight\">Lompat di Udara</span> <span class=\"highlight\">tanpa batas</span> atau <span class=\"highlight\">Dash di Udara</span> sebelum mendarat."
+
+		"upgrade_infinite_rounds_desc" "Kamu memiliki amunisi <span class=\"highlight\">tanpa batas</span>."
+
+		// BulletShredImbue Ballistic Enchantment
+		"upgrade_bulletshredimbue_desc" "Mengisi skill dengan peningkatan <span class=\"highlight\">jarak</span>. Memberikan damage dengan skill yang memberimu peningkatan <span class=\"highlight\">damage senjata</span> per <span class=\"highlight\">serangan hero unik</span>. Efek berkurang untuk non-hero."
+
+		// Recharging Bullets
+		"upgrade_rechargingbullets_desc" "Memberikan {g:citadel_inline_attribute:'WeaponDamage'} yang signifikan akan memberikan isi ulang untuk <span class=\"highlight\">setiap skill-mu yang diisi daya</span>."
+		"CooldownReductionOnProc_postvalue_label" "Pengurangan Cooldown"
+		"CooldownReductionOnProc_label" "Pengurangan Cooldown"
+		"CooldownReductionOnProc_postfix" " dtk."
+		"CooldownReductionOnProc_prefix" "{s:sign}"
+
+
+		//-----------------------------------------------------------------------------
+		// Street Brawl Tier5
+		//----------------------------------------------------------------------------- 
+		"upgrade_icarus_wings_desc"		"Saat mengudara, kamu memberikan lebih banyak damage dan menerima damage yang dikurangi. Memungkinkan dash dan lompat di udara <span class=\"highlight\">tanpa batas</span>."
+		"upgrade_mystical_piano_desc"	"Setelah penundaan singkat, musuh di area target akan menerima efek stun dan penurunan stamina. Setelah terkena stun, mereka akan linglung untuk sementara waktu."
+		"upgrade_nullification_aura_desc"	"Menghilangkan buff positif dan mencegah penggunaan stamina dan efek penyembuhan pada musuh."
+		"upgrade_nullification_aura_deathdamage_desc"	"Memberikan damage spirit berat saat kamu mati."
+		"upgrade_celestial_guidance_desc"	"Memberikan efek pemurnian yang sangat ampuh yang menyembuhkan semua rekanmu."
+		"upgrade_eternal_gift_desc"			"Memberikan buff permanen secara acak dan berkala."
+		"upgrade_eternal_gift_respawn_desc"		"Mengurangi waktu respawn death selanjutnya."
+		"upgrade_patrons_blessing_desc"			"Memberikanmu dan rekan aura fokus yang kuat. Memiliki efek yang dikurangi pada rekan."
+		"upgrade_patrons_blessing_proc_desc"	"Memberikan <span class=\"highlight\">Damage</span> yang signifikan ke Hero musuh dalam {s:DamageThresholdDuration} dtk. akan menyembuhkan diri sendiri dan sekutu terdekat."
+
+		"AllyPercentage_postvalue_label" "Persentase Rekan"
+		"AllyPercentage_label" "Persentase Rekan"
+		"AllyPercentage_postfix" "%"
+		"AllyPercentage_prefix" "{s:sign}"
+		"RespawnTime_postvalue_label" "Waktu Respawn"
+		"RespawnTime_label" "Waktu Respawn"
+		"RespawnTime_postfix" "%"
+		"RespawnTime_prefix" "{s:sign}"
+
+		"upgrade_eldritch_shot_desc"			"Peluru berikutnya menerapkan debuff kuat yang mengurangi damage, kecepatan penyembuhan, dan kecepatan gerakan musuh. Peluru ini juga memberikan {g:citadel_inline_attribute:'BonusSpiritDamage'} berdasarkan Health target saat ini.<br><br>Peluru lebih besar dan menembus target."
+		"upgrade_cloak_of_opportunity_desc"		"Memblokir debuff berikutnya yang akan menerapkan <span class=\"highlight\">penguncian gerakan, Stun, Rantai, Kelumpuhan, atau Tidur</span> dan menjadi <span class=\"highlight\">Tak Terhentikan</span>. Kemudian, mendapatkan <span class=\"highlight\">Pengaman</span> serta bonus {g:citadel_inline_attribute:'MoveSpeed'}"
+		"upgrade_runed_gauntlets_desc"			"Setiap kali kamu melakukan serangan jarak dekat berat, waktu cooldown saat ini dikurangi."
+		"upgrade_runed_gauntlets_parry_desc"		"Menusuk menembus tangkisan."
+		"upgrade_electric_slippers_desc"		"Saat meluncur, kamu menghindari peluru, mendapatkan tingkat tembakan, dan memberikan damage ke musuh di sekitarmu. <span class=\"diminish\"><br><br>Cooldown berlaku per target.</span>"
+		"upgrade_prism_blast_desc"				"Kamu memasuki masa menghilang dan menjadi <span class=\"highlight\">tidak dapat ditarget dan tak terkalahkan</span> untuk waktu singkat. Selama waktu ini, laser akan ditembakkan dan berputar di sekitarmu."
+		"upgrade_unstable_concoction_desc"		"Menggunakan ramuan yang memberikanmu efek <span class=\"highlight\">Tak Terhentikan</span> dan <span class=\"highlight\">kecepatan, health, spirit, dan damage senjata</span> yang ditingkatkan. Setelah durasi pendek, <span class=\"highlight\">kamu akan mati dan meledak</span>, memberikan stun kepada musuh di sekitar, dan memberikan damage berdasarkan health maksimum milikmu. Mati dengan cara ini akan mengurangi waktu respawn sebesar <span class=\"highlight\">{s:RespawnTimeMod}%</span>."
+		"upgrade_shivas_bracelet_desc"			"Skill Terisi memiliki <span class=\"highlight\">Cooldown yang dikurangi</span> dan <span class=\"highlight\">Kekuatan Spirit</span> yang ditingkatkan. Saat skill memberikan damage, akan <span class=\"highlight\">membekukan</span> target dan memberikan <span class=\"highlight\">bonus damage</span>. <span class=\"diminish\"><br><br>Cooldown berlaku per target.</span>"
+		"upgrade_shadow_strike_desc"			"<span class=\"highlight\">Menggunakan Stamina</span> akan membuatmu <span class=\"highlight\">Tak Terlihat</span> tanpa jangkauan deteksi. Saat tak terlihat, <span class=\"highlight\">serangan jarak dekat</span> akan mencuri <span class=\"highlight\">pertahanan peluru dan pertahanan spirit</span> dari target dan menimbulkan <span class=\"highlight\">damage seiring waktu</span>."
+		"upgrade_omnicharge_pendant_desc"		"Mengisi skill non-ultimate aktif apa pun dengan <span class=\"highlight\">Pengisian Bonus Skill</span>. Skill yang sudah terisi menerima bonus pengisian."
+		"upgrade_omnicharge_pendant_charges"	"Bonus Pengisian Daya"
+
+		//-----------------------------------------------------------------------------
+		// Cosmetic
+		//----------------------------------------------------------------------------- 
+		"cosmetic_ability_snowball"		"Bola Salju"
+		"cosmetic_ability_snowball_desc"		"Lemparkan bola salju ke arah rekan dan musuhmu. Jarak dan properti lainnya meningkat seiring progres <span class=\"highlight\">Tantangan Musim Liburan 2025</span> milikmu. <br><br><span class=\"diminish\">Melemparkan bola salju ke rekan tidak akan menyebabkan damage dan cooldown bola salju akan tereset.</span>"
+		"SnowballSpeed_label"			"Kecepatan Lemparan"
+		"SnowballSpeed_postvalue_label"		"Kecepatan"
+		"SnowballSpeed_postfix"			" m/dtk."
+		"SnowballCount_label"			"Bola Salju Dilempar"
+		"SnowballCount_postvalue_label"		"Proyektil"
+
+		"cosmetic_item_voting_poster"		"Memasang Poster"
+	}
+}

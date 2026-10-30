@@ -1,0 +1,3246 @@
+﻿"lang"
+{
+	"Language"		"indonesian"
+	"Tokens"
+	{
+
+		//-----------------------------------------------------------------------------
+		// Unit states (that we want to show)
+		//-----------------------------------------------------------------------------
+
+		"MODIFIER_STATE_ROOTED"								"Lumpuh"
+		"MODIFIER_STATE_DISARMED"							"Senjata Dilucuti"
+		"MODIFIER_STATE_SILENCED"							"Dibungkam"
+		"MODIFIER_STATE_STUNNED"							"Terkena Stun"
+		"MODIFIER_STATE_INVULNERABLE"						"Kebal"
+		"MODIFIER_STATE_TECH_INVULNERABLE"					"Spirit Kebal"
+		//"MODIFIER_STATE_BURNING"							"Burning"
+
+		// Commenting this out so it doesn't show overhead of the player your applied it to
+		//"MODIFIER_STATE_SLOWED"								"Slowed"
+
+		//"MODIFIER_STATE_BULLET_SHIELD_WEAKENED"				"Weakened Bullet Shield"
+		//"MODIFIER_STATE_IS_ASLEEP"							"Asleep"
+		//"MODIFIER_STATE_BULLET_DAMAGE_TAKEN_ALWAYS_CRITS"	"Crit Vulnerable"		 				
+		"MODIFIER_STATE_CHAINED"							"Dirantai"
+		//"MODIFIER_STATE_ALL_ARMOR_DISABLED"					"Armors Disabled"
+		//"MODIFIER_STATE_BULLET_INVULNERABLE"				"Bulletproof"
+		//"MODIFIER_STATE_DRONE_ATTACHED"						"Drone Attached"
+		//"MODIFIER_STATE_WEAPON_JAMMED"						"Weapon Jammed"
+		"MODIFIER_STATE_TOXIC_BULLETS"						"Beracun"
+		//"MODIFIER_STATE_DISPLAY_LIFETIME"					"Life Time"
+		"MODIFIER_STATE_BLINDED"							"Buta"
+
+		// Status Effects
+		"Citadel_StatusEffect"					"Efek Status"
+		"Citadel_StatusEffectStun"				"Stun"
+		"Citadel_StatusEffectEMP"				"Dibungkam"
+		"Citadel_StatusEffectFreeze"			"Beku"
+		"Citadel_StatusEffectBurn"				"Terbakar"
+		"Citadel_StatusEffectBleed"				"Pendarahan"
+		"Citadel_StatusEffectSleep"				"Tidur"
+		"Citadel_StatusEffectTethered"			"Tambat"
+		"Citadel_StatusEffectImmobilize" 		"Lumpuh"
+		"Citadel_StatusEffectDisarmed"			"Pelucutan Senjata"
+		"Citadel_StatusEffectInvisible"			"Tak Terlihat"
+		"Citadel_StatusEffectPetrify"			"Membatu"
+		"Citadel_StatusEffectCustomDebuff"		"Debuff"
+		//"Citadel_StatusEffectStacks"			"Stacks "
+		"Citadel_StatusEffectInfiniteClip"		"Amunisi Tanpa Batas"
+		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
+		//"Citadel_StatusEffectBuff"				"Buff"
+		"Citadel_StatusEffectUnstoppable"		"Tak Terhentikan"
+		"Citadel_StatusEffectDisplacement"		"Perpindahan"
+		"Citadel_StatusEffectSilence"			"Bungkam"
+		"Citadel_StatusEffectCurse"				"Kutukan"
+
+		//"modifier_citadel_in_shop"				"In Shop"	
+		"modifier_citadel_in_fountain"			"Markas"
+		"modifier_citadel_pre_match_wait"		"Menunggu dimulai"
+		//"modifier_citadel_rapid_fire"			"Bullet Storm"
+		//"modifier_citadel_damageboost"			"Damage Boost"
+		//"modifier_citadel_damage_reduction" 	"Armor Boost"
+		"modifier_slowaura" 					"Diperlambat"
+		"modifier_citadel_slowtarget" 			"Diperlambat"
+		"modifier_citadel_lineslow"				"Diperlambat"
+		"modifier_slow_base"																		"Diperlambat"
+		"modifier_damageovertime" 				"Pendarahan"
+		"modifier_citadel_stunned" 				"Terkena Stun"
+		"modifier_citadel_knockdown"			"Terkena Stun"
+		"modifier_citadel_delayed_stun"			"Penundaan Stun"
+		//"modifier_citadel_knockdown_stumble"	"Stumble"
+		"modifier_citadel_banished"				"Dibuang"
+		"modifier_citadel_tethered"				"Tertambat"
+		//"modifier_citadel_speed_boost" 			"Speed Boost"
+		//"modifier_pullaura" 					"Pulled"
+		//"modifier_healaura" 					"Healing"
+		"modifier_citadel_root"					"Lumpuh"
+		//"modifier_citadel_charging" 			"Charging"
+		//"modifier_invis" 						"Stealthed"
+		//"modifier_invis_start_delay" 			"Entering Stealth"
+		//"modifier_invis_fading"					"Fading"
+		//"modifier_camouflage_invis"				"Camouflaged"
+		"modifier_citadel_silenced"				"Dibungkam"
+		"silencer_immune"						"Kebal Peredam"
+		//"modifier_citadel_muted"				"Muted"
+		"modifier_citadel_disarmed"				"Senjata Dilucuti"
+		"modifier_citadel_tech_shield"		"Perisai Spirit"
+		"modifier_citadel_revealed_on_map"		"Ditampilkan"
+		"modifier_citadel_cursed"				"Dikutuk"
+		"modifier_citadel_feared"				"Ditakuti"
+
+		"modifier_item_disarmed"				"Senjata Dilucuti"
+		"modifier_citadel_disarm_proc"			"Senjata Dilucuti"
+		//"modifier_citadel_disarm_proc_buildup"	"Disarming..."
+		//"disarm_immune"							"Disarm Immune"
+		//"modifier_citadel_dodging"				"Dodging"
+		//"modifier_prevent_healing"				"Healing Disabled"
+		
+		//"modifier_obscured_by_steam"			"Obscured"
+		"modifier_citadel_unstick" 				"Membebaskan diri"
+		"modifier_citadel_barrier"				"Pengaman"
+
+		"base_stat_regen"						"Pemulihan Dasar Hero"
+		"modifier_citadel_dazed"				"Linglung"
+
+		//-----------------------------------------------------------------------------
+		// END Unit states
+		//-----------------------------------------------------------------------------
+
+
+		//-----------------------------------------------------------------------------
+		// Ability Property Text
+		//-----------------------------------------------------------------------------
+		"Citadel_AbilityProperty_OnHit"			"Saat Terkena:"
+		"Citadel_AbilityProperty_OnExplode"		"Saat Meledak:"
+		"Citadel_AbilityProperty_OnAttach"		"Saat Dipasang:"
+		"Citadel_AbilityProperty_BulletBuildup"	"Peningkatan Peluru:"
+		"Citadel_AbilityProperty_OnPickup"		"Saat Diambil:"
+		"Citadel_AbilityProperty_Withdrawals"	"Penarikan:"
+		"Citadel_AbilityProperty_OnHitEnemy"	"Saat Terkena Musuh:"
+		"Citadel_AbilityProperty_OnHitFriendly"	"Saat Terkena Rekan Tim:"
+		"Citadel_AbilityProperty_OnCursedCast"	"Saat Penggunaan Kutukan:"
+
+
+		//-----------------------------------------------------------------------------
+		// Stat desc - These are the labels in the hero stats for each EStatType
+		//-----------------------------------------------------------------------------
+		"StatDesc_DPS"									"DPS"
+		"StatDesc_DPS_postvalue_label"									"DPS"
+		"StatDesc_MeleeDamage"							"Damage Jarak Dekat"
+		"StatDesc_MeleeDamage_postvalue_label"							"Damage Jarak Dekat"
+		"StatDesc_LightMeleeDamage"						"Jarak Dekat Ringan"
+		"StatDesc_LightMeleeDamage_postvalue_label"						"Jarak Dekat Ringan"
+		"StatDesc_HeavyMeleeDamage"						"Jarak Dekat Berat"
+		"StatDesc_HeavyMeleeDamage_postvalue_label"						"Jarak Dekat Berat"
+		"StatDesc_MaxHealth"							"Health Maks."
+		"StatDesc_MaxHealth_postvalue_label"							"Health Maks."
+		"StatDesc_ClipSizeBonus"						"Amunisi"
+		"StatDesc_ClipSizeBonus_postvalue_label"						"Amunisi"
+		"StatDesc_ClipSizeIncrease"						"Peningkatan Ukuran Klip"
+		"StatDesc_ClipSizeIncrease_postvalue_label"						"Peningkatan Ukuran Klip"
+		"StatDesc_ClipSizeIncrease_postfix"				"%"
+		//"StatDesc_BonusClips"							"Clips"
+		//"StatDesc_AmmoRegen"							"Ammo Regen"
+		"StatDesc_HealthRegen"							"Pemulihan Health"
+		"StatDesc_HealthRegen_postvalue_label"							"Pemulihan Health"
+		"StatDesc_BaseHealthRegen"						"Pemulihan Health"
+		"StatDesc_BaseHealthRegen_postvalue_label"						"Pemulihan Health"
+		"StatDesc_OutOfCombatHealthRegen"				"Pemulihan Saat Tidak Bertarung"
+		"StatDesc_OutOfCombatHealthRegen_postvalue_label"				"Pemulihan Saat Tidak Bertarung"
+		//"StatDesc_ExternalHealthRegen"					"External Health Regen"
+		"StatDesc_RunSpeed"								"Kecepatan Gerakan"
+		"StatDesc_RunSpeed_postvalue_label"								"Kecepatan Gerakan"
+		"StatDesc_RunSpeed_postfix"						" m/dtk."
+		"StatDesc_SprintSpeed"							"Kecepatan Sprint"
+		"StatDesc_SprintSpeed_postvalue_label"							"Kecepatan Sprint"
+		"StatDesc_SprintSpeed_postfix"					" m/dtk."
+		//"StatDesc_RunAcceleration"						"Move Acceleration"
+		//"StatDesc_SprintAcceleration"					"Sprint Acceleration"
+		"StatDesc_IncomingDamageReduction"				"Armor"
+		"StatDesc_IncomingDamageReduction_postvalue_label"				"Armor"
+		//"StatDesc_IncomingDamageScale"					"Incoming Damage Scale"
+		"StatDesc_BulletArmor"							"Armor"
+		"StatDesc_BulletArmor_postvalue_label"							"Armor"
+		"StatDesc_BulletArmorDamageReduction"			"Pertahanan Peluru"
+		"StatDesc_BulletArmorDamageReduction_postvalue_label"			"Pertahanan Peluru"
+		"StatDesc_BulletArmorDamageReduction_postfix"	"%"
+		//"StatDesc_IncomingBulletDamageReduction"		"Bullet Damage Armor"
+		//"StatDesc_IncomingBulletDamageScale"			"Bullet Damage Scale"
+		//"StatDesc_IncomingMeleeDamageReduction"			"Melee Damage Armor"
+		//"StatDesc_IncomingMeleeDamageScale"				"Melee Damage Scale"
+		"StatDesc_TechArmor"							"Armor Spirit"
+		"StatDesc_TechArmor_postvalue_label"							"Armor Spirit"
+		"StatDesc_TechArmorDamageReduction"		 		"Pertahanan Spirit"
+		"StatDesc_TechArmorDamageReduction_postvalue_label"		 		"Pertahanan Spirit"
+		"StatDesc_TechArmorDamageReduction_postfix"		"%"
+		//"StatDesc_IncomingAbilityDamageReduction"		"Ability Armor"
+		//"StatDesc_IncomingAbilityDamageScale"			"Ability Damage Scale"
+		"StatDesc_TechPower"							"Kekuatan Spirit"
+		"StatDesc_TechPower_postvalue_label"							"Kekuatan Spirit"
+		//"StatDesc_ManaPerLevel"							"Energy Per Level"
+		//"StatDesc_HealthPerLevel"						"Health Per Level"
+		//"StatDesc_ManaRegenPerLevel"					"Energy Regen Per Level"
+		//"StatDesc_HealthRegenPerLevel"					"Health Regen Per Level"
+		//"StatDesc_WeaponDPSPerLevel"					"Weapon DPS Per Level"
+		//"StatDesc_SuperSprintSpeed"						"Super Sprint Speed"
+		//"StatDesc_WeaponRange"							"Range"
+		//"StatDesc_WeaponRecoilReduction"				"Recoil Reduction"
+		"StatDesc_FireRate"								"Tingkat Tembakan"
+		"StatDesc_FireRate_postvalue_label"								"Tingkat Tembakan"
+		"StatDesc_FireRate_postfix"						"%"
+		//"StatDesc_Toughness"							"Toughness"
+		//"StatDesc_Technology"							"Technology"
+		//"StatDesc_Weaponry"								"Weaponry"
+		"StatDesc_WeaponPower"							"Damage Senjata"
+		"StatDesc_WeaponPower_postvalue_label"							"Damage Senjata"
+		"StatDesc_BulletDamage"							"Damage Peluru"
+		"StatDesc_BulletDamage_postvalue_label"							"Damage Peluru"
+		//"StatDesc_TechPowerAmp"							"Spirit"
+		//"StatDesc_EnergyMax"							"Energy Cells"
+		//"StatDesc_EnergyRegenTime"						"Energy Regen Time"
+		"StatDesc_RoundsPerSecond"						"Peluru per dtk."
+		"StatDesc_RoundsPerSecond_postvalue_label"						"Peluru per dtk."
+		//"StatDesc_BulletDamagePerLevel"					"Bullet Damage Per Level"
+		//"StatDesc_WeaponPowerAmp"						"Bullet Damage Amp"
+		//"StatDesc_AirJumps"								"Air Jumps"
+		//"StatDesc_ZipLineSpeed"							"Hyperline Speed"
+		//"StatDesc_ProcModifier"							"Proc Modifier"
+		"StatDesc_TechCooldown"							"Cooldown Skill"
+		"StatDesc_TechCooldown_postvalue_label"							"Cooldown Skill"
+		"StatDesc_TechCooldown_postfix"					"%"
+		"StatDesc_TechCooldownBetweenCharges"			"Cooldown Isi Daya"
+		"StatDesc_TechCooldownBetweenCharges_postvalue_label"			"Cooldown Isi Daya"
+		"StatDesc_TechCooldownBetweenCharges_postfix"	"%"
+		"StatDesc_TechRange"							"Jangkauan Skill"
+		"StatDesc_TechRange_postvalue_label"							"Jangkauan Skill"
+		"StatDesc_TechRange_postfix"					"%"
+		"StatDesc_MaxChargesIncrease"					"Peningkatan Isi Daya Maks."
+		"StatDesc_MaxChargesIncrease_postvalue_label"					"Peningkatan Isi Daya Maks."
+		//"StatDesc_RechargeRate"							"Recharge Rate"
+		"StatDesc_TechDuration"							"Durasi Skill"
+		"StatDesc_TechDuration_postvalue_label"							"Durasi Skill"
+		"StatDesc_TechDuration_postfix"					"%"
+		"StatDesc_WeaponPowerAttribute"					"Damage Senjata"
+		"StatDesc_WeaponPowerAttribute_postvalue_label"					"Damage Senjata"
+		"StatDesc_ArmorAttribute"						"Armor"
+		"StatDesc_ArmorAttribute_postvalue_label"						"Armor"
+		"StatDesc_HealthAttribute"						"Health"
+		"StatDesc_HealthAttribute_postvalue_label"						"Health"
+		"StatDesc_TechDamageAttribute"					"Damage Spirit"
+		"StatDesc_TechDamageAttribute_postvalue_label"					"Damage Spirit"
+		"StatDesc_FireRateAttribute"					"Tingkat Tembakan"
+		"StatDesc_FireRateAttribute_postvalue_label"					"Tingkat Tembakan"
+		"StatDesc_ReloadTime"							"Durasi Isi Ulang"
+		"StatDesc_ReloadTime_postvalue_label"							"Durasi Isi Ulang"
+		"StatDesc_ReloadTime_postfix"					" dtk."
+		"StatDesc_Stamina"								"Stamina"
+		"StatDesc_Stamina_postvalue_label"								"Stamina"
+		"StatDesc_StaminaRegenPerSecond"				"Pemulihan Stamina"
+		"StatDesc_StaminaRegenPerSecond_postvalue_label"				"Pemulihan Stamina"
+		"StatDesc_StaminaRegenPerSecond_postfix"		"%"
+		"StatDesc_DashSpeedInMeters"								"Kecepatan Dash"
+		"StatDesc_DashSpeedInMeters_postvalue_label"				"Kecepatan Dash"
+		"StatDesc_DashSpeedInMeters_postfix"						" m/dtk."
+		"StatDesc_SpiritLifestealEffectiveness"					"Efektivitas Curi HP"
+		"StatDesc_SpiritLifestealEffectiveness_postvalue_label"				"Efektivitas Curi HP"
+		"StatDesc_SpiritLifestealEffectiveness_postfix"						"%"
+		"StatDesc_BaseWeaponDamage"						"Damage Senjata"
+		"StatDesc_BaseWeaponDamage_postvalue_label"						"Damage Senjata"
+		"StatDesc_BaseWeaponDamage_postfix"				"%"
+		"StatDesc_TechDamageScale"						"Damage Spirit"
+		"StatDesc_TechDamageScale_postvalue_label"						"Damage Spirit"
+		//"StatDesc_TechShieldHealth"						"Spirit Shield"
+		"StatDesc_BulletShieldHealth"					"Perisai Damage"
+		"StatDesc_BulletShieldHealth_postvalue_label"					"Perisai Damage"
+		"StatDesc_ReloadSpeed_prefix"					"{s:sign}"
+		"StatDesc_ReloadSpeed"							"Pengurangan Isi Ulang"
+		"StatDesc_ReloadSpeed_postvalue_label"							"Pengurangan Isi Ulang"
+		"StatDesc_ReloadSpeed_postfix"					"%"
+		"StatDesc_CritDamageReceivedScale"				"Pengurangan Damage Kritis"
+		"StatDesc_CritDamageReceivedScale_postvalue_label"				"Pengurangan Damage Kritis"
+		"StatDesc_CritDamageReceivedScale_postfix"		"%"
+		"StatDesc_StaminaCooldown"						"Cooldown Stamina"
+		"StatDesc_StaminaCooldown_postvalue_label"						"Cooldown Stamina"
+		"StatDesc_StaminaCooldown_postfix"				" dtk."
+		"StatDesc_StaminaRegenIncrease_prefix"			"+"
+		"StatDesc_StaminaRegenIncrease"					"Pemulihan Stamina"
+		"StatDesc_StaminaRegenIncrease_postvalue_label"					"Pemulihan Stamina"
+		"StatDesc_StaminaRegenIncrease_postfix"			"%"
+		"StatDesc_DebuffResist"							"Pertahanan Debuff"
+		"StatDesc_DebuffResist_postvalue_label"							"Pertahanan Debuff"
+		"StatDesc_DebuffResist_postfix"					"%"
+		"StatDesc_HealingOutput"						"Penyembuhan Diberikan"
+		"StatDesc_HealingOutput_postvalue_label"						"Penyembuhan Diberikan"
+		"StatDesc_HealingOutput_postfix"				"%"
+		"StatDesc_CritDamageBonusScale"					"Tingkat Bonus Kritis"
+		"StatDesc_CritDamageBonusScale_postvalue_label"					"Tingkat Bonus Kritis"
+		"StatDesc_CritDamageBonusScale_postfix"			"%"
+		"StatDesc_MeleeResist"							"Pertahanan Jarak Dekat"
+		"StatDesc_MeleeResist_postvalue_label"							"Pertahanan Jarak Dekat"
+		"StatDesc_MeleeResist_postfix"					"%"
+
+		"StatDesc_BulletSpeed"							"Kecepatan Peluru"
+		"StatDesc_BulletSpeed_postvalue_label"							"Kecepatan Peluru"
+		"StatDesc_BulletSpeed_postfix"					" m/dtk."
+		"StatDesc_BulletSpeedIncrease"					"Peningkatan Kecepatan Peluru"
+		"StatDesc_BulletSpeedIncrease_postvalue_label"					"Peningkatan Kecepatan Peluru"
+		"StatDesc_BulletSpeedIncrease_postfix"			"%"
+		
+		"StatDesc_WeaponRangeFalloffMin_postfix"		" m"
+		"StatDesc_WeaponRangeFalloffMax_postfix"		" m"
+
+		//"StatDesc_AttackPower"							"Attack Power"
+		//"StatDesc_AbilityPower"							"Ability Power"
+		//"StatDesc_DefensePower"							"Defense Power"
+
+		"StatDesc_TechLifesteal_prefix"					"{s:sign}"
+		"StatDesc_TechLifesteal"						"Curi HP Spirit"
+		"StatDesc_TechLifesteal_postvalue_label"						"Curi HP Spirit"
+		"StatDesc_TechLifesteal_postfix"				"%"
+
+		"StatDesc_TechLifestealNonHero_prefix"			"{s:sign}"
+		"StatDesc_TechLifestealNonHero"					"Curi HP Spirit pada Non-Hero"
+		"StatDesc_TechLifestealNonHero_postvalue_label"					"Curi HP Spirit pada Non-Hero"
+
+		"StatDesc_BulletLifesteal_prefix"					"{s:sign}"
+		"StatDesc_BulletLifesteal"						"Curi HP Peluru"
+		"StatDesc_BulletLifesteal_postvalue_label"						"Curi HP Peluru"
+		"StatDesc_BulletLifesteal_postfix"				"%"
+
+		"StatDesc_StaminaRegenPercent"						"Pemulihan Stamina"
+		"StatDesc_StaminaRegenPercent_postvalue_label"						"Pemulihan Stamina"
+		"StatDesc_StaminaRegenPercent_postfix"				"%"
+
+		"Attribute_EWeaponAttribute_RapidFire"			"Tembakan Beruntun"
+		"Attribute_EWeaponAttribute_BurstFire"			"Tembakan Beruntun"
+		"Attribute_EWeaponAttribute_Spreadshot"			"Tembakan Tersebar"
+		"Attribute_EWeaponAttribute_BeamWeapon"			"Senjata Laser"
+		"Attribute_EWeaponAttribute_CloseRange"			"Jarak Dekat"
+		"Attribute_EWeaponAttribute_MediumRange"		"Jarak Menengah"
+		"Attribute_EWeaponAttribute_LongRange"			"Jarak Jauh"
+		"Attribute_EWeaponAttribute_HeavyHitter"		"Si Palu Godam"
+		"Attribute_EWeaponAttribute_Projectile"			"Proyektil"
+		"Attribute_EWeaponAttribute_Pistol"				"Pistol"
+		"Attribute_EWeaponAttribute_Heavy"				"Artileri Berat"
+		"Attribute_EWeaponAttribute_Bow"				"Busur"
+		"Attribute_EWeaponAttribute_Bouncy"				"Memantul"
+		"Attribute_EWeaponAttribute_Crossbow"			"Busur Panah"
+		
+
+		//"WeaponPowerAttribute_Desc"						"%s1 to any weapon damage bonus"
+		//"ArmorAttribute_Desc"							"%s1 to any bullet and spirit armor bonus"
+		//"HealthAttribute_Desc"							"%s1 to any health and health regen bonuses"
+		//"TechDamageAttribute_Desc"						"%s1 to any spirit damage bonus"
+		//"FireRateAttribute_Desc"						"%s1 to any weapon fire rate bonus"
+
+		//"WeaponPowerAttribute_Desc_0"					"no additional weapon damage bonuses"
+		//"ArmorAttribute_Desc_0"							"no additional bullet armor bonuses"
+		//"HealthAttribute_Desc_0"						"no additional health and health regen bonuses"
+		//"TechDamageAttribute_Desc_0"					"no additional spirit damage bonuses"
+		//"FireRateAttribute_Desc_0"						"no additional weapon fire rate bonuses"
+
+		//-----------------------------------------------------------------------------
+		// END Stat desc
+		//-----------------------------------------------------------------------------
+
+		//-----------------------------------------------------------------------------
+		// Ability Properties desc
+		//-----------------------------------------------------------------------------
+		"AffectedProperty_new_value"				"<span class=\"AffectedValNew\">{s:valNew}</span>"
+		"AffectedPropertyPostFix"					"<span class=\"AffectedValPostfix\">{s:valPostfix}</span>"
+
+		"EMultiplyBase_postfix"						"%"
+
+		"HealAmount_label"							"Besar Penyembuhan"
+
+		"HealAmount_postvalue_label"							"Besar Penyembuhan"
+		"HealInterval_label"						"Interval Penyembuhan"
+		"HealInterval_postvalue_label"						"Interval Penyembuhan"
+		"HealInterval_postfix"						" dtk."
+		
+		"SlowPercent_label"							"Kecepatan Gerakan"
+		"SlowPercent_postvalue_label"				"Kecepatan Gerakan"
+		"SlowPercent_postfix"						"%"
+		"SlowPercent_prefix"						"-"
+		"movement_slow"								"-kecepatan gerakan"
+
+		"SlowPercentPerStack"						"Kecepatan Gerakan per Akumulasi"
+		"SlowPercentPerStack_postvalue_label"		"Kecepatan Gerakan per Akumulasi"
+		"SlowPercentPerStack_postfix"						"%"
+		"SlowPercentPerStack_prefix"						"-"
+
+		"MovementSpeedSlow_label"							"Kecepatan Gerakan"
+		"MovementSpeedSlow_postvalue_label"					"Kecepatan Gerakan"
+		"MovementSpeedSlow_postfix"							"%"
+		"MovementSpeedSlow_prefix"							"-"
+
+		"MovementSlowDuration_label"						"Durasi Perlambatan"
+		"MovementSlowDuration_postvalue_label"				"Durasi Perlambatan"
+		"MovementSlowDuration_postfix"						" dtk."
+
+		"MoveSpeedBonusPct_label"				"Bonus Kecepatan Gerakan"
+		"MoveSpeedBonusPct_postvalue_label"		"Bonus Kecepatan Gerakan"
+		"MoveSpeedBonusPct_prefix"				"+"
+		"MoveSpeedBonusPct_postfix"				"%"
+
+		//"DroneLifetime_label"							"Drone Lifetime"
+
+		"CritChance_label"							"Peluang Kritis"
+
+		"CritChance_postvalue_label"							"Peluang Kritis"
+		"CritChance_postfix"							"%"
+
+		"ShieldHealth_label"							"Perisai Health"
+
+
+		"ShieldHealth_postvalue_label"							"Perisai Health"
+
+		//"SpeedBoostPercent_label"						"Speed"
+		"SpeedBoostPercent_prefix"						"{s:sign}"
+		"SpeedBoostPercent_postfix"						"%"
+
+		"Damage_label"								"Damage"
+		"Damage_postvalue_label"								"Damage"
+		
+		"DamagePerStack_label"								"Damage per Akumulasi"
+		"DamagePerStack_postvalue_label"					"Damage per Akumulasi"
+
+		"DamageBoosted_label"						"Damage"
+		"DamageBoosted_postvalue_label"						"Damage"
+
+		"BonusDamage_label"							"Bonus Damage"
+		"BonusDamage_postvalue_label"							"Bonus Damage"
+
+		"BonusDamagePercent_label"							"Bonus Damage"
+		"BonusDamagePercent_postvalue_label"							"Bonus Damage"
+		"BonusDamagePercent_prefix"						"{s:sign}"
+		"BonusDamagePercent_postfix"						"%"
+
+		"DamagePlayer_label"							"Damage ke Pemain"
+		"DamagePlayer_postvalue_label"							"Damage ke Pemain"
+
+		"DamageNPC_label"								"Damage ke non-Pemain"
+
+
+		"DamageNPC_postvalue_label"								"Damage ke non-Pemain"
+
+		"DetectionRadius_label"						"Radius Deteksi"
+
+
+		"DetectionRadius_postvalue_label"						"Radius Deteksi"
+
+		//"MaxMines_label"								"Max Mines"
+	
+		//"HealRate_label"								"Heal Rate"
+		"HealRate_postfix"								"/dtk."
+
+		"Radius_label"								"Radius"
+
+		"Radius_postvalue_label"								"Radius"
+		"Radius_postfix"								" m"
+
+		"InactiveRadius_label"						"Radius Tidak Aktif"
+
+		"InactiveRadius_postvalue_label"						"Radius Tidak Aktif"
+		"InactiveRadius_postfix"						" m"
+
+		"ActiveRadius_label"						"Radius Aktif"
+
+		"ActiveRadius_postvalue_label"						"Radius Aktif"
+		"ActiveRadius_postfix"						" m"
+
+		"MaxRadius_label"								"Radius Maks."
+		"MinRadius_postvalue_label"					"Radius Min."
+		"MinRadius_postfix"							" m"
+		"MaxRadius_postvalue_label"								"Radius Maks."
+		"MaxRadius_postfix"								" m"
+
+		//"TackleRadius_label"							"Tackle Radius"
+		"TackleRadius_postfix"							" m"
+
+		"MovementDamagePercent_label"					"Damage"
+
+		"MovementDamagePercent_postvalue_label"					"Damage"
+"DPS_label"									"Damage per Detik"
+
+		"DPS_postvalue_label"									"Damage per Detik"
+
+		"DamagePercentHealth_label"				"Health Maks. menjadi Damage"
+
+		"DamagePercentHealth_postvalue_label"				"Health Maks. menjadi Damage"
+		"DamagePercentHealth_postfix"			"%"
+		"DPSPercentHealth_label" "Health Maks. menjadi Damage"
+		"DPSPercentHealth_postvalue_label" "Health Maks. menjadi Damage"
+		"DPSPercentHealth_postfix" "%"
+
+		//"DPSIncrease_label"							"Damage Increase Rate"
+		"DPSMin_label"								"DPS Min."
+		"DPSMin_postvalue_label"								"DPS Min."
+		"DPSMax_label"								"DPS Maks."
+
+		"DPSMax_postvalue_label"								"DPS Maks."
+
+		"DPS_Self_label"								"Damage Diri"
+
+		"DPS_Self_postvalue_label"								"Damage Diri"
+		"DPS_Self_postfix"								"/dtk."
+
+		"BaseAttackDamage_prefix"						"{s:sign}"
+		"BaseAttackDamage_label"						"Damage Dasar"
+		"BaseAttackDamage_postvalue_label"						"Damage Dasar"
+
+		"MODIFIER_VALUE_BASEATTACK_DAMAGE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_BASEATTACK_DAMAGE_label"						"Damage Dasar"
+		"MODIFIER_VALUE_BASEATTACK_DAMAGE_postvalue_label"						"Damage Dasar"
+
+		"BonusHealth_prefix"							"{s:sign}"
+		"BonusHealth_label"							"Bonus Health"
+		"BonusHealth_postvalue_label"							"Bonus Health"
+
+		"MODIFIER_VALUE_HEALTH_MAX_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_HEALTH_MAX_label"							"Bonus Health"
+		"MODIFIER_VALUE_HEALTH_MAX_postvalue_label"							"Bonus Health"
+
+		"SpiritPowerInnate_prefix"							"{s:sign}"
+		"SpiritPowerInnate_label"							"Kekuatan Spirit"
+		"SpiritPowerInnate_postvalue_label"					"Kekuatan Spirit"
+
+		"MaxHealth_prefix"							"{s:sign}"
+		"MaxHealth_label"							"Health Maks."
+
+		"MaxHealth_postvalue_label"							"Health Maks."
+
+		//"BonusEnergyMax_label"						"Energy Cells"
+
+		"BonusMaxHealth_prefix"							"{s:sign}"
+		"BonusMaxHealth_label"						"Health Maks."
+
+		"BonusMaxHealth_postvalue_label"						"Health Maks."
+
+		"BonusHealthPercent_prefix"					"{s:sign}"
+		"BonusHealthPercent_postfix"				"%"
+		"BonusHealthPercent_label"					"Health"
+		"BonusHealthPercent_postvalue_label"					"Health"
+
+		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_postfix"				"%"
+		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_label"					"Health"
+		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_postvalue_label"					"Health"
+
+		"BonusHealthRegen_prefix"					"{s:sign}"
+		"BonusHealthRegen_label"					"Pemulihan Health"
+		"BonusHealthRegen_postvalue_label"					"Pemulihan Health"
+
+		"MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND_label"					"Pemulihan Health"
+		"MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND_postvalue_label"					"Pemulihan Health"
+
+		"OutOfCombatHealthRegen_prefix"					"{s:sign}"
+		"OutOfCombatHealthRegen_label"					"Pemulihan Saat Tidak Bertarung"
+		"OutOfCombatHealthRegen_postvalue_label"					"Pemulihan Saat Tidak Bertarung"
+
+		"MODIFIER_VALUE_OUT_OF_COMBAT_HEALTH_REGEN_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_OUT_OF_COMBAT_HEALTH_REGEN_label"					"Pemulihan Saat Tidak Bertarung"
+		"MODIFIER_VALUE_OUT_OF_COMBAT_HEALTH_REGEN_postvalue_label"					"Pemulihan Saat Tidak Bertarung"
+
+		"BaseWeaponDamage_postfix"						"%"
+
+		//"LevelUpBaseWeaponDamage"					"Bullet Damage"
+		"LevelUpBaseMeleeDamage"					"Damage Jarak Dekat"
+
+		"HealthRegen_prefix"						"{s:sign}"
+		"HealthRegen_label"						"Pemulihan Health"
+
+		"HealthRegen_postvalue_label"						"Pemulihan Health"
+
+		"BonusRegenMaxHealthPercent_prefix"					"{s:sign}"
+		"BonusRegenMaxHealthPercent_postfix"					"%"
+		"BonusRegenMaxHealthPercent_label"						"Pemulihan Health Maks."
+		"BonusRegenMaxHealthPercent_postvalue_label"						"Pemulihan Health Maks."
+
+		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_postfix"					"%"
+		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_label"						"Pemulihan Health Maks."
+		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_postvalue_label"						"Pemulihan Health Maks."
+
+		"BonusHealthRegenOutOfCombat_prefix"			"{s:sign}"
+		//"BonusHealthRegenOutOfCombat_postfix"			""
+		//"BonusHealthRegenOutOfCombat_label"			"Health Regen Out of Combat"
+
+		"ExternalBonusHealthRegen_prefix"				"{s:sign}"
+		"ExternalBonusHealthRegen_postfix"				"/dtk."
+		"ExternalBonusHealthRegen_label"				"Pemulihan Health"
+		"ExternalBonusHealthRegen_postvalue_label"				"Pemulihan Health"
+
+		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_postfix"				"/dtk."
+		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_label"				"Pemulihan Health"
+		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_postvalue_label"				"Pemulihan Health"
+
+		"ActiveHealthRegenBoost_prefix"					"{s:sign}"
+		//"ActiveHealthRegenBoost_postfix"				"hp/s"
+		"ActiveHealthRegenBoost_label"				"Pemulihan Health"
+
+		"ActiveHealthRegenBoost_postvalue_label"				"Pemulihan Health"
+
+		"NonPlayerBonusWeaponPower_label"			"Damage Senjata terhadap NPC"
+		"NonPlayerBonusWeaponPower_postvalue_label"			"Damage Senjata terhadap NPC"
+		"NonPlayerBonusWeaponPower_prefix"			"{s:sign}"
+		"NonPlayerBonusWeaponPower_postfix"			"%"
+		"NonPlayerBonusWeaponPower_conditional"		"terhadap NPC"
+
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_label"			"Damage Senjata terhadap NPC"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_postvalue_label"			"Damage Senjata terhadap NPC"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_prefix"			"{s:sign}"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_postfix"			"%"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_conditional"		"terhadap NPC"
+
+		"NonPlayerBulletResist_label"			"Pertahanan Peluru terhadap NPC"
+
+		"NonPlayerBulletResist_postvalue_label"			"Pertahanan Peluru terhadap NPC"
+		"NonPlayerBulletResist_prefix"			"{s:sign}"
+		"NonPlayerBulletResist_postfix"			"%"
+		"NonPlayerBulletResist_conditional"		"terhadap NPC"
+
+		"BonusMeleeDamagePercent_prefix"				"{s:sign}"
+		"BonusMeleeDamagePercent_postfix"				"%"
+		"BonusMeleeDamagePercent_label"				"Damage Jarak Dekat"
+
+		"BonusMeleeDamagePercent_postvalue_label"				"Damage Jarak Dekat"
+
+		"BonusMeleeDamage_prefix"						"{s:sign}"
+		"BonusMeleeDamage_label"						"Damage Jarak Dekat"
+
+		"BonusMeleeDamage_postvalue_label"						"Damage Jarak Dekat"
+
+		"MODIFIER_VALUE_MELEEATTACK_DAMAGE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_MELEEATTACK_DAMAGE_label"						"Damage Jarak Dekat"
+
+		"MODIFIER_VALUE_MELEEATTACK_DAMAGE_postvalue_label"						"Damage Jarak Dekat"
+
+		"FuseTime_label"								"Waktu Tunggu Peledakan"
+
+		"FuseTime_postvalue_label"								"Waktu Tunggu Peledakan"
+		"FuseTime_postfix"								" dtk."
+
+		"BonusAmmoRegen_prefix"							"{s:sign}"
+		"BonusAmmoRegen_postfix"						" per detik"
+		//"BonusAmmoRegen_label"						"Ammo Regen"
+
+		"BonusAmmo_prefix"								"{s:sign}"
+		"BonusAmmo_postfix"								"%"
+		//"BonusAmmo_label"								"Bullets"
+
+		"Lifetime_postfix"								" dtk."
+		"Lifetime_label"								"Durasi Aktif"
+
+		"Lifetime_postvalue_label"								"Durasi Aktif"
+
+		"Distance_postfix"								" m"
+		//"Distance_label"								"Distance"
+
+		//"ChainDamageCoeff_postfix"						"% of gun damage"
+		//"ChainDamageCoeff_label"						"Chain Damage"
+
+		"BulletArmor_prefix"							"{s:sign}"
+		"BulletArmor_label"								"Armor Peluru"
+		"BulletArmor_postvalue_label"								"Armor Peluru"
+
+		"MODIFIER_VALUE_BULLET_ARMOR_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_BULLET_ARMOR_label"								"Armor Peluru"
+		"MODIFIER_VALUE_BULLET_ARMOR_postvalue_label"								"Armor Peluru"
+
+		"BulletResist_prefix"							"{s:sign}"
+		"BulletResist_postfix"							"%"
+		"BulletResist_label"							"Pertahanan Peluru"
+		"BulletResist_postvalue_label"							"Pertahanan Peluru"
+
+		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_postfix"							"%"
+		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_label"							"Pertahanan Peluru"
+		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_postvalue_label"							"Pertahanan Peluru"
+
+		"BulletArmorDamageReduction_prefix"				"{s:sign}"
+		"BulletArmorDamageReduction_postfix"			"%"
+		"BulletArmorDamageReduction_label"				"Pertahanan Peluru"
+		"BulletArmorDamageReduction_postvalue_label"				"Pertahanan Peluru"
+
+		"BulletArmorDamageReductionPerStack_prefix"				"{s:sign}"
+		"BulletArmorDamageReductionPerStack_postfix"			"%"
+		"BulletArmorDamageReductionPerStack_label"				"Pertahanan Peluru per Akumulasi"
+		"BulletArmorDamageReductionPerStack_postvalue_label"	"Pertahanan Peluru per Akumulasi"
+
+
+
+		// this name is misleading since we use this as a debuff ("TechResist" is the buff version)
+		"TechArmorDamageReduction_prefix"				"{s:sign}"
+		"TechArmorDamageReduction_postfix"				"%"
+		"TechArmorDamageReduction_Label"				"Pertahanan Spirit"
+		"TechArmorDamageReduction_postvalue_label"				"Pertahanan Spirit"
+
+		"BulletResistReduction_label"		"Pertahanan Peluru"
+		"BulletResistReduction_postvalue_label"		"Pertahanan Peluru"
+		"BulletResistReduction_postfix"	"%"
+
+		"MeleeResistReduction_label"		"Pertahanan Jarak Dekat"
+		"MeleeResistReduction_postvalue_label"		"Pertahanan Jarak Dekat"
+		"MeleeResistReduction_postfix"	"%"
+
+		"BulletResistReductionPerStack_label"		"Pertahanan Peluru per Akumulasi"
+		"BulletResistReductionPerStack_postvalue_label"		"Pertahanan Peluru per Akumulasi"
+		"BulletResistReductionPerStack_postfix"	"%"
+
+		"MagicResistReduction_label"		"Pertahanan Spirit"
+
+		"MagicResistReduction_postvalue_label"		"Pertahanan Spirit"
+		"MagicResistReduction_postfix"	"%"
+
+		"TechDamageScale_prefix"						"{s:sign}"
+		"TechDamageScale_postfix"						"%"
+		"TechDamageScale_label"							"Damage Spirit"
+
+		"TechDamageScale_postvalue_label"							"Damage Spirit"
+
+		"OutgoingTechDamagePercent_label" "Damage Spirit"
+
+		"OutgoingTechDamagePercent_postvalue_label" "Damage Spirit"
+		"OutgoingTechDamagePercent_postfix" "%"
+
+		"TechArmor_prefix"								"{s:sign}"
+		"TechArmor_label"								"Armor Spirit"
+		"TechArmor_postvalue_label"								"Armor Spirit"
+
+		"MODIFIER_VALUE_TECH_ARMOR_prefix"								"{s:sign}"
+		"MODIFIER_VALUE_TECH_ARMOR_label"								"Armor Spirit"
+		"MODIFIER_VALUE_TECH_ARMOR_postvalue_label"								"Armor Spirit"
+		
+		"TechResist_prefix"								"{s:sign}"
+		"TechResist_postfix"							"%"
+		"TechResist_label"								"Pertahanan Spirit"
+		"TechResist_postvalue_label"								"Pertahanan Spirit"
+
+		"MODIFIER_VALUE_TECH_RESIST_prefix"								"{s:sign}"
+		"MODIFIER_VALUE_TECH_RESIST_postfix"							"%"
+		"MODIFIER_VALUE_TECH_RESIST_label"								"Pertahanan Spirit"
+		"MODIFIER_VALUE_TECH_RESIST_postvalue_label"								"Pertahanan Spirit"
+
+		"TechResistPerStack_prefix"						"{s:sign}"
+		"TechResistPerStack_postfix"					"%"
+		"TechResistPerStack_label"						"Pembesaran Spirit per Akumulasi"
+		"TechResistPerStack_postvalue_label"						"Pembesaran Spirit per Akumulasi"
+
+		"MagicIncreasePerStack_prefix"					"{s:sign}"
+		"MagicIncreasePerStack_postfix"					"%"
+		"MagicIncreasePerStack_label"					"Pembesaran Spirit per Akumulasi"
+
+		"MagicIncreasePerStack_postvalue_label"					"Pembesaran Spirit per Akumulasi"
+
+		"BulletDamageReduction_postfix"					"%"
+		"BulletDamageReduction_label"					"Armor Peluru"
+		"BulletDamageReduction_postvalue_label"					"Armor Peluru"
+
+		"ActiveBulletDamageReduction_prefix"			"{s:sign}"
+		"ActiveBulletDamageReduction_label"			"Damage Peluru"
+		"ActiveBulletDamageReduction_postvalue_label"			"Damage Peluru"
+		"ActiveBulletDamageReduction_postfix"			"%"
+
+		"MODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_postfix"					"%"
+		"MODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_label"					"Armor Peluru"
+		"MODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_postvalue_label"					"Armor Peluru"
+
+		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_prefix"			"{s:sign}"
+		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_label"			"Damage Peluru"
+		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_postvalue_label"			"Damage Peluru"
+		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_postfix"			"%"
+
+		"BonusMoveSpeed_prefix"							"{s:sign}"
+		"BonusMoveSpeed_label"						"Kecepatan Gerakan"
+		"BonusMoveSpeed_postvalue_label"						"Kecepatan Gerakan"
+		"BonusMoveSpeed_postfix"						" m/dtk."
+
+		"FloatMoveSpeed_label"						"Kecepatang Melayang"
+		"FloatMoveSpeed_postvalue_label"						"Kecepatang Melayang"
+		"FloatMoveSpeed_postfix"						" m/dtk."
+
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_label"						"Kecepatan Gerakan"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_postvalue_label"						"Kecepatan Gerakan"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_postfix"						" m/dtk."
+
+		"RestoreDelay_prefix"							"{s:sign}"
+		"RestoreDelay_label"						"Memulihkan Penundaan"
+		"RestoreDelay_postvalue_label"						"Memulihkan Penundaan"
+		"RestoreDelay_postfix"						" dtk."
+
+		"HealLifePercentOutOfCombat_prefix"				"{s:sign}"
+		"HealLifePercentOutOfCombat_label"				"Pemulihan Health Maks."
+		"HealLifePercentOutOfCombat_postvalue_label"	"Pemulihan Health Maks."
+		"HealLifePercentOutOfCombat_postfix"			" %"
+		
+		"TeleporterBonus"							"Bonus Kecepatan Gerakan!"
+		"RunSpeed_postfix"						" m/dtk."
+
+		"WeaponRange_label"							"Jangkauan Senjata"
+
+		"WeaponRange_postvalue_label"							"Jangkauan Senjata"
+		"WeaponRange_postfix"						" m"
+
+		"BonusMoveSpeedPercent_prefix"					"{s:sign}"
+		"BonusMoveSpeedPercent_postfix"					"%"
+		"BonusMoveSpeedPercent_label"					"Kecepatan Gerakan"
+		"BonusMoveSpeedPercent_postvalue_label"					"Kecepatan Gerakan"
+
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_postfix"					"%"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_label"					"Kecepatan Gerakan"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_postvalue_label"					"Kecepatan Gerakan"
+
+		"SlowResistancePercent_prefix"					"{s:sign}"
+		"SlowResistancePercent_label"					"Pertahanan Perlambatan"
+		"SlowResistancePercent_postvalue_label"					"Pertahanan Perlambatan"
+		"SlowResistancePercent_postfix"					"%"
+
+		"AirSpeedBonus_label"						"Bonus Kecepatan di Udara"
+
+		"AirSpeedBonus_postvalue_label"						"Bonus Kecepatan di Udara"
+		"AirSpeedBonus_prefix"						"{s:sign}"
+		"AirSpeedBonus_postfix"						" m/dtk."
+		//"AscendSpeed_label"							""
+		//"DescendSpeed_label"							""
+
+		"BonusCooldownReduction_label"					"Pengurangan Cooldown per Peluru"
+
+
+		"BonusCooldownReduction_postvalue_label"					"Pengurangan Cooldown per Peluru"
+
+		"BonusClipSize_prefix"							"{s:sign}"
+		"BonusClipSize_label"							"Amunisi"
+		"BonusClipSize_postvalue_label"							"Amunisi"
+
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_label"							"Amunisi"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_postvalue_label"							"Amunisi"
+
+		"BonusClipSizePercent_prefix"					"{s:sign}"
+		"BonusClipSizePercent_postfix"					"%"
+		"BonusClipSizePercent_label"					"Amunisi Maks."
+		"BonusClipSizePercent_postvalue_label"					"Amunisi Maks."
+
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_postfix"					"%"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_label"					"Amunisi Maks."
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_postvalue_label"					"Amunisi Maks."
+
+		"TemporaryBonusClipSize_prefix"				"{s:sign}"
+		"TemporaryBonusClipSize_label"				"Amunisi Sementara"
+		"TemporaryBonusClipSize_postvalue_label"				"Amunisi Sementara"
+
+		"TemporaryBonusClipSizePercent_prefix"			"{s:sign}"
+		"TemporaryBonusClipSizePercent_postfix"			"%"
+		"TemporaryBonusClipSizePercent_label"			"Amunisi Sementara"
+
+		"TemporaryBonusClipSizePercent_postvalue_label"			"Amunisi Sementara"
+
+		"AmmoReloadPercent_postfix"					"%"
+		"AmmoReloadPercent_label"					"Isi Ulang Peluru"
+
+		"AmmoReloadPercent_postvalue_label"					"Isi Ulang Peluru"
+
+		"BulletPenetrationPercent_postfix"				"%"
+		"BulletPenetrationPercent_label"				"Damage Penembusan Peluru"
+
+		"BulletPenetrationPercent_postvalue_label"				"Damage Penembusan Peluru"
+
+		"TechPower_prefix"								"{s:sign}"
+		"TechPower_label"								"Kekuatan Spirit"
+		"TechPower_postvalue_label"								"Kekuatan Spirit"
+		"MODIFIER_VALUE_TECH_POWER_prefix"								"{s:sign}"
+		"MODIFIER_VALUE_TECH_POWER_label"								"Kekuatan Spirit"
+		"MODIFIER_VALUE_TECH_POWER_postvalue_label"								"Kekuatan Spirit"
+		"TechPowerPercent_prefix"						"{s:sign}"
+		"TechPowerPercent_label"						"Kekuatan Spirit"
+		"TechPowerPercent_postvalue_label"						"Kekuatan Spirit"
+		"TechPowerPercent_postfix"						"%"
+
+		"MODIFIER_VALUE_TECH_POWER_PERCENT_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_TECH_POWER_PERCENT_label"						"Kekuatan Spirit"
+		"MODIFIER_VALUE_TECH_POWER_PERCENT_postvalue_label"						"Kekuatan Spirit"
+		"MODIFIER_VALUE_TECH_POWER_PERCENT_postfix"						"%"
+
+		"ArmorPower_prefix"								"{s:sign}"
+		"ArmorPower_label"								"Health Dasar"
+		"ArmorPower_postvalue_label"								"Health Dasar"
+		"ArmorPower_postfix"								"%"
+
+		"MODIFIER_VALUE_ARMOR_POWER_prefix"								"{s:sign}"
+		"MODIFIER_VALUE_ARMOR_POWER_label"								"Health Dasar"
+		"MODIFIER_VALUE_ARMOR_POWER_postvalue_label"								"Health Dasar"
+		"MODIFIER_VALUE_ARMOR_POWER_postfix"								"%"
+
+		"TechPowerAmp_prefix"							"{s:sign}"
+		//"TechPowerAmp_label"							"Spirit"
+		//"TechPowerAmp_postfix"							""
+
+		"SpellAmplificationPercent_prefix"				"{s:sign}"
+		"SpellAmplificationPercent_label"				"Kekuatan Spirit"
+		"SpellAmplificationPercent_postvalue_label"				"Kekuatan Spirit"
+		//BaseDamagePerShot_label							"Base Damage"
+		"NanoTechPerShot_label"							"Damage Spirit"
+		"NanoTechPerShot_postvalue_label"							"Damage Spirit"
+		//"ExplosiveSplashDamage_label"						"Explode Damage"
+		"BulletDamageTotal_label"							"Damage Peluru"
+
+		"BulletDamageTotal_postvalue_label"							"Damage Peluru"
+
+		"ChargesRestored_label"							"Daya Dipulihkan"			
+
+
+		"ChargesRestored_postvalue_label"							"Daya Dipulihkan"			
+
+		"BonusFireRate_prefix"							"{s:sign}"
+		"BonusFireRate_postfix"							"%"
+		"BonusFireRate_label"							"Tingkat Tembakan"
+		"BonusFireRate_postvalue_label"							"Tingkat Tembakan"
+
+		"MODIFIER_VALUE_FIRE_RATE_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_FIRE_RATE_postfix"							"%"
+		"MODIFIER_VALUE_FIRE_RATE_label"							"Tingkat Tembakan"
+		"MODIFIER_VALUE_FIRE_RATE_postvalue_label"							"Tingkat Tembakan"
+		
+		"ActivatedFireRate_prefix"						"{s:sign}"
+		"ActivatedFireRate_postfix"						"%"
+		"ActivatedFireRate_label"						"Tingkat Tembakan"
+
+		"ActivatedFireRate_postvalue_label"						"Tingkat Tembakan"
+
+		"BonusFireRatePlayerUnit_prefix"				"{s:sign}"
+		"BonusFireRatePlayerUnit_postfix"				"%"
+		"BonusFireRatePlayerUnit_label"					"Tingkat Tembakan Minion"
+
+		"BonusFireRatePlayerUnit_postvalue_label"					"Tingkat Tembakan Minion"
+
+		"BonusFireRateNPC_prefix"							"{s:sign}"
+		"BonusFireRateNPC_postfix"							"%"
+		"BonusFireRateNPC_label"							"Tingkat Tembakan NPC"
+
+		"BonusFireRateNPC_postvalue_label"							"Tingkat Tembakan NPC"
+
+		"BonusMeleeAttackSpeed_prefix"					"{s:sign}"
+		"BonusMeleeAttackSpeed_postfix"					"%"
+		//"BonusMeleeAttackSpeed_label"					"Melee Speed"
+
+		"MODIFIER_VALUE_MELEEATTACK_SPEED_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_MELEEATTACK_SPEED_postfix"					"%"
+
+		"AbilityDamageReduction_label"				"Pengurangan Damage Spirit"
+		"AbilityDamageReduction_postvalue_label"				"Pengurangan Damage Spirit"
+		"AbilityDamageReduction_postfix"				"%"
+
+		"MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_label"				"Pengurangan Damage Spirit"
+		"MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_postvalue_label"				"Pengurangan Damage Spirit"
+		"MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_postfix"				"%"
+
+		//"SlowProcChance_label"						"Chance to slow on hit"
+		"SlowProcChance_postfix"						"%"
+
+		"EnemySlowPct_label"							"Kecepatan Gerakan Musuh"
+
+		"EnemySlowPct_postvalue_label"							"Kecepatan Gerakan Musuh"
+		"EnemySlowPct_postfix"							"%"
+		"EnemySlowPct_prefix"							"-"
+
+		"SlowDuration_label"							"Durasi Perlambatan"			
+
+		"SlowDuration_postvalue_label"							"Durasi Perlambatan"
+		"SlowDuration_postfix"							" dtk."
+
+		"MoveSpeedSlowDuration_label"							"Durasi Perlambatan"
+
+		"MoveSpeedSlowDuration_postvalue_label"							"Durasi Perlambatan"
+		"MoveSpeedSlowDuration_postfix"							" dtk."
+
+		//"PoisonDamage_label"							"Poison Damage"
+		"PoisonDuration_label"							"Durasi"
+		"PoisonDuration_postvalue_label"							"Durasi"
+		"PoisonDuration_postfix"							" dtk."
+
+
+		"DebuffDuration_label"						"Durasi Debuff"
+
+
+		"DebuffDuration_postvalue_label"						"Durasi Debuff"
+		"DebuffDuration_postfix"						" dtk."
+
+		"DotHealthPercent_label"						"Damage Pendarahan"
+
+		"DotHealthPercent_postvalue_label"						"Damage Pendarahan"
+		"DotHealthPercent_postfix"						"% DPS"
+
+		"CurrentHealthPercent_label"					"Health Saat Ini"
+
+		"CurrentHealthPercent_postvalue_label"					"Health Saat Ini"
+		"CurrentHealthPercent_postfix"					"%"
+		
+		"CurrentHealthPercentDamage_label"				"Health Saat Ini"
+		
+		"CurrentHealthPercentDamage_postvalue_label"				"Health Saat Ini"
+		"CurrentHealthPercentDamage_postfix"			"%"
+		"FreezeDuration_label"							"Durasi Beku"
+		"FreezeDuration_postvalue_label"							"Durasi Beku"
+		"FreezeDuration_postfix"							" dtk."
+
+		"CooldownReduction_prefix"						"{s:sign}"
+		"CooldownReduction_postfix"						"%"
+		"CooldownReduction_label"						"Pengurangan Cooldown Skill"
+		"CooldownReduction_postvalue_label"						"Pengurangan Cooldown Skill"
+		"UltimateCooldownReduction_prefix"						"{s:sign}"
+		"UltimateCooldownReduction_postfix"						"%"
+		"UltimateCooldownReduction_label"						"Pengurangan Cooldown Ultimate"
+		"UltimateCooldownReduction_postvalue_label"						"Pengurangan Cooldown Ultimate"
+		
+		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_postfix"						"%"
+		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_label"						"Pengurangan Cooldown Skill"
+		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_postvalue_label"						"Pengurangan Cooldown Skill"
+
+		"SingleAbilityCooldownReduction_prefix"						"{s:sign}"
+		"SingleAbilityCooldownReduction_postfix"					"%"
+		"SingleAbilityCooldownReduction_label"						"Pengurangan Cooldown Skill"
+		"SingleAbilityCooldownReduction_postvalue_label"			"Pengurangan Cooldown Skill"
+		
+		"ItemCooldownReduction_prefix"						"{s:sign}"
+		"ItemCooldownReduction_postfix"						"%"
+		"ItemCooldownReduction_label"						"Pengurangan Cooldown Item"
+		"ItemCooldownReduction_postvalue_label"						"Pengurangan Cooldown Item"
+
+		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_postfix"						"%"
+		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_label"						"Pengurangan Cooldown Item"
+		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_postvalue_label"						"Pengurangan Cooldown Item"
+
+		"CooldownRefundPercent_postfix"	"%"
+		"CooldownRefundPercent_label"	"Reset Cooldown"
+
+		"CooldownRefundPercent_postvalue_label"	"Reset Cooldown"
+
+		"ImbuedCooldownReduction_prefix"				"{s:sign}"
+		"ImbuedCooldownReduction_postfix"				"%"
+		"ImbuedCooldownReduction_label"					"Pengurangan Cooldown Skill Terisi"
+
+		"ImbuedCooldownReduction_postvalue_label"					"Pengurangan Cooldown Skill Terisi"
+
+		"NonImbuedCooldownReduction_prefix"				"{s:sign}"
+		"NonImbuedCooldownReduction_postfix"			"%"
+		"NonImbuedCooldownReduction_label"				"Pengurangan Cooldown Skill Tidak Terisi"
+
+		"NonImbuedCooldownReduction_postvalue_label"				"Pengurangan Cooldown Skill Tidak Terisi"
+
+		"CooldownReductionFlat_postfix"					" dtk."
+		"CooldownReductionFlat_label"					"Pengurangan Cooldown"
+
+		"CooldownReductionFlat_postvalue_label"					"Pengurangan Cooldown"
+
+		"BonusAbilityCharges_prefix"					"{s:sign}"
+		"BonusAbilityCharges_label"					"Bonus Isi Daya Skill"
+
+		"BonusAbilityCharges_postvalue_label"					"Bonus Isi Daya Skill"
+
+		"MODIFIER_VALUE_BONUS_ABILITY_CHARGES_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_BONUS_ABILITY_CHARGES_label"					"Bonus Isi Daya Skill"
+
+		"MODIFIER_VALUE_BONUS_ABILITY_CHARGES_postvalue_label"					"Bonus Isi Daya Skill"
+
+		//"BonusChargedAbilityDamage_label"				"Charged Ability Damage"
+		"BonusChargedAbilityDamage_prefix"				"{s:sign}"
+		"BonusChargedAbilityDamage_postfix"				"%"
+
+		"CooldownBetweenChargeReduction_prefix"			"{s:sign}"
+		"CooldownBetweenChargeReduction_label"			"Pengisian Lebih Cepat per Isi Daya"
+		"CooldownBetweenChargeReduction_postvalue_label"			"Pengisian Lebih Cepat per Isi Daya"
+		"CooldownBetweenChargeReduction_postfix"		"%"
+
+		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_prefix"			"{s:sign}"
+		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_label"			"Pengisian Lebih Cepat per Isi Daya"
+		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_postvalue_label"			"Pengisian Lebih Cepat per Isi Daya"
+		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_postfix"		"%"
+
+		"BonusSprintSpeed_prefix"						"{s:sign}"
+		"BonusSprintSpeed_postfix"						" m/dtk."
+		"BonusSprintSpeed_label"						"Kecepatan Sprint"
+		"BonusSprintSpeed_postvalue_label"						"Kecepatan Sprint"
+		
+		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_postfix"						" m/dtk."
+		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_label"						"Kecepatan Sprint"
+		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_postvalue_label"						"Kecepatan Sprint"
+
+		"SprintSpeed_postfix"							" m/dtk."
+		"SprintSpeed_label"								"Kecepatan Sprint"
+
+		"SprintSpeed_postvalue_label"								"Kecepatan Sprint"
+
+		"BonusSprintSpeedPercent_prefix"				"{s:sign}"
+		"BonusSprintSpeedPercent_label"				"Kecepatan Sprint"
+		"BonusSprintSpeedPercent_postvalue_label"				"Kecepatan Sprint"
+		"BonusSprintSpeedPercent_postfix"				"%"
+
+		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_label"				"Kecepatan Sprint"
+		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_postvalue_label"				"Kecepatan Sprint"
+		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_postfix"				"%"
+
+		"BonusSuperSprintSpeed_prefix"					"{s:sign}"
+		"BonusSuperSprintSpeed_label"					"Kecepatan Sprint"
+
+		"BonusSuperSprintSpeed_postvalue_label"					"Kecepatan Sprint"
+
+		"BonusSuperSprintSpeedPercent_prefix"			"{s:sign}"
+		"BonusSuperSprintSpeedPercent_postfix"			"%"
+
+		"TotalHealthRegen_label"						"Total Pemulihan HP"
+
+
+		"TotalHealthRegen_postvalue_label"						"Total Pemulihan HP"
+
+		"StatusResistancePercent_prefix"				"{s:sign}"
+		"StatusResistancePercent_label"				"Pertahanan Debuff"
+		"StatusResistancePercent_postvalue_label"				"Pertahanan Debuff"
+		"StatusResistancePercent_postfix"				"%"
+
+		"InnateStatusResistancePercent_prefix"				"{s:sign}"
+		"InnateStatusResistancePercent_label"				"Pertahanan Debuff"
+		"InnateStatusResistancePercent_postvalue_label"				"Pertahanan Debuff"
+		"InnateStatusResistancePercent_postfix"				"%"
+
+		"FervorStatusResistancePercent_prefix"				"{s:sign}"
+		"FervorStatusResistancePercent_label"				"Pertahanan Debuff"
+		"FervorStatusResistancePercent_postvalue_label"				"Pertahanan Debuff"
+		"FervorStatusResistancePercent_postfix"				"%"
+
+		"MODIFIER_VALUE_STATUS_RESISTANCE_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_STATUS_RESISTANCE_label"				"Pertahanan Debuff"
+		"MODIFIER_VALUE_STATUS_RESISTANCE_postvalue_label"				"Pertahanan Debuff"
+		"MODIFIER_VALUE_STATUS_RESISTANCE_postfix"				"%"
+
+		"StatusResistanceDuration_label"				"Durasi"
+
+		"StatusResistanceDuration_postvalue_label"				"Durasi"
+		"StatusResistanceDuration_postfix"				" dtk."
+
+		"CleavePercentage_prefix"						"{s:sign}"
+		//"CleavePercentage_label"						"Splash Amount"
+		"CleavePercentage_postfix"						"%"
+
+		//"CleaveRadius_label"							"Splash Radius"
+
+		"BonusAccuracy_prefix"							"{s:sign}"
+		"BonusAccuracy_postfix"							"%"
+		//"BonusAccuracy_label"							"Gun Accuracy"
+
+		"MODIFIER_VALUE_FIREARM_ACCURACY_PERCENTAGE_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_FIREARM_ACCURACY_PERCENTAGE_postfix"							"%"
+
+		"BonusBulletSpeedPercent_prefix"				"{s:sign}"
+		"BonusBulletSpeedPercent_postfix"				"%"
+		"BonusBulletSpeedPercent_label"					"Kecepatan Peluru"
+		"BonusBulletSpeedPercent_postvalue_label"					"Kecepatan Peluru"
+
+		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_postfix"				"%"
+		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_label"					"Kecepatan Peluru"
+		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_postvalue_label"					"Kecepatan Peluru"
+
+		"LifeStealPercent_prefix"						"{s:sign}"
+		"LifeStealPercent_label"						"Curi HP"
+		"LifeStealPercent_postvalue_label"						"Curi HP"
+		"LifeStealPercent_postfix"						"%"
+
+		"LifestealPercentHero_label"					"Curi HP"
+
+		"LifestealPercentHero_postvalue_label"					"Curi HP"
+		"LifestealPercentHero_postfix"					"%"
+
+		"LifestealPercentNonHero_prefix"						"{s:sign}"
+		"LifestealPercentNonHero_label"					"Curi HP pada Non-Hero"
+		"LifestealPercentNonHero_postvalue_label"					"Curi HP pada Non-Hero"
+		"LifestealPercentNonHero_postfix"				"%"
+
+		"AbilityLifestealDuration_label"				"Durasi Skill Curi HP"
+		"AbilityLifestealDuration_postvalue_label"		"Durasi Skill Curi HP"
+		"AbilityLifestealDuration_postfix"				" dtk."
+
+		"BulletLifestealPercent_prefix"						"{s:sign}"
+		"BulletLifestealPercent_label"					"Curi HP Peluru"
+		"BulletLifestealPercent_postvalue_label"					"Curi HP Peluru"
+		"BulletLifestealPercent_postfix"				"%"
+
+		"MODIFIER_VALUE_BULLET_LIFESTEAL_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_BULLET_LIFESTEAL_label"					"Curi HP Peluru"
+		"MODIFIER_VALUE_BULLET_LIFESTEAL_postvalue_label"					"Curi HP Peluru"
+		"MODIFIER_VALUE_BULLET_LIFESTEAL_postfix"				"%"
+
+		"TechLifestealPercent_prefix"					"{s:sign}"
+		"TechLifestealPercent_label"						"Curi HP Spirit"
+		"TechLifestealPercent_postvalue_label"						"Curi HP Spirit"
+		"TechLifestealPercent_postfix"					"%"
+
+		"MeleeLifestealPercent_prefix"						"{s:sign}"
+		"MeleeLifestealPercent_label"					"Curi HP Jarak Dekat"
+		"MeleeLifestealPercent_postvalue_label"					"Curi HP Jarak Dekat"
+		"MeleeLifestealPercent_postfix"					"%"
+
+		"StunDuration_label"							"Durasi Stun"
+
+		"StunDuration_postvalue_label"							"Durasi Stun"
+		"StunDuration_postfix"							" dtk."
+
+		"StunDelay_label"								"Penundaan Stun"
+
+		"StunDelay_postvalue_label"								"Penundaan Stun"
+		"StunDelay_postfix"								" dtk."
+
+		"MinStunDuration_postfix"						" dtk."
+		"MinStunDuration_label"							"Durasi Stun Min."
+
+		"MinStunDuration_postvalue_label"							"Durasi Stun Min."
+
+		"MaxStunDuration_postfix"						" dtk."
+		"MaxStunDuration_label"							"Durasi Stun Maks."
+
+		"MaxStunDuration_postvalue_label"				"Durasi Stun Maks."
+
+		"DazeDuration_label"							"Durasi Linglung"
+		"DazeDuration_postvalue_label"					"Durasi Linglung"
+		"DazeDuration_postfix"							" dtk."
+
+		"TossDuration_postvalue_label"					"Durasi"
+		"TossDuration_postfix"							" dtk."
+
+		//"MeleeDamageReduction_label"					"Melee Armor"
+
+		"MeleeDamageReductionPercent_prefix"			"{s:sign}"
+		"MeleeDamageReductionPercent_postfix"			"%"
+		//"MeleeDamageReductionPercent_label"			"Melee Armor"
+		
+		"MODIFIER_VALUE_MELEE_RESIST_prefix"			"{s:sign}"
+		"MODIFIER_VALUE_MELEE_RESIST_postfix"			"%"
+		//"MODIFIER_VALUE_MELEE_RESIST_label"			"Melee Armor"
+
+		//"DispenserHealth_label"						"Dispenser Health"
+
+		//"ShotRegenTime_label"							"Shot Regen Time"
+		"ShotRegenTime_postfix"							" dtk."
+
+		//"MaxShots_label"								"Max Shots"
+
+		"PathLength_label"							"Panjang Sinar Laser"
+
+		"PathLength_postvalue_label"							"Panjang Sinar Laser"
+		"PathLength_postfix"							" m"
+
+		"ChainCount_label"							"Lompatan Maks."
+
+		"ChainCount_postvalue_label"							"Lompatan Maks."
+		"BonusPerChain_label"						"Damage saat Melompat"
+
+		"BonusPerChain_postvalue_label"						"Damage saat Melompat"
+
+		"RichochetChance_label"						"Peluang Aktivasi"
+
+		"RichochetChance_postvalue_label"						"Peluang Aktivasi"
+		"RichochetChance_postfix"						"%"
+
+		//"SlowSpeedLimit_label"						"Speed Reduced To"
+
+		"HealAmpReceivePercent_prefix"					"{s:sign}"
+		"HealAmpReceivePercent_label"					"Penyembuhan Ditingkatkan"
+		"HealAmpReceivePercent_postvalue_label"			"Penyembuhan Ditingkatkan"
+		"HealAmpReceivePercent_postfix"					"%"
+
+		"MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT_prefix"					"{s:sign}"
+		//"MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT_label"					"Healing Received Boost"
+		"MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT_postfix"					"%"
+
+		"HealAmpCastPercent_prefix"					"{s:sign}"
+		"HealAmpCastPercent_label"					"Penyembuhan Diberikan"
+		"HealAmpCastPercent_postvalue_label"					"Penyembuhan Diberikan"
+		"HealAmpCastPercent_postfix"					"%"
+		
+		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_label"					"Penyembuhan Diberikan"
+		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_postvalue_label"					"Penyembuhan Diberikan"
+		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_postfix"					"%"
+
+		"HealAmpRegenPercent_prefix"					"{s:sign}"
+		//"HealAmpRegenPercent_label"					"Health Regen Boost"
+		"HealAmpRegenPercent_postfix"					"%"
+		
+		"MODIFIER_VALUE_HEAL_AMP_REGEN_PERCENT_prefix"					"{s:sign}"
+		//"MODIFIER_VALUE_HEAL_AMP_REGEN_PERCENT_label"					"Health Regen Boost"
+		"MODIFIER_VALUE_HEAL_AMP_REGEN_PERCENT_postfix"					"%"
+		
+		"HealAmpRegenMultiplierOutOfCombat_prefix"					"{s:sign}"
+		//"HealAmpRegenMultiplierOutOfCombat_label"		"Health Regen Multiplier"
+		"HealAmpRegenMultiplierOutOfCombat_postfix"			"x"
+
+		"HealAmpReceivePenaltyPercent_label"		"Penyembuhan Diterima"
+
+		"HealAmpReceivePenaltyPercent_postvalue_label"		"Penyembuhan Diterima"
+		"HealAmpReceivePenaltyPercent_postfix"			"%"
+		
+		"HealAmpRegenPenaltyPercent_label"		"Penyembuhan Diterima"
+		
+		"HealAmpRegenPenaltyPercent_postvalue_label"		"Penyembuhan Diterima"
+		"HealAmpRegenPenaltyPercent_postfix"	"%"
+		"HealingEffectiveness_label"		"Efektivitas Penyembuhan"
+		"HealingEffectiveness_postvalue_label"		"Efektivitas Penyembuhan"
+		"HealingEffectiveness_postfix"	"%"
+		"PercentHealthHealing_label" "Health Kembali"
+		"PercentHealthHealing_postvalue_label" "Health Kembali"
+		"PercentHealthHealing_postfix" "%"
+
+		"ProcChance_label"							"Peluang Aktivasi"
+
+		"ProcChance_postvalue_label"							"Peluang Aktivasi"
+		"ProcChance_postfix"							"%"
+
+		//"OutgoingDamageReduction_label"				"Attack Damage"
+		"OutgoingDamageReduction_prefix"				"-"
+		"OutgoingDamageReduction_postfix"				"%"
+
+		"OutgoingDamagePercent_prefix" "{s:sign}"
+		"OutgoingDamagePercent_label" "Damage"
+		"OutgoingDamagePercent_postvalue_label" "Damage"
+		"OutgoingDamagePercent_postfix" "%"
+
+		"ProcHealth_label"							"Batas Health"
+
+		"ProcHealth_postvalue_label"							"Batas Health"
+		"ProcHealth_postfix"							"%"
+
+		//"DamageBoostFromBehind_label"					"Damage From Behind"
+		"DamageBoostFromBehind_postfix"					"%"
+
+		//"DamageBoostElsewhere_label"					"Damage From Elsewhere"
+		"DamageBoostElsewhere_postfix"					"%"
+
+		//"BonusDPSVsPlayers_label"						"DPS vs Players"
+
+		//"BonusDPSVsCreeps_label"						"DPS vs Creeps"
+
+		//"EvasionPercentGlider_label"					"Evasion Chance Gliding"
+		"EvasionPercentGlider_postfix"					"%"
+
+		"EvasionPercent_label"						"Penghindaran Peluru"
+
+		"EvasionPercent_postvalue_label"						"Penghindaran Peluru"
+		"EvasionPercent_postfix"						"%"
+
+		//"MeleeDamagePercent_label"					"Melee Damage Bonus"
+		"MeleeDamagePercent_postfix"					"%"
+
+
+		"TechShieldHealth_label"					"Health Perisai Spirit"
+
+
+		"TechShieldHealth_postvalue_label"					"Health Perisai Spirit"
+		//"TempTechShieldHealth_label"				"Temp Spirit Shield Health"
+		"TechShieldDamagePercent_prefix"			"{s:sign}"
+		//"TechShieldDamagePercent_label"				"Spirit Shield Damage"
+		"TechShieldDamagePercent_postfix"			"%"
+
+		"BulletShieldHealth_label"					"Health Perisai Peluru"
+		"BulletShieldHealth_postvalue_label"					"Health Perisai Peluru"
+
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_label"					"Health Perisai Peluru"
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_postvalue_label"					"Health Perisai Peluru"
+
+		//"TempBulletShieldHealth_label"				"Temp Bullet Shield Health"
+		"BulletShieldDamagePercent_prefix"			"{s:sign}"
+		//"BulletShieldDamagePercent_label"			"Damage Amplification vs Bullet Shields"
+		"BulletShieldDamagePercent_postfix"			"%"
+
+		//"ShieldBlockPercent_label"					"Damage Deflected"
+		"ShieldBlockPercent_postfix"					"%"
+
+		//"DamagePercent_label"							"Bullet Damage Done"
+		"DamagePercent_postfix"							"%"
+		
+		//"CycleTimePercent_label"						"Fire Rate compared to Gun"
+		"CycleTimePercent_postfix"						"%"
+
+		//"StickyClusterCount_label"					"Splits into"
+		//"StickyClusterCount_postfix"					"Sticky Grenades"
+
+		//"FuseDuration_label"							"Fuse Duration"
+		//"FuseDuration_postfix"							""
+		
+		//"DroneCount_label"							"Drone Count"
+		
+		//"BasicReflectPercent_label"					"Basic Damage Reflect"
+		"BasicReflectPercent_postfix"					"%"
+
+		"LifeDrainPerSecond_label"					"Damage per Detik"
+
+		"LifeDrainPerSecond_postvalue_label"					"Damage per Detik"
+		"HealthPercent_label"							"% Health"
+
+		"HealthPercent_postvalue_label"							"% Health"
+		"HealthPercent_postfix"							"%"
+
+		//"DodgeAnimSpeedScale_label"					"Dodge Speed Multiplier"
+		"DodgeAnimSpeedScale_postfix"					"x"
+
+		"BulletDamagePercent_prefix"					"{s:sign}"
+		"BulletDamagePercent_label"					"Damage Peluru"
+		"BulletDamagePercent_postvalue_label"					"Damage Peluru"
+		"BulletDamagePercent_postfix"					"%"
+
+		"AbilityLifestealPercent_prefix"					"{s:sign}"
+		"AbilityLifestealPercent_label"				"Curi HP Spirit"
+		"AbilityLifestealPercent_postvalue_label"				"Curi HP Spirit"
+		"AbilityLifestealPercent_postfix"				"%"
+		
+		"AbilityLifestealPercentHero_prefix"					"{s:sign}"
+		"AbilityLifestealPercentHero_label"				"Curi HP Spirit"
+		"AbilityLifestealPercentHero_postvalue_label"				"Curi HP Spirit"
+		"AbilityLifestealPercentHero_postfix"			"%"
+
+		"MODIFIER_VALUE_TECH_LIFESTEAL_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_TECH_LIFESTEAL_label"				"Curi HP Spirit"
+		"MODIFIER_VALUE_TECH_LIFESTEAL_postvalue_label"				"Curi HP Spirit"
+		"MODIFIER_VALUE_TECH_LIFESTEAL_postfix"			"%"
+		
+		"AbilityLifestealPercentHeroPassive_prefix"					"{s:sign}"
+		"AbilityLifestealPercentHeroPassive_label"				"Curi HP Spirit"
+		"AbilityLifestealPercentHeroPassive_postvalue_label"				"Curi HP Spirit"
+		"AbilityLifestealPercentHeroPassive_postfix"			"%"
+
+		"AbilityLifestealPercentNonHero_prefix"					"{s:sign}"
+		"AbilityLifestealPercentNonHero_label"			"Curi HP Spirit pada Non-Hero"
+		"AbilityLifestealPercentNonHero_postvalue_label"			"Curi HP Spirit pada Non-Hero"
+		"AbilityLifestealPercentNonHero_postfix"		"%"
+
+		"RegenDuration_label"							"Durasi Pemulihan"
+
+		"RegenDuration_postvalue_label"							"Durasi Pemulihan"
+		"RegenDuration_postfix"							" dtk."
+
+		//"SpreadDuration_label"						"Spread Duration: "
+		"SpreadDuration_postfix"						" dtk."
+		
+		"EndRadius_label"								"Radius Akhir"
+		
+		"EndRadius_postvalue_label"								"Radius Akhir"
+		"EndRadius_postfix"								" m"
+
+		//"BulletPercentAsBurn_label"					"Bullet Damage as Burning"
+		"BulletPercentAsBurn_postfix"					"%"
+
+		"ItemInitialCharges_label"					"Daya"
+
+
+		"ItemInitialCharges_postvalue_label"					"Daya"
+
+		"AuraDuration_label"							"Durasi Aura"
+
+		"AuraDuration_postvalue_label"							"Durasi Aura"
+		"AuraDuration_postfix"							" dtk."
+
+		//"ApproachSpeed_label"							"Project Speed"
+
+		"GrenadesInVolley_label"						"Jumlah Granat"
+
+
+		"GrenadesInVolley_postvalue_label"						"Jumlah Granat"
+
+		"ReloadSpeedDecrease_label"						"Durasi Isi Ulang"
+		"ReloadSpeedDecrease_postvalue_label"						"Durasi Isi Ulang"
+		"ReloadSpeedDecrease_postfix"					"%"
+
+		"AbsorbPercentage_label"						"Penyerapan Damage"
+
+		"AbsorbPercentage_postvalue_label"						"Penyerapan Damage"
+		"AbsorbPercentage_postfix"						"%"
+
+		//"HitCap_label"								"Hit Cap"
+		//"HitCap_postfix"								"hits"
+
+		//"AbilityDamageReductionPerHit_label"			"Ability Dmg Red Per Hit"
+		"AbilityDamageReductionPerHit_postfix"			"%"
+
+		//"ActiveAbilityDamageReduction_label"			"Active Ability Dmg Red"
+		"ActiveAbilityDamageReduction_postfix"			"%"
+
+		"BonusAttackRange_postfix"						" meter"
+		//"BonusAttackRange_label"						"Weapon Range"
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_postfix"						" meter"
+
+		"BonusAttackRangePercent_prefix"				"{s:sign}"
+		"BonusAttackRangePercent_postfix"				"%"
+		"BonusAttackRangePercent_label"					"Jarak Jangkauan Senjata"
+		"BonusAttackRangePercent_postvalue_label"					"Jarak Jangkauan Senjata"
+
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_postfix"				"%"
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_label"					"Jarak Jangkauan Senjata"
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_postvalue_label"					"Jarak Jangkauan Senjata"
+
+		"WeaponRecoilReduction_postfix"					"%"
+		//"WeaponRecoilReduction_label"					"Recoil Reduction"
+
+		"MODIFIER_VALUE_WEAPON_RECOIL_REDUCTION_PERCENT_postfix"					"%"
+		//"WeaponRecoilReduction_label"					"Recoil Reduction"
+
+		"BonusDPSPercent_prefix"						"{s:sign}"
+		"BonusDPSPercent_label"						"Damage Peluru"
+		"BonusDPSPercent_postvalue_label"						"Damage Peluru"
+		"BonusDPSPercent_postfix"						"%"
+
+		//"DroneHealth_label"							"Drone Health"
+
+		//"DeployHealthRegen_label"						"Deployable Health"
+
+		"TurretFireRate_label"							"Tingkat Tembakan Senjata"
+
+		"TurretFireRate_postvalue_label"							"Tingkat Tembakan Senjata"
+		"TurretFireRate_prefix"							"{s:sign}"
+		"TurretFireRate_postfix"						"%"
+
+		"TurretDPS_label"								"DPS Tank Mini"
+
+
+		"TurretDPS_postvalue_label"								"DPS Tank Mini"
+
+		//"MobileResupplyRegenMultiplier_label"			"Mobile Resupply Regen Multiplier"
+		"MobileResupplyRegenMultiplier_postfix"			"x"
+
+		"HealRadius_label"								"Radius Penyembuhan"
+
+		"HealRadius_postvalue_label"								"Radius Penyembuhan"
+		"HealRadius_postfix"								" m"
+
+		"BulletArmorReduction_prefix"					"{s:sign}"
+		"BulletArmorReduction_postfix"					"%"
+		"BulletArmorReduction_label"					"Pertahanan Peluru"
+
+		"BulletArmorReduction_postvalue_label"					"Pertahanan Peluru"
+
+		"LocalBulletArmorReduction_prefix"				"{s:sign}"
+		"LocalBulletArmorReduction_postfix"				"%"
+		"LocalBulletArmorReduction_label"				"Pertahanan Peluru"
+
+		"LocalBulletArmorReduction_postvalue_label"				"Pertahanan Peluru"
+
+		"LocalTechArmorReduction_prefix"				"{s:sign}"
+		//"LocalTechArmorReduction_label"				"Magic Resist"
+		"LocalTechArmorReduction_postfix"				"%"
+
+		"BulletResistOnActive_label"					"Pertahanan Peluru"
+
+		"BulletResistOnActive_postvalue_label"					"Pertahanan Peluru"
+		"BulletResistOnActive_prefix"					"{s:sign}"
+		"BulletResistOnActive_postfix"					"%"
+
+		"WeaponPowerAmp_prefix"							"{s:sign}"
+		//"WeaponPowerAmp_label"						"Courage"
+
+		"WeaponPowerWhileActivated_prefix"						"{s:sign}"
+		//"WeaponPowerWhileActivated_label"						"Courage"
+
+		"FireRate_postfix"								"%"
+
+		"WeaponPower_prefix"							"{s:sign}"
+		"WeaponPower_label"								"Damage Senjata"
+		"WeaponPower_postvalue_label"								"Damage Senjata"
+		"WeaponPower_postfix"							"%"
+
+		"MODIFIER_VALUE_WEAPON_POWER_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_WEAPON_POWER_label"								"Damage Senjata"
+		"MODIFIER_VALUE_WEAPON_POWER_postvalue_label"								"Damage Senjata"
+		"MODIFIER_VALUE_WEAPON_POWER_postfix"							"%"
+
+		"DamageIncrease_prefix"							"{s:sign}"
+		"DamageIncrease_label"						"Damage Diterima"
+
+		"DamageIncrease_postvalue_label"						"Damage Diterima"
+
+		"DamageIncreasePercent_prefix"					"{s:sign}"
+		"DamageIncreasePercent_label"					"Damage Diterima"
+		"DamageIncreasePercent_postvalue_label"					"Damage Diterima"
+		"DamageIncreasePercent_postfix"					"%"
+
+		"BonusAbilitySpeed_prefix"						"{s:sign}"
+		//"BonusAbilitySpeed_postfix"						""
+		//"BonusAbilitySpeed_label"							"Ability Move Speed"
+
+		"ReloadSpeedMultipler_prefix"					"{s:sign}"
+		"ReloadSpeedMultipler_label"					"Durasi Isi Ulang"
+		"ReloadSpeedMultipler_postvalue_label"					"Durasi Isi Ulang"
+		"ReloadSpeedMultipler_postfix"					"%"
+
+		"MODIFIER_VALUE_RELOAD_SPEED_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_RELOAD_SPEED_label"					"Durasi Isi Ulang"
+		"MODIFIER_VALUE_RELOAD_SPEED_postvalue_label"					"Durasi Isi Ulang"
+		"MODIFIER_VALUE_RELOAD_SPEED_postfix"					"%"
+
+		"HealthRegenPerTrooper_prefix"					"+"
+		"HealthRegenPerTrooper_postfix"					" per pasukan terdekat"
+		"HealthRegenPerTrooper_label"					"Pemulihan Health"
+
+		"HealthRegenPerTrooper_postvalue_label"					"Pemulihan Health"
+
+		//"TroopersToSummon_label"						"Troopers created"
+		//"TrooperLifetime_label"						"Trooper lifetime"
+		"TrooperLifetime_postfix"						" dtk."
+
+		"DamagePerChain_label"						"Damage Kejut"
+		
+
+		"DamagePerChain_postvalue_label"						"Damage Kejut"
+		
+		"SpeedMax_label"								"Kecepatan Gerakan"
+		"SpeedMax_postvalue_label"								"Kecepatan Gerakan"
+		"SpeedMax_postfix"							" m/dtk."
+		"MoveSpeedMax_label"							"Kecepatan Gerakan"
+		"MoveSpeedMax_postvalue_label"							"Kecepatan Gerakan"
+		"MoveSpeedMax_postfix"						" m/dtk."
+
+		"BulletDamagePercentAsTechDamage_label"		"Bonus Damage Spirit"
+
+		"BulletDamagePercentAsTechDamage_postvalue_label"		"Bonus Damage Spirit"
+		//"BulletDamagePercentAsTechDamage_postfix"		"% Bullet Damage "
+
+		"BonusCritDamagePercent_prefix"					"{s:sign}"
+		//"BonusCritDamagePercent_label"				"Bonus Crit Damage"
+		"BonusCritDamagePercent_postfix"				"%"
+
+		"MODIFIER_VALUE_BONUS_CRIT_DAMAGE_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_BONUS_CRIT_DAMAGE_PERCENT_postfix"				"%"
+
+		//"DPSDmgPercent_label"							"DPS as Damage"
+		"DPSDmgPercent_postfix"							"%"
+
+		"DamagePerSecond_label"						"Damage per Detik"
+
+
+		"DamagePerSecond_postvalue_label"						"Damage per Detik"
+
+		//"TechReduction_label"						"Spirit Reduction"
+
+		//"TechResistReduction_label"					"Target Spirit Resist"
+		//"TechResistReduction_prefix"					""
+		"TechResistReduction_postfix"					"%"
+		"DamagePulseAmount_label"						"Damage Denyut"
+		"DamagePulseAmount_postvalue_label"						"Damage Denyut"
+		"DamagePulseInterval_label"					"Interval Denyut"
+		"DamagePulseInterval_postvalue_label"					"Interval Denyut"
+		"DamagePulseInterval_postfix"					" dtk."
+		"DamagePulseRadius_label"						"Radius Denyut"
+		"DamagePulseRadius_postvalue_label"						"Radius Denyut"
+		"DamagePulseRadius_postfix"					" m"
+
+		"CloseRangeBonusDamagePercent_prefix"			"+"
+		"CloseRangeBonusDamagePercent_label"			"Damage Senjata"
+		"CloseRangeBonusDamagePercent_postvalue_label"			"Damage Senjata"
+		"CloseRangeBonusDamagePercent_postfix"			"%"
+
+		"CloseRangeBonusDamageRange_label"				"Jarak Dekat"
+
+		"CloseRangeBonusDamageRange_postvalue_label"				"Jarak Dekat"
+		"CloseRangeBonusDamageRange_postfix"			" m"
+
+		"CloseRangeBonusWeaponPower_prefix"				"{s:sign}"
+		"CloseRangeBonusWeaponPower_label"				"Damage Senjata"
+		"CloseRangeBonusWeaponPower_postvalue_label"				"Damage Senjata"
+		"CloseRangeBonusWeaponPower_postfix"			"%"
+		"CloseRangeBonusWeaponPower_conditional"		"dalam Jangkauan"
+
+		"BonusSpirit_conditional"						"setelah aktivasi"
+
+		"AfterProc_conditional"							"setelah aktivasi"
+		"DuringAmbush_conditional"						"selama penyergapan"
+
+		"AboveHealthThreshold_conditional"				"di atas Batas Health"
+		"BelowHealthThreshold_conditional"				"di bawah Batas Health"
+		"DashJump_conditional"							"setelah dash-lompat"
+
+		//"EnemyAboveHealthThreshold_conditional"			"Enemy above health threshold"
+		
+		"Quicksilver_conditional"						"setelah menggunakan skill"
+
+		"SurgeOfPower_conditional"						"setelah menggunakan skill"
+
+		"SpiritStrike_conditional"						"setelah jarak dekat yang berhasil"
+
+		"LongRangeBonusWeaponPowerMinRange_label"		"Jarak Min."
+		"LongRangeBonusWeaponPowerMinRange_postvalue_label"		"Jarak Min."
+		"LongRangeBonusWeaponPowerMinRange_postfix"		" m"
+
+		"LongRangeBonusWeaponPower_prefix"				"{s:sign}"
+		"LongRangeBonusWeaponPower_label"				"Damage Senjata"
+		"LongRangeBonusWeaponPower_postvalue_label"				"Damage Senjata"
+		"LongRangeBonusWeaponPower_postfix"				"%"
+		"LongRangeBonusWeaponPower_conditional"			"di luar Jangkauan"
+
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASEMinRange_label"		"Jarak Min."
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASEMinRange_postvalue_label"		"Jarak Min."
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASEMinRange_postfix"		" m"
+
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_label"				"Damage Senjata"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_postvalue_label"				"Damage Senjata"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_postfix"				"%"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_conditional"			"di luar Jangkauan"
+
+		"TechRangeMultiplier_prefix"					"{s:sign}"
+		"TechRangeMultiplier_label"						"Jangkauan Skill"
+		"TechRangeMultiplier_postvalue_label"						"Jangkauan Skill"
+		"TechRangeMultiplier_postfix"					"%"
+
+		"TechRangeMultiplierBuff_prefix"					"{s:sign}"
+		"TechRangeMultiplierBuff_label"						"Jangkauan Skill"
+		"TechRangeMultiplierBuff_postvalue_label"						"Jangkauan Skill"
+		"TechRangeMultiplierBuff_postfix"					"%"
+
+		"ImbuedTechRangeMultiplier_prefix"				"{s:sign}"
+		"ImbuedTechRangeMultiplier_label"				"Jangkauan Skill Terisi"
+		"ImbuedTechRangeMultiplier_postvalue_label"				"Jangkauan Skill Terisi"
+		"ImbuedTechRangeMultiplier_postfix"				"%"
+
+		"NonImbuedTechRangeMultiplier_prefix"			"{s:sign}"
+		"NonImbuedTechRangeMultiplier_label"			"Jangkauan Skill Tidak Terisi"
+		"NonImbuedTechRangeMultiplier_postvalue_label"			"Jangkauan Skill Tidak Terisi"
+		"NonImbuedTechRangeMultiplier_postfix"			"%"
+
+		"MODIFIER_VALUE_TECH_RANGE_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENT_label"						"Jangkauan Skill"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENT_postvalue_label"						"Jangkauan Skill"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENT_postfix"					"%"
+
+		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_label"						"Jangkauan Skill"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_postvalue_label"						"Jangkauan Skill"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_postfix"					"%"
+
+		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_prefix"				"{s:sign}"
+		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_label"				"Jangkauan Skill Terisi"
+		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postvalue_label"				"Jangkauan Skill Terisi"
+		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postfix"				"%"
+
+		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_prefix"			"{s:sign}"
+		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_label"			"Jangkauan Skill Tidak Terisi"
+		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postvalue_label"			"Jangkauan Skill Tidak Terisi"
+		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postfix"			"%"
+
+		//"ThrowRange_label"								"Throw Range"
+		"ThrowRange_postfix"							" m"
+
+		"TechRadiusMultiplier_prefix"					"{s:sign}"
+		"TechRadiusMultiplier_label"					"Radius"
+		"TechRadiusMultiplier_postvalue_label"					"Radius"
+		"TechRadiusMultiplier_postfix"					"%"
+
+		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_label"					"Radius"
+		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_postvalue_label"					"Radius"
+		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_postfix"					"%"
+
+		"TechRadiusMultiplierBuff_prefix"					"{s:sign}"
+		"TechRadiusMultiplierBuff_label"					"Radius"
+		"TechRadiusMultiplierBuff_postvalue_label"					"Radius"
+		"TechRadiusMultiplierBuff_postfix"					"%"
+
+		"ImbuedTechRadiusMultiplier_prefix"					"{s:sign}"
+		//"ImbuedTechRadiusMultiplier_label"					"Imbued Radius"
+		"ImbuedTechRadiusMultiplier_postfix"					"%"
+
+		"NonImbuedTechRadiusMultiplier_prefix"					"{s:sign}"
+		//"NonImbuedTechRadiusMultiplier_label"					"Non-Imbued Radius"
+		"NonImbuedTechRadiusMultiplier_postfix"					"%"
+
+		"TechRangeAdditive_prefix"						"{s:sign}"
+		"TechRangeAdditive_label"						"Jangkauan Skill"
+		"TechRangeAdditive_postvalue_label"						"Jangkauan Skill"
+		"TechRangeAdditive_postfix"						" m"
+
+		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_label"						"Jangkauan Skill"
+		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_postvalue_label"						"Jangkauan Skill"
+		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_postfix"						" m/dtk."
+
+		//"WindUpTime_label"								"Windup Time"
+		"WindUpTime_postfix"								" dtk."
+
+		"HealthDrainedPerSecond_label"				"Health Terkuras"
+
+		"HealthDrainedPerSecond_postvalue_label"				"Health Terkuras"
+		"HealthDrainedPerSecond_postfix"				"/dtk."
+
+		"DebuffDurationReductionPercentage_label"		"Pengurangan Durasi Debuff"
+
+		"DebuffDurationReductionPercentage_postvalue_label"		"Pengurangan Durasi Debuff"
+		"DebuffDurationReductionPercentage_postfix"		"%"
+
+		//"HealthCost_label"							"Health Cost"
+
+		"ZipLineSpeedPercent_prefix"					"{s:sign}"
+		"ZipLineSpeedPercent_label"						"Kecepatan Zipline"
+		"ZipLineSpeedPercent_postvalue_label"						"Kecepatan Zipline"
+		"ZipLineSpeedPercent_postfix"					"%"
+
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_label"						"Kecepatan Zipline"
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_postvalue_label"						"Kecepatan Zipline"
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_postfix"					"%"
+	
+		//"ZiplineJumpBonusDuration_label"					"Jump Off Duration"
+		"ZiplineJumpBonusDuration_postfix"					" dtk."
+
+		//"ZiplineJumpBonusMoveSpeed_label"					"Jump Off Speed Bonus"
+		"ZiplineJumpBonusMoveSpeed_postfix"					" m/dtk."
+
+		"BonusZipLineSpeed_prefix"						"{s:sign}"
+		//"BonusZipLineSpeed_label"						"Hyperline Speed"
+
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_ADDITIVE_prefix"						"{s:sign}"
+
+		"MaxProjectiles_label"						"Jumlah Proyektil"
+
+
+		"MaxProjectiles_postvalue_label"						"Jumlah Proyektil"
+
+		//"DeathDelay_label"							"Delay Death Duration"
+
+		//"TackleDurationMax_label"						"Max Tackle Duration"
+
+		"MoveSpeed_postfix"								" m"
+		"MoveSpeedBonus_prefix"							"{s:sign}"
+		"MoveSpeedBonus_label"							"Kecepatan Gerakan"
+		"MoveSpeedBonus_postvalue_label"							"Kecepatan Gerakan"
+		"MoveSpeedBonus_postfix"						" m/dtk."
+
+		//"MoveSpeedFriendlyBuff_prefix"			""
+		//"MoveSpeedFriendlyBuff_label"				"Ally Move Speed"
+		"MoveSpeedFriendlyBuff_postfix"			" m/dtk."
+		
+		//"ProcBuildupPercent_label"					"Proc Buildup"
+		"ProcBuildupPercent_postfix"					"%"
+
+		//"AwakenDamage_label"							"Awaken Damage"
+
+		//"LockOnTime_label"							"Lock On Time"
+		"LockOnTime_postfix"							" detik"
+
+		//"StalkDuration_label"							"Stalk Time"
+		"StalkDuration_postfix"							" detik"
+
+		"MaxStacks_label"								"Akumulasi Maks."
+		"MaxStacks_postvalue_label"								"Akumulasi Maks."
+		
+		"CurrentStacks_label"							"Akumulasi Saat Ini:"
+		"CurrentStacks_postvalue_label"							"Akumulasi Saat Ini:"
+
+		"CurrentBonus_label"							"Bonus Saat Ini:"
+		"CurrentBonus_postvalue_label"					"Bonus Saat Ini:"
+
+
+		//"TimeToMaxStacks_label"							"Time To Max Stacks"
+		"TimeToMaxStacks_postfix"						" dtk."
+
+		//"DamagePerHit_label"							"Damage Per Hit"
+
+		//"FinalBlow_label"							"Final Blow Damage"
+
+		"DamageThreshold_label"						"Batas Damage"
+		
+
+		"DamageThreshold_postvalue_label"						"Batas Damage"
+		
+		"DamageReduction_label"						"Pengurangan Damage"
+		"DamageReduction_postvalue_label"						"Pengurangan Damage"
+		"DamageReduction_postfix"					"%"
+
+		"MeleeDamage_label"							"Damage Jarak Dekat"
+
+
+		"MeleeDamage_postvalue_label"							"Damage Jarak Dekat"
+
+		//"ConvertedHealth_label"						"Trooper Health"
+
+		"SilenceDuration_label"							"Durasi Bungkam"
+
+		"SilenceDuration_postvalue_label"							"Durasi Bungkam"
+		"SilenceDuration_postfix"						" dtk."
+
+		"Range_postfix"									" m"
+		"Range_label"									"Jangkauan"
+
+		"Range_postvalue_label"									"Jangkauan"
+
+		"MinRange_label"								"Jangkauan Min."
+
+		"MinRange_postvalue_label"								"Jangkauan Min."
+		"MinRange_postfix"								" m"
+
+		//"ConeRadius_label"							"Lightning Distance"
+		"ConeRadius_postfix"							" m"
+		"ConeAngle_label"						"Sudut Kerucut"
+		"ConeAngle_postvalue_label"						"Sudut Kerucut"
+		"ConeAngle_postfix"						"°"
+
+		"ShockRadius_label"							"Radius"
+
+		"ShockRadius_postvalue_label"							"Radius"
+		"ShockRadius_postfix"						" m"
+
+		//"KnockDownRadius_label"						"Knockdown Radius"
+		"KnockDownRadius_postfix"						" m"
+
+		"BurnDuration_postfix"							" dtk."
+		"BurnDuration_label"							"Durasi Terbakar"
+
+		"BurnDuration_postvalue_label"							"Durasi Terbakar"
+
+		"AbilityCooldown_postfix"						" dtk."
+		"AbilityCooldown_label"						"Cooldown"
+
+		"AbilityCooldown_postvalue_label"						"Cooldown"
+
+		"TechCooldown_postfix"						"%"
+		"TechDuration_postfix"						"%"
+		"TechLifesteal_postfix"						"%"
+		"TechRange_postfix"							"%"
+
+		"HealingPercent_label"						"% Penyembuhan"
+
+		"HealingPercent_postvalue_label"						"% Penyembuhan"
+		"HealingPercent_postfix"						"%"
+
+		"AbilityCooldownBetweenCharge_label"			"Penundaan Pengisian Daya"
+
+		"AbilityCooldownBetweenCharge_postvalue_label"			"Penundaan Pengisian Daya"
+		"AbilityCooldownBetweenCharge_postfix"			" dtk."
+
+		"AbilityChargeUpTime_label" "Waktu Isi Daya"
+
+		"AbilityChargeUpTime_postvalue_label" "Waktu Isi Daya"
+		"AbilityChargeUpTime_postfix"	" dtk."
+
+		"AbilityDuration_postfix"						" dtk."
+		"AbilityDuration_label"						"Durasi"
+
+		"AbilityDuration_postvalue_label"						"Durasi"
+
+		"TetherDuration_postfix"					" dtk."
+		"TetherDuration_label"						"Durasi Tambat"
+
+		"TetherDuration_postvalue_label"						"Durasi Tambat"
+
+		"TetherRadius_postfix"						" m"
+		//"TetherRadius_label"						"Tether Radius"
+
+		"AbilityCastRange_postfix"						" m"
+		"AbilityCastRange_label"						"Jangkauan Skill"
+
+		"AbilityCastRange_postvalue_label"						"Jangkauan Skill"
+
+		"AbilityCastRangeMinimum_postfix"				" m"
+		//"AbilityCastRangeMinimum_label"					"Range Minimum"
+
+		"AbilityChannelTime_postfix"					" dtk."
+		"AbilityChannelTime_label"					"Durasi Skill"
+
+		"AbilityChannelTime_postvalue_label"					"Durasi Skill"
+
+		"AbilityCastDelay_postfix"					" dtk."
+		"AbilityCastDelay_label"					"Penundaan Penggunaan Skill"
+
+		"AbilityCastDelay_postvalue_label"					"Penundaan Penggunaan Skill"
+
+		"MaxRecasts_label"				"Maks. Pemakaian Ulang"
+		"MaxRecasts_postvalue_label"	"Maks. Pemakaian Ulang"
+
+		"AbilityCharges_label"						"Daya"
+		
+		
+
+		"AbilityCharges_postvalue_label"						"Daya"
+		
+		
+		"BonusAbilityDurationPercent_prefix"			"{s:sign}"
+		"BonusAbilityDurationPercent_label"				"Durasi Skill"
+		"BonusAbilityDurationPercent_postvalue_label"				"Durasi Skill"
+		"BonusAbilityDurationPercent_postfix"			"%"		
+				
+		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_prefix"			"{s:sign}"
+		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_label"				"Durasi Skill"
+		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_postvalue_label"				"Durasi Skill"
+		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_postfix"			"%"		
+		
+		"NonImbuedBonusDuration_prefix"				"{s:sign}"
+		"NonImbuedBonusDuration_label"				"Durasi Skill Tidak Terisi"
+		"NonImbuedBonusDuration_postvalue_label"				"Durasi Skill Tidak Terisi"
+		"NonImbuedBonusDuration_postfix"			"%"		
+		
+		"ImbuedBonusDuration_prefix"					"{s:sign}"
+		"ImbuedBonusDuration_label"						"Durasi Skill Terisi"
+		"ImbuedBonusDuration_postvalue_label"						"Durasi Skill Terisi"
+		"ImbuedBonusDuration_postfix"					"%"
+
+		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_label"						"Durasi Skill Terisi"
+		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_postvalue_label"						"Durasi Skill Terisi"
+		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_postfix"					"%"
+
+		"MissCooldown_postfix"							" dtk."
+		//"MissCooldown_label"							"Cooldown on miss"
+
+		"ShockDelay_label"							"Penundaan sebelum Stun"
+
+		"ShockDelay_postvalue_label"							"Penundaan sebelum Stun"
+		"ShockDelay_postfix"							" dtk."
+
+		"ArmTime_label"									"Waktu Aktif"
+
+		"ArmTime_postvalue_label"									"Waktu Aktif"
+		"ArmTime_postfix"								" dtk."
+
+		"Barrel_ArmTime_label"							"Waktu Aktif"
+
+		"Barrel_ArmTime_postvalue_label"							"Waktu Aktif"
+		"Barrel_ArmTime_postfix"						" dtk."
+
+		"ExplodeDelay_label"							"Penundaan Ledakan"
+
+		"ExplodeDelay_postvalue_label"							"Penundaan Ledakan"
+		"ExplodeDelay_postfix"							" dtk."
+		
+		"BuildUpPercentPerHit_label"					"Peningkatan per serangan"
+		
+		"BuildUpPercentPerHit_postvalue_label"					"Peningkatan per serangan"
+		"BuildUpPercentPerHit_postfix"					"%"
+
+		"BuildUpPerSecond_label"					"Peningkatan per Detik"
+		"BuildUpPerSecond_postvalue_label"					"Peningkatan per Detik"
+		"BuildUpPerSecond_postfix"					"%"
+
+		//"FreezeBuildUpTime_label"						"Freeze buildup time"
+		"FreezeBuildUpTime_postfix"						" dtk."
+
+		//"CritStackInterval_label"						"Crit Charge Delay"
+		"CritStackInterval_postfix"						" dtk."
+
+		"TurretLifetime_label"						"Durasi Aktif"
+
+		"TurretLifetime_postvalue_label"						"Durasi Aktif"
+		"TurretLifetime_postfix"						" dtk."
+
+		"CritCoatingDamagePercent_prefix"				"{s:sign}"
+		//"CritCoatingDamagePercent_label"				"Crit Coating Crit Bonus"
+		"CritCoatingDamagePercent_postfix"				"%"
+
+		//"ExplosionCoatingRadius_label"				"Explosion Coating Radius"
+		"ExplosionCoatingRadius_postfix"				" m"
+
+		//"SlowCoatingProcChance_label"					"Slowing Coating Chance"
+		"SlowCoatingProcChance_postfix"					"%"
+
+		//"SlowCoatingMoveSpeed_label"					"Slowing Coating Slow Amount"
+		"SlowCoatingMoveSpeed_postfix"					"%"
+
+		//"SlowCoatingDuration_label"					"Slowing Coating Slow Duration"
+		//"SlowCoatingDuration_postfix"					""
+
+		"MaxLifetime_label"							"Durasi Aktif"
+
+		"MaxLifetime_postvalue_label"							"Durasi Aktif"
+		"MaxLifetime_postfix"							" dtk."
+
+		//"ZipLineArrowLifetime_label"					"Arrow Flight Time"
+		//"ZipLineArrowLifetime_postfix"					""
+
+		//"DamageTakenPercentIncreasePerStack_label"	"Damage Increase Per Stack"
+		"DamageTakenPercentIncreasePerStack_postfix"	"%"
+
+		//"ShotsFired_label"							"Shots fired"
+		//"ShotsFired_postfix"							""
+
+		//"TimeBetweenShots_label"						"Time between shots"
+		//"TimeBetweenShots_postfix"						""
+
+		//"DroneDPS_label"								"Drone Damage"
+		"DroneDPS_postfix"								"DPS"
+
+		"DistanceBuff_postfix"							"%"
+		//"DistanceBuff_label"							"Increase at Max Range"
+
+		//"FullDistance_label"							"Max Range: "
+		"FullDistance_postfix"							" m"
+
+		"ProcDamage_label"								"Damage Spirit"
+
+		"ProcDamage_postvalue_label"								"Damage Spirit"
+		//"BaseDamagePct_label"							"Bonus Spirit Amp"
+		"BaseDamagePct_prefix"							"{s:sign}"
+		"BaseDamagePct_postfix"							"%"
+
+		"TargetsPerTick_label"						"Target Kena per Tembakan"
+
+		"TargetsPerTick_postvalue_label"						"Target Kena per Tembakan"
+		"HealthToDamage_label"						"Damage"
+
+		"HealthToDamage_postvalue_label"						"Damage"
+		"SelfDamagePct_label"						"Jumlah Health"
+
+		"SelfDamagePct_postvalue_label"						"Jumlah Health"
+		"SelfDamagePct_postfix"						"%"
+
+		"DamageHealPerTarget_label"						"Damage/Penyembuhan per Target"
+
+
+		"DamageHealPerTarget_postvalue_label"						"Damage/Penyembuhan per Target"
+
+		//"DeathTaxHeal_label"							"Health Per Kill"
+
+		"ChainRadius_label"							"Radius Lompatan"
+
+		"ChainRadius_postvalue_label"							"Radius Lompatan"
+		"ChainRadius_postfix"							" m"
+		
+		//"LaunchDamage_postfix"							""
+		//"LaunchDamage_label"							"Knockback Damage"
+
+		//"ImpaleDamage_postfix"							""
+		//"ImpaleDamage_label"							"Impale Damage"
+
+		//"ImpaleDuration_label"						"Impale Duration"
+		"ImpaleDuration_postfix"						" dtk."
+
+		"ExplosionRadius_label"						"Radius Tembakan"
+
+		"ExplosionRadius_postvalue_label"						"Radius Tembakan"
+		"ExplosionRadius_postfix"						" m"
+
+		"MinExplosionRadius_label"					"Radius Ledakan Min."
+
+		"MinExplosionRadius_postvalue_label"					"Radius Ledakan Min."
+		"MinExplosionRadius_postfix"					" m"
+
+		"MaxExplosionRadius_label"					"Radius Ledakan Maks."
+
+		"MaxExplosionRadius_postvalue_label"					"Radius Ledakan Maks."
+		"MaxExplosionRadius_postfix"					" m"
+
+		"ExplosionDamage_label"						"Damage Ledakan"
+
+		"ExplosionDamage_postvalue_label"						"Damage Ledakan"
+		//"MinExplosionDamage_label"						"Min Explosion Damage: "
+		//"MinExplosionDamage_postfix"					""
+
+		//"ExplosionMinPercent_label"					"Min Explosion Damage: "
+		"ExplosionMinPercent_postfix"					"%"
+
+		//"ExplosionMaxPercent_label"					"Max Explosion Damage: "
+		"ExplosionMaxPercent_postfix"					"%"
+
+		//"EMPBuildupPercentPerShot_label"				"Silence Charge Per Shot"
+		"EMPBuildupPercentPerShot_postfix"				"%"
+
+		"InvisFadeToDuration_label"						"Waktu Menghilang"
+
+		"InvisFadeToDuration_postvalue_label"						"Waktu Menghilang"
+		"InvisFadeToDuration_postfix"						" dtk."
+
+		"InvisMoveSpeedMod_prefix"					"{s:sign}"
+		"InvisMoveSpeedMod_postfix"					" m/dtk."
+		"InvisMoveSpeedMod_label"					"Kecepatan Sprint Saat Tak Terlihat"
+
+		"InvisMoveSpeedMod_postvalue_label"					"Kecepatan Sprint Saat Tak Terlihat"
+
+		//"MeleeAttackLength_label"						"Melee Range"
+		"MeleeAttackLength_postfix"						" m"
+
+		"ArmingDuration_label"						"Durasi Siap Meledak"
+
+		"ArmingDuration_postvalue_label"						"Durasi Siap Meledak"
+		"ArmingDuration_postfix"						" dtk."
+
+		"AirJumpVerticalSpeedPercent_prefix"			"{s:sign}"
+		//"AirJumpVerticalSpeedPercent_label"			"Air Jump Vertical Speed"
+		"AirJumpVerticalSpeedPercent_postfix"			"%"
+
+
+		//"ReflectDamage_label"							"Bullet Reflect Damage"
+		"ReflectDamage_postfix"							"%"
+
+		"ImmobilizeDuration_label"					"Durasi Lumpuh"
+
+		"ImmobilizeDuration_postvalue_label"					"Durasi Lumpuh"
+		"ImmobilizeDuration_postfix"					" dtk."
+
+		"AirControlPercentBarrier_label"					"Kontrol Udara"
+		"AirControlPercentBarrier_postvalue_label"					"Kontrol Udara"
+		"AirControlPercentBarrier_prefix"							"{s:sign}"
+		"AirControlPercentBarrier_postfix"							"%"
+
+		"AirControlPercent_label"					"Kontrol Udara"
+		"AirControlPercent_postvalue_label"					"Kontrol Udara"
+		"AirControlPercent_prefix"							"{s:sign}"
+		"AirControlPercent_postfix"							"%"
+
+		"AirControlAccelPercent_label"					"Percepatan di Udara"
+		"AirControlAccelPercent_postvalue_label"					"Percepatan di Udara"
+		"AirControlAccelPercent_prefix"							"{s:sign}"
+		"AirControlAccelPercent_postfix"							"%"
+
+		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_label"					"Kontrol Udara"
+		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_postvalue_label"					"Kontrol Udara"
+		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_postfix"							"%"
+
+		//"HeadStompBonusDamage_label"					"Head Stomp Damage Bonus"
+		//"HeadStompBonusDamage_postfix"					""
+
+		//"HeadStompBonusRadius_label"					"Head Stomp Radius Bonus"
+		//"HeadStompBonusRadius_postfix"					""
+
+		//"BouncePadStompCount_label"					"Max Head Stomps"
+
+		"NPCProcChance_label"							"Peluang Aktivasi Pasukan"
+
+		"NPCProcChance_postvalue_label"							"Peluang Aktivasi Pasukan"
+		"NPCProcChance_postfix"							"%"
+
+		"HeroProcChance_label"						"Peluang Aktivasi Hero"
+
+		"HeroProcChance_postvalue_label"						"Peluang Aktivasi Hero"
+		"HeroProcChance_postfix"						"%"
+		
+		//"AbilityProjectileSpeedPercent_label"			"Speed Increase"
+		"AbilityProjectileSpeedPercent_postfix"			"%"
+
+		//"MODIFIER_VALUE_ABILITY_PROJECTILE_SPEED_PERCENT_label"			"Speed Increase"
+		"MODIFIER_VALUE_ABILITY_PROJECTILE_SPEED_PERCENT_postfix"			"%"
+		
+		"TechCleaveDamagePercent_label"				"Damage Celah"
+		
+		"TechCleaveDamagePercent_postvalue_label"				"Damage Celah"
+		"TechCleaveDamagePercent_postfix"				"%"
+		
+		"TechCleaveTargetCap_label"					"Target Tambahan"
+		
+		"TechCleaveTargetCap_postvalue_label"					"Target Tambahan"
+		//"TechCleaveTargetCap_postfix"					""
+		
+		"TechCleaveRadius_label"						"Radius Celah"
+		
+		"TechCleaveRadius_postvalue_label"						"Radius Celah"
+		"TechCleaveRadius_postfix"						" m"
+
+		"InitialRadius_label"							"Radius Awal"
+
+		"InitialRadius_postvalue_label"							"Radius Awal"
+		"InitialRadius_postfix"							" m"
+
+		//"BlurVisionRange_label"							"Blur Vision Range"
+		"BlurVisionRange_postfix"						" m"
+		
+		//"ExplosiveShotRadiusPercent_label"				"Explosive Shot Radius Increase"
+		"ExplosiveShotRadiusPercent_postfix"			"%"
+				
+		//"TechPowerPerCharge_label"						"Spirit per Charge"	
+		
+		//"FireRatePerCharge_label"						"Fire Rate per Charge"
+		"FireRatePerCharge_postfix"						"%"
+		
+		//"ChargeDuration_label"							"Charge Duration"
+		"ChargeDuration_postfix"						" dtk."
+
+		//"MaxCharges_label"								"Max Charges"
+
+		//"ExtraBladeDamage_label"						"Extra Damage per Charge"
+
+		//"WaveStunDuration_label"						"Disarm/EMP Duration"
+		"WaveStunDuration_postfix"						" dtk."
+
+		"WaveLifetime_label"							"Durasi Aktif Proyektil"
+
+		"WaveLifetime_postvalue_label"							"Durasi Aktif Proyektil"
+		"WaveLifetime_postfix"							" dtk."
+
+		//"LockedRadius_label"							"Chain Length"
+		"LockedRadius_postfix"							" m"
+
+		//"BoostDuration_label"							"Ally Move Speed Duration"
+		"BoostDuration_postfix"							" dtk."
+
+		//"ShieldPercentage_label"						"Shield Max Health %"
+		"ShieldPercentage_postfix"						"% Health Maks."
+
+		"ShieldDuration_label"							"Durasi Perisai"
+
+		"ShieldDuration_postvalue_label"							"Durasi Perisai"
+		"ShieldDuration_postfix"						" dtk."
+
+		"SlowRadius_label"								"Radius Perlambatan"
+
+		"SlowRadius_postvalue_label"								"Radius Perlambatan"
+		"SlowRadius_postfix"							" m"
+		
+		//"SmokeDuration_label"							"Smoke Duration"
+		"SmokeDuration_postfix"							" dtk."
+
+		//"SmokeRadius_label"								"Smoke Radius"
+		"SmokeRadius_postfix"							" m"
+
+		"ChainDuration_label"							"Durasi Tambat"
+
+		"ChainDuration_postvalue_label"							"Durasi Tambat"
+		"ChainDuration_postfix"							" dtk."
+
+		//"InfectDuration_label"							"Infect Duration"
+		"InfectDuration_postfix"						" dtk."
+
+		//"CloudDuration_label"							"Cloud Lifetime"
+		"CloudDuration_postfix"							" dtk."
+
+		"TimeSlowPercent_label"							"Perlambatan Waktu"
+
+		"TimeSlowPercent_postvalue_label"							"Perlambatan Waktu"
+		"TimeSlowPercent_postfix"						"%"
+
+		//"CombatRegenPercent_label"						"Health Regen in Combat"
+		"CombatRegenPercent_postfix"					"%"
+
+		"AttackPower_prefix"							"{s:sign}"
+		//"AttackPower_postfix"							""
+		//"AttackPower_label"								"Attack Power"
+
+		"AbilityPower_prefix"							"{s:sign}"
+		//"AbilityPower_postfix"							""
+		//"AbilityPower_label"							"Ability Power"
+		  
+		"DefensePower_prefix"							"{s:sign}"
+		//"DefensePower_postfix"							""
+		//"DefensePower_label"							"Defense Power"
+
+		//"InfectionBonusDPS_prefix"						""
+		//"InfectionBonusDPS_postfix"						""
+		//"InfectionBonusDPS_label"						"Infection Bonus DPS"
+
+		//"DecoyLifetime_prefix"							""
+		"DecoyLifetime_postfix"							" dtk."
+"Health_label"									"Health"
+
+		"Health_postvalue_label"									"Health"
+
+		//"Grenades_label"					"Extra Bombs"
+
+		//"SearchRadius_label"				"Search Radius"
+		"SearchRadius_postfix"				" m"
+
+		//"GrenadesPerVolley_label"			"Bombs Per Volley"
+
+		//"BulletArmorPenetration_label"		"Target Bullet Resist"
+		//"BulletArmorPenetration_postfix"	""
+
+		//"RampDuration_label"						"Ramp Duration"
+		"RampDuration_postfix"						" dtk."
+
+		//"EndDuration_label"							"Final Duration"
+		"EndDuration_postfix"						" dtk."
+
+		//"FinalSlow_label"							"Slowest Speed"		
+		"FinalSlow_postfix"							" m/dtk."		
+
+		"WeaponPowerPerStack_prefix"				"{s:sign}"
+		"WeaponPowerPerStack_label"					"Damage Senjata per Akumulasi"
+		"WeaponPowerPerStack_postvalue_label"					"Damage Senjata per Akumulasi"
+		"WeaponPowerPerStack_postfix"				"%"
+		"WeaponPowerPerStackNonHero_prefix"				"{s:sign}"
+		"WeaponPowerPerStackNonHero_label"					"Damage Senjata Non-Hero"
+		"WeaponPowerPerStackNonHero_postvalue_label"					"Damage Senjata Non-Hero"
+		"WeaponPowerPerStackNonHero_postfix"				"%"
+
+		"NonHeroStackLimit_label"					"Batas Akumulasi Non-Hero"
+		"NonHeroStackLimit_postvalue_label"				"Batas Akumulasi Non-Hero"
+		"DamageToStack_label"						"Damage yang diterima per Akumulasi"
+		"DamageToStack_postvalue_label"						"Damage yang diterima per Akumulasi"
+		"DamageDuration_label"						"Durasi"
+		"DamageDuration_postvalue_label"						"Durasi"
+		"DamageDuration_postfix"						" dtk."
+
+		"RegenWhileInvisible_label"				"Pemulihan Health saat Tak Terlihat"
+
+		"RegenWhileInvisible_postvalue_label"				"Pemulihan Health Saat Tak Terlihat"
+		"RegenWhileInvisible_prefix"			"+"
+		"DamageRadius_label"						"Radius Damage"
+
+		"DamageRadius_postvalue_label"						"Radius Damage"
+		"DamageRadius_postfix"						" m"
+
+		//"RegenerationRate_label"					"Restore Time"
+		"RegenerationRate_postfix"					" dtk."
+
+		"BulletShieldMaxHealth_prefix"				"{s:sign}"
+		"BulletShieldMaxHealth_label"				"Health Perisai Peluru"
+		"BulletShieldMaxHealth_postvalue_label"				"Health Perisai Peluru"
+
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_label"				"Health Perisai Peluru"
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_postvalue_label"				"Health Perisai Peluru"
+
+		"ActiveBulletShieldMaxHealth_prefix"		"{s:sign}"
+		"ActiveBulletShieldMaxHealth_label"			"Health Perisai Peluru"
+		"ActiveBulletShieldMaxHealth_postvalue_label"			"Health Perisai Peluru"
+
+		"ActiveMODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_prefix"		"{s:sign}"
+		"ActiveMODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_label"			"Health Perisai Peluru"
+		"ActiveMODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_postvalue_label"			"Health Perisai Peluru"
+
+		"TechShieldMaxHealth_prefix"				"{s:sign}"
+		"TechShieldMaxHealth_label"					"Health Perisai Spirit"
+		"TechShieldMaxHealth_postvalue_label"					"Health Perisai Spirit"
+
+		"WeaponPowerPerKill_label"			"Damage Senjata per Kill"
+
+		"WeaponPowerPerKill_postvalue_label"			"Damage Senjata per Kill"
+		"WeaponPowerPerKill_prefix"			"+"
+		"WeaponPowerPerKill_postfix"		"%"
+		//"WeaponPowerPerAssist_label"		"Courage per Assist"
+		//"WeaponPowerPerDeath_label"			"Courage per Death"
+
+		"FireRatePerKill_label"			"Tingkat Tembakan per Kill"
+
+		"FireRatePerKill_postvalue_label"			"Tingkat Tembakan per Kill"
+		"FireRatePerKill_prefix"			"+"
+		"FireRatePerKill_postfix"		"%"
+
+		"BonusZoomPercent_prefix"				"{s:sign}"
+		"BonusZoomPercent_label"				"Zoom Senjata"
+		"BonusZoomPercent_postvalue_label"				"Zoom Senjata"
+		"BonusZoomPercent_postfix"				"%"
+
+		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_label"				"Zoom Senjata"
+		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_postvalue_label"				"Zoom Senjata"
+		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_postfix"				"%"
+
+		"MaxDPS_label"						"DPS Maks."
+
+		"MaxDPS_postvalue_label"						"DPS Maks."
+		//"DamageOnHit_label"					"Damage on Hit"
+		"ProcCooldown_label"					"Frekuensi Maks."
+		"ProcCooldown_postvalue_label"					"Frekuensi Maks."
+		"ProcCooldown_postfix"				" dtk."
+
+		//"WeaponPowerPerEnemy_label"			"Courage per Enemy"
+		"WeaponPowerPerEnemy_prefix"			"+"
+
+		//"FireRatePerEnemy_label"				"Fire Rate per Enemy"
+		"FireRatePerEnemy_prefix"				"+"
+		"FireRatePerEnemy_postfix"			"%"
+
+		//"AssaultDuration_label"				"Air Attack Duration"
+		"AssaultDuration_postfix"				" dtk."
+
+		//"AssaultFireRate_label"				"Air Attack Fire Rate"
+		"AssaultFireRate_prefix"				"{s:sign}"
+		"AssaultFireRate_postfix"				"%"
+
+		"ActiveHealthRegen_prefix"			"{s:sign}"
+		"ActiveHealthRegen_label"			"Pemulihan Health"
+		"ActiveHealthRegen_postvalue_label"			"Pemulihan Health"
+		"ActiveHealthRegen_postfix"			"HP/dtk."
+
+		"ActiveBonusFireRate_label"			"Tingkat Tembakan"
+
+		"ActiveBonusFireRate_postvalue_label"			"Tingkat Tembakan"
+		"ActiveBonusFireRate_postfix"		"%"
+		"SurgeDelay_label"					"Penundaan"
+		"SurgeDelay_postvalue_label"					"Penundaan"
+		"SurgeDelay_postfix"				" dtk."
+
+		//"upgrade_fervor/modifier_fervor/modifier_fervor_damage_stack"	"Fervor Stack"
+		//"upgrade_fervor/modifier_fervor/modifier_fervor_bonuses"	"Enrage Bonuses"
+		"FervorMovespeed_label"		"Kecepatan Gerakan"
+		"FervorMovespeed_postvalue_label"		"Kecepatan Gerakan"
+		"FervorMovespeed_postfix"	" m/dtk."
+		"FervorFireRate_label"		"Tingkat Tembakan"
+		"FervorFireRate_postvalue_label"		"Tingkat Tembakan"
+		"FervorFireRate_postfix"	"%"
+		//"FervorDebuffResistance_label"		"Enrage Debuff Resistance"
+		"FervorDebuffResistance_postfix"	"%"
+		"FervorTechResist_label"			"Pertahanan Spirit"
+
+		"FervorTechResist_postvalue_label"			"Pertahanan Spirit"
+
+		"PassiveFireRate_label"		"Tingkat Tembakan"
+
+		"PassiveFireRate_postvalue_label"		"Tingkat Tembakan"
+		"PassiveFireRate_postfix"	"%"
+
+		"TechDamagePercent_Label"	"Damage"
+		"TechDamagePercent_postvalue_label"	"Damage"
+		"TechDamagePercent_Postfix"	"%"
+		
+		"MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER_Label"	"Damage"
+		"MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER_postvalue_label"	"Damage"
+		"MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER_Postfix"	"%"
+		
+		"DelayDuration_Label"	"Durasi Penundaan"
+		"DelayDuration_postvalue_label"	"Durasi Penundaan"
+		"DelayDuration_Postfix"	" dtk."
+		//"MinimumDamage_Label"	"Minimum Damage"
+
+		"EMPDuration_label"				"Durasi Debuff"
+
+		"EMPDuration_postvalue_label"				"Durasi Debuff"
+		"EMPDuration_postfix"			" dtk."
+
+		//"BonusBulletDamageToEMPTargets_label" "Bullet Damage to Silenced targets"
+		"BonusBulletDamageToEMPTargets_prefix" "+"
+		"BonusBulletDamageToEMPTargets_postfix" "%"
+		"modifier_silencer_proc_active"	"PEREDAM"
+
+		"BulletDamageReflectedPct_label"					"Damage Peluru Kembali"
+
+		"BulletDamageReflectedPct_postvalue_label"					"Damage Peluru Kembali"
+		"BulletDamageReflectedPct_postfix"					"%"
+		"SpiritDamageReflectedPct_label"					"Damage Spirit Kembali"
+		"SpiritDamageReflectedPct_postvalue_label"					"Damage Spirit Kembali"
+		"SpiritDamageReflectedPct_postfix"					"%"
+		"DamageReflectedFrequencyPct_label"				"Peluang Aktivasi"
+		"DamageReflectedFrequencyPct_postvalue_label"				"Peluang Aktivasi"
+		"DamageReflectedFrequencyPct_postfix"			"%"
+		"modifier_armor_reactive_armor"					"Tembakan Balasan"
+		"ReturnFireBulletResist_prefix"					"+"
+		"ReturnFireBulletResist_label"					"Pertahanan Peluru"
+		"ReturnFireBulletResist_postvalue_label"					"Pertahanan Peluru"
+		"ReturnFireBulletResist_postfix"					"%"
+
+		//"RespawnBonusHealth_label"							"Respawn Bonus Health"
+		//"RespawnBonusHealthDuration_label"					"Respawn Bonus Health Duration"
+		"RespawnBonusHealthDuration_postfix"				" dtk."
+		//"upgrade_rebirth/respawn_bonus_health_modifier"		"Rebirth Bonus Health"
+
+		//"DeathImmunityDuration_label"				"Death Immunity Duration"
+		//"DeathImmunityDuration_postfix"			"s"
+		//"DeathImmunityPulseRateMultiplier_label"		"Pulse Rate"
+		//"DeathImmunityPulseRateMultiplier_postfix"	"x"
+		//"modifier_cheat_death_immunity"			"Death Immune"
+
+		"StasisRadius_label"				"Radius"
+
+		"StasisRadius_postvalue_label"				"Radius"
+		"StasisRadius_postfix"				" m"
+
+		//"upgrade_quarantine/modifier_citadel_quarantine"	"Quarantined"
+
+		"HealPercentAmount_label"				"Besar Penyembuhan"
+
+		"HealPercentAmount_postvalue_label"				"Besar Penyembuhan"
+		"HealPercentAmount_postfix"			"%"
+
+		"Stamina_label"							"Stamina"
+		"Stamina_postvalue_label"							"Stamina"
+		"Stamina_prefix"							"{s:sign}"
+
+		"MODIFIER_VALUE_STAMINA_label"							"Stamina"
+		"MODIFIER_VALUE_STAMINA_postvalue_label"							"Stamina"
+		"MODIFIER_VALUE_STAMINA_prefix"							"{s:sign}"
+
+		"StaminaCooldownReduction_prefix"				"{s:sign}"
+		"StaminaCooldownReduction_label"				"Pemulihan Stamina"
+		"StaminaCooldownReduction_postvalue_label"				"Pemulihan Stamina"
+		"StaminaCooldownReduction_postfix"			"%"
+
+		//"ActiveHealthChange_label"			"Health Steal"
+		"ActiveHealthChange_postfix"			"HP"
+		//"ActiveWeaponDamageChange_label"		"Weapon Damage Steal"
+		"ActiveWeaponDamageChange_postfix"    "%"
+
+		//"modifier_upgrade_siphon_buff"		"Siphon"
+		"modifier_upgrade_siphon_debuff"		"Health Dicuri"
+		//"SiphonRadius_label"					"Activate Radius"
+		"SiphonRadius_postfix"				" m"
+
+		"TechResistDuration_label"			"Durasi"
+
+		"TechResistDuration_postvalue_label"			"Durasi"
+		"TechResistDuration_postfix"			" dtk."
+
+		"BleedTechResist_label"				"Pertahanan Spirit"
+
+		"BleedTechResist_postvalue_label"				"Pertahanan Spirit"
+		"BleedTechResist_prefix"				"{s:sign}"
+		"BleedTechResist_postfix"				"%"
+
+		//"StackProcDamage_label"			"Burst Damage"
+		"StackDuration_label"				"Durasi Akumulasi"
+		"StackDuration_postvalue_label"				"Durasi Akumulasi"
+		"StackDuration_postfix"			" dtk."
+
+		"HeadShotBonusDamage_prefix"		"{s:sign}"
+		"HeadShotBonusDamage_label"			"Bonus Damage Headshot"
+		"HeadShotBonusDamage_postvalue_label"			"Bonus Damage Headshot"
+		"HeadShotDebuffDuration_label"		"Durasi"
+		"HeadShotDebuffDuration_postvalue_label"		"Durasi"
+		"HeadShotDebuffDuration_postfix"	" dtk."
+		"HeadShotCooldown_label"			"Cooldown"
+		"HeadShotCooldown_postvalue_label"			"Cooldown"
+		"HeadShotCooldown_postfix"			" dtk."
+		//"upgrade_leveler/headshot_cooldown_modifier"	"Head Shot Bonus Cooldown"
+		//"ActiveChainDuration_label"			"Tether Duration"
+		"ActiveChainDuration_postfix"		" dtk."
+		"ActiveBulletArmorReduction_label"	"Pengurangan Pertahanan Peluru"
+
+		"ActiveBulletArmorReduction_postvalue_label"	"Pengurangan Pertahanan Peluru"
+
+		//"modifier_galvanic_storm"				"Galvanic Storm"
+		//"BuildupPerProc_label"				"Buildup on Shock"
+		"BuildupPerProc_postfix"				"%"
+		//"BuildupDamage_label"					"Damage on Buildup"
+		
+		//"ShockBuildupDuration_label"			"Shock Buildup Lifetime"
+		"ShockBuildupDuration_postfix"		" dtk."
+
+		"GalvanicProcDuration_label"			"Durasi Perlambatan"
+
+		"GalvanicProcDuration_postvalue_label"			"Durasi Perlambatan"
+		"GalvanicProcDuration_postfix"		" dtk."
+
+		"FireRateSlow_label"					"Tingkat Tembakan"
+		"FireRateSlow_postvalue_label"					"Tingkat Tembakan"
+		"FireRateSlow_prefix"					"-"
+		"FireRateSlow_postfix"					"%"
+
+		"MODIFIER_VALUE_FIRE_RATE_SLOW_label"					"Tingkat Tembakan"
+		"MODIFIER_VALUE_FIRE_RATE_SLOW_postvalue_label"					"Tingkat Tembakan"
+		"MODIFIER_VALUE_FIRE_RATE_SLOW_prefix"					"-"
+		"MODIFIER_VALUE_FIRE_RATE_SLOW_postfix"					"%"
+
+		"TechPowerReduction_label"					"Kekuatan Spirit"
+
+		"TechPowerReduction_postvalue_label"					"Kekuatan Spirit"
+		//"SlowFireRatePercent_label"			"Fire Rate Scale"
+		"SlowFireRatePercent_prefix"			"{s:sign}"
+		"SlowFireRatePercent_postfix"			"%"
+
+		"MaxFireRateSlowPercent_label"			"Tingkat Tembakan Maks."
+
+		"MaxFireRateSlowPercent_postvalue_label"			"Tingkat Tembakan Maks."
+		"MaxFireRateSlowPercent_postfix"		"%"
+		"MaxFireRateSlowPercent_prefix"		"-"
+
+		//"FireRateScale_label"					"Fire Rate Scale"
+		"FireRateScale_prefix"				"{s:sign}"
+		"FireRateScale_postfix"				"%"
+
+		//"ActiveHealAmount_label"				"Self Heal"
+		//"ActiveHealAmount_postfix"			"HP"
+
+		//"BonusDamagePerHero_label"			"Bonus Damage Per Hero"
+		"BonusDamagePerHero_postfix"			"%"
+
+		//"DebuffDelay_label"					"Debuff Delay"
+		"DebuffDelay_postfix"					" dtk."
+
+		//"ArmorLossPerHit_label"				"Resist lost per Hit"
+		"ArmorLossPerHit_postfix"				"%"
+
+		//"StackLossFrequency_label"			"Resist Loss Frequency"
+		"StackLossFrequency_postfix"			" dtk."
+
+		"MaxBulletResist_label"				"Pertahanan Peluru Maks."
+
+		"MaxBulletResist_postvalue_label"				"Pertahanan Peluru Maks."
+		"MaxBulletResist_postfix"				"%"
+
+		"upgrade_berserker/modifier_berserker/modifier_berserker_damage_stack"		"Berserker"
+		"berserker_stack"							"Berserker"
+
+		"WeaponDamageBonus_prefix"		"{s:sign}"
+		"WeaponDamageBonus_label"			"Damage Senjata"
+
+		"WeaponDamageBonus_postvalue_label"			"Damage Senjata"
+
+		"TechDamageBonusPercent_prefix"		"{s:sign}"
+		"TechDamageBonusPercent_label"		"Damage Spirit"
+		"TechDamageBonusPercent_postvalue_label"		"Damage Spirit"
+		"TechDamageBonusPercent_postfix"		"%"
+
+		"SuperiorStaminaBonusSpirit_prefix"	"{s:sign}"
+		//"SuperiorStaminaBonusSpirit_label"	"Spirit Power After Second Jump/Dash"
+
+		"EchoShardBonusSpirit_prefix"		"{s:sign}"
+		//"EchoShardBonusSpirit_label"		"Spirit Power for Echo Ability"
+
+
+
+		"BonusSpirit_prefix"				"{s:sign}"
+		"BonusSpirit_label"				"Kekuatan Spirit"
+		"BonusSpirit_postvalue_label"				"Kekuatan Spirit"
+		"BonusSpiritLifesteal_prefix"				"{s:sign}"
+		"BonusSpiritLifesteal_label"				"Curi HP Spirit"
+		"BonusSpiritLifesteal_postvalue_label"				"Curi HP Spirit"
+		"BonusSpiritLifesteal_postfix"			"%"
+		//"modifier_power_shard_bonus"		"Echo Boost"
+
+		//"BonusDuration_label"				"Bonus Duration"
+		"BonusDuration_postfix" 			" dtk."
+		//"superior_stamina_buff"			"Bonus Spirit Power"
+
+		"HighGroundBonusWeaponPower_prefix"	"{s:sign}"
+		//"HighGroundBonusWeaponPower_label"	"Weapon Damage When Above Enemies"
+		"HighGroundBonusWeaponPower_postfix"	"%"
+
+		"BonusBaseWeaponDamage_prefix"					"{s:sign}"
+		"BonusBaseWeaponDamage_label"					"Damage Senjata"
+		"BonusBaseWeaponDamage_postvalue_label"					"Damage Senjata"
+		"BonusBaseWeaponDamage_postfix"					"%"
+
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_label"					"Damage Senjata"
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_postvalue_label"					"Damage Senjata"
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_postfix"					"%"
+
+		"BaseAttackDamagePercent_prefix"					"{s:sign}"
+		"BaseAttackDamagePercent_label"					"Damage Senjata"
+		"BaseAttackDamagePercent_postvalue_label"					"Damage Senjata"
+		"BaseAttackDamagePercent_postfix"					"%"
+
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_label"					"Damage Senjata"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_postvalue_label"					"Damage Senjata"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_postfix"					"%"
+
+		"BaseAttackDamagePercentAltFire_prefix"					"{s:sign}"
+		"BaseAttackDamagePercentAltFire_label"					"Damage Senjata Tembakan Alternatif"
+		"BaseAttackDamagePercentAltFire_postvalue_label"					"Damage Senjata Tembakan Alternatif"
+		"BaseAttackDamagePercentAltFire_postfix"					"%"
+
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_label"					"Damage Senjata Tembakan Alternatif"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_postvalue_label"					"Damage Senjata Tembakan Alternatif"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_postfix"					"%"
+
+		"ImbuedTechPower_prefix"					"{s:sign}"
+		"ImbuedTechPower_label"						"Kekuatan Spirit Skill Terisi"
+
+		"ImbuedTechPower_postvalue_label"						"Kekuatan Spirit Skill Terisi"
+
+		"MovementSpeedBonusDuration_label"			"Durasi Kecepatan Gerakan"
+
+		"MovementSpeedBonusDuration_postvalue_label"			"Durasi Kecepatan Gerakan"
+		"MovementSpeedBonusDuration_postfix"		" dtk."
+
+		//"EnemyLifeThreshold_label"					"Threshold"
+		"EnemyLifeThreshold_postfix"					"%"
+
+		//"CloneDamageTakenIncreasePercent_label"		"Clone Damage Taken"
+		"CloneDamageTakenIncreasePercent_prefix"		"{s:sign}"
+		"CloneDamageTakenIncreasePercent_postfix"		"%"
+
+		"ability_abort_cast"						"Batalkan"
+		"ability_cancel_channel"					"Saluran Akhir"
+
+		//"citadel_ability_lightning_dodge"	"Lightning Roll"
+		//"citadel_ability_lightning_dodge_passive"	"Lightning Roll"
+		//"citadel_ability_basicdamagereflect"	"Reflect Basic Damage"
+		//"citadel_ability_bullet_damage_amp_wall"	"Bullet Damage Amp Wall"
+
+		//"modifier_limit_ability_cooldown"		"Quick Cooldowns"
+
+		//"ability_golden_idol"					"Drop Soul Urn"
+		"golden_idol_bonus_01"					"+35% Jiwa Ekstra"
+		"golden_idol_bonus_02"					"+1 Poin Skill"
+
+		//"ability_capture_zip_line"				"Capture Hyperline"
+		//"modifier_citadel_capture_zipline_timer"	"Capturing Hyperline"
+
+		//"modifier_citadel_containment_victim"	"Containment"
+		"modifier_hollow_point_stack"			"Peluru Berongga"
+		//"LifeThreshold_label"					"Life Threshold"
+		"LifeThreshold_postfix"					"%"
+		//"Cloaked"								"Cloaked"
+
+		"zipline_boost"							"Zipline Dipercepat"
+		"ActiveTechPower_label"					"Kekuatan Spirit"
+		"ActiveTechPower_postvalue_label"					"Kekuatan Spirit"
+		"ActiveTechPower_prefix"				"+"
+
+		//"ActiveBulletShieldHealth_label"		"Active Shield Health"
+		//"ActiveBulletShieldDuration_label"		"Active Shield Duration"
+		"ActiveBulletShieldDuration_postfix"		" dtk."
+		"PassiveShieldCooldown_label"			"Cooldown"
+		"PassiveShieldCooldown_postvalue_label"			"Cooldown"
+		"PassiveShieldCooldown_postfix"			" dtk."
+		"active_bullet_shield"					"Perisai Peluru"
+
+		//"SlamDownRadius_label"					"Slam Radius"
+		"SlamDownRadius_postfix"				" m"
+
+		"StealDuration_label"					"Durasi Mencuri"
+
+		"StealDuration_postvalue_label"					"Durasi Mencuri"
+		"StealDuration_postfix"					" dtk."
+
+		"VeilCross_conditional"					"Menyebrangi Tabir Kosmik"
+		"modifier_veil_walker_triggered"			"Tingkat Tembakan Tabir"
+		"modifier_veil_walker_stealth"			"Penjaga Tabir Tak Terlihat"
+
+		"InvisDuration_label"						"Durasi Tak Terlihat"
+
+		"InvisDuration_postvalue_label"						"Durasi Tak Terlihat"
+		"InvisDuration_postfix"					" dtk."
+
+		"SlideScale_label"						"Jarak Meluncur"
+
+		"SlideScale_postvalue_label"						"Jarak Meluncur"
+		"SlideScale_postfix"						"%"
+		"SlideScale_prefix"						"+"
+
+		"AirMoveIncreasePercent_label"				"Jarak Lompat/Dash di Udara"
+		"AirMoveIncreasePercent_postvalue_label"				"Jarak Lompat/Dash di Udara"
+		"AirMoveIncreasePercent_postfix"						"%"
+		"AirMoveIncreasePercent_prefix"						"+"
+
+		"MODIFIER_VALUE_AIR_MOVE_DISTANCE_INCREASE_PERCENT_label"				"Jarak Lompat/Dash di Udara"
+		"MODIFIER_VALUE_AIR_MOVE_DISTANCE_INCREASE_PERCENT_postvalue_label"				"Jarak Lompat/Dash di Udara"
+		"MODIFIER_VALUE_AIR_MOVE_DISTANCE_INCREASE_PERCENT_postfix"						"%"
+		"MODIFIER_VALUE_AIR_MOVE_DISTANCE_INCREASE_PERCENT_prefix"						"+"
+
+		"FreeAirJumps_prefix"							"{s:sign}"
+		"FreeAirJumps_label"							"Lompatan Udara Bebas"
+		"FreeAirJumps_postvalue_label"					"Lompatan Udara Bebas"
+
+		"MODIFIER_VALUE_FREE_AIR_JUMPS_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_FREE_AIR_JUMPS_label"					"Lompatan Udara Bebas"
+		"MODIFIER_VALUE_FREE_AIR_JUMPS_postvalue_label"			"Lompatan Udara Bebas"
+
+		"ActiveReloadPercent_label"				"Amunisi"
+		
+		"ActiveReloadPercent_postvalue_label"				"Amunisi"
+		"ActiveReloadPercent_postfix"				"%"
+		"ActiveReloadPercent_prefix"				"+"
+
+		"ImbuedCooldownMultiplier_label"			"Cooldown Skill Terisi"
+		"ImbuedCooldownMultiplier_postvalue_label"			"Cooldown Skill Terisi"
+		"ImbuedCooldownMultiplier_postfix"			"%"
+
+		"RespawnHealthPercent_label"				"Health Reinkarnasi"
+
+		"RespawnHealthPercent_postvalue_label"				"Health Reinkarnasi"
+		"RespawnHealthPercent_postfix"			"%"
+
+		"ActiveBonusMoveSpeed_label"					"Kecepatan Gerakan"
+
+		"ActiveBonusMoveSpeed_postvalue_label"					"Kecepatan Gerakan"
+		"ActiveBonusMoveSpeed_prefix"					"{s:sign}"
+		"ActiveBonusMoveSpeed_postfix"					" m/dtk."
+		"ActiveItemUse_conditional"					"saat aktif"
+
+		"BuffMoveSpeedBonus_label"						"Kecepatan Gerakan"
+
+		"BuffMoveSpeedBonus_postvalue_label"						"Kecepatan Gerakan"
+		"BuffMoveSpeedBonus_postfix"						" m/dtk."
+		"BuffMoveSpeedBonus_prefix"						"{s:sign}"
+
+		//"ChannelMoveSpeed_label"						"Channel Move Speed"
+		"ChannelMoveSpeed_postfx"						" m/dtk."
+		//"ChannelMoveSpeed_prefix"						""
+
+		"BulletShieldOnCast_label"						"Perisai Peluru"
+
+		"BulletShieldOnCast_postvalue_label"						"Perisai Peluru"
+		"TechShieldOnCast_label"						"Perisai Spirit"
+		"TechShieldOnCast_postvalue_label"						"Perisai Spirit"
+		//"BulletShieldDuration_label"					"Bullet Shield Duration"
+		"BulletShieldDuration_postfix"					" dtk."
+
+		
+		//"BloodPoolDPS_label"							"Blood Pool DPS"
+		//"BloodPoolDuration_label"						"Blood Pool Duration"
+		"BloodPoolDuration_postfix"						" dtk."
+		//"BloodPoolRadius_label"							"Blood Pool Radius"
+		"BloodPoolRadius_postfix"						" m"
+
+		"LowHealthThreshold_label"						"Batas Health"
+		"LowHealthThreshold_postvalue_label"			"Batas Health"
+		"LowHealthThreshold_postfix"					"%"
+		"LowHealthTechResist_label"						"Pertahanan Spirit"
+		"LowHealthTechResist_postvalue_label"						"Pertahanan Spirit"
+		"LowHealthTechResist_prefix"					"{s:sign}"
+		//"LowHealthWeaponPowerPercent_label"				"Courage"
+		"LowHealthWeaponPowerPercent_prefix"			"{s:sign}"
+		"LowHealthWeaponPowerPercent_postfix"			"%"
+		"ExecuteThreshold_label"						"Batas Penerapan"
+		"ExecuteThreshold_postvalue_label"						"Batas Penerapan"
+		"ExecuteThreshold_postfix"						"%"
+
+		"BuildupDuration_label"							"Peningkatan Waktu Penyusutan"
+
+		"BuildupDuration_postvalue_label"							"Peningkatan Waktu Penyusutan"
+		"BuildupDuration_postfix"						" dtk."
+		//"BuildupExpire_label"							"Buildup Expire"
+		"BuildupExpire_postfix"							" dtk."
+		//"BuildupDecayDelay_label"						"Buildup Decay Delay"
+		"BuildupDecayDelay_postfix"						" dtk."
+		//"BuildupRate_label"							"Buildup Per Shot"
+		//"BuildupRate_postfix"							""
+		"BuildupPerShot_label"							"Peningkatan per tembakan"
+		"BuildupPerShot_postvalue_label"							"Peningkatan per Tembakan"
+		"BuildupPerShot_postfix"						"%"
+		//"StacksPerShot_label"							"Stacks Per Shot"
+
+		//"DamageOnApply_label"							"Damage On Apply"
+
+		"citadel_modifier_teleport"						"Teleportasi"
+		"citadel_modifier_hideout_teleport"				"Meninggalkan Persembunyian"
+		"citadel_trigger_teleport_sandbox"				"Teleportasi ke Sandbox"
+		"citadel_trigger_teleport_hideout"				"Teleportasi ke Persembunyian"
+
+		"MaxHealthLossPercent_label"				"Health Maks."
+
+		"MaxHealthLossPercent_postvalue_label"				"Health Maks."
+		"MaxHealthLossPercent_postfix"			"%"
+
+		"BonusClipPerKill_prefix"				"{s:sign}"
+		"BonusClipPerKill_label"				"Bonus Amunisi per Kill"
+
+		"BonusClipPerKill_postvalue_label"				"Bonus Amunisi per Kill"
+
+		"BonusSpiritPerKill_prefix"				"{s:sign}"
+		//"BonusSpiritPerKill_label"				"Bonus Spirit Power Per Kill"
+
+		//"MaxClipBonus_label"				"Max Clip Bonus"
+
+		"SummonDuration_label"					"Durasi Pemanggilan"
+
+		"SummonDuration_postvalue_label"					"Durasi Pemanggilan"
+		"SummonDuration_postfix" 				" dtk."
+
+		"Reloaded"							"Penuh!"
+		"BonusAmmo"							"Bonus Amunisi!"
+
+		"ExplodeDamage_label"				"Damage Ledakan"
+
+
+		"ExplodeDamage_postvalue_label"				"Damage Ledakan"
+
+		"StaminaRegenPercent_label"			"Pemulihan Stamina"
+		"StaminaRegenPercent_postvalue_label"			"Pemulihan Stamina"
+		"StaminaRegenPercent_postfix"		"%"
+
+		"MeleeResistPercent_prefix"			"{s:sign}"
+		"MeleeResistPercent_label"			"Pertahanan Jarak Dekat"
+		"MeleeResistPercent_postvalue_label"			"Pertahanan Jarak Dekat"
+		"MeleeResistPercent_postfix"		"%"
+		
+		"BuffDuration_label"				"Durasi Buff"
+		
+		"BuffDuration_postvalue_label"				"Durasi Buff"
+		"BuffDuration_postfix"				" dtk."
+
+		"GroundDashReductionPercent_label"	"Jarak Dash"
+
+		"GroundDashReductionPercent_postvalue_label"	"Jarak Dash"
+		"GroundDashReductionPercent_postfix"	"%"
+		
+		"ActivePlayerStats_Percentage"		"%"
+		"ActivePlayerStats_MoveSpeed"		" m/dtk."
+		"ActivePlayerStats_Regen"			"HP"
+		"ActivePlayerStats_Health"			"HP"
+
+		"TechDamageReduction_label"			"Pengurangan Damage Spirit"
+
+		"TechDamageReduction_postvalue_label"			"Pengurangan Damage Spirit"
+		"TechDamageReduction_postfix"		"%"
+
+		"ActiveMoveSpeedPenalty_label"		"Penalti Kecepatan Gerak Aktif"
+
+		"ActiveMoveSpeedPenalty_postvalue_label"		"Penalti Kecepatan Gerak Aktif"
+		"ActiveMoveSpeedPenalty_postfix"		" m/dtk."
+
+		"IncomingDamagePercent_label"		"Damage Diterima"
+
+		"IncomingDamagePercent_postvalue_label"		"Damage Diterima"
+		"IncomingDamagePercent_postfix"		"%"
+		"IncomingDamagePercent_prefix"		"{s:sign}"
+
+		"IncomingDamagePercentFromCaster_label"		"Damage Diterima"
+
+		"IncomingDamagePercentFromCaster_postvalue_label"		"Damage Diterima"
+		"IncomingDamagePercentFromCaster_postfix"	"%"
+		"IncomingDamagePercentFromCaster_prefix"	"{s:sign}"
+
+		
+		"IncomingBulletDamagePercentFromCaster_label"	"Damage Peluru Diterima"
+
+		
+		"IncomingBulletDamagePercentFromCaster_postvalue_label"	"Damage Peluru Diterima"
+		"IncomingBulletDamagePercentFromCaster_postfix"	"%"
+		"IncomingBulletDamagePercentFromCaster_prefix"	"{s:sign}"
+
+		"SlowResistance_label" "Pertahanan Perlambatan"
+		"SlowResistance_postvalue_label" "Pertahanan Perlambatan"
+		"SlowResistance_postfix" "%"
+
+		"MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE_label" "Pertahanan Perlambatan"
+		"MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE_postvalue_label" "Pertahanan Perlambatan"
+		"MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE_postfix" "%"
+
+		"MODIFIER_VALUE_STAMINA_REGEN_PER_SECOND_PERCENTAGE_postvalue_label" "Pemulihan Stamina"
+		"MODIFIER_VALUE_STAMINA_REGEN_PER_SECOND_PERCENTAGE_postfix" "%"
+
+		"CooldownReductionPerHit_label" "Pengurangan Cooldown per Serangan"
+
+		"CooldownReductionPerHit_postvalue_label" "Pengurangan Cooldown per Serangan"
+		"CooldownReductionPerHit_postfix" " dtk."
+
+		"ParryCooldownReduction_label"				"Cooldown Tangkisan"
+
+		"ParryCooldownReduction_postvalue_label"				"Cooldown Tangkisan"
+		"ParryCooldownReduction_prefix"			"-"
+		"ParryCooldownReduction_postfix"			" dtk."
+
+		"ImmunityDuration_label"	"Durasi Kebal"
+
+		"ImmunityDuration_postvalue_label"	"Durasi Kebal"
+		"ImmunityDuration_postfix"	" dtk."
+
+		"CombatBarrier_label"	"Pengaman"
+
+		"CombatBarrier_postvalue_label"	"Pengaman"
+		"BarrierDuration_label"	"Durasi Pengaman"
+		"BarrierDuration_postvalue_label"	"Durasi Pengaman"
+		"BarrierDuration_postfix" " dtk."
+
+		"InterruptCooldown_label"	"Cooldown Terinterupsi"
+		"InterruptCooldown_postvalue_label"	"Cooldown Terinterupsi"
+		"InterruptCooldown_postfix"	" dtk."
+
+		"BonusSoulsPct_label"	"Bonus Jiwa"
+		
+		"BonusSoulsPct_postvalue_label"	"Bonus Jiwa"
+		"BonusSoulsPct_prefix" "+"
+		"BonusSoulsPct_postfix" "%"
+		
+		"EnemyRange_label"		"Jarak Musuh"
+		
+		"EnemyRange_postvalue_label"		"Jarak Musuh"
+		"EnemyRange_postfix"	" m"
+
+		"ReduceFootstepSound_label"	"Jarak Suara Langkah Kaki"
+
+		"ReduceFootstepSound_postvalue_label"	"Jarak Suara Langkah Kaki"
+		"ReduceFootstepSound_postfix"	"%"
+
+		"WeaponDamagePerStack_label" "Damage Senjata per Akumulasi"
+
+		"WeaponDamagePerStack_postvalue_label" "Damage Senjata per Akumulasi"
+		"WeaponDamagePerStack_postfix" "%"
+		"WeaponDamagePerStack_prefix" "+"
+	
+		"LightMeleeAmmo_label"			"Amunisi"
+	
+		"LightMeleeAmmo_postvalue_label"			"Amunisi"
+		"LightMeleeAmmo_postfix"		"%"
+		"LightMeleeAmmo_prefix"			"+"
+
+		"HeavyMeleeMultiplier_label"	"Bonus Serangan Jarak Dekat Berat"
+
+		"HeavyMeleeMultiplier_postvalue_label"	"Bonus Serangan Jarak Dekat Berat"
+		"HeavyMeleeMultiplier_postfix"	"x"
+
+		"SpellParryDuration_label"		"Durasi Mantra Tangkis"
+
+		"SpellParryDuration_postvalue_label"		"Durasi Mantra Tangkis"
+		"SpellParryDuration_postfix"		" dtk."
+
+		"CooldownOnMissReduction_label"		"Cooldown saat meleset"
+
+		"CooldownOnMissReduction_postvalue_label"		"Cooldown saat meleset"
+		"CooldownOnMissReduction_postfix"	"%"
+
+		"HealOnCounterSpell_label"				"Penyembuhan"
+		"HealOnCounterSpell_postvalue_label"	"Penyembuhan"
+
+		"ProcMaxRange_label"					"Aktivasi Jangkauan Maks."
+		"ProcMaxRange_postvalue_label"			"Aktivasi Jangkauan Maks."
+		"ProcMaxRange_postfix"					" m"
+
+		"HealOnHit_postvalue_label" "Penyembuhan Saat Hit"
+
+		"GravityScale_label"					"Skala Gravitasi"
+		"GravityScale_postvalue_label"			"Skala Gravitasi"
+		"GravityScale_postfix"					"%"
+
+		"AirBonusDamageGiven_label"					"Damage di Udara"
+		"AirBonusDamageGiven_postvalue_label"		"Damage di Udara"
+		"AirBonusDamageGiven_prefix"				"{s:sign}"
+		"AirBonusDamageGiven_postfix"				"%"
+
+		"AirBonusDamageTaken_label"					"Damage di Udara yang Diterima"
+		"AirBonusDamageTaken_postvalue_label"		"Damage di Udara yang Diterima"
+		"AirBonusDamageTaken_postfix"				"%"
+
+		"MinHeal_label"					"Penyembuhan Min."
+		"MinHeal_postvalue_label"		"Penyembuhan Min."
+
+		"BuffFrequency_label"						"Frekuensi Buff"
+		"BuffFrequency_postvalue_label"				"Frekuensi Buff"
+		"BuffFrequency_postfix"						" dtk."
+
+		"BulletRadius_label"						"Radius Peluru"
+		"BulletRadius_postvalue_label"				"Radius Peluru"
+		"BulletRadius_postfix"						" m/dtk."
+
+		"StatusImmuneDuration_label"						"Durasi Tak Terhentikan"
+		"StatusImmuneDuration_postvalue_label"				"Durasi Tak Terhentikan"
+		"StatusImmuneDuration_postfix"						" dtk."
+
+		"CooldownReductionOnHitMin_label"					"Pengurangan Min."
+		"CooldownReductionOnHitMin_postvalue_label"			"Pengurangan Min."
+		"CooldownReductionOnHitMin_postfix"					" dtk."
+
+		"CooldownReductionOnHitPct_label"					"Pengurangan Cooldown per Serangan"
+		"CooldownReductionOnHitPct_postvalue_label"			"Pengurangan Cooldown per Serangan"
+		"CooldownReductionOnHitPct_postfix"					"%"
+
+		"EvasionWhileSliding_label"						"Penghindaran Saat Meluncur"
+		"EvasionWhileSliding_postvalue_label"			"Penghindaran Saat Meluncur"						"EvasionWhileSliding_postfix"			"%"
+		"FireRateWhileSliding_label"						"Tingkat Tembakan Saat Meluncur"
+		"FireRateWhileSliding_postvalue_label"			"Tingkat Tembakan Saat Meluncur"
+		"FireRateWhileSliding_postfix"					"%"
+
+		"HealthPctDamage_label"						"Damage Health Saat Ini"
+		"HealthPctDamage_postvalue_label"			"Damage Health Saat Ini"
+		"HealthPctDamage_postfix"					"%"
+		
+		"MaxHPDamage_label"								"Damage Health Maks."
+		"MaxHPDamage_postvalue_label"		"Damage Health Maks."
+		"MaxHPDamage_postfix"				"%"
+
+		"ResistStealAmount_label"				"Pertahanan Dicuri"
+		"ResistStealAmount_postvalue_label"		"Pertahanan Dicuri"
+		"ResistStealAmount_postfix"				"%"
+
+		"OmniPendantBonusAbilityCharges_prefix"	"{s:sign}"
+		"OmniPendantBonusAbilityCharges_label"	"Skill yang Diisi Daya"
+		"OmniPendantBonusAbilityCharges_postvalue_label"	"Skill yang Diisi Daya"
+
+		"BonusAbilityChargesNonCharge_prefix"	"{s:sign}"
+		"BonusAbilityChargesNonCharge_label"			"Skill yang Tidak Diisi Daya"
+		"BonusAbilityChargesNonCharge_postvalue_label"	"Skill yang Tidak Diisi Daya"
+
+		"WeaponDamageBonusPerKill_prefix"				"{s:sign}"
+		"WeaponDamageBonusPerKill_label"				"Damage Senjata per Kill"
+		"WeaponDamageBonusPerKill_postvalue_label"		"Damage Senjata per Kill"
+		"WeaponDamageBonusPerKill_postfix"				"%"
+
+		"ImbueAbilityLifesteal_prefix"				"{s:sign}"
+		"ImbueAbilityLifesteal_label"				"Curi HP Terisi"
+		"ImbueAbilityLifesteal_postvalue_label"				"Curi HP Terisi"
+		"ImbueAbilityLifesteal_postfix"				"%"
+
+		"MissingHPHeal_label"						"Penyembuhan HP yang Hilang"
+		"MissingHPHeal_postvalue_label"				"Penyembuhan HP yang Hilang"
+		"MissingHPHeal_postfix"					"%"
+
+		"RegenerationDuration_label"		"Durasi Pemulihan"
+		"RegenerationDuration_postvalue_label"		"Durasi Pemulihan"
+		"RegenerationDuration_postfix"		" dtk."
+		"Regeneration_label"		"Pemulihan"
+		"Regeneration_postvalue_label"		"Pemulihan"
+		"Regeneration_postfix"		" HP/dtk."
+
+		"FlyingBulletResist_label"					"Pertahanan Peluru"
+		"FlyingBulletResist_postvalue_label"					"Pertahanan Peluru"
+		"FlyingBulletResist_postfix"				"%"
+
+		"RecastWindow_label"					"Kesempatan Pemakaian Ulang"
+		"RecastWindow_postvalue_label"			"Kesempatan Pemakaian Ulang"
+		"RecastWindow_postfix"					" dtk."
+
+		"UnstoppablePerHero_prefix"				"+"
+		"UnstoppablePerHero_label"					"Per Hero"
+		"UnstoppablePerHero_postvalue_label"		"Per Hero"
+		"UnstoppablePerHero_postfix"				" dtk."
+
+		//-----------------------------------------------------------------------------
+		// END Ability Properties desc
+		//-----------------------------------------------------------------------------
+		
+		//-----------------------------------------------------------------------------
+		// Stat Descriptions - Used in Tooltips/Resources
+		//-----------------------------------------------------------------------------
+
+		"StatDesc_SpiritPowerDesc"				"<b>Kekuatan Spirit</b> - Meningkatkan efiktifitas Skill dan Item"
+		"StatDesc_AbilityRangeDesc"				"<b>Jangkauan Skill</b> - Meningkatkan jangkauan dan radius Skill dan Item-mu"
+		"StatDesc_AbilityDurationDesc"			"<b>Durasi Skill</b> - Meningkatkan durasi Skill dan Item-mu"
+		"StatDesc_WeaponDamageDesc"				"<b>Damage Senjata</b> - Persentase modifikasi pada damage Senjata dan Serangan Jarak Dekat"
+		"StatDesc_MoveSpeedDesc"				"<b>Kecepatan Gerakan</b> - Kecepetan Gerakan saat ini."
+		"StatDesc_SpiritResistDesc"				"<b>Armor Spirit</b> - Pertahanan terhadap Damage Spirit yang akan diterima"
+		"StatDesc_WeaponResistDesc"				"<b>Armor Peluru</b> - Pertahanan terhadapan Damage Senjata yang akan diterima"
+		"StatDesc_HealingBoostDesc"				"<b>Penyembuhan Diberikan</b> - Modifikasi persentase terhadap kemampuan penyembuhanmu"
+		"StatDesc_HealingAmpDesc"				"<b>Penyembuhan Diterima</b> - Modifikasi persentase penyembuhan yang diterima"
+		"StatDesc_AmmoDesc"						"<b>Amunisi</b> - Jumlah tembakan dalam senjata sebelum isi ulang diperlukan"
+		"StatDesc_FireRateDesc"					"<b>Tingkat Tembakan</b> - Persentase modifikasi terhadap tingkat tembakan senjata"
+		"StatDesc_SpiritLifestealDesc"			"<b>Curi HP Spirit</b> - Jumlah health yang didapatkan dari memberikan Damage Spirit"
+		"StatDesc_WeaponLifestealDesc"			"<b>Curi HP Senjata</b> - Jumlah health yang didapatkan dari memberikan Damage Senjata"
+		"StatDesc_BulletEvationDesc"			"<b>Penghindaran Peluru</b> - Persentase peluang menghindari peluru yang diterima"
+		"StatDesc_RegenDesc"					"<b>Pemulihan Health</b> - Jumlah pemulihan health per dtk."
+		"StatDesc_DamageAmpDesc"					"<b>Pembesaran Damage</b> - Persentase modifikasi untuk semua damage yang diberikan"
+
+
+		//-----------------------------------------------------------------------------
+		// Inline Attributes
+		//-----------------------------------------------------------------------------
+
+		"InlineAttribute_Fortitude"		"Ketahanan"
+		"InlineAttribute_Courage"		"Keberanian"
+		"InlineAttribute_Spirit"		"Spirit"
+		"InlineAttribute_Slow"			"perlambatan"
+		"InlineAttribute_SlowResistance""pertahanan perlambatan"
+		"InlineAttribute_DamageAmp"		"peningkatan damage"
+		"InlineAttribute_SpiritDamage"	"damage spirit"
+		"InlineAttribute_SpiritDPS"	"damage spirit seiring waktu"
+		"InlineAttribute_WeaponDPS"	"damage senjata seiring waktu"
+		"InlineAttribute_BonusSpiritDamage"	"bonus damage spirit"
+		"InlineAttribute_AbilityCooldown"	"cooldown"
+		"InlineAttribute_Stun"	"stun"
+		"InlineAttribute_Heal"	"penyembuhan"
+		"InlineAttribute_Heals"	"penyembuhan"
+		"InlineAttribute_Healing" "penyembuhan"
+		"InlineAttribute_Health" "health"
+		"InlineAttribute_MaxHealth" "health maks."
+		"InlineAttribute_Regen" "pemulihan"
+		"InlineAttribute_MeleeDamage"	"damage jarak dekat"
+		"InlineAttribute_BulletDamage"	"damage peluru"
+		"InlineAttribute_FireRate"	"tingkat tembakan"
+		"InlineAttribute_ReducedFireRate"	"tingkat tembakan dikurangi"
+		"InlineAttribute_BonusFireRate"	"bonus tingkat tembakan"
+		"InlineAttribute_MoveSpeed"		"kecepatan gerakan"
+		"InlineAttribute_BonusMoveSpeed""bonus kecepatan gerakan"
+		"InlineAttribute_WeaponDamage"	"damage senjata"
+		"InlineAttribute_BonusWeaponDamage"	"bonus damage senjata"
+		"InlineAttribute_SpiritResist"	"pertahanan spirit"
+		"InlineAttribute_BulletResist"	"pertahanan peluru"
+		"InlineAttribute_CombatBarrier" "pengaman"
+		"InlineAttribute_Immobilize" "lumpuh"
+		"InlineAttribute_Sleep" "tidur"
+		"InlineAttribute_StaminaRegenPerSecond" "pemulihan stamina"
+		"InlineAttribute_KnockBack" "terdorong mundur"
+		"InlineAttribute_KnockUp" "terlempar"
+		"InlineAttribute_Pull" "tarik"
+		"InlineAttribute_Pulls" "tarik"
+		"InlineAttribute_Pulling" "menarik"
+		"InlineAttribute_PureDamage"	"damage murni"
+		"InlineAttribute_Silence"	"Bungkam"
+		"InlineAttribute_BonusSprintSpeed""bonus kecepatan sprint"
+	}
+}

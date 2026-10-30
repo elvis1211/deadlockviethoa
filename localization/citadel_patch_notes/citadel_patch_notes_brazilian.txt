@@ -1,0 +1,248 @@
+﻿"lang"
+{
+	"Language"		"brazilian"
+	"Tokens"
+	{
+
+		//-----------------------------------------------------------------------------
+		// hero_astro
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_astro_1" "<b>24/10/2024</b><br>
+			<li>Adição ao laboratório.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_astro_2" "<b>29/10/2024</b><br>
+			<li><i>Saltador</i>: agora, causa corretamente o dano em área na aterrissagem.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_astro_3" "<b>07/11/2024</b><br>
+			<li><i>Saltador</i>: atualização para permitir apenas um Pisão por Saltador.</li>
+			<li><i>Saltador</i>: remoção do efeito de partículas em aliados que usarem o Saltador.</li>
+			<li><i>Arma</i>: atualização dos efeitos visuais.</li>
+			<li><i>Barril de Pólvora</i>: redução da obstrução dos efeitos visuais para jogadores próximos.</li>
+			<li><i>Tirando o Chapéu</i>: redução da obstrução dos efeitos visuais para a vítima.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_nano
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_nano_1" "<b>24/10/2024</b><br>
+			<li>Adição ao laboratório.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_nano_2" "<b>29/10/2024</b><br>
+			<li><i>Arma</i>: redução do tempo de recarga (3,5s → 3s).</li>
+			<li><i>Arma</i>: redução do tamanho do cartucho (18 → 16).</li>
+			<li><i>Arma</i>: Aumento do dano por bala do disparo alternativo (6 → 7).</li>
+			<li><i>Espírito de Sekhmet</i>: agora, pode ser detonado imediatamente após o uso.</li>
+			<li><i>Espírito de Sekhmet</i>: agora, apenas os alvos atingidos/arrastados pelo gato em movimento serão lançados no ar.</li>
+			<li><i>Sentinela de Nekomata</i>: não possui mais cargas.</li>
+			<li><i>Sentinela de Nekomata</i>: agora, tem um \"alcance de ataque\" separado de 30 m.</li>
+			<li><i>Sentinela de Nekomata</i>: redução da duração (120s → 60s).</li>
+			<li><i>Sentinela de Nekomata</i>: redução do dano por segundo adicional por ponto de poder espiritual (0,4 → 0,3).</li>
+			<li><i>Sentinela de Nekomata</i>: redução da vida adicional por ponto de poder espiritual (3,0 → 2,0).</li>
+			<li><i>Sentinela de Nekomata</i>: alteração de parte do segundo aprimoramento (\"+1 carga\" → \"+30s de duração\").</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_wrecker
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_1" "<b>24/10/2024</b><br>
+			<li>Adição ao laboratório.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_2" "<b>07/11/2024</b><br>
+			<li><i>Arma</i>: aumento do tamanho do cartucho (10 → 15).</li>
+			<li><i>Arma</i>: aumento das balas disparadas por segundo (2,86 → 4).</li>
+			<li><i>Arma</i>: redução do dano causado por bala (25 → 21).</li>
+			<li><i>Bola de Demolição</i>: agora, explode no impacto.</li>
+			<li><i>Bola de Demolição</i>: aumento do dano base (80 → 150).</li>
+			<li><i>Bola de Demolição</i>: aumento da velocidade da bola (1.500 m/s → 2.000 m/s).</li>
+			<li><i>Bola de Demolição</i>: aumento da força da bola (280 → 1.500).</li>
+			<li><i>Bola de Demolição</i>: aumento do tempo de lançamento da bola (1,2s → 1,4s).</li>
+			<li><i>Bola de Demolição</i>: aumento da escala com o poder espiritual (1,0x → 1,4x).</li>
+			<li><i>Bola de Demolição</i>: aumento do tempo de recarga base (21s → 31s).</li>
+			<li><i>Consumir</i>: atualização da habilidade para que possa alvejar qualquer inimigo.</li>
+			<li><i>Consumir</i>: não mais atordoa nem levita os alvos.</li>
+			<li><i>Consumir</i>: redução do dano por segundo base (80 → 40).</li>
+			<li><i>Consumir</i>: alteração do primeiro aprimoramento para conceder +75 de vida.</li>
+			<li><i>Consumir</i>: redução do segundo aprimoramento (+80 de dano por segundo → +40 de dano por segundo).</li>
+			<li><i>Consumir</i>: alteração do terceiro aprimoramento para adicionar mais dois alvos.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_3" "<b>21/11/2024</b><br>
+			<li><i>Bola de Demolição</i>: agora, pode pular com menos altura enquanto segura a bola.</li>
+			<li><i>Bola de Demolição</i>: redução do raio de acionamento (92 → 65 unidades).</li>
+			<li><i>Consumir</i>: novas atualizações visuais.</li>
+			<li><i>Consumir</i>: aumento do dano base por segundo (40 → 60).</li>
+			<li><i>Consumir</i>: aumento do alcance de uso (12 m → 15 m).</li>
+			<li><i>Consumir</i>: agora, tem um alcance máximo de 20 m.</li>
+			<li><i>Consumir</i>: agora, requer linha de visão para permanecer conectado.</li>
+			<li><i>Consumir</i>: não mais quebra a movimentação do inimigo.</li>
+			<li><i>Consumir</i>: remoção do aumento da taxa de disparo ao matar.</li>
+			<li><i>Consumir</i>: adição de +50% de cura base enquanto conectado.</li>
+			<li><i>Consumir</i>: redução do primeiro aprimoramento (+75% → +25% de dano convertido em cura).</li>
+			<li><i>Biobomba</i>: aumento do alcance (5 m → 10 m).</li>
+			<li><i>Biobomba</i>: pequena atualização no cone de alvejamento.</li>
+			<li><i>Biobomba</i>: remoção do efeito de escurecimento da tela quando usada.</li>
+			<li><i>Caminhada Astral</i>: atualização para nova Suprema: <i>Sobrecarga</i>.</li>
+			<li><i>Sobrecarga</i>: novas atualizações visuais.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_4" "<b>06/12/2024</b><br>
+			<li><i>Bola de Demolição</i>: reformulação do comportamento.</li>
+			<li><i>Bola de Demolição</i>: novas atualizações visuais.</li>
+			<li><i>Sobrecarga</i>: aumento do afastamento da câmera.</li>
+			<li><i>Sobrecarga</i>: alteração do segundo aprimoramento (\"+0,75s de canalização\" → \"-35s de recarga\").</li>
+			<li><i>Sobrecarga</i>: agora, inclui a desaceleração da velocidade de movimento na descrição e interface.</li>"
+		//-----------------------------------------------------------------------------
+		// hero_trapper
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_1" "<b>07/11/2024</b><br>
+			<li>Adição ao laboratório.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_2" "<b>08/11/2024</b><br>
+			<li><i>Armadilha de Seda</i>: correção de problema em que o efeito do fio às vezes ficava invisível.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_3" "<b>21/11/2024</b><br>
+			<li><i>Fantasmicida Engarrafado</i>: redução do raio inicial (5 m → 3 m).</li>
+			<li><i>Fantasmicida Engarrafado</i>: redução da duração (9s → 8s).</li>
+			<li><i>Fantasmicida Engarrafado</i>: aumento do tempo de recarga base (20s → 25s).</li>
+			<li><i>Fantasmicida Engarrafado</i>: alteração do primeiro aprimoramento (\"+4s de duração\" → \"-20% de dano espiritual para os alvos no veneno\").</li>
+			<li><i>Fantasmicida Engarrafado</i>: alteração do segundo aprimoramento (\"+2 m de raio máximo\" → \"+4s de duração\").</li>
+			<li><i>Armadilha de Seda</i>: agora, pode alvejar criaturas e soldados.</li>
+			<li><i>Armadilha de Seda</i>: correção de problema em que a armadilha causava dano a inimigos do outro lado da parede.</li>
+			<li><i>Armadilha de Seda</i>: correção de problema em que a armadilha nem sempre aparecia.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_4" "<b>24/11/2024</b><br>
+			<li><i>Fantasmicida Engarrafado</i>: alteração do cálculo do crescimento da poça para aumentar em um raio fixo por segundo, proporcional ao alcance da habilidade.</li>
+			<li><i>Armadilha de Seda</i>: aprimoramento dos visuais de prévia.</li>
+			<li><i> Armadilha de Seda</i>: correção de problema ocasional em que a armadilha não era posicionada.</li>
+			<li><i> Armadilha de Seda</i>: agora, tem um comprimento mínimo obrigatório.</li>
+			<li><i> Armadilha de Seda</i>: alteração do terceiro aprimoramento (\"A teia também desarma por 4s\" → \"A teia também silencia por 2,5s\").</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_5" "<b>06/12/2024</b><br>
+			<li><i>Fantasmicida Engarrafado</i>: aumento do raio inicial (3 m → 4,5 m).</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_6" "<b>20/02/2025</b><br>
+			<li><i>Fantasmicida Engarrafado</i>: aumento do raio inicial (4,5 m → 6 m).</li>
+			<li><i>Fantasmicida Engarrafado</i>: não causa mais dano, mas silencia todos os inimigos na área.</li>
+			<li><i>Fantasmicida Engarrafado</i>: aumento do tempo de recarga (25s → 30s).</li>
+			<li><i>Fantasmicida Engarrafado</i>: alteração do segundo aprimoramento (\"+100 de dano por segundo\" → \"-25% de resist. espiritual para inimigos na poça\").</li>
+			<li><i>Fantasmicida Engarrafado</i>: redução do raio inicial (5 m → 3 m).</li>
+			<li><i>Armadilha de Seda</i>: agora, causa dano ao longo do tempo.</li>
+			<li><i>Armadilha de Seda</i>: agora, revela os inimigos atingidos pela armadilha.</li>
+			<li><i>Armadilha de Seda</i>: aumento da duração inicial (60s → 120s).</li>
+			<li><i>Armadilha de Seda</i>: aumento da duração do efeito (2s → 3s).</li>
+			<li><i>Armadilha de Seda</i>: agora, o terceiro aprimoramento também aumenta a duração do efeito em 2s.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_slork
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_slork_1" "<b>24/10/2024</b><br>
+			<li>Adição ao laboratório.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_slork_2" "<b>29/10/2024</b><br>
+			<li><i>Arma</i>: redução do dano por bala (5 → 4,5).</li>
+			<li><i>Arma</i>: aumento da dispersão das balas e redução da distância inicial da redução de dano (20 m → 18 m).</li>
+			<li><i>Borrifada Escaldante</i>: atualização da partícula para não obstruir a visão do Braça e adição de efeito aos alvos atingidos.</li>
+			<li><i>Abrir Brecha</i>: agora, é possível usar outras habilidades durante o lançamento.</li>
+			<li><i>Abrir Brecha</i>: atualização dos efeitos de partículas.</li>
+			<li><i>Arpão Coralino</i>: agora, é possível realizar qualquer ação enquanto estiver pendurado em uma parede, soltando-se dela.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_3" "<b>01/11/2024</b><br>
+			<li>Redução da vida concedida por bênção (41 → 36).</li>
+			<li><i>Arma</i>: redução do dano por bala (4,5 → 4).</li>
+			<li><i>Arma</i>: redução da distância inicial da redução de dano (18 m → 16 m).</li>
+			<li><i>Borrifada Escaldante</i>: redução do ganho de dano bélico por segundo (8% → 7%).</li>
+			<li><i>Sangria do Braça<i>: atualização para ter os mesmos valores da Sangria do Navalha.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_4" "<b>08/11/2024</b><br>
+			<li><b>Nova habilidade</b>: <i>Emboscada do Espreitador</i>.</li>
+			<li><i>Sangria do Braça<i> substituída por <i>Arpão Coralino</i>.</li>
+			<li><i>Arpão Coralino</i>: ganha duas cargas após se pendurar em uma superfície.</li>
+			<li><i>Arpão Coralino</i>: não pode mais alvejar o chão.</li>
+			<li><i>Arpão Coralino</i>: agora, não pode ser usado quando a superfície-alvo estiver muito distante.</li>
+			<li><i>Arpão Coralino</i>: agora, não quebra a invisibilidade quando usada.</li>
+			<li><i>Arpão Coralino</i>: ativa a invisibilidade da Emboscada do Espreitador quando usada.</li>
+			<li><i>Arpão Coralino</i>: agora, a recarga começa ao se soltar da superfície.</li>
+			<li><i>Arpão Coralino</i>: remoção da regeneração passiva.</li>
+			<li><i>Arpão Coralino</i>: remoção da invisibilidade passiva.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_5" "<b>21/11/2024</b><br>
+			<li><i>Arma</i>: redução do dano balístico adicional por bênção (0,57 → 0,35).</li>
+			<li><i>Emboscada do Espreitador</i>: atualização das partículas.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_6" "<b>06/12/2024</b><br>
+			<li><i>Borrifada Escaldante</i>: atualização das partículas.</li>
+			<li><i>Emboscada do Espreitador</i>: adição de efeito aquático na tela para os inimigos imobilizados.</li>
+			<li><i>Emboscada do Espreitador</i>: agora, o projétil da parte ativa tem um raio de 2,5 m.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_7" "<b>17/12/2024</b><br>
+			<li>Adição de guia de itens padrão.</li>
+			<li>Atualização e melhoria dos efeitos sonoros de todas as habilidades.</li>"
+
+
+		//-----------------------------------------------------------------------------
+		// hero_viper
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_viper_1" "<b>24/10/2024</b><br>
+			<li>Adição ao laboratório.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_2" "<b>29/10/2024</b><br>
+			<li>Troca da primeira habilidade (<i>Lâmina-Gancho</i> → <i>Adaga Serrada</i>).</li>
+			<li><i>Veneno Letal</i>: agora, pode só alvejar heróis inimigos.</li>
+			<li><i>Veneno Letal</i>: aprimoramento dos efeitos visuais.</li>
+			<li><i>Escorregadia</i>: agora, vem aprimorada por padrão no nível 1.</li>
+			<li><i>Escorregadia</i>: alteração dos aprimoramentos:
+<br>&#9;⚫ Nível 1: +25% de distância ao deslizar.
+<br>&#9;⚫ Nível 2: +2 de vigor.
+<br>&#9;⚫ Nível 3: +30% de resistência espiritual e balística.
+</li>
+			<li><i>Petrificar</i>: aumento do atraso da detonação (0,6s → 1s).</li>
+			<li><i>Petrificar</i>: aprimoramento dos efeitos visuais e sonoros, bem como o controle de câmera, das unidades petrificadas.</li>
+			<li><i>Petrificar</i>: agora, a quantidade de dano bloqueado aumenta com o poder espiritual.</li>
+			<li><i>Petrificar</i>: não pode mais ser usada no ar.</li>
+			<li><i>Petrificar</i>: agora, não afeta mais unidades irrefreáveis.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_3" "<b>21/11/2024</b><br>
+			<li><i>Petrificar</i>: substituição por <i>Bola Petrificante</i>.</li>
+			<li><i>Bola Petrificante</i>: revisões visuais do projétil.</li>
+			<li><i>Adaga Serrada</i>: não interrompe mais deslizamentos.</li>
+			<li><i>Adaga Serrada</i>: revisões do projétil e impacto para aprimorar a visibilidade.</li>
+			<li><i>Veneno Letal</i>: agora, aplica um efeito na tela.</li>
+			<li><i>Arma</i>: redução do dano causado (12 → 11).</li>
+			<li><i>Arma</i>: revisões dos rastros para aprimorar a visibilidade devido à alta taxa de disparo.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_4" "<b>26/11/2024</b><br>
+			<li><i>Arma</i>: redução do dano causado (11 → 9).</li>
+			<li><i>Arma</i>: aumento da velocidade das balas (81 m/s → 411 m/s).</li>
+			<li><i>Arma</i>: aumento do tamanho do pente (18 → 24).</li>
+			<li><i>Bola Petrificante</i>: aumento do raio do projétil (30 → 45 unidades).</li>
+			<li>Redução da vida adicional concedida por bênção (35 → 30).</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_5" "<b>06/12/2024</b><br>
+			<li>Aumento do tamanho do modelo em 15%.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_magician
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_magician_1" "<b>24/10/2024</b><br>
+			<li>Adição ao laboratório.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_2" "<b>29/10/2024</b><br>
+			<li><i>Arma</i>: agora, tem distância de redução de dano.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_3" "<b>07/11/2024</b><br>
+			<li>Adição de habilidade Suprema: <i>Gran Finale</i></li>
+			<li><i>Arma</i>: aumento da capacidade de munição (20 → 22).</li>
+			<li><i>Raio Atormentador</i>: agora, aplica 20% de redução da taxa de disparo, em vez de desaceleração de movimento.</li>
+			<li><i>Raio Atormentador</i>: aumento do dano causado (100 → 120) e da escala com o poder espiritual (1,2x → 1,4x).</li>
+			<li><i>Raio Atormentador</i>: aumento da duração do malefício (2s → 5s).</li>
+			<li><i>Raio Atormentador</i>: aumento do segundo aprimoramento (-15% → -20% de resistência espiritual).</li>
+			<li><i>Raio Atormentador</i>: alteração do terceiro aprimoramento para conceder velocidade adicional ao raio.</li>
+			<li><i>Raio Atormentador</i>: adição à interface de indicação quando for possível redirecionar o raio.</li>
+			<li><i>Assistente Espectral</i>: agora, pode ser usado no ar.</li>
+			<li><i>Feitiço Lagomórfico</i>: não pode mais ser usado em aliados.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_4" "<b>21/11/2024</b><br>
+			<li><i>Raio Atormentador</i>: agora, a assistente sempre lança um raio próprio, com dano reduzido.</li>
+			<li><i>Raio Atormentador</i>: atualização dos aprimoramentos para corresponder aos novos comportamentos.</li>
+			<li><i>Raio Atormentador</i>: redução do fator de aumento do dano causado com o poder espiritual (1,4x → 1,2x).</li>
+			<li><i>Feitiço Lagomórfico</i>: agora, o Mágico não confunde mais coelhos com sapos, transformando os seus alvos sempre em coelhos.</li>
+			<li><i>Feitiço Lagomórfico</i>: não pode mais ser usado em si.</li>
+			<li><i>Feitiço Lagomórfico</i>: agora, limita a velocidade de movimento máxima, em vez de aumentar a velocidade de movimento.</li>
+			<li><i>Feitiço Lagomórfico</i>: agora, o terceiro aprimoramento enfeitiça todos os alvos no raio pela duração completa.</li>
+			<li><i>Assistente Espectral</i>: agora, recarrega a sua arma quando usada.</li>
+			<li><i>Assistente Espectral</i>: agora, dispara em rajadas de duas balas por vez.</li>
+			<li><i>Assistente Espectral</i>: redução do dano espiritual (1x60 com fator de 0,5x → 2x30 com fator de 0,3x).</li>
+			<li><i>Assistente Espectral</i>: agora, os rastros correspondem aos rastros da arma.</li>
+			<li><i>Assistente Espectral</i>: aprimoramento do algoritmo de detecção de alvos.</li>
+			<li><i>Assistente Espectral</i>: correção de erro ocasional que impedia o redirecionamento de raios após a assistente lançar o seu.</li>
+			<li><i>Assistente Espectral</i>: suavização da transição da câmera ao se teletransportar.</li>
+			<li><i>Assistente Espectral</i>: redução do alcance de uso (20 m → 15 m).</li>
+			<li><i>Assistente Espectral</i>: atualização dos aprimoramentos para corresponder aos novos comportamentos.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_operative
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_operative_1" "<b>06/12/2024</b><br>
+			<li>Adição ao laboratório.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_operative_2" "<b>17/12/2024</b><br>
+			<li>Adição de guia de itens padrão.</li>"
+
+		}
+}

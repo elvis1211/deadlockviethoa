@@ -1,0 +1,3246 @@
+﻿"lang"
+{
+	"Language"		"japanese"
+	"Tokens"
+	{
+
+		//-----------------------------------------------------------------------------
+		// Unit states (that we want to show)
+		//-----------------------------------------------------------------------------
+
+		"MODIFIER_STATE_ROOTED"								"移動不能状態"
+		"MODIFIER_STATE_DISARMED"							"ディスアーム状態"
+		"MODIFIER_STATE_SILENCED"							"サイレンス状態"
+		"MODIFIER_STATE_STUNNED"							"スタン状態"
+		"MODIFIER_STATE_INVULNERABLE"						"無敵状態"
+		"MODIFIER_STATE_TECH_INVULNERABLE"					"スピリット無効"
+		//"MODIFIER_STATE_BURNING"							"Burning"
+
+		// Commenting this out so it doesn't show overhead of the player your applied it to
+		//"MODIFIER_STATE_SLOWED"								"Slowed"
+
+		//"MODIFIER_STATE_BULLET_SHIELD_WEAKENED"				"Weakened Bullet Shield"
+		//"MODIFIER_STATE_IS_ASLEEP"							"Asleep"
+		//"MODIFIER_STATE_BULLET_DAMAGE_TAKEN_ALWAYS_CRITS"	"Crit Vulnerable"		 				
+		"MODIFIER_STATE_CHAINED"							"束縛状態"
+		//"MODIFIER_STATE_ALL_ARMOR_DISABLED"					"Armors Disabled"
+		//"MODIFIER_STATE_BULLET_INVULNERABLE"				"Bulletproof"
+		//"MODIFIER_STATE_DRONE_ATTACHED"						"Drone Attached"
+		//"MODIFIER_STATE_WEAPON_JAMMED"						"Weapon Jammed"
+		"MODIFIER_STATE_TOXIC_BULLETS"						"毒"
+		//"MODIFIER_STATE_DISPLAY_LIFETIME"					"Life Time"
+		"MODIFIER_STATE_BLINDED"							"ブラインド状態"
+
+		// Status Effects
+		"Citadel_StatusEffect"					"状態変化"
+		"Citadel_StatusEffectStun"				"スタン"
+		"Citadel_StatusEffectEMP"				"サイレンス"
+		"Citadel_StatusEffectFreeze"			"凍結"
+		"Citadel_StatusEffectBurn"				"燃焼"
+		"Citadel_StatusEffectBleed"				"出血"
+		"Citadel_StatusEffectSleep"				"睡眠"
+		"Citadel_StatusEffectTethered"			"テザー"
+		"Citadel_StatusEffectImmobilize" 		"移動不能"
+		"Citadel_StatusEffectDisarmed"			"ディスアーム"
+		"Citadel_StatusEffectInvisible"			"インビジブル"
+		"Citadel_StatusEffectPetrify"			"石化"
+		"Citadel_StatusEffectCustomDebuff"		"デバフ"
+		//"Citadel_StatusEffectStacks"			"Stacks "
+		"Citadel_StatusEffectInfiniteClip"		"無限弾数"
+		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
+		//"Citadel_StatusEffectBuff"				"Buff"
+		"Citadel_StatusEffectUnstoppable"		"アンストッパブル"
+		"Citadel_StatusEffectDisplacement"		"ノックアップ"
+		"Citadel_StatusEffectSilence"			"サイレンス"
+		"Citadel_StatusEffectCurse"				"呪い"
+
+		//"modifier_citadel_in_shop"				"In Shop"	
+		"modifier_citadel_in_fountain"			"拠点"
+		"modifier_citadel_pre_match_wait"		"マッチ開始を待機中"
+		//"modifier_citadel_rapid_fire"			"Bullet Storm"
+		//"modifier_citadel_damageboost"			"Damage Boost"
+		//"modifier_citadel_damage_reduction" 	"Armor Boost"
+		"modifier_slowaura" 					"スロウ状態"
+		"modifier_citadel_slowtarget" 			"スロウ状態"
+		"modifier_citadel_lineslow"				"スロウ状態"
+		"modifier_slow_base"																		"スロー状態"
+		"modifier_damageovertime" 				"出血状態"
+		"modifier_citadel_stunned" 				"スタン状態"
+		"modifier_citadel_knockdown"			"スタン状態"
+		"modifier_citadel_delayed_stun"			"スタン発生ディレイ"
+		//"modifier_citadel_knockdown_stumble"	"Stumble"
+		"modifier_citadel_banished"				"追放"
+		"modifier_citadel_tethered"				"テザー状態"
+		//"modifier_citadel_speed_boost" 			"Speed Boost"
+		//"modifier_pullaura" 					"Pulled"
+		//"modifier_healaura" 					"Healing"
+		"modifier_citadel_root"					"移動不能状態"
+		//"modifier_citadel_charging" 			"Charging"
+		//"modifier_invis" 						"Stealthed"
+		//"modifier_invis_start_delay" 			"Entering Stealth"
+		//"modifier_invis_fading"					"Fading"
+		//"modifier_camouflage_invis"				"Camouflaged"
+		"modifier_citadel_silenced"				"サイレンス状態"
+		"silencer_immune"						"サイレンサー無効"
+		//"modifier_citadel_muted"				"Muted"
+		"modifier_citadel_disarmed"				"ディスアーム状態"
+		"modifier_citadel_tech_shield"		"スピリットシールド"
+		"modifier_citadel_revealed_on_map"		"マップに表示"
+		"modifier_citadel_cursed"				"呪い状態"
+		"modifier_citadel_feared"				"恐怖状態"
+
+		"modifier_item_disarmed"				"ディスアーム状態"
+		"modifier_citadel_disarm_proc"			"ディスアーム状態"
+		//"modifier_citadel_disarm_proc_buildup"	"Disarming..."
+		//"disarm_immune"							"Disarm Immune"
+		//"modifier_citadel_dodging"				"Dodging"
+		//"modifier_prevent_healing"				"Healing Disabled"
+		
+		//"modifier_obscured_by_steam"			"Obscured"
+		"modifier_citadel_unstick" 				"固定解除"
+		"modifier_citadel_barrier"				"バリア"
+
+		"base_stat_regen"						"基礎リジェネ"
+		"modifier_citadel_dazed"				"目眩"
+
+		//-----------------------------------------------------------------------------
+		// END Unit states
+		//-----------------------------------------------------------------------------
+
+
+		//-----------------------------------------------------------------------------
+		// Ability Property Text
+		//-----------------------------------------------------------------------------
+		"Citadel_AbilityProperty_OnHit"			"ヒット時："
+		"Citadel_AbilityProperty_OnExplode"		"爆発時："
+		"Citadel_AbilityProperty_OnAttach"		"接着時："
+		"Citadel_AbilityProperty_BulletBuildup"	"弾薬蓄積："
+		"Citadel_AbilityProperty_OnPickup"		"獲得時："
+		"Citadel_AbilityProperty_Withdrawals"	"回収："
+		"Citadel_AbilityProperty_OnHitEnemy"	"敵ヒット時："
+		"Citadel_AbilityProperty_OnHitFriendly"	"味方ヒット時："
+		"Citadel_AbilityProperty_OnCursedCast"	"呪い状態キャスト時："
+
+
+		//-----------------------------------------------------------------------------
+		// Stat desc - These are the labels in the hero stats for each EStatType
+		//-----------------------------------------------------------------------------
+		"StatDesc_DPS"									"DPS"
+		"StatDesc_DPS_postvalue_label"									"DPS"
+		"StatDesc_MeleeDamage"							"近接ダメージ"
+		"StatDesc_MeleeDamage_postvalue_label"							"近接ダメージ"
+		"StatDesc_LightMeleeDamage"						"近接弱攻撃"
+		"StatDesc_LightMeleeDamage_postvalue_label"						"近接弱攻撃"
+		"StatDesc_HeavyMeleeDamage"						"近接強攻撃"
+		"StatDesc_HeavyMeleeDamage_postvalue_label"						"近接強攻撃"
+		"StatDesc_MaxHealth"							"最大HP"
+		"StatDesc_MaxHealth_postvalue_label"							"最大HP"
+		"StatDesc_ClipSizeBonus"						"弾数"
+		"StatDesc_ClipSizeBonus_postvalue_label"						"弾数"
+		"StatDesc_ClipSizeIncrease"						"弾倉サイズ増加"
+		"StatDesc_ClipSizeIncrease_postvalue_label"						"弾倉サイズ増加"
+		"StatDesc_ClipSizeIncrease_postfix"				"%"
+		//"StatDesc_BonusClips"							"Clips"
+		//"StatDesc_AmmoRegen"							"Ammo Regen"
+		"StatDesc_HealthRegen"							"HPリジェネ"
+		"StatDesc_HealthRegen_postvalue_label"							"HPリジェネ"
+		"StatDesc_BaseHealthRegen"						"HPリジェネ"
+		"StatDesc_BaseHealthRegen_postvalue_label"						"HPリジェネ"
+		"StatDesc_OutOfCombatHealthRegen"				"非戦闘時リジェネ"
+		"StatDesc_OutOfCombatHealthRegen_postvalue_label"				"非戦闘時リジェネ"
+		//"StatDesc_ExternalHealthRegen"					"External Health Regen"
+		"StatDesc_RunSpeed"								"移動速度"
+		"StatDesc_RunSpeed_postvalue_label"								"移動速度"
+		"StatDesc_RunSpeed_postfix"						"m"
+		"StatDesc_SprintSpeed"							"スプリント速度"
+		"StatDesc_SprintSpeed_postvalue_label"							"スプリント速度"
+		"StatDesc_SprintSpeed_postfix"					"m"
+		//"StatDesc_RunAcceleration"						"Move Acceleration"
+		//"StatDesc_SprintAcceleration"					"Sprint Acceleration"
+		"StatDesc_IncomingDamageReduction"				"アーマー"
+		"StatDesc_IncomingDamageReduction_postvalue_label"				"アーマー"
+		//"StatDesc_IncomingDamageScale"					"Incoming Damage Scale"
+		"StatDesc_BulletArmor"							"アーマー"
+		"StatDesc_BulletArmor_postvalue_label"							"アーマー"
+		"StatDesc_BulletArmorDamageReduction"			"弾薬耐性"
+		"StatDesc_BulletArmorDamageReduction_postvalue_label"			"弾薬耐性"
+		"StatDesc_BulletArmorDamageReduction_postfix"	"%"
+		//"StatDesc_IncomingBulletDamageReduction"		"Bullet Damage Armor"
+		//"StatDesc_IncomingBulletDamageScale"			"Bullet Damage Scale"
+		//"StatDesc_IncomingMeleeDamageReduction"			"Melee Damage Armor"
+		//"StatDesc_IncomingMeleeDamageScale"				"Melee Damage Scale"
+		"StatDesc_TechArmor"							"スピリットアーマー"
+		"StatDesc_TechArmor_postvalue_label"							"スピリットアーマー"
+		"StatDesc_TechArmorDamageReduction"		 		"スピリット耐性"
+		"StatDesc_TechArmorDamageReduction_postvalue_label"		 		"スピリット耐性"
+		"StatDesc_TechArmorDamageReduction_postfix"		"%"
+		//"StatDesc_IncomingAbilityDamageReduction"		"Ability Armor"
+		//"StatDesc_IncomingAbilityDamageScale"			"Ability Damage Scale"
+		"StatDesc_TechPower"							"スピリットパワー"
+		"StatDesc_TechPower_postvalue_label"							"スピリットパワー"
+		//"StatDesc_ManaPerLevel"							"Energy Per Level"
+		//"StatDesc_HealthPerLevel"						"Health Per Level"
+		//"StatDesc_ManaRegenPerLevel"					"Energy Regen Per Level"
+		//"StatDesc_HealthRegenPerLevel"					"Health Regen Per Level"
+		//"StatDesc_WeaponDPSPerLevel"					"Weapon DPS Per Level"
+		//"StatDesc_SuperSprintSpeed"						"Super Sprint Speed"
+		//"StatDesc_WeaponRange"							"Range"
+		//"StatDesc_WeaponRecoilReduction"				"Recoil Reduction"
+		"StatDesc_FireRate"								"発射速度"
+		"StatDesc_FireRate_postvalue_label"								"発射速度"
+		"StatDesc_FireRate_postfix"						"%"
+		//"StatDesc_Toughness"							"Toughness"
+		//"StatDesc_Technology"							"Technology"
+		//"StatDesc_Weaponry"								"Weaponry"
+		"StatDesc_WeaponPower"							"武器ダメージ"
+		"StatDesc_WeaponPower_postvalue_label"							"武器ダメージ"
+		"StatDesc_BulletDamage"							"弾薬ダメージ"
+		"StatDesc_BulletDamage_postvalue_label"							"弾薬ダメージ"
+		//"StatDesc_TechPowerAmp"							"Spirit"
+		//"StatDesc_EnergyMax"							"Energy Cells"
+		//"StatDesc_EnergyRegenTime"						"Energy Regen Time"
+		"StatDesc_RoundsPerSecond"						"弾／秒"
+		"StatDesc_RoundsPerSecond_postvalue_label"						"弾／秒"
+		//"StatDesc_BulletDamagePerLevel"					"Bullet Damage Per Level"
+		//"StatDesc_WeaponPowerAmp"						"Bullet Damage Amp"
+		//"StatDesc_AirJumps"								"Air Jumps"
+		//"StatDesc_ZipLineSpeed"							"Hyperline Speed"
+		//"StatDesc_ProcModifier"							"Proc Modifier"
+		"StatDesc_TechCooldown"							"アビリティクールダウン"
+		"StatDesc_TechCooldown_postvalue_label"							"アビリティクールダウン"
+		"StatDesc_TechCooldown_postfix"					"%"
+		"StatDesc_TechCooldownBetweenCharges"			"チャージクールダウン"
+		"StatDesc_TechCooldownBetweenCharges_postvalue_label"			"チャージクールダウン"
+		"StatDesc_TechCooldownBetweenCharges_postfix"	"%"
+		"StatDesc_TechRange"							"アビリティ範囲"
+		"StatDesc_TechRange_postvalue_label"							"アビリティ範囲"
+		"StatDesc_TechRange_postfix"					"%"
+		"StatDesc_MaxChargesIncrease"					"最大チャージ数増加"
+		"StatDesc_MaxChargesIncrease_postvalue_label"					"最大チャージ数増加"
+		//"StatDesc_RechargeRate"							"Recharge Rate"
+		"StatDesc_TechDuration"							"アビリティ継続時間"
+		"StatDesc_TechDuration_postvalue_label"							"アビリティ継続時間"
+		"StatDesc_TechDuration_postfix"					"%"
+		"StatDesc_WeaponPowerAttribute"					"武器ダメージ"
+		"StatDesc_WeaponPowerAttribute_postvalue_label"					"武器ダメージ"
+		"StatDesc_ArmorAttribute"						"アーマー"
+		"StatDesc_ArmorAttribute_postvalue_label"						"アーマー"
+		"StatDesc_HealthAttribute"						"HP"
+		"StatDesc_HealthAttribute_postvalue_label"						"HP"
+		"StatDesc_TechDamageAttribute"					"スピリットダメージ"
+		"StatDesc_TechDamageAttribute_postvalue_label"					"スピリットダメージ"
+		"StatDesc_FireRateAttribute"					"発射速度"
+		"StatDesc_FireRateAttribute_postvalue_label"					"発射速度"
+		"StatDesc_ReloadTime"							"リロード時間"
+		"StatDesc_ReloadTime_postvalue_label"							"リロード時間"
+		"StatDesc_ReloadTime_postfix"					"秒"
+		"StatDesc_Stamina"								"スタミナ"
+		"StatDesc_Stamina_postvalue_label"								"スタミナ"
+		"StatDesc_StaminaRegenPerSecond"				"スタミナ回復"
+		"StatDesc_StaminaRegenPerSecond_postvalue_label"				"スタミナ回復"
+		"StatDesc_StaminaRegenPerSecond_postfix"		"%"
+		"StatDesc_DashSpeedInMeters"								"ダッシュ速度"
+		"StatDesc_DashSpeedInMeters_postvalue_label"				"ダッシュ速度"
+		"StatDesc_DashSpeedInMeters_postfix"						"m／秒"
+		"StatDesc_SpiritLifestealEffectiveness"					"ライフスティール効果量"
+		"StatDesc_SpiritLifestealEffectiveness_postvalue_label"				"ライフスティール効果量"
+		"StatDesc_SpiritLifestealEffectiveness_postfix"						"%"
+		"StatDesc_BaseWeaponDamage"						"武器ダメージ"
+		"StatDesc_BaseWeaponDamage_postvalue_label"						"武器ダメージ"
+		"StatDesc_BaseWeaponDamage_postfix"				"%"
+		"StatDesc_TechDamageScale"						"スピリットダメージ"
+		"StatDesc_TechDamageScale_postvalue_label"						"スピリットダメージ"
+		//"StatDesc_TechShieldHealth"						"Spirit Shield"
+		"StatDesc_BulletShieldHealth"					"ダメージシールド"
+		"StatDesc_BulletShieldHealth_postvalue_label"					"ダメージシールド"
+		"StatDesc_ReloadSpeed_prefix"					"{s:sign}"
+		"StatDesc_ReloadSpeed"							"リロード時間短縮"
+		"StatDesc_ReloadSpeed_postvalue_label"							"リロード時間短縮"
+		"StatDesc_ReloadSpeed_postfix"					"%"
+		"StatDesc_CritDamageReceivedScale"				"クリティカル軽減"
+		"StatDesc_CritDamageReceivedScale_postvalue_label"				"クリティカル軽減"
+		"StatDesc_CritDamageReceivedScale_postfix"		"%"
+		"StatDesc_StaminaCooldown"						"スタミナクールダウン"
+		"StatDesc_StaminaCooldown_postvalue_label"						"スタミナクールダウン"
+		"StatDesc_StaminaCooldown_postfix"				"秒"
+		"StatDesc_StaminaRegenIncrease_prefix"			"+"
+		"StatDesc_StaminaRegenIncrease"					"スタミナ回復"
+		"StatDesc_StaminaRegenIncrease_postvalue_label"					"スタミナ回復"
+		"StatDesc_StaminaRegenIncrease_postfix"			"%"
+		"StatDesc_DebuffResist"							"デバフ耐性"
+		"StatDesc_DebuffResist_postvalue_label"							"デバフ耐性"
+		"StatDesc_DebuffResist_postfix"					"%"
+		"StatDesc_HealingOutput"						"与回復量"
+		"StatDesc_HealingOutput_postvalue_label"						"与回復量"
+		"StatDesc_HealingOutput_postfix"				"%"
+		"StatDesc_CritDamageBonusScale"					"クリティカルボーナススケール"
+		"StatDesc_CritDamageBonusScale_postvalue_label"					"クリティカルボーナススケール"
+		"StatDesc_CritDamageBonusScale_postfix"			"%"
+		"StatDesc_MeleeResist"							"近接攻撃耐性"
+		"StatDesc_MeleeResist_postvalue_label"							"近接攻撃耐性"
+		"StatDesc_MeleeResist_postfix"					"%"
+
+		"StatDesc_BulletSpeed"							"弾速"
+		"StatDesc_BulletSpeed_postvalue_label"							"弾速"
+		"StatDesc_BulletSpeed_postfix"					"m／秒"
+		"StatDesc_BulletSpeedIncrease"					"弾速増加"
+		"StatDesc_BulletSpeedIncrease_postvalue_label"					"弾速増加"
+		"StatDesc_BulletSpeedIncrease_postfix"			"%"
+		
+		"StatDesc_WeaponRangeFalloffMin_postfix"		"m"
+		"StatDesc_WeaponRangeFalloffMax_postfix"		"m"
+
+		//"StatDesc_AttackPower"							"Attack Power"
+		//"StatDesc_AbilityPower"							"Ability Power"
+		//"StatDesc_DefensePower"							"Defense Power"
+
+		"StatDesc_TechLifesteal_prefix"					"{s:sign}"
+		"StatDesc_TechLifesteal"						"スピリットライフスティール"
+		"StatDesc_TechLifesteal_postvalue_label"						"スピリットライフスティール"
+		"StatDesc_TechLifesteal_postfix"				"%"
+
+		"StatDesc_TechLifestealNonHero_prefix"			"{s:sign}"
+		"StatDesc_TechLifestealNonHero"					"スピリットライフスティール（非ヒーロー）"
+		"StatDesc_TechLifestealNonHero_postvalue_label"					"スピリットライフスティール（非ヒーロー）"
+
+		"StatDesc_BulletLifesteal_prefix"					"{s:sign}"
+		"StatDesc_BulletLifesteal"						"弾薬ライフスティール"
+		"StatDesc_BulletLifesteal_postvalue_label"						"弾薬ライフスティール"
+		"StatDesc_BulletLifesteal_postfix"				"%"
+
+		"StatDesc_StaminaRegenPercent"						"スタミナ回復"
+		"StatDesc_StaminaRegenPercent_postvalue_label"						"スタミナ回復"
+		"StatDesc_StaminaRegenPercent_postfix"				"%"
+
+		"Attribute_EWeaponAttribute_RapidFire"			"ラピッド射撃"
+		"Attribute_EWeaponAttribute_BurstFire"			"バースト射撃"
+		"Attribute_EWeaponAttribute_Spreadshot"			"スプレッド射撃"
+		"Attribute_EWeaponAttribute_BeamWeapon"			"ビーム武器"
+		"Attribute_EWeaponAttribute_CloseRange"			"近距離"
+		"Attribute_EWeaponAttribute_MediumRange"		"中距離"
+		"Attribute_EWeaponAttribute_LongRange"			"長距離"
+		"Attribute_EWeaponAttribute_HeavyHitter"		"ヘビーヒッター"
+		"Attribute_EWeaponAttribute_Projectile"			"発射物"
+		"Attribute_EWeaponAttribute_Pistol"				"拳銃"
+		"Attribute_EWeaponAttribute_Heavy"				"重砲"
+		"Attribute_EWeaponAttribute_Bow"				"弓"
+		"Attribute_EWeaponAttribute_Bouncy"				"跳弾"
+		"Attribute_EWeaponAttribute_Crossbow"			"クロスボウ"
+		
+
+		//"WeaponPowerAttribute_Desc"						"%s1 to any weapon damage bonus"
+		//"ArmorAttribute_Desc"							"%s1 to any bullet and spirit armor bonus"
+		//"HealthAttribute_Desc"							"%s1 to any health and health regen bonuses"
+		//"TechDamageAttribute_Desc"						"%s1 to any spirit damage bonus"
+		//"FireRateAttribute_Desc"						"%s1 to any weapon fire rate bonus"
+
+		//"WeaponPowerAttribute_Desc_0"					"no additional weapon damage bonuses"
+		//"ArmorAttribute_Desc_0"							"no additional bullet armor bonuses"
+		//"HealthAttribute_Desc_0"						"no additional health and health regen bonuses"
+		//"TechDamageAttribute_Desc_0"					"no additional spirit damage bonuses"
+		//"FireRateAttribute_Desc_0"						"no additional weapon fire rate bonuses"
+
+		//-----------------------------------------------------------------------------
+		// END Stat desc
+		//-----------------------------------------------------------------------------
+
+		//-----------------------------------------------------------------------------
+		// Ability Properties desc
+		//-----------------------------------------------------------------------------
+		"AffectedProperty_new_value"				"<span class=\"AffectedValNew\">{s:valNew}</span>"
+		"AffectedPropertyPostFix"					"<span class=\"AffectedValPostfix\">{s:valPostfix}</span>"
+
+		"EMultiplyBase_postfix"						"%"
+
+		"HealAmount_label"							"回復量"
+
+		"HealAmount_postvalue_label"							"回復量"
+		"HealInterval_label"						"回復インターバル"
+		"HealInterval_postvalue_label"						"回復インターバル"
+		"HealInterval_postfix"						"秒"
+		
+		"SlowPercent_label"							"移動速度"
+		"SlowPercent_postvalue_label"				"移動速度"
+		"SlowPercent_postfix"						"%"
+		"SlowPercent_prefix"						"-"
+		"movement_slow"								"-移動速度"
+
+		"SlowPercentPerStack"						"移動速度／スタック"
+		"SlowPercentPerStack_postvalue_label"		"移動速度／スタック"
+		"SlowPercentPerStack_postfix"						"%"
+		"SlowPercentPerStack_prefix"						"-"
+
+		"MovementSpeedSlow_label"							"移動速度"
+		"MovementSpeedSlow_postvalue_label"					"移動速度"
+		"MovementSpeedSlow_postfix"							"%"
+		"MovementSpeedSlow_prefix"							"-"
+
+		"MovementSlowDuration_label"						"スロウ継続時間"
+		"MovementSlowDuration_postvalue_label"				"スロウ継続時間"
+		"MovementSlowDuration_postfix"						"秒"
+
+		"MoveSpeedBonusPct_label"				"移動速度ボーナス"
+		"MoveSpeedBonusPct_postvalue_label"		"移動速度ボーナス"
+		"MoveSpeedBonusPct_prefix"				"+"
+		"MoveSpeedBonusPct_postfix"				"%"
+
+		//"DroneLifetime_label"							"Drone Lifetime"
+
+		"CritChance_label"							"クリティカル率"
+
+		"CritChance_postvalue_label"							"クリティカル率"
+		"CritChance_postfix"							"%"
+
+		"ShieldHealth_label"							"シールド量"
+
+
+		"ShieldHealth_postvalue_label"							"シールド量"
+
+		//"SpeedBoostPercent_label"						"Speed"
+		"SpeedBoostPercent_prefix"						"{s:sign}"
+		"SpeedBoostPercent_postfix"						"%"
+
+		"Damage_label"								"ダメージ"
+		"Damage_postvalue_label"								"ダメージ"
+		
+		"DamagePerStack_label"								"ダメージ／スタック"
+		"DamagePerStack_postvalue_label"					"ダメージ／スタック"
+
+		"DamageBoosted_label"						"ダメージ"
+		"DamageBoosted_postvalue_label"						"ダメージ"
+
+		"BonusDamage_label"							"追加ダメージ"
+		"BonusDamage_postvalue_label"							"追加ダメージ"
+
+		"BonusDamagePercent_label"							"追加ダメージ"
+		"BonusDamagePercent_postvalue_label"							"追加ダメージ"
+		"BonusDamagePercent_prefix"						"{s:sign}"
+		"BonusDamagePercent_postfix"						"%"
+
+		"DamagePlayer_label"							"対プレイヤーダメージ"
+		"DamagePlayer_postvalue_label"							"対プレイヤーダメージ"
+
+		"DamageNPC_label"								"対NPCダメージ"
+
+
+		"DamageNPC_postvalue_label"								"対NPCダメージ"
+
+		"DetectionRadius_label"						"検知範囲"
+
+
+		"DetectionRadius_postvalue_label"						"検知範囲"
+
+		//"MaxMines_label"								"Max Mines"
+	
+		//"HealRate_label"								"Heal Rate"
+		"HealRate_postfix"								"／秒"
+
+		"Radius_label"								"範囲"
+
+		"Radius_postvalue_label"								"範囲"
+		"Radius_postfix"								"m"
+
+		"InactiveRadius_label"						"無効範囲"
+
+		"InactiveRadius_postvalue_label"						"無効範囲"
+		"InactiveRadius_postfix"						"m"
+
+		"ActiveRadius_label"						"有効範囲"
+
+		"ActiveRadius_postvalue_label"						"有効範囲"
+		"ActiveRadius_postfix"						"m"
+
+		"MaxRadius_label"								"最大範囲"
+		"MinRadius_postvalue_label"					"最小範囲"
+		"MinRadius_postfix"							"m"
+		"MaxRadius_postvalue_label"								"最大範囲"
+		"MaxRadius_postfix"								"m"
+
+		//"TackleRadius_label"							"Tackle Radius"
+		"TackleRadius_postfix"							"m"
+
+		"MovementDamagePercent_label"					"ダメージ"
+
+		"MovementDamagePercent_postvalue_label"					"ダメージ"
+"DPS_label"									"ダメージ／秒"
+
+		"DPS_postvalue_label"									"ダメージ／秒"
+
+		"DamagePercentHealth_label"				"最大HPダメージ"
+
+		"DamagePercentHealth_postvalue_label"				"最大HPダメージ"
+		"DamagePercentHealth_postfix"			"%"
+		"DPSPercentHealth_label" "最大HPダメージ"
+		"DPSPercentHealth_postvalue_label" "最大HPダメージ"
+		"DPSPercentHealth_postfix" "%"
+
+		//"DPSIncrease_label"							"Damage Increase Rate"
+		"DPSMin_label"								"最小DPS"
+		"DPSMin_postvalue_label"								"最小DPS"
+		"DPSMax_label"								"最大DPS"
+
+		"DPSMax_postvalue_label"								"最大DPS"
+
+		"DPS_Self_label"								"自傷ダメージ"
+
+		"DPS_Self_postvalue_label"								"自傷ダメージ"
+		"DPS_Self_postfix"								"／秒"
+
+		"BaseAttackDamage_prefix"						"{s:sign}"
+		"BaseAttackDamage_label"						"基礎ダメージ"
+		"BaseAttackDamage_postvalue_label"						"基礎ダメージ"
+
+		"MODIFIER_VALUE_BASEATTACK_DAMAGE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_BASEATTACK_DAMAGE_label"						"基礎ダメージ"
+		"MODIFIER_VALUE_BASEATTACK_DAMAGE_postvalue_label"						"基礎ダメージ"
+
+		"BonusHealth_prefix"							"{s:sign}"
+		"BonusHealth_label"							"HP増加"
+		"BonusHealth_postvalue_label"							"HP増加"
+
+		"MODIFIER_VALUE_HEALTH_MAX_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_HEALTH_MAX_label"							"HP増加"
+		"MODIFIER_VALUE_HEALTH_MAX_postvalue_label"							"HP増加"
+
+		"SpiritPowerInnate_prefix"							"{s:sign}"
+		"SpiritPowerInnate_label"							"スピリットパワー"
+		"SpiritPowerInnate_postvalue_label"					"スピリットパワー"
+
+		"MaxHealth_prefix"							"{s:sign}"
+		"MaxHealth_label"							"最大HP"
+
+		"MaxHealth_postvalue_label"							"最大HP"
+
+		//"BonusEnergyMax_label"						"Energy Cells"
+
+		"BonusMaxHealth_prefix"							"{s:sign}"
+		"BonusMaxHealth_label"						"最大HP"
+
+		"BonusMaxHealth_postvalue_label"						"最大HP"
+
+		"BonusHealthPercent_prefix"					"{s:sign}"
+		"BonusHealthPercent_postfix"				"%"
+		"BonusHealthPercent_label"					"HP"
+		"BonusHealthPercent_postvalue_label"					"HP"
+
+		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_postfix"				"%"
+		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_label"					"HP"
+		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_postvalue_label"					"HP"
+
+		"BonusHealthRegen_prefix"					"{s:sign}"
+		"BonusHealthRegen_label"					"HPリジェネ"
+		"BonusHealthRegen_postvalue_label"					"HPリジェネ"
+
+		"MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND_label"					"HPリジェネ"
+		"MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND_postvalue_label"					"HPリジェネ"
+
+		"OutOfCombatHealthRegen_prefix"					"{s:sign}"
+		"OutOfCombatHealthRegen_label"					"非戦闘時リジェネ"
+		"OutOfCombatHealthRegen_postvalue_label"					"非戦闘時リジェネ"
+
+		"MODIFIER_VALUE_OUT_OF_COMBAT_HEALTH_REGEN_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_OUT_OF_COMBAT_HEALTH_REGEN_label"					"非戦闘時リジェネ"
+		"MODIFIER_VALUE_OUT_OF_COMBAT_HEALTH_REGEN_postvalue_label"					"非戦闘時リジェネ"
+
+		"BaseWeaponDamage_postfix"						"%"
+
+		//"LevelUpBaseWeaponDamage"					"Bullet Damage"
+		"LevelUpBaseMeleeDamage"					"近接ダメージ"
+
+		"HealthRegen_prefix"						"{s:sign}"
+		"HealthRegen_label"						"HPリジェネ"
+
+		"HealthRegen_postvalue_label"						"HPリジェネ"
+
+		"BonusRegenMaxHealthPercent_prefix"					"{s:sign}"
+		"BonusRegenMaxHealthPercent_postfix"					"%"
+		"BonusRegenMaxHealthPercent_label"						"最大HPリジェネ"
+		"BonusRegenMaxHealthPercent_postvalue_label"						"最大HPリジェネ"
+
+		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_postfix"					"%"
+		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_label"						"最大HPリジェネ"
+		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_postvalue_label"						"最大HPリジェネ"
+
+		"BonusHealthRegenOutOfCombat_prefix"			"{s:sign}"
+		//"BonusHealthRegenOutOfCombat_postfix"			""
+		//"BonusHealthRegenOutOfCombat_label"			"Health Regen Out of Combat"
+
+		"ExternalBonusHealthRegen_prefix"				"{s:sign}"
+		"ExternalBonusHealthRegen_postfix"				"／秒"
+		"ExternalBonusHealthRegen_label"				"HPリジェネ"
+		"ExternalBonusHealthRegen_postvalue_label"				"HPリジェネ"
+
+		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_postfix"				"／秒"
+		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_label"				"HPリジェネ"
+		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_postvalue_label"				"HPリジェネ"
+
+		"ActiveHealthRegenBoost_prefix"					"{s:sign}"
+		//"ActiveHealthRegenBoost_postfix"				"hp/s"
+		"ActiveHealthRegenBoost_label"				"HPリジェネ"
+
+		"ActiveHealthRegenBoost_postvalue_label"				"HPリジェネ"
+
+		"NonPlayerBonusWeaponPower_label"			"対NPC武器ダメージ"
+		"NonPlayerBonusWeaponPower_postvalue_label"			"対NPC武器ダメージ"
+		"NonPlayerBonusWeaponPower_prefix"			"{s:sign}"
+		"NonPlayerBonusWeaponPower_postfix"			"%"
+		"NonPlayerBonusWeaponPower_conditional"		"対NPC"
+
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_label"			"対NPC武器ダメージ"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_postvalue_label"			"対NPC武器ダメージ"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_prefix"			"{s:sign}"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_postfix"			"%"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_conditional"		"対NPC"
+
+		"NonPlayerBulletResist_label"			"対NPC弾薬耐性"
+
+		"NonPlayerBulletResist_postvalue_label"			"対NPC弾薬耐性"
+		"NonPlayerBulletResist_prefix"			"{s:sign}"
+		"NonPlayerBulletResist_postfix"			"%"
+		"NonPlayerBulletResist_conditional"		"対NPC"
+
+		"BonusMeleeDamagePercent_prefix"				"{s:sign}"
+		"BonusMeleeDamagePercent_postfix"				"%"
+		"BonusMeleeDamagePercent_label"				"近接ダメージ"
+
+		"BonusMeleeDamagePercent_postvalue_label"				"近接ダメージ"
+
+		"BonusMeleeDamage_prefix"						"{s:sign}"
+		"BonusMeleeDamage_label"						"近接ダメージ"
+
+		"BonusMeleeDamage_postvalue_label"						"近接ダメージ"
+
+		"MODIFIER_VALUE_MELEEATTACK_DAMAGE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_MELEEATTACK_DAMAGE_label"						"近接ダメージ"
+
+		"MODIFIER_VALUE_MELEEATTACK_DAMAGE_postvalue_label"						"近接ダメージ"
+
+		"FuseTime_label"								"着火時間"
+
+		"FuseTime_postvalue_label"								"着火時間"
+		"FuseTime_postfix"								"秒"
+
+		"BonusAmmoRegen_prefix"							"{s:sign}"
+		"BonusAmmoRegen_postfix"						" ／秒"
+		//"BonusAmmoRegen_label"						"Ammo Regen"
+
+		"BonusAmmo_prefix"								"{s:sign}"
+		"BonusAmmo_postfix"								"%"
+		//"BonusAmmo_label"								"Bullets"
+
+		"Lifetime_postfix"								"秒"
+		"Lifetime_label"								"継続時間"
+
+		"Lifetime_postvalue_label"								"継続時間"
+
+		"Distance_postfix"								"m"
+		//"Distance_label"								"Distance"
+
+		//"ChainDamageCoeff_postfix"						"% of gun damage"
+		//"ChainDamageCoeff_label"						"Chain Damage"
+
+		"BulletArmor_prefix"							"{s:sign}"
+		"BulletArmor_label"								"弾薬アーマー"
+		"BulletArmor_postvalue_label"								"弾薬アーマー"
+
+		"MODIFIER_VALUE_BULLET_ARMOR_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_BULLET_ARMOR_label"								"弾薬アーマー"
+		"MODIFIER_VALUE_BULLET_ARMOR_postvalue_label"								"弾薬アーマー"
+
+		"BulletResist_prefix"							"{s:sign}"
+		"BulletResist_postfix"							"%"
+		"BulletResist_label"							"弾薬耐性"
+		"BulletResist_postvalue_label"							"弾薬耐性"
+
+		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_postfix"							"%"
+		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_label"							"弾薬耐性"
+		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_postvalue_label"							"弾薬耐性"
+
+		"BulletArmorDamageReduction_prefix"				"{s:sign}"
+		"BulletArmorDamageReduction_postfix"			"%"
+		"BulletArmorDamageReduction_label"				"弾薬耐性"
+		"BulletArmorDamageReduction_postvalue_label"				"弾薬耐性"
+
+		"BulletArmorDamageReductionPerStack_prefix"				"{s:sign}"
+		"BulletArmorDamageReductionPerStack_postfix"			"%"
+		"BulletArmorDamageReductionPerStack_label"				"弾薬耐性／スタック"
+		"BulletArmorDamageReductionPerStack_postvalue_label"	"弾薬耐性／スタック"
+
+
+
+		// this name is misleading since we use this as a debuff ("TechResist" is the buff version)
+		"TechArmorDamageReduction_prefix"				"{s:sign}"
+		"TechArmorDamageReduction_postfix"				"%"
+		"TechArmorDamageReduction_Label"				"スピリット耐性"
+		"TechArmorDamageReduction_postvalue_label"				"スピリット耐性"
+
+		"BulletResistReduction_label"		"弾薬耐性"
+		"BulletResistReduction_postvalue_label"		"弾薬耐性"
+		"BulletResistReduction_postfix"	"%"
+
+		"MeleeResistReduction_label"		"近接攻撃耐性"
+		"MeleeResistReduction_postvalue_label"		"近接攻撃耐性"
+		"MeleeResistReduction_postfix"	"%"
+
+		"BulletResistReductionPerStack_label"		"弾薬耐性／スタック"
+		"BulletResistReductionPerStack_postvalue_label"		"弾薬耐性／スタック"
+		"BulletResistReductionPerStack_postfix"	"%"
+
+		"MagicResistReduction_label"		"スピリット耐性"
+
+		"MagicResistReduction_postvalue_label"		"スピリット耐性"
+		"MagicResistReduction_postfix"	"%"
+
+		"TechDamageScale_prefix"						"{s:sign}"
+		"TechDamageScale_postfix"						"%"
+		"TechDamageScale_label"							"スピリットダメージ"
+
+		"TechDamageScale_postvalue_label"							"スピリットダメージ"
+
+		"OutgoingTechDamagePercent_label" "スピリットダメージ"
+
+		"OutgoingTechDamagePercent_postvalue_label" "スピリットダメージ"
+		"OutgoingTechDamagePercent_postfix" "%"
+
+		"TechArmor_prefix"								"{s:sign}"
+		"TechArmor_label"								"スピリットアーマー"
+		"TechArmor_postvalue_label"								"スピリットアーマー"
+
+		"MODIFIER_VALUE_TECH_ARMOR_prefix"								"{s:sign}"
+		"MODIFIER_VALUE_TECH_ARMOR_label"								"スピリットアーマー"
+		"MODIFIER_VALUE_TECH_ARMOR_postvalue_label"								"スピリットアーマー"
+		
+		"TechResist_prefix"								"{s:sign}"
+		"TechResist_postfix"							"%"
+		"TechResist_label"								"スピリット耐性"
+		"TechResist_postvalue_label"								"スピリット耐性"
+
+		"MODIFIER_VALUE_TECH_RESIST_prefix"								"{s:sign}"
+		"MODIFIER_VALUE_TECH_RESIST_postfix"							"%"
+		"MODIFIER_VALUE_TECH_RESIST_label"								"スピリット耐性"
+		"MODIFIER_VALUE_TECH_RESIST_postvalue_label"								"スピリット耐性"
+
+		"TechResistPerStack_prefix"						"{s:sign}"
+		"TechResistPerStack_postfix"					"%"
+		"TechResistPerStack_label"						"スピリット増幅／スタック"
+		"TechResistPerStack_postvalue_label"						"スピリット増幅／スタック"
+
+		"MagicIncreasePerStack_prefix"					"{s:sign}"
+		"MagicIncreasePerStack_postfix"					"%"
+		"MagicIncreasePerStack_label"					"スピリット増幅／スタック"
+
+		"MagicIncreasePerStack_postvalue_label"					"スピリット増幅／スタック"
+
+		"BulletDamageReduction_postfix"					"%"
+		"BulletDamageReduction_label"					"弾薬アーマー"
+		"BulletDamageReduction_postvalue_label"					"弾薬アーマー"
+
+		"ActiveBulletDamageReduction_prefix"			"{s:sign}"
+		"ActiveBulletDamageReduction_label"			"弾薬ダメージ"
+		"ActiveBulletDamageReduction_postvalue_label"			"弾薬ダメージ"
+		"ActiveBulletDamageReduction_postfix"			"%"
+
+		"MODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_postfix"					"%"
+		"MODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_label"					"弾薬アーマー"
+		"MODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_postvalue_label"					"弾薬アーマー"
+
+		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_prefix"			"{s:sign}"
+		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_label"			"弾薬ダメージ"
+		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_postvalue_label"			"弾薬ダメージ"
+		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_postfix"			"%"
+
+		"BonusMoveSpeed_prefix"							"{s:sign}"
+		"BonusMoveSpeed_label"						"移動速度"
+		"BonusMoveSpeed_postvalue_label"						"移動速度"
+		"BonusMoveSpeed_postfix"						" m"
+
+		"FloatMoveSpeed_label"						"浮遊速度"
+		"FloatMoveSpeed_postvalue_label"						"浮遊速度"
+		"FloatMoveSpeed_postfix"						" m"
+
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_label"						"移動速度"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_postvalue_label"						"移動速度"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_postfix"						" m"
+
+		"RestoreDelay_prefix"							"{s:sign}"
+		"RestoreDelay_label"						"復元ディレイ"
+		"RestoreDelay_postvalue_label"						"復元ディレイ"
+		"RestoreDelay_postfix"						" 秒"
+
+		"HealLifePercentOutOfCombat_prefix"				"{s:sign}"
+		"HealLifePercentOutOfCombat_label"				"最大HPリジェネ"
+		"HealLifePercentOutOfCombat_postvalue_label"	"最大HPリジェネ"
+		"HealLifePercentOutOfCombat_postfix"			" %"
+		
+		"TeleporterBonus"							"移動速度上昇！"
+		"RunSpeed_postfix"						" m／秒"
+
+		"WeaponRange_label"							"武器射程"
+
+		"WeaponRange_postvalue_label"							"武器射程"
+		"WeaponRange_postfix"						" m"
+
+		"BonusMoveSpeedPercent_prefix"					"{s:sign}"
+		"BonusMoveSpeedPercent_postfix"					"%"
+		"BonusMoveSpeedPercent_label"					"移動速度"
+		"BonusMoveSpeedPercent_postvalue_label"					"移動速度"
+
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_postfix"					"%"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_label"					"移動速度"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_postvalue_label"					"移動速度"
+
+		"SlowResistancePercent_prefix"					"{s:sign}"
+		"SlowResistancePercent_label"					"スロウ耐性"
+		"SlowResistancePercent_postvalue_label"					"スロウ耐性"
+		"SlowResistancePercent_postfix"					"%"
+
+		"AirSpeedBonus_label"						"増加空中移動速度"
+
+		"AirSpeedBonus_postvalue_label"						"増加空中移動速度"
+		"AirSpeedBonus_prefix"						"{s:sign}"
+		"AirSpeedBonus_postfix"						"m"
+		//"AscendSpeed_label"							""
+		//"DescendSpeed_label"							""
+
+		"BonusCooldownReduction_label"					"クールダウン短縮／弾薬"
+
+
+		"BonusCooldownReduction_postvalue_label"					"クールダウン短縮／弾薬"
+
+		"BonusClipSize_prefix"							"{s:sign}"
+		"BonusClipSize_label"							"弾数"
+		"BonusClipSize_postvalue_label"							"弾数"
+
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_label"							"弾数"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_postvalue_label"							"弾数"
+
+		"BonusClipSizePercent_prefix"					"{s:sign}"
+		"BonusClipSizePercent_postfix"					"%"
+		"BonusClipSizePercent_label"					"最大弾数"
+		"BonusClipSizePercent_postvalue_label"					"最大弾数"
+
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_postfix"					"%"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_label"					"最大弾数"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_postvalue_label"					"最大弾数"
+
+		"TemporaryBonusClipSize_prefix"				"{s:sign}"
+		"TemporaryBonusClipSize_label"				"一時弾数"
+		"TemporaryBonusClipSize_postvalue_label"				"一時弾数"
+
+		"TemporaryBonusClipSizePercent_prefix"			"{s:sign}"
+		"TemporaryBonusClipSizePercent_postfix"			"%"
+		"TemporaryBonusClipSizePercent_label"			"一時弾数"
+
+		"TemporaryBonusClipSizePercent_postvalue_label"			"一時弾数"
+
+		"AmmoReloadPercent_postfix"					"%"
+		"AmmoReloadPercent_label"					"リロードした弾薬"
+
+		"AmmoReloadPercent_postvalue_label"					"リロードした弾薬"
+
+		"BulletPenetrationPercent_postfix"				"%"
+		"BulletPenetrationPercent_label"				"弾薬貫通ダメージ"
+
+		"BulletPenetrationPercent_postvalue_label"				"弾薬貫通ダメージ"
+
+		"TechPower_prefix"								"{s:sign}"
+		"TechPower_label"								"スピリットパワー"
+		"TechPower_postvalue_label"								"スピリットパワー"
+		"MODIFIER_VALUE_TECH_POWER_prefix"								"{s:sign}"
+		"MODIFIER_VALUE_TECH_POWER_label"								"スピリットパワー"
+		"MODIFIER_VALUE_TECH_POWER_postvalue_label"								"スピリットパワー"
+		"TechPowerPercent_prefix"						"{s:sign}"
+		"TechPowerPercent_label"						"スピリットパワー"
+		"TechPowerPercent_postvalue_label"						"スピリットパワー"
+		"TechPowerPercent_postfix"						"%"
+
+		"MODIFIER_VALUE_TECH_POWER_PERCENT_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_TECH_POWER_PERCENT_label"						"スピリットパワー"
+		"MODIFIER_VALUE_TECH_POWER_PERCENT_postvalue_label"						"スピリットパワー"
+		"MODIFIER_VALUE_TECH_POWER_PERCENT_postfix"						"%"
+
+		"ArmorPower_prefix"								"{s:sign}"
+		"ArmorPower_label"								"基礎HP"
+		"ArmorPower_postvalue_label"								"基礎HP"
+		"ArmorPower_postfix"								"%"
+
+		"MODIFIER_VALUE_ARMOR_POWER_prefix"								"{s:sign}"
+		"MODIFIER_VALUE_ARMOR_POWER_label"								"基礎HP"
+		"MODIFIER_VALUE_ARMOR_POWER_postvalue_label"								"基礎HP"
+		"MODIFIER_VALUE_ARMOR_POWER_postfix"								"%"
+
+		"TechPowerAmp_prefix"							"{s:sign}"
+		//"TechPowerAmp_label"							"Spirit"
+		//"TechPowerAmp_postfix"							""
+
+		"SpellAmplificationPercent_prefix"				"{s:sign}"
+		"SpellAmplificationPercent_label"				"スピリットパワー"
+		"SpellAmplificationPercent_postvalue_label"				"スピリットパワー"
+		//BaseDamagePerShot_label							"Base Damage"
+		"NanoTechPerShot_label"							"スピリットダメージ"
+		"NanoTechPerShot_postvalue_label"							"スピリットダメージ"
+		//"ExplosiveSplashDamage_label"						"Explode Damage"
+		"BulletDamageTotal_label"							"弾薬ダメージ"
+
+		"BulletDamageTotal_postvalue_label"							"弾薬ダメージ"
+
+		"ChargesRestored_label"							"チャージ回復数"			
+
+
+		"ChargesRestored_postvalue_label"							"チャージ回復数"			
+
+		"BonusFireRate_prefix"							"{s:sign}"
+		"BonusFireRate_postfix"							"%"
+		"BonusFireRate_label"							"発射速度"
+		"BonusFireRate_postvalue_label"							"発射速度"
+
+		"MODIFIER_VALUE_FIRE_RATE_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_FIRE_RATE_postfix"							"%"
+		"MODIFIER_VALUE_FIRE_RATE_label"							"発射速度"
+		"MODIFIER_VALUE_FIRE_RATE_postvalue_label"							"発射速度"
+		
+		"ActivatedFireRate_prefix"						"{s:sign}"
+		"ActivatedFireRate_postfix"						"%"
+		"ActivatedFireRate_label"						"発射速度"
+
+		"ActivatedFireRate_postvalue_label"						"発射速度"
+
+		"BonusFireRatePlayerUnit_prefix"				"{s:sign}"
+		"BonusFireRatePlayerUnit_postfix"				"%"
+		"BonusFireRatePlayerUnit_label"					"ミニオン発射速度"
+
+		"BonusFireRatePlayerUnit_postvalue_label"					"ミニオン発射速度"
+
+		"BonusFireRateNPC_prefix"							"{s:sign}"
+		"BonusFireRateNPC_postfix"							"%"
+		"BonusFireRateNPC_label"							"NPC発射速度"
+
+		"BonusFireRateNPC_postvalue_label"							"NPC発射速度"
+
+		"BonusMeleeAttackSpeed_prefix"					"{s:sign}"
+		"BonusMeleeAttackSpeed_postfix"					"%"
+		//"BonusMeleeAttackSpeed_label"					"Melee Speed"
+
+		"MODIFIER_VALUE_MELEEATTACK_SPEED_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_MELEEATTACK_SPEED_postfix"					"%"
+
+		"AbilityDamageReduction_label"				"スピリットダメージ低下"
+		"AbilityDamageReduction_postvalue_label"				"スピリットダメージ低下"
+		"AbilityDamageReduction_postfix"				"%"
+
+		"MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_label"				"スピリットダメージ低下"
+		"MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_postvalue_label"				"スピリットダメージ低下"
+		"MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_postfix"				"%"
+
+		//"SlowProcChance_label"						"Chance to slow on hit"
+		"SlowProcChance_postfix"						"%"
+
+		"EnemySlowPct_label"							"敵移動速度"
+
+		"EnemySlowPct_postvalue_label"							"敵移動速度"
+		"EnemySlowPct_postfix"							"%"
+		"EnemySlowPct_prefix"							"-"
+
+		"SlowDuration_label"							"スロウ継続時間"			
+
+		"SlowDuration_postvalue_label"							"スロウ継続時間"
+		"SlowDuration_postfix"							"秒"
+
+		"MoveSpeedSlowDuration_label"							"スロウ継続時間"
+
+		"MoveSpeedSlowDuration_postvalue_label"							"スロウ継続時間"
+		"MoveSpeedSlowDuration_postfix"							"秒"
+
+		//"PoisonDamage_label"							"Poison Damage"
+		"PoisonDuration_label"							"継続時間"
+		"PoisonDuration_postvalue_label"							"継続時間"
+		"PoisonDuration_postfix"							"秒"
+
+
+		"DebuffDuration_label"						"デバフ継続時間"
+
+
+		"DebuffDuration_postvalue_label"						"デバフ継続時間"
+		"DebuffDuration_postfix"						"秒"
+
+		"DotHealthPercent_label"						"出血ダメージ"
+
+		"DotHealthPercent_postvalue_label"						"出血ダメージ"
+		"DotHealthPercent_postfix"						"% DPS"
+
+		"CurrentHealthPercent_label"					"現在HP"
+
+		"CurrentHealthPercent_postvalue_label"					"現在HP"
+		"CurrentHealthPercent_postfix"					"%"
+		
+		"CurrentHealthPercentDamage_label"				"現在HP"
+		
+		"CurrentHealthPercentDamage_postvalue_label"				"現在HP"
+		"CurrentHealthPercentDamage_postfix"			"%"
+		"FreezeDuration_label"							"凍結継続時間"
+		"FreezeDuration_postvalue_label"							"凍結継続時間"
+		"FreezeDuration_postfix"							"秒"
+
+		"CooldownReduction_prefix"						"{s:sign}"
+		"CooldownReduction_postfix"						"%"
+		"CooldownReduction_label"						"アビリティ クールダウン短縮"
+		"CooldownReduction_postvalue_label"						"アビリティ クールダウン短縮"
+		"UltimateCooldownReduction_prefix"						"{s:sign}"
+		"UltimateCooldownReduction_postfix"						"%"
+		"UltimateCooldownReduction_label"						"アルティメット クールダウン短縮"
+		"UltimateCooldownReduction_postvalue_label"						"アルティメット クールダウン短縮"
+		
+		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_postfix"						"%"
+		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_label"						"アビリティ クールダウン短縮"
+		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_postvalue_label"						"アビリティ クールダウン短縮"
+
+		"SingleAbilityCooldownReduction_prefix"						"{s:sign}"
+		"SingleAbilityCooldownReduction_postfix"					"%"
+		"SingleAbilityCooldownReduction_label"						"アビリティ クールダウン短縮"
+		"SingleAbilityCooldownReduction_postvalue_label"			"アビリティ クールダウン短縮"
+		
+		"ItemCooldownReduction_prefix"						"{s:sign}"
+		"ItemCooldownReduction_postfix"						"%"
+		"ItemCooldownReduction_label"						"アイテム クールダウン短縮"
+		"ItemCooldownReduction_postvalue_label"						"アイテム クールダウン短縮"
+
+		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_postfix"						"%"
+		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_label"						"アイテム クールダウン短縮"
+		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_postvalue_label"						"アイテム クールダウン短縮"
+
+		"CooldownRefundPercent_postfix"	"%"
+		"CooldownRefundPercent_label"	"クールダウン回復"
+
+		"CooldownRefundPercent_postvalue_label"	"クールダウン回復"
+
+		"ImbuedCooldownReduction_prefix"				"{s:sign}"
+		"ImbuedCooldownReduction_postfix"				"%"
+		"ImbuedCooldownReduction_label"					"エンチャントアビリティ クールダウン短縮"
+
+		"ImbuedCooldownReduction_postvalue_label"					"エンチャントアビリティ クールダウン短縮"
+
+		"NonImbuedCooldownReduction_prefix"				"{s:sign}"
+		"NonImbuedCooldownReduction_postfix"			"%"
+		"NonImbuedCooldownReduction_label"				"非エンチャントアビリティ クールダウン短縮"
+
+		"NonImbuedCooldownReduction_postvalue_label"				"非エンチャントアビリティ クールダウン短縮"
+
+		"CooldownReductionFlat_postfix"					"秒"
+		"CooldownReductionFlat_label"					"クールダウン短縮"
+
+		"CooldownReductionFlat_postvalue_label"					"クールダウン短縮"
+
+		"BonusAbilityCharges_prefix"					"{s:sign}"
+		"BonusAbilityCharges_label"					"アビリティ追加チャージ"
+
+		"BonusAbilityCharges_postvalue_label"					"アビリティ追加チャージ"
+
+		"MODIFIER_VALUE_BONUS_ABILITY_CHARGES_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_BONUS_ABILITY_CHARGES_label"					"アビリティ追加チャージ"
+
+		"MODIFIER_VALUE_BONUS_ABILITY_CHARGES_postvalue_label"					"アビリティ追加チャージ"
+
+		//"BonusChargedAbilityDamage_label"				"Charged Ability Damage"
+		"BonusChargedAbilityDamage_prefix"				"{s:sign}"
+		"BonusChargedAbilityDamage_postfix"				"%"
+
+		"CooldownBetweenChargeReduction_prefix"			"{s:sign}"
+		"CooldownBetweenChargeReduction_label"			"チャージ間隔短縮"
+		"CooldownBetweenChargeReduction_postvalue_label"			"チャージ間隔短縮"
+		"CooldownBetweenChargeReduction_postfix"		"%"
+
+		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_prefix"			"{s:sign}"
+		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_label"			"チャージ間隔短縮"
+		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_postvalue_label"			"チャージ間隔短縮"
+		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_postfix"		"%"
+
+		"BonusSprintSpeed_prefix"						"{s:sign}"
+		"BonusSprintSpeed_postfix"						"m"
+		"BonusSprintSpeed_label"						"スプリント速度"
+		"BonusSprintSpeed_postvalue_label"						"スプリント速度"
+		
+		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_postfix"						"m"
+		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_label"						"スプリント速度"
+		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_postvalue_label"						"スプリント速度"
+
+		"SprintSpeed_postfix"							"m"
+		"SprintSpeed_label"								"スプリント速度"
+
+		"SprintSpeed_postvalue_label"								"スプリント速度"
+
+		"BonusSprintSpeedPercent_prefix"				"{s:sign}"
+		"BonusSprintSpeedPercent_label"				"スプリント速度"
+		"BonusSprintSpeedPercent_postvalue_label"				"スプリント速度"
+		"BonusSprintSpeedPercent_postfix"				"%"
+
+		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_label"				"スプリント速度"
+		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_postvalue_label"				"スプリント速度"
+		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_postfix"				"%"
+
+		"BonusSuperSprintSpeed_prefix"					"{s:sign}"
+		"BonusSuperSprintSpeed_label"					"スプリント速度"
+
+		"BonusSuperSprintSpeed_postvalue_label"					"スプリント速度"
+
+		"BonusSuperSprintSpeedPercent_prefix"			"{s:sign}"
+		"BonusSuperSprintSpeedPercent_postfix"			"%"
+
+		"TotalHealthRegen_label"						"合計HPリジェネ"
+
+
+		"TotalHealthRegen_postvalue_label"						"合計HPリジェネ"
+
+		"StatusResistancePercent_prefix"				"{s:sign}"
+		"StatusResistancePercent_label"				"デバフ耐性"
+		"StatusResistancePercent_postvalue_label"				"デバフ耐性"
+		"StatusResistancePercent_postfix"				"%"
+
+		"InnateStatusResistancePercent_prefix"				"{s:sign}"
+		"InnateStatusResistancePercent_label"				"デバフ耐性"
+		"InnateStatusResistancePercent_postvalue_label"				"デバフ耐性"
+		"InnateStatusResistancePercent_postfix"				"%"
+
+		"FervorStatusResistancePercent_prefix"				"{s:sign}"
+		"FervorStatusResistancePercent_label"				"デバフ耐性"
+		"FervorStatusResistancePercent_postvalue_label"				"デバフ耐性"
+		"FervorStatusResistancePercent_postfix"				"%"
+
+		"MODIFIER_VALUE_STATUS_RESISTANCE_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_STATUS_RESISTANCE_label"				"デバフ耐性"
+		"MODIFIER_VALUE_STATUS_RESISTANCE_postvalue_label"				"デバフ耐性"
+		"MODIFIER_VALUE_STATUS_RESISTANCE_postfix"				"%"
+
+		"StatusResistanceDuration_label"				"継続時間"
+
+		"StatusResistanceDuration_postvalue_label"				"継続時間"
+		"StatusResistanceDuration_postfix"				"秒"
+
+		"CleavePercentage_prefix"						"{s:sign}"
+		//"CleavePercentage_label"						"Splash Amount"
+		"CleavePercentage_postfix"						"%"
+
+		//"CleaveRadius_label"							"Splash Radius"
+
+		"BonusAccuracy_prefix"							"{s:sign}"
+		"BonusAccuracy_postfix"							"%"
+		//"BonusAccuracy_label"							"Gun Accuracy"
+
+		"MODIFIER_VALUE_FIREARM_ACCURACY_PERCENTAGE_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_FIREARM_ACCURACY_PERCENTAGE_postfix"							"%"
+
+		"BonusBulletSpeedPercent_prefix"				"{s:sign}"
+		"BonusBulletSpeedPercent_postfix"				"%"
+		"BonusBulletSpeedPercent_label"					"弾速"
+		"BonusBulletSpeedPercent_postvalue_label"					"弾速"
+
+		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_postfix"				"%"
+		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_label"					"弾速"
+		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_postvalue_label"					"弾速"
+
+		"LifeStealPercent_prefix"						"{s:sign}"
+		"LifeStealPercent_label"						"ライフスティール"
+		"LifeStealPercent_postvalue_label"						"ライフスティール"
+		"LifeStealPercent_postfix"						"%"
+
+		"LifestealPercentHero_label"					"ライフスティール"
+
+		"LifestealPercentHero_postvalue_label"					"ライフスティール"
+		"LifestealPercentHero_postfix"					"%"
+
+		"LifestealPercentNonHero_prefix"						"{s:sign}"
+		"LifestealPercentNonHero_label"					"ライフスティール（非ヒーロー）"
+		"LifestealPercentNonHero_postvalue_label"					"ライフスティール（非ヒーロー）"
+		"LifestealPercentNonHero_postfix"				"%"
+
+		"AbilityLifestealDuration_label"				"アビリティライフスティール 継続時間"
+		"AbilityLifestealDuration_postvalue_label"		"アビリティライフスティール 継続時間"
+		"AbilityLifestealDuration_postfix"				"秒"
+
+		"BulletLifestealPercent_prefix"						"{s:sign}"
+		"BulletLifestealPercent_label"					"弾薬ライフスティール"
+		"BulletLifestealPercent_postvalue_label"					"弾薬ライフスティール"
+		"BulletLifestealPercent_postfix"				"%"
+
+		"MODIFIER_VALUE_BULLET_LIFESTEAL_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_BULLET_LIFESTEAL_label"					"弾薬ライフスティール"
+		"MODIFIER_VALUE_BULLET_LIFESTEAL_postvalue_label"					"弾薬ライフスティール"
+		"MODIFIER_VALUE_BULLET_LIFESTEAL_postfix"				"%"
+
+		"TechLifestealPercent_prefix"					"{s:sign}"
+		"TechLifestealPercent_label"						"スピリットライフスティール"
+		"TechLifestealPercent_postvalue_label"						"スピリットライフスティール"
+		"TechLifestealPercent_postfix"					"%"
+
+		"MeleeLifestealPercent_prefix"						"{s:sign}"
+		"MeleeLifestealPercent_label"					"近接ライフスティール"
+		"MeleeLifestealPercent_postvalue_label"					"近接ライフスティール"
+		"MeleeLifestealPercent_postfix"					"%"
+
+		"StunDuration_label"							"スタン継続時間"
+
+		"StunDuration_postvalue_label"							"スタン継続時間"
+		"StunDuration_postfix"							"秒"
+
+		"StunDelay_label"								"スタンディレイ"
+
+		"StunDelay_postvalue_label"								"スタンディレイ"
+		"StunDelay_postfix"								"秒"
+
+		"MinStunDuration_postfix"						"秒"
+		"MinStunDuration_label"							"最小スタン継続時間"
+
+		"MinStunDuration_postvalue_label"							"最小スタン継続時間"
+
+		"MaxStunDuration_postfix"						"秒"
+		"MaxStunDuration_label"							"最大スタン継続時間"
+
+		"MaxStunDuration_postvalue_label"				"最大スタン継続時間"
+
+		"DazeDuration_label"							"目眩継続時間"
+		"DazeDuration_postvalue_label"					"目眩継続時間"
+		"DazeDuration_postfix"							"秒"
+
+		"TossDuration_postvalue_label"					"継続時間"
+		"TossDuration_postfix"							"秒"
+
+		//"MeleeDamageReduction_label"					"Melee Armor"
+
+		"MeleeDamageReductionPercent_prefix"			"{s:sign}"
+		"MeleeDamageReductionPercent_postfix"			"%"
+		//"MeleeDamageReductionPercent_label"			"Melee Armor"
+		
+		"MODIFIER_VALUE_MELEE_RESIST_prefix"			"{s:sign}"
+		"MODIFIER_VALUE_MELEE_RESIST_postfix"			"%"
+		//"MODIFIER_VALUE_MELEE_RESIST_label"			"Melee Armor"
+
+		//"DispenserHealth_label"						"Dispenser Health"
+
+		//"ShotRegenTime_label"							"Shot Regen Time"
+		"ShotRegenTime_postfix"							"秒"
+
+		//"MaxShots_label"								"Max Shots"
+
+		"PathLength_label"							"ビーム長さ"
+
+		"PathLength_postvalue_label"							"ビーム長さ"
+		"PathLength_postfix"							"m"
+
+		"ChainCount_label"							"最大連鎖回数"
+
+		"ChainCount_postvalue_label"							"最大連鎖回数"
+		"BonusPerChain_label"						"連鎖時ダメージ"
+
+		"BonusPerChain_postvalue_label"						"連鎖時ダメージ"
+
+		"RichochetChance_label"						"プロック確率"
+
+		"RichochetChance_postvalue_label"						"プロック確率"
+		"RichochetChance_postfix"						"%"
+
+		//"SlowSpeedLimit_label"						"Speed Reduced To"
+
+		"HealAmpReceivePercent_prefix"					"{s:sign}"
+		"HealAmpReceivePercent_label"					"被回復量ブースト"
+		"HealAmpReceivePercent_postvalue_label"			"被回復量ブースト"
+		"HealAmpReceivePercent_postfix"					"%"
+
+		"MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT_prefix"					"{s:sign}"
+		//"MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT_label"					"Healing Received Boost"
+		"MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT_postfix"					"%"
+
+		"HealAmpCastPercent_prefix"					"{s:sign}"
+		"HealAmpCastPercent_label"					"与回復量"
+		"HealAmpCastPercent_postvalue_label"					"与回復量"
+		"HealAmpCastPercent_postfix"					"%"
+		
+		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_label"					"与回復量"
+		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_postvalue_label"					"与回復量"
+		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_postfix"					"%"
+
+		"HealAmpRegenPercent_prefix"					"{s:sign}"
+		//"HealAmpRegenPercent_label"					"Health Regen Boost"
+		"HealAmpRegenPercent_postfix"					"%"
+		
+		"MODIFIER_VALUE_HEAL_AMP_REGEN_PERCENT_prefix"					"{s:sign}"
+		//"MODIFIER_VALUE_HEAL_AMP_REGEN_PERCENT_label"					"Health Regen Boost"
+		"MODIFIER_VALUE_HEAL_AMP_REGEN_PERCENT_postfix"					"%"
+		
+		"HealAmpRegenMultiplierOutOfCombat_prefix"					"{s:sign}"
+		//"HealAmpRegenMultiplierOutOfCombat_label"		"Health Regen Multiplier"
+		"HealAmpRegenMultiplierOutOfCombat_postfix"			"x"
+
+		"HealAmpReceivePenaltyPercent_label"		"被回復量"
+
+		"HealAmpReceivePenaltyPercent_postvalue_label"		"被回復量"
+		"HealAmpReceivePenaltyPercent_postfix"			"%"
+		
+		"HealAmpRegenPenaltyPercent_label"		"被回復量"
+		
+		"HealAmpRegenPenaltyPercent_postvalue_label"		"被回復量"
+		"HealAmpRegenPenaltyPercent_postfix"	"%"
+		"HealingEffectiveness_label"		"回復効果量"
+		"HealingEffectiveness_postvalue_label"		"回復効果量"
+		"HealingEffectiveness_postfix"	"%"
+		"PercentHealthHealing_label" "HP回復量"
+		"PercentHealthHealing_postvalue_label" "HP回復量"
+		"PercentHealthHealing_postfix" "%"
+
+		"ProcChance_label"							"プロック確率"
+
+		"ProcChance_postvalue_label"							"プロック確率"
+		"ProcChance_postfix"							"%"
+
+		//"OutgoingDamageReduction_label"				"Attack Damage"
+		"OutgoingDamageReduction_prefix"				"-"
+		"OutgoingDamageReduction_postfix"				"%"
+
+		"OutgoingDamagePercent_prefix" "{s:sign}"
+		"OutgoingDamagePercent_label" "ダメージ"
+		"OutgoingDamagePercent_postvalue_label" "ダメージ"
+		"OutgoingDamagePercent_postfix" "%"
+
+		"ProcHealth_label"							"HPしきい値"
+
+		"ProcHealth_postvalue_label"							"HPしきい値"
+		"ProcHealth_postfix"							"%"
+
+		//"DamageBoostFromBehind_label"					"Damage From Behind"
+		"DamageBoostFromBehind_postfix"					"%"
+
+		//"DamageBoostElsewhere_label"					"Damage From Elsewhere"
+		"DamageBoostElsewhere_postfix"					"%"
+
+		//"BonusDPSVsPlayers_label"						"DPS vs Players"
+
+		//"BonusDPSVsCreeps_label"						"DPS vs Creeps"
+
+		//"EvasionPercentGlider_label"					"Evasion Chance Gliding"
+		"EvasionPercentGlider_postfix"					"%"
+
+		"EvasionPercent_label"						"弾薬回避"
+
+		"EvasionPercent_postvalue_label"						"弾薬回避"
+		"EvasionPercent_postfix"						"%"
+
+		//"MeleeDamagePercent_label"					"Melee Damage Bonus"
+		"MeleeDamagePercent_postfix"					"%"
+
+
+		"TechShieldHealth_label"					"スピリットシールド量"
+
+
+		"TechShieldHealth_postvalue_label"					"スピリットシールド量"
+		//"TempTechShieldHealth_label"				"Temp Spirit Shield Health"
+		"TechShieldDamagePercent_prefix"			"{s:sign}"
+		//"TechShieldDamagePercent_label"				"Spirit Shield Damage"
+		"TechShieldDamagePercent_postfix"			"%"
+
+		"BulletShieldHealth_label"					"弾薬シールド量"
+		"BulletShieldHealth_postvalue_label"					"弾薬シールド量"
+
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_label"					"弾薬シールド量"
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_postvalue_label"					"弾薬シールド量"
+
+		//"TempBulletShieldHealth_label"				"Temp Bullet Shield Health"
+		"BulletShieldDamagePercent_prefix"			"{s:sign}"
+		//"BulletShieldDamagePercent_label"			"Damage Amplification vs Bullet Shields"
+		"BulletShieldDamagePercent_postfix"			"%"
+
+		//"ShieldBlockPercent_label"					"Damage Deflected"
+		"ShieldBlockPercent_postfix"					"%"
+
+		//"DamagePercent_label"							"Bullet Damage Done"
+		"DamagePercent_postfix"							"%"
+		
+		//"CycleTimePercent_label"						"Fire Rate compared to Gun"
+		"CycleTimePercent_postfix"						"%"
+
+		//"StickyClusterCount_label"					"Splits into"
+		//"StickyClusterCount_postfix"					"Sticky Grenades"
+
+		//"FuseDuration_label"							"Fuse Duration"
+		//"FuseDuration_postfix"							""
+		
+		//"DroneCount_label"							"Drone Count"
+		
+		//"BasicReflectPercent_label"					"Basic Damage Reflect"
+		"BasicReflectPercent_postfix"					"%"
+
+		"LifeDrainPerSecond_label"					"ダメージ／秒"
+
+		"LifeDrainPerSecond_postvalue_label"					"ダメージ／秒"
+		"HealthPercent_label"							"HP割合"
+
+		"HealthPercent_postvalue_label"							"HP割合"
+		"HealthPercent_postfix"							"%"
+
+		//"DodgeAnimSpeedScale_label"					"Dodge Speed Multiplier"
+		"DodgeAnimSpeedScale_postfix"					"x"
+
+		"BulletDamagePercent_prefix"					"{s:sign}"
+		"BulletDamagePercent_label"					"弾薬ダメージ"
+		"BulletDamagePercent_postvalue_label"					"弾薬ダメージ"
+		"BulletDamagePercent_postfix"					"%"
+
+		"AbilityLifestealPercent_prefix"					"{s:sign}"
+		"AbilityLifestealPercent_label"				"スピリットライフスティール"
+		"AbilityLifestealPercent_postvalue_label"				"スピリットライフスティール"
+		"AbilityLifestealPercent_postfix"				"%"
+		
+		"AbilityLifestealPercentHero_prefix"					"{s:sign}"
+		"AbilityLifestealPercentHero_label"				"スピリットライフスティール"
+		"AbilityLifestealPercentHero_postvalue_label"				"スピリットライフスティール"
+		"AbilityLifestealPercentHero_postfix"			"%"
+
+		"MODIFIER_VALUE_TECH_LIFESTEAL_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_TECH_LIFESTEAL_label"				"スピリットライフスティール"
+		"MODIFIER_VALUE_TECH_LIFESTEAL_postvalue_label"				"スピリットライフスティール"
+		"MODIFIER_VALUE_TECH_LIFESTEAL_postfix"			"%"
+		
+		"AbilityLifestealPercentHeroPassive_prefix"					"{s:sign}"
+		"AbilityLifestealPercentHeroPassive_label"				"スピリットライフスティール"
+		"AbilityLifestealPercentHeroPassive_postvalue_label"				"スピリットライフスティール"
+		"AbilityLifestealPercentHeroPassive_postfix"			"%"
+
+		"AbilityLifestealPercentNonHero_prefix"					"{s:sign}"
+		"AbilityLifestealPercentNonHero_label"			"スピリットライフスティール（非ヒーロー）"
+		"AbilityLifestealPercentNonHero_postvalue_label"			"スピリットライフスティール（非ヒーロー）"
+		"AbilityLifestealPercentNonHero_postfix"		"%"
+
+		"RegenDuration_label"							"リジェネ継続時間"
+
+		"RegenDuration_postvalue_label"							"リジェネ継続時間"
+		"RegenDuration_postfix"							"秒"
+
+		//"SpreadDuration_label"						"Spread Duration: "
+		"SpreadDuration_postfix"						"秒"
+		
+		"EndRadius_label"								"末端範囲"
+		
+		"EndRadius_postvalue_label"								"末端範囲"
+		"EndRadius_postfix"								"m"
+
+		//"BulletPercentAsBurn_label"					"Bullet Damage as Burning"
+		"BulletPercentAsBurn_postfix"					"%"
+
+		"ItemInitialCharges_label"					"チャージ"
+
+
+		"ItemInitialCharges_postvalue_label"					"チャージ"
+
+		"AuraDuration_label"							"オーラ継続時間"
+
+		"AuraDuration_postvalue_label"							"オーラ継続時間"
+		"AuraDuration_postfix"							"秒"
+
+		//"ApproachSpeed_label"							"Project Speed"
+
+		"GrenadesInVolley_label"						"グレネード個数"
+
+
+		"GrenadesInVolley_postvalue_label"						"グレネード個数"
+
+		"ReloadSpeedDecrease_label"						"リロード時間"
+		"ReloadSpeedDecrease_postvalue_label"						"リロード時間"
+		"ReloadSpeedDecrease_postfix"					"%"
+
+		"AbsorbPercentage_label"						"ダメージ吸収量"
+
+		"AbsorbPercentage_postvalue_label"						"ダメージ吸収量"
+		"AbsorbPercentage_postfix"						"%"
+
+		//"HitCap_label"								"Hit Cap"
+		//"HitCap_postfix"								"hits"
+
+		//"AbilityDamageReductionPerHit_label"			"Ability Dmg Red Per Hit"
+		"AbilityDamageReductionPerHit_postfix"			"%"
+
+		//"ActiveAbilityDamageReduction_label"			"Active Ability Dmg Red"
+		"ActiveAbilityDamageReduction_postfix"			"%"
+
+		"BonusAttackRange_postfix"						"メートル"
+		//"BonusAttackRange_label"						"Weapon Range"
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_postfix"						"メートル"
+
+		"BonusAttackRangePercent_prefix"				"{s:sign}"
+		"BonusAttackRangePercent_postfix"				"%"
+		"BonusAttackRangePercent_label"					"武器ダメージ減衰距離"
+		"BonusAttackRangePercent_postvalue_label"					"武器ダメージ減衰距離"
+
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_postfix"				"%"
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_label"					"武器ダメージ減衰距離"
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_postvalue_label"					"武器ダメージ減衰距離"
+
+		"WeaponRecoilReduction_postfix"					"%"
+		//"WeaponRecoilReduction_label"					"Recoil Reduction"
+
+		"MODIFIER_VALUE_WEAPON_RECOIL_REDUCTION_PERCENT_postfix"					"%"
+		//"WeaponRecoilReduction_label"					"Recoil Reduction"
+
+		"BonusDPSPercent_prefix"						"{s:sign}"
+		"BonusDPSPercent_label"						"弾薬ダメージ"
+		"BonusDPSPercent_postvalue_label"						"弾薬ダメージ"
+		"BonusDPSPercent_postfix"						"%"
+
+		//"DroneHealth_label"							"Drone Health"
+
+		//"DeployHealthRegen_label"						"Deployable Health"
+
+		"TurretFireRate_label"							"タレット発射速度"
+
+		"TurretFireRate_postvalue_label"							"タレット発射速度"
+		"TurretFireRate_prefix"							"{s:sign}"
+		"TurretFireRate_postfix"						"%"
+
+		"TurretDPS_label"								"タレットDPS"
+
+
+		"TurretDPS_postvalue_label"								"タレットDPS"
+
+		//"MobileResupplyRegenMultiplier_label"			"Mobile Resupply Regen Multiplier"
+		"MobileResupplyRegenMultiplier_postfix"			"x"
+
+		"HealRadius_label"								"回復範囲"
+
+		"HealRadius_postvalue_label"								"回復範囲"
+		"HealRadius_postfix"								"m"
+
+		"BulletArmorReduction_prefix"					"{s:sign}"
+		"BulletArmorReduction_postfix"					"%"
+		"BulletArmorReduction_label"					"弾薬耐性"
+
+		"BulletArmorReduction_postvalue_label"					"弾薬耐性"
+
+		"LocalBulletArmorReduction_prefix"				"{s:sign}"
+		"LocalBulletArmorReduction_postfix"				"%"
+		"LocalBulletArmorReduction_label"				"弾薬耐性"
+
+		"LocalBulletArmorReduction_postvalue_label"				"弾薬耐性"
+
+		"LocalTechArmorReduction_prefix"				"{s:sign}"
+		//"LocalTechArmorReduction_label"				"Magic Resist"
+		"LocalTechArmorReduction_postfix"				"%"
+
+		"BulletResistOnActive_label"					"弾薬耐性"
+
+		"BulletResistOnActive_postvalue_label"					"弾薬耐性"
+		"BulletResistOnActive_prefix"					"{s:sign}"
+		"BulletResistOnActive_postfix"					"%"
+
+		"WeaponPowerAmp_prefix"							"{s:sign}"
+		//"WeaponPowerAmp_label"						"Courage"
+
+		"WeaponPowerWhileActivated_prefix"						"{s:sign}"
+		//"WeaponPowerWhileActivated_label"						"Courage"
+
+		"FireRate_postfix"								"%"
+
+		"WeaponPower_prefix"							"{s:sign}"
+		"WeaponPower_label"								"武器ダメージ"
+		"WeaponPower_postvalue_label"								"武器ダメージ"
+		"WeaponPower_postfix"							"%"
+
+		"MODIFIER_VALUE_WEAPON_POWER_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_WEAPON_POWER_label"								"武器ダメージ"
+		"MODIFIER_VALUE_WEAPON_POWER_postvalue_label"								"武器ダメージ"
+		"MODIFIER_VALUE_WEAPON_POWER_postfix"							"%"
+
+		"DamageIncrease_prefix"							"{s:sign}"
+		"DamageIncrease_label"						"被ダメージ"
+
+		"DamageIncrease_postvalue_label"						"被ダメージ"
+
+		"DamageIncreasePercent_prefix"					"{s:sign}"
+		"DamageIncreasePercent_label"					"被ダメージ"
+		"DamageIncreasePercent_postvalue_label"					"被ダメージ"
+		"DamageIncreasePercent_postfix"					"%"
+
+		"BonusAbilitySpeed_prefix"						"{s:sign}"
+		//"BonusAbilitySpeed_postfix"						""
+		//"BonusAbilitySpeed_label"							"Ability Move Speed"
+
+		"ReloadSpeedMultipler_prefix"					"{s:sign}"
+		"ReloadSpeedMultipler_label"					"リロード時間"
+		"ReloadSpeedMultipler_postvalue_label"					"リロード時間"
+		"ReloadSpeedMultipler_postfix"					"%"
+
+		"MODIFIER_VALUE_RELOAD_SPEED_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_RELOAD_SPEED_label"					"リロード時間"
+		"MODIFIER_VALUE_RELOAD_SPEED_postvalue_label"					"リロード時間"
+		"MODIFIER_VALUE_RELOAD_SPEED_postfix"					"%"
+
+		"HealthRegenPerTrooper_prefix"					"+"
+		"HealthRegenPerTrooper_postfix"					" ／付近のトルーパー"
+		"HealthRegenPerTrooper_label"					"HPリジェネ"
+
+		"HealthRegenPerTrooper_postvalue_label"					"HPリジェネ"
+
+		//"TroopersToSummon_label"						"Troopers created"
+		//"TrooperLifetime_label"						"Trooper lifetime"
+		"TrooperLifetime_postfix"						"秒"
+
+		"DamagePerChain_label"						"感電ダメージ"
+		
+
+		"DamagePerChain_postvalue_label"						"感電ダメージ"
+		
+		"SpeedMax_label"								"移動速度"
+		"SpeedMax_postvalue_label"								"移動速度"
+		"SpeedMax_postfix"							" m／秒"
+		"MoveSpeedMax_label"							"移動速度"
+		"MoveSpeedMax_postvalue_label"							"移動速度"
+		"MoveSpeedMax_postfix"						" m／秒"
+
+		"BulletDamagePercentAsTechDamage_label"		"ボーナススピリットダメージ"
+
+		"BulletDamagePercentAsTechDamage_postvalue_label"		"追加スピリットダメージ"
+		//"BulletDamagePercentAsTechDamage_postfix"		"% Bullet Damage "
+
+		"BonusCritDamagePercent_prefix"					"{s:sign}"
+		//"BonusCritDamagePercent_label"				"Bonus Crit Damage"
+		"BonusCritDamagePercent_postfix"				"%"
+
+		"MODIFIER_VALUE_BONUS_CRIT_DAMAGE_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_BONUS_CRIT_DAMAGE_PERCENT_postfix"				"%"
+
+		//"DPSDmgPercent_label"							"DPS as Damage"
+		"DPSDmgPercent_postfix"							"%"
+
+		"DamagePerSecond_label"						"ダメージ／秒"
+
+
+		"DamagePerSecond_postvalue_label"						"ダメージ／秒"
+
+		//"TechReduction_label"						"Spirit Reduction"
+
+		//"TechResistReduction_label"					"Target Spirit Resist"
+		//"TechResistReduction_prefix"					""
+		"TechResistReduction_postfix"					"%"
+		"DamagePulseAmount_label"						"パルスダメージ"
+		"DamagePulseAmount_postvalue_label"						"パルスダメージ"
+		"DamagePulseInterval_label"					"パルス間隔"
+		"DamagePulseInterval_postvalue_label"					"パルス間隔"
+		"DamagePulseInterval_postfix"					"秒"
+		"DamagePulseRadius_label"						"パルス範囲"
+		"DamagePulseRadius_postvalue_label"						"パルス範囲"
+		"DamagePulseRadius_postfix"					"m"
+
+		"CloseRangeBonusDamagePercent_prefix"			"+"
+		"CloseRangeBonusDamagePercent_label"			"武器ダメージ"
+		"CloseRangeBonusDamagePercent_postvalue_label"			"武器ダメージ"
+		"CloseRangeBonusDamagePercent_postfix"			"%"
+
+		"CloseRangeBonusDamageRange_label"				"近距離"
+
+		"CloseRangeBonusDamageRange_postvalue_label"				"近距離"
+		"CloseRangeBonusDamageRange_postfix"			"m"
+
+		"CloseRangeBonusWeaponPower_prefix"				"{s:sign}"
+		"CloseRangeBonusWeaponPower_label"				"武器ダメージ"
+		"CloseRangeBonusWeaponPower_postvalue_label"				"武器ダメージ"
+		"CloseRangeBonusWeaponPower_postfix"			"%"
+		"CloseRangeBonusWeaponPower_conditional"		"（範囲内）"
+
+		"BonusSpirit_conditional"						"（プロック後）"
+
+		"AfterProc_conditional"							"（プロック後）"
+		"DuringAmbush_conditional"						"奇襲状態中"
+
+		"AboveHealthThreshold_conditional"				"（HPしきい値より高い場合）"
+		"BelowHealthThreshold_conditional"				"（HPしきい値より低い場合）"
+		"DashJump_conditional"							"（ダッシュジャンプ後）"
+
+		//"EnemyAboveHealthThreshold_conditional"			"Enemy above health threshold"
+		
+		"Quicksilver_conditional"						"（アビリティ使用後）"
+
+		"SurgeOfPower_conditional"						"（アビリティ使用後）"
+
+		"SpiritStrike_conditional"						"（近接攻撃成功後）"
+
+		"LongRangeBonusWeaponPowerMinRange_label"		"最小距離"
+		"LongRangeBonusWeaponPowerMinRange_postvalue_label"		"最小距離"
+		"LongRangeBonusWeaponPowerMinRange_postfix"		"m"
+
+		"LongRangeBonusWeaponPower_prefix"				"{s:sign}"
+		"LongRangeBonusWeaponPower_label"				"武器ダメージ"
+		"LongRangeBonusWeaponPower_postvalue_label"				"武器ダメージ"
+		"LongRangeBonusWeaponPower_postfix"				"%"
+		"LongRangeBonusWeaponPower_conditional"			"（範囲外）"
+
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASEMinRange_label"		"最小距離"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASEMinRange_postvalue_label"		"最小距離"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASEMinRange_postfix"		"m"
+
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_label"				"武器ダメージ"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_postvalue_label"				"武器ダメージ"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_postfix"				"%"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_conditional"			"（範囲外）"
+
+		"TechRangeMultiplier_prefix"					"{s:sign}"
+		"TechRangeMultiplier_label"						"アビリティ範囲"
+		"TechRangeMultiplier_postvalue_label"						"アビリティ範囲"
+		"TechRangeMultiplier_postfix"					"%"
+
+		"TechRangeMultiplierBuff_prefix"					"{s:sign}"
+		"TechRangeMultiplierBuff_label"						"アビリティ範囲"
+		"TechRangeMultiplierBuff_postvalue_label"						"アビリティ範囲"
+		"TechRangeMultiplierBuff_postfix"					"%"
+
+		"ImbuedTechRangeMultiplier_prefix"				"{s:sign}"
+		"ImbuedTechRangeMultiplier_label"				"エンチャントアビリティ 範囲"
+		"ImbuedTechRangeMultiplier_postvalue_label"				"エンチャントアビリティ 範囲"
+		"ImbuedTechRangeMultiplier_postfix"				"%"
+
+		"NonImbuedTechRangeMultiplier_prefix"			"{s:sign}"
+		"NonImbuedTechRangeMultiplier_label"			"非エンチャントアビリティ 範囲"
+		"NonImbuedTechRangeMultiplier_postvalue_label"			"非エンチャントアビリティ 範囲"
+		"NonImbuedTechRangeMultiplier_postfix"			"%"
+
+		"MODIFIER_VALUE_TECH_RANGE_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENT_label"						"アビリティ範囲"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENT_postvalue_label"						"アビリティ範囲"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENT_postfix"					"%"
+
+		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_label"						"アビリティ範囲"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_postvalue_label"						"アビリティ範囲"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_postfix"					"%"
+
+		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_prefix"				"{s:sign}"
+		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_label"				"エンチャントアビリティ 範囲"
+		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postvalue_label"				"エンチャントアビリティ 範囲"
+		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postfix"				"%"
+
+		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_prefix"			"{s:sign}"
+		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_label"			"非エンチャントアビリティ 範囲"
+		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postvalue_label"			"非エンチャントアビリティ 範囲"
+		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postfix"			"%"
+
+		//"ThrowRange_label"								"Throw Range"
+		"ThrowRange_postfix"							"m"
+
+		"TechRadiusMultiplier_prefix"					"{s:sign}"
+		"TechRadiusMultiplier_label"					"範囲"
+		"TechRadiusMultiplier_postvalue_label"					"範囲"
+		"TechRadiusMultiplier_postfix"					"%"
+
+		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_label"					"範囲"
+		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_postvalue_label"					"範囲"
+		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_postfix"					"%"
+
+		"TechRadiusMultiplierBuff_prefix"					"{s:sign}"
+		"TechRadiusMultiplierBuff_label"					"範囲"
+		"TechRadiusMultiplierBuff_postvalue_label"					"範囲"
+		"TechRadiusMultiplierBuff_postfix"					"%"
+
+		"ImbuedTechRadiusMultiplier_prefix"					"{s:sign}"
+		//"ImbuedTechRadiusMultiplier_label"					"Imbued Radius"
+		"ImbuedTechRadiusMultiplier_postfix"					"%"
+
+		"NonImbuedTechRadiusMultiplier_prefix"					"{s:sign}"
+		//"NonImbuedTechRadiusMultiplier_label"					"Non-Imbued Radius"
+		"NonImbuedTechRadiusMultiplier_postfix"					"%"
+
+		"TechRangeAdditive_prefix"						"{s:sign}"
+		"TechRangeAdditive_label"						"アビリティ範囲"
+		"TechRangeAdditive_postvalue_label"						"アビリティ範囲"
+		"TechRangeAdditive_postfix"						"m"
+
+		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_label"						"アビリティ範囲"
+		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_postvalue_label"						"アビリティ範囲"
+		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_postfix"						"m"
+
+		//"WindUpTime_label"								"Windup Time"
+		"WindUpTime_postfix"								"秒"
+
+		"HealthDrainedPerSecond_label"				"HP吸収"
+
+		"HealthDrainedPerSecond_postvalue_label"				"HP吸収"
+		"HealthDrainedPerSecond_postfix"				"／秒"
+
+		"DebuffDurationReductionPercentage_label"		"デバフ継続時間軽減"
+
+		"DebuffDurationReductionPercentage_postvalue_label"		"デバフ継続時間軽減"
+		"DebuffDurationReductionPercentage_postfix"		"%"
+
+		//"HealthCost_label"							"Health Cost"
+
+		"ZipLineSpeedPercent_prefix"					"{s:sign}"
+		"ZipLineSpeedPercent_label"						"ジップライン速度"
+		"ZipLineSpeedPercent_postvalue_label"						"ジップライン速度"
+		"ZipLineSpeedPercent_postfix"					"%"
+
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_label"						"ジップライン速度"
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_postvalue_label"						"ジップライン速度"
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_postfix"					"%"
+	
+		//"ZiplineJumpBonusDuration_label"					"Jump Off Duration"
+		"ZiplineJumpBonusDuration_postfix"					"秒"
+
+		//"ZiplineJumpBonusMoveSpeed_label"					"Jump Off Speed Bonus"
+		"ZiplineJumpBonusMoveSpeed_postfix"					"m"
+
+		"BonusZipLineSpeed_prefix"						"{s:sign}"
+		//"BonusZipLineSpeed_label"						"Hyperline Speed"
+
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_ADDITIVE_prefix"						"{s:sign}"
+
+		"MaxProjectiles_label"						"発射物個数"
+
+
+		"MaxProjectiles_postvalue_label"						"発射物個数"
+
+		//"DeathDelay_label"							"Delay Death Duration"
+
+		//"TackleDurationMax_label"						"Max Tackle Duration"
+
+		"MoveSpeed_postfix"								"m"
+		"MoveSpeedBonus_prefix"							"{s:sign}"
+		"MoveSpeedBonus_label"							"移動速度"
+		"MoveSpeedBonus_postvalue_label"							"移動速度"
+		"MoveSpeedBonus_postfix"						"m"
+
+		//"MoveSpeedFriendlyBuff_prefix"			""
+		//"MoveSpeedFriendlyBuff_label"				"Ally Move Speed"
+		"MoveSpeedFriendlyBuff_postfix"			" m／秒"
+		
+		//"ProcBuildupPercent_label"					"Proc Buildup"
+		"ProcBuildupPercent_postfix"					"%"
+
+		//"AwakenDamage_label"							"Awaken Damage"
+
+		//"LockOnTime_label"							"Lock On Time"
+		"LockOnTime_postfix"							" 秒"
+
+		//"StalkDuration_label"							"Stalk Time"
+		"StalkDuration_postfix"							" 秒"
+
+		"MaxStacks_label"								"最大スタック"
+		"MaxStacks_postvalue_label"								"最大スタック"
+		
+		"CurrentStacks_label"							"現在スタック："
+		"CurrentStacks_postvalue_label"							"現在スタック："
+
+		"CurrentBonus_label"							"現在のボーナス："
+		"CurrentBonus_postvalue_label"					"現在のボーナス："
+
+
+		//"TimeToMaxStacks_label"							"Time To Max Stacks"
+		"TimeToMaxStacks_postfix"						"秒"
+
+		//"DamagePerHit_label"							"Damage Per Hit"
+
+		//"FinalBlow_label"							"Final Blow Damage"
+
+		"DamageThreshold_label"						"ダメージしきい値"
+		
+
+		"DamageThreshold_postvalue_label"						"ダメージしきい値"
+		
+		"DamageReduction_label"						"ダメージ軽減"
+		"DamageReduction_postvalue_label"						"ダメージ軽減"
+		"DamageReduction_postfix"					"%"
+
+		"MeleeDamage_label"							"近接ダメージ"
+
+
+		"MeleeDamage_postvalue_label"							"近接ダメージ"
+
+		//"ConvertedHealth_label"						"Trooper Health"
+
+		"SilenceDuration_label"							"サイレンス継続時間"
+
+		"SilenceDuration_postvalue_label"							"サイレンス継続時間"
+		"SilenceDuration_postfix"						"秒"
+
+		"Range_postfix"									"m"
+		"Range_label"									"範囲"
+
+		"Range_postvalue_label"									"範囲"
+
+		"MinRange_label"								"最小範囲"
+
+		"MinRange_postvalue_label"								"最小範囲"
+		"MinRange_postfix"								"m"
+
+		//"ConeRadius_label"							"Lightning Distance"
+		"ConeRadius_postfix"							"m"
+		"ConeAngle_label"						"角度"
+		"ConeAngle_postvalue_label"						"角度"
+		"ConeAngle_postfix"						" 度"
+
+		"ShockRadius_label"							"範囲"
+
+		"ShockRadius_postvalue_label"							"範囲"
+		"ShockRadius_postfix"						"m"
+
+		//"KnockDownRadius_label"						"Knockdown Radius"
+		"KnockDownRadius_postfix"						"m"
+
+		"BurnDuration_postfix"							"秒"
+		"BurnDuration_label"							"燃焼継続時間"
+
+		"BurnDuration_postvalue_label"							"燃焼継続時間"
+
+		"AbilityCooldown_postfix"						"秒"
+		"AbilityCooldown_label"						"クールダウン"
+
+		"AbilityCooldown_postvalue_label"						"クールダウン"
+
+		"TechCooldown_postfix"						"%"
+		"TechDuration_postfix"						"%"
+		"TechLifesteal_postfix"						"%"
+		"TechRange_postfix"							"%"
+
+		"HealingPercent_label"						"回復割合"
+
+		"HealingPercent_postvalue_label"						"回復割合"
+		"HealingPercent_postfix"						"%"
+
+		"AbilityCooldownBetweenCharge_label"			"チャージディレイ"
+
+		"AbilityCooldownBetweenCharge_postvalue_label"			"チャージディレイ"
+		"AbilityCooldownBetweenCharge_postfix"			"秒"
+
+		"AbilityChargeUpTime_label" "チャージ時間"
+
+		"AbilityChargeUpTime_postvalue_label" "チャージ時間"
+		"AbilityChargeUpTime_postfix"	"秒"
+
+		"AbilityDuration_postfix"						"秒"
+		"AbilityDuration_label"						"継続時間"
+
+		"AbilityDuration_postvalue_label"						"継続時間"
+
+		"TetherDuration_postfix"					"秒"
+		"TetherDuration_label"						"テザー継続時間"
+
+		"TetherDuration_postvalue_label"						"テザー継続時間"
+
+		"TetherRadius_postfix"						"m"
+		//"TetherRadius_label"						"Tether Radius"
+
+		"AbilityCastRange_postfix"						"m"
+		"AbilityCastRange_label"						"キャスト範囲"
+
+		"AbilityCastRange_postvalue_label"						"キャスト範囲"
+
+		"AbilityCastRangeMinimum_postfix"				"m"
+		//"AbilityCastRangeMinimum_label"					"Range Minimum"
+
+		"AbilityChannelTime_postfix"					"秒"
+		"AbilityChannelTime_label"					"詠唱時間"
+
+		"AbilityChannelTime_postvalue_label"					"詠唱時間"
+
+		"AbilityCastDelay_postfix"					"秒"
+		"AbilityCastDelay_label"					"キャストディレイ"
+
+		"AbilityCastDelay_postvalue_label"					"キャストディレイ"
+
+		"MaxRecasts_label"				"最大リキャスト数"
+		"MaxRecasts_postvalue_label"	"最大リキャスト数"
+
+		"AbilityCharges_label"						"チャージ"
+		
+		
+
+		"AbilityCharges_postvalue_label"						"チャージ"
+		
+		
+		"BonusAbilityDurationPercent_prefix"			"{s:sign}"
+		"BonusAbilityDurationPercent_label"				"アビリティ継続時間"
+		"BonusAbilityDurationPercent_postvalue_label"				"アビリティ継続時間"
+		"BonusAbilityDurationPercent_postfix"			"%"		
+				
+		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_prefix"			"{s:sign}"
+		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_label"				"アビリティ継続時間"
+		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_postvalue_label"				"アビリティ継続時間"
+		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_postfix"			"%"		
+		
+		"NonImbuedBonusDuration_prefix"				"{s:sign}"
+		"NonImbuedBonusDuration_label"				"非エンチャントアビリティ 継続時間"
+		"NonImbuedBonusDuration_postvalue_label"				"非エンチャントアビリティ 継続時間"
+		"NonImbuedBonusDuration_postfix"			"%"		
+		
+		"ImbuedBonusDuration_prefix"					"{s:sign}"
+		"ImbuedBonusDuration_label"						"エンチャントアビリティ 継続時間"
+		"ImbuedBonusDuration_postvalue_label"						"エンチャントアビリティ 継続時間"
+		"ImbuedBonusDuration_postfix"					"%"
+
+		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_label"						"エンチャントアビリティ 継続時間"
+		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_postvalue_label"						"エンチャントアビリティ 継続時間"
+		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_postfix"					"%"
+
+		"MissCooldown_postfix"							"秒"
+		//"MissCooldown_label"							"Cooldown on miss"
+
+		"ShockDelay_label"							"スタン発生ディレイ"
+
+		"ShockDelay_postvalue_label"							"スタン発生ディレイ"
+		"ShockDelay_postfix"							"秒"
+
+		"ArmTime_label"									"準備時間"
+
+		"ArmTime_postvalue_label"									"準備時間"
+		"ArmTime_postfix"								"秒"
+
+		"Barrel_ArmTime_label"							"準備時間"
+
+		"Barrel_ArmTime_postvalue_label"							"準備時間"
+		"Barrel_ArmTime_postfix"						"秒"
+
+		"ExplodeDelay_label"							"爆発ディレイ"
+
+		"ExplodeDelay_postvalue_label"							"爆発ディレイ"
+		"ExplodeDelay_postfix"							"秒"
+		
+		"BuildUpPercentPerHit_label"					"蓄積／ヒット"
+		
+		"BuildUpPercentPerHit_postvalue_label"					"蓄積／ヒット"
+		"BuildUpPercentPerHit_postfix"					"%"
+
+		"BuildUpPerSecond_label"					"蓄積／秒"
+		"BuildUpPerSecond_postvalue_label"					"蓄積／秒"
+		"BuildUpPerSecond_postfix"					"%"
+
+		//"FreezeBuildUpTime_label"						"Freeze buildup time"
+		"FreezeBuildUpTime_postfix"						"秒"
+
+		//"CritStackInterval_label"						"Crit Charge Delay"
+		"CritStackInterval_postfix"						"秒"
+
+		"TurretLifetime_label"						"継続時間"
+
+		"TurretLifetime_postvalue_label"						"継続時間"
+		"TurretLifetime_postfix"						"秒"
+
+		"CritCoatingDamagePercent_prefix"				"{s:sign}"
+		//"CritCoatingDamagePercent_label"				"Crit Coating Crit Bonus"
+		"CritCoatingDamagePercent_postfix"				"%"
+
+		//"ExplosionCoatingRadius_label"				"Explosion Coating Radius"
+		"ExplosionCoatingRadius_postfix"				"m"
+
+		//"SlowCoatingProcChance_label"					"Slowing Coating Chance"
+		"SlowCoatingProcChance_postfix"					"%"
+
+		//"SlowCoatingMoveSpeed_label"					"Slowing Coating Slow Amount"
+		"SlowCoatingMoveSpeed_postfix"					"%"
+
+		//"SlowCoatingDuration_label"					"Slowing Coating Slow Duration"
+		//"SlowCoatingDuration_postfix"					""
+
+		"MaxLifetime_label"							"継続時間"
+
+		"MaxLifetime_postvalue_label"							"継続時間"
+		"MaxLifetime_postfix"							"秒"
+
+		//"ZipLineArrowLifetime_label"					"Arrow Flight Time"
+		//"ZipLineArrowLifetime_postfix"					""
+
+		//"DamageTakenPercentIncreasePerStack_label"	"Damage Increase Per Stack"
+		"DamageTakenPercentIncreasePerStack_postfix"	"%"
+
+		//"ShotsFired_label"							"Shots fired"
+		//"ShotsFired_postfix"							""
+
+		//"TimeBetweenShots_label"						"Time between shots"
+		//"TimeBetweenShots_postfix"						""
+
+		//"DroneDPS_label"								"Drone Damage"
+		"DroneDPS_postfix"								"dps"
+
+		"DistanceBuff_postfix"							"%"
+		//"DistanceBuff_label"							"Increase at Max Range"
+
+		//"FullDistance_label"							"Max Range: "
+		"FullDistance_postfix"							"m"
+
+		"ProcDamage_label"								"スピリットダメージ"
+
+		"ProcDamage_postvalue_label"								"スピリットダメージ"
+		//"BaseDamagePct_label"							"Bonus Spirit Amp"
+		"BaseDamagePct_prefix"							"{s:sign}"
+		"BaseDamagePct_postfix"							"%"
+
+		"TargetsPerTick_label"						"標的ヒット／発"
+
+		"TargetsPerTick_postvalue_label"						"標的ヒット／発"
+		"HealthToDamage_label"						"ダメージ"
+
+		"HealthToDamage_postvalue_label"						"ダメージ"
+		"SelfDamagePct_label"						"HPコスト"
+
+		"SelfDamagePct_postvalue_label"						"HPコスト"
+		"SelfDamagePct_postfix"						"%"
+
+		"DamageHealPerTarget_label"						"対象ごとのダメージ／回復"
+
+
+		"DamageHealPerTarget_postvalue_label"						"対象ごとのダメージ／回復"
+
+		//"DeathTaxHeal_label"							"Health Per Kill"
+
+		"ChainRadius_label"							"連鎖範囲"
+
+		"ChainRadius_postvalue_label"							"連鎖範囲"
+		"ChainRadius_postfix"							"m"
+		
+		//"LaunchDamage_postfix"							""
+		//"LaunchDamage_label"							"Knockback Damage"
+
+		//"ImpaleDamage_postfix"							""
+		//"ImpaleDamage_label"							"Impale Damage"
+
+		//"ImpaleDuration_label"						"Impale Duration"
+		"ImpaleDuration_postfix"						"秒"
+
+		"ExplosionRadius_label"						"爆発範囲"
+
+		"ExplosionRadius_postvalue_label"						"爆発範囲"
+		"ExplosionRadius_postfix"						"m"
+
+		"MinExplosionRadius_label"					"最小爆発範囲"
+
+		"MinExplosionRadius_postvalue_label"					"最小爆発範囲"
+		"MinExplosionRadius_postfix"					"m"
+
+		"MaxExplosionRadius_label"					"最大爆発範囲"
+
+		"MaxExplosionRadius_postvalue_label"					"最大爆発範囲"
+		"MaxExplosionRadius_postfix"					"m"
+
+		"ExplosionDamage_label"						"爆発ダメージ"
+
+		"ExplosionDamage_postvalue_label"						"爆発ダメージ"
+		//"MinExplosionDamage_label"						"Min Explosion Damage: "
+		//"MinExplosionDamage_postfix"					""
+
+		//"ExplosionMinPercent_label"					"Min Explosion Damage: "
+		"ExplosionMinPercent_postfix"					"%"
+
+		//"ExplosionMaxPercent_label"					"Max Explosion Damage: "
+		"ExplosionMaxPercent_postfix"					"%"
+
+		//"EMPBuildupPercentPerShot_label"				"Silence Charge Per Shot"
+		"EMPBuildupPercentPerShot_postfix"				"%"
+
+		"InvisFadeToDuration_label"						"透明化時間"
+
+		"InvisFadeToDuration_postvalue_label"						"透明化時間"
+		"InvisFadeToDuration_postfix"						"秒"
+
+		"InvisMoveSpeedMod_prefix"					"{s:sign}"
+		"InvisMoveSpeedMod_postfix"					"m"
+		"InvisMoveSpeedMod_label"					"効果中スプリント速度"
+
+		"InvisMoveSpeedMod_postvalue_label"					"効果中スプリント速度"
+
+		//"MeleeAttackLength_label"						"Melee Range"
+		"MeleeAttackLength_postfix"						"m"
+
+		"ArmingDuration_label"						"武装持続時間"
+
+		"ArmingDuration_postvalue_label"						"武装持続時間"
+		"ArmingDuration_postfix"						"秒"
+
+		"AirJumpVerticalSpeedPercent_prefix"			"{s:sign}"
+		//"AirJumpVerticalSpeedPercent_label"			"Air Jump Vertical Speed"
+		"AirJumpVerticalSpeedPercent_postfix"			"%"
+
+
+		//"ReflectDamage_label"							"Bullet Reflect Damage"
+		"ReflectDamage_postfix"							"%"
+
+		"ImmobilizeDuration_label"					"移動不能継続時間"
+
+		"ImmobilizeDuration_postvalue_label"					"移動不能継続時間"
+		"ImmobilizeDuration_postfix"					"秒"
+
+		"AirControlPercentBarrier_label"					"空中制御"
+		"AirControlPercentBarrier_postvalue_label"					"空中制御"
+		"AirControlPercentBarrier_prefix"							"{s:sign}"
+		"AirControlPercentBarrier_postfix"							"%"
+
+		"AirControlPercent_label"					"空中制御"
+		"AirControlPercent_postvalue_label"					"空中制御"
+		"AirControlPercent_prefix"							"{s:sign}"
+		"AirControlPercent_postfix"							"%"
+
+		"AirControlAccelPercent_label"					"空中加速"
+		"AirControlAccelPercent_postvalue_label"					"空中加速"
+		"AirControlAccelPercent_prefix"							"{s:sign}"
+		"AirControlAccelPercent_postfix"							"%"
+
+		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_label"					"空中制御"
+		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_postvalue_label"					"空中制御"
+		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_postfix"							"%"
+
+		//"HeadStompBonusDamage_label"					"Head Stomp Damage Bonus"
+		//"HeadStompBonusDamage_postfix"					""
+
+		//"HeadStompBonusRadius_label"					"Head Stomp Radius Bonus"
+		//"HeadStompBonusRadius_postfix"					""
+
+		//"BouncePadStompCount_label"					"Max Head Stomps"
+
+		"NPCProcChance_label"							"トルーパープロック確率"
+
+		"NPCProcChance_postvalue_label"							"トルーパープロック確率"
+		"NPCProcChance_postfix"							"%"
+
+		"HeroProcChance_label"						"ヒーロープロック確率"
+
+		"HeroProcChance_postvalue_label"						"ヒーロープロック確率"
+		"HeroProcChance_postfix"						"%"
+		
+		//"AbilityProjectileSpeedPercent_label"			"Speed Increase"
+		"AbilityProjectileSpeedPercent_postfix"			"%"
+
+		//"MODIFIER_VALUE_ABILITY_PROJECTILE_SPEED_PERCENT_label"			"Speed Increase"
+		"MODIFIER_VALUE_ABILITY_PROJECTILE_SPEED_PERCENT_postfix"			"%"
+		
+		"TechCleaveDamagePercent_label"				"クリーブダメージ"
+		
+		"TechCleaveDamagePercent_postvalue_label"				"クリーブダメージ"
+		"TechCleaveDamagePercent_postfix"				"%"
+		
+		"TechCleaveTargetCap_label"					"追加対象"
+		
+		"TechCleaveTargetCap_postvalue_label"					"追加対象"
+		//"TechCleaveTargetCap_postfix"					""
+		
+		"TechCleaveRadius_label"						"クリーブ範囲"
+		
+		"TechCleaveRadius_postvalue_label"						"クリーブ範囲"
+		"TechCleaveRadius_postfix"						"m"
+
+		"InitialRadius_label"							"初期範囲"
+
+		"InitialRadius_postvalue_label"							"初期範囲"
+		"InitialRadius_postfix"							"m"
+
+		//"BlurVisionRange_label"							"Blur Vision Range"
+		"BlurVisionRange_postfix"						"m"
+		
+		//"ExplosiveShotRadiusPercent_label"				"Explosive Shot Radius Increase"
+		"ExplosiveShotRadiusPercent_postfix"			"%"
+				
+		//"TechPowerPerCharge_label"						"Spirit per Charge"	
+		
+		//"FireRatePerCharge_label"						"Fire Rate per Charge"
+		"FireRatePerCharge_postfix"						"%"
+		
+		//"ChargeDuration_label"							"Charge Duration"
+		"ChargeDuration_postfix"						"秒"
+
+		//"MaxCharges_label"								"Max Charges"
+
+		//"ExtraBladeDamage_label"						"Extra Damage per Charge"
+
+		//"WaveStunDuration_label"						"Disarm/EMP Duration"
+		"WaveStunDuration_postfix"						"秒"
+
+		"WaveLifetime_label"							"発射物継続時間"
+
+		"WaveLifetime_postvalue_label"							"発射物継続時間"
+		"WaveLifetime_postfix"							"秒"
+
+		//"LockedRadius_label"							"Chain Length"
+		"LockedRadius_postfix"							"m"
+
+		//"BoostDuration_label"							"Ally Move Speed Duration"
+		"BoostDuration_postfix"							"秒"
+
+		//"ShieldPercentage_label"						"Shield Max Health %"
+		"ShieldPercentage_postfix"						"%／最大HP"
+
+		"ShieldDuration_label"							"シールド継続時間"
+
+		"ShieldDuration_postvalue_label"							"シールド継続時間"
+		"ShieldDuration_postfix"						"秒"
+
+		"SlowRadius_label"								"スロウ範囲"
+
+		"SlowRadius_postvalue_label"								"スロウ範囲"
+		"SlowRadius_postfix"							"m"
+		
+		//"SmokeDuration_label"							"Smoke Duration"
+		"SmokeDuration_postfix"							"秒"
+
+		//"SmokeRadius_label"								"Smoke Radius"
+		"SmokeRadius_postfix"							"m"
+
+		"ChainDuration_label"							"テザー継続時間"
+
+		"ChainDuration_postvalue_label"							"テザー継続時間"
+		"ChainDuration_postfix"							"秒"
+
+		//"InfectDuration_label"							"Infect Duration"
+		"InfectDuration_postfix"						"秒"
+
+		//"CloudDuration_label"							"Cloud Lifetime"
+		"CloudDuration_postfix"							"秒"
+
+		"TimeSlowPercent_label"							"時間減速"
+
+		"TimeSlowPercent_postvalue_label"							"時間減速"
+		"TimeSlowPercent_postfix"						"%"
+
+		//"CombatRegenPercent_label"						"Health Regen in Combat"
+		"CombatRegenPercent_postfix"					"%"
+
+		"AttackPower_prefix"							"{s:sign}"
+		//"AttackPower_postfix"							""
+		//"AttackPower_label"								"Attack Power"
+
+		"AbilityPower_prefix"							"{s:sign}"
+		//"AbilityPower_postfix"							""
+		//"AbilityPower_label"							"Ability Power"
+		  
+		"DefensePower_prefix"							"{s:sign}"
+		//"DefensePower_postfix"							""
+		//"DefensePower_label"							"Defense Power"
+
+		//"InfectionBonusDPS_prefix"						""
+		//"InfectionBonusDPS_postfix"						""
+		//"InfectionBonusDPS_label"						"Infection Bonus DPS"
+
+		//"DecoyLifetime_prefix"							""
+		"DecoyLifetime_postfix"							"秒"
+"Health_label"									"HP"
+
+		"Health_postvalue_label"									"HP"
+
+		//"Grenades_label"					"Extra Bombs"
+
+		//"SearchRadius_label"				"Search Radius"
+		"SearchRadius_postfix"				"m"
+
+		//"GrenadesPerVolley_label"			"Bombs Per Volley"
+
+		//"BulletArmorPenetration_label"		"Target Bullet Resist"
+		//"BulletArmorPenetration_postfix"	""
+
+		//"RampDuration_label"						"Ramp Duration"
+		"RampDuration_postfix"						"秒"
+
+		//"EndDuration_label"							"Final Duration"
+		"EndDuration_postfix"						"秒"
+
+		//"FinalSlow_label"							"Slowest Speed"		
+		"FinalSlow_postfix"							"m／秒"		
+
+		"WeaponPowerPerStack_prefix"				"{s:sign}"
+		"WeaponPowerPerStack_label"					"武器ダメージ／スタック"
+		"WeaponPowerPerStack_postvalue_label"					"武器ダメージ／スタック"
+		"WeaponPowerPerStack_postfix"				"%"
+		"WeaponPowerPerStackNonHero_prefix"				"{s:sign}"
+		"WeaponPowerPerStackNonHero_label"					"武器ダメージ（非ヒーロー）"
+		"WeaponPowerPerStackNonHero_postvalue_label"					"武器ダメージ（非ヒーロー）"
+		"WeaponPowerPerStackNonHero_postfix"				"%"
+
+		"NonHeroStackLimit_label"					"スタック上限（非ヒーロー）"
+		"NonHeroStackLimit_postvalue_label"				"スタック上限（非ヒーロー）"
+		"DamageToStack_label"						"スタックに必要な被ダメージ"
+		"DamageToStack_postvalue_label"						"スタックに必要な被ダメージ"
+		"DamageDuration_label"						"継続時間"
+		"DamageDuration_postvalue_label"						"継続時間"
+		"DamageDuration_postfix"						"秒"
+
+		"RegenWhileInvisible_label"				"インビジブル中のHPリジェネ"
+
+		"RegenWhileInvisible_postvalue_label"				"インビジブル中のHPリジェネ"
+		"RegenWhileInvisible_prefix"			"+"
+		"DamageRadius_label"						"ダメージ範囲"
+
+		"DamageRadius_postvalue_label"						"ダメージ範囲"
+		"DamageRadius_postfix"						"m"
+
+		//"RegenerationRate_label"					"Restore Time"
+		"RegenerationRate_postfix"					"秒"
+
+		"BulletShieldMaxHealth_prefix"				"{s:sign}"
+		"BulletShieldMaxHealth_label"				"弾薬シールド量"
+		"BulletShieldMaxHealth_postvalue_label"				"弾薬シールド量"
+
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_label"				"弾薬シールド量"
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_postvalue_label"				"弾薬シールド量"
+
+		"ActiveBulletShieldMaxHealth_prefix"		"{s:sign}"
+		"ActiveBulletShieldMaxHealth_label"			"弾薬シールド量"
+		"ActiveBulletShieldMaxHealth_postvalue_label"			"弾薬シールド量"
+
+		"ActiveMODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_prefix"		"{s:sign}"
+		"ActiveMODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_label"			"弾薬シールド量"
+		"ActiveMODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_postvalue_label"			"弾薬シールド量"
+
+		"TechShieldMaxHealth_prefix"				"{s:sign}"
+		"TechShieldMaxHealth_label"					"スピリットシールド量"
+		"TechShieldMaxHealth_postvalue_label"					"スピリットシールド量"
+
+		"WeaponPowerPerKill_label"			"武器ダメージ／キル"
+
+		"WeaponPowerPerKill_postvalue_label"			"武器ダメージ／キル"
+		"WeaponPowerPerKill_prefix"			"+"
+		"WeaponPowerPerKill_postfix"		"%"
+		//"WeaponPowerPerAssist_label"		"Courage per Assist"
+		//"WeaponPowerPerDeath_label"			"Courage per Death"
+
+		"FireRatePerKill_label"			"発射速度／キル"
+
+		"FireRatePerKill_postvalue_label"			"発射速度／キル"
+		"FireRatePerKill_prefix"			"+"
+		"FireRatePerKill_postfix"		"%"
+
+		"BonusZoomPercent_prefix"				"{s:sign}"
+		"BonusZoomPercent_label"				"武器ズーム"
+		"BonusZoomPercent_postvalue_label"				"武器ズーム"
+		"BonusZoomPercent_postfix"				"%"
+
+		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_label"				"武器ズーム"
+		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_postvalue_label"				"武器ズーム"
+		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_postfix"				"%"
+
+		"MaxDPS_label"						"最大DPS"
+
+		"MaxDPS_postvalue_label"						"最大DPS"
+		//"DamageOnHit_label"					"Damage on Hit"
+		"ProcCooldown_label"					"最大頻度"
+		"ProcCooldown_postvalue_label"					"最大頻度"
+		"ProcCooldown_postfix"				"秒"
+
+		//"WeaponPowerPerEnemy_label"			"Courage per Enemy"
+		"WeaponPowerPerEnemy_prefix"			"+"
+
+		//"FireRatePerEnemy_label"				"Fire Rate per Enemy"
+		"FireRatePerEnemy_prefix"				"+"
+		"FireRatePerEnemy_postfix"			"%"
+
+		//"AssaultDuration_label"				"Air Attack Duration"
+		"AssaultDuration_postfix"				"秒"
+
+		//"AssaultFireRate_label"				"Air Attack Fire Rate"
+		"AssaultFireRate_prefix"				"{s:sign}"
+		"AssaultFireRate_postfix"				"%"
+
+		"ActiveHealthRegen_prefix"			"{s:sign}"
+		"ActiveHealthRegen_label"			"HPリジェネ"
+		"ActiveHealthRegen_postvalue_label"			"HPリジェネ"
+		"ActiveHealthRegen_postfix"			"HP／秒"
+
+		"ActiveBonusFireRate_label"			"発射速度"
+
+		"ActiveBonusFireRate_postvalue_label"			"発射速度"
+		"ActiveBonusFireRate_postfix"		"%"
+		"SurgeDelay_label"					"ディレイ"
+		"SurgeDelay_postvalue_label"					"ディレイ"
+		"SurgeDelay_postfix"				"秒"
+
+		//"upgrade_fervor/modifier_fervor/modifier_fervor_damage_stack"	"Fervor Stack"
+		//"upgrade_fervor/modifier_fervor/modifier_fervor_bonuses"	"Enrage Bonuses"
+		"FervorMovespeed_label"		"移動速度"
+		"FervorMovespeed_postvalue_label"		"移動速度"
+		"FervorMovespeed_postfix"	" m／秒"
+		"FervorFireRate_label"		"発射速度"
+		"FervorFireRate_postvalue_label"		"発射速度"
+		"FervorFireRate_postfix"	"%"
+		//"FervorDebuffResistance_label"		"Enrage Debuff Resistance"
+		"FervorDebuffResistance_postfix"	"%"
+		"FervorTechResist_label"			"スピリット耐性"
+
+		"FervorTechResist_postvalue_label"			"スピリット耐性"
+
+		"PassiveFireRate_label"		"発射速度"
+
+		"PassiveFireRate_postvalue_label"		"発射速度"
+		"PassiveFireRate_postfix"	"%"
+
+		"TechDamagePercent_Label"	"ダメージ"
+		"TechDamagePercent_postvalue_label"	"ダメージ"
+		"TechDamagePercent_Postfix"	"%"
+		
+		"MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER_Label"	"ダメージ"
+		"MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER_postvalue_label"	"ダメージ"
+		"MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER_Postfix"	"%"
+		
+		"DelayDuration_Label"	"ディレイ継続時間"
+		"DelayDuration_postvalue_label"	"ディレイ継続時間"
+		"DelayDuration_Postfix"	"秒"
+		//"MinimumDamage_Label"	"Minimum Damage"
+
+		"EMPDuration_label"				"デバフ継続時間"
+
+		"EMPDuration_postvalue_label"				"デバフ継続時間"
+		"EMPDuration_postfix"			"秒"
+
+		//"BonusBulletDamageToEMPTargets_label" "Bullet Damage to Silenced targets"
+		"BonusBulletDamageToEMPTargets_prefix" "+"
+		"BonusBulletDamageToEMPTargets_postfix" "%"
+		"modifier_silencer_proc_active"	"サイレンサー"
+
+		"BulletDamageReflectedPct_label"					"反射弾薬ダメージ"
+
+		"BulletDamageReflectedPct_postvalue_label"					"反射弾薬ダメージ"
+		"BulletDamageReflectedPct_postfix"					"%"
+		"SpiritDamageReflectedPct_label"					"反射スピリットダメージ"
+		"SpiritDamageReflectedPct_postvalue_label"					"反射スピリットダメージ"
+		"SpiritDamageReflectedPct_postfix"					"%"
+		"DamageReflectedFrequencyPct_label"				"プロック確率"
+		"DamageReflectedFrequencyPct_postvalue_label"				"プロック確率"
+		"DamageReflectedFrequencyPct_postfix"			"%"
+		"modifier_armor_reactive_armor"					"リターンファイア"
+		"ReturnFireBulletResist_prefix"					"+"
+		"ReturnFireBulletResist_label"					"弾薬耐性"
+		"ReturnFireBulletResist_postvalue_label"					"弾薬耐性"
+		"ReturnFireBulletResist_postfix"					"%"
+
+		//"RespawnBonusHealth_label"							"Respawn Bonus Health"
+		//"RespawnBonusHealthDuration_label"					"Respawn Bonus Health Duration"
+		"RespawnBonusHealthDuration_postfix"				"秒"
+		//"upgrade_rebirth/respawn_bonus_health_modifier"		"Rebirth Bonus Health"
+
+		//"DeathImmunityDuration_label"				"Death Immunity Duration"
+		//"DeathImmunityDuration_postfix"			"s"
+		//"DeathImmunityPulseRateMultiplier_label"		"Pulse Rate"
+		//"DeathImmunityPulseRateMultiplier_postfix"	"x"
+		//"modifier_cheat_death_immunity"			"Death Immune"
+
+		"StasisRadius_label"				"範囲"
+
+		"StasisRadius_postvalue_label"				"範囲"
+		"StasisRadius_postfix"				"m"
+
+		//"upgrade_quarantine/modifier_citadel_quarantine"	"Quarantined"
+
+		"HealPercentAmount_label"				"回復量"
+
+		"HealPercentAmount_postvalue_label"				"回復量"
+		"HealPercentAmount_postfix"			"%"
+
+		"Stamina_label"							"スタミナ"
+		"Stamina_postvalue_label"							"スタミナ"
+		"Stamina_prefix"							"{s:sign}"
+
+		"MODIFIER_VALUE_STAMINA_label"							"スタミナ"
+		"MODIFIER_VALUE_STAMINA_postvalue_label"							"スタミナ"
+		"MODIFIER_VALUE_STAMINA_prefix"							"{s:sign}"
+
+		"StaminaCooldownReduction_prefix"				"{s:sign}"
+		"StaminaCooldownReduction_label"				"スタミナ回復"
+		"StaminaCooldownReduction_postvalue_label"				"スタミナ回復"
+		"StaminaCooldownReduction_postfix"			"%"
+
+		//"ActiveHealthChange_label"			"Health Steal"
+		"ActiveHealthChange_postfix"			"HP"
+		//"ActiveWeaponDamageChange_label"		"Weapon Damage Steal"
+		"ActiveWeaponDamageChange_postfix"    "%"
+
+		//"modifier_upgrade_siphon_buff"		"Siphon"
+		"modifier_upgrade_siphon_debuff"		"奪ったHP"
+		//"SiphonRadius_label"					"Activate Radius"
+		"SiphonRadius_postfix"				"m"
+
+		"TechResistDuration_label"			"継続時間"
+
+		"TechResistDuration_postvalue_label"			"継続時間"
+		"TechResistDuration_postfix"			"秒"
+
+		"BleedTechResist_label"				"スピリット耐性"
+
+		"BleedTechResist_postvalue_label"				"スピリット耐性"
+		"BleedTechResist_prefix"				"{s:sign}"
+		"BleedTechResist_postfix"				"%"
+
+		//"StackProcDamage_label"			"Burst Damage"
+		"StackDuration_label"				"スタック継続時間"
+		"StackDuration_postvalue_label"				"スタック継続時間"
+		"StackDuration_postfix"			"秒"
+
+		"HeadShotBonusDamage_prefix"		"{s:sign}"
+		"HeadShotBonusDamage_label"			"ヘッドショット追加ダメージ"
+		"HeadShotBonusDamage_postvalue_label"			"ヘッドショット追加ダメージ"
+		"HeadShotDebuffDuration_label"		"継続時間"
+		"HeadShotDebuffDuration_postvalue_label"		"継続時間"
+		"HeadShotDebuffDuration_postfix"	"秒"
+		"HeadShotCooldown_label"			"クールダウン"
+		"HeadShotCooldown_postvalue_label"			"クールダウン"
+		"HeadShotCooldown_postfix"			"秒"
+		//"upgrade_leveler/headshot_cooldown_modifier"	"Head Shot Bonus Cooldown"
+		//"ActiveChainDuration_label"			"Tether Duration"
+		"ActiveChainDuration_postfix"		"秒"
+		"ActiveBulletArmorReduction_label"	"弾薬耐性低下"
+
+		"ActiveBulletArmorReduction_postvalue_label"	"弾薬耐性低下"
+
+		//"modifier_galvanic_storm"				"Galvanic Storm"
+		//"BuildupPerProc_label"				"Buildup on Shock"
+		"BuildupPerProc_postfix"				"%"
+		//"BuildupDamage_label"					"Damage on Buildup"
+		
+		//"ShockBuildupDuration_label"			"Shock Buildup Lifetime"
+		"ShockBuildupDuration_postfix"		"秒"
+
+		"GalvanicProcDuration_label"			"スロウ継続時間"
+
+		"GalvanicProcDuration_postvalue_label"			"スロウ継続時間"
+		"GalvanicProcDuration_postfix"		"秒"
+
+		"FireRateSlow_label"					"発射速度"
+		"FireRateSlow_postvalue_label"					"発射速度"
+		"FireRateSlow_prefix"					"-"
+		"FireRateSlow_postfix"					"%"
+
+		"MODIFIER_VALUE_FIRE_RATE_SLOW_label"					"発射速度"
+		"MODIFIER_VALUE_FIRE_RATE_SLOW_postvalue_label"					"発射速度"
+		"MODIFIER_VALUE_FIRE_RATE_SLOW_prefix"					"-"
+		"MODIFIER_VALUE_FIRE_RATE_SLOW_postfix"					"%"
+
+		"TechPowerReduction_label"					"スピリットパワー"
+
+		"TechPowerReduction_postvalue_label"					"スピリットパワー"
+		//"SlowFireRatePercent_label"			"Fire Rate Scale"
+		"SlowFireRatePercent_prefix"			"{s:sign}"
+		"SlowFireRatePercent_postfix"			"%"
+
+		"MaxFireRateSlowPercent_label"			"最大発射速度"
+
+		"MaxFireRateSlowPercent_postvalue_label"			"最大発射速度"
+		"MaxFireRateSlowPercent_postfix"		"%"
+		"MaxFireRateSlowPercent_prefix"		"-"
+
+		//"FireRateScale_label"					"Fire Rate Scale"
+		"FireRateScale_prefix"				"{s:sign}"
+		"FireRateScale_postfix"				"%"
+
+		//"ActiveHealAmount_label"				"Self Heal"
+		//"ActiveHealAmount_postfix"			"HP"
+
+		//"BonusDamagePerHero_label"			"Bonus Damage Per Hero"
+		"BonusDamagePerHero_postfix"			"%"
+
+		//"DebuffDelay_label"					"Debuff Delay"
+		"DebuffDelay_postfix"					"秒"
+
+		//"ArmorLossPerHit_label"				"Resist lost per Hit"
+		"ArmorLossPerHit_postfix"				"%"
+
+		//"StackLossFrequency_label"			"Resist Loss Frequency"
+		"StackLossFrequency_postfix"			"秒"
+
+		"MaxBulletResist_label"				"最大弾薬耐性"
+
+		"MaxBulletResist_postvalue_label"				"最大弾薬耐性"
+		"MaxBulletResist_postfix"				"%"
+
+		"upgrade_berserker/modifier_berserker/modifier_berserker_damage_stack"		"バーサーカー"
+		"berserker_stack"							"バーサーカー"
+
+		"WeaponDamageBonus_prefix"		"{s:sign}"
+		"WeaponDamageBonus_label"			"武器ダメージ"
+
+		"WeaponDamageBonus_postvalue_label"			"武器ダメージ"
+
+		"TechDamageBonusPercent_prefix"		"{s:sign}"
+		"TechDamageBonusPercent_label"		"スピリットダメージ"
+		"TechDamageBonusPercent_postvalue_label"		"スピリットダメージ"
+		"TechDamageBonusPercent_postfix"		"%"
+
+		"SuperiorStaminaBonusSpirit_prefix"	"{s:sign}"
+		//"SuperiorStaminaBonusSpirit_label"	"Spirit Power After Second Jump/Dash"
+
+		"EchoShardBonusSpirit_prefix"		"{s:sign}"
+		//"EchoShardBonusSpirit_label"		"Spirit Power for Echo Ability"
+
+
+
+		"BonusSpirit_prefix"				"{s:sign}"
+		"BonusSpirit_label"				"スピリットパワー"
+		"BonusSpirit_postvalue_label"				"スピリットパワー"
+		"BonusSpiritLifesteal_prefix"				"{s:sign}"
+		"BonusSpiritLifesteal_label"				"スピリットライフスティール"
+		"BonusSpiritLifesteal_postvalue_label"				"スピリットライフスティール"
+		"BonusSpiritLifesteal_postfix"			"%"
+		//"modifier_power_shard_bonus"		"Echo Boost"
+
+		//"BonusDuration_label"				"Bonus Duration"
+		"BonusDuration_postfix" 			"秒"
+		//"superior_stamina_buff"			"Bonus Spirit Power"
+
+		"HighGroundBonusWeaponPower_prefix"	"{s:sign}"
+		//"HighGroundBonusWeaponPower_label"	"Weapon Damage When Above Enemies"
+		"HighGroundBonusWeaponPower_postfix"	"%"
+
+		"BonusBaseWeaponDamage_prefix"					"{s:sign}"
+		"BonusBaseWeaponDamage_label"					"武器ダメージ"
+		"BonusBaseWeaponDamage_postvalue_label"					"武器ダメージ"
+		"BonusBaseWeaponDamage_postfix"					"%"
+
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_label"					"武器ダメージ"
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_postvalue_label"					"武器ダメージ"
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_postfix"					"%"
+
+		"BaseAttackDamagePercent_prefix"					"{s:sign}"
+		"BaseAttackDamagePercent_label"					"武器ダメージ"
+		"BaseAttackDamagePercent_postvalue_label"					"武器ダメージ"
+		"BaseAttackDamagePercent_postfix"					"%"
+
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_label"					"武器ダメージ"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_postvalue_label"					"武器ダメージ"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_postfix"					"%"
+
+		"BaseAttackDamagePercentAltFire_prefix"					"{s:sign}"
+		"BaseAttackDamagePercentAltFire_label"					"サブ射撃 武器ダメージ"
+		"BaseAttackDamagePercentAltFire_postvalue_label"					"サブ射撃 武器ダメージ"
+		"BaseAttackDamagePercentAltFire_postfix"					"%"
+
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_label"					"サブ射撃 武器ダメージ"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_postvalue_label"					"サブ射撃 武器ダメージ"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_postfix"					"%"
+
+		"ImbuedTechPower_prefix"					"{s:sign}"
+		"ImbuedTechPower_label"						"エンチャントアビリティ スピリットパワー"
+
+		"ImbuedTechPower_postvalue_label"						"エンチャントアビリティ スピリットパワー"
+
+		"MovementSpeedBonusDuration_label"			"移動速度継続時間"
+
+		"MovementSpeedBonusDuration_postvalue_label"			"移動速度継続時間"
+		"MovementSpeedBonusDuration_postfix"		"秒"
+
+		//"EnemyLifeThreshold_label"					"Threshold"
+		"EnemyLifeThreshold_postfix"					"%"
+
+		//"CloneDamageTakenIncreasePercent_label"		"Clone Damage Taken"
+		"CloneDamageTakenIncreasePercent_prefix"		"{s:sign}"
+		"CloneDamageTakenIncreasePercent_postfix"		"%"
+
+		"ability_abort_cast"						"中止"
+		"ability_cancel_channel"					"詠唱中断"
+
+		//"citadel_ability_lightning_dodge"	"Lightning Roll"
+		//"citadel_ability_lightning_dodge_passive"	"Lightning Roll"
+		//"citadel_ability_basicdamagereflect"	"Reflect Basic Damage"
+		//"citadel_ability_bullet_damage_amp_wall"	"Bullet Damage Amp Wall"
+
+		//"modifier_limit_ability_cooldown"		"Quick Cooldowns"
+
+		//"ability_golden_idol"					"Drop Soul Urn"
+		"golden_idol_bonus_01"					"+35% 追加ソウル"
+		"golden_idol_bonus_02"					"+1 アビリティポイント"
+
+		//"ability_capture_zip_line"				"Capture Hyperline"
+		//"modifier_citadel_capture_zipline_timer"	"Capturing Hyperline"
+
+		//"modifier_citadel_containment_victim"	"Containment"
+		"modifier_hollow_point_stack"			"ホロウポイント"
+		//"LifeThreshold_label"					"Life Threshold"
+		"LifeThreshold_postfix"					"%"
+		//"Cloaked"								"Cloaked"
+
+		"zipline_boost"							"ジップラインブースト"
+		"ActiveTechPower_label"					"スピリットパワー"
+		"ActiveTechPower_postvalue_label"					"スピリットパワー"
+		"ActiveTechPower_prefix"				"+"
+
+		//"ActiveBulletShieldHealth_label"		"Active Shield Health"
+		//"ActiveBulletShieldDuration_label"		"Active Shield Duration"
+		"ActiveBulletShieldDuration_postfix"		"秒"
+		"PassiveShieldCooldown_label"			"クールダウン"
+		"PassiveShieldCooldown_postvalue_label"			"クールダウン"
+		"PassiveShieldCooldown_postfix"			"秒"
+		"active_bullet_shield"					"弾薬シールド"
+
+		//"SlamDownRadius_label"					"Slam Radius"
+		"SlamDownRadius_postfix"				"m"
+
+		"StealDuration_label"					"スティール継続時間"
+
+		"StealDuration_postvalue_label"					"スティール継続時間"
+		"StealDuration_postfix"					"秒"
+
+		"VeilCross_conditional"					"コズミックベールを越える"
+		"modifier_veil_walker_triggered"			"ベール発射速度"
+		"modifier_veil_walker_stealth"			"ベールウォーカー インビジブル"
+
+		"InvisDuration_label"						"インビジブル継続時間"
+
+		"InvisDuration_postvalue_label"						"インビジブル継続時間"
+		"InvisDuration_postfix"					"秒"
+
+		"SlideScale_label"						"スライディング距離"
+
+		"SlideScale_postvalue_label"						"スライディング距離"
+		"SlideScale_postfix"						"%"
+		"SlideScale_prefix"						"+"
+
+		"AirMoveIncreasePercent_label"				"空中ジャンプ／ダッシュ距離"
+		"AirMoveIncreasePercent_postvalue_label"				"空中ジャンプ／ダッシュ距離"
+		"AirMoveIncreasePercent_postfix"						"%"
+		"AirMoveIncreasePercent_prefix"						"+"
+
+		"MODIFIER_VALUE_AIR_MOVE_DISTANCE_INCREASE_PERCENT_label"				"空中ジャンプ／ダッシュ距離"
+		"MODIFIER_VALUE_AIR_MOVE_DISTANCE_INCREASE_PERCENT_postvalue_label"				"空中ジャンプ／ダッシュ距離"
+		"MODIFIER_VALUE_AIR_MOVE_DISTANCE_INCREASE_PERCENT_postfix"						"%"
+		"MODIFIER_VALUE_AIR_MOVE_DISTANCE_INCREASE_PERCENT_prefix"						"+"
+
+		"FreeAirJumps_prefix"							"{s:sign}"
+		"FreeAirJumps_label"							"フリー空中ジャンプ"
+		"FreeAirJumps_postvalue_label"					"フリー空中ジャンプ"
+
+		"MODIFIER_VALUE_FREE_AIR_JUMPS_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_FREE_AIR_JUMPS_label"					"フリー空中ジャンプ"
+		"MODIFIER_VALUE_FREE_AIR_JUMPS_postvalue_label"			"フリー空中ジャンプ"
+
+		"ActiveReloadPercent_label"				"弾数"
+		
+		"ActiveReloadPercent_postvalue_label"				"弾数"
+		"ActiveReloadPercent_postfix"				"%"
+		"ActiveReloadPercent_prefix"				"+"
+
+		"ImbuedCooldownMultiplier_label"			"エンチャントアビリティ クールダウン"
+		"ImbuedCooldownMultiplier_postvalue_label"			"エンチャントアビリティ クールダウン"
+		"ImbuedCooldownMultiplier_postfix"			"%"
+
+		"RespawnHealthPercent_label"				"復活時HP"
+
+		"RespawnHealthPercent_postvalue_label"				"復活時HP"
+		"RespawnHealthPercent_postfix"			"%"
+
+		"ActiveBonusMoveSpeed_label"					"移動速度"
+
+		"ActiveBonusMoveSpeed_postvalue_label"					"移動速度"
+		"ActiveBonusMoveSpeed_prefix"					"{s:sign}"
+		"ActiveBonusMoveSpeed_postfix"					"m"
+		"ActiveItemUse_conditional"					"（アクティブ中）"
+
+		"BuffMoveSpeedBonus_label"						"移動速度"
+
+		"BuffMoveSpeedBonus_postvalue_label"						"移動速度"
+		"BuffMoveSpeedBonus_postfix"						"m"
+		"BuffMoveSpeedBonus_prefix"						"{s:sign}"
+
+		//"ChannelMoveSpeed_label"						"Channel Move Speed"
+		"ChannelMoveSpeed_postfx"						"m"
+		//"ChannelMoveSpeed_prefix"						""
+
+		"BulletShieldOnCast_label"						"弾薬シールド"
+
+		"BulletShieldOnCast_postvalue_label"						"弾薬シールド"
+		"TechShieldOnCast_label"						"スピリットシールド"
+		"TechShieldOnCast_postvalue_label"						"スピリットシールド"
+		//"BulletShieldDuration_label"					"Bullet Shield Duration"
+		"BulletShieldDuration_postfix"					"秒"
+
+		
+		//"BloodPoolDPS_label"							"Blood Pool DPS"
+		//"BloodPoolDuration_label"						"Blood Pool Duration"
+		"BloodPoolDuration_postfix"						"秒"
+		//"BloodPoolRadius_label"							"Blood Pool Radius"
+		"BloodPoolRadius_postfix"						"m"
+
+		"LowHealthThreshold_label"						"HPしきい値"
+		"LowHealthThreshold_postvalue_label"			"HPしきい値"
+		"LowHealthThreshold_postfix"					"%"
+		"LowHealthTechResist_label"						"スピリット耐性"
+		"LowHealthTechResist_postvalue_label"						"スピリット耐性"
+		"LowHealthTechResist_prefix"					"{s:sign}"
+		//"LowHealthWeaponPowerPercent_label"				"Courage"
+		"LowHealthWeaponPowerPercent_prefix"			"{s:sign}"
+		"LowHealthWeaponPowerPercent_postfix"			"%"
+		"ExecuteThreshold_label"						"処刑しきい値"
+		"ExecuteThreshold_postvalue_label"						"処刑しきい値"
+		"ExecuteThreshold_postfix"						"%"
+
+		"BuildupDuration_label"							"蓄積減少時間"
+
+		"BuildupDuration_postvalue_label"							"蓄積減少時間"
+		"BuildupDuration_postfix"						"秒"
+		//"BuildupExpire_label"							"Buildup Expire"
+		"BuildupExpire_postfix"							"秒"
+		//"BuildupDecayDelay_label"						"Buildup Decay Delay"
+		"BuildupDecayDelay_postfix"						"秒"
+		//"BuildupRate_label"							"Buildup Per Shot"
+		//"BuildupRate_postfix"							""
+		"BuildupPerShot_label"							"蓄積／発"
+		"BuildupPerShot_postvalue_label"							"蓄積／発"
+		"BuildupPerShot_postfix"						"%"
+		//"StacksPerShot_label"							"Stacks Per Shot"
+
+		//"DamageOnApply_label"							"Damage On Apply"
+
+		"citadel_modifier_teleport"						"テレポート中"
+		"citadel_modifier_hideout_teleport"				"ハイドアウトから退出中"
+		"citadel_trigger_teleport_sandbox"				"サンドボックスに移動中"
+		"citadel_trigger_teleport_hideout"				"ハイドアウトに移動中"
+
+		"MaxHealthLossPercent_label"				"最大HP"
+
+		"MaxHealthLossPercent_postvalue_label"				"最大HP"
+		"MaxHealthLossPercent_postfix"			"%"
+
+		"BonusClipPerKill_prefix"				"{s:sign}"
+		"BonusClipPerKill_label"				"追加弾数／キル"
+
+		"BonusClipPerKill_postvalue_label"				"追加弾数／キル"
+
+		"BonusSpiritPerKill_prefix"				"{s:sign}"
+		//"BonusSpiritPerKill_label"				"Bonus Spirit Power Per Kill"
+
+		//"MaxClipBonus_label"				"Max Clip Bonus"
+
+		"SummonDuration_label"					"召喚継続時間"
+
+		"SummonDuration_postvalue_label"					"召喚継続時間"
+		"SummonDuration_postfix" 				"秒"
+
+		"Reloaded"							"リロード！"
+		"BonusAmmo"							"追加弾数！"
+
+		"ExplodeDamage_label"				"爆発ダメージ"
+
+
+		"ExplodeDamage_postvalue_label"				"爆発ダメージ"
+
+		"StaminaRegenPercent_label"			"スタミナリジェネ"
+		"StaminaRegenPercent_postvalue_label"			"スタミナリジェネ"
+		"StaminaRegenPercent_postfix"		"%"
+
+		"MeleeResistPercent_prefix"			"{s:sign}"
+		"MeleeResistPercent_label"			"近接攻撃耐性"
+		"MeleeResistPercent_postvalue_label"			"近接攻撃耐性"
+		"MeleeResistPercent_postfix"		"%"
+		
+		"BuffDuration_label"				"バフ継続時間"
+		
+		"BuffDuration_postvalue_label"				"バフ継続時間"
+		"BuffDuration_postfix"				"秒"
+
+		"GroundDashReductionPercent_label"	"ダッシュ距離"
+
+		"GroundDashReductionPercent_postvalue_label"	"ダッシュ距離"
+		"GroundDashReductionPercent_postfix"	"%"
+		
+		"ActivePlayerStats_Percentage"		"%"
+		"ActivePlayerStats_MoveSpeed"		"m"
+		"ActivePlayerStats_Regen"			"HP"
+		"ActivePlayerStats_Health"			"HP"
+
+		"TechDamageReduction_label"			"スピリットダメージ低下"
+
+		"TechDamageReduction_postvalue_label"			"スピリットダメージ低下"
+		"TechDamageReduction_postfix"		"%"
+
+		"ActiveMoveSpeedPenalty_label"		"移動速度ペナルティ"
+
+		"ActiveMoveSpeedPenalty_postvalue_label"		"移動速度ペナルティ"
+		"ActiveMoveSpeedPenalty_postfix"		"m"
+
+		"IncomingDamagePercent_label"		"被ダメージ"
+
+		"IncomingDamagePercent_postvalue_label"		"被ダメージ"
+		"IncomingDamagePercent_postfix"		"%"
+		"IncomingDamagePercent_prefix"		"{s:sign}"
+
+		"IncomingDamagePercentFromCaster_label"		"被ダメージ"
+
+		"IncomingDamagePercentFromCaster_postvalue_label"		"被ダメージ"
+		"IncomingDamagePercentFromCaster_postfix"	"%"
+		"IncomingDamagePercentFromCaster_prefix"	"{s:sign}"
+
+		
+		"IncomingBulletDamagePercentFromCaster_label"	"受けた弾薬ダメージ"
+
+		
+		"IncomingBulletDamagePercentFromCaster_postvalue_label"	"受けた弾薬ダメージ"
+		"IncomingBulletDamagePercentFromCaster_postfix"	"%"
+		"IncomingBulletDamagePercentFromCaster_prefix"	"{s:sign}"
+
+		"SlowResistance_label" "スロウ耐性"
+		"SlowResistance_postvalue_label" "スロウ耐性"
+		"SlowResistance_postfix" "%"
+
+		"MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE_label" "スロウ耐性"
+		"MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE_postvalue_label" "スロウ耐性"
+		"MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE_postfix" "%"
+
+		"MODIFIER_VALUE_STAMINA_REGEN_PER_SECOND_PERCENTAGE_postvalue_label" "スタミナ回復"
+		"MODIFIER_VALUE_STAMINA_REGEN_PER_SECOND_PERCENTAGE_postfix" "%"
+
+		"CooldownReductionPerHit_label" "クールダウン短縮／ヒット"
+
+		"CooldownReductionPerHit_postvalue_label" "クールダウン短縮／ヒット"
+		"CooldownReductionPerHit_postfix" "秒"
+
+		"ParryCooldownReduction_label"				"パリィ クールダウン"
+
+		"ParryCooldownReduction_postvalue_label"				"パリィ クールダウン"
+		"ParryCooldownReduction_prefix"			"-"
+		"ParryCooldownReduction_postfix"			"秒"
+
+		"ImmunityDuration_label"	"無効継続時間"
+
+		"ImmunityDuration_postvalue_label"	"無効継続時間"
+		"ImmunityDuration_postfix"	"秒"
+
+		"CombatBarrier_label"	"バリア"
+
+		"CombatBarrier_postvalue_label"	"バリア"
+		"BarrierDuration_label"	"バリア継続時間"
+		"BarrierDuration_postvalue_label"	"バリア継続時間"
+		"BarrierDuration_postfix" "秒"
+
+		"InterruptCooldown_label"	"中断クールダウン"
+		"InterruptCooldown_postvalue_label"	"中断クールダウン"
+		"InterruptCooldown_postfix"	"秒"
+
+		"BonusSoulsPct_label"	"追加ソウル"
+		
+		"BonusSoulsPct_postvalue_label"	"追加ソウル"
+		"BonusSoulsPct_prefix" "+"
+		"BonusSoulsPct_postfix" "%"
+		
+		"EnemyRange_label"		"敵の距離"
+		
+		"EnemyRange_postvalue_label"		"敵の距離"
+		"EnemyRange_postfix"	"m"
+
+		"ReduceFootstepSound_label"	"足音可聴距離"
+
+		"ReduceFootstepSound_postvalue_label"	"足音可聴距離"
+		"ReduceFootstepSound_postfix"	"%"
+
+		"WeaponDamagePerStack_label" "武器ダメージ／スタック"
+
+		"WeaponDamagePerStack_postvalue_label" "武器ダメージ／スタック"
+		"WeaponDamagePerStack_postfix" "%"
+		"WeaponDamagePerStack_prefix" "+"
+	
+		"LightMeleeAmmo_label"			"弾数"
+	
+		"LightMeleeAmmo_postvalue_label"			"弾数"
+		"LightMeleeAmmo_postfix"		"%"
+		"LightMeleeAmmo_prefix"			"+"
+
+		"HeavyMeleeMultiplier_label"	"近接強攻撃ボーナス"
+
+		"HeavyMeleeMultiplier_postvalue_label"	"近接強攻撃ボーナス"
+		"HeavyMeleeMultiplier_postfix"	"x"
+
+		"SpellParryDuration_label"		"スペルパリィ継続時間"
+
+		"SpellParryDuration_postvalue_label"		"スペルパリィ継続時間"
+		"SpellParryDuration_postfix"		"秒"
+
+		"CooldownOnMissReduction_label"		"外れ時のクールダウン"
+
+		"CooldownOnMissReduction_postvalue_label"		"外れ時のクールダウン"
+		"CooldownOnMissReduction_postfix"	"%"
+
+		"HealOnCounterSpell_label"				"回復"
+		"HealOnCounterSpell_postvalue_label"	"回復"
+
+		"ProcMaxRange_label"					"プロック 最大範囲"
+		"ProcMaxRange_postvalue_label"			"プロック 最大範囲"
+		"ProcMaxRange_postfix"					"m"
+
+		"HealOnHit_postvalue_label" "ヒット時回復"
+
+		"GravityScale_label"					"重力スケール"
+		"GravityScale_postvalue_label"			"重力スケール"
+		"GravityScale_postfix"					"%"
+
+		"AirBonusDamageGiven_label"					"空中ダメージ"
+		"AirBonusDamageGiven_postvalue_label"		"空中ダメージ"
+		"AirBonusDamageGiven_prefix"				"{s:sign}"
+		"AirBonusDamageGiven_postfix"				"%"
+
+		"AirBonusDamageTaken_label"					"空中被ダメージ"
+		"AirBonusDamageTaken_postvalue_label"		"空中被ダメージ"
+		"AirBonusDamageTaken_postfix"				"%"
+
+		"MinHeal_label"					"最小回復量"
+		"MinHeal_postvalue_label"		"最小回復量"
+
+		"BuffFrequency_label"						"バフ頻度"
+		"BuffFrequency_postvalue_label"				"バフ頻度"
+		"BuffFrequency_postfix"						"秒"
+
+		"BulletRadius_label"						"弾薬サイズ"
+		"BulletRadius_postvalue_label"				"弾薬サイズ"
+		"BulletRadius_postfix"						"m"
+
+		"StatusImmuneDuration_label"						"アンストッパブル継続時間"
+		"StatusImmuneDuration_postvalue_label"				"アンストッパブル継続時間"
+		"StatusImmuneDuration_postfix"						"秒"
+
+		"CooldownReductionOnHitMin_label"					"最小軽減量"
+		"CooldownReductionOnHitMin_postvalue_label"			"最小軽減量"
+		"CooldownReductionOnHitMin_postfix"					"秒"
+
+		"CooldownReductionOnHitPct_label"					"ヒット時のクールダウン短縮"
+		"CooldownReductionOnHitPct_postvalue_label"			"ヒット時のクールダウン短縮"
+		"CooldownReductionOnHitPct_postfix"					"%"
+
+		"EvasionWhileSliding_label"						"スライディング中の回避"
+		"EvasionWhileSliding_postvalue_label"			"スライディング中の回避"						"EvasionWhileSliding_postfix"			"%"
+		"FireRateWhileSliding_label"						"スライディング中の発射速度"
+		"FireRateWhileSliding_postvalue_label"			"スライディング中の発射速度"
+		"FireRateWhileSliding_postfix"					"%"
+
+		"HealthPctDamage_label"						"現在HPの割合ダメージ"
+		"HealthPctDamage_postvalue_label"			"現在HPの割合ダメージ"
+		"HealthPctDamage_postfix"					"%"
+		
+		"MaxHPDamage_label"								"最大HPダメージ"
+		"MaxHPDamage_postvalue_label"		"最大HPダメージ"
+		"MaxHPDamage_postfix"				"%"
+
+		"ResistStealAmount_label"				"奪った耐性"
+		"ResistStealAmount_postvalue_label"		"奪った耐性"
+		"ResistStealAmount_postfix"				"%"
+
+		"OmniPendantBonusAbilityCharges_prefix"	"{s:sign}"
+		"OmniPendantBonusAbilityCharges_label"	"チャージアビリティ"
+		"OmniPendantBonusAbilityCharges_postvalue_label"	"チャージアビリティ"
+
+		"BonusAbilityChargesNonCharge_prefix"	"{s:sign}"
+		"BonusAbilityChargesNonCharge_label"			"非チャージアビリティ"
+		"BonusAbilityChargesNonCharge_postvalue_label"	"非チャージアビリティ"
+
+		"WeaponDamageBonusPerKill_prefix"				"{s:sign}"
+		"WeaponDamageBonusPerKill_label"				"武器ダメージ／キル"
+		"WeaponDamageBonusPerKill_postvalue_label"		"武器ダメージ／キル"
+		"WeaponDamageBonusPerKill_postfix"				"%"
+
+		"ImbueAbilityLifesteal_prefix"				"{s:sign}"
+		"ImbueAbilityLifesteal_label"				"エンチャント ライフスティール"
+		"ImbueAbilityLifesteal_postvalue_label"				"エンチャント ライフスティール"
+		"ImbueAbilityLifesteal_postfix"				"%"
+
+		"MissingHPHeal_label"						"減少HP回復"
+		"MissingHPHeal_postvalue_label"				"減少HP回復"
+		"MissingHPHeal_postfix"					"%"
+
+		"RegenerationDuration_label"		"リジェネ継続時間"
+		"RegenerationDuration_postvalue_label"		"リジェネ継続時間"
+		"RegenerationDuration_postfix"		"秒"
+		"Regeneration_label"		"リジェネ"
+		"Regeneration_postvalue_label"		"リジェネ"
+		"Regeneration_postfix"		" HP／秒"
+
+		"FlyingBulletResist_label"					"弾薬耐性"
+		"FlyingBulletResist_postvalue_label"					"弾薬耐性"
+		"FlyingBulletResist_postfix"				"%"
+
+		"RecastWindow_label"					"再発動可能時間"
+		"RecastWindow_postvalue_label"			"再発動可能時間"
+		"RecastWindow_postfix"					"秒"
+
+		"UnstoppablePerHero_prefix"				"+"
+		"UnstoppablePerHero_label"					"ヒーローごと"
+		"UnstoppablePerHero_postvalue_label"		"ヒーローごと"
+		"UnstoppablePerHero_postfix"				"秒"
+
+		//-----------------------------------------------------------------------------
+		// END Ability Properties desc
+		//-----------------------------------------------------------------------------
+		
+		//-----------------------------------------------------------------------------
+		// Stat Descriptions - Used in Tooltips/Resources
+		//-----------------------------------------------------------------------------
+
+		"StatDesc_SpiritPowerDesc"				"<b>スピリットパワー</b> - アビリティやアイテムの性能強化"
+		"StatDesc_AbilityRangeDesc"				"<b>アビリティ範囲</b> - アビリティやアイテムの距離および範囲を延ばす補正値"
+		"StatDesc_AbilityDurationDesc"			"<b>アビリティ継続時間</b> - アビリティやアイテムの継続時間を延ばす補正値"
+		"StatDesc_WeaponDamageDesc"				"<b>武器ダメージ</b> - 銃や近接攻撃で与えるダメージを増減させる補正値"
+		"StatDesc_MoveSpeedDesc"				"<b>移動速度</b> - 現在の移動速度"
+		"StatDesc_SpiritResistDesc"				"<b>スピリットアーマー</b> - 受けるスピリットダメージに対する耐性"
+		"StatDesc_WeaponResistDesc"				"<b>弾薬アーマー</b> - 受ける弾薬ダメージに対する耐性"
+		"StatDesc_HealingBoostDesc"				"<b>与回復量</b> - 回復アビリティによる回復量を増減させる補正値"
+		"StatDesc_HealingAmpDesc"				"<b>被回復量</b> - 受ける回復量を増減させる補正値"
+		"StatDesc_AmmoDesc"						"<b>弾数</b> - リロードごとに射撃できる弾薬の個数"
+		"StatDesc_FireRateDesc"					"<b>発射速度</b> - 銃の発射速度を増減させる補正値"
+		"StatDesc_SpiritLifestealDesc"			"<b>スピリットライフスティール</b> - スピリットダメージを与えた際のHP回復量"
+		"StatDesc_WeaponLifestealDesc"			"<b>武器ライフスティール</b> - 武器ダメージを与えた際のHP回復量"
+		"StatDesc_BulletEvationDesc"			"<b>弾薬回避</b> - 弾薬を回避する確率"
+		"StatDesc_RegenDesc"					"<b>HPリジェネ</b> - 1秒あたりのHP回復量"
+		"StatDesc_DamageAmpDesc"					"<b>ダメージ増幅</b> - すべての与えるダメージを増減させる補正値"
+
+
+		//-----------------------------------------------------------------------------
+		// Inline Attributes
+		//-----------------------------------------------------------------------------
+
+		"InlineAttribute_Fortitude"		"フォルティチュード"
+		"InlineAttribute_Courage"		"カレッジ"
+		"InlineAttribute_Spirit"		"スピリット"
+		"InlineAttribute_Slow"			"スロウ"
+		"InlineAttribute_SlowResistance""スロウ耐性"
+		"InlineAttribute_DamageAmp"		"ダメージ増加"
+		"InlineAttribute_SpiritDamage"	"スピリットダメージ"
+		"InlineAttribute_SpiritDPS"	"継続スピリットダメージ"
+		"InlineAttribute_WeaponDPS"	"継続武器ダメージ"
+		"InlineAttribute_BonusSpiritDamage"	"追加スピリットダメージ"
+		"InlineAttribute_AbilityCooldown"	"クールダウン"
+		"InlineAttribute_Stun"	"スタン"
+		"InlineAttribute_Heal"	"回復"
+		"InlineAttribute_Heals"	"回復"
+		"InlineAttribute_Healing" "回復"
+		"InlineAttribute_Health" "HP"
+		"InlineAttribute_MaxHealth" "最大HP"
+		"InlineAttribute_Regen" "リジェネ"
+		"InlineAttribute_MeleeDamage"	"近接ダメージ"
+		"InlineAttribute_BulletDamage"	"弾薬ダメージ"
+		"InlineAttribute_FireRate"	"発射速度"
+		"InlineAttribute_ReducedFireRate"	"発射速度低下"
+		"InlineAttribute_BonusFireRate"	"ボーナス発射速度"
+		"InlineAttribute_MoveSpeed"		"移動速度"
+		"InlineAttribute_BonusMoveSpeed""ボーナス移動速度"
+		"InlineAttribute_WeaponDamage"	"武器ダメージ"
+		"InlineAttribute_BonusWeaponDamage"	"追加武器ダメージ"
+		"InlineAttribute_SpiritResist"	"スピリット耐性"
+		"InlineAttribute_BulletResist"	"弾薬耐性"
+		"InlineAttribute_CombatBarrier" "バリア"
+		"InlineAttribute_Immobilize" "移動不能"
+		"InlineAttribute_Sleep" "睡眠"
+		"InlineAttribute_StaminaRegenPerSecond" "スタミナ回復"
+		"InlineAttribute_KnockBack" "ノックバック"
+		"InlineAttribute_KnockUp" "ノックアップ"
+		"InlineAttribute_Pull" "引き寄せ"
+		"InlineAttribute_Pulls" "引き寄せ"
+		"InlineAttribute_Pulling" "引き寄せ"
+		"InlineAttribute_PureDamage"	"ピュアダメージ"
+		"InlineAttribute_Silence"	"サイレンス"
+		"InlineAttribute_BonusSprintSpeed""ボーナススプリント速度"
+	}
+}

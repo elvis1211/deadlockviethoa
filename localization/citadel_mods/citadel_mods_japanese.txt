@@ -1,0 +1,1022 @@
+﻿"lang"
+{
+	"Language"		"japanese"
+	"Tokens"
+	{
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Weapon
+		//-----------------------------------------------------------------------------
+
+		//Ammo Scavenger
+		"upgrade_ammo_scavenger_desc"		"ソウルを確保あるいはディナイするたび、<span class=\"highlight\">弾数が回復</span>し、スタックする<span class=\"highlight\">スピリットパワー</span>を獲得する<br>最大スタックになるとスプリント速度が上昇する"
+		"AmmoPerSoul_prefix"				"+"
+		"AmmoPerSoul_label"					"弾数／ソウル"
+		"AmmoPerSoul_postvalue_label"					"弾数／ソウル"
+		"SpiritPowerPerSoul_prefix"			"+"
+		"SpiritPowerPerSoul_label"			"スピリットパワー／ソウル"
+		"SpiritPowerPerSoul_postvalue_label"			"スピリットパワー／ソウル"
+		"AmmoScavengerDuration_label"		"継続時間"
+		"AmmoScavengerDuration_postvalue_label"		"継続時間"
+		"AmmoScavengerDuration_postfix"		"秒"
+
+		//Melee Lifesteal
+		"upgrade_lifestrike_gauntlets_desc"	"次の<span class=\"highlight\">近接</span>攻撃が<span class=\"highlight\">HPを回復</span>する<span class=\"diminish\"><br><br>非ヒーローに対しては回復量が{s:NonHeroHealPct}%に低下する<br>近接弱攻撃の場合はクールダウンが{s:LightMeleeCooldownMult}倍になる</span>"
+		"LifestrikeHeal_label"				"近接攻撃時の回復量"
+		"LifestrikeHeal_postvalue_label"				"近接攻撃時の回復量"
+
+		//Tesla Bullets
+		"upgrade_chain_lightning_desc"	"弾薬が一定確率で、対象に<span class=\"highlight\">感電</span>ダメージを与える。<span class=\"highlight\">感電</span>ダメージは付近にいる敵に連鎖する"
+
+		//Galvanic Storm
+		"GalvanicBuffDuration_label"						"継続時間"
+		"GalvanicBuffDuration_postvalue_label"						"継続時間"
+		"GalvanicBuffDuration_postfix"					"秒"
+
+		//Silence Glyph
+		"upgrade_targeted_silence_desc"	"膨張する発射物を射出する。発射体は敵に着弾ダメージを与え、短い間<span class=\"highlight\">サイレンス</span>状態にする<br><br><span class=\"diminish\">サイレンス状態は詠唱アビリティを中断しない</span>"
+		"ResistReductionDuration_label"	"耐性低下継続時間"
+		"ResistReductionDuration_postvalue_label"	"耐性低下継続時間"
+		"ResistReductionDuration_postfix"	"秒"
+
+		//EMP Bullets
+		"upgrade_proc_silence_desc"		"弾薬が<span class=\"highlight\">サイレンス</span>を蓄積するようになる。サイレンス状態が終了した後の<span class=\"highlight\">{s:ImmunityDuration}秒間</span>、対象は蓄積の効果を受けない"
+		"upgrade_proc_silence_debuff_desc"		"弾薬が命中した対象の<span class=\"highlight\">与えるスピリットダメージ</span>が低下する"
+		"proc_silence_buildup"			"サイレンス蓄積中…"
+		"modifier_citadel_silence_proc_tech_damage_reduction"	"-スピリットダメージ"
+
+		//Silencer
+		"upgrade_silencer_active"		"発動後の{s:AbilityDuration}秒間、<span class=\"highlight\">すべての弾薬が即座にサイレンスを付与する</span>。サイレンス状態の対象はアビリティを使用できない"
+
+		//Slowing Bullets
+		"upgrade_slowing_bullets_desc"	"弾薬が命中した敵に<span class=\"highlight\">スロウ</span>を蓄積するようになる"
+		"upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base"					"スロウ状態"
+
+		//Inhibitor
+		"upgrade_inhibitor_desc"	"弾薬が対象に<span class=\"highlight\">与えるダメージ</span>低下を蓄積させる。また、<span class=\"highlight\">回復阻害</span>を付与する"
+		"OutgoingDamagePenaltyPercent_label"	"ダメージ低下"
+		"OutgoingDamagePenaltyPercent_postvalue_label"	"ダメージ低下"
+		"OutgoingDamagePenaltyPercent_postfix"	"%"
+
+		//Hunter's Aura
+		"upgrade_bullet_armor_reduction_aura_desc"		"付近にいる敵の<span class=\"highlight\">弾薬耐性と発射速度</span>を低下させる。付近にいるのが敵ヒーロー1人だけの場合、この<span class=\"highlight\">効果量は2倍</span>になる"
+
+		//Heroic Aura
+		"upgrade_dps_aura_active_desc"	"自分自身と付近にいる味方の<span class=\"highlight\">{g:citadel_inline_attribute:'MoveSpeed'}</span>と<span class=\"highlight\">{g:citadel_inline_attribute:'FireRate'}</span>を上昇させる。<span class=\"highlight\">トルーパー</span>に対しては効果が2倍になる"
+		"upgrade_dps_aura_desc"			"付近にいる味方に<span class=\"highlight\">弾薬耐性</span>を付与する"		
+		"modifier_dps_aura_active"		"ヒロイックアクティブ"
+		"modifier_dps_aura_player"		"ヒロイック発射速度"
+
+		//"BonusBaseDamage_label"			"Base Bullet and Melee Damage"
+		"BonusBaseDamage_postfix"		"%"
+
+		//Warp Stone
+		"upgrade_warp_stone_desc"	"前方に<span class=\"highlight\">テレポート</span>し、<span class=\"highlight\">弾薬耐性</span>を獲得する"
+		"WarpStoneRange_label"		"テレポート距離"
+		"WarpStoneRange_postvalue_label"		"テレポート距離"
+		"WarpStoneRange_postfix"		"m"
+		"CasterBuffDuration_label"	"バフ継続時間"
+		"CasterBuffDuration_postvalue_label"	"バフ継続時間"
+		"CasterBuffDuration_postfix"	"秒"
+		"CasterSlowPercent_postfix"	"%"
+
+		//Torment Pulse
+		"upgrade_tech_damage_pulse_desc"	"定期的に、一番近い敵2人に{g:citadel_inline_attribute:'SpiritDamage'}を与える"
+
+		//Mystic Burst
+		"upgrade_magic_burst_desc"	"時間経過で{g:citadel_inline_attribute:'BonusSpiritDamage'}をチャージする。アビリティで<span class=\"highlight\">{s:MinimumDamage}</span>を超えるダメージを与えると、追加ダメージを与える"
+		"MagicBurstDamage_label"		"追加ダメージ"
+
+		"MagicBurstDamage_postvalue_label"		"追加ダメージ"
+
+		//Improved Burst Tankbuster
+		"upgrade_magic_shock_desc"	"時間経過で{g:citadel_inline_attribute:'BonusSpiritDamage'}をチャージする。アビリティで<span class=\"highlight\">{s:MinimumDamage}</span>を超えるダメージを与えると、追加ダメージを与える。<span class=\"highlight\">スピリット耐性を無視する</span>"
+		"MagicShockDamage_label"		"現在HPの追加割合ダメージ"
+		"MagicShockDamage_postvalue_label"		"現在HPの追加割合ダメージ"
+		"MagicShockDamage_postfix"	"%"
+
+		//Mystic Reverb
+		"upgrade_tech_bleed_desc" "アビリティに<span class=\"highlight\">ライフスティール</span>をエンチャントする。そのアビリティはヒット時、対象に<span class=\"highlight\">スロウ</span>を付与する。また短いディレイの後、<span class=\"highlight\">与えたダメージに応じた追加ダメージ</span>を対象周囲の敵に与える"
+	
+		//Toxic Bullets
+		"upgrade_toxic_bullets_desc"	"弾薬が敵に<span class=\"highlight\">出血</span>を蓄積するようになる。出血状態の敵は時間経過で<span class=\"highlight\">最大HP</span>の<span class=\"highlight\">一定割合</span>を失う。また、出血状態の対象の<span class=\"highlight\">被回復量</span>を減少させる"
+		"upgrade_toxic_bullets_buildup"					"毒蓄積中…"
+		"upgrade_bleeding_bullets_buildup"				"セレイテッド蓄積中…"
+		"modifier_item_burning_bullets_damageovertime" 	"出血状態"
+		"upgrade_hemorrhage/modifier_item_hemorrhage/modifier_hemorrhage" "出血状態"
+
+		// Weighted Shots
+		"upgrade_weighted_shots_desc"	"弾薬が命中した敵に<span class=\"highlight\">スロウ</span>を蓄積するようになる"
+		//"upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base"					"Slowed"
+
+		//Spiritual Overflow
+		"upgrade_tech_overflow_desc"	"ヒーローに弾薬を<span class=\"highlight\">ヒットさせ続ける</span>と、<span class=\"highlight\">発射速度</span>と<span class=\"highlight\">スピリットパワー</span>と<span class=\"highlight\">スピリットライフスティール</span>を獲得する"
+		"modifier_tech_overflow_building" "オーバーフロー蓄積中…"
+
+		"OverflowTechPower_label"		"スピリットパワー"
+
+		"OverflowTechPower_postvalue_label"		"スピリットパワー"
+		"OverflowBonusDamage_postfix"	"%"
+
+		//Ricochet
+		"upgrade_ricochet_desc"		"対象にヒットした弾薬が、付近にいる敵に<span class=\"highlight\">跳弾</span>する。跳弾は<span class=\"highlight\">弾薬ヒット時効果を発生</span>させ、<span class=\"highlight\">元ダメージに応じたダメージを与える</span>"
+		"RicochetTargetsTooltipOnly_label"			"跳弾対象"
+		"RicochetTargetsTooltipOnly_postvalue_label"			"跳弾対象"
+		"RicochetDamagePercent_label"					"跳弾ダメージ"
+		"RicochetDamagePercent_postvalue_label"					"跳弾ダメージ"
+		"RicochetDamagePercent_postfix"					"%"
+		"RicochetRadius_label"							"跳弾範囲"
+		"RicochetRadius_postvalue_label"							"跳弾範囲"
+		"RicochetRadius_postfix"							"m"
+
+		"ModelScaleGrowthTooltip_label"					"モデルスケール"
+		"ModelScaleGrowthTooltip_postvalue_label"					"モデルスケール"
+		"ModelScaleGrowthTooltip_postfix"					"%"
+
+		"ShrinkDuration_label"					"シュリンク継続時間"
+		"ShrinkDuration_postvalue_label"					"シュリンク継続時間"
+		"ShrinkDuration_postfix"					"秒"
+		
+		"BonusBaseHealth_prefix"					"+"
+		"BonusBaseHealth_label"					"基礎HP"
+		"BonusBaseHealth_postvalue_label"					"基礎HP"
+		"BonusBaseHealth_postfix"					"%"
+
+		//Close Quarters
+		"upgrade_close_range_desc"	"対象が<span class=\"highlight\">近距離</span>にいる場合、追加で<span class=\"highlight\">武器ダメージ</span>を与える"
+		"upgrade_close_quarter_combat/modifier_cqc_proc/modifier_slow_base"			"スロウ状態"
+
+		//Long Range
+		"upgrade_long_range_desc"	"対象と<span class=\"highlight\">一定距離離れている</span>場合、追加で<span class=\"highlight\">武器ダメージ</span>を与える"
+
+		//Mystic Shot
+		"upgrade_crackshot_desc"	"次の弾薬が追加{g:citadel_inline_attribute:'SpiritDamage'}を与える"
+		"ProcBonusMagicDamage_prefix"	"{s:sign}"
+		"ProcBonusMagicDamage_label"	"スピリットダメージ"
+
+		"ProcBonusMagicDamage_postvalue_label"	"スピリットダメージ"
+
+		//Ethereal Bullets
+		"upgrade_ethereal_bullets_desc"	"エンチャントしたアビリティを時間経過でチャージする。チャージ状態のアビリティは使用時に{g:citadel_inline_attribute:'BonusSpiritDamage'}を与え、{g:citadel_inline_attribute:'BonusFireRate'}を獲得して<span class=\"highlight\">弾数をリロード</span>する。また、次にリロードするまで、スピリットパワーに応じた<span class=\"highlight\">{g:citadel_inline_attribute:'BonusSpiritDamage'}を弾薬が与える</span>ようになる"
+		"BulletsBonusMagicDamage_label"	"基礎弾薬ダメージ"
+		"BulletsBonusMagicDamage_postvalue_label"	"基礎弾薬ダメージ"
+		"BulletsBonusMagicDamage_prefix"	"+"
+		"BulletsBonusMagicDamage_postfix"	"%"
+
+		//Restorative Shot
+		"upgrade_medic_bullets_desc"	"次の弾薬が<span class=\"highlight\">HPを回復</span>する。回復量はヒットした対象に応じて変化する"
+		"HealFromHero_label"	"対ヒーロー回復量"
+		"HealFromHero_postvalue_label"	"対ヒーロー回復量"
+		"HealFromNPC_label"	 "対NPC／オーブ回復量"
+
+		"HealFromNPC_postvalue_label"	 "対NPC／オーブ回復量"
+
+		//Point Blank
+		"upgrade_close_quarter_combat_desc"	"対象が<span class=\"highlight\">近距離</span>にいる場合、<span class=\"highlight\">武器ダメージ</span>が上昇し、弾薬が<span class=\"highlight\">スロウ</span>を付与する"
+
+		//Headshot Booster
+		"upgrade_headshot_booster_desc"		"敵ヒーローへの次の<span class=\"highlight\">ヘッドショット</span>が、{g:citadel_inline_attribute:'BonusWeaponDamage'}を与える"
+
+		//Weakening Headshot
+		"upgrade_headshot_booster2_desc"		"<span class=\"highlight\">ヘッドショット</span>を命中させると、その対象の<span class=\"highlight\">弾薬耐性</span>を低下させる"
+
+		//Sharpshooter
+		"upgrade_sharpshooter_desc"				"対象と<span class=\"highlight\">一定距離離れている</span>場合、追加で<span class=\"highlight\">武器ダメージ</span>を与える"
+
+		//Headhunter
+		"upgrade_headhunter_desc"	"敵ヒーローへの次の<span class=\"highlight\">ヘッドショット</span>が、{g:citadel_inline_attribute:'BonusWeaponDamage'}を与え、自身を{g:citadel_inline_attribute:'Heal'}し、{g:citadel_inline_attribute:'BonusMoveSpeed'}を短時間付与する"
+		"HealPercentPerHeadshot_label"		"ヘッドショット時の回復量"
+		"HealPercentPerHeadshot_postvalue_label"		"ヘッドショット時の回復量"
+		"HealPercentPerHeadshot_postfix"	"%"
+		"BaseHealOnHeadshot_label"			"ヘッドショット時の回復量"
+		"BaseHealOnHeadshot_postvalue_label"			"ヘッドショット時の回復量"
+
+		//Spellslinger Headshots
+		"upgrade_spellslinger_headshots_part1_desc"	"弾薬が対象の<span class=\"highlight\">スピリット耐性</span>を低下させるデバフを付与するようになる。自分と味方は、デバフ状態の対象に対して<span class=\"highlight\">スピリットライフスティール</span>を獲得する"
+		"upgrade_spellslinger_headshots_part2_desc"	"<span class=\"highlight\">ヘッドショット</span>時に、対象の<span class=\"highlight\">スピリット耐性</span>をさらに低下させる"
+		"SpiritPowerGainPct_label"				"スピリットパワー"
+		"SpiritPowerGainPct_postvalue_label"				"スピリットパワー"
+		"SpiritPowerGainPct_postfix"			"%"
+		"SpellSlingerHeadshots_SpiritShredPerStack_label"		"ヘッドショット時のスピリット耐性低下"
+		"SpellSlingerHeadshots_SpiritShredPerStack_postvalue_label"		"ヘッドショット時のスピリット耐性低下"
+		"SpellSlingerHeadshots_SpiritShredPerStack_postfix"	"%"
+
+		//Crippling Headshot
+		"upgrade_banshee_slugs_headshots_desc"	"<span class=\"highlight\">ヘッドショット</span>を命中させると、その対象の<span class=\"highlight\">弾薬耐性とスピリット耐性、被回復量</span>を減少させる"
+
+		//Berserker
+		"upgrade_berserker_desc"		"継続的にダメージを受けると<span class=\"highlight\">武器ダメージ</span>が上昇する"
+
+		//Frenzy
+		"upgrade_fervor_passive"	"自身の<span class=\"highlight\">HPが{s:LowHealthThreshold}%を下回っている</span>間、一定時間ステータスが上昇し、すでに自身に付与されているデバフが軽減される"
+		"FervorTechResist_postfix"  "%"
+		"modifier_fervor_aura_active"		"フレンジー状態"
+		"FervorBulletResist_label"		"弾薬耐性"
+		"FervorBulletResist_postvalue_label"		"弾薬耐性"
+		"FervorBulletResist_prefix"		"+"
+		"FervorBulletResist_postfix"	"%"
+
+		//Soul Shredder Bullets
+		"upgrade_tech_defense_shredders_desc"	"弾薬が対象の<span class=\"highlight\">スピリット耐性</span>を低下させるデバフを付与するようになる。自分と味方は、デバフ状態の対象に対して<span class=\"highlight\">スピリットライフスティール</span>を獲得する"
+		"ShreddersTechAmp_label"				"スピリット増幅"
+		"ShreddersTechAmp_postvalue_label"				"スピリット増幅"
+		"ShreddersTechAmp_postfix"			"%"
+
+		//Hollow Point Ward
+		"upgrade_hollow_point_rounds_desc"				"自身の<span class=\"highlight\">HPが{s:LifeThreshold}%を上回っている</span>間、追加<span class=\"highlight\">武器ダメージ</span>を与え、弾薬が敵の<span class=\"highlight\">弾薬耐性</span>を低下させる"
+
+		// Pristine Emblem
+		"upgrade_pristine_emblem_desc"	"<span class=\"highlight\">HPが{s:EnemyLifeThreshold}%を上回る敵</span>に対する攻撃が追加で<span class=\"highlight\">武器ダメージ</span>を与える"
+		"BaseAttackDamagePercentBonus_label"	"武器ダメージ"
+		"BaseAttackDamagePercentBonus_postvalue_label"	"武器ダメージ"
+		"BaseAttackDamagePercentBonus_prefix"	"+"
+		"BaseAttackDamagePercentBonus_postfix"	"%"
+
+		//Disarming Bullets
+
+		//Glass Cannon
+		"upgrade_glass_cannon_desc"		"ヒーローをキルするたび、<span class=\"highlight\">永続的に発射速度</span>が上昇する（最大{s:MaxStacks}スタック）。デスするとスタックを1つ失う"
+		"GlassCannon_SlowPercent_label"		"弾薬スロウプロック"
+		"GlassCannon_SlowPercent_postvalue_label"		"弾薬スロウプロック"
+		"GlassCannon_SlowPercent_postfix"	"%"
+		"GlassCannon_SlowPercent_prefix"	"+"
+		"upgrade_glass_cannon_plus1"		"グラスキャノン +1"
+
+		//Fury Trance
+		"upgrade_fury_trance_active"	"<span class=\"highlight\">発射速度</span>と<span class=\"highlight\">スピリット耐性</span>、<span class=\"highlight\">移動速度</span>を獲得する。また、射撃中の<span class=\"highlight\">移動速度</span>ペナルティを受けなくなる。ただし、自身は<span class=\"highlight\">サイレンス</span>状態となり、<span class=\"highlight\">スタミナが使用できず回復しなくなる</span>"
+
+		//Vampiric Burst
+		"upgrade_surging_power_active"	"<span class=\"highlight\">ライフスティール</span>、<span class=\"highlight\">発射速度</span>、<span class=\"highlight\">弾数</span>を獲得する。この追加弾数はマガジンの最大容量を超過できる"
+		"ActiveBonusLifesteal_label"		"弾薬ライフスティール"
+		"ActiveBonusLifesteal_postvalue_label"		"弾薬ライフスティール"
+		"ActiveBonusLifesteal_postfix"	"%"
+
+		//Siphon Bullets
+		"upgrade_siphon_bullets_desc_passive2"	"弾薬が一時的に敵の<span class=\"highlight\">最大HPを奪う</span>。敵のHPは、デバフ効果が切れると元に戻る"
+		"HealthSteal_label"						"最大HPスティール／弾薬"
+		"HealthSteal_postvalue_label"			"最大HPスティール／弾薬"
+		"SiphonBullets_HealthStealPctHero_label"			"最大HP スティール"
+		"SiphonBullets_HealthStealPctHero_postvalue_label"	"最大HP スティール"
+		"SiphonBullets_HealthStealPctHero_postfix"			"%"
+
+		//Overdrive Clip
+		"BonusReloadSpeed_label"						"リロード時間"
+		"BonusReloadSpeed_postvalue_label"						"リロード時間"
+		"BonusReloadSpeed_Postfix"						"%"
+		"OverdriveClipDuration_Postfix"					"秒"
+
+		//Burst Fire Actuator
+		"BurstFireShotsFromClipPercent_Postfix"			"%"
+		"BonusHeadshotDamage_label"						"追加ヘッドショットダメージ"
+		"BonusHeadshotDamage_postvalue_label"						"追加ヘッドショットダメージ"
+		"BonusHeadshotDamage_postfix"					"%"
+		"BaseBonusWeaponPower_prefix"					"+"
+
+		//Lifestrike
+		"upgrade_boxing_glove_desc"						"<span class=\"highlight\">近接</span>攻撃時、対象に<span class=\"highlight\">スロウ</span>を付与し、与えた<span class=\"highlight\">近接ダメージ</span>の一定割合に固定値を加えた分のHPを<span class=\"highlight\">回復</span>する<span class=\"diminish\"><br><br>非ヒーローに対しては総回復量が{s:NonHeroHealPct}%に低下する<br>近接弱攻撃の場合はクールダウンが{s:LightMeleeCooldownMult}倍になる</span>"
+		"BonusMeleeSpeed_prefix"						"+"
+		"BonusMeleeSpeed_postfix"						"%"
+		"DisarmDuration_label"							"ディスアーム継続時間"
+		"DisarmDuration_postvalue_label"							"ディスアーム継続時間"
+		"DisarmDuration_postfix"						"秒"
+		"LifestealHeal_label"				"近接攻撃時の回復量"
+		"LifestealHeal_postvalue_label"				"近接攻撃時の回復量"
+		"LifestealHealPercent_label"				"近接攻撃時の回復"
+		"LifestealHealPercent_postvalue_label"				"近接攻撃時の回復"
+		"LifestealHealPercent_postfix"				"%"
+
+		"MeleeLifesteal_label"				"メレーライフスティール"
+		"MeleeLifesteal_postvalue_label"				"メレーライフスティール"
+		"MeleeLifesteal_postfix"				"%"
+
+
+
+		//Belt-Fed Magazine
+		"SpinUpTime_postfix"							"秒"
+		"InitialFireRateDecrease_prefix"				"-"
+		"InitialFireRateDecrease_postfix"				"%"
+		"MaxFireRateIncrease_prefix"					"+"
+		"MaxFireRateIncrease_postfix"							"%"
+		"BonusReloadTime_postfix"						"秒"
+
+		//Stabilizing Tripod
+		"StationaryRecoilReduction_postfix"					"%"
+		"StationaryWeaponPower_prefix"						"+"
+		"CasterHealthPercent_postfix"					"%"
+
+		//Burst Fire
+		"upgrade_burst_fire_desc"						"弾薬がヒーローにヒットすると、<span class=\"highlight\">発射速度</span>と<span class=\"highlight\">移動速度</span>が一時的に上昇する"
+
+		//Intensifying Magazine
+		"upgrade_intensifying_clip_desc"				"武器を連続で発射し続けることで<span class=\"highlight\">武器ダメージ</span>が上昇する"
+		"BaseAttackDamagePercentAtMaxDuration_label"	"最大武器ダメージ"
+		"BaseAttackDamagePercentAtMaxDuration_postvalue_label"	"最大武器ダメージ"
+		"BaseAttackDamagePercentAtMaxDuration_postfix"		"%"
+		"ShootDurationForMax_label"						"最大ダメージまでの時間"
+		"ShootDurationForMax_postvalue_label"						"最大ダメージまでの時間"
+		"ShootDurationForMax_postfix"							"秒"
+		
+		//Escalating Resilience
+		"upgrade_reinforcing_casings_desc"    "弾薬がヒーローにヒットすると、<span class=\"highlight\">弾薬耐性</span>を獲得する。<span class=\"highlight\">1回の射撃で複数ヒットしても1スタックしか獲得しない</span>"
+		"MaxArmorStacks_label"				"最大弾薬耐性"
+		"MaxArmorStacks_postvalue_label"				"最大弾薬耐性"
+		"MaxArmorStacks_postfix"				"%"
+		"BulletResistPerStack_label"				"弾薬耐性／スタック"
+		"BulletResistPerStack_postvalue_label"				"弾薬耐性／スタック"
+		"BulletResistPerStack_postfix"			"%"
+		"BulletResistDuration_label"				"スタック継続時間"
+		"BulletResistDuration_postvalue_label"				"スタック継続時間"
+		"BulletResistDuration_postfix"			"秒"
+
+		//Lucky Shot
+		"upgrade_critshot_desc"				"一定確率で弾薬が強化される。強化弾薬はヒット時に<span class=\"highlight\">追加で武器ダメージ</span>を与える<br><span class=\"diminish\">追加ダメージにはクリティカルが乗らない</span>"
+		"CritDamagePercent_prefix"			"+"
+		"CritDamagePercent_label"			"追加武器ダメージ"
+		"CritDamagePercent_postvalue_label"			"追加武器ダメージ"
+		"CritDamagePercent_postfix"			"%"
+
+		//Veil Walker
+		"upgrade_veil_walker_desc"			"<span class=\"highlight\">コズミックベール</span>を通過すると<span class=\"highlight\">ステルス状態</span>になる。また、<span class=\"highlight\">HPを回復</span>し、<span class=\"highlight\">移動速度</span>が上昇する"
+		"VeilWalker_MoveSpeed_label"			"インビジブル中移動速度"
+		"VeilWalker_MoveSpeed_postvalue_label"			"インビジブル中移動速度"
+		"VeilWalker_MoveSpeed_postfix"		"m"
+		"VeilWalker_Heal_label"			"回復量"
+		"VeilWalker_Heal_postvalue_label"			"回復量"
+		//Glass Cannon2
+		"upgrade_glass_cannon2_desc"		"ヒーローをキルするたび、<span class=\"highlight\">永続的に武器ダメージ</span>が上昇する（最大{s:MaxStacks}スタック）。デスするとスタックを1つ失う"
+
+		//"upgrade_split_shot"					"Split Shot"
+		"upgrade_split_shot_desc"			"武器が<span class=\"highlight\">マルチショット</span>するようになる<br><br>2人以上のヒーローに命中させると、<span class=\"highlight\">スタックする武器ダメージボーナス</span>を獲得する<br><br><span class=\"diminish\">同じ対象に複数回命中することはない</span>"
+		"upgrade_split_shot_desc_02"		"スプリットショット 複数命中ボーナス"
+		"SpecialShotsBonusFireRate_label"	"マルチショット中の発射速度"
+		"SpecialShotsBonusFireRate_postvalue_label"	"マルチショット中の発射速度"
+		"SpecialShotsBonusFireRate_postfix"	"%"
+		"SpecialShotsBonusFireRate_prefix"	"+"
+		"SplitShotWeaponDuration_label"		"スタック継続時間"
+		"SplitShotWeaponDuration_postvalue_label"		"スタック継続時間"
+		"SplitShotWeaponDuration_postfix"		"秒"
+		
+		// upgrade_blood_tribute			// Blood Tribute
+		"upgrade_blood_tribute_desc"		"切り替え：継続的にHPを捧げることで、{g:citadel_inline_attribute:'FireRate'}と<span class=\"highlight\">デバフ耐性</span>、<span class=\"highlight\">移動速度</span>が上昇する"
+
+		//"upgrade_non_player_bonus_sacrifice"	"Cultlist Sacrifice"
+		"upgrade_non_player_bonus_sacrifice_desc"	"敵NPC1体を対象にする。対象をキルして<span class=\"highlight\">{s:BonusSoulsPct}%の追加ソウル</span>を獲得し、長時間持続する強力なバフを獲得する"
+
+		//"upgrade_capacitor"						"Capacitor"
+		"upgrade_capacitor_desc"					"<span class=\"highlight\">{g:citadel_inline_attribute:'SpiritIcon'}ダメージ</span>を与える発射物を射出する。発射物は時間経過で回復する強力なスロウを付与する。また、対象は<span class=\"highlight\">スタミナが使用できなくなり</span>、<span class=\"highlight\">移動に関連するアイテムやアビリティ</span>が<span class=\"highlight\">サイレンス</span>状態になる"
+		
+		//"upgrade_enchanted_holsters"			"Enchanted Holsters"
+		"upgrade_enchanted_holsters_desc"		"戦闘中にアビリティやアイテムを発動するたび、発射速度とリロード速度を上昇させるスタック性のバフを1つ獲得する<br><span class=\"diminish\">スタックを獲得するたびに継続時間が更新される</span>"
+		
+		// "upgrade_weapon_backstabber"			"Stalker"
+		"upgrade_weapon_backstabber_desc"		"近距離で{g:citadel_inline_attribute:'WeaponDamage'}を与えると傷を付与し、{g:citadel_inline_attribute:'BonusMoveSpeed'}を獲得する<br><br>傷状態の敵は{g:citadel_inline_attribute:'SpiritDPS'}を受け、{g:citadel_inline_attribute:'BulletResist'}が低下する。また、<span class=\"highlight\">壁越し</span>にその姿を視認できる"
+		"BackstabberRadius_label"		"ボーナス効果範囲"
+		"BackstabberRadius_postvalue_label"		"ボーナス効果範囲"
+		"BackstabberRadius_postfix"		"m"
+		"ProcRadius_label"				"近距離"
+		"ProcRadius_postvalue_label"	"近距離"
+		"ProcRadius_postfix"			"m"
+		
+
+		//"upgrade_express_shot"				"Express Shot"
+		"upgrade_express_shot_desc"				"次の攻撃時に素早く<span class=\"highlight\">2回連続</span>で射撃し、<span class=\"highlight\">ダメージ</span>と弾速が上昇する。この攻撃は追加で弾薬を消費する"
+		"ProcAmmoConsumed_label"				"消費する追加弾数"
+		"ProcAmmoConsumed_postvalue_label"				"消費する追加弾数"
+		//Melee Charge
+		"upgrade_melee_charge_desc"				"次の<span class=\"highlight\">近接強攻撃</span>で敵に与える<span class=\"highlight\">ダメージが上昇</span>する"
+		"MeleeDistanceScale_label"				"近接強攻撃距離"
+		"MeleeDistanceScale_postvalue_label"				"近接強攻撃距離"
+		"MeleeDistanceScale_prefix"				"+"
+		"MeleeDistanceScale_postfix"			"%"
+		"BonusHeavyMeleeDamage_prefix"			"+"
+		"BonusHeavyMeleeDamage_label"			"近接強攻撃追加ダメージ"
+		"BonusHeavyMeleeDamage_postvalue_label"			"近接強攻撃追加ダメージ"
+		"BonusHeavyMeleeDamage_postfix"			"%"
+
+		// "upgrade_crushing_fists"				"Crushing Fists"
+		"upgrade_crushing_fists_desc"			"<span class=\"highlight\">{g:citadel_inline_attribute:'MeleeDamage'}</span>を与えると<span class=\"highlight\">弾数を回復</span>し、<span class=\"highlight\">スタックする弾薬耐性デバフ</span>を1つ付与する。近接強攻撃は2スタック付与する<br><br>スタックが最大数に達すると、対象は<span class=\"highlight\">スタン</span>状態になる"
+		"notification_crushing_fists_stun"		"クラッシュフィスト - スタン！"
+
+		//"upgrade_stackingdamageproc"		"Hungering Blade"
+		"upgrade_stackingdamageproc_desc"	"<span class=\"highlight\">HPの低い</span>ヒーローにダメージを与えると、{g:citadel_inline_attribute:'BonusWeaponDamage'}を与える<br><br>この効果はプロックするたびにスタックし、{g:citadel_inline_attribute:'BonusWeaponDamage'}が永続的に上昇する"
+
+		//"upgrade_building_buster"				"Explosive Demolition"
+		"upgrade_building_buster_desc"		"粘着爆弾を複数投げる。爆弾は長いディレイ後に起爆し、{g:citadel_inline_attribute:'WeaponDamage'}を与える<br><br>この爆弾が<span class=\"highlight\">ボス</span>にヒットした場合、{g:citadel_inline_attribute:'BonusWeaponDamage'}を与える"
+		"BossDamage_postvalue_label" "ボスダメージ"
+
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Tech
+		//-----------------------------------------------------------------------------
+		
+		// "upgrade_mystic_regeneration"		"Mystic Regeneration"
+		"upgrade_mystic_regeneration_desc"		"敵ヒーローに{g:citadel_inline_attribute:'SpiritDamage'}を与えると、ボーナス{g:citadel_inline_attribute:'Regen'}を獲得する。この効果は異なるヒーローにダメージを与えるたびにスタックする"
+
+		//Spirit Lifesteal
+		"NonHeroAbilityLifestealTooltipOnly_postfix"		"%"
+		
+		//Mystic Vulnerability
+		"upgrade_magic_vulnerability_desc"	"{g:citadel_inline_attribute:'SpiritDamage'}を与えた対象の{g:citadel_inline_attribute:'SpiritResist'}を低下させる"		
+
+		//Healbane
+		"upgrade_healbane_desc"	"{g:citadel_inline_attribute:'SpiritDamage'}を与えると、その敵の<span class=\"highlight\">被回復量</span>を減少させる。この効果を受けている敵ヒーローがデスすると、自身のHPを大幅に回復する"
+		"HealOnKill_label"		"ヒーローキル時の回復"
+
+		"HealOnKill_postvalue_label"		"ヒーローキル時の回復"
+
+		//Mystic Slow
+		"upgrade_magic_slow_desc"	"{g:citadel_inline_attribute:'SpiritDamage'}を与えた対象の<span class=\"highlight\">移動速度</span>を低下させる"
+
+		//Escalating Exposure
+		"upgrade_escalating_exposure_desc"	"{g:citadel_inline_attribute:'SpiritDamage'}を与えるとスタックする<span class=\"highlight\">スピリット増幅</span>を獲得する。この効果は対象に与える{g:citadel_inline_attribute:'SpiritDamage'}を上昇させる"
+		"EscalatingExposureProcCooldown_label"	"対象ごとの最大頻度"
+		"EscalatingExposureProcCooldown_postvalue_label"	"対象ごとの最大頻度"
+		"EscalatingExposureProcCooldown_postfix"	"秒"
+		"EscalatingExposureTechArmorDamageReduction_label"	"スピリットダメージによる耐性低下"
+		"EscalatingExposureTechArmorDamageReduction_postvalue_label"	"スピリットダメージによる耐性低下"
+		"EscalatingExposureTechArmorDamageReduction_postfix"	"%"
+
+		//Mystic Reach
+		"upgrade_magic_reach_desc"			"エンチャントしたアビリティの<span class=\"highlight\">距離</span>と<span class=\"highlight\">効果範囲</span>を上昇させる"
+
+		//Improved Reach
+		"upgrade_tech_range_desc"			"アビリティおよびアイテムの<span class=\"highlight\">範囲</span>と<span class=\"highlight\">効果範囲</span>が拡大する"
+
+		//Omni Spirit
+		"upgrade_long_range_slowing_tech/modifier_long_range_slowing_tech_proc/modifier_slow_base"	"スロウ状態"
+
+		//Improved Cooldown
+		"upgrade_magic_tempo_desc"	"エンチャントしたアビリティの<span class=\"highlight\">クールダウン</span>を短縮する"
+
+		//Superior Cooldown
+		"upgrade_cooldown_reduction_desc"	"アビリティの<span class=\"highlight\">クールダウン</span>を短縮する"
+
+		//Transcendent Cooldown
+		"upgrade_transcendent_cooldown_desc"	"アビリティおよびアイテムの<span class=\"highlight\">クールダウン</span>を短縮する"
+
+		//Extra Charge
+		//"upgrade_extra_charge_desc"	"Adds one to your ability max <span class=\"highlight\">charges</span>."
+		"BonusSpiritForChargedAbilities_prefix"						"+"
+		"BonusSpiritForChargedAbilities_label"						"チャージアビリティのボーナススピリットパワー"
+		"BonusSpiritForChargedAbilities_postvalue_label"						"チャージアビリティのボーナススピリットパワー"
+
+		//Rapid Recharge
+		"CooldownReductionOnChargedAbilities_label"	"チャージアビリティのクールダウン短縮"
+		"CooldownReductionOnChargedAbilities_postvalue_label"	"チャージアビリティのクールダウン短縮"
+		"CooldownReductionOnChargedAbilities_postfix" "%"
+		"CooldownReductionOnChargedAbilities_prefix" "+"
+
+		//Alchemical Fire
+		"upgrade_thermal_detonator_desc"		"接触時に爆発する瓶を投げる。生成されたエリア内にいる敵には増加する{g:citadel_inline_attribute:'SpiritDamage'}を<span class=\"highlight\">毎秒</span>与え続け、<span class=\"highlight\">弾薬耐性</span>を低下させる<br><br>非ヒーローには効果が{s:NonHeroReductionPercent}%減少する"
+		"BonusBaseWeaponDamageTaken_prefix"		"+"
+		"BonusBaseWeaponDamageTaken_label"		"武器ダメージ"
+		"BonusBaseWeaponDamageTaken_postvalue_label"		"武器ダメージ"
+		"BonusBaseWeaponDamageTaken_postfix"	"%"
+
+		//Fleetfoot
+		"upgrade_fleetfoot_boots_active_desc"	"<span class=\"highlight\">移動速度</span>と<span class=\"highlight\">スロウ耐性</span>が上昇する"
+		"upgrade_fleetfoot_boots_passive_desc"	"射撃中の<span class=\"highlight\">移動速度</span>ペナルティを受けなくなる"
+
+		//Kinetic Dash
+		"upgrade_kinetic_sash_desc"		"<span class=\"highlight\">ダッシュジャンプ</span>時に<span class=\"highlight\">発射速度</span>が上昇し、追加<span class=\"highlight\">弾数</span>を獲得する。この効果は次にリロードするまで、最大で{s:AbilityDuration}秒間継続する"
+
+		//Arcane Surge
+		"upgrade_arcane_surge_desc"			"<span class=\"highlight\">ダッシュジャンプ</span>後の{s:ArcaneSurgeWindow}秒間、<span class=\"highlight\">次に使用するアビリティ</span>の<span class=\"highlight\">範囲と継続時間</span>、<span class=\"highlight\">スピリットパワー</span>が強化される"
+		"modifier_arcane_surge_triggered"	"アーケインサージ！"
+		"modifier_arcane_surge_ability"		"アビリティサージ！"
+		"ArcaneSurgeWindow_label"				"強化時間"
+		"ArcaneSurgeWindow_postvalue_label"		"強化時間"
+		"ArcaneSurgeWindow_postfix"				"秒"
+
+		//Active Reload
+		"upgrade_active_reload_desc"	"リロード中にハイライト部分で{g:citadel_binding:'Reload'}を押すと<span class=\"highlight\">リロードが一瞬で完了</span>する。また、効果発動時に<span class=\"highlight\">発射速度</span>と<span class=\"highlight\">移動速度</span>が上昇し、<span class=\"highlight\">弾薬ライフスティール</span>を獲得する"
+
+		//Slowing Hex
+		"upgrade_containment_desc"			"指定した敵を<span class=\"highlight\">スロウ</span>状態にする。また、<span class=\"highlight\">移動に関連するアイテムやアビリティ</span>に限り、対象を<span class=\"highlight\">サイレンス</span>状態にする<br><span class=\"diminish\">対象にかかる重力を増加させる<br>スタミナを消費する行動には効果がない</span>"
+
+		//Spirit Sap
+		"upgrade_spirit_sap_desc"			"指定した敵の<span class=\"highlight\">スピリット耐性</span>と<span class=\"highlight\">スピリットパワーを低下</span>させる"
+
+		//Focus Lens
+		"upgrade_focus_lens_desc"			"指定した敵を<span class=\"highlight\">サイレンス</span>状態にする。サイレンス状態が終了したとき、サイレンス状態中に与えた<span class=\"highlight\">すべてのダメージ</span>に応じたダメージを対象に与える"
+		"PercentDamage_label"				"終了時のダメージ"
+		"PercentDamage_postvalue_label"				"終了時のダメージ"
+		"PercentDamage_postfix"				"%"
+
+		//Withering Whip , Rusted Barrel
+		"upgrade_withering_whip_desc"		"指定した敵の<span class=\"highlight\">発射速度</span>と<span class=\"highlight\">弾薬耐性</span>を低下させる"
+		"modifier_withering_whip_debuff"	"-発射速度"
+		"MagicAmp_label"					"スピリット増幅"
+		"MagicAmp_postvalue_label"					"スピリット増幅"
+		"MagicAmp_postfix"					"%"
+		"WitheringWhipDisarmDuration_label"	"継続時間"
+		"WitheringWhipDisarmDuration_postvalue_label"	"継続時間"
+		"WitheringWhipDisarmDuration_postfix"	"秒"
+		"SpiritPower_label"					"スピリットパワー"
+		"SpiritPower_postvalue_label"					"スピリットパワー"
+		"SpiritPower_prefix"					"+"
+
+		// Disarming Hex
+		"upgrade_greater_withering_whip_desc"		"指定した敵を<span class=\"highlight\">ディスアーム</span>状態にし、<span class=\"highlight\">弾薬耐性</span>を低下させる"
+		"upgrade_greater_withering_whip_debuff"		"ディスアーム状態"
+
+		//Ethereal Shift
+		"upgrade_self_bubble_desc"			"即座にヴォイド状態となって短時間無敵状態になる。"
+		"upgrade_self_bubble_desc2"			"その後、複数のバフを一時的に獲得する："
+		"ShiftingVeil_channel_desc"			"無敵状態"
+		"ShiftingVeilDuration_label"			"継続時間"
+		"ShiftingVeilDuration_postvalue_label"			"継続時間"
+		"ShiftingVeilDuration_postfix"		"秒"
+		"BonusSpiritDuration_label"			"スピリットパワー上昇継続時間"
+		"BonusSpiritDuration_postvalue_label"			"スピリットパワー上昇継続時間"
+		"BonusSpiritDuration_postfix"			"秒"
+		"BonusTechPower_prefix"				"{s:sign}"
+		"BonusTechPower_label"				"スピリットパワー"
+		"BonusTechPower_postvalue_label"				"スピリットパワー"
+		"shifting_veil_bonus"			"スピリットパワー、速度、スピリット耐性"
+
+		//Rescue Beam
+		"upgrade_rescue_beam_desc"		"指定した味方ヒーローと自分を<span class=\"highlight\">最大HP</span>の一定割合<span class=\"highlight\">回復</span>する。回復中、対象を自身の近くへと<span class=\"highlight\">引っ張る</span>ことができる。このアイテムはセルフキャストできる"
+		"SelfModifier_postfix"			"%"
+		"upgrade_rescue_beam_pull"		"対象を救出"
+
+		//Slowing Spirit
+		"upgrade_slowing_tech/modifier_slowing_tech_proc/modifier_slow_base"						"スロウ状態"
+
+		//Refresher
+		"upgrade_ability_refresher_desc"	"すべてのアビリティの<span class=\"highlight\">クールダウンをリセット</span>し、<span class=\"highlight\">すべてのチャージを回復</span>する"
+
+		//Cold Front
+		"upgrade_cold_front_desc"			"氷の衝撃波を発生させる。衝撃波はヒット時に{g:citadel_inline_attribute:'SpiritDamage'}を与え、対象に<span class=\"highlight\">スロウ</span>を付与する"
+
+		//Arctic Blast
+		"upgrade_arctic_blast_desc"			"膨張する氷の波動を放つ。波動は命中した対象に{g:citadel_inline_attribute:'SpiritDamage'}を与えて<span class=\"highlight\">凍結</span>させ、その後<span class=\"highlight\">スロウ</span>状態を付与する<br><br>スロウ状態の対象は<span class=\"highlight\">スタミナリジェネが凍結する</span>"
+		"ArcticBlastSlowDuration_label"		"スロウ継続時間"
+		"ArcticBlastSlowDuration_postvalue_label"		"スロウ継続時間"
+		"ArcticBlastSlowDuration_postfix"	"秒"
+		"ArcticBlastPercentDamage_label"	"凍結時の追加ダメージ"
+		"ArcticBlastPercentDamage_postvalue_label"	"凍結時の追加ダメージ"
+		"ArcticBlastPercentDamage_postfix"	"%"
+
+		//Knockdown
+		"upgrade_target_stun_desc"			"<span class=\"highlight\">{s:StunDelay}秒</span>のディレイ後に対象を<span class=\"highlight\">スタン</span>させる。<span class=\"highlight\">空中</span>にいる対象に対してはスタン継続時間が増加する<br><br><span class=\"diminish\">スタン状態の間、対象にかかる重力を増加させる</span>"
+		
+		//Vortex Web
+		"upgrade_aoe_root_active"		"<span class=\"highlight\">バキューム</span>グレネードを投げる。グレネードは小範囲へとすべての敵を引き寄せ、<span class=\"highlight\">スロウヘックス</span>を付与する<span class=\"diminish\"><br><br>オルトキャストで直接ユニットを指定する</span>"
+
+		//Curse
+		"upgrade_glitch_desc"					"敵1人を呪うことで<span class=\"highlight\">行動を中断させ、サイレンス状態とディスアーム状態</span>を付与し、<span class=\"highlight\">アイテムを使用できなくする</span>。<span class=\"highlight\">非アルティメットのバフすべてを解除する</span><br><br>効果の継続時間中、自身が<span class=\"highlight\">与えるダメージ</span>は減少する"
+		"modifier_glitch_debuff"				"呪われた！"
+		"modifier_glitch_self_penalty"			"呪いの反動"
+
+		//Bullet Resist Shredder
+		"upgrade_bullet_resist_shredder_desc"	"{g:citadel_inline_attribute:'SpiritDamage'}を与えた対象の<span class=\"highlight\">弾薬耐性</span>を低下させる"
+		"upgrade_bullet_resist_shredder/modifier_bullet_armor_shredder_proc/modifier_bullet_armor_shredder" "弾薬耐性低下"
+
+		//Echo Shard
+		"upgrade_ability_power_shard_active"	"エンチャントしたアビリティ（アルティメットを除く）の<span class=\"highlight\">クールダウンをリセット</span>する<br><br>このアイテムのクールダウンは、<span class=\"highlight\">エンチャントしたアビリティのクールダウン</span>に応じて増加する"
+
+		//Duration Extender
+		"upgrade_arcane_extension_desc"	"エンチャントしたアビリティの<span class=\"highlight\">継続時間</span>を増加させる"
+
+		//Superior Duration
+		"upgrade_imbued_duration_extender_desc"	"アビリティおよびアイテムの<span class=\"highlight\">継続時間</span>が長くなる"
+
+		//Diviner's Kevlar
+		"upgrade_diviners_kevlar_desc"			"<span class=\"highlight\">アルティメットアビリティ</span>の発動時、<span class=\"highlight\">バリア</span>と一時的な<span class=\"highlight\">スピリットパワー</span>を獲得する"
+		"BonusChannelTechPower_prefix"			"+"
+		
+		"BonusChannelTimePercentage_label"		"詠唱時間"
+		"BonusChannelTimePercentage_postvalue_label"		"詠唱時間"
+		"BonusChannelTimePercentage_prefix"		"+"
+		"BonusChannelTimePercentage_postfix"	"%"
+
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_label"		"詠唱時間"
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_postvalue_label"		"詠唱時間"
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_prefix"		"+"
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_postfix"	"%"
+
+		//Infuser
+		"upgrade_infuser_desc"			"<span class=\"highlight\">スピリットライフスティール</span>と<span class=\"highlight\">スピリットパワー</span>を獲得する"
+
+		//Spirit Strike
+		"upgrade_acolytes_glove_desc"			"ヒーローに対して<span class=\"highlight\">近接弱攻撃か近接強攻撃</span>を行うと、追加で{g:citadel_inline_attribute:'SpiritDamage'}を与え、対象の<span class=\"highlight\">スピリット耐性</span>を低下させる<span class=\"diminish\"><br><br>近接弱攻撃の場合はクールダウンが{s:LightMeleeCooldownMult}倍になる</span>"
+		"SpiritDamage_label"					"スピリットダメージ"
+		"SpiritDamage_postvalue_label"					"スピリットダメージ"
+
+		//Spirit Snatch
+		"upgrade_spirit_snatch_desc"			"ヒーローに対して<span class=\"highlight\">近接弱攻撃か近接強攻撃</span>を行うと、追加で{g:citadel_inline_attribute:'SpiritDamage'}を与え、対象の<span class=\"highlight\">スピリット耐性</span>と<span class=\"highlight\">スピリットパワー</span>を吸収する<span class=\"diminish\"><br><br>近接弱攻撃の場合は効果量が{s:LightMeleeReduction}%減少する</span>"
+		"SpiritSnatch_TechArmorSteal_label"		"スピリット耐性の吸収量"
+		"SpiritSnatch_TechArmorSteal_postvalue_label"		"スピリット耐性の吸収量"
+		"SpiritSnatch_TechArmorSteal_postfix"	"%"
+		"SpiritSnatch_TechPowerSteal_label"		"スピリットパワーの吸収量"
+		"SpiritSnatch_TechPowerSteal_postvalue_label"		"スピリットパワーの吸収量"
+
+		//Clarity
+		//"upgrade_magic_clarity_desc"			"On ability or item use, gain a <span class=\"highlight\">move speed</span> bonus for {s:AbilityDuration}s. Your next ability cast will remove the move speed bonus and apply a <span class=\"highlight\">Spirit</span> bonus to that ability."
+		"ClarityBonusSpirit_prefix"				"{s:sign}"
+
+		//Surge of Power
+		"upgrade_magic_storm_desc"				"このアイテムをエンチャントしたアビリティは<span class=\"highlight\">永続的にスピリットパワー</span>が上昇する。エンチャントアビリティを使用すると、<span class=\"highlight\">移動速度</span>が上昇し、射撃中の移動速度ペナルティを受けなくなる"
+
+		//Suppressor
+		"upgrade_suppressor_desc"					"{g:citadel_inline_attribute:'SpiritDamage'}を与えると、その敵の<span class=\"highlight\">発射速度</span>を低下させる"
+		"suppressor_debuff"						"-発射速度"
+
+		//Quicksilver Reload
+		"upgrade_quick_silver_desc"				"エンチャントしたアビリティを時間経過でチャージする。チャージ状態のアビリティは使用時に{g:citadel_inline_attribute:'BonusSpiritDamage'}を与え、{g:citadel_inline_attribute:'BonusFireRate'}を獲得して<span class=\"highlight\">弾数をリロード</span>する"
+
+		//Resonant Healing
+		"upgrade_resonant_healing_desc"			"アビリティを発動するとHPを回復し、ボーナス<span class=\"highlight\">移動速度</span>を短時間獲得する"
+		"HealingPerCast_Label"					"アビリティ発動時の回復量"
+
+		"HealingPerCast_postvalue_label"					"アビリティ発動時の回復量"
+
+		// Magic carpet
+		"upgrade_magic_carpet_desc"				"乗ることで<span class=\"highlight\">飛行</span>が可能なマジックカーペットを召喚する。飛行中はスロウを無効化し、いずれかのアクションを実行するとカーペットが消失する<span class=\"diminish\"><br>カーペット召喚中はアビリティを使用できない</span>"
+		"modifier_summon_magiccarpet"			"カーペット召喚中"
+		"MagicCarpetMoveSpeed_prefix"			"+"
+		"MagicCarpetMoveSpeed_label"			"増加飛行速度"
+		"MagicCarpetMoveSpeed_postvalue_label"			"増加飛行速度"
+		"MagicCarpetMoveSpeed_postfix"			"m"
+		"MagicCarpetShieldDuration_label"		"シールド継続時間"
+		"MagicCarpetShieldDuration_postvalue_label"		"シールド継続時間"
+		"MagicCarpetShieldDuration_postfix"		"秒"
+		"MagicCarpetSummoning_channel"			"召喚"
+
+		// Hex-Sealed Knuckles
+		"upgrade_superacolytes_glove_desc"			"合計で<span class=\"highlight\">{s:StoredSpiritDamage}</span>のスピリットダメージを与えると、次の<span class=\"highlight\">近接強攻撃</span>が追加で<span class=\"highlight\">{s:StoredSpiritDamage}のスピリットダメージ</span>を与える"
+		"StoredSpiritDamage_label"			"合計スピリットダメージ"
+		"StoredSpiritDamage_postvalue_label"			"合計スピリットダメージ"
+		"upgrade_superacolytes_glove/modifier_superacoloytes_glove" "ナックル解放！"
+
+		//SpiritBurn
+		"upgrade_spirit_burn_desc"	"敵に対して{s:DamageThresholdDuration}秒以内に一定以上の{g:citadel_inline_attribute:'SpiritDamage'}を与えると、ダメージを与える爆発を発生させ、その敵に燃焼を付与する。燃焼状態の敵は継続ダメージを受け、被回復量が低下する<br><span class=\"diminish\">燃焼付与のクールダウンは対象ごとに適用される。非ヒーローに対しては与えるダメージが半減する</span>"
+		"modifier_spirit_burn_immunity"	"スピリットバーン 無効"
+		"MinDPS_label" "最小DPS"
+
+		"MinDPS_postvalue_label" "最小DPS"
+
+		//Lightning Scroll
+		"upgrade_ultimate_burst_desc"			"アルティメットでダメージを与えると、短いディレイ後に{g:citadel_inline_attribute:'Stun'}を付与し、{g:citadel_inline_attribute:'BonusSpiritDamage'}を与える</span>"
+		"upgrade_ultimate_burst_upgrade"		"<span class=\"highlight\">ミスティックスロウ 効果</span>"
+		"upgrade_ultimate_burst_hint"			"<span class=\"diminish\">この効果は1度のアルティメットにつき、対象ごとに1度のみ発生する</span>"
+		"LightningScrollMysticSlow_label"		"スピリットダメージ時の移動速度"
+		"LightningScrollMysticSlow_postvalue_label"		"スピリットダメージ時の移動速度"
+		"LightningScrollMysticSlow_prefix"		"-"
+		"LightningScrollMysticSlow_postfix"		"%"
+		"DelayBeforeStun_label"					"効果発生までのディレイ時間"
+		"DelayBeforeStun_postvalue_label"					"効果発生までのディレイ時間"
+		"DelayBeforeStun_postfix"				"秒"
+
+		"MaxHealthDamage_label" "最大HPダメージ"
+		"MaxHealthDamage_postvalue_label" "最大HPダメージ"
+		"MaxHealthDamage_postfix" "%"
+
+		"CurrentHealthDamage_label" "現在HPの割合ダメージ"
+		"CurrentHealthDamage_postvalue_label" "現在HPの割合ダメージ"
+		"CurrentHealthDamage_postfix" "%"
+
+		"UltimateTechPower_label" "アルティメット スピリットパワー"
+
+		"UltimateTechPower_postvalue_label" "アルティメット スピリットパワー"
+
+		//Corpse Explosion
+		"upgrade_corpse_explosion_desc"			"キル／アシスト時にデスした対象の場所で<span class=\"highlight\">爆発</span>が発生する。ヒーローをキルした場合は、爆発の範囲が広がりダメージが上昇する"
+		"HeroMultiplier_label" "ヒーローエクスプロージョン 乗数"
+		"HeroMultiplier_postvalue_label" "ヒーローエクスプロージョン 乗数"
+		"HeroMultiplier_postfix" "%"
+
+		//Golden Goose Egg
+		"upgrade_goose_egg_desc"	"生存している限り、<span class=\"highlight\">時間経過でソウル</span>を獲得する"
+		"upgrade_goose_egg_active_desc"	"卵をふ化させ、<span class=\"highlight\">ソウル</span>と<span class=\"highlight\">永続バフ</span>を獲得する<br><br>卵を所有している時間が長いほど、卵の価値は高くなる<br><br><span class=\"diminish\">ふ化させた時に蓄積していたソウル{s:BonusBuffsPerGold}につき、1つ永続バフを獲得する"
+		"upgrade_goose_egg_stacklabel" "ソウル獲得量"
+		"GoldPerMinute_postvalue_label" "ソウル／分"
+		"GoldPerMinute_prefix" "{s:sign}"
+		"BonusGoldPerMinute_postvalue_label" "ソウル量／分"
+
+		"SellBonusSouls_label"	"売却ボーナスソウル："
+
+		//"SellBonusSouls_postvalue_label"	"Sell Bonus Souls:"
+		//"SellBonusSouls_postvalue_prefix"	"{g:citadel_inline_attribute:'SoulsIcon'}"
+
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Armor
+		//-----------------------------------------------------------------------------
+		
+		//Healing Rite
+		"upgrade_health_stimpak_desc"					"指定した対象に<span class=\"highlight\">リジェネ</span>と<span class=\"highlight\">スプリント速度</span>を付与する。敵プレイヤーかオブジェクトからダメージを受けると効果が切れる。このアイテムはセルフキャストできる"
+
+		//Shrink Ray
+		"upgrade_shrink_ray_desc"					"対象の<span class=\"highlight\">モデルサイズ</span>を縮小させ、<span class=\"highlight\">移動速度</span>を上昇させる。このモードでは<span class=\"highlight\">トンネルを使用</span>できる。セルフキャストが可能"
+		
+		//Guardian Ward
+		"upgrade_guardian_ward_desc"		"指定した対象に<span class=\"highlight\">バリア</span>を付与し、一時的に<span class=\"highlight\">移動速度</span>を上昇させる<span class=\"diminish\"><br>このアイテムはセルフキャストできる<br>自分以外に使用すると、クールダウンが半減する</span>"
+
+		//Divine Barrier
+		"upgrade_divine_barrier_desc"		"指定した対象に付与された<span class=\"highlight\">スタンを除くデバフをすべて解除</span>する。また、対象に<span class=\"highlight\">バリア</span>と<span class=\"highlight\">移動速度</span>を付与する<span class=\"diminish\"><br>このアイテムはセルフキャストできる。自分以外に使用すると、クールダウンが半減する</span>"
+
+		//Restorative Locket
+		"upgrade_restorative_locket_active_desc"		"所有者の{s:Radius}m以内で敵がアビリティを使用するたび、<span class=\"highlight\">治癒スタック</span>を1つ獲得する<br><br>スタックすべてを消費することで<span class=\"highlight\">自身のHPを回復</span>し、スタック数に応じて<span class=\"highlight\">スタミナを最大で{s:MaxStaminaRestore}</span>回復させる"
+		"HealPerStack_label"								"回復／スタック"	
+		"MinStaminaRestore_label"							"スタミナ 最小回復量"
+		"MinStaminaRestore_postvalue_label"							"スタミナ 最小回復量"
+		"MaxStaminaRestore_label"							"スタミナ 最大回復量"
+		"MaxStaminaRestore_postvalue_label"							"スタミナ 最大回復量"
+
+		"HealPerStack_postvalue_label"								"回復／スタック"
+
+		//Cheat Death
+		"upgrade_cheat_death_unkillable_passive"	"HPがゼロになるようなダメージを受けたとき、<span class=\"highlight\">一時的にデスを無効化</span>し、<span class=\"highlight\">スタンを除くデバフをすべて解除</span>する<br><br>デス無効状態中は<span class=\"highlight\">与えるダメージ</span>や<span class=\"highlight\">被回復量</span>が低下する"
+		"DeathImmunityDuration_label"	"デス無効継続時間"
+		"DeathImmunityDuration_postvalue_label"	"デス無効継続時間"
+		"DeathImmunityDuration_postfix"	"秒"
+		"DeathImmunityDamageReduction_label"		"ダメージ軽減"
+		"DeathImmunityDamageReduction_postvalue_label"		"ダメージ軽減"
+		"DeathImmunityDamageReduction_postfix"		"%"
+
+		//Healing Booster
+		"upgrade_healing_booster_desc"		"自身の<span class=\"highlight\">回復効果</span>が上昇する"
+
+		//Debuff Reducer
+		"upgrade_debuff_reducer_desc"			"付与された状態異常の<span class=\"highlight\">継続時間</span>が短くなる"
+
+		//Debuff Remover | Dispel Magic
+		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">アルティメット以外で付与されたすべての状態異常を解除する</span>。何らかの状態異常を解除すると<span class=\"highlight\">HPを回復</span>し、<span class=\"highlight\">移動速度が上昇</span>する<br><span class=\"diminish\">スタン状態や睡眠状態の間は使用できない</span>"
+		"HealOnActivate_label"		"発動時のHP回復量"
+		"HealOnActivate_postvalue_label"		"発動時のHP回復量"
+
+		"damage_reduction_postfix"						"%"
+
+		//Decay
+		"upgrade_rupture_desc"				"対象に<span class=\"highlight\">継続ダメージ</span>を与え、対象の現在HPに応じたダメージを与える<br>ディケイのダメージではキルできず、アイテムのプロックも発生しない"
+		"HealReductionDuration_label"		"回復阻害継続時間"
+		"HealReductionDuration_postvalue_label"		"回復阻害継続時間"
+		"HealReductionDuration_postfix"		"秒"
+
+		//Discord | Scourge
+		"upgrade_discord_desc"						"指定した味方に<span class=\"highlight\">スピリット耐性</span>と<span class=\"highlight\">デバフ耐性</span>を付与し、最大HPに応じた<span class=\"highlight\">{g:citadel_inline_attribute:'SpiritIcon'}ダメージ</span>を与えるオーラを付与する。対象にすでに付与されているデバフは軽減される<br>このアイテムはセルフキャストできる"
+		"MaxHealthPercentAsDPS_label"				"最大HP／秒"
+		"MaxHealthPercentAsDPS_postvalue_label"				"最大HP／秒"
+		"MaxHealthPercentAsDPS_postfix"				"%"
+		
+		//Fortitude
+		"upgrade_chonky_desc"							"一定時間ダメージを受けないと、リジェネを獲得する"
+		"upgrade_chonky_high_health_passive_desc"		"自身の<span class=\"highlight\">HPが{s:HealthThreshold}%を上回っている</span>間、<span class=\"highlight\">移動速度</span>が上昇する"
+
+		//Leech
+		"upgrade_damage_recycler_desc"				"敵から付与される<span class=\"highlight\">回復阻害</span>の効果を軽減する"
+		"LeechHealOnKill_prefix"					"+"
+		"LeechHealOnKill_label"						"キル時の最大HP回復"
+		"LeechHealOnKill_postvalue_label"						"キル時の最大HP回復"
+		"LeechHealOnKill_postfix"					"%"
+		
+		//Rebirth
+		"upgrade_personal_rejuvenator_desc"		"デスした場所にヒーローを復活させる"
+		"RespawnDelay_postfix"						"秒"
+		"SpawnTimePenalty_prefix"				"+"
+		"SpawnTimePenalty_label"				"増加リスポーン時間"
+		"SpawnTimePenalty_postvalue_label"				"増加リスポーン時間"
+		"SpawnTimePenalty_postfix"				"秒"
+
+		//Phantom Strike
+		"upgrade_phantom_strike_desc"			"指定した敵の場所まで<span class=\"highlight\">テレポート</span>し、対象を地面に引き寄せる。対象には<span class=\"highlight\">ダメージ</span>を与え、<span class=\"highlight\">移動速度</span>を低下させて<span class=\"highlight\">ディスアーム</span>状態を付与する"
+		"PhantomStrikeDebuffDuration_label"		"デバフ継続時間"
+		"PhantomStrikeDebuffDuration_postvalue_label"		"デバフ継続時間"
+		"PhantomStrikeDebuffDuration_postfix"		"秒"
+		"modifier_phantom_strike_bulletshield"		"弾薬シールド"
+
+		//Soul Rebirth
+		"upgrade_rebirth_passive"				"デスしてから{s:RespawnDelay}秒後、HPの一定割合を回復した状態で<span class=\"highlight\">その場にリスポーン</span>する"
+
+		//Return Fire
+		"upgrade_return_fire_desc"					"アビリティや武器で自身にダメージを与えた対象に、自動的に<span class=\"highlight\">弾薬を発射</span>する"
+		"ActiveFireRate_label"						"発射速度"
+		"ActiveFireRate_postvalue_label"						"発射速度"
+		"ActiveFireRate_postfix"						"%"
+
+		//Metal Skin
+		"upgrade_metal_skin_desc"						"<span class=\"highlight\">弾薬を無効化</span>する"
+		"AbilityApplyDelay_postfix"						"秒"
+
+		//Battle Vest
+		"upgrade_regenerating_bullet_shield_desc"	"自身の<span class=\"highlight\">HPが{s:LifeThreshold}%を上回っている</span>間、<span class=\"highlight\">{g:citadel_inline_attribute:'WeaponDamage'}</span>と<span class=\"highlight\">{g:citadel_inline_attribute:'BonusFireRate'}</span>を獲得する"
+
+		//Enchanter's Emblem
+		"upgrade_magic_shield_desc"		"自身の<span class=\"highlight\">HPが{s:LifeThreshold}%を上回っている</span>間、ボーナス<span class=\"highlight\">{g:citadel_inline_attribute:'Spirit'}</span>を獲得し、<span class=\"highlight\">クールダウンが短縮</span>される"
+		
+		// "upgrade_weapon_shielding"						"Weapon Shielding"
+		"upgrade_weapon_shielding_desc"			"短時間内に敵ヒーローから一定以上の{g:citadel_inline_attribute:'WeaponDamage'}を受けると、<span class=\"highlight\">バリア</span>を獲得する"
+		"DamageWindow_label"								"判定時間"
+		"DamageWindow_postvalue_label"								"判定時間"
+		"DamageWindow_postfix"								"秒"
+		
+		// "upgrade_spirit_bubble"							"Spirit Bubble"
+		"upgrade_spirit_bubble_desc"			"短時間内に敵ヒーローから一定以上の{g:citadel_inline_attribute:'SpiritDamage'}を受けると、<span class=\"highlight\">バリア</span>を獲得する"
+
+		// "upgrade_grit"							"Grit"
+		"upgrade_grit_desc"			"短時間、<span class=\"highlight\">バリア</span>を獲得する"
+
+		//Unstoppable
+		"upgrade_unstoppable_desc"				"<span class=\"highlight\">状態異常</span>を一時的に抑制し、<span class=\"highlight\">スタン、サイレンス、睡眠、移動不能、ディスアーム</span>を<span class=\"highlight\">無効化</span>する<br><span class=\"highlight\">スタン状態</span>や<span class=\"highlight\">睡眠状態</span>の間は使用できない"
+
+		//Colossus
+		"upgrade_colossus_desc"			"<span class=\"highlight\">サイズが大きく</span>なり、{g:citadel_inline_attribute:'BulletResist'}、{g:citadel_inline_attribute:'SpiritResist'}、{g:citadel_inline_attribute:'MeleeDamage'}を獲得する<br><br>付近にいる敵は{g:citadel_inline_attribute:'Slow'}状態になり、<span class=\"highlight\">ダッシュ速度</span>が低下する"
+		"BuffBulletResist_label"		"弾薬耐性"
+		"BuffBulletResist_postvalue_label"		"弾薬耐性"
+		"BuffBulletResist_postfix"		"%"
+		"BuffTechResist_label"			"スピリット耐性"
+		"BuffTechResist_postvalue_label"			"スピリット耐性"
+		"BuffTechResist_postfix"		"%"
+
+		// Rebuttal - upgrade_melee_rebuttal
+		"upgrade_melee_rebuttal_desc"				"敵ヒーローへの<span class=\"highlight\">パリィ</span>に成功すると、パリィしたダメージ分、自身のHPを<span class=\"highlight\">回復</span>し、対象にそのダメージを与える。また、一時的に<span class=\"highlight\">ダメージ</span>が上昇する"
+
+		// Counterspell
+		"upgrade_counterspell_desc"				"次のパリィが<span class=\"highlight\">ダメージを防ぎ、敵のアビリティやアイテムによる効果を防ぐ</span>ようになる。スペルパリィに成功するとHPを{g:citadel_inline_attribute:'Heal'}し、{g:citadel_inline_attribute:'MoveSpeed'}と{g:citadel_inline_attribute:'Spirit'}を獲得する"
+		
+		"ParrySuccessHealPercentage_label"					"回復変換率"
+		"ParrySuccessHealPercentage_postvalue_label"					"回復変換率"
+		"ParrySuccessHealPercentage_postfix"					"%"
+
+		// 
+		"upgrade_tech_purge_desc"	"自身の<span class=\"highlight\">HPが{s:HealthThreshold}%を下回っている</span>間、追加のスピリット耐性を獲得する"
+		"upgrade_improved_bullet_armor_desc"	"自身の<span class=\"highlight\">HPが{s:HealthThreshold}%を下回っている</span>間、追加の<span class=\"highlight\">弾薬耐性</span>を獲得する"
+
+		// Spellbreaker
+		"upgrade_spellbreaker_desc"				"次に受ける{g:citadel_inline_attribute:'SpiritDamage'}が一定量を超える場合、そのダメージを大幅に軽減する"
+		"SpiritDamageReductionProc_label"		"スピリットダメージ低下"
+		"SpiritDamageReductionProc_postvalue_label"		"スピリットダメージ低下"
+		"SpiritDamageReductionProc_postfix"		"%"
+
+		"upgrade_juggernaut_slow_desc"			"アイテム所有者を射撃した敵の<span class=\"highlight\">発射速度</span>を低下させる"
+		"FireRateSlowDuration_label"			"継続時間"
+		"FireRateSlowDuration_postvalue_label"			"継続時間"
+		"FireRateSlowDuration_postfix"			"秒"
+
+		"upgrade_trophy_collector_desc"			"<span class=\"highlight\">アシストかキル</span>を獲得するたび、追加の<span class=\"highlight\">スプリント</span>、<span class=\"highlight\">アビリティ範囲</span>、<span class=\"highlight\">パッシブソウル生成</span>を獲得する。この効果はスタックし、デス後も継続する"
+		"StackingGoldPerMinute_label"			"ソウル／分"
+		"StackingGoldPerMinute_postvalue_label"			"ソウル／分"
+		
+		// Indomitable
+		"upgrade_upgrade_auto_cleanse_desc"		"次に付与される<span class=\"highlight\">スタン、束縛、移動不能、睡眠、サイレンス、恐慌</span>を自動的に浄化する。この効果が発動すると<span class=\"highlight\">バリア</span>を獲得し、すべての<span class=\"highlight\">アビリティのクールダウン</span>が{s:CooldownReductionOnProc}%短縮される"
+		
+		//-----------------------------------------------------------------------------
+		// Upgrades: Utility
+		//----------------------------------------------------------------------------- 
+		
+		//Superior Stamina
+		"upgrade_superior_stamina_passive"			"着地前に<span class=\"highlight\">空中ジャンプ</span>と<span class=\"highlight\">空中ダッシュ</span>が追加で1回使用できるようになる"
+
+		//Enduring Speed
+		"upgrade_cardio_calibrator_desc"			"敵による<span class=\"highlight\">移動速度</span>ペナルティの効果を軽減する"
+
+		//Health Nova
+		"upgrade_health_nova_desc"					"自分自身と付近にいる味方のHPを<span class=\"highlight\">回復</span>する"
+
+		//Shadow Weave
+		"upgrade_cloaking_device_active_desc"		"<span class=\"highlight\">ステルス状態</span>になる。ダメージを受けるとステルス状態が一時的に解除される"
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>攻撃するかアビリティを使用するとステルス状態が解け、<span class=\"highlight\">奇襲</span>状態となる。奇襲状態では<span class=\"highlight\">発射速度</span>と<span class=\"highlight\">スピリットパワー</span>、<span class=\"highlight\">近接ダメージ</span>が一時的に上昇する"
+		"modifier_cloaking_device_active_stealth"		"シャドウウィーブ - ステルス"
+		"modifier_cloaking_device_active_ambush"		"シャドウウィーブ - 奇襲"
+		"AmbushBonusTechPower_prefix"					"+"
+		"AmbushBonusTechPower_label"					"奇襲状態のスピリットパワー"
+		"AmbushBonusTechPower_postvalue_label"					"奇襲状態のスピリットパワー"
+		"AmbushBonusFireRate_prefix"					"+"
+		"AmbushBonusFireRate_label"					"奇襲状態の発射速度"
+		"AmbushBonusFireRate_postvalue_label"					"奇襲状態の発射速度"
+		"AmbushBonusFireRate_postfix"					"%"
+		"AmbushBonusMeleeDamage_label"					"奇襲状態の近接ダメージ"
+		"AmbushBonusMeleeDamage_postvalue_label"		"奇襲状態の近接ダメージ"
+		"AmbushBonusMeleeDamage_postfix"				"%"
+		"AmbushDuration_label"						"奇襲状態継続時間"
+		"AmbushDuration_postvalue_label"						"奇襲状態継続時間"
+		"AmbushDuration_postfix"						"秒"
+		"StealthDuration_label"						"ステルス継続時間"
+		"StealthDuration_postvalue_label"						"ステルス継続時間"
+		"StealthDuration_postfix"						"秒"
+		"SpottedRadius_label"						"察知可能範囲"
+		"SpottedRadius_postvalue_label"						"察知可能範囲"
+		"SpottedRadius_postfix"						"m"
+
+		//Majestic Leap
+		"upgrade_rocket_booster_desc"				"空中高くに<span class=\"highlight\">自身を射出</span>し、<span class=\"highlight\">バリア</span>を獲得する。空中で再発動することで急降下できる<br><br><span class=\"diminish\">敵ヒーローからダメージを受けてから{s:InterruptCooldown}秒間は使用できない</span>"
+		"upgrade_rocket_booster_drop_down"			"急降下"
+		
+		//Drain Will
+		"SpiritStealDuration_postfix"	"秒"
+
+		//Reactive Barrier
+		"upgrade_vex_barrier_desc"		"<span class=\"highlight\">スタン、束縛、移動不能、睡眠、サイレンス</span>状態になると、<span class=\"highlight\">バリア</span>を獲得する"
+
+		//Spell Shield
+		"upgrade_spellshield_desc"		"次に受ける{g:citadel_inline_attribute:'SpiritDamage'}か<span class=\"highlight\">デバフ</span>をブロックし、その効果を無効化する。非戦闘時にのみ回復する"
+		"upgrade_spellshield_shield"	"アンチスピリットシジル"
+		"upgrade_spellshield/modifier_spellshield_linger_buff"  "ヘクサフォイルワードが破壊された！"
+		"SpellShieldFlavorText_label"	"ラベル！"
+
+		"SpellShieldFlavorText_postvalue_label"	"ラベル！"
+
+		//Heal On Level
+		"upgrade_heal_on_level_desc"	"<span class=\"highlight\">恩恵</span>を獲得すると自動的に<span class=\"highlight\">回復</span>する"
+		"upgrade_heal_on_level_buff"	"レベルアップ時の回復"
+		"HealOnlevelHealAmount_label"	"回復量"
+		"HealOnlevelHealAmount_postvalue_label"	"回復量"
+		"upgrade_heal_on_level/heal_on_level_buff"			"レベルアップ時の回復"
+
+		//Absorbing armor / witchmail
+		"upgrade_absorbing_armor_desc" "敵から大きな{g:citadel_inline_attribute:'SpiritDamage'}を受けると、<span class=\"highlight\">ランダムなアビリティのクールダウン</span>を短縮する"
+
+		//Healing Buff
+		"upgrade_healbuff_desc" "自分自身か味方のHPを{g:citadel_inline_attribute:'Heal'}すると、その対象に{g:citadel_inline_attribute:'BonusFireRate'}と{g:citadel_inline_attribute:'BonusMoveSpeed'}を付与する<br><br><span class=\"diminish\">ヒーローが元から有しているリジェネやパッシブの弾薬／スピリットライフスティールには適用されない</span>"
+
+		//Infinite Magazine
+		"upgrade_infinitemagazine_desc" "<span class=\"highlight\">弾薬が無限</span>になり、{g:citadel_inline_attribute:'BonusFireRate'}を獲得する"
+
+		//APRounds
+		"upgrade_aprounds_desc" "一定確率で弾薬が強化される。強化された弾薬は回避できず、<span class=\"highlight\">敵を貫通</span>して<span class=\"highlight\">弾薬耐性を無視</span>する"
+
+		//Deflecting Armor
+		"upgrade_deflecting_armor_desc" "一定確率で弾薬による攻撃を逸らす。弾薬を逸らした場合、{g:citadel_inline_attribute:'WeaponDamage'}をすべて無効化するか、その弾薬による<span class=\"highlight\">ヒット時効果</span>をすべて無効化する"
+		"DeflectionPercent_label" "無効確率"
+		"DeflectionPercent_postvalue_label" "無効確率"
+		"DeflectionPercent_postfix" "%"	
+		
+		"BulletProcDeflectionPercent_label" "ヒット時効果無効確率"
+		"BulletProcDeflectionPercent_postvalue_label" "ヒット時効果無効確率"
+		"BulletProcDeflectionPercent_postfix" "%"
+
+		// Shadow Step Active
+		"upgrade_shadow_step_desc"	"前方に<span class=\"highlight\">テレポート</span>する"
+
+		//Shadow Step Passive
+		"upgrade_shadow_step_passive_desc"	"定期的に、付近にいる敵すべてに{g:citadel_inline_attribute:'SpiritDamage'}を与える"
+
+		"upgrade_haunting_scream_desc"	"拡大する発射物を放つ。発射物は命中した敵を短時間<span class=\"highlight\">呪う</span>"
+		
+		"upgrade_apex_combat_desc"		"対象にヒットした弾薬が、付近にいる敵に<span class=\"highlight\">跳弾</span>する。跳弾は<span class=\"highlight\">弾薬ヒット時効果を発生</span>させ、<span class=\"highlight\">元ダメージに応じたダメージを与える</span>"
+
+		"upgrade_aerial_supremacy_passive"			"着地前に<span class=\"highlight\">空中ジャンプ</span>または<span class=\"highlight\">空中ダッシュ</span>が<span class=\"highlight\">無制限に</span>使用できるようになる"
+
+		"upgrade_infinite_rounds_desc" "<span class=\"highlight\">弾数が無限</span>になる"
+
+		// BulletShredImbue Ballistic Enchantment
+		"upgrade_bulletshredimbue_desc" "アビリティに<span class=\"highlight\">射程増加</span>効果を付与する。そのアビリティでダメージを与えると、<span class=\"highlight\">異なるヒーローに命中</span>するたびに<span class=\"highlight\">武器ダメージ</span>が増加する。非ヒーローに対する効果は減少する"
+
+		// Recharging Bullets
+		"upgrade_rechargingbullets_desc" "一定以上の{g:citadel_inline_attribute:'WeaponDamage'}を与えると、<span class=\"highlight\">チャージを持つアビリティそれぞれ</span>の使用回数が1回分回復する"
+		"CooldownReductionOnProc_postvalue_label" "クールダウン短縮"
+		"CooldownReductionOnProc_label" "クールダウン短縮"
+		"CooldownReductionOnProc_postfix" "秒"
+		"CooldownReductionOnProc_prefix" "{s:sign}"
+
+
+		//-----------------------------------------------------------------------------
+		// Street Brawl Tier5
+		//----------------------------------------------------------------------------- 
+		"upgrade_icarus_wings_desc"		"空中にいる間、与ダメージは増加し、被ダメージは減少する。空中ダッシュと空中ジャンプが<span class=\"highlight\">無制限に</span>使用できるようになる"
+		"upgrade_mystical_piano_desc"	"短いディレイ後に、対象のエリア内にいる敵をスタン状態にし、スタミナを消耗させる。スタンした敵はスタン終了後、一時的に目眩状態になる"
+		"upgrade_nullification_aura_desc"	"敵に付与されている有利なバフを全て解除し、スタミナの使用と回復効果を無効化する"
+		"upgrade_nullification_aura_deathdamage_desc"	"デス時に大きなスピリットダメージを与える"
+		"upgrade_celestial_guidance_desc"	"非常に強力な浄化を付与し、味方全体を回復させる"
+		"upgrade_eternal_gift_desc"			"定期的にランダムな永続ステータスバフを獲得する"
+		"upgrade_eternal_gift_respawn_desc"		"次のデス時のリスポーン時間を短縮する"
+		"upgrade_patrons_blessing_desc"			"自身と味方に強力なスピリット特化のオーラを付与する。味方への効果は低下する"
+		"upgrade_patrons_blessing_proc_desc"	"{s:DamageThresholdDuration}秒以内に敵ヒーローに一定以上の<span class=\"highlight\">ダメージ</span>を与えると、自身と付近にいる味方を回復する"
+
+		"AllyPercentage_postvalue_label" "味方への効果割合"
+		"AllyPercentage_label" "味方への効果割合"
+		"AllyPercentage_postfix" "%"
+		"AllyPercentage_prefix" "{s:sign}"
+		"RespawnTime_postvalue_label" "リスポーン時間"
+		"RespawnTime_label" "リスポーン時間"
+		"RespawnTime_postfix" "%"
+		"RespawnTime_prefix" "{s:sign}"
+
+		"upgrade_eldritch_shot_desc"			"次に放たれる弾薬が、敵の与ダメージ、回復効果、移動速度を低下させる強力なデバフを付与する。さらに、対象の現在のHPに応じた{g:citadel_inline_attribute:'BonusSpiritDamage'}も与える<br><br>この弾薬はサイズが大きく、対象を貫通する"
+		"upgrade_cloak_of_opportunity_desc"		"次に付与される<span class=\"highlight\">スタン、束縛、移動不能、睡眠</span>のいずれかのデバフを無効化し、<span class=\"highlight\">アンストッパブル</span>状態になる。さらに、<span class=\"highlight\">バリア</span>と{g:citadel_inline_attribute:'MoveSpeed'}ボーナスを獲得する"
+		"upgrade_runed_gauntlets_desc"			"近接強攻撃を命中させるたびに、クールダウンが短縮される"
+		"upgrade_runed_gauntlets_parry_desc"		"パリィを貫通する"
+		"upgrade_electric_slippers_desc"		"スライディング中、弾薬を回避し、発射速度が上昇し、付近にいる敵にダメージを与える<span class=\"diminish\"><br><br>クールダウンは対象ごとに適用される</span>"
+		"upgrade_prism_blast_desc"				"短時間ヴォイド状態になり、<span class=\"highlight\">対象指定不可かつ無敵</span>状態になる。この間、自身の周囲を回転するレーザーを放つ"
+		"upgrade_unstable_concoction_desc"		"<span class=\"highlight\">アンストッパブル</span>を獲得し、<span class=\"highlight\">速度、HP、スピリット、武器ダメージ</span>が増加する調合薬を飲む。短時間後に、<span class=\"highlight\">自身はデスして爆発</span>し、周辺の敵をスタンさせ、最大HPに応じたダメージを与える。この効果でデスした場合、リスポーン時間が<span class=\"highlight\">{s:RespawnTimeMod}%</span>短縮される"
+		"upgrade_shivas_bracelet_desc"			"エンチャントしたアビリティの<span class=\"highlight\">クールダウンが短縮</span>され、<span class=\"highlight\">スピリットパワー</span>を獲得する。そのアビリティがダメージを与えると、対象を<span class=\"highlight\">凍結</span>させ、<span class=\"highlight\">追加ダメージ</span>を与える<span class=\"diminish\"><br><br>クールダウンは対象ごとに適用される</span>"
+		"upgrade_shadow_strike_desc"			"<span class=\"highlight\">スタミナを使用</span>すると、検知範囲なしで<span class=\"highlight\">インビジブル</span>状態になる。インビジブル状態時に、<span class=\"highlight\">近接攻撃</span>を行うと、敵から<span class=\"highlight\">弾薬耐性とスピリット耐性を奪い</span>、さらに<span class=\"highlight\">継続ダメージ</span>を与える"
+		"upgrade_omnicharge_pendant_desc"		"エンチャントした任意のアビリティ（アルティメットを除く）に、<span class=\"highlight\">アビリティ追加チャージ</span>を付与する。すでにチャージを持つアビリティはさらに多くの追加チャージを獲得する"
+		"upgrade_omnicharge_pendant_charges"	"追加チャージ"
+
+		//-----------------------------------------------------------------------------
+		// Cosmetic
+		//----------------------------------------------------------------------------- 
+		"cosmetic_ability_snowball"		"スノーボール"
+		"cosmetic_ability_snowball_desc"		"味方や敵に雪玉を投げる。投てき距離などの性能は「<span class=\"highlight\">2025 ホリデーチャレンジ</span>」の進行度に応じて向上する<br><br><span class=\"diminish\">味方に雪玉を当ててもダメージは与えず、クールダウンがリセットされる</span>"
+		"SnowballSpeed_label"			"投球速度"
+		"SnowballSpeed_postvalue_label"		"速度"
+		"SnowballSpeed_postfix"			"m／秒"
+		"SnowballCount_label"			"雪玉を投げた数"
+		"SnowballCount_postvalue_label"		"発射物"
+
+		"cosmetic_item_voting_poster"		"ポスター設置"
+	}
+}

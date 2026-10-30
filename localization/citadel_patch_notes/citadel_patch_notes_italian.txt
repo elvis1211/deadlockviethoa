@@ -1,0 +1,245 @@
+﻿"lang"
+{
+	"Language"		"italian"
+	"Tokens"
+	{
+
+		//-----------------------------------------------------------------------------
+		// hero_astro
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_astro_1" "<b>24/10/2024</b><br>
+			<li>Eroe aggiunto al laboratorio degli eroi</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_astro_2" "<b>29/10/2024</b><br>
+			<li><i>Trampolino</i>: ora infligge correttamente i danni in un'area all'atterraggio</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_astro_3" "<b>7/11/2024</b><br>
+			<li><i>Trampolino</i>: aggiornato per consentire solo un Pestone per Trampolino</li>
+			<li><i>Trampolino</i>: rimossi gli effetti particellari sugli alleati quando colpiscono un Trampolino</li>
+			<li><i>Arma</i>: aggiornati gli effetti visivi del kit delle armi</li>
+			<li><i>Polveriera</i>: ridotte le ostruzioni degli effetti visivi per i giocatori vicini</li>
+			<li><i>Franca tiratrice</i>: ridotte le ostruzioni degli effetti visivi per la vittima</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_nano
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_nano_1" "<b>24/10/2024</b><br>
+			<li>Eroe aggiunto al laboratorio degli eroi</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_nano_2" "<b>29/10/2024</b><br>
+			<li><i>Arma</i>: riduzione del tempo di ricarica (3,5 → 3 s)</li>
+			<li><i>Arma</i>: riduzione delle dimensioni del caricatore (18 → 16)</li>
+			<li><i>Arma</i>: aumento dei danni balistici del fuoco alternativo (6 → 7)</li>
+			<li><i>Spirito di Sekhmet</i>: ora può essere detonato subito dopo l'uso</li>
+			<li><i>Spirito di Sekhmet</i>: ora scaraventerà in aria solo i bersagli colpiti/trascinati dal gatto in movimento</li>
+			<li><i>Guardiano Nekomata</i>: non ha più cariche</li>
+			<li><i>Guardiano Nekomata</i>: ora ha una gittata d'attacco separata di 30 m</li>
+			<li><i>Guardiano Nekomata</i>: riduzione della durata (120 → 60 s)</li>
+			<li><i>Guardiano Nekomata</i>: riduzione dei danni spirituali al secondo (0,4 → 0,3)</li>
+			<li><i>Guardiano Nekomata</i>: riduzione della salute aggiuntiva per la potenza spirituale (3,0 → 2,0)</li>
+			<li><i>Guardiano Nekomata</i>: rimossa la carica bonus per le abilità di livello 2 e aggiunti +30 s di durata bonus dell'abilità (+1 carica → +30 s di durata)</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_wrecker
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_1" "<b>24/10/2024</b><br>
+			<li>Eroe aggiunto al laboratorio degli eroi</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_2" "<b>7/11/2024</b><br>
+			<li><i>Arma</i>: aumentata la dimensione del caricatore (10 → 15)</li>
+			<li><i>Arma</i>: pallottole al secondo aumentate (2,86 → 4)</li>
+			<li><i>Arma</i>: danni da pallottole ridotti (25 → 21)</li>
+			<li><i>Palla da demolizione</i>: ora esplode all'impatto</li>
+			<li><i>Palla da demolizione</i>: danni di base aumentati (80 → 150)</li>
+			<li><i>Palla da demolizione</i>: velocità della palla aumentata (1.500 → 2.000)</li>
+			<li><i>Palla da demolizione</i>: forza della palla aumentata (280 → 1.500)</li>
+			<li><i>Palla da demolizione</i>: tempo di utilizzo della palla aumentato (1,2 → 1,4)</li>
+			<li><i>Palla da demolizione</i>: potenza spirituale aumentata (1,0 → 1,4)</li>
+			<li><i>Palla da demolizione</i>: tempo di ricarica di base aumentato (21 → 31)</li>
+			<li><i>Consumo</i>: abilità aggiornata in modo da poter essere utilizzata su tutti i nemici</li>
+			<li><i>Consumo</i>: non stordisce o solleva più i bersagli</li>
+			<li><i>Consumo</i>: danni al secondo di base ridotti (80 → 40)</li>
+			<li><i>Consumo</i>: potenziamento al livello 1 modificato per conferire il 75% di guarigione dai danni inflitti</li>
+			<li><i>Consumo</i>: danni del potenziamento al livello 2 ridotti (+80 → +40 DPS)</li>
+			<li><i>Consumo</i>: potenziamento al livello 3 modificato per aggiungere 2 bersagli aggiuntivi</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_3" "<b>21/11/2024</b><br>
+			<li><i>Palla da demolizione</i>: ora puoi saltare a un'altezza ridotta tenendo in mano la palla</li>
+			<li><i>Palla da demolizione</i>: raggio di attivazione ridotto (92 → 65).</li>
+			<li><i>Consumo</i>: aggiunti nuovi effetti visivi.</li>
+			<li><i>Consumo</i>: danni al secondo di base aumentati (40 → 60).</li>
+			<li><i>Consumo</i>: gittata di lancio aumentata (12 → 15 m).</li>
+			<li><i>Consumo</i>: ora ha una gittata massima di 20 m.</li>
+			<li><i>Consumo</i>: ora richiede il contatto visivo per rimanere agganciato.</li>
+			<li><i>Consumo</i>: non interrompe più il movimento del nemico.</li>
+			<li><i>Consumo</i>: rimosso il buff alla cadenza di fuoco.</li>
+			<li><i>Consumo</i>: aggiunto il 50% di percentuale di guarigione di base</li>
+			<li><i>Consumo</i>: ridotto il potenziamento della percentuale di guarigione (+75% → +25%) al livello 1.</li>
+			<li><i>Arma biologica</i>: gittata aumentata (5 → 10 m).</li>
+			<li><i>Arma biologica</i>: aggiornato leggermente il cono del bersaglio.</li>
+			<li><i>Arma biologica</i>: rimosso l'effetto di oscuramento dello schermo durante l'utilizzo.</li>
+			<li><i>Passeggiata astrale</i>: rimossa. Aggiornata con la nuova ultimate <i>Sovraccarico.</i></li>
+			<li><i>Sovraccarico</i>: aggiunti nuovi effetti visivi.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_4" "<b>06/12/2024</b><br>
+			<li><i>Palla da demolizione</i>: riformulazione del comportamento dell'abilità</li>
+			<li><i>Palla da demolizione</i>: aggiornamenti visivi</li>
+			<li><i>Sovraccarico</i>: aumentato lo zoom della telecamera</li>
+			<li><i>Sovraccarico</i>: modificato il livello T2 per ridurre il tempo di ricarica di 35 secondi</li>
+			<li><i>Sovraccarico</i>: ora include la riduzione della velocità di movimento nella descrizione e nell'interfaccia</li>  "
+		//-----------------------------------------------------------------------------
+		// hero_trapper
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_1" "<b>07/11/2024</b><br>
+			<li>Eroe aggiunto al laboratorio degli eroi</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_2" "<b>08/11/2024</b><br>
+			<li><i>Trappola di seta:</i> risolto il problema per cui l'effetto del filo a volte diveniva invisibile.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_3" "<b>21/11/2024</b><br>
+			<li><i>Fantasmicida pronto uso:</i> raggio iniziale ridotto (5 → 3 m).</li>
+			<li><i>Fantasmicida pronto uso:</i> durata ridotta (9 → 8 s).</li>
+			<li><i>Fantasmicida pronto uso:</i> tempo di ricarica di base aumentato (2 → 25 s).</li>
+			<li><i>Fantasmicida pronto uso:</i> modificato il potenziamento al livello 1 a -20% di danni spirituali ai bersagli avvelenati.</li>
+			<li><i>Fantasmicida pronto uso:</i> modificato il potenziamento al livello 2 a +4 durate.</li>
+			<li><i>Trappola di seta:</i> ora può prendere di mira creep e soldati.</li>
+			<li><i>Trappola di seta:</i> risolto il problema per cui la trappola infliggeva danni da dietro un muro.</li>
+			<li><i>Trappola di seta:</i> risolto il problema per cui a volte la trappola non si rigenerava.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_4" "<b>24/11/2024</b><br>
+			<li><i>Fantasmicida pronto uso:</i> modificato il calcolo di crescita in modo da aumentare di un raggio fisso al secondo, proporzionalmente al raggio dell'abilità</li>
+			<li><i>Trappola di seta:</i> migliorati gli effetti visivi dell'anteprima</li>
+			<li><i>Trappola di seta:</i> risolto il problema per cui la trappola a volte non veniva posizionata</li>
+			<li><i>Trappola di seta:</i> ora ha una lunghezza minima richiesta della trappola</li>
+			<li><i>Trappola di seta:</i> al livello T3 ora silenzia per 2,5 s invece di disarmare per 4 s</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_5" "<b>06/12/2024</b><br>
+			<li><i>Fantasmicida pronto uso:</i> aumentato il raggio iniziale (3 m → 4,5 m)</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_6" "<b>20/02/2025</b><br>
+			<li><i>Fantasmicida pronto uso:</i> aumento del raggio iniziale (4,5 → 6 m)</li>
+			<li><i>Fantasmicida pronto uso:</i> non infligge più
+ danni, ma silenzia tutti i nemici nell'area</li>
+			<li><i>Fantasmicida pronto uso:</i> aumento del tempo di ricarica (25 → 30 s)</li>
+			<li><i>Fantasmicida pronto uso:</i> al livello T3 ora riduce la resistenza spirituale del 25%</li>
+			<li><i>Fantasmicida pronto uso:</i> aggiornato il fattore di incremento con potenza spirituale per aumentare la quantità di rallentamento</li>
+			<li><i>Trappola di seta:</i> ora infligge danni nel tempo</li>
+			<li><i>Trappola di seta:</i> ora rivela i nemici colpiti da Trappola di seta</li>
+			<li><i>Trappola di seta:</i> aumento della durata iniziale (60 → 120 s)</li>
+			<li><i>Trappola di seta:</i> aumento della durata dell'effetto positivo (2 → 3 s)</li>
+			<li><i>Trappola di seta:</i> al livello T3 ora aumenta anche la durata dell'effetto positivo di 2 s</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_slork
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_slork_1" "<b>24/10/2024</b><br>
+			<li>Eroe aggiunto al laboratorio degli eroi</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_slork_2" "<b>29/10/2024</b><br>
+			<li><i>Arma</i>: riduzione dei danni per proiettile (5 → 4,5)</li>
+			<li><i>Arma</i>: aumento della dispersione dei proiettili e riduzione della distanza iniziale della riduzione dei danni (20 m → 18 m)</li>
+			<li><i>Spruzzo ustionante</i>: aggiornato l'effetto particellare in modo da non ostruire la visione di Fathom e aggiunto un effetto del colpo</li>
+			<li><i>Carica</i>: ora puoi usare altre abilità durante il movimento della carica</li>
+			<li><i>Carica</i>: effetti particellari aggiornati</li>
+			<li><i>Arpione corallino</i>: ora puoi eseguire qualsiasi azione mentre sei agganciato al muro e questo annullerà istantaneamente l'aggancio</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_3" "<b>01/11/2024</b><br>
+			<li>Salute per dono ridotta (41 → 36)</li>
+			<li>Danni da fucile per proiettile ridotti (4,5 → 4)</li>
+			<li>Riduzione della distanza iniziale del fucile ridotta da (18 → 16 m)</li>
+			<li>Aumento dei danni da arma al secondo di Ustione ridotto (8% → 7%)</li>
+			<li>Salasso di Fathom aggiornato in modo da avere gli stessi valori dell'ultima versione del Salasso di Razor</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_4" "<b>8/11/2024</b><br>
+			<li><b>Nuova abilità</b>: <i>Agguato furtivo</i></li>
+			<li><i>Salasso di Fathom<i> viene sostituita da <i>Arpione corallino</i> </li>
+			<li><i>Arpione corallino</i>: ottiene 2 cariche quando l'arpione si aggancia a una superficie</li>
+			<li><i>Arpione corallino</i>: non può essere più utilizzata su un pavimento</li>
+			<li><i>Arpione corallino</i>: ora impedirà l'utilizzo quando la superficie del bersaglio è troppo lontana</li>
+			<li><i>Arpione corallino</i>: ora non interrompe l'invisibilità quando viene usata</li>
+			<li><i>Arpione corallino</i>: attiva l'invisibilità per Agguato furtivo quando viene usata</li>
+			<li><i>Arpione corallino</i>: ora il tempo di ricarica inizia da quando si sgancia dalla superficie</li>
+			<li><i>Arpione corallino</i>: non fornisce più una rigenerazione passiva</li>
+			<li><i>Arpione corallino</i>: non fornisce più l'invisibilità passiva</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_5" "<b>21/11/2024</b><br>
+			<li><i>Arma</i>: danni balistici per dono ridotti (0,57 → 0,35).</li>
+			<li><i>Agguato furtivo</i>: aggiornati gli effetti particellari.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_6" "<b>6/12/2024</b><br>
+			<li><i>Ustione</i>: particelle aggiornate</li>
+			<li><i>Agguato furtivo</i>: aggiunto un effetto di schermo acquatico per i nemici che vengono immobilizzati</li>
+			<li><i>Agguato furtivo</i>: il proiettile attivo ora ha un raggio di 2,5 m</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_7" "<b>17/12/2024</b><br>
+			<li>Aggiunta della build con gli oggetti predefiniti</li>
+			<li>Aggiornati e migliorati gli effetti sonori di tutte le abilità</li>"
+
+
+		//-----------------------------------------------------------------------------
+		// hero_viper
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_viper_1" "<b>24/10/2024</b><br>
+			<li>Eroe aggiunto al laboratorio degli eroi</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_2" "<b>29/10/2024</b><br>
+			<li><i>Daga a uncino</i> sostituita con <i>Daga seghettata</i></li>
+			<li><i>Veleno letale</i>: ora è bersagliabile solo sugli eroi nemici</li>
+			<li><i>Veleno letale</i>: effetti visivi migliorati</li>
+			<li><i>Serpeggiamento</i>: ora potenziato per impostazione predefinita al livello 1</li>
+			<li><i>Serpeggiamento</i>: modificato il potenziamento di livello 1 in \"+25% di distanza della scivolata\", il potenziamento di livello 2 in \"+2 di resistenza\" e il potenziamento di livello 3 in \"+30% di resistenza alle pallottole/spirituale\"</li></li>
+			<li><i>Pietrificazione</i>: aumentato il ritardo di detonazione (0,6 → 1 s)</li>
+			<li><i>Pietrificazione</i>: migliorati gli effetti visivi e sonori e i controlli della telecamera durante la pietrificazione</li>
+			<li><i>Pietrificazione</i>: la quantità di danni bloccati ora aumenta con la potenza spirituale</li>
+			<li><i>Pietrificazione</i>: non può più essere utilizzata a mezz'aria</li>
+			<li><i>Pietrificazione</i>: ora è correttamente bloccata dall'abilità Inarrestabile</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_3" "<b>21/11/2024</b><br>
+			<li><i>Pietrificazione</i> è stata sostituita da <i>Bola pietrificante.</i></li>
+			<li><i>Bola pietrificante</i>: modifiche visive al proiettile.</li>
+			<li><i>Daga seghettata</i>: non interrompe più la scivolata.</li>
+			<li><i>Daga seghettata</i>: modifiche al proiettile e all'impatto per migliorare la visibilità.</li>
+			<li><i>Veleno letale</i>: ora applica un effetto allo schermo.</li>
+			<li><i>Arma:</i> danni ridotti (12 → 11).</li>
+			<li><i>Arma:</i> modificate le scie delle pallottole per migliorare la visibilità a causa dell'elevata cadenza di fuoco.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_4" "<b>11/26/2024</b><br>
+			<li><i>Arma:</i> danni ridotti (11 → 9).</li>
+			<li><i>Arma:</i> velocità delle pallottole aumentata (81 m/s → 411 m/s)</li>
+			<li><i>Arma:</i> dimensioni del caricatore aumentate (18 → 24)</li>
+			<li><i>Bola pietrificante</i>: raggio del proiettile aumentato (30 → 45)</li>
+			<li>Salute per dono ridotta (35 → 30)</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_5" "<b>06/12/2024</b><br>
+			<li>Aumentata la dimensione del modello del 15%</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_magician
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_magician_1" "<b>24/10/2024</b><br>
+			<li>Eroe aggiunto al laboratorio degli eroi</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_2" "<b>29/10/2024</b><br>
+			<li><i>Arma:</i> ora ha una riduzione dei danni corretta</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_3" "<b>7/11/2024</b><br>
+			<li>Ora ha un'abilità ultimate: <i>Gran finale</i></li>
+			<li><i>Arma</i>: aumentata la capacità delle pallottole (20 → 22)</li>
+			<li><i>Raggio persecutorio</i>: ora applica il 20% di rallentamento della cadenza di fuoco invece del rallentamento del movimento</li>
+			<li><i>Raggio persecutorio</i>: danni aumentati (100 → 120) e potenza spirituale aumentata (1,2 →1,4)</li>
+			<li><i>Raggio persecutorio</i>: durata del debuff aumentata (2 → 5 s)</li>
+			<li><i>Raggio persecutorio</i>: scudo spirituale aumentato al livello 2 (-15% → -20%)</li>
+			<li><i>Raggio persecutorio</i>: ora il potenziamento al livello 3 conferisce un aumento della velocità</li>
+			<li><i>Raggio persecutorio</i>: ora presenta un suggerimento nell'interfaccia utente quando può essere reindirizzato</li>
+			<li><i>Assistente spettrale</i>: ora è utilizzabile in aria</li>
+			<li><i>Maledizione del coniglio</i>: non può più essere utilizzata sugli alleati</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_4" "<b>21/11/2024</b><br>
+			<li><i>Raggio persecutorio</i>: ora viene utilizzato sempre insieme al tuo Assistente, con danni ridotti.</li>
+			<li><i>Raggio persecutorio</i>: aggiornati i potenziamenti in modo che corrispondano ai nuovi comportamenti.</li>
+			<li><i>Raggio persecutorio</i>: ridimensionamento spirituale ridotto (1,4 → 1,2).</li>
+			<li><i>Maledizione del coniglio</i>: ora il mago riconosce la differenza tra conigli e rane e trasforma correttamente i bersagli in conigli.</li>
+			<li><i>Maledizione del coniglio</i>: non può più essere utilizzata su se stessi.</li>
+			<li><i>Maledizione del coniglio</i>: ora applica un limite di velocità max invece di aumentare la velocità.</li>
+			<li><i>Maledizione del coniglio</i>: ora il potenziamento al livello 3 applica la maledizione con una durata completa a tutti i bersagli nel raggio d'azione.</li>
+			<li><i>Assistente spettrale</i>: ora ricarica la tua arma all'utilizzo.</li>
+			<li><i>Assistente spettrale</i>: ora spara raffiche di due pallottole.</li>
+			<li><i>Assistente spettrale</i>: ridimensionamento dei danni spirituali ridotto (1 x 60 a 0,5 → 2 x 30 a 0,3).</li>
+			<li><i>Assistente spettrale</i>: ora la scia segue la scia dell'arma.</li>
+			<li><i>Assistente spettrale</i>: migliorata la ricerca del bersaglio.</li>
+			<li><i>Assistente spettrale</i>: corretto un bug per cui a volte non era possibile reindirizzare i raggi dopo che li aveva utilizzati l'Assistente.</li>
+			<li><i>Assistente spettrale</i>: transizione uniforme della telecamera durante il teletrasporto.</li>
+			<li><i>Assistente spettrale</i>: gittata di utilizzo ridotta (20 → 15 m).</li>
+			<li><i>Assistente spettrale</i>: aggiornati i potenziamenti in modo che corrispondano ai nuovi comportamenti.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_operative
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_operative_1" "<b>06/12/2024</b><br>
+			<li>Eroe aggiunto al laboratorio degli eroi</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_operative_2" "<b>17/12/2024</b><br>
+			<li>Aggiunta della build con gli oggetti predefiniti</li>"
+
+		}
+}

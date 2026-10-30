@@ -1,0 +1,3246 @@
+﻿"lang"
+{
+	"Language"		"koreana"
+	"Tokens"
+	{
+
+		//-----------------------------------------------------------------------------
+		// Unit states (that we want to show)
+		//-----------------------------------------------------------------------------
+
+		"MODIFIER_STATE_ROOTED"								"이동 불가 상태"
+		"MODIFIER_STATE_DISARMED"							"무장 해제 상태"
+		"MODIFIER_STATE_SILENCED"							"침묵"
+		"MODIFIER_STATE_STUNNED"							"기절"
+		"MODIFIER_STATE_INVULNERABLE"						"무적"
+		"MODIFIER_STATE_TECH_INVULNERABLE"					"마법 피해 무적"
+		//"MODIFIER_STATE_BURNING"							"Burning"
+
+		// Commenting this out so it doesn't show overhead of the player your applied it to
+		//"MODIFIER_STATE_SLOWED"								"Slowed"
+
+		//"MODIFIER_STATE_BULLET_SHIELD_WEAKENED"				"Weakened Bullet Shield"
+		//"MODIFIER_STATE_IS_ASLEEP"							"Asleep"
+		//"MODIFIER_STATE_BULLET_DAMAGE_TAKEN_ALWAYS_CRITS"	"Crit Vulnerable"		 				
+		"MODIFIER_STATE_CHAINED"							"속박"
+		//"MODIFIER_STATE_ALL_ARMOR_DISABLED"					"Armors Disabled"
+		//"MODIFIER_STATE_BULLET_INVULNERABLE"				"Bulletproof"
+		//"MODIFIER_STATE_DRONE_ATTACHED"						"Drone Attached"
+		//"MODIFIER_STATE_WEAPON_JAMMED"						"Weapon Jammed"
+		"MODIFIER_STATE_TOXIC_BULLETS"						"독성"
+		//"MODIFIER_STATE_DISPLAY_LIFETIME"					"Life Time"
+		"MODIFIER_STATE_BLINDED"							"실명"
+
+		// Status Effects
+		"Citadel_StatusEffect"					"상태 효과"
+		"Citadel_StatusEffectStun"				"기절"
+		"Citadel_StatusEffectEMP"				"침묵"
+		"Citadel_StatusEffectFreeze"			"동상"
+		"Citadel_StatusEffectBurn"				"화상"
+		"Citadel_StatusEffectBleed"				"출혈"
+		"Citadel_StatusEffectSleep"				"수면"
+		"Citadel_StatusEffectTethered"			"연결"
+		"Citadel_StatusEffectImmobilize" 		"이동 불가"
+		"Citadel_StatusEffectDisarmed"			"무장 해제"
+		"Citadel_StatusEffectInvisible"			"투명"
+		"Citadel_StatusEffectPetrify"			"석화"
+		"Citadel_StatusEffectCustomDebuff"		"약화"
+		//"Citadel_StatusEffectStacks"			"Stacks "
+		"Citadel_StatusEffectInfiniteClip"		"무한 탄약"
+		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
+		//"Citadel_StatusEffectBuff"				"Buff"
+		"Citadel_StatusEffectUnstoppable"		"절대 저항"
+		"Citadel_StatusEffectDisplacement"		"위치 이동"
+		"Citadel_StatusEffectSilence"			"침묵"
+		"Citadel_StatusEffectCurse"				"저주"
+
+		//"modifier_citadel_in_shop"				"In Shop"	
+		"modifier_citadel_in_fountain"			"본진"
+		"modifier_citadel_pre_match_wait"		"매치 시작 대기 중"
+		//"modifier_citadel_rapid_fire"			"Bullet Storm"
+		//"modifier_citadel_damageboost"			"Damage Boost"
+		//"modifier_citadel_damage_reduction" 	"Armor Boost"
+		"modifier_slowaura" 					"둔화"
+		"modifier_citadel_slowtarget" 			"둔화"
+		"modifier_citadel_lineslow"				"둔화"
+		"modifier_slow_base"																		"둔화"
+		"modifier_damageovertime" 				"출혈"
+		"modifier_citadel_stunned" 				"기절"
+		"modifier_citadel_knockdown"			"기절"
+		"modifier_citadel_delayed_stun"			"지연된 기절"
+		//"modifier_citadel_knockdown_stumble"	"Stumble"
+		"modifier_citadel_banished"				"유체이탈"
+		"modifier_citadel_tethered"				"연결됨"
+		//"modifier_citadel_speed_boost" 			"Speed Boost"
+		//"modifier_pullaura" 					"Pulled"
+		//"modifier_healaura" 					"Healing"
+		"modifier_citadel_root"					"이동 불가 상태"
+		//"modifier_citadel_charging" 			"Charging"
+		//"modifier_invis" 						"Stealthed"
+		//"modifier_invis_start_delay" 			"Entering Stealth"
+		//"modifier_invis_fading"					"Fading"
+		//"modifier_camouflage_invis"				"Camouflaged"
+		"modifier_citadel_silenced"				"침묵"
+		"silencer_immune"						"침묵 면역"
+		//"modifier_citadel_muted"				"Muted"
+		"modifier_citadel_disarmed"				"무장 해제 상태"
+		"modifier_citadel_tech_shield"		"마법 방어막"
+		"modifier_citadel_revealed_on_map"		"노출 상태"
+		"modifier_citadel_cursed"				"저주 상태"
+		"modifier_citadel_feared"				"공포 상태"
+
+		"modifier_item_disarmed"				"무장 해제 상태"
+		"modifier_citadel_disarm_proc"			"무장 해제 상태"
+		//"modifier_citadel_disarm_proc_buildup"	"Disarming..."
+		//"disarm_immune"							"Disarm Immune"
+		//"modifier_citadel_dodging"				"Dodging"
+		//"modifier_prevent_healing"				"Healing Disabled"
+		
+		//"modifier_obscured_by_steam"			"Obscured"
+		"modifier_citadel_unstick" 				"고정 해제 중"
+		"modifier_citadel_barrier"				"방벽"
+
+		"base_stat_regen"						"영웅 기본 재생"
+		"modifier_citadel_dazed"				"멍해짐"
+
+		//-----------------------------------------------------------------------------
+		// END Unit states
+		//-----------------------------------------------------------------------------
+
+
+		//-----------------------------------------------------------------------------
+		// Ability Property Text
+		//-----------------------------------------------------------------------------
+		"Citadel_AbilityProperty_OnHit"			"적중 시:"
+		"Citadel_AbilityProperty_OnExplode"		"폭발 시:"
+		"Citadel_AbilityProperty_OnAttach"		"부착 시:"
+		"Citadel_AbilityProperty_BulletBuildup"	"총탄 축적:"
+		"Citadel_AbilityProperty_OnPickup"		"획득 시:"
+		"Citadel_AbilityProperty_Withdrawals"	"취소:"
+		"Citadel_AbilityProperty_OnHitEnemy"	"적군 적중 시:"
+		"Citadel_AbilityProperty_OnHitFriendly"	"아군 적중 시:"
+		"Citadel_AbilityProperty_OnCursedCast"	"저주받은 시전 시:"
+
+
+		//-----------------------------------------------------------------------------
+		// Stat desc - These are the labels in the hero stats for each EStatType
+		//-----------------------------------------------------------------------------
+		"StatDesc_DPS"									"초당 피해"
+		"StatDesc_DPS_postvalue_label"									"초당 피해"
+		"StatDesc_MeleeDamage"							"근거리 피해"
+		"StatDesc_MeleeDamage_postvalue_label"							"근거리 공격 피해"
+		"StatDesc_LightMeleeDamage"						"약한 근거리 공격"
+		"StatDesc_LightMeleeDamage_postvalue_label"						"약한 근거리 공격"
+		"StatDesc_HeavyMeleeDamage"						"강한 근거리 공격"
+		"StatDesc_HeavyMeleeDamage_postvalue_label"						"강한 근거리 공격"
+		"StatDesc_MaxHealth"							"최대 체력"
+		"StatDesc_MaxHealth_postvalue_label"							"최대 체력"
+		"StatDesc_ClipSizeBonus"						"탄약"
+		"StatDesc_ClipSizeBonus_postvalue_label"						"탄약"
+		"StatDesc_ClipSizeIncrease"						"탄창 크기 증가"
+		"StatDesc_ClipSizeIncrease_postvalue_label"						"탄창 크기 증가"
+		"StatDesc_ClipSizeIncrease_postfix"				"%"
+		//"StatDesc_BonusClips"							"Clips"
+		//"StatDesc_AmmoRegen"							"Ammo Regen"
+		"StatDesc_HealthRegen"							"체력 재생"
+		"StatDesc_HealthRegen_postvalue_label"							"체력 재생"
+		"StatDesc_BaseHealthRegen"						"체력 재생"
+		"StatDesc_BaseHealthRegen_postvalue_label"						"체력 재생"
+		"StatDesc_OutOfCombatHealthRegen"				"비전투 상태 재생"
+		"StatDesc_OutOfCombatHealthRegen_postvalue_label"				"비전투 상태 재생"
+		//"StatDesc_ExternalHealthRegen"					"External Health Regen"
+		"StatDesc_RunSpeed"								"이동 속도"
+		"StatDesc_RunSpeed_postvalue_label"								"이동 속도"
+		"StatDesc_RunSpeed_postfix"						"m"
+		"StatDesc_SprintSpeed"							"질주 속도"
+		"StatDesc_SprintSpeed_postvalue_label"							"질주 속도"
+		"StatDesc_SprintSpeed_postfix"					"m"
+		//"StatDesc_RunAcceleration"						"Move Acceleration"
+		//"StatDesc_SprintAcceleration"					"Sprint Acceleration"
+		"StatDesc_IncomingDamageReduction"				"방어력"
+		"StatDesc_IncomingDamageReduction_postvalue_label"				"방어"
+		//"StatDesc_IncomingDamageScale"					"Incoming Damage Scale"
+		"StatDesc_BulletArmor"							"방어력"
+		"StatDesc_BulletArmor_postvalue_label"							"방어"
+		"StatDesc_BulletArmorDamageReduction"			"총탄 저항"
+		"StatDesc_BulletArmorDamageReduction_postvalue_label"			"총탄 저항"
+		"StatDesc_BulletArmorDamageReduction_postfix"	"%"
+		//"StatDesc_IncomingBulletDamageReduction"		"Bullet Damage Armor"
+		//"StatDesc_IncomingBulletDamageScale"			"Bullet Damage Scale"
+		//"StatDesc_IncomingMeleeDamageReduction"			"Melee Damage Armor"
+		//"StatDesc_IncomingMeleeDamageScale"				"Melee Damage Scale"
+		"StatDesc_TechArmor"							"마법 저항"
+		"StatDesc_TechArmor_postvalue_label"							"마법 저항"
+		"StatDesc_TechArmorDamageReduction"		 		"마법 저항"
+		"StatDesc_TechArmorDamageReduction_postvalue_label"		 		"마법 저항"
+		"StatDesc_TechArmorDamageReduction_postfix"		"%"
+		//"StatDesc_IncomingAbilityDamageReduction"		"Ability Armor"
+		//"StatDesc_IncomingAbilityDamageScale"			"Ability Damage Scale"
+		"StatDesc_TechPower"							"마력"
+		"StatDesc_TechPower_postvalue_label"							"마력"
+		//"StatDesc_ManaPerLevel"							"Energy Per Level"
+		//"StatDesc_HealthPerLevel"						"Health Per Level"
+		//"StatDesc_ManaRegenPerLevel"					"Energy Regen Per Level"
+		//"StatDesc_HealthRegenPerLevel"					"Health Regen Per Level"
+		//"StatDesc_WeaponDPSPerLevel"					"Weapon DPS Per Level"
+		//"StatDesc_SuperSprintSpeed"						"Super Sprint Speed"
+		//"StatDesc_WeaponRange"							"Range"
+		//"StatDesc_WeaponRecoilReduction"				"Recoil Reduction"
+		"StatDesc_FireRate"								"연사 속도"
+		"StatDesc_FireRate_postvalue_label"								"연사 속도"
+		"StatDesc_FireRate_postfix"						"%"
+		//"StatDesc_Toughness"							"Toughness"
+		//"StatDesc_Technology"							"Technology"
+		//"StatDesc_Weaponry"								"Weaponry"
+		"StatDesc_WeaponPower"							"무기 피해"
+		"StatDesc_WeaponPower_postvalue_label"							"무기 피해"
+		"StatDesc_BulletDamage"							"총탄 피해"
+		"StatDesc_BulletDamage_postvalue_label"							"총탄 공격 피해"
+		//"StatDesc_TechPowerAmp"							"Spirit"
+		//"StatDesc_EnergyMax"							"Energy Cells"
+		//"StatDesc_EnergyRegenTime"						"Energy Regen Time"
+		"StatDesc_RoundsPerSecond"						"초당 총탄"
+		"StatDesc_RoundsPerSecond_postvalue_label"						"초당 총탄"
+		//"StatDesc_BulletDamagePerLevel"					"Bullet Damage Per Level"
+		//"StatDesc_WeaponPowerAmp"						"Bullet Damage Amp"
+		//"StatDesc_AirJumps"								"Air Jumps"
+		//"StatDesc_ZipLineSpeed"							"Hyperline Speed"
+		//"StatDesc_ProcModifier"							"Proc Modifier"
+		"StatDesc_TechCooldown"							"능력 쿨다운"
+		"StatDesc_TechCooldown_postvalue_label"							"능력 쿨다운"
+		"StatDesc_TechCooldown_postfix"					"%"
+		"StatDesc_TechCooldownBetweenCharges"			"충전 쿨다운"
+		"StatDesc_TechCooldownBetweenCharges_postvalue_label"			"충전 쿨다운"
+		"StatDesc_TechCooldownBetweenCharges_postfix"	"%"
+		"StatDesc_TechRange"							"능력 범위"
+		"StatDesc_TechRange_postvalue_label"							"능력 범위"
+		"StatDesc_TechRange_postfix"					"%"
+		"StatDesc_MaxChargesIncrease"					"최대 충전 증가"
+		"StatDesc_MaxChargesIncrease_postvalue_label"					"최대 충전 증가"
+		//"StatDesc_RechargeRate"							"Recharge Rate"
+		"StatDesc_TechDuration"							"능력 지속 시간"
+		"StatDesc_TechDuration_postvalue_label"							"능력 지속 시간"
+		"StatDesc_TechDuration_postfix"					"%"
+		"StatDesc_WeaponPowerAttribute"					"무기 피해"
+		"StatDesc_WeaponPowerAttribute_postvalue_label"					"무기 피해"
+		"StatDesc_ArmorAttribute"						"방어"
+		"StatDesc_ArmorAttribute_postvalue_label"						"방어"
+		"StatDesc_HealthAttribute"						"체력"
+		"StatDesc_HealthAttribute_postvalue_label"						"체력"
+		"StatDesc_TechDamageAttribute"					"마법 피해"
+		"StatDesc_TechDamageAttribute_postvalue_label"					"마법 피해"
+		"StatDesc_FireRateAttribute"					"연사 속도"
+		"StatDesc_FireRateAttribute_postvalue_label"					"연사 속도"
+		"StatDesc_ReloadTime"							"재장전 시간"
+		"StatDesc_ReloadTime_postvalue_label"							"재장전 시간"
+		"StatDesc_ReloadTime_postfix"					"초"
+		"StatDesc_Stamina"								"활력"
+		"StatDesc_Stamina_postvalue_label"								"활력"
+		"StatDesc_StaminaRegenPerSecond"				"활력 회복"
+		"StatDesc_StaminaRegenPerSecond_postvalue_label"				"활력 회복"
+		"StatDesc_StaminaRegenPerSecond_postfix"		"%"
+		"StatDesc_DashSpeedInMeters"								"대시 속도"
+		"StatDesc_DashSpeedInMeters_postvalue_label"				"대시 속도"
+		"StatDesc_DashSpeedInMeters_postfix"						"m(초당)"
+		"StatDesc_SpiritLifestealEffectiveness"					"체력 흡수 효율"
+		"StatDesc_SpiritLifestealEffectiveness_postvalue_label"				"체력 흡수 효율"
+		"StatDesc_SpiritLifestealEffectiveness_postfix"						"%"
+		"StatDesc_BaseWeaponDamage"						"무기 피해"
+		"StatDesc_BaseWeaponDamage_postvalue_label"						"무기 피해"
+		"StatDesc_BaseWeaponDamage_postfix"				"%"
+		"StatDesc_TechDamageScale"						"마법 피해"
+		"StatDesc_TechDamageScale_postvalue_label"						"마법 피해"
+		//"StatDesc_TechShieldHealth"						"Spirit Shield"
+		"StatDesc_BulletShieldHealth"					"피해 방어막"
+		"StatDesc_BulletShieldHealth_postvalue_label"					"피해 방어막"
+		"StatDesc_ReloadSpeed_prefix"					"{s:sign}"
+		"StatDesc_ReloadSpeed"							"재장전 감소"
+		"StatDesc_ReloadSpeed_postvalue_label"							"재장전 감소"
+		"StatDesc_ReloadSpeed_postfix"					"%"
+		"StatDesc_CritDamageReceivedScale"				"치명타 감소"
+		"StatDesc_CritDamageReceivedScale_postvalue_label"				"치명타 감소"
+		"StatDesc_CritDamageReceivedScale_postfix"		"%"
+		"StatDesc_StaminaCooldown"						"활력 쿨다운"
+		"StatDesc_StaminaCooldown_postvalue_label"						"활력 쿨다운"
+		"StatDesc_StaminaCooldown_postfix"				"초"
+		"StatDesc_StaminaRegenIncrease_prefix"			"+"
+		"StatDesc_StaminaRegenIncrease"					"활력 회복"
+		"StatDesc_StaminaRegenIncrease_postvalue_label"					"활력 회복"
+		"StatDesc_StaminaRegenIncrease_postfix"			"%"
+		"StatDesc_DebuffResist"							"약화 저항"
+		"StatDesc_DebuffResist_postvalue_label"							"약화 저항"
+		"StatDesc_DebuffResist_postfix"					"%"
+		"StatDesc_HealingOutput"						"주는 치유량"
+		"StatDesc_HealingOutput_postvalue_label"						"주는 치유량"
+		"StatDesc_HealingOutput_postfix"				"%"
+		"StatDesc_CritDamageBonusScale"					"보너스 치명타 배수"
+		"StatDesc_CritDamageBonusScale_postvalue_label"					"보너스 치명타 배수"
+		"StatDesc_CritDamageBonusScale_postfix"			"%"
+		"StatDesc_MeleeResist"							"근거리 공격 저항"
+		"StatDesc_MeleeResist_postvalue_label"							"근거리 공격 저항"
+		"StatDesc_MeleeResist_postfix"					"%"
+
+		"StatDesc_BulletSpeed"							"총탄 속도"
+		"StatDesc_BulletSpeed_postvalue_label"							"총탄 속도"
+		"StatDesc_BulletSpeed_postfix"					"m(초당)"
+		"StatDesc_BulletSpeedIncrease"					"총탄 속도 증가"
+		"StatDesc_BulletSpeedIncrease_postvalue_label"					"총탄 속도 증가"
+		"StatDesc_BulletSpeedIncrease_postfix"			"%"
+		
+		"StatDesc_WeaponRangeFalloffMin_postfix"		"m"
+		"StatDesc_WeaponRangeFalloffMax_postfix"		"m"
+
+		//"StatDesc_AttackPower"							"Attack Power"
+		//"StatDesc_AbilityPower"							"Ability Power"
+		//"StatDesc_DefensePower"							"Defense Power"
+
+		"StatDesc_TechLifesteal_prefix"					"{s:sign}"
+		"StatDesc_TechLifesteal"						"마법 체력 흡수"
+		"StatDesc_TechLifesteal_postvalue_label"						"마법 체력 흡수"
+		"StatDesc_TechLifesteal_postfix"				"%"
+
+		"StatDesc_TechLifestealNonHero_prefix"			"{s:sign}"
+		"StatDesc_TechLifestealNonHero"					"비영웅 대상 마법 체력 흡수"
+		"StatDesc_TechLifestealNonHero_postvalue_label"					"비영웅 대상 마법 체력 흡수"
+
+		"StatDesc_BulletLifesteal_prefix"					"{s:sign}"
+		"StatDesc_BulletLifesteal"						"총탄 체력 흡수"
+		"StatDesc_BulletLifesteal_postvalue_label"						"총탄 체력 흡수"
+		"StatDesc_BulletLifesteal_postfix"				"%"
+
+		"StatDesc_StaminaRegenPercent"						"활력 회복"
+		"StatDesc_StaminaRegenPercent_postvalue_label"						"활력 회복"
+		"StatDesc_StaminaRegenPercent_postfix"				"%"
+
+		"Attribute_EWeaponAttribute_RapidFire"			"속사"
+		"Attribute_EWeaponAttribute_BurstFire"			"점사"
+		"Attribute_EWeaponAttribute_Spreadshot"			"산탄"
+		"Attribute_EWeaponAttribute_BeamWeapon"			"광선 무기"
+		"Attribute_EWeaponAttribute_CloseRange"			"근거리"
+		"Attribute_EWeaponAttribute_MediumRange"		"중거리"
+		"Attribute_EWeaponAttribute_LongRange"			"장거리"
+		"Attribute_EWeaponAttribute_HeavyHitter"		"중무기"
+		"Attribute_EWeaponAttribute_Projectile"			"투사체"
+		"Attribute_EWeaponAttribute_Pistol"				"권총"
+		"Attribute_EWeaponAttribute_Heavy"				"중화기"
+		"Attribute_EWeaponAttribute_Bow"				"활"
+		"Attribute_EWeaponAttribute_Bouncy"				"탄력"
+		"Attribute_EWeaponAttribute_Crossbow"			"석궁"
+		
+
+		//"WeaponPowerAttribute_Desc"						"%s1 to any weapon damage bonus"
+		//"ArmorAttribute_Desc"							"%s1 to any bullet and spirit armor bonus"
+		//"HealthAttribute_Desc"							"%s1 to any health and health regen bonuses"
+		//"TechDamageAttribute_Desc"						"%s1 to any spirit damage bonus"
+		//"FireRateAttribute_Desc"						"%s1 to any weapon fire rate bonus"
+
+		//"WeaponPowerAttribute_Desc_0"					"no additional weapon damage bonuses"
+		//"ArmorAttribute_Desc_0"							"no additional bullet armor bonuses"
+		//"HealthAttribute_Desc_0"						"no additional health and health regen bonuses"
+		//"TechDamageAttribute_Desc_0"					"no additional spirit damage bonuses"
+		//"FireRateAttribute_Desc_0"						"no additional weapon fire rate bonuses"
+
+		//-----------------------------------------------------------------------------
+		// END Stat desc
+		//-----------------------------------------------------------------------------
+
+		//-----------------------------------------------------------------------------
+		// Ability Properties desc
+		//-----------------------------------------------------------------------------
+		"AffectedProperty_new_value"				"<span class=\"AffectedValNew\">{s:valNew}</span>"
+		"AffectedPropertyPostFix"					"<span class=\"AffectedValPostfix\">{s:valPostfix}</span>"
+
+		"EMultiplyBase_postfix"						"%"
+
+		"HealAmount_label"							"치유"
+
+		"HealAmount_postvalue_label"							"치유량"
+		"HealInterval_label"						"치유 간격"
+		"HealInterval_postvalue_label"						"치유 간격"
+		"HealInterval_postfix"						"초"
+		
+		"SlowPercent_label"							"이동 속도"
+		"SlowPercent_postvalue_label"				"이동 속도"
+		"SlowPercent_postfix"						"%"
+		"SlowPercent_prefix"						"-"
+		"movement_slow"								"-이동 속도"
+
+		"SlowPercentPerStack"						"중첩당 이동 속도"
+		"SlowPercentPerStack_postvalue_label"		"중첩당 이동 속도"
+		"SlowPercentPerStack_postfix"						"%"
+		"SlowPercentPerStack_prefix"						"-"
+
+		"MovementSpeedSlow_label"							"이동 속도"
+		"MovementSpeedSlow_postvalue_label"					"이동 속도"
+		"MovementSpeedSlow_postfix"							"%"
+		"MovementSpeedSlow_prefix"							"-"
+
+		"MovementSlowDuration_label"						"둔화 지속 시간"
+		"MovementSlowDuration_postvalue_label"				"둔화 지속 시간"
+		"MovementSlowDuration_postfix"						"초"
+
+		"MoveSpeedBonusPct_label"				"이동 속도 보너스"
+		"MoveSpeedBonusPct_postvalue_label"		"이동 속도 보너스"
+		"MoveSpeedBonusPct_prefix"				"+"
+		"MoveSpeedBonusPct_postfix"				"%"
+
+		//"DroneLifetime_label"							"Drone Lifetime"
+
+		"CritChance_label"							"치명타 확률"
+
+		"CritChance_postvalue_label"							"치명타 확률"
+		"CritChance_postfix"							"%"
+
+		"ShieldHealth_label"							"방어막 수명"
+
+
+		"ShieldHealth_postvalue_label"							"방어막 수명"
+
+		//"SpeedBoostPercent_label"						"Speed"
+		"SpeedBoostPercent_prefix"						"{s:sign}"
+		"SpeedBoostPercent_postfix"						"%"
+
+		"Damage_label"								"피해"
+		"Damage_postvalue_label"								"피해"
+		
+		"DamagePerStack_label"								"중첩당 피해"
+		"DamagePerStack_postvalue_label"					"중첩당 피해"
+
+		"DamageBoosted_label"						"피해"
+		"DamageBoosted_postvalue_label"						"피해"
+
+		"BonusDamage_label"							"보너스 피해"
+		"BonusDamage_postvalue_label"							"보너스 피해"
+
+		"BonusDamagePercent_label"							"보너스 피해"
+		"BonusDamagePercent_postvalue_label"							"피해 보너스"
+		"BonusDamagePercent_prefix"						"{s:sign}"
+		"BonusDamagePercent_postfix"						"%"
+
+		"DamagePlayer_label"							"플레이어 대상 피해"
+		"DamagePlayer_postvalue_label"							"플레이어에게 입힌 피해"
+
+		"DamageNPC_label"								"비플레이어 대상 피해"
+
+
+		"DamageNPC_postvalue_label"								"비플레이어 대상 피해"
+
+		"DetectionRadius_label"						"감지 반경"
+
+
+		"DetectionRadius_postvalue_label"						"감지 반경"
+
+		//"MaxMines_label"								"Max Mines"
+	
+		//"HealRate_label"								"Heal Rate"
+		"HealRate_postfix"								"(초당)"
+
+		"Radius_label"								"반경"
+
+		"Radius_postvalue_label"								"반경"
+		"Radius_postfix"								"m"
+
+		"InactiveRadius_label"						"비활성 반경"
+
+		"InactiveRadius_postvalue_label"						"비활성 반경"
+		"InactiveRadius_postfix"						"m"
+
+		"ActiveRadius_label"						"활성 반경"
+
+		"ActiveRadius_postvalue_label"						"활성 반경"
+		"ActiveRadius_postfix"						"m"
+
+		"MaxRadius_label"								"최대 반경"
+		"MinRadius_postvalue_label"					"최소 반경"
+		"MinRadius_postfix"							"m"
+		"MaxRadius_postvalue_label"								"최대 반경"
+		"MaxRadius_postfix"								"m"
+
+		//"TackleRadius_label"							"Tackle Radius"
+		"TackleRadius_postfix"							"m"
+
+		"MovementDamagePercent_label"					"피해"
+
+		"MovementDamagePercent_postvalue_label"					"피해"
+"DPS_label"									"초당 피해"
+
+		"DPS_postvalue_label"									"초당 피해"
+
+		"DamagePercentHealth_label"				"최대 체력 비례 피해"
+
+		"DamagePercentHealth_postvalue_label"				"최대 체력 비례 피해"
+		"DamagePercentHealth_postfix"			"%"
+		"DPSPercentHealth_label" "최대 체력 비례 피해"
+		"DPSPercentHealth_postvalue_label" "최대 체력 비례 피해"
+		"DPSPercentHealth_postfix" "%"
+
+		//"DPSIncrease_label"							"Damage Increase Rate"
+		"DPSMin_label"								"최소 초당 피해"
+		"DPSMin_postvalue_label"								"최소 초당 피해"
+		"DPSMax_label"								"최대 초당 피해"
+
+		"DPSMax_postvalue_label"								"최대 초당 피해"
+
+		"DPS_Self_label"								"자체 피해"
+
+		"DPS_Self_postvalue_label"								"자신이 입는 피해"
+		"DPS_Self_postfix"								"(초당)"
+
+		"BaseAttackDamage_prefix"						"{s:sign}"
+		"BaseAttackDamage_label"						"기본 피해"
+		"BaseAttackDamage_postvalue_label"						"기본 피해"
+
+		"MODIFIER_VALUE_BASEATTACK_DAMAGE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_BASEATTACK_DAMAGE_label"						"기본 피해"
+		"MODIFIER_VALUE_BASEATTACK_DAMAGE_postvalue_label"						"기본 피해"
+
+		"BonusHealth_prefix"							"{s:sign}"
+		"BonusHealth_label"							"보너스 체력"
+		"BonusHealth_postvalue_label"							"보너스 체력"
+
+		"MODIFIER_VALUE_HEALTH_MAX_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_HEALTH_MAX_label"							"보너스 체력"
+		"MODIFIER_VALUE_HEALTH_MAX_postvalue_label"							"보너스 체력"
+
+		"SpiritPowerInnate_prefix"							"{s:sign}"
+		"SpiritPowerInnate_label"							"마력"
+		"SpiritPowerInnate_postvalue_label"					"마력"
+
+		"MaxHealth_prefix"							"{s:sign}"
+		"MaxHealth_label"							"최대 체력"
+
+		"MaxHealth_postvalue_label"							"최대 체력"
+
+		//"BonusEnergyMax_label"						"Energy Cells"
+
+		"BonusMaxHealth_prefix"							"{s:sign}"
+		"BonusMaxHealth_label"						"최대 체력"
+
+		"BonusMaxHealth_postvalue_label"						"최대 체력"
+
+		"BonusHealthPercent_prefix"					"{s:sign}"
+		"BonusHealthPercent_postfix"				"%"
+		"BonusHealthPercent_label"					"체력"
+		"BonusHealthPercent_postvalue_label"					"체력"
+
+		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_postfix"				"%"
+		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_label"					"체력"
+		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_postvalue_label"					"체력"
+
+		"BonusHealthRegen_prefix"					"{s:sign}"
+		"BonusHealthRegen_label"					"체력 재생"
+		"BonusHealthRegen_postvalue_label"					"체력 재생"
+
+		"MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND_label"					"체력 재생"
+		"MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND_postvalue_label"					"체력 재생"
+
+		"OutOfCombatHealthRegen_prefix"					"{s:sign}"
+		"OutOfCombatHealthRegen_label"					"전투 제외 재생"
+		"OutOfCombatHealthRegen_postvalue_label"					"전투 제외 재생"
+
+		"MODIFIER_VALUE_OUT_OF_COMBAT_HEALTH_REGEN_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_OUT_OF_COMBAT_HEALTH_REGEN_label"					"비전투 상태 재생"
+		"MODIFIER_VALUE_OUT_OF_COMBAT_HEALTH_REGEN_postvalue_label"					"비전투 상태 재생"
+
+		"BaseWeaponDamage_postfix"						"%"
+
+		//"LevelUpBaseWeaponDamage"					"Bullet Damage"
+		"LevelUpBaseMeleeDamage"					"근거리 피해"
+
+		"HealthRegen_prefix"						"{s:sign}"
+		"HealthRegen_label"						"체력 재생"
+
+		"HealthRegen_postvalue_label"						"체력 재생"
+
+		"BonusRegenMaxHealthPercent_prefix"					"{s:sign}"
+		"BonusRegenMaxHealthPercent_postfix"					"%"
+		"BonusRegenMaxHealthPercent_label"						"최대 체력 재생"
+		"BonusRegenMaxHealthPercent_postvalue_label"						"최대 체력 재생"
+
+		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_postfix"					"%"
+		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_label"						"최대 체력 재생"
+		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_postvalue_label"						"최대 체력 재생"
+
+		"BonusHealthRegenOutOfCombat_prefix"			"{s:sign}"
+		//"BonusHealthRegenOutOfCombat_postfix"			""
+		//"BonusHealthRegenOutOfCombat_label"			"Health Regen Out of Combat"
+
+		"ExternalBonusHealthRegen_prefix"				"{s:sign}"
+		"ExternalBonusHealthRegen_postfix"				"(초당)"
+		"ExternalBonusHealthRegen_label"				"체력 재생"
+		"ExternalBonusHealthRegen_postvalue_label"				"체력 재생"
+
+		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_postfix"				"(초당)"
+		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_label"				"체력 재생"
+		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_postvalue_label"				"체력 재생"
+
+		"ActiveHealthRegenBoost_prefix"					"{s:sign}"
+		//"ActiveHealthRegenBoost_postfix"				"hp/s"
+		"ActiveHealthRegenBoost_label"				"체력 재생"
+
+		"ActiveHealthRegenBoost_postvalue_label"				"체력 재생"
+
+		"NonPlayerBonusWeaponPower_label"			"비영웅 대상 무기 피해"
+		"NonPlayerBonusWeaponPower_postvalue_label"			"비영웅 대상 무기 피해"
+		"NonPlayerBonusWeaponPower_prefix"			"{s:sign}"
+		"NonPlayerBonusWeaponPower_postfix"			"%"
+		"NonPlayerBonusWeaponPower_conditional"		"비영웅 대상"
+
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_label"			"비영웅 대상 무기 피해"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_postvalue_label"			"비영웅 대상 무기 피해"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_prefix"			"{s:sign}"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_postfix"			"%"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_conditional"		"비영웅 대상"
+
+		"NonPlayerBulletResist_label"			"비영웅 대상 총탄 저항"
+
+		"NonPlayerBulletResist_postvalue_label"			"비영웅 대상 총탄 저항"
+		"NonPlayerBulletResist_prefix"			"{s:sign}"
+		"NonPlayerBulletResist_postfix"			"%"
+		"NonPlayerBulletResist_conditional"		"비영웅 대상"
+
+		"BonusMeleeDamagePercent_prefix"				"{s:sign}"
+		"BonusMeleeDamagePercent_postfix"				"%"
+		"BonusMeleeDamagePercent_label"				"근거리 공격 피해"
+
+		"BonusMeleeDamagePercent_postvalue_label"				"근거리 공격 피해"
+
+		"BonusMeleeDamage_prefix"						"{s:sign}"
+		"BonusMeleeDamage_label"						"근거리 공격 피해"
+
+		"BonusMeleeDamage_postvalue_label"						"근거리 공격 피해"
+
+		"MODIFIER_VALUE_MELEEATTACK_DAMAGE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_MELEEATTACK_DAMAGE_label"						"근거리 공격 피해"
+
+		"MODIFIER_VALUE_MELEEATTACK_DAMAGE_postvalue_label"						"근거리 공격 피해"
+
+		"FuseTime_label"								"퓨즈 시간"
+
+		"FuseTime_postvalue_label"								"퓨즈 시간"
+		"FuseTime_postfix"								"초"
+
+		"BonusAmmoRegen_prefix"							"{s:sign}"
+		"BonusAmmoRegen_postfix"						" 초당"
+		//"BonusAmmoRegen_label"						"Ammo Regen"
+
+		"BonusAmmo_prefix"								"{s:sign}"
+		"BonusAmmo_postfix"								"%"
+		//"BonusAmmo_label"								"Bullets"
+
+		"Lifetime_postfix"								"초"
+		"Lifetime_label"								"활성 시간"
+
+		"Lifetime_postvalue_label"								"활성 시간"
+
+		"Distance_postfix"								"m"
+		//"Distance_label"								"Distance"
+
+		//"ChainDamageCoeff_postfix"						"% of gun damage"
+		//"ChainDamageCoeff_label"						"Chain Damage"
+
+		"BulletArmor_prefix"							"{s:sign}"
+		"BulletArmor_label"								"총탄 저항"
+		"BulletArmor_postvalue_label"								"총탄 저항"
+
+		"MODIFIER_VALUE_BULLET_ARMOR_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_BULLET_ARMOR_label"								"총탄 방어"
+		"MODIFIER_VALUE_BULLET_ARMOR_postvalue_label"								"총탄 방어"
+
+		"BulletResist_prefix"							"{s:sign}"
+		"BulletResist_postfix"							"%"
+		"BulletResist_label"							"총탄 저항"
+		"BulletResist_postvalue_label"							"총탄 저항"
+
+		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_postfix"							"%"
+		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_label"							"총탄 저항"
+		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_postvalue_label"							"총탄 저항"
+
+		"BulletArmorDamageReduction_prefix"				"{s:sign}"
+		"BulletArmorDamageReduction_postfix"			"%"
+		"BulletArmorDamageReduction_label"				"총탄 저항"
+		"BulletArmorDamageReduction_postvalue_label"				"총탄 저항"
+
+		"BulletArmorDamageReductionPerStack_prefix"				"{s:sign}"
+		"BulletArmorDamageReductionPerStack_postfix"			"%"
+		"BulletArmorDamageReductionPerStack_label"				"중첩당 총탄 저항"
+		"BulletArmorDamageReductionPerStack_postvalue_label"	"중첩당 총탄 저항"
+
+
+
+		// this name is misleading since we use this as a debuff ("TechResist" is the buff version)
+		"TechArmorDamageReduction_prefix"				"{s:sign}"
+		"TechArmorDamageReduction_postfix"				"%"
+		"TechArmorDamageReduction_Label"				"마법 저항"
+		"TechArmorDamageReduction_postvalue_label"				"마법 저항"
+
+		"BulletResistReduction_label"		"총탄 저항"
+		"BulletResistReduction_postvalue_label"		"총탄 저항"
+		"BulletResistReduction_postfix"	"%"
+
+		"MeleeResistReduction_label"		"근거리 공격 저항"
+		"MeleeResistReduction_postvalue_label"		"근거리 공격 저항"
+		"MeleeResistReduction_postfix"	"%"
+
+		"BulletResistReductionPerStack_label"		"중첩당 총탄 저항"
+		"BulletResistReductionPerStack_postvalue_label"		"중첩당 총탄 저항"
+		"BulletResistReductionPerStack_postfix"	"%"
+
+		"MagicResistReduction_label"		"마법 저항"
+
+		"MagicResistReduction_postvalue_label"		"마법 저항"
+		"MagicResistReduction_postfix"	"%"
+
+		"TechDamageScale_prefix"						"{s:sign}"
+		"TechDamageScale_postfix"						"%"
+		"TechDamageScale_label"							"마법 피해"
+
+		"TechDamageScale_postvalue_label"							"마법 피해"
+
+		"OutgoingTechDamagePercent_label" "마법 피해"
+
+		"OutgoingTechDamagePercent_postvalue_label" "마법 피해"
+		"OutgoingTechDamagePercent_postfix" "%"
+
+		"TechArmor_prefix"								"{s:sign}"
+		"TechArmor_label"								"마법 저항"
+		"TechArmor_postvalue_label"								"마법 저항"
+
+		"MODIFIER_VALUE_TECH_ARMOR_prefix"								"{s:sign}"
+		"MODIFIER_VALUE_TECH_ARMOR_label"								"마법 저항"
+		"MODIFIER_VALUE_TECH_ARMOR_postvalue_label"								"마법 저항"
+		
+		"TechResist_prefix"								"{s:sign}"
+		"TechResist_postfix"							"%"
+		"TechResist_label"								"마법 저항"
+		"TechResist_postvalue_label"								"마법 저항"
+
+		"MODIFIER_VALUE_TECH_RESIST_prefix"								"{s:sign}"
+		"MODIFIER_VALUE_TECH_RESIST_postfix"							"%"
+		"MODIFIER_VALUE_TECH_RESIST_label"								"마법 저항"
+		"MODIFIER_VALUE_TECH_RESIST_postvalue_label"								"마법 저항"
+
+		"TechResistPerStack_prefix"						"{s:sign}"
+		"TechResistPerStack_postfix"					"%"
+		"TechResistPerStack_label"						"중첩당 마법 증폭"
+		"TechResistPerStack_postvalue_label"						"중첩당 마법 증폭"
+
+		"MagicIncreasePerStack_prefix"					"{s:sign}"
+		"MagicIncreasePerStack_postfix"					"%"
+		"MagicIncreasePerStack_label"					"중첩당 마법 증폭"
+
+		"MagicIncreasePerStack_postvalue_label"					"중첩당 마법 증폭"
+
+		"BulletDamageReduction_postfix"					"%"
+		"BulletDamageReduction_label"					"총탄 저항"
+		"BulletDamageReduction_postvalue_label"					"총탄 저항"
+
+		"ActiveBulletDamageReduction_prefix"			"{s:sign}"
+		"ActiveBulletDamageReduction_label"			"총탄 피해"
+		"ActiveBulletDamageReduction_postvalue_label"			"총탄 피해"
+		"ActiveBulletDamageReduction_postfix"			"%"
+
+		"MODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_postfix"					"%"
+		"MODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_label"					"총탄 방어"
+		"MODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_postvalue_label"					"총탄 방어"
+
+		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_prefix"			"{s:sign}"
+		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_label"			"총탄 공격 피해"
+		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_postvalue_label"			"총탄 공격 피해"
+		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_postfix"			"%"
+
+		"BonusMoveSpeed_prefix"							"{s:sign}"
+		"BonusMoveSpeed_label"						"이동 속도"
+		"BonusMoveSpeed_postvalue_label"						"이동 속도"
+		"BonusMoveSpeed_postfix"						"m"
+
+		"FloatMoveSpeed_label"						"공중 이동 속도"
+		"FloatMoveSpeed_postvalue_label"						"공중 이동 속도"
+		"FloatMoveSpeed_postfix"						"m"
+
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_label"						"이동 속도"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_postvalue_label"						"이동 속도"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_postfix"						"m"
+
+		"RestoreDelay_prefix"							"{s:sign}"
+		"RestoreDelay_label"						"회복 지연"
+		"RestoreDelay_postvalue_label"						"회복 지연"
+		"RestoreDelay_postfix"						" 초"
+
+		"HealLifePercentOutOfCombat_prefix"				"{s:sign}"
+		"HealLifePercentOutOfCombat_label"				"최대 체력 재생"
+		"HealLifePercentOutOfCombat_postvalue_label"	"최대 체력 재생"
+		"HealLifePercentOutOfCombat_postfix"			" %"
+		
+		"TeleporterBonus"							"보너스 이동 속도!"
+		"RunSpeed_postfix"						"m(초당)"
+
+		"WeaponRange_label"							"무기 사거리"
+
+		"WeaponRange_postvalue_label"							"무기 사거리"
+		"WeaponRange_postfix"						"m"
+
+		"BonusMoveSpeedPercent_prefix"					"{s:sign}"
+		"BonusMoveSpeedPercent_postfix"					"%"
+		"BonusMoveSpeedPercent_label"					"이동 속도"
+		"BonusMoveSpeedPercent_postvalue_label"					"이동 속도"
+
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_postfix"					"%"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_label"					"이동 속도"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_postvalue_label"					"이동 속도"
+
+		"SlowResistancePercent_prefix"					"{s:sign}"
+		"SlowResistancePercent_label"					"둔화 저항"
+		"SlowResistancePercent_postvalue_label"					"둔화 저항"
+		"SlowResistancePercent_postfix"					"%"
+
+		"AirSpeedBonus_label"						"공중 이동 속도 보너스"
+
+		"AirSpeedBonus_postvalue_label"						"공중 이동 속도 보너스"
+		"AirSpeedBonus_prefix"						"{s:sign}"
+		"AirSpeedBonus_postfix"						"m"
+		//"AscendSpeed_label"							""
+		//"DescendSpeed_label"							""
+
+		"BonusCooldownReduction_label"					"총탄당 쿨다운 감소"
+
+
+		"BonusCooldownReduction_postvalue_label"					"총탄당 쿨다운 감소"
+
+		"BonusClipSize_prefix"							"{s:sign}"
+		"BonusClipSize_label"							"탄약"
+		"BonusClipSize_postvalue_label"							"탄약"
+
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_label"							"탄약"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_postvalue_label"							"탄약"
+
+		"BonusClipSizePercent_prefix"					"{s:sign}"
+		"BonusClipSizePercent_postfix"					"%"
+		"BonusClipSizePercent_label"					"최대 탄약"
+		"BonusClipSizePercent_postvalue_label"					"최대 탄약"
+
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_postfix"					"%"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_label"					"최대 탄약"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_postvalue_label"					"최대 탄약"
+
+		"TemporaryBonusClipSize_prefix"				"{s:sign}"
+		"TemporaryBonusClipSize_label"				"임시 탄약"
+		"TemporaryBonusClipSize_postvalue_label"				"임시 탄약"
+
+		"TemporaryBonusClipSizePercent_prefix"			"{s:sign}"
+		"TemporaryBonusClipSizePercent_postfix"			"%"
+		"TemporaryBonusClipSizePercent_label"			"임시 탄약"
+
+		"TemporaryBonusClipSizePercent_postvalue_label"			"임시 탄약"
+
+		"AmmoReloadPercent_postfix"					"%"
+		"AmmoReloadPercent_label"					"총탄 재장전"
+
+		"AmmoReloadPercent_postvalue_label"					"총탄 재장전"
+
+		"BulletPenetrationPercent_postfix"				"%"
+		"BulletPenetrationPercent_label"				"총탄 관통 피해"
+
+		"BulletPenetrationPercent_postvalue_label"				"총탄 관통 피해"
+
+		"TechPower_prefix"								"{s:sign}"
+		"TechPower_label"								"마력"
+		"TechPower_postvalue_label"								"마력"
+		"MODIFIER_VALUE_TECH_POWER_prefix"								"{s:sign}"
+		"MODIFIER_VALUE_TECH_POWER_label"								"마력"
+		"MODIFIER_VALUE_TECH_POWER_postvalue_label"								"마력"
+		"TechPowerPercent_prefix"						"{s:sign}"
+		"TechPowerPercent_label"						"마력"
+		"TechPowerPercent_postvalue_label"						"마력"
+		"TechPowerPercent_postfix"						"%"
+
+		"MODIFIER_VALUE_TECH_POWER_PERCENT_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_TECH_POWER_PERCENT_label"						"마력"
+		"MODIFIER_VALUE_TECH_POWER_PERCENT_postvalue_label"						"마력"
+		"MODIFIER_VALUE_TECH_POWER_PERCENT_postfix"						"%"
+
+		"ArmorPower_prefix"								"{s:sign}"
+		"ArmorPower_label"								"기본 체력"
+		"ArmorPower_postvalue_label"								"기본 체력"
+		"ArmorPower_postfix"								"%"
+
+		"MODIFIER_VALUE_ARMOR_POWER_prefix"								"{s:sign}"
+		"MODIFIER_VALUE_ARMOR_POWER_label"								"기본 체력"
+		"MODIFIER_VALUE_ARMOR_POWER_postvalue_label"								"기본 체력"
+		"MODIFIER_VALUE_ARMOR_POWER_postfix"								"%"
+
+		"TechPowerAmp_prefix"							"{s:sign}"
+		//"TechPowerAmp_label"							"Spirit"
+		//"TechPowerAmp_postfix"							""
+
+		"SpellAmplificationPercent_prefix"				"{s:sign}"
+		"SpellAmplificationPercent_label"				"마력"
+		"SpellAmplificationPercent_postvalue_label"				"마력"
+		//BaseDamagePerShot_label							"Base Damage"
+		"NanoTechPerShot_label"							"마법 피해"
+		"NanoTechPerShot_postvalue_label"							"마법 피해"
+		//"ExplosiveSplashDamage_label"						"Explode Damage"
+		"BulletDamageTotal_label"							"총탄 피해"
+
+		"BulletDamageTotal_postvalue_label"							"총탄 공격 피해"
+
+		"ChargesRestored_label"							"충전 복구됨"			
+
+
+		"ChargesRestored_postvalue_label"							"충전 복구됨"			
+
+		"BonusFireRate_prefix"							"{s:sign}"
+		"BonusFireRate_postfix"							"%"
+		"BonusFireRate_label"							"연사 속도"
+		"BonusFireRate_postvalue_label"							"연사 속도"
+
+		"MODIFIER_VALUE_FIRE_RATE_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_FIRE_RATE_postfix"							"%"
+		"MODIFIER_VALUE_FIRE_RATE_label"							"연사 속도"
+		"MODIFIER_VALUE_FIRE_RATE_postvalue_label"							"연사 속도"
+		
+		"ActivatedFireRate_prefix"						"{s:sign}"
+		"ActivatedFireRate_postfix"						"%"
+		"ActivatedFireRate_label"						"연사 속도"
+
+		"ActivatedFireRate_postvalue_label"						"연사 속도"
+
+		"BonusFireRatePlayerUnit_prefix"				"{s:sign}"
+		"BonusFireRatePlayerUnit_postfix"				"%"
+		"BonusFireRatePlayerUnit_label"					"미니언 연사 속도"
+
+		"BonusFireRatePlayerUnit_postvalue_label"					"미니언 연사 속도"
+
+		"BonusFireRateNPC_prefix"							"{s:sign}"
+		"BonusFireRateNPC_postfix"							"%"
+		"BonusFireRateNPC_label"							"비영웅 연사 속도"
+
+		"BonusFireRateNPC_postvalue_label"							"비영웅 연사 속도"
+
+		"BonusMeleeAttackSpeed_prefix"					"{s:sign}"
+		"BonusMeleeAttackSpeed_postfix"					"%"
+		//"BonusMeleeAttackSpeed_label"					"Melee Speed"
+
+		"MODIFIER_VALUE_MELEEATTACK_SPEED_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_MELEEATTACK_SPEED_postfix"					"%"
+
+		"AbilityDamageReduction_label"				"마법 피해 감소"
+		"AbilityDamageReduction_postvalue_label"				"마법 피해 감소"
+		"AbilityDamageReduction_postfix"				"%"
+
+		"MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_label"				"마법 피해 감소"
+		"MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_postvalue_label"				"마법 피해 감소"
+		"MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_postfix"				"%"
+
+		//"SlowProcChance_label"						"Chance to slow on hit"
+		"SlowProcChance_postfix"						"%"
+
+		"EnemySlowPct_label"							"적 이동 속도"
+
+		"EnemySlowPct_postvalue_label"							"적 이동 속도"
+		"EnemySlowPct_postfix"							"%"
+		"EnemySlowPct_prefix"							"-"
+
+		"SlowDuration_label"							"둔화 지속 시간"			
+
+		"SlowDuration_postvalue_label"							"둔화 지속 시간"
+		"SlowDuration_postfix"							"초"
+
+		"MoveSpeedSlowDuration_label"							"둔화 지속 시간"
+
+		"MoveSpeedSlowDuration_postvalue_label"							"둔화 지속 시간"
+		"MoveSpeedSlowDuration_postfix"							"초"
+
+		//"PoisonDamage_label"							"Poison Damage"
+		"PoisonDuration_label"							"지속 시간"
+		"PoisonDuration_postvalue_label"							"지속 시간"
+		"PoisonDuration_postfix"							"초"
+
+
+		"DebuffDuration_label"						"약화 지속 시간"
+
+
+		"DebuffDuration_postvalue_label"						"약화 지속 시간"
+		"DebuffDuration_postfix"						"초"
+
+		"DotHealthPercent_label"						"출혈 피해"
+
+		"DotHealthPercent_postvalue_label"						"출혈 피해"
+		"DotHealthPercent_postfix"						"% 초당 피해"
+
+		"CurrentHealthPercent_label"					"현재 체력"
+
+		"CurrentHealthPercent_postvalue_label"					"현재 체력"
+		"CurrentHealthPercent_postfix"					"%"
+		
+		"CurrentHealthPercentDamage_label"				"현재 체력"
+		
+		"CurrentHealthPercentDamage_postvalue_label"				"현재 체력"
+		"CurrentHealthPercentDamage_postfix"			"%"
+		"FreezeDuration_label"							"동결 지속 시간"
+		"FreezeDuration_postvalue_label"							"동결 지속 시간"
+		"FreezeDuration_postfix"							"초"
+
+		"CooldownReduction_prefix"						"{s:sign}"
+		"CooldownReduction_postfix"						"%"
+		"CooldownReduction_label"						"능력 쿨다운 감소"
+		"CooldownReduction_postvalue_label"						"능력 쿨다운 감소"
+		"UltimateCooldownReduction_prefix"						"{s:sign}"
+		"UltimateCooldownReduction_postfix"						"%"
+		"UltimateCooldownReduction_label"						"궁극기 쿨다운 감소"
+		"UltimateCooldownReduction_postvalue_label"						"궁극기 쿨다운 감소"
+		
+		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_postfix"						"%"
+		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_label"						"능력 쿨다운 감소"
+		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_postvalue_label"						"능력 쿨다운 감소"
+
+		"SingleAbilityCooldownReduction_prefix"						"{s:sign}"
+		"SingleAbilityCooldownReduction_postfix"					"%"
+		"SingleAbilityCooldownReduction_label"						"능력 쿨다운 감소"
+		"SingleAbilityCooldownReduction_postvalue_label"			"능력 쿨다운 감소"
+		
+		"ItemCooldownReduction_prefix"						"{s:sign}"
+		"ItemCooldownReduction_postfix"						"%"
+		"ItemCooldownReduction_label"						"아이템 쿨다운 감소"
+		"ItemCooldownReduction_postvalue_label"						"아이템 쿨다운 감소"
+
+		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_postfix"						"%"
+		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_label"						"아이템 쿨다운 감소"
+		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_postvalue_label"						"아이템 쿨다운 감소"
+
+		"CooldownRefundPercent_postfix"	"%"
+		"CooldownRefundPercent_label"	"쿨다운 반환"
+
+		"CooldownRefundPercent_postvalue_label"	"쿨다운 반환"
+
+		"ImbuedCooldownReduction_prefix"				"{s:sign}"
+		"ImbuedCooldownReduction_postfix"				"%"
+		"ImbuedCooldownReduction_label"					"보강한 능력 쿨다운 감소"
+
+		"ImbuedCooldownReduction_postvalue_label"					"보강한 능력 쿨다운 감소"
+
+		"NonImbuedCooldownReduction_prefix"				"{s:sign}"
+		"NonImbuedCooldownReduction_postfix"			"%"
+		"NonImbuedCooldownReduction_label"				"보강하지 않은 능력 쿨다운 감소"
+
+		"NonImbuedCooldownReduction_postvalue_label"				"보강하지 않은 능력 쿨다운 감소"
+
+		"CooldownReductionFlat_postfix"					"초"
+		"CooldownReductionFlat_label"					"쿨다운 감소"
+
+		"CooldownReductionFlat_postvalue_label"					"쿨다운 감소"
+
+		"BonusAbilityCharges_prefix"					"{s:sign}"
+		"BonusAbilityCharges_label"					"보너스 능력 충전"
+
+		"BonusAbilityCharges_postvalue_label"					"보너스 능력 충전"
+
+		"MODIFIER_VALUE_BONUS_ABILITY_CHARGES_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_BONUS_ABILITY_CHARGES_label"					"보너스 능력 충전"
+
+		"MODIFIER_VALUE_BONUS_ABILITY_CHARGES_postvalue_label"					"보너스 능력 충전"
+
+		//"BonusChargedAbilityDamage_label"				"Charged Ability Damage"
+		"BonusChargedAbilityDamage_prefix"				"{s:sign}"
+		"BonusChargedAbilityDamage_postfix"				"%"
+
+		"CooldownBetweenChargeReduction_prefix"			"{s:sign}"
+		"CooldownBetweenChargeReduction_label"			"충전 시간 단축"
+		"CooldownBetweenChargeReduction_postvalue_label"			"충전 시간 단축"
+		"CooldownBetweenChargeReduction_postfix"		"%"
+
+		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_prefix"			"{s:sign}"
+		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_label"			"충전 시간 단축"
+		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_postvalue_label"			"충전 시간 단축"
+		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_postfix"		"%"
+
+		"BonusSprintSpeed_prefix"						"{s:sign}"
+		"BonusSprintSpeed_postfix"						"m"
+		"BonusSprintSpeed_label"						"질주 속도"
+		"BonusSprintSpeed_postvalue_label"						"질주 속도"
+		
+		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_postfix"						"m"
+		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_label"						"질주 속도"
+		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_postvalue_label"						"질주 속도"
+
+		"SprintSpeed_postfix"							"m"
+		"SprintSpeed_label"								"질주 속도"
+
+		"SprintSpeed_postvalue_label"								"질주 속도"
+
+		"BonusSprintSpeedPercent_prefix"				"{s:sign}"
+		"BonusSprintSpeedPercent_label"				"질주 속도"
+		"BonusSprintSpeedPercent_postvalue_label"				"질주 속도"
+		"BonusSprintSpeedPercent_postfix"				"%"
+
+		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_label"				"질주 속도"
+		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_postvalue_label"				"질주 속도"
+		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_postfix"				"%"
+
+		"BonusSuperSprintSpeed_prefix"					"{s:sign}"
+		"BonusSuperSprintSpeed_label"					"질주 속도"
+
+		"BonusSuperSprintSpeed_postvalue_label"					"질주 속도"
+
+		"BonusSuperSprintSpeedPercent_prefix"			"{s:sign}"
+		"BonusSuperSprintSpeedPercent_postfix"			"%"
+
+		"TotalHealthRegen_label"						"체력 재생 총합"
+
+
+		"TotalHealthRegen_postvalue_label"						"체력 재생 총합"
+
+		"StatusResistancePercent_prefix"				"{s:sign}"
+		"StatusResistancePercent_label"				"약화 저항"
+		"StatusResistancePercent_postvalue_label"				"약화 저항"
+		"StatusResistancePercent_postfix"				"%"
+
+		"InnateStatusResistancePercent_prefix"				"{s:sign}"
+		"InnateStatusResistancePercent_label"				"약화 저항"
+		"InnateStatusResistancePercent_postvalue_label"				"약화 저항"
+		"InnateStatusResistancePercent_postfix"				"%"
+
+		"FervorStatusResistancePercent_prefix"				"{s:sign}"
+		"FervorStatusResistancePercent_label"				"약화 저항"
+		"FervorStatusResistancePercent_postvalue_label"				"약화 저항"
+		"FervorStatusResistancePercent_postfix"				"%"
+
+		"MODIFIER_VALUE_STATUS_RESISTANCE_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_STATUS_RESISTANCE_label"				"약화 저항"
+		"MODIFIER_VALUE_STATUS_RESISTANCE_postvalue_label"				"약화 저항"
+		"MODIFIER_VALUE_STATUS_RESISTANCE_postfix"				"%"
+
+		"StatusResistanceDuration_label"				"지속 시간"
+
+		"StatusResistanceDuration_postvalue_label"				"지속 시간"
+		"StatusResistanceDuration_postfix"				"초"
+
+		"CleavePercentage_prefix"						"{s:sign}"
+		//"CleavePercentage_label"						"Splash Amount"
+		"CleavePercentage_postfix"						"%"
+
+		//"CleaveRadius_label"							"Splash Radius"
+
+		"BonusAccuracy_prefix"							"{s:sign}"
+		"BonusAccuracy_postfix"							"%"
+		//"BonusAccuracy_label"							"Gun Accuracy"
+
+		"MODIFIER_VALUE_FIREARM_ACCURACY_PERCENTAGE_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_FIREARM_ACCURACY_PERCENTAGE_postfix"							"%"
+
+		"BonusBulletSpeedPercent_prefix"				"{s:sign}"
+		"BonusBulletSpeedPercent_postfix"				"%"
+		"BonusBulletSpeedPercent_label"					"총탄 속도"
+		"BonusBulletSpeedPercent_postvalue_label"					"총탄 속도"
+
+		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_postfix"				"%"
+		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_label"					"총탄 속도"
+		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_postvalue_label"					"총탄 속도"
+
+		"LifeStealPercent_prefix"						"{s:sign}"
+		"LifeStealPercent_label"						"체력 흡수"
+		"LifeStealPercent_postvalue_label"						"체력 흡수"
+		"LifeStealPercent_postfix"						"%"
+
+		"LifestealPercentHero_label"					"체력 흡수"
+
+		"LifestealPercentHero_postvalue_label"					"체력 흡수"
+		"LifestealPercentHero_postfix"					"%"
+
+		"LifestealPercentNonHero_prefix"						"{s:sign}"
+		"LifestealPercentNonHero_label"					"비영웅 대상 체력 흡수"
+		"LifestealPercentNonHero_postvalue_label"					"비영웅 대상 체력 흡수"
+		"LifestealPercentNonHero_postfix"				"%"
+
+		"AbilityLifestealDuration_label"				"능력 체력 흡수 지속 시간"
+		"AbilityLifestealDuration_postvalue_label"		"능력 체력 흡수 지속 시간"
+		"AbilityLifestealDuration_postfix"				"초"
+
+		"BulletLifestealPercent_prefix"						"{s:sign}"
+		"BulletLifestealPercent_label"					"총탄 체력 흡수"
+		"BulletLifestealPercent_postvalue_label"					"총탄 체력 흡수"
+		"BulletLifestealPercent_postfix"				"%"
+
+		"MODIFIER_VALUE_BULLET_LIFESTEAL_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_BULLET_LIFESTEAL_label"					"총탄 체력 흡수"
+		"MODIFIER_VALUE_BULLET_LIFESTEAL_postvalue_label"					"총탄 체력 흡수"
+		"MODIFIER_VALUE_BULLET_LIFESTEAL_postfix"				"%"
+
+		"TechLifestealPercent_prefix"					"{s:sign}"
+		"TechLifestealPercent_label"						"마법 체력 흡수"
+		"TechLifestealPercent_postvalue_label"						"마법 체력 흡수"
+		"TechLifestealPercent_postfix"					"%"
+
+		"MeleeLifestealPercent_prefix"						"{s:sign}"
+		"MeleeLifestealPercent_label"					"근거리 공격 체력 흡수"
+		"MeleeLifestealPercent_postvalue_label"					"근거리 공격 체력 흡수"
+		"MeleeLifestealPercent_postfix"					"%"
+
+		"StunDuration_label"							"기절 지속 시간"
+
+		"StunDuration_postvalue_label"							"기절 지속 시간"
+		"StunDuration_postfix"							"초"
+
+		"StunDelay_label"								"기절 지연"
+
+		"StunDelay_postvalue_label"								"기절 지연 시간"
+		"StunDelay_postfix"								"초"
+
+		"MinStunDuration_postfix"						"초"
+		"MinStunDuration_label"							"최소 기절 지속 시간"
+
+		"MinStunDuration_postvalue_label"							"최소 기절 지속 시간"
+
+		"MaxStunDuration_postfix"						"초"
+		"MaxStunDuration_label"							"최대 기절 지속 시간"
+
+		"MaxStunDuration_postvalue_label"				"최대 기절 지속 시간"
+
+		"DazeDuration_label"							"멍해짐 지속 시간"
+		"DazeDuration_postvalue_label"					"멍해짐 지속 시간"
+		"DazeDuration_postfix"							"초"
+
+		"TossDuration_postvalue_label"					"지속 시간"
+		"TossDuration_postfix"							"초"
+
+		//"MeleeDamageReduction_label"					"Melee Armor"
+
+		"MeleeDamageReductionPercent_prefix"			"{s:sign}"
+		"MeleeDamageReductionPercent_postfix"			"%"
+		//"MeleeDamageReductionPercent_label"			"Melee Armor"
+		
+		"MODIFIER_VALUE_MELEE_RESIST_prefix"			"{s:sign}"
+		"MODIFIER_VALUE_MELEE_RESIST_postfix"			"%"
+		//"MODIFIER_VALUE_MELEE_RESIST_label"			"Melee Armor"
+
+		//"DispenserHealth_label"						"Dispenser Health"
+
+		//"ShotRegenTime_label"							"Shot Regen Time"
+		"ShotRegenTime_postfix"							"초"
+
+		//"MaxShots_label"								"Max Shots"
+
+		"PathLength_label"							"광선 길이"
+
+		"PathLength_postvalue_label"							"광선 길이"
+		"PathLength_postfix"							"m"
+
+		"ChainCount_label"							"최대 연쇄 피해 수"
+
+		"ChainCount_postvalue_label"							"최대 연쇄 피해 수"
+		"BonusPerChain_label"						"연쇄 피해"
+
+		"BonusPerChain_postvalue_label"						"연쇄 피해"
+
+		"RichochetChance_label"						"발동 확률"
+
+		"RichochetChance_postvalue_label"						"발동 확률"
+		"RichochetChance_postfix"						"%"
+
+		//"SlowSpeedLimit_label"						"Speed Reduced To"
+
+		"HealAmpReceivePercent_prefix"					"{s:sign}"
+		"HealAmpReceivePercent_label"					"받는 치유량 증가"
+		"HealAmpReceivePercent_postvalue_label"			"받는 치유량 증가"
+		"HealAmpReceivePercent_postfix"					"%"
+
+		"MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT_prefix"					"{s:sign}"
+		//"MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT_label"					"Healing Received Boost"
+		"MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT_postfix"					"%"
+
+		"HealAmpCastPercent_prefix"					"{s:sign}"
+		"HealAmpCastPercent_label"					"주는 치유량"
+		"HealAmpCastPercent_postvalue_label"					"주는 치유량"
+		"HealAmpCastPercent_postfix"					"%"
+		
+		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_label"					"주는 치유량"
+		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_postvalue_label"					"주는 치유량"
+		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_postfix"					"%"
+
+		"HealAmpRegenPercent_prefix"					"{s:sign}"
+		//"HealAmpRegenPercent_label"					"Health Regen Boost"
+		"HealAmpRegenPercent_postfix"					"%"
+		
+		"MODIFIER_VALUE_HEAL_AMP_REGEN_PERCENT_prefix"					"{s:sign}"
+		//"MODIFIER_VALUE_HEAL_AMP_REGEN_PERCENT_label"					"Health Regen Boost"
+		"MODIFIER_VALUE_HEAL_AMP_REGEN_PERCENT_postfix"					"%"
+		
+		"HealAmpRegenMultiplierOutOfCombat_prefix"					"{s:sign}"
+		//"HealAmpRegenMultiplierOutOfCombat_label"		"Health Regen Multiplier"
+		"HealAmpRegenMultiplierOutOfCombat_postfix"			"x"
+
+		"HealAmpReceivePenaltyPercent_label"		"받는 치유량"
+
+		"HealAmpReceivePenaltyPercent_postvalue_label"		"받는 치유량"
+		"HealAmpReceivePenaltyPercent_postfix"			"%"
+		
+		"HealAmpRegenPenaltyPercent_label"		"받는 치유량"
+		
+		"HealAmpRegenPenaltyPercent_postvalue_label"		"받는 치유량"
+		"HealAmpRegenPenaltyPercent_postfix"	"%"
+		"HealingEffectiveness_label"		"치유 효율"
+		"HealingEffectiveness_postvalue_label"		"치유 효율"
+		"HealingEffectiveness_postfix"	"%"
+		"PercentHealthHealing_label" "체력 치유량"
+		"PercentHealthHealing_postvalue_label" "체력 치유량"
+		"PercentHealthHealing_postfix" "%"
+
+		"ProcChance_label"							"발동 확률"
+
+		"ProcChance_postvalue_label"							"발동 확률"
+		"ProcChance_postfix"							"%"
+
+		//"OutgoingDamageReduction_label"				"Attack Damage"
+		"OutgoingDamageReduction_prefix"				"-"
+		"OutgoingDamageReduction_postfix"				"%"
+
+		"OutgoingDamagePercent_prefix" "{s:sign}"
+		"OutgoingDamagePercent_label" "피해"
+		"OutgoingDamagePercent_postvalue_label" "피해"
+		"OutgoingDamagePercent_postfix" "%"
+
+		"ProcHealth_label"							"체력 임곗값"
+
+		"ProcHealth_postvalue_label"							"체력 임곗값"
+		"ProcHealth_postfix"							"%"
+
+		//"DamageBoostFromBehind_label"					"Damage From Behind"
+		"DamageBoostFromBehind_postfix"					"%"
+
+		//"DamageBoostElsewhere_label"					"Damage From Elsewhere"
+		"DamageBoostElsewhere_postfix"					"%"
+
+		//"BonusDPSVsPlayers_label"						"DPS vs Players"
+
+		//"BonusDPSVsCreeps_label"						"DPS vs Creeps"
+
+		//"EvasionPercentGlider_label"					"Evasion Chance Gliding"
+		"EvasionPercentGlider_postfix"					"%"
+
+		"EvasionPercent_label"						"총탄 회피"
+
+		"EvasionPercent_postvalue_label"						"총탄 회피"
+		"EvasionPercent_postfix"						"%"
+
+		//"MeleeDamagePercent_label"					"Melee Damage Bonus"
+		"MeleeDamagePercent_postfix"					"%"
+
+
+		"TechShieldHealth_label"					"마법 방어막 수명"
+
+
+		"TechShieldHealth_postvalue_label"					"마법 방어막 수명"
+		//"TempTechShieldHealth_label"				"Temp Spirit Shield Health"
+		"TechShieldDamagePercent_prefix"			"{s:sign}"
+		//"TechShieldDamagePercent_label"				"Spirit Shield Damage"
+		"TechShieldDamagePercent_postfix"			"%"
+
+		"BulletShieldHealth_label"					"총탄 방어막 수명"
+		"BulletShieldHealth_postvalue_label"					"총탄 방어막 수명"
+
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_label"					"총탄 방어막 수명"
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_postvalue_label"					"총탄 방어막 수명"
+
+		//"TempBulletShieldHealth_label"				"Temp Bullet Shield Health"
+		"BulletShieldDamagePercent_prefix"			"{s:sign}"
+		//"BulletShieldDamagePercent_label"			"Damage Amplification vs Bullet Shields"
+		"BulletShieldDamagePercent_postfix"			"%"
+
+		//"ShieldBlockPercent_label"					"Damage Deflected"
+		"ShieldBlockPercent_postfix"					"%"
+
+		//"DamagePercent_label"							"Bullet Damage Done"
+		"DamagePercent_postfix"							"%"
+		
+		//"CycleTimePercent_label"						"Fire Rate compared to Gun"
+		"CycleTimePercent_postfix"						"%"
+
+		//"StickyClusterCount_label"					"Splits into"
+		//"StickyClusterCount_postfix"					"Sticky Grenades"
+
+		//"FuseDuration_label"							"Fuse Duration"
+		//"FuseDuration_postfix"							""
+		
+		//"DroneCount_label"							"Drone Count"
+		
+		//"BasicReflectPercent_label"					"Basic Damage Reflect"
+		"BasicReflectPercent_postfix"					"%"
+
+		"LifeDrainPerSecond_label"					"초당 피해"
+
+		"LifeDrainPerSecond_postvalue_label"					"초당 피해"
+		"HealthPercent_label"							"체력 비율"
+
+		"HealthPercent_postvalue_label"							"체력 비율"
+		"HealthPercent_postfix"							"%"
+
+		//"DodgeAnimSpeedScale_label"					"Dodge Speed Multiplier"
+		"DodgeAnimSpeedScale_postfix"					"x"
+
+		"BulletDamagePercent_prefix"					"{s:sign}"
+		"BulletDamagePercent_label"					"총탄 피해"
+		"BulletDamagePercent_postvalue_label"					"총탄 피해"
+		"BulletDamagePercent_postfix"					"%"
+
+		"AbilityLifestealPercent_prefix"					"{s:sign}"
+		"AbilityLifestealPercent_label"				"마법 체력 흡수"
+		"AbilityLifestealPercent_postvalue_label"				"마법 체력 흡수"
+		"AbilityLifestealPercent_postfix"				"%"
+		
+		"AbilityLifestealPercentHero_prefix"					"{s:sign}"
+		"AbilityLifestealPercentHero_label"				"마법 체력 흡수"
+		"AbilityLifestealPercentHero_postvalue_label"				"마법 체력 흡수"
+		"AbilityLifestealPercentHero_postfix"			"%"
+
+		"MODIFIER_VALUE_TECH_LIFESTEAL_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_TECH_LIFESTEAL_label"				"마법 체력 흡수"
+		"MODIFIER_VALUE_TECH_LIFESTEAL_postvalue_label"				"마법 체력 흡수"
+		"MODIFIER_VALUE_TECH_LIFESTEAL_postfix"			"%"
+		
+		"AbilityLifestealPercentHeroPassive_prefix"					"{s:sign}"
+		"AbilityLifestealPercentHeroPassive_label"				"마법 체력 흡수"
+		"AbilityLifestealPercentHeroPassive_postvalue_label"				"마법 체력 흡수"
+		"AbilityLifestealPercentHeroPassive_postfix"			"%"
+
+		"AbilityLifestealPercentNonHero_prefix"					"{s:sign}"
+		"AbilityLifestealPercentNonHero_label"			"비영웅 대상 마법 체력 흡수"
+		"AbilityLifestealPercentNonHero_postvalue_label"			"비영웅 대상 마법 체력 흡수"
+		"AbilityLifestealPercentNonHero_postfix"		"%"
+
+		"RegenDuration_label"							"재생 지속 시간"
+
+		"RegenDuration_postvalue_label"							"재생 지속 시간"
+		"RegenDuration_postfix"							"초"
+
+		//"SpreadDuration_label"						"Spread Duration: "
+		"SpreadDuration_postfix"						"초"
+		
+		"EndRadius_label"								"종료 반경"
+		
+		"EndRadius_postvalue_label"								"종료 반경"
+		"EndRadius_postfix"								"m"
+
+		//"BulletPercentAsBurn_label"					"Bullet Damage as Burning"
+		"BulletPercentAsBurn_postfix"					"%"
+
+		"ItemInitialCharges_label"					"충전"
+
+
+		"ItemInitialCharges_postvalue_label"					"충전"
+
+		"AuraDuration_label"							"오라 지속 시간"
+
+		"AuraDuration_postvalue_label"							"오라 지속 시간"
+		"AuraDuration_postfix"							"초"
+
+		//"ApproachSpeed_label"							"Project Speed"
+
+		"GrenadesInVolley_label"						"수류탄 수량"
+
+
+		"GrenadesInVolley_postvalue_label"						"수류탄 수"
+
+		"ReloadSpeedDecrease_label"						"재장전 시간"
+		"ReloadSpeedDecrease_postvalue_label"						"재장전 시간"
+		"ReloadSpeedDecrease_postfix"					"%"
+
+		"AbsorbPercentage_label"						"흡수된 피해"
+
+		"AbsorbPercentage_postvalue_label"						"흡수된 피해"
+		"AbsorbPercentage_postfix"						"%"
+
+		//"HitCap_label"								"Hit Cap"
+		//"HitCap_postfix"								"hits"
+
+		//"AbilityDamageReductionPerHit_label"			"Ability Dmg Red Per Hit"
+		"AbilityDamageReductionPerHit_postfix"			"%"
+
+		//"ActiveAbilityDamageReduction_label"			"Active Ability Dmg Red"
+		"ActiveAbilityDamageReduction_postfix"			"%"
+
+		"BonusAttackRange_postfix"						"m"
+		//"BonusAttackRange_label"						"Weapon Range"
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_postfix"						"m"
+
+		"BonusAttackRangePercent_prefix"				"{s:sign}"
+		"BonusAttackRangePercent_postfix"				"%"
+		"BonusAttackRangePercent_label"					"무기 피해 감소 범위"
+		"BonusAttackRangePercent_postvalue_label"					"무기 피해 감소 범위"
+
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_postfix"				"%"
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_label"					"무기 피해 감소 범위"
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_postvalue_label"					"무기 피해 감소 범위"
+
+		"WeaponRecoilReduction_postfix"					"%"
+		//"WeaponRecoilReduction_label"					"Recoil Reduction"
+
+		"MODIFIER_VALUE_WEAPON_RECOIL_REDUCTION_PERCENT_postfix"					"%"
+		//"WeaponRecoilReduction_label"					"Recoil Reduction"
+
+		"BonusDPSPercent_prefix"						"{s:sign}"
+		"BonusDPSPercent_label"						"총탄 피해"
+		"BonusDPSPercent_postvalue_label"						"총탄 피해"
+		"BonusDPSPercent_postfix"						"%"
+
+		//"DroneHealth_label"							"Drone Health"
+
+		//"DeployHealthRegen_label"						"Deployable Health"
+
+		"TurretFireRate_label"							"포탑 연사 속도"
+
+		"TurretFireRate_postvalue_label"							"포탑 연사 속도"
+		"TurretFireRate_prefix"							"{s:sign}"
+		"TurretFireRate_postfix"						"%"
+
+		"TurretDPS_label"								"포탑 초당 피해"
+
+
+		"TurretDPS_postvalue_label"								"포탑 초당 피해"
+
+		//"MobileResupplyRegenMultiplier_label"			"Mobile Resupply Regen Multiplier"
+		"MobileResupplyRegenMultiplier_postfix"			"x"
+
+		"HealRadius_label"								"치유 반경"
+
+		"HealRadius_postvalue_label"								"치유 반경"
+		"HealRadius_postfix"								"m"
+
+		"BulletArmorReduction_prefix"					"{s:sign}"
+		"BulletArmorReduction_postfix"					"%"
+		"BulletArmorReduction_label"					"총탄 저항"
+
+		"BulletArmorReduction_postvalue_label"					"총탄 저항"
+
+		"LocalBulletArmorReduction_prefix"				"{s:sign}"
+		"LocalBulletArmorReduction_postfix"				"%"
+		"LocalBulletArmorReduction_label"				"총탄 저항"
+
+		"LocalBulletArmorReduction_postvalue_label"				"총탄 저항"
+
+		"LocalTechArmorReduction_prefix"				"{s:sign}"
+		//"LocalTechArmorReduction_label"				"Magic Resist"
+		"LocalTechArmorReduction_postfix"				"%"
+
+		"BulletResistOnActive_label"					"총탄 저항"
+
+		"BulletResistOnActive_postvalue_label"					"총탄 저항"
+		"BulletResistOnActive_prefix"					"{s:sign}"
+		"BulletResistOnActive_postfix"					"%"
+
+		"WeaponPowerAmp_prefix"							"{s:sign}"
+		//"WeaponPowerAmp_label"						"Courage"
+
+		"WeaponPowerWhileActivated_prefix"						"{s:sign}"
+		//"WeaponPowerWhileActivated_label"						"Courage"
+
+		"FireRate_postfix"								"%"
+
+		"WeaponPower_prefix"							"{s:sign}"
+		"WeaponPower_label"								"무기 피해"
+		"WeaponPower_postvalue_label"								"무기 피해"
+		"WeaponPower_postfix"							"%"
+
+		"MODIFIER_VALUE_WEAPON_POWER_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_WEAPON_POWER_label"								"무기 피해"
+		"MODIFIER_VALUE_WEAPON_POWER_postvalue_label"								"무기 피해"
+		"MODIFIER_VALUE_WEAPON_POWER_postfix"							"%"
+
+		"DamageIncrease_prefix"							"{s:sign}"
+		"DamageIncrease_label"						"입은 피해"
+
+		"DamageIncrease_postvalue_label"						"입은 피해"
+
+		"DamageIncreasePercent_prefix"					"{s:sign}"
+		"DamageIncreasePercent_label"					"입은 피해"
+		"DamageIncreasePercent_postvalue_label"					"입은 피해"
+		"DamageIncreasePercent_postfix"					"%"
+
+		"BonusAbilitySpeed_prefix"						"{s:sign}"
+		//"BonusAbilitySpeed_postfix"						""
+		//"BonusAbilitySpeed_label"							"Ability Move Speed"
+
+		"ReloadSpeedMultipler_prefix"					"{s:sign}"
+		"ReloadSpeedMultipler_label"					"재장전 시간"
+		"ReloadSpeedMultipler_postvalue_label"					"재장전 시간"
+		"ReloadSpeedMultipler_postfix"					"%"
+
+		"MODIFIER_VALUE_RELOAD_SPEED_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_RELOAD_SPEED_label"					"재장전 시간"
+		"MODIFIER_VALUE_RELOAD_SPEED_postvalue_label"					"재장전 시간"
+		"MODIFIER_VALUE_RELOAD_SPEED_postfix"					"%"
+
+		"HealthRegenPerTrooper_prefix"					"+"
+		"HealthRegenPerTrooper_postfix"					"(근처 트루퍼당)"
+		"HealthRegenPerTrooper_label"					"체력 재생"
+
+		"HealthRegenPerTrooper_postvalue_label"					"체력 재생"
+
+		//"TroopersToSummon_label"						"Troopers created"
+		//"TrooperLifetime_label"						"Trooper lifetime"
+		"TrooperLifetime_postfix"						"초"
+
+		"DamagePerChain_label"						"전기 충격 피해"
+		
+
+		"DamagePerChain_postvalue_label"						"전기 충격 피해"
+		
+		"SpeedMax_label"								"이동 속도"
+		"SpeedMax_postvalue_label"								"이동 속도"
+		"SpeedMax_postfix"							"m(초당)"
+		"MoveSpeedMax_label"							"이동 속도"
+		"MoveSpeedMax_postvalue_label"							"이동 속도"
+		"MoveSpeedMax_postfix"						"m(초당)"
+
+		"BulletDamagePercentAsTechDamage_label"		"보너스 마법 피해"
+
+		"BulletDamagePercentAsTechDamage_postvalue_label"		"마법 피해 보너스"
+		//"BulletDamagePercentAsTechDamage_postfix"		"% Bullet Damage "
+
+		"BonusCritDamagePercent_prefix"					"{s:sign}"
+		//"BonusCritDamagePercent_label"				"Bonus Crit Damage"
+		"BonusCritDamagePercent_postfix"				"%"
+
+		"MODIFIER_VALUE_BONUS_CRIT_DAMAGE_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_BONUS_CRIT_DAMAGE_PERCENT_postfix"				"%"
+
+		//"DPSDmgPercent_label"							"DPS as Damage"
+		"DPSDmgPercent_postfix"							"%"
+
+		"DamagePerSecond_label"						"초당 피해"
+
+
+		"DamagePerSecond_postvalue_label"						"초당 피해"
+
+		//"TechReduction_label"						"Spirit Reduction"
+
+		//"TechResistReduction_label"					"Target Spirit Resist"
+		//"TechResistReduction_prefix"					""
+		"TechResistReduction_postfix"					"%"
+		"DamagePulseAmount_label"						"파동 피해"
+		"DamagePulseAmount_postvalue_label"						"파동 피해"
+		"DamagePulseInterval_label"					"파동 간격"
+		"DamagePulseInterval_postvalue_label"					"파동 간격"
+		"DamagePulseInterval_postfix"					"초"
+		"DamagePulseRadius_label"						"파동 반경"
+		"DamagePulseRadius_postvalue_label"						"파동 반경"
+		"DamagePulseRadius_postfix"					"m"
+
+		"CloseRangeBonusDamagePercent_prefix"			"+"
+		"CloseRangeBonusDamagePercent_label"			"무기 피해"
+		"CloseRangeBonusDamagePercent_postvalue_label"			"무기 피해"
+		"CloseRangeBonusDamagePercent_postfix"			"%"
+
+		"CloseRangeBonusDamageRange_label"				"근거리"
+
+		"CloseRangeBonusDamageRange_postvalue_label"				"근거리"
+		"CloseRangeBonusDamageRange_postfix"			"m"
+
+		"CloseRangeBonusWeaponPower_prefix"				"{s:sign}"
+		"CloseRangeBonusWeaponPower_label"				"무기 피해"
+		"CloseRangeBonusWeaponPower_postvalue_label"				"무기 피해"
+		"CloseRangeBonusWeaponPower_postfix"			"%"
+		"CloseRangeBonusWeaponPower_conditional"		"범위 내"
+
+		"BonusSpirit_conditional"						"발동 후"
+
+		"AfterProc_conditional"							"발동 후"
+		"DuringAmbush_conditional"						"기습 중"
+
+		"AboveHealthThreshold_conditional"				"체력 임곗값 초과"
+		"BelowHealthThreshold_conditional"				"체력 임곗값 미만"
+		"DashJump_conditional"							"대시 점프 이후"
+
+		//"EnemyAboveHealthThreshold_conditional"			"Enemy above health threshold"
+		
+		"Quicksilver_conditional"						"능력 사용 후"
+
+		"SurgeOfPower_conditional"						"능력 사용 후"
+
+		"SpiritStrike_conditional"						"근거리 공격 성공 후"
+
+		"LongRangeBonusWeaponPowerMinRange_label"		"최소 거리"
+		"LongRangeBonusWeaponPowerMinRange_postvalue_label"		"최소 거리"
+		"LongRangeBonusWeaponPowerMinRange_postfix"		"m"
+
+		"LongRangeBonusWeaponPower_prefix"				"{s:sign}"
+		"LongRangeBonusWeaponPower_label"				"무기 피해"
+		"LongRangeBonusWeaponPower_postvalue_label"				"무기 피해"
+		"LongRangeBonusWeaponPower_postfix"				"%"
+		"LongRangeBonusWeaponPower_conditional"			"범위 밖"
+
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASEMinRange_label"		"최소 거리"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASEMinRange_postvalue_label"		"최소 거리"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASEMinRange_postfix"		"m"
+
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_label"				"무기 피해"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_postvalue_label"				"무기 피해"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_postfix"				"%"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_conditional"			"범위 밖"
+
+		"TechRangeMultiplier_prefix"					"{s:sign}"
+		"TechRangeMultiplier_label"						"능력 범위"
+		"TechRangeMultiplier_postvalue_label"						"능력 범위"
+		"TechRangeMultiplier_postfix"					"%"
+
+		"TechRangeMultiplierBuff_prefix"					"{s:sign}"
+		"TechRangeMultiplierBuff_label"						"능력 범위"
+		"TechRangeMultiplierBuff_postvalue_label"						"능력 범위"
+		"TechRangeMultiplierBuff_postfix"					"%"
+
+		"ImbuedTechRangeMultiplier_prefix"				"{s:sign}"
+		"ImbuedTechRangeMultiplier_label"				"보강한 능력 범위"
+		"ImbuedTechRangeMultiplier_postvalue_label"				"보강한 능력 범위"
+		"ImbuedTechRangeMultiplier_postfix"				"%"
+
+		"NonImbuedTechRangeMultiplier_prefix"			"{s:sign}"
+		"NonImbuedTechRangeMultiplier_label"			"보강하지 않은 능력 범위"
+		"NonImbuedTechRangeMultiplier_postvalue_label"			"보강하지 않은 능력 범위"
+		"NonImbuedTechRangeMultiplier_postfix"			"%"
+
+		"MODIFIER_VALUE_TECH_RANGE_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENT_label"						"능력 범위"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENT_postvalue_label"						"능력 범위"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENT_postfix"					"%"
+
+		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_label"						"능력 범위"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_postvalue_label"						"능력 범위"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_postfix"					"%"
+
+		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_prefix"				"{s:sign}"
+		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_label"				"보강한 능력 범위"
+		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postvalue_label"				"보강한 능력 범위"
+		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postfix"				"%"
+
+		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_prefix"			"{s:sign}"
+		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_label"			"보강하지 않은 능력 범위"
+		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postvalue_label"			"보강하지 않은 능력 범위"
+		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postfix"			"%"
+
+		//"ThrowRange_label"								"Throw Range"
+		"ThrowRange_postfix"							"m"
+
+		"TechRadiusMultiplier_prefix"					"{s:sign}"
+		"TechRadiusMultiplier_label"					"반경"
+		"TechRadiusMultiplier_postvalue_label"					"반경"
+		"TechRadiusMultiplier_postfix"					"%"
+
+		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_label"					"반경"
+		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_postvalue_label"					"반경"
+		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_postfix"					"%"
+
+		"TechRadiusMultiplierBuff_prefix"					"{s:sign}"
+		"TechRadiusMultiplierBuff_label"					"반경"
+		"TechRadiusMultiplierBuff_postvalue_label"					"반경"
+		"TechRadiusMultiplierBuff_postfix"					"%"
+
+		"ImbuedTechRadiusMultiplier_prefix"					"{s:sign}"
+		//"ImbuedTechRadiusMultiplier_label"					"Imbued Radius"
+		"ImbuedTechRadiusMultiplier_postfix"					"%"
+
+		"NonImbuedTechRadiusMultiplier_prefix"					"{s:sign}"
+		//"NonImbuedTechRadiusMultiplier_label"					"Non-Imbued Radius"
+		"NonImbuedTechRadiusMultiplier_postfix"					"%"
+
+		"TechRangeAdditive_prefix"						"{s:sign}"
+		"TechRangeAdditive_label"						"능력 범위"
+		"TechRangeAdditive_postvalue_label"						"능력 범위"
+		"TechRangeAdditive_postfix"						"m"
+
+		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_label"						"능력 범위"
+		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_postvalue_label"						"능력 범위"
+		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_postfix"						"m"
+
+		//"WindUpTime_label"								"Windup Time"
+		"WindUpTime_postfix"								"초"
+
+		"HealthDrainedPerSecond_label"				"체력 흡수"
+
+		"HealthDrainedPerSecond_postvalue_label"				"체력 흡수"
+		"HealthDrainedPerSecond_postfix"				"(초당)"
+
+		"DebuffDurationReductionPercentage_label"		"약화 지속 시간 감소"
+
+		"DebuffDurationReductionPercentage_postvalue_label"		"약화 지속 시간 감소"
+		"DebuffDurationReductionPercentage_postfix"		"%"
+
+		//"HealthCost_label"							"Health Cost"
+
+		"ZipLineSpeedPercent_prefix"					"{s:sign}"
+		"ZipLineSpeedPercent_label"						"집라인 속도"
+		"ZipLineSpeedPercent_postvalue_label"						"집라인 속도"
+		"ZipLineSpeedPercent_postfix"					"%"
+
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_label"						"집라인 속도"
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_postvalue_label"						"집라인 속도"
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_postfix"					"%"
+	
+		//"ZiplineJumpBonusDuration_label"					"Jump Off Duration"
+		"ZiplineJumpBonusDuration_postfix"					"초"
+
+		//"ZiplineJumpBonusMoveSpeed_label"					"Jump Off Speed Bonus"
+		"ZiplineJumpBonusMoveSpeed_postfix"					"m"
+
+		"BonusZipLineSpeed_prefix"						"{s:sign}"
+		//"BonusZipLineSpeed_label"						"Hyperline Speed"
+
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_ADDITIVE_prefix"						"{s:sign}"
+
+		"MaxProjectiles_label"						"투사체 수"
+
+
+		"MaxProjectiles_postvalue_label"						"투사체 수"
+
+		//"DeathDelay_label"							"Delay Death Duration"
+
+		//"TackleDurationMax_label"						"Max Tackle Duration"
+
+		"MoveSpeed_postfix"								"m"
+		"MoveSpeedBonus_prefix"							"{s:sign}"
+		"MoveSpeedBonus_label"							"이동 속도"
+		"MoveSpeedBonus_postvalue_label"							"이동 속도"
+		"MoveSpeedBonus_postfix"						"m"
+
+		//"MoveSpeedFriendlyBuff_prefix"			""
+		//"MoveSpeedFriendlyBuff_label"				"Ally Move Speed"
+		"MoveSpeedFriendlyBuff_postfix"			"m(초당)"
+		
+		//"ProcBuildupPercent_label"					"Proc Buildup"
+		"ProcBuildupPercent_postfix"					"%"
+
+		//"AwakenDamage_label"							"Awaken Damage"
+
+		//"LockOnTime_label"							"Lock On Time"
+		"LockOnTime_postfix"							"초"
+
+		//"StalkDuration_label"							"Stalk Time"
+		"StalkDuration_postfix"							"초"
+
+		"MaxStacks_label"								"최대 중첩"
+		"MaxStacks_postvalue_label"								"최대 중첩"
+		
+		"CurrentStacks_label"							"현재 중첩:"
+		"CurrentStacks_postvalue_label"							"현재 중첩:"
+
+		"CurrentBonus_label"							"현재 보너스:"
+		"CurrentBonus_postvalue_label"					"현재 보너스:"
+
+
+		//"TimeToMaxStacks_label"							"Time To Max Stacks"
+		"TimeToMaxStacks_postfix"						"초"
+
+		//"DamagePerHit_label"							"Damage Per Hit"
+
+		//"FinalBlow_label"							"Final Blow Damage"
+
+		"DamageThreshold_label"						"피해 임곗값"
+		
+
+		"DamageThreshold_postvalue_label"						"피해 임곗값"
+		
+		"DamageReduction_label"						"피해 감소"
+		"DamageReduction_postvalue_label"						"피해 감소"
+		"DamageReduction_postfix"					"%"
+
+		"MeleeDamage_label"							"근거리 공격 피해"
+
+
+		"MeleeDamage_postvalue_label"							"근거리 공격 피해"
+
+		//"ConvertedHealth_label"						"Trooper Health"
+
+		"SilenceDuration_label"							"침묵 지속 시간"
+
+		"SilenceDuration_postvalue_label"							"침묵 지속 시간"
+		"SilenceDuration_postfix"						"초"
+
+		"Range_postfix"									"m"
+		"Range_label"									"범위"
+
+		"Range_postvalue_label"									"범위"
+
+		"MinRange_label"								"최소 범위"
+
+		"MinRange_postvalue_label"								"최소 범위"
+		"MinRange_postfix"								"m"
+
+		//"ConeRadius_label"							"Lightning Distance"
+		"ConeRadius_postfix"							"m"
+		"ConeAngle_label"						"원뿔형 각도"
+		"ConeAngle_postvalue_label"						"원뿔형 각도"
+		"ConeAngle_postfix"						" 도"
+
+		"ShockRadius_label"							"반경"
+
+		"ShockRadius_postvalue_label"							"반경"
+		"ShockRadius_postfix"						"m"
+
+		//"KnockDownRadius_label"						"Knockdown Radius"
+		"KnockDownRadius_postfix"						"m"
+
+		"BurnDuration_postfix"							"초"
+		"BurnDuration_label"							"화상 지속 시간"
+
+		"BurnDuration_postvalue_label"							"화상 지속 시간"
+
+		"AbilityCooldown_postfix"						"초"
+		"AbilityCooldown_label"						"쿨다운"
+
+		"AbilityCooldown_postvalue_label"						"쿨다운"
+
+		"TechCooldown_postfix"						"%"
+		"TechDuration_postfix"						"%"
+		"TechLifesteal_postfix"						"%"
+		"TechRange_postfix"							"%"
+
+		"HealingPercent_label"						"치유 비율"
+
+		"HealingPercent_postvalue_label"						"치유 비율"
+		"HealingPercent_postfix"						"%"
+
+		"AbilityCooldownBetweenCharge_label"			"충전 지연"
+
+		"AbilityCooldownBetweenCharge_postvalue_label"			"충전 지연 시간"
+		"AbilityCooldownBetweenCharge_postfix"			"초"
+
+		"AbilityChargeUpTime_label" "충전 시간"
+
+		"AbilityChargeUpTime_postvalue_label" "충전 시간"
+		"AbilityChargeUpTime_postfix"	"초"
+
+		"AbilityDuration_postfix"						"초"
+		"AbilityDuration_label"						"지속 시간"
+
+		"AbilityDuration_postvalue_label"						"지속 시간"
+
+		"TetherDuration_postfix"					"초"
+		"TetherDuration_label"						"속박 지속 시간"
+
+		"TetherDuration_postvalue_label"						"속박 지속 시간"
+
+		"TetherRadius_postfix"						"m"
+		//"TetherRadius_label"						"Tether Radius"
+
+		"AbilityCastRange_postfix"						"m"
+		"AbilityCastRange_label"						"시전 범위"
+
+		"AbilityCastRange_postvalue_label"						"시전 범위"
+
+		"AbilityCastRangeMinimum_postfix"				"m"
+		//"AbilityCastRangeMinimum_label"					"Range Minimum"
+
+		"AbilityChannelTime_postfix"					"초"
+		"AbilityChannelTime_label"					"능력 집중 지속 시간"
+
+		"AbilityChannelTime_postvalue_label"					"능력 집중 지속 시간"
+
+		"AbilityCastDelay_postfix"					"초"
+		"AbilityCastDelay_label"					"시전 지연"
+
+		"AbilityCastDelay_postvalue_label"					"시전 지연 시간"
+
+		"MaxRecasts_label"				"최대 재시전"
+		"MaxRecasts_postvalue_label"	"최대 재시전"
+
+		"AbilityCharges_label"						"충전"
+		
+		
+
+		"AbilityCharges_postvalue_label"						"충전"
+		
+		
+		"BonusAbilityDurationPercent_prefix"			"{s:sign}"
+		"BonusAbilityDurationPercent_label"				"능력 지속 시간"
+		"BonusAbilityDurationPercent_postvalue_label"				"능력 지속 시간"
+		"BonusAbilityDurationPercent_postfix"			"%"		
+				
+		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_prefix"			"{s:sign}"
+		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_label"				"능력 지속 시간"
+		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_postvalue_label"				"능력 지속 시간"
+		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_postfix"			"%"		
+		
+		"NonImbuedBonusDuration_prefix"				"{s:sign}"
+		"NonImbuedBonusDuration_label"				"보강하지 않은 능력 지속 시간"
+		"NonImbuedBonusDuration_postvalue_label"				"보강하지 않은 능력 지속 시간"
+		"NonImbuedBonusDuration_postfix"			"%"		
+		
+		"ImbuedBonusDuration_prefix"					"{s:sign}"
+		"ImbuedBonusDuration_label"						"보강한 능력 지속 시간"
+		"ImbuedBonusDuration_postvalue_label"						"보강한 능력 지속 시간"
+		"ImbuedBonusDuration_postfix"					"%"
+
+		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_label"						"보강한 능력 지속 시간"
+		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_postvalue_label"						"보강한 능력 지속 시간"
+		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_postfix"					"%"
+
+		"MissCooldown_postfix"							"초"
+		//"MissCooldown_label"							"Cooldown on miss"
+
+		"ShockDelay_label"							"기절 전 지연 시간"
+
+		"ShockDelay_postvalue_label"							"기절 전 지연 시간"
+		"ShockDelay_postfix"							"초"
+
+		"ArmTime_label"									"설치 시간"
+
+		"ArmTime_postvalue_label"									"설치 시간"
+		"ArmTime_postfix"								"초"
+
+		"Barrel_ArmTime_label"							"설치 시간"
+
+		"Barrel_ArmTime_postvalue_label"							"설치 시간"
+		"Barrel_ArmTime_postfix"						"초"
+
+		"ExplodeDelay_label"							"폭발 지연 시간"
+
+		"ExplodeDelay_postvalue_label"							"폭발 지연 시간"
+		"ExplodeDelay_postfix"							"초"
+		
+		"BuildUpPercentPerHit_label"					"타격당 축적"
+		
+		"BuildUpPercentPerHit_postvalue_label"					"타격당 축적"
+		"BuildUpPercentPerHit_postfix"					"%"
+
+		"BuildUpPerSecond_label"					"초당 축적"
+		"BuildUpPerSecond_postvalue_label"					"초당 축적"
+		"BuildUpPerSecond_postfix"					"%"
+
+		//"FreezeBuildUpTime_label"						"Freeze buildup time"
+		"FreezeBuildUpTime_postfix"						"초"
+
+		//"CritStackInterval_label"						"Crit Charge Delay"
+		"CritStackInterval_postfix"						"초"
+
+		"TurretLifetime_label"						"활성 시간"
+
+		"TurretLifetime_postvalue_label"						"활성 시간"
+		"TurretLifetime_postfix"						"초"
+
+		"CritCoatingDamagePercent_prefix"				"{s:sign}"
+		//"CritCoatingDamagePercent_label"				"Crit Coating Crit Bonus"
+		"CritCoatingDamagePercent_postfix"				"%"
+
+		//"ExplosionCoatingRadius_label"				"Explosion Coating Radius"
+		"ExplosionCoatingRadius_postfix"				"m"
+
+		//"SlowCoatingProcChance_label"					"Slowing Coating Chance"
+		"SlowCoatingProcChance_postfix"					"%"
+
+		//"SlowCoatingMoveSpeed_label"					"Slowing Coating Slow Amount"
+		"SlowCoatingMoveSpeed_postfix"					"%"
+
+		//"SlowCoatingDuration_label"					"Slowing Coating Slow Duration"
+		//"SlowCoatingDuration_postfix"					""
+
+		"MaxLifetime_label"							"활성 시간"
+
+		"MaxLifetime_postvalue_label"							"활성 시간"
+		"MaxLifetime_postfix"							"초"
+
+		//"ZipLineArrowLifetime_label"					"Arrow Flight Time"
+		//"ZipLineArrowLifetime_postfix"					""
+
+		//"DamageTakenPercentIncreasePerStack_label"	"Damage Increase Per Stack"
+		"DamageTakenPercentIncreasePerStack_postfix"	"%"
+
+		//"ShotsFired_label"							"Shots fired"
+		//"ShotsFired_postfix"							""
+
+		//"TimeBetweenShots_label"						"Time between shots"
+		//"TimeBetweenShots_postfix"						""
+
+		//"DroneDPS_label"								"Drone Damage"
+		"DroneDPS_postfix"								"초당 피해"
+
+		"DistanceBuff_postfix"							"%"
+		//"DistanceBuff_label"							"Increase at Max Range"
+
+		//"FullDistance_label"							"Max Range: "
+		"FullDistance_postfix"							"m"
+
+		"ProcDamage_label"								"마법 피해"
+
+		"ProcDamage_postvalue_label"								"마법 피해"
+		//"BaseDamagePct_label"							"Bonus Spirit Amp"
+		"BaseDamagePct_prefix"							"{s:sign}"
+		"BaseDamagePct_postfix"							"%"
+
+		"TargetsPerTick_label"						"발사당 대상 적중"
+
+		"TargetsPerTick_postvalue_label"						"발사당 대상 명중"
+		"HealthToDamage_label"						"피해"
+
+		"HealthToDamage_postvalue_label"						"피해"
+		"SelfDamagePct_label"						"체력 소모"
+
+		"SelfDamagePct_postvalue_label"						"체력 소모"
+		"SelfDamagePct_postfix"						"%"
+
+		"DamageHealPerTarget_label"						"대상당 피해/치유"
+
+
+		"DamageHealPerTarget_postvalue_label"						"대상당 피해/치유"
+
+		//"DeathTaxHeal_label"							"Health Per Kill"
+
+		"ChainRadius_label"							"연쇄 피해 반경"
+
+		"ChainRadius_postvalue_label"							"연쇄 피해 반경"
+		"ChainRadius_postfix"							"m"
+		
+		//"LaunchDamage_postfix"							""
+		//"LaunchDamage_label"							"Knockback Damage"
+
+		//"ImpaleDamage_postfix"							""
+		//"ImpaleDamage_label"							"Impale Damage"
+
+		//"ImpaleDuration_label"						"Impale Duration"
+		"ImpaleDuration_postfix"						"초"
+
+		"ExplosionRadius_label"						"폭발 반경"
+
+		"ExplosionRadius_postvalue_label"						"폭발 반경"
+		"ExplosionRadius_postfix"						"m"
+
+		"MinExplosionRadius_label"					"최소 폭발 반경"
+
+		"MinExplosionRadius_postvalue_label"					"최소 폭발 반경"
+		"MinExplosionRadius_postfix"					"m"
+
+		"MaxExplosionRadius_label"					"최대 폭발 반경"
+
+		"MaxExplosionRadius_postvalue_label"					"최대 폭발 반경"
+		"MaxExplosionRadius_postfix"					"m"
+
+		"ExplosionDamage_label"						"폭발 피해"
+
+		"ExplosionDamage_postvalue_label"						"폭발 피해"
+		//"MinExplosionDamage_label"						"Min Explosion Damage: "
+		//"MinExplosionDamage_postfix"					""
+
+		//"ExplosionMinPercent_label"					"Min Explosion Damage: "
+		"ExplosionMinPercent_postfix"					"%"
+
+		//"ExplosionMaxPercent_label"					"Max Explosion Damage: "
+		"ExplosionMaxPercent_postfix"					"%"
+
+		//"EMPBuildupPercentPerShot_label"				"Silence Charge Per Shot"
+		"EMPBuildupPercentPerShot_postfix"				"%"
+
+		"InvisFadeToDuration_label"						"투명화 전환 시간"
+
+		"InvisFadeToDuration_postvalue_label"						"투명 상태 지속 시간"
+		"InvisFadeToDuration_postfix"						"초"
+
+		"InvisMoveSpeedMod_prefix"					"{s:sign}"
+		"InvisMoveSpeedMod_postfix"					"m"
+		"InvisMoveSpeedMod_label"					"투명 상태 질주 속도"
+
+		"InvisMoveSpeedMod_postvalue_label"					"투명 상태 질주 속도"
+
+		//"MeleeAttackLength_label"						"Melee Range"
+		"MeleeAttackLength_postfix"						"m"
+
+		"ArmingDuration_label"						"설치 시간"
+
+		"ArmingDuration_postvalue_label"						"설치 시간"
+		"ArmingDuration_postfix"						"초"
+
+		"AirJumpVerticalSpeedPercent_prefix"			"{s:sign}"
+		//"AirJumpVerticalSpeedPercent_label"			"Air Jump Vertical Speed"
+		"AirJumpVerticalSpeedPercent_postfix"			"%"
+
+
+		//"ReflectDamage_label"							"Bullet Reflect Damage"
+		"ReflectDamage_postfix"							"%"
+
+		"ImmobilizeDuration_label"					"이동 불가 지속 시간"
+
+		"ImmobilizeDuration_postvalue_label"					"이동 불가 지속 시간"
+		"ImmobilizeDuration_postfix"					"초"
+
+		"AirControlPercentBarrier_label"					"공중 제어"
+		"AirControlPercentBarrier_postvalue_label"					"공중 제어"
+		"AirControlPercentBarrier_prefix"							"{s:sign}"
+		"AirControlPercentBarrier_postfix"							"%"
+
+		"AirControlPercent_label"					"공중 제어"
+		"AirControlPercent_postvalue_label"					"공중 제어"
+		"AirControlPercent_prefix"							"{s:sign}"
+		"AirControlPercent_postfix"							"%"
+
+		"AirControlAccelPercent_label"					"공중 가속"
+		"AirControlAccelPercent_postvalue_label"					"공중 가속"
+		"AirControlAccelPercent_prefix"							"{s:sign}"
+		"AirControlAccelPercent_postfix"							"%"
+
+		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_label"					"공중 제어"
+		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_postvalue_label"					"공중 제어"
+		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_postfix"							"%"
+
+		//"HeadStompBonusDamage_label"					"Head Stomp Damage Bonus"
+		//"HeadStompBonusDamage_postfix"					""
+
+		//"HeadStompBonusRadius_label"					"Head Stomp Radius Bonus"
+		//"HeadStompBonusRadius_postfix"					""
+
+		//"BouncePadStompCount_label"					"Max Head Stomps"
+
+		"NPCProcChance_label"							"트루퍼 발동 확률"
+
+		"NPCProcChance_postvalue_label"							"트루퍼 발동 확률"
+		"NPCProcChance_postfix"							"%"
+
+		"HeroProcChance_label"						"영웅 발동 확률"
+
+		"HeroProcChance_postvalue_label"						"영웅 발동 확률"
+		"HeroProcChance_postfix"						"%"
+		
+		//"AbilityProjectileSpeedPercent_label"			"Speed Increase"
+		"AbilityProjectileSpeedPercent_postfix"			"%"
+
+		//"MODIFIER_VALUE_ABILITY_PROJECTILE_SPEED_PERCENT_label"			"Speed Increase"
+		"MODIFIER_VALUE_ABILITY_PROJECTILE_SPEED_PERCENT_postfix"			"%"
+		
+		"TechCleaveDamagePercent_label"				"가르기 피해"
+		
+		"TechCleaveDamagePercent_postvalue_label"				"가르기 피해"
+		"TechCleaveDamagePercent_postfix"				"%"
+		
+		"TechCleaveTargetCap_label"					"추가 대상"
+		
+		"TechCleaveTargetCap_postvalue_label"					"추가 대상"
+		//"TechCleaveTargetCap_postfix"					""
+		
+		"TechCleaveRadius_label"						"가르기 반경"
+		
+		"TechCleaveRadius_postvalue_label"						"가르기 반경"
+		"TechCleaveRadius_postfix"						"m"
+
+		"InitialRadius_label"							"시작 반경"
+
+		"InitialRadius_postvalue_label"							"시작 반경"
+		"InitialRadius_postfix"							"m"
+
+		//"BlurVisionRange_label"							"Blur Vision Range"
+		"BlurVisionRange_postfix"						"m"
+		
+		//"ExplosiveShotRadiusPercent_label"				"Explosive Shot Radius Increase"
+		"ExplosiveShotRadiusPercent_postfix"			"%"
+				
+		//"TechPowerPerCharge_label"						"Spirit per Charge"	
+		
+		//"FireRatePerCharge_label"						"Fire Rate per Charge"
+		"FireRatePerCharge_postfix"						"%"
+		
+		//"ChargeDuration_label"							"Charge Duration"
+		"ChargeDuration_postfix"						"초"
+
+		//"MaxCharges_label"								"Max Charges"
+
+		//"ExtraBladeDamage_label"						"Extra Damage per Charge"
+
+		//"WaveStunDuration_label"						"Disarm/EMP Duration"
+		"WaveStunDuration_postfix"						"초"
+
+		"WaveLifetime_label"							"투사체 활성 시간"
+
+		"WaveLifetime_postvalue_label"							"투사체 활성 시간"
+		"WaveLifetime_postfix"							"초"
+
+		//"LockedRadius_label"							"Chain Length"
+		"LockedRadius_postfix"							"m"
+
+		//"BoostDuration_label"							"Ally Move Speed Duration"
+		"BoostDuration_postfix"							"초"
+
+		//"ShieldPercentage_label"						"Shield Max Health %"
+		"ShieldPercentage_postfix"						"% 최대 체력"
+
+		"ShieldDuration_label"							"방어막 지속 시간"
+
+		"ShieldDuration_postvalue_label"							"방어막 지속 시간"
+		"ShieldDuration_postfix"						"초"
+
+		"SlowRadius_label"								"둔화 반경"
+
+		"SlowRadius_postvalue_label"								"둔화 반경"
+		"SlowRadius_postfix"							"m"
+		
+		//"SmokeDuration_label"							"Smoke Duration"
+		"SmokeDuration_postfix"							"초"
+
+		//"SmokeRadius_label"								"Smoke Radius"
+		"SmokeRadius_postfix"							"m"
+
+		"ChainDuration_label"							"결박 지속 시간"
+
+		"ChainDuration_postvalue_label"							"결박 지속 시간"
+		"ChainDuration_postfix"							"초"
+
+		//"InfectDuration_label"							"Infect Duration"
+		"InfectDuration_postfix"						"초"
+
+		//"CloudDuration_label"							"Cloud Lifetime"
+		"CloudDuration_postfix"							"초"
+
+		"TimeSlowPercent_label"							"시간 둔화"
+
+		"TimeSlowPercent_postvalue_label"							"시간 둔화"
+		"TimeSlowPercent_postfix"						"%"
+
+		//"CombatRegenPercent_label"						"Health Regen in Combat"
+		"CombatRegenPercent_postfix"					"%"
+
+		"AttackPower_prefix"							"{s:sign}"
+		//"AttackPower_postfix"							""
+		//"AttackPower_label"								"Attack Power"
+
+		"AbilityPower_prefix"							"{s:sign}"
+		//"AbilityPower_postfix"							""
+		//"AbilityPower_label"							"Ability Power"
+		  
+		"DefensePower_prefix"							"{s:sign}"
+		//"DefensePower_postfix"							""
+		//"DefensePower_label"							"Defense Power"
+
+		//"InfectionBonusDPS_prefix"						""
+		//"InfectionBonusDPS_postfix"						""
+		//"InfectionBonusDPS_label"						"Infection Bonus DPS"
+
+		//"DecoyLifetime_prefix"							""
+		"DecoyLifetime_postfix"							"초"
+"Health_label"									"체력"
+
+		"Health_postvalue_label"									"체력"
+
+		//"Grenades_label"					"Extra Bombs"
+
+		//"SearchRadius_label"				"Search Radius"
+		"SearchRadius_postfix"				"m"
+
+		//"GrenadesPerVolley_label"			"Bombs Per Volley"
+
+		//"BulletArmorPenetration_label"		"Target Bullet Resist"
+		//"BulletArmorPenetration_postfix"	""
+
+		//"RampDuration_label"						"Ramp Duration"
+		"RampDuration_postfix"						"초"
+
+		//"EndDuration_label"							"Final Duration"
+		"EndDuration_postfix"						"초"
+
+		//"FinalSlow_label"							"Slowest Speed"		
+		"FinalSlow_postfix"							"m(초당)"		
+
+		"WeaponPowerPerStack_prefix"				"{s:sign}"
+		"WeaponPowerPerStack_label"					"중첩당 무기 피해"
+		"WeaponPowerPerStack_postvalue_label"					"중첩당 무기 피해"
+		"WeaponPowerPerStack_postfix"				"%"
+		"WeaponPowerPerStackNonHero_prefix"				"{s:sign}"
+		"WeaponPowerPerStackNonHero_label"					"비영웅 무기 피해"
+		"WeaponPowerPerStackNonHero_postvalue_label"					"비영웅 무기 피해"
+		"WeaponPowerPerStackNonHero_postfix"				"%"
+
+		"NonHeroStackLimit_label"					"비영웅 중첩 한도"
+		"NonHeroStackLimit_postvalue_label"				"비영웅 중첩 한도"
+		"DamageToStack_label"						"중첩으로 전환되는 피해"
+		"DamageToStack_postvalue_label"						"중첩으로 전환되는 피해"
+		"DamageDuration_label"						"지속 시간"
+		"DamageDuration_postvalue_label"						"지속 시간"
+		"DamageDuration_postfix"						"초"
+
+		"RegenWhileInvisible_label"				"투명 상태일 때 체력 재생"
+
+		"RegenWhileInvisible_postvalue_label"				"투명 상태일 때 체력 재생"
+		"RegenWhileInvisible_prefix"			"+"
+		"DamageRadius_label"						"피해 반경"
+
+		"DamageRadius_postvalue_label"						"피해 반경"
+		"DamageRadius_postfix"						"m"
+
+		//"RegenerationRate_label"					"Restore Time"
+		"RegenerationRate_postfix"					"초"
+
+		"BulletShieldMaxHealth_prefix"				"{s:sign}"
+		"BulletShieldMaxHealth_label"				"총탄 방어막 수명"
+		"BulletShieldMaxHealth_postvalue_label"				"총탄 방어막 수명"
+
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_label"				"총탄 방어막 수명"
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_postvalue_label"				"총탄 방어막 수명"
+
+		"ActiveBulletShieldMaxHealth_prefix"		"{s:sign}"
+		"ActiveBulletShieldMaxHealth_label"			"총탄 방어막 수명"
+		"ActiveBulletShieldMaxHealth_postvalue_label"			"총탄 방어막 수명"
+
+		"ActiveMODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_prefix"		"{s:sign}"
+		"ActiveMODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_label"			"총탄 방어막 수명"
+		"ActiveMODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_postvalue_label"			"총탄 방어막 수명"
+
+		"TechShieldMaxHealth_prefix"				"{s:sign}"
+		"TechShieldMaxHealth_label"					"마법 방어막 수명"
+		"TechShieldMaxHealth_postvalue_label"					"마법 방어막 수명"
+
+		"WeaponPowerPerKill_label"			"처치당 무기 피해"
+
+		"WeaponPowerPerKill_postvalue_label"			"처치당 무기 피해"
+		"WeaponPowerPerKill_prefix"			"+"
+		"WeaponPowerPerKill_postfix"		"%"
+		//"WeaponPowerPerAssist_label"		"Courage per Assist"
+		//"WeaponPowerPerDeath_label"			"Courage per Death"
+
+		"FireRatePerKill_label"			"처치당 연사 속도"
+
+		"FireRatePerKill_postvalue_label"			"처치당 연사 속도"
+		"FireRatePerKill_prefix"			"+"
+		"FireRatePerKill_postfix"		"%"
+
+		"BonusZoomPercent_prefix"				"{s:sign}"
+		"BonusZoomPercent_label"				"무기 확대"
+		"BonusZoomPercent_postvalue_label"				"무기 확대"
+		"BonusZoomPercent_postfix"				"%"
+
+		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_label"				"무기 확대"
+		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_postvalue_label"				"무기 확대"
+		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_postfix"				"%"
+
+		"MaxDPS_label"						"최대 초당 피해"
+
+		"MaxDPS_postvalue_label"						"최대 초당 피해"
+		//"DamageOnHit_label"					"Damage on Hit"
+		"ProcCooldown_label"					"최대 빈도"
+		"ProcCooldown_postvalue_label"					"최대 빈도"
+		"ProcCooldown_postfix"				"초"
+
+		//"WeaponPowerPerEnemy_label"			"Courage per Enemy"
+		"WeaponPowerPerEnemy_prefix"			"+"
+
+		//"FireRatePerEnemy_label"				"Fire Rate per Enemy"
+		"FireRatePerEnemy_prefix"				"+"
+		"FireRatePerEnemy_postfix"			"%"
+
+		//"AssaultDuration_label"				"Air Attack Duration"
+		"AssaultDuration_postfix"				"초"
+
+		//"AssaultFireRate_label"				"Air Attack Fire Rate"
+		"AssaultFireRate_prefix"				"{s:sign}"
+		"AssaultFireRate_postfix"				"%"
+
+		"ActiveHealthRegen_prefix"			"{s:sign}"
+		"ActiveHealthRegen_label"			"체력 재생"
+		"ActiveHealthRegen_postvalue_label"			"체력 재생"
+		"ActiveHealthRegen_postfix"			"체력(초당)"
+
+		"ActiveBonusFireRate_label"			"연사 속도"
+
+		"ActiveBonusFireRate_postvalue_label"			"연사 속도"
+		"ActiveBonusFireRate_postfix"		"%"
+		"SurgeDelay_label"					"지연"
+		"SurgeDelay_postvalue_label"					"지연 시간"
+		"SurgeDelay_postfix"				"초"
+
+		//"upgrade_fervor/modifier_fervor/modifier_fervor_damage_stack"	"Fervor Stack"
+		//"upgrade_fervor/modifier_fervor/modifier_fervor_bonuses"	"Enrage Bonuses"
+		"FervorMovespeed_label"		"이동 속도"
+		"FervorMovespeed_postvalue_label"		"이동 속도"
+		"FervorMovespeed_postfix"	"m(초당)"
+		"FervorFireRate_label"		"연사 속도"
+		"FervorFireRate_postvalue_label"		"연사 속도"
+		"FervorFireRate_postfix"	"%"
+		//"FervorDebuffResistance_label"		"Enrage Debuff Resistance"
+		"FervorDebuffResistance_postfix"	"%"
+		"FervorTechResist_label"			"마법 저항"
+
+		"FervorTechResist_postvalue_label"			"마법 저항"
+
+		"PassiveFireRate_label"		"연사 속도"
+
+		"PassiveFireRate_postvalue_label"		"연사 속도"
+		"PassiveFireRate_postfix"	"%"
+
+		"TechDamagePercent_Label"	"피해"
+		"TechDamagePercent_postvalue_label"	"피해"
+		"TechDamagePercent_Postfix"	"%"
+		
+		"MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER_Label"	"피해"
+		"MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER_postvalue_label"	"피해"
+		"MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER_Postfix"	"%"
+		
+		"DelayDuration_Label"	"지연 지속 시간"
+		"DelayDuration_postvalue_label"	"지연 지속 시간"
+		"DelayDuration_Postfix"	"초"
+		//"MinimumDamage_Label"	"Minimum Damage"
+
+		"EMPDuration_label"				"약화 지속 시간"
+
+		"EMPDuration_postvalue_label"				"약화 지속 시간"
+		"EMPDuration_postfix"			"초"
+
+		//"BonusBulletDamageToEMPTargets_label" "Bullet Damage to Silenced targets"
+		"BonusBulletDamageToEMPTargets_prefix" "+"
+		"BonusBulletDamageToEMPTargets_postfix" "%"
+		"modifier_silencer_proc_active"	"소음기"
+
+		"BulletDamageReflectedPct_label"					"총탄 피해 반사"
+
+		"BulletDamageReflectedPct_postvalue_label"					"총탄 피해 반사"
+		"BulletDamageReflectedPct_postfix"					"%"
+		"SpiritDamageReflectedPct_label"					"마법 피해 반사"
+		"SpiritDamageReflectedPct_postvalue_label"					"마법 피해 반사"
+		"SpiritDamageReflectedPct_postfix"					"%"
+		"DamageReflectedFrequencyPct_label"				"발동 확률"
+		"DamageReflectedFrequencyPct_postvalue_label"				"발동 확률"
+		"DamageReflectedFrequencyPct_postfix"			"%"
+		"modifier_armor_reactive_armor"					"보복 사격"
+		"ReturnFireBulletResist_prefix"					"+"
+		"ReturnFireBulletResist_label"					"총탄 저항"
+		"ReturnFireBulletResist_postvalue_label"					"총탄 저항"
+		"ReturnFireBulletResist_postfix"					"%"
+
+		//"RespawnBonusHealth_label"							"Respawn Bonus Health"
+		//"RespawnBonusHealthDuration_label"					"Respawn Bonus Health Duration"
+		"RespawnBonusHealthDuration_postfix"				"초"
+		//"upgrade_rebirth/respawn_bonus_health_modifier"		"Rebirth Bonus Health"
+
+		//"DeathImmunityDuration_label"				"Death Immunity Duration"
+		//"DeathImmunityDuration_postfix"			"s"
+		//"DeathImmunityPulseRateMultiplier_label"		"Pulse Rate"
+		//"DeathImmunityPulseRateMultiplier_postfix"	"x"
+		//"modifier_cheat_death_immunity"			"Death Immune"
+
+		"StasisRadius_label"				"반경"
+
+		"StasisRadius_postvalue_label"				"반경"
+		"StasisRadius_postfix"				"m"
+
+		//"upgrade_quarantine/modifier_citadel_quarantine"	"Quarantined"
+
+		"HealPercentAmount_label"				"치유"
+
+		"HealPercentAmount_postvalue_label"				"치유량"
+		"HealPercentAmount_postfix"			"%"
+
+		"Stamina_label"							"활력"
+		"Stamina_postvalue_label"							"활력"
+		"Stamina_prefix"							"{s:sign}"
+
+		"MODIFIER_VALUE_STAMINA_label"							"활력"
+		"MODIFIER_VALUE_STAMINA_postvalue_label"							"활력"
+		"MODIFIER_VALUE_STAMINA_prefix"							"{s:sign}"
+
+		"StaminaCooldownReduction_prefix"				"{s:sign}"
+		"StaminaCooldownReduction_label"				"활력 회복"
+		"StaminaCooldownReduction_postvalue_label"				"활력 회복"
+		"StaminaCooldownReduction_postfix"			"%"
+
+		//"ActiveHealthChange_label"			"Health Steal"
+		"ActiveHealthChange_postfix"			"체력"
+		//"ActiveWeaponDamageChange_label"		"Weapon Damage Steal"
+		"ActiveWeaponDamageChange_postfix"    "%"
+
+		//"modifier_upgrade_siphon_buff"		"Siphon"
+		"modifier_upgrade_siphon_debuff"		"잃은 체력"
+		//"SiphonRadius_label"					"Activate Radius"
+		"SiphonRadius_postfix"				"m"
+
+		"TechResistDuration_label"			"지속 시간"
+
+		"TechResistDuration_postvalue_label"			"지속 시간"
+		"TechResistDuration_postfix"			"초"
+
+		"BleedTechResist_label"				"마법 저항"
+
+		"BleedTechResist_postvalue_label"				"마법 저항"
+		"BleedTechResist_prefix"				"{s:sign}"
+		"BleedTechResist_postfix"				"%"
+
+		//"StackProcDamage_label"			"Burst Damage"
+		"StackDuration_label"				"중첩 지속 시간"
+		"StackDuration_postvalue_label"				"중첩 지속 시간"
+		"StackDuration_postfix"			"초"
+
+		"HeadShotBonusDamage_prefix"		"{s:sign}"
+		"HeadShotBonusDamage_label"			"헤드샷 보너스 피해"
+		"HeadShotBonusDamage_postvalue_label"			"헤드샷 보너스 피해"
+		"HeadShotDebuffDuration_label"		"지속 시간"
+		"HeadShotDebuffDuration_postvalue_label"		"지속 시간"
+		"HeadShotDebuffDuration_postfix"	"초"
+		"HeadShotCooldown_label"			"쿨다운"
+		"HeadShotCooldown_postvalue_label"			"쿨다운"
+		"HeadShotCooldown_postfix"			"초"
+		//"upgrade_leveler/headshot_cooldown_modifier"	"Head Shot Bonus Cooldown"
+		//"ActiveChainDuration_label"			"Tether Duration"
+		"ActiveChainDuration_postfix"		"초"
+		"ActiveBulletArmorReduction_label"	"총탄 저항 감소"
+
+		"ActiveBulletArmorReduction_postvalue_label"	"총탄 저항 감소"
+
+		//"modifier_galvanic_storm"				"Galvanic Storm"
+		//"BuildupPerProc_label"				"Buildup on Shock"
+		"BuildupPerProc_postfix"				"%"
+		//"BuildupDamage_label"					"Damage on Buildup"
+		
+		//"ShockBuildupDuration_label"			"Shock Buildup Lifetime"
+		"ShockBuildupDuration_postfix"		"초"
+
+		"GalvanicProcDuration_label"			"둔화 지속 시간"
+
+		"GalvanicProcDuration_postvalue_label"			"둔화 지속 시간"
+		"GalvanicProcDuration_postfix"		"초"
+
+		"FireRateSlow_label"					"연사 속도"
+		"FireRateSlow_postvalue_label"					"연사 속도"
+		"FireRateSlow_prefix"					"-"
+		"FireRateSlow_postfix"					"%"
+
+		"MODIFIER_VALUE_FIRE_RATE_SLOW_label"					"연사 속도"
+		"MODIFIER_VALUE_FIRE_RATE_SLOW_postvalue_label"					"연사 속도"
+		"MODIFIER_VALUE_FIRE_RATE_SLOW_prefix"					"-"
+		"MODIFIER_VALUE_FIRE_RATE_SLOW_postfix"					"%"
+
+		"TechPowerReduction_label"					"마력"
+
+		"TechPowerReduction_postvalue_label"					"마력"
+		//"SlowFireRatePercent_label"			"Fire Rate Scale"
+		"SlowFireRatePercent_prefix"			"{s:sign}"
+		"SlowFireRatePercent_postfix"			"%"
+
+		"MaxFireRateSlowPercent_label"			"최대 연사 속도"
+
+		"MaxFireRateSlowPercent_postvalue_label"			"최대 연사 속도"
+		"MaxFireRateSlowPercent_postfix"		"%"
+		"MaxFireRateSlowPercent_prefix"		"-"
+
+		//"FireRateScale_label"					"Fire Rate Scale"
+		"FireRateScale_prefix"				"{s:sign}"
+		"FireRateScale_postfix"				"%"
+
+		//"ActiveHealAmount_label"				"Self Heal"
+		//"ActiveHealAmount_postfix"			"HP"
+
+		//"BonusDamagePerHero_label"			"Bonus Damage Per Hero"
+		"BonusDamagePerHero_postfix"			"%"
+
+		//"DebuffDelay_label"					"Debuff Delay"
+		"DebuffDelay_postfix"					"초"
+
+		//"ArmorLossPerHit_label"				"Resist lost per Hit"
+		"ArmorLossPerHit_postfix"				"%"
+
+		//"StackLossFrequency_label"			"Resist Loss Frequency"
+		"StackLossFrequency_postfix"			"초"
+
+		"MaxBulletResist_label"				"최대 총탄 저항"
+
+		"MaxBulletResist_postvalue_label"				"최대 총탄 저항"
+		"MaxBulletResist_postfix"				"%"
+
+		"upgrade_berserker/modifier_berserker/modifier_berserker_damage_stack"		"광전사"
+		"berserker_stack"							"광전사"
+
+		"WeaponDamageBonus_prefix"		"{s:sign}"
+		"WeaponDamageBonus_label"			"무기 피해"
+
+		"WeaponDamageBonus_postvalue_label"			"무기 피해"
+
+		"TechDamageBonusPercent_prefix"		"{s:sign}"
+		"TechDamageBonusPercent_label"		"마법 피해"
+		"TechDamageBonusPercent_postvalue_label"		"마법 피해"
+		"TechDamageBonusPercent_postfix"		"%"
+
+		"SuperiorStaminaBonusSpirit_prefix"	"{s:sign}"
+		//"SuperiorStaminaBonusSpirit_label"	"Spirit Power After Second Jump/Dash"
+
+		"EchoShardBonusSpirit_prefix"		"{s:sign}"
+		//"EchoShardBonusSpirit_label"		"Spirit Power for Echo Ability"
+
+
+
+		"BonusSpirit_prefix"				"{s:sign}"
+		"BonusSpirit_label"				"마력"
+		"BonusSpirit_postvalue_label"				"마력"
+		"BonusSpiritLifesteal_prefix"				"{s:sign}"
+		"BonusSpiritLifesteal_label"				"마법 체력 흡수"
+		"BonusSpiritLifesteal_postvalue_label"				"마법 체력 흡수"
+		"BonusSpiritLifesteal_postfix"			"%"
+		//"modifier_power_shard_bonus"		"Echo Boost"
+
+		//"BonusDuration_label"				"Bonus Duration"
+		"BonusDuration_postfix" 			"초"
+		//"superior_stamina_buff"			"Bonus Spirit Power"
+
+		"HighGroundBonusWeaponPower_prefix"	"{s:sign}"
+		//"HighGroundBonusWeaponPower_label"	"Weapon Damage When Above Enemies"
+		"HighGroundBonusWeaponPower_postfix"	"%"
+
+		"BonusBaseWeaponDamage_prefix"					"{s:sign}"
+		"BonusBaseWeaponDamage_label"					"무기 피해"
+		"BonusBaseWeaponDamage_postvalue_label"					"무기 피해"
+		"BonusBaseWeaponDamage_postfix"					"%"
+
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_label"					"무기 피해"
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_postvalue_label"					"무기 피해"
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_postfix"					"%"
+
+		"BaseAttackDamagePercent_prefix"					"{s:sign}"
+		"BaseAttackDamagePercent_label"					"무기 피해"
+		"BaseAttackDamagePercent_postvalue_label"					"무기 피해"
+		"BaseAttackDamagePercent_postfix"					"%"
+
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_label"					"무기 피해"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_postvalue_label"					"무기 피해"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_postfix"					"%"
+
+		"BaseAttackDamagePercentAltFire_prefix"					"{s:sign}"
+		"BaseAttackDamagePercentAltFire_label"					"보조 사격 무기 피해"
+		"BaseAttackDamagePercentAltFire_postvalue_label"					"보조 사격 무기 피해"
+		"BaseAttackDamagePercentAltFire_postfix"					"%"
+
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_label"					"보조 사격 무기 피해"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_postvalue_label"					"보조 사격 무기 피해"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_postfix"					"%"
+
+		"ImbuedTechPower_prefix"					"{s:sign}"
+		"ImbuedTechPower_label"						"보강한 능력 마력"
+
+		"ImbuedTechPower_postvalue_label"						"보강한 능력 마력"
+
+		"MovementSpeedBonusDuration_label"			"이동 속도 지속 시간"
+
+		"MovementSpeedBonusDuration_postvalue_label"			"이동 속도 지속 시간"
+		"MovementSpeedBonusDuration_postfix"		"초"
+
+		//"EnemyLifeThreshold_label"					"Threshold"
+		"EnemyLifeThreshold_postfix"					"%"
+
+		//"CloneDamageTakenIncreasePercent_label"		"Clone Damage Taken"
+		"CloneDamageTakenIncreasePercent_prefix"		"{s:sign}"
+		"CloneDamageTakenIncreasePercent_postfix"		"%"
+
+		"ability_abort_cast"						"중단"
+		"ability_cancel_channel"					"중단"
+
+		//"citadel_ability_lightning_dodge"	"Lightning Roll"
+		//"citadel_ability_lightning_dodge_passive"	"Lightning Roll"
+		//"citadel_ability_basicdamagereflect"	"Reflect Basic Damage"
+		//"citadel_ability_bullet_damage_amp_wall"	"Bullet Damage Amp Wall"
+
+		//"modifier_limit_ability_cooldown"		"Quick Cooldowns"
+
+		//"ability_golden_idol"					"Drop Soul Urn"
+		"golden_idol_bonus_01"					"추가 영혼 +35%"
+		"golden_idol_bonus_02"					"능력 포인트 +1"
+
+		//"ability_capture_zip_line"				"Capture Hyperline"
+		//"modifier_citadel_capture_zipline_timer"	"Capturing Hyperline"
+
+		//"modifier_citadel_containment_victim"	"Containment"
+		"modifier_hollow_point_stack"			"중공탄"
+		//"LifeThreshold_label"					"Life Threshold"
+		"LifeThreshold_postfix"					"%"
+		//"Cloaked"								"Cloaked"
+
+		"zipline_boost"							"집라인 부스트 상태"
+		"ActiveTechPower_label"					"마력"
+		"ActiveTechPower_postvalue_label"					"마력"
+		"ActiveTechPower_prefix"				"+"
+
+		//"ActiveBulletShieldHealth_label"		"Active Shield Health"
+		//"ActiveBulletShieldDuration_label"		"Active Shield Duration"
+		"ActiveBulletShieldDuration_postfix"		"초"
+		"PassiveShieldCooldown_label"			"쿨다운"
+		"PassiveShieldCooldown_postvalue_label"			"쿨다운"
+		"PassiveShieldCooldown_postfix"			"초"
+		"active_bullet_shield"					"총탄 방어막"
+
+		//"SlamDownRadius_label"					"Slam Radius"
+		"SlamDownRadius_postfix"				"m"
+
+		"StealDuration_label"					"흡수 지속 시간"
+
+		"StealDuration_postvalue_label"					"흡수 지속 시간"
+		"StealDuration_postfix"					"초"
+
+		"VeilCross_conditional"					"우주 장막 통과"
+		"modifier_veil_walker_triggered"			"장막 걸음 연사 속도"
+		"modifier_veil_walker_stealth"			"장막 걸음 투명 상태"
+
+		"InvisDuration_label"						"투명 지속 시간"
+
+		"InvisDuration_postvalue_label"						"투명 지속 시간"
+		"InvisDuration_postfix"					"초"
+
+		"SlideScale_label"						"활주 거리"
+
+		"SlideScale_postvalue_label"						"활주 거리"
+		"SlideScale_postfix"						"%"
+		"SlideScale_prefix"						"+"
+
+		"AirMoveIncreasePercent_label"				"공중 점프/대시 거리"
+		"AirMoveIncreasePercent_postvalue_label"				"공중 점프/대시 거리"
+		"AirMoveIncreasePercent_postfix"						"%"
+		"AirMoveIncreasePercent_prefix"						"+"
+
+		"MODIFIER_VALUE_AIR_MOVE_DISTANCE_INCREASE_PERCENT_label"				"공중 점프/대시 거리"
+		"MODIFIER_VALUE_AIR_MOVE_DISTANCE_INCREASE_PERCENT_postvalue_label"				"공중 점프/대시 거리"
+		"MODIFIER_VALUE_AIR_MOVE_DISTANCE_INCREASE_PERCENT_postfix"						"%"
+		"MODIFIER_VALUE_AIR_MOVE_DISTANCE_INCREASE_PERCENT_prefix"						"+"
+
+		"FreeAirJumps_prefix"							"{s:sign}"
+		"FreeAirJumps_label"							"무료 공중 점프"
+		"FreeAirJumps_postvalue_label"					"무료 공중 점프"
+
+		"MODIFIER_VALUE_FREE_AIR_JUMPS_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_FREE_AIR_JUMPS_label"					"무료 공중 점프"
+		"MODIFIER_VALUE_FREE_AIR_JUMPS_postvalue_label"			"무료 공중 점프"
+
+		"ActiveReloadPercent_label"				"탄약"
+		
+		"ActiveReloadPercent_postvalue_label"				"탄약"
+		"ActiveReloadPercent_postfix"				"%"
+		"ActiveReloadPercent_prefix"				"+"
+
+		"ImbuedCooldownMultiplier_label"			"보강한 능력 쿨다운"
+		"ImbuedCooldownMultiplier_postvalue_label"			"보강한 능력 쿨다운"
+		"ImbuedCooldownMultiplier_postfix"			"%"
+
+		"RespawnHealthPercent_label"				"부활 체력"
+
+		"RespawnHealthPercent_postvalue_label"				"부활 체력"
+		"RespawnHealthPercent_postfix"			"%"
+
+		"ActiveBonusMoveSpeed_label"					"이동 속도"
+
+		"ActiveBonusMoveSpeed_postvalue_label"					"이동 속도"
+		"ActiveBonusMoveSpeed_prefix"					"{s:sign}"
+		"ActiveBonusMoveSpeed_postfix"					"m"
+		"ActiveItemUse_conditional"					"활성화 상태일 때"
+
+		"BuffMoveSpeedBonus_label"						"이동 속도"
+
+		"BuffMoveSpeedBonus_postvalue_label"						"이동 속도"
+		"BuffMoveSpeedBonus_postfix"						"m"
+		"BuffMoveSpeedBonus_prefix"						"{s:sign}"
+
+		//"ChannelMoveSpeed_label"						"Channel Move Speed"
+		"ChannelMoveSpeed_postfx"						"m"
+		//"ChannelMoveSpeed_prefix"						""
+
+		"BulletShieldOnCast_label"						"총탄 방어막"
+
+		"BulletShieldOnCast_postvalue_label"						"총탄 방어막"
+		"TechShieldOnCast_label"						"마법 방어막"
+		"TechShieldOnCast_postvalue_label"						"마법 방어막"
+		//"BulletShieldDuration_label"					"Bullet Shield Duration"
+		"BulletShieldDuration_postfix"					"초"
+
+		
+		//"BloodPoolDPS_label"							"Blood Pool DPS"
+		//"BloodPoolDuration_label"						"Blood Pool Duration"
+		"BloodPoolDuration_postfix"						"초"
+		//"BloodPoolRadius_label"							"Blood Pool Radius"
+		"BloodPoolRadius_postfix"						"m"
+
+		"LowHealthThreshold_label"						"체력 임곗값"
+		"LowHealthThreshold_postvalue_label"			"체력 임곗값"
+		"LowHealthThreshold_postfix"					"%"
+		"LowHealthTechResist_label"						"마법 저항"
+		"LowHealthTechResist_postvalue_label"						"마법 저항"
+		"LowHealthTechResist_prefix"					"{s:sign}"
+		//"LowHealthWeaponPowerPercent_label"				"Courage"
+		"LowHealthWeaponPowerPercent_prefix"			"{s:sign}"
+		"LowHealthWeaponPowerPercent_postfix"			"%"
+		"ExecuteThreshold_label"						"처형 임곗값"
+		"ExecuteThreshold_postvalue_label"						"처형 임곗값"
+		"ExecuteThreshold_postfix"						"%"
+
+		"BuildupDuration_label"							"축적 만료 시간"
+
+		"BuildupDuration_postvalue_label"							"축적 만료 시간"
+		"BuildupDuration_postfix"						"초"
+		//"BuildupExpire_label"							"Buildup Expire"
+		"BuildupExpire_postfix"							"초"
+		//"BuildupDecayDelay_label"						"Buildup Decay Delay"
+		"BuildupDecayDelay_postfix"						"초"
+		//"BuildupRate_label"							"Buildup Per Shot"
+		//"BuildupRate_postfix"							""
+		"BuildupPerShot_label"							"총탄당 축적"
+		"BuildupPerShot_postvalue_label"							"총탄당 축적"
+		"BuildupPerShot_postfix"						"%"
+		//"StacksPerShot_label"							"Stacks Per Shot"
+
+		//"DamageOnApply_label"							"Damage On Apply"
+
+		"citadel_modifier_teleport"						"순간이동 중"
+		"citadel_modifier_hideout_teleport"				"은신처 떠나는 중"
+		"citadel_trigger_teleport_sandbox"				"영웅 체험으로 순간이동 중"
+		"citadel_trigger_teleport_hideout"				"은신처로 순간이동 중"
+
+		"MaxHealthLossPercent_label"				"최대 체력"
+
+		"MaxHealthLossPercent_postvalue_label"				"최대 체력"
+		"MaxHealthLossPercent_postfix"			"%"
+
+		"BonusClipPerKill_prefix"				"{s:sign}"
+		"BonusClipPerKill_label"				"처치당 탄약 보너스"
+
+		"BonusClipPerKill_postvalue_label"				"처치당 탄약 보너스"
+
+		"BonusSpiritPerKill_prefix"				"{s:sign}"
+		//"BonusSpiritPerKill_label"				"Bonus Spirit Power Per Kill"
+
+		//"MaxClipBonus_label"				"Max Clip Bonus"
+
+		"SummonDuration_label"					"소환 지속 시간"
+
+		"SummonDuration_postvalue_label"					"소환 지속 시간"
+		"SummonDuration_postfix" 				"초"
+
+		"Reloaded"							"재장전 완료!"
+		"BonusAmmo"							"보너스 탄약!"
+
+		"ExplodeDamage_label"				"폭발 피해"
+
+
+		"ExplodeDamage_postvalue_label"				"폭발 피해"
+
+		"StaminaRegenPercent_label"			"활력 재생"
+		"StaminaRegenPercent_postvalue_label"			"활력 재생"
+		"StaminaRegenPercent_postfix"		"%"
+
+		"MeleeResistPercent_prefix"			"{s:sign}"
+		"MeleeResistPercent_label"			"근거리 공격 저항"
+		"MeleeResistPercent_postvalue_label"			"근거리 공격 저항"
+		"MeleeResistPercent_postfix"		"%"
+		
+		"BuffDuration_label"				"강화 지속 시간"
+		
+		"BuffDuration_postvalue_label"				"강화 지속 시간"
+		"BuffDuration_postfix"				"초"
+
+		"GroundDashReductionPercent_label"	"대시 거리"
+
+		"GroundDashReductionPercent_postvalue_label"	"대시 거리"
+		"GroundDashReductionPercent_postfix"	"%"
+		
+		"ActivePlayerStats_Percentage"		"%"
+		"ActivePlayerStats_MoveSpeed"		"m"
+		"ActivePlayerStats_Regen"			"체력"
+		"ActivePlayerStats_Health"			"체력"
+
+		"TechDamageReduction_label"			"마법 피해 감소"
+
+		"TechDamageReduction_postvalue_label"			"마법 피해 감소"
+		"TechDamageReduction_postfix"		"%"
+
+		"ActiveMoveSpeedPenalty_label"		"활성화 시 이동 속도 페널티"
+
+		"ActiveMoveSpeedPenalty_postvalue_label"		"활성화 시 이동 속도 페널티"
+		"ActiveMoveSpeedPenalty_postfix"		"m"
+
+		"IncomingDamagePercent_label"		"입은 피해"
+
+		"IncomingDamagePercent_postvalue_label"		"입은 피해"
+		"IncomingDamagePercent_postfix"		"%"
+		"IncomingDamagePercent_prefix"		"{s:sign}"
+
+		"IncomingDamagePercentFromCaster_label"		"입은 피해"
+
+		"IncomingDamagePercentFromCaster_postvalue_label"		"입은 피해"
+		"IncomingDamagePercentFromCaster_postfix"	"%"
+		"IncomingDamagePercentFromCaster_prefix"	"{s:sign}"
+
+		
+		"IncomingBulletDamagePercentFromCaster_label"	"입은 총탄 피해"
+
+		
+		"IncomingBulletDamagePercentFromCaster_postvalue_label"	"입은 총탄 피해"
+		"IncomingBulletDamagePercentFromCaster_postfix"	"%"
+		"IncomingBulletDamagePercentFromCaster_prefix"	"{s:sign}"
+
+		"SlowResistance_label" "둔화 저항"
+		"SlowResistance_postvalue_label" "둔화 저항"
+		"SlowResistance_postfix" "%"
+
+		"MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE_label" "둔화 저항"
+		"MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE_postvalue_label" "둔화 저항"
+		"MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE_postfix" "%"
+
+		"MODIFIER_VALUE_STAMINA_REGEN_PER_SECOND_PERCENTAGE_postvalue_label" "활력 회복"
+		"MODIFIER_VALUE_STAMINA_REGEN_PER_SECOND_PERCENTAGE_postfix" "%"
+
+		"CooldownReductionPerHit_label" "타격당 쿨다운 감소"
+
+		"CooldownReductionPerHit_postvalue_label" "타격당 쿨다운 감소"
+		"CooldownReductionPerHit_postfix" "초"
+
+		"ParryCooldownReduction_label"				"방어 쿨다운"
+
+		"ParryCooldownReduction_postvalue_label"				"방어 쿨다운"
+		"ParryCooldownReduction_prefix"			"-"
+		"ParryCooldownReduction_postfix"			"초"
+
+		"ImmunityDuration_label"	"면역 지속 시간"
+
+		"ImmunityDuration_postvalue_label"	"면역 지속 시간"
+		"ImmunityDuration_postfix"	"초"
+
+		"CombatBarrier_label"	"방벽"
+
+		"CombatBarrier_postvalue_label"	"방벽"
+		"BarrierDuration_label"	"방벽 지속 시간"
+		"BarrierDuration_postvalue_label"	"방벽 지속 시간"
+		"BarrierDuration_postfix" "초"
+
+		"InterruptCooldown_label"	"중단 시 쿨다운"
+		"InterruptCooldown_postvalue_label"	"중단 시 쿨다운"
+		"InterruptCooldown_postfix"	"초"
+
+		"BonusSoulsPct_label"	"보너스 영혼"
+		
+		"BonusSoulsPct_postvalue_label"	"보너스 영혼"
+		"BonusSoulsPct_prefix" "+"
+		"BonusSoulsPct_postfix" "%"
+		
+		"EnemyRange_label"		"적 거리"
+		
+		"EnemyRange_postvalue_label"		"적 거리"
+		"EnemyRange_postfix"	"m"
+
+		"ReduceFootstepSound_label"	"발소리 거리"
+
+		"ReduceFootstepSound_postvalue_label"	"발소리 거리"
+		"ReduceFootstepSound_postfix"	"%"
+
+		"WeaponDamagePerStack_label" "중첩당 무기 피해"
+
+		"WeaponDamagePerStack_postvalue_label" "중첩당 무기 피해"
+		"WeaponDamagePerStack_postfix" "%"
+		"WeaponDamagePerStack_prefix" "+"
+	
+		"LightMeleeAmmo_label"			"탄약"
+	
+		"LightMeleeAmmo_postvalue_label"			"탄약"
+		"LightMeleeAmmo_postfix"		"%"
+		"LightMeleeAmmo_prefix"			"+"
+
+		"HeavyMeleeMultiplier_label"	"강한 근거리 공격 보너스"
+
+		"HeavyMeleeMultiplier_postvalue_label"	"강한 근거리 공격 보너스"
+		"HeavyMeleeMultiplier_postfix"	"x"
+
+		"SpellParryDuration_label"		"마법 방어 지속 시간"
+
+		"SpellParryDuration_postvalue_label"		"마법 방어 지속 시간"
+		"SpellParryDuration_postfix"		"초"
+
+		"CooldownOnMissReduction_label"		"빗나갈 시 쿨다운"
+
+		"CooldownOnMissReduction_postvalue_label"		"빗나갈 시 쿨다운"
+		"CooldownOnMissReduction_postfix"	"%"
+
+		"HealOnCounterSpell_label"				"치유"
+		"HealOnCounterSpell_postvalue_label"	"치유"
+
+		"ProcMaxRange_label"					"발동 최대 범위"
+		"ProcMaxRange_postvalue_label"			"발동 최대 범위"
+		"ProcMaxRange_postfix"					"m"
+
+		"HealOnHit_postvalue_label" "적중 시 치유"
+
+		"GravityScale_label"					"중력 비율"
+		"GravityScale_postvalue_label"			"중력 비율"
+		"GravityScale_postfix"					"%"
+
+		"AirBonusDamageGiven_label"					"공중 피해"
+		"AirBonusDamageGiven_postvalue_label"		"공중 피해"
+		"AirBonusDamageGiven_prefix"				"{s:sign}"
+		"AirBonusDamageGiven_postfix"				"%"
+
+		"AirBonusDamageTaken_label"					"받는 공중 피해"
+		"AirBonusDamageTaken_postvalue_label"		"받는 공중 피해"
+		"AirBonusDamageTaken_postfix"				"%"
+
+		"MinHeal_label"					"최소 치유"
+		"MinHeal_postvalue_label"		"최소 치유"
+
+		"BuffFrequency_label"						"강화 빈도"
+		"BuffFrequency_postvalue_label"				"강화 빈도"
+		"BuffFrequency_postfix"						"초"
+
+		"BulletRadius_label"						"총탄 반경"
+		"BulletRadius_postvalue_label"				"총탄 반경"
+		"BulletRadius_postfix"						"m"
+
+		"StatusImmuneDuration_label"						"절대 저항 지속 시간"
+		"StatusImmuneDuration_postvalue_label"				"절대 저항 지속 시간"
+		"StatusImmuneDuration_postfix"						"초"
+
+		"CooldownReductionOnHitMin_label"					"최소 감소"
+		"CooldownReductionOnHitMin_postvalue_label"			"최소 감소"
+		"CooldownReductionOnHitMin_postfix"					"초"
+
+		"CooldownReductionOnHitPct_label"					"적중 시 쿨다운 감소"
+		"CooldownReductionOnHitPct_postvalue_label"			"적중 시 쿨다운 감소"
+		"CooldownReductionOnHitPct_postfix"					"%"
+
+		"EvasionWhileSliding_label"						"활주 중 회피"
+		"EvasionWhileSliding_postvalue_label"			"활주 중 회피"						"EvasionWhileSliding_postfix"			"%"
+		"FireRateWhileSliding_label"						"활주 중 연사 속도"
+		"FireRateWhileSliding_postvalue_label"			"활주 중 연사 속도"
+		"FireRateWhileSliding_postfix"					"%"
+
+		"HealthPctDamage_label"						"현재 체력 비례 피해"
+		"HealthPctDamage_postvalue_label"			"현재 체력 비례 피해"
+		"HealthPctDamage_postfix"					"%"
+		
+		"MaxHPDamage_label"								"최대 체력 피해"
+		"MaxHPDamage_postvalue_label"		"최대 체력 피해"
+		"MaxHPDamage_postfix"				"%"
+
+		"ResistStealAmount_label"				"훔친 저항"
+		"ResistStealAmount_postvalue_label"		"훔친 저항"
+		"ResistStealAmount_postfix"				"%"
+
+		"OmniPendantBonusAbilityCharges_prefix"	"{s:sign}"
+		"OmniPendantBonusAbilityCharges_label"	"충전 능력"
+		"OmniPendantBonusAbilityCharges_postvalue_label"	"충전 능력"
+
+		"BonusAbilityChargesNonCharge_prefix"	"{s:sign}"
+		"BonusAbilityChargesNonCharge_label"			"비충전 능력"
+		"BonusAbilityChargesNonCharge_postvalue_label"	"비충전 능력"
+
+		"WeaponDamageBonusPerKill_prefix"				"{s:sign}"
+		"WeaponDamageBonusPerKill_label"				"처치당 무기 피해"
+		"WeaponDamageBonusPerKill_postvalue_label"		"처치당 무기 피해"
+		"WeaponDamageBonusPerKill_postfix"				"%"
+
+		"ImbueAbilityLifesteal_prefix"				"{s:sign}"
+		"ImbueAbilityLifesteal_label"				"보강한 체력 흡수"
+		"ImbueAbilityLifesteal_postvalue_label"				"보강한 체력 흡수"
+		"ImbueAbilityLifesteal_postfix"				"%"
+
+		"MissingHPHeal_label"						"잃은 체력 치유"
+		"MissingHPHeal_postvalue_label"				"잃은 체력 치유"
+		"MissingHPHeal_postfix"					"%"
+
+		"RegenerationDuration_label"		"재생 지속 시간"
+		"RegenerationDuration_postvalue_label"		"재생 지속 시간"
+		"RegenerationDuration_postfix"		"초"
+		"Regeneration_label"		"재생"
+		"Regeneration_postvalue_label"		"재생"
+		"Regeneration_postfix"		" 체력(초당)"
+
+		"FlyingBulletResist_label"					"총탄 저항"
+		"FlyingBulletResist_postvalue_label"					"총탄 저항"
+		"FlyingBulletResist_postfix"				"%"
+
+		"RecastWindow_label"					"재시전 제한 시간"
+		"RecastWindow_postvalue_label"			"재시전 제한 시간"
+		"RecastWindow_postfix"					"초"
+
+		"UnstoppablePerHero_prefix"				"+"
+		"UnstoppablePerHero_label"					"영웅당"
+		"UnstoppablePerHero_postvalue_label"		"영웅당"
+		"UnstoppablePerHero_postfix"				"초"
+
+		//-----------------------------------------------------------------------------
+		// END Ability Properties desc
+		//-----------------------------------------------------------------------------
+		
+		//-----------------------------------------------------------------------------
+		// Stat Descriptions - Used in Tooltips/Resources
+		//-----------------------------------------------------------------------------
+
+		"StatDesc_SpiritPowerDesc"				"<b>마력</b> - 능력 및 아이템의 효과 증폭"
+		"StatDesc_AbilityRangeDesc"				"<b>능력 범위</b> - 능력과 아이템의 범위와 반경 증가"
+		"StatDesc_AbilityDurationDesc"			"<b>능력 지속 시간</b> - 능력과 아이템의 지속 시간 증가"
+		"StatDesc_WeaponDamageDesc"				"<b>무기 피해</b> - 무기 및 근거리 공격 피해 조정 비율"
+		"StatDesc_MoveSpeedDesc"				"<b>이동 속도</b> - 현재 이동 속도"
+		"StatDesc_SpiritResistDesc"				"<b>마법 저항</b> - 마법 피해에 대한 저항 비율"
+		"StatDesc_WeaponResistDesc"				"<b>총탄 방어</b> - 총탄 피해에 대한 저항 비율"
+		"StatDesc_HealingBoostDesc"				"<b>주는 치유량</b> - 주는 치유 능력 조정 비율"
+		"StatDesc_HealingAmpDesc"				"<b>받는 치유량</b> - 받는 치유량 조정 비율"
+		"StatDesc_AmmoDesc"						"<b>탄약</b> - 재장전을 하지 않고 무기가 발사할 수 있는 총탄의 수"
+		"StatDesc_FireRateDesc"					"<b>연사 속도</b> - 무기의 연사 속도 조정 비율"
+		"StatDesc_SpiritLifestealDesc"			"<b>마법 체력 흡수</b> - 마법 피해를 입히고 회복하는 체력 비율"
+		"StatDesc_WeaponLifestealDesc"			"<b>총탄 체력 흡수</b> - 총탄 피해를 입히고 회복하는 체력 비율"
+		"StatDesc_BulletEvationDesc"			"<b>총탄 회피</b> - 무기로 공격받을 시 총탄 회피 확률"
+		"StatDesc_RegenDesc"					"<b>체력 회복</b> - 초당 회복되는 체력의 양"
+		"StatDesc_DamageAmpDesc"					"<b>피해 증폭</b> - 모든 입히는 피해량 조정 비율"
+
+
+		//-----------------------------------------------------------------------------
+		// Inline Attributes
+		//-----------------------------------------------------------------------------
+
+		"InlineAttribute_Fortitude"		"Fortitude"
+		"InlineAttribute_Courage"		"Courage"
+		"InlineAttribute_Spirit"		"마력"
+		"InlineAttribute_Slow"			"둔화"
+		"InlineAttribute_SlowResistance""둔화 저항"
+		"InlineAttribute_DamageAmp"		"피해 증가"
+		"InlineAttribute_SpiritDamage"	"마법 피해"
+		"InlineAttribute_SpiritDPS"	"지속 마법 피해"
+		"InlineAttribute_WeaponDPS"	"지속 무기 피해"
+		"InlineAttribute_BonusSpiritDamage"	"보너스 마법 피해"
+		"InlineAttribute_AbilityCooldown"	"쿨다운"
+		"InlineAttribute_Stun"	"기절"
+		"InlineAttribute_Heal"	"치유"
+		"InlineAttribute_Heals"	"치유"
+		"InlineAttribute_Healing" "치유"
+		"InlineAttribute_Health" "체력"
+		"InlineAttribute_MaxHealth" "최대 체력"
+		"InlineAttribute_Regen" "재생"
+		"InlineAttribute_MeleeDamage"	"근거리 공격 피해"
+		"InlineAttribute_BulletDamage"	"총탄 피해"
+		"InlineAttribute_FireRate"	"연사 속도"
+		"InlineAttribute_ReducedFireRate"	"감소된 연사 속도"
+		"InlineAttribute_BonusFireRate"	"보너스 연사 속도"
+		"InlineAttribute_MoveSpeed"		"이동 속도"
+		"InlineAttribute_BonusMoveSpeed""보너스 이동 속도"
+		"InlineAttribute_WeaponDamage"	"무기 피해"
+		"InlineAttribute_BonusWeaponDamage"	"보너스 무기 피해"
+		"InlineAttribute_SpiritResist"	"마법 저항"
+		"InlineAttribute_BulletResist"	"총탄 저항"
+		"InlineAttribute_CombatBarrier" "방벽"
+		"InlineAttribute_Immobilize" "이동 불가"
+		"InlineAttribute_Sleep" "수면"
+		"InlineAttribute_StaminaRegenPerSecond" "활력 회복"
+		"InlineAttribute_KnockBack" "밀쳐내기"
+		"InlineAttribute_KnockUp" "들어올리기"
+		"InlineAttribute_Pull" "끌어당기기"
+		"InlineAttribute_Pulls" "끌어당기기"
+		"InlineAttribute_Pulling" "끌어당기기"
+		"InlineAttribute_PureDamage"	"순수 피해"
+		"InlineAttribute_Silence"	"침묵"
+		"InlineAttribute_BonusSprintSpeed""보너스 질주 속도"
+	}
+}

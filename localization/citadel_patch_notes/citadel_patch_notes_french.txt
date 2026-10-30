@@ -1,0 +1,245 @@
+﻿"lang"
+{
+	"Language"		"french"
+	"Tokens"
+	{
+
+		//-----------------------------------------------------------------------------
+		// hero_astro
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_astro_1" "<b>24/10/2024</b><br>
+			<li>Unité ajoutée au labo d'occultisme</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_astro_2" "<b>29/10/2024</b><br>
+			<li><i>Trampoline</i> : inflige maintenant des dégâts correctement dans la zone d''atterissage.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_astro_3" "<b>07/11/2024</b><br>
+			<li><i>Trampoline</i> : la mise à jour ne permet plus qu'une instance de piétinement par Trampoline.</li>
+			<li><i>Trampoline</i> : les unités alliées qui touchent un trampoline ne reçoivent plus les effets de particules.</li>
+			<li><i>Arme</i> : mise à jour des effets visuels.</li>
+			<li><i>Baril de poudre</i> : amélioration de la visibilité en cas de proximité avec le baril.</li>
+			<li><i>As de la gâchette</i> : amélioration de la visibilité pour les victimes.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_nano
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_nano_1" "<b>24/10/2024</b><br>
+			<li>Unité ajoutée au labo d'occultisme</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_nano_2" "<b>29/10/2024</b><br>
+			<li><i>Arme</i> : 3 s de temps de rechargement au lieu de 3,5.</li>
+			<li><i>Arme</i> : 16 balles par chargeur au lieu de 18.</li>
+			<li><i>Arme</i> : 7 de dégâts balistiques au lieu de 6 (utilisation secondaire).</li>
+			<li><i>Esprit de Sekhmet</i> : l'explosion peut maintenant être déclenchée immédiatement après incantation.</li>
+			<li><i>Esprit de Sekhmet</i> : seules les cibles qui on été touchées ou attrapées par le chat dans sa course subiront une explosion.</li>
+			<li><i>Vigie de Nekomata</i> : ne possède plus de charges.</li>
+			<li><i>Vigie de Nekomata</i> : la statue dispose maintenant de sa propre « portée d'attaque » (30 m).</li>
+			<li><i>Vigie de Nekomata</i> : 60 s de durée au lieu de 120.</li>
+			<li><i>Vigie de Nekomata</i> : le multiplicateur de DPS spirituels est maintenant de 0,3 au lieu de 0,4.</li>
+			<li><i>Vigie de Nekomata</i> : le multiplicateur de PV spirituel est maintenant de 2 au lieu de 3.</li>
+			<li><i>Vigie de Nekomata</i> : +30 s de durée et + 20 de DPS au niveau 2 au lieu d'accorder des charges bonus.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_wrecker
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_1" "<b>24/10/2024</b><br>
+			<li>Unité ajoutée au labo d'occultisme</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_2" "<b>07/11/2024</b><br>
+			<li><i>Arme</i> : 15 balles par chargeur au lieu de 10.</li>
+			<li><i>Arme</i> : 4 balles par seconde au lieu de 2,86.</li>
+			<li><i>Arme</i> : 21 de dégâts par balle au lieu de 25.</li>
+			<li><i>Boule de démolition</i> : le rocher explose maintenant à l'impact</li>
+			<li><i>Boule de démolition</i> : 150 de dégâts de base au lieu de 80.</li>
+			<li><i>Boule de démolition</i> : 2000 de vitesse pour le rocher au lieu de 1500.</li>
+			<li><i>Boule de démolition</i> : 1500 de force pour le rocher au lieu de 180.</li>
+			<li><i>Boule de démolition</i> : 1,4 s de délai d'incantation au lieu de 1,2.</li>
+			<li><i>Boule de démolition</i> : 1,4 pour le multiplicateur de dégâts spirituels au lieu de 1.</li>
+			<li><i>Boule de démolition</i> : 31 s de temps de récupération de base au lieu de 21.</li>
+			<li><i>Récupération</i> : la capacité peut maintenant être utilisée sur tous les adversaires.</li>
+			<li><i>Récupération</i> : n'étourdit ni ne soulève plus les cibles.</li>
+			<li><i>Récupération</i> : 40 de DPS de base au lieu de 80.</li>
+			<li><i>Récupération</i> : l'amélioration de niv.1 accorde 75 % des dégâts sous forme de soins.</li>
+			<li><i>Récupération</i> : l'amélioration de niv.2 accorde +40 de DPS au lieu de +80.</li>
+			<li><i>Récupération</i> : l'amélioration de niv.3 accorde 2 cibles supplémentaires.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_3" "<b>21/11/2024</b><br>
+			<li><i>Boule de démolition</i> : il est désormais possible de sauter à une hauteur moindre tout en tenant la boule.</li>
+			<li><i>Boule de démolition</i> : le rayon de déclenchement passe à 65 au lieu de 92.</li>
+			<li><i>Récupération</i> : améliorations visuelles.</li>
+			<li><i>Récupération</i> : 60 DPS de base au lieu de 40.</li>
+			<li><i>Récupération</i> : 15 m de portée au lieu de 12.</li>
+			<li><i>Récupération</i> : la portée maximale est désormais de 20 m.</li>
+			<li><i>Récupération</i> : interrompt le lien si la cible n'est plus visible.</li>
+			<li><i>Récupération</i> : n'interrompt plus les mouvements ennemis.</li>
+			<li><i>Récupération</i> : l'effet positif sur la cadence de tir a été supprimé.</li>
+			<li><i>Récupération</i> : 50 % de soins de base ajoutés.</li>
+			<li><i>Récupération</i> : +25 % pour l'amélioration de niv. 1 au lieu +75 %.</li>
+			<li><i>Projection organique</i> : 5 m de portée au lieu de 10.</li>
+			<li><i>Projection organique</i> : légère mise à jour de la zone conique de ciblage.</li>
+			<li><i>Projection organique</i> : suppression de l'effet d'assombrissement de l'écran au lancer de la capacité.</li>
+			<li><i>Projection astrale</i> : capacité ultime remplacée par <i>Surcharge</i>.</li>
+			<li><i>Surcharge</i> : améliorations visuelles.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_4" "<b>06/12/2024</b><br>
+			<li><i>Boule de démolition</i> : le comportement de la capacité a été retravaillé.</li>
+			<li><i>Boule de démolition</i> : mise à jour des effets visuels.</li>
+			<li><i>Surcharge</i> : augmentation du zoom arrière.</li>
+			<li><i>Surcharge</i> : l'amélioration de niv. 2 réduit maintenant le temps de récupération de 35 s.</li>
+			<li><i>Surcharge</i> : le ralentissement figure maintenant dans la description et l'interface.</li>"
+		//-----------------------------------------------------------------------------
+		// hero_trapper
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_1" "<b>07/11/2024</b><br>
+			<li>Unité ajoutée au labo d'occultisme.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_2" "<b>08/11/2024</b><br>
+			<li><i>Piège de soie</i> : correction d'un problème qui rendait parfois le fil invisible.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_3" "<b>21/11/2024</b><br>
+			<li><i>Fantomicide :</i> 3 m pour le rayon initial au lieu de 5.</li>
+			<li><i>Fantomicide :</i> 8 s de durée au lieu de 9.</li>
+			<li><i>Fantomicide :</i> 25 s de temps de récupération au lieu de 20.</li>
+			<li><i>Fantomicide :</i> –20 % de dégâts spirituels pour les cibles pour l'amélioration de niv. 1.</li>
+			<li><i>Fantomicide :</i> +4 s de durée pour l'amélioration de niv. 2.</li>
+			<li><i>Piège de soie :</i> peut désormais cibler les creeps et les troupiers.</li>
+			<li><i>Piège de soie :</i> le piège n'inflige plus de dégâts à travers les murs.</li>
+			<li><i>Piège de soie :</i> le piège apparait désormais toujours correctement.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_4" "<b>11/24/2024</b><br>
+			<li><i>Fantomicide</i> : la flaque s'agrandit en fonction d'un rayon fixe qui augmente chaque seconde selon la portée de la capacité.</li>
+			<li><i>Piège de soie</i> : amélioration des effets de prévisualisation.</li>
+			<li><i>Piège de soie</i> : correction d'un problème qui pouvait empêcher la toile d'apparaitre.</li>
+			<li><i>Piège de soie</i> : dispose désormais d'une longueur minimum.</li>
+			<li><i>Piège de soie</i> : réduction au silence pendant 2,5 s au lieu d'un désarmement pendant 4 s pour l'amélioration de niv. 3.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_5" "<b>6/12/2024</b><br>
+			<li><i>Fantomicide :</i> 4,5 m de rayon intial au lieu de 3.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_6" "<b>20/02/2025</b><br>
+
+			<li><i>Fantomicide :</i> 6 m de rayon initial au lieu de 4,5 m.</li>
+			<li><i>Fantomicide :</i> n'inflige plus de dégâts, mais réduit au silence toutes les unités ennemies dans la zone.</li>
+			<li><i>Fantomicide :</i> 30 secondes de temps de récupération au lieu de 25</li>
+			<li><i>Fantomicide :</i> l'amélioration de niv. 3 affaiblit la résistance spirituelle de 25 %.</li>
+			<li><i>Fantomicide :</i> mise à jour de l'échelle des dégâts spirituels pour augmenter le ralentissement.</li>
+			<li><i>Piège de soie :</i> inflige maintenant des dégâts au fil du temps.</li>
+			<li><i>Piège de soie :</i> révèle maintenant les unités ennemies prises au piège.</li>
+			<li><i>Piège de soie :</i> 120 secondes de durée initiale au lieu de 60 .</li>
+			<li><i>Piège de soie :</i> 3 secondes de durée de l'effet négatif au lieu de 2.</li>
+			<li><i>Piège de soie :</i> l'amélioration de niv. 3 augmente aussi la durée de l'effet négatif de 2 secondes.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_slork
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_slork_1" "<b>24/10/2024</b><br>
+			<li>Unité ajoutée au labo d'occultisme</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_slork_2" "<b>29/10/2024</b><br>
+			<li><i>Arme</i> : 4,5 de dégâts des balles au lieu de 5.</li>
+			<li><i>Arme</i> : la dispersion des balles est augmentée et la distance de réduction des dégâts est maintenant de 18 m au lieu de 20.</li>
+			<li><i>Ébouillantage</i> : les particules ont été mises à jour afin de ne pas obstruer la vision de Fathom, et un effet d'impact a été ajouté.</li>
+			<li><i>Brèche</i> : vous pouvez maintenant utiliser d'autres capacités pendant le mouvement de Brèche.</li>
+			<li><i>Brèche</i> : mise à jour des effets des particules.</li>
+			<li><i>Harpon récifal</i> : vous êtes maintenant libre d'agir pendant la traction vers le mur, ce qui annulera instantanément le déplacement.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_3" "<b>01/11/2024</b><br>
+			<li>PV par obole : 36 au lieu de 41.</li>
+			<li>Dégâts par impact de balle : 4 au lieu de 4,5.</li>
+			<li>Distance de réduction des dégâts : 16 m au lieu de 18.</li>
+			<li>Dégâts des armes par seconde d'Ébouillantage : 7 % au lieu de 8 %.</li>
+			<li>La Saignée de Fathom a été mise à jour et est maintenant équivalente à la dernière version de la Saignée de Shiv.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_4" "<b>8/11/2024</b><br>
+			<li><b>Nouvelle capacité</b> : <i>Embuscade du rôdeur</i>.</li>
+			<li><i>Saignée<i> : capacité remplacée par <i>Harpon récifal</i>.</li>
+			<li><i>Harpon récifal</i> : accorde 2 charges lorsque le harpon s'accroche à une surface.</li>
+			<li><i>Harpon récifal</i> : ne peut plus être lancé en direction du sol.</li>
+			<li><i>Harpon récifal</i> : ne peut plus être lancé si la surface ciblée est trop loin.</li>
+			<li><i>Harpon récifal</i> : le lancement n'interrompt plus l'invisibilité.</li>
+			<li><i>Harpon récifal</i> : déclenche l'invisibilité d'Embuscade du rodeur au lancement.</li>
+			<li><i>Harpon récifal</i> : amorce le temps de récupération une fois que le harpon se détache de sa surface.</li>
+			<li><i>Harpon récifal</i> : n'accorde plus de régénération passive.</li>
+			<li><i>Harpon récifal</i> : n'accorde plus d'invisibilité passive.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_5" "<b>21/11/2024</b><br>
+			<li><i>Arme</i> : 0,35 de dégâts balistiques par obole au lieu de 0,57.</li>
+			<li><i>Embuscade du rôdeur</i> : mise à jour des particules.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_6" "<b>6/12/2024</b><br>
+			<li><i>Ébouillantage</i> : mise à jour des particules.</li>
+			<li><i>Embuscade du rôdeur</i> : ajout d'un effet d'écran aquatique aux cibles immobilisées.</li>
+			<li><i>Embuscade du rôdeur</i>: le rayon du projectile actif est désormais de 2,5 m.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_7" "<b>17/12/2024</b><br>
+			<li>Ajout d'un build avec les objets par défaut.</li>
+			<li>Mise à jour et amélioration des effets sonores et visuels de l'ensemble des capacités.</li>"
+
+
+		//-----------------------------------------------------------------------------
+		// hero_viper
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_viper_1" "<b>24/10/2024</b><br>
+			<li>Unité ajoutée au labo d'occultisme</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_2" "<b>29/10/2024</b><br>
+			<li><i>Lame-crochet</i> a été remplacée par <i>Lame fulgurante</i>.</li>
+			<li><i>Venin mortel</i> peut maintenant seulement cibler des occultistes adverses.</li>
+			<li><i>Venin mortel</i> : amélioration des effets visuels.</li>
+			<li><i>Reptation</i> : la capacité a été améliorée par défaut au niveau 1.</li>
+			<li><i>Reptation</i> : l'amélioration au niv. 1 a été modifiée et accorde maintenant +25 % de distance de glissade, niv. 2 accorde +2 d'endurance et niv. 3 accorde de la résistance aux balles et spirituelle.</li>
+			<li><i>Pétrification</i> : le délai d'explosion passe à 1 seconde au lieu de 0,6.</li>
+			<li><i>Pétrification</i> : les effets spéciaux visuels et sonores, ainsi que les commandes de la caméra, ont été améliorés pour l'occultiste subissant la pétrification.</li>
+			<li><i>Pétrification</i> : le blocage des dégâts est maintenant proportionnel au pouvoir spirituel.</li>
+			<li><i>Pétrification</i> : la capacité ne peut plus être invoquée dans les airs.</li>
+			<li><i>Pétrification</i> : la capacité peut maintenant être bloquée par Intouchable.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_3" "<b>21/11/2024</b><br>
+			<li><i>Pétrification</i> : capacité remplacée par <i>Bolas pétrifiants</i>.</li>
+			<li><i>Bolas pétrifiants</i> : améliorations visuelles des projectiles.</li>
+			<li><i>Lame fulgurante</i> : n'interrompt plus les glissades.</li>
+			<li><i>Lame fulgurante</i> : améliorations visuelles des projectiles et de leur impact.</li>
+			<li><i>Venin mortel</i> : applique désormais un effet visuel sur l'écran.</li>
+			<li><i>Arme</i> : 11 de dégâts au lieu de 12.</li>
+			<li><i>Arme</i> : modification des trainées de balles pour améliorer la visibilité en raison de la cadence de tir élevée.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_4" "<b>26/11/2024</b><br>
+			<li><i>Arme :</i> 9 de dégâts au lieu de 11.</li>
+			<li><i>Arme :</i> 411 m/s de vélocité des balles au lieu de 81 m/s.</li>
+			<li><i>Arme :</i> 24 balles par chargeur au lieu de 18.</li>
+			<li><i>Bolas pétrifiants :</i> 45 de rayon pour le projectile au lieu de 30.</li>
+			<li>PV par obole : 30 au lieu de 35.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_5" "<b>6/12/2024</b><br>
+			<li>Taille du modèle : +15 %.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_magician
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_magician_1" "<b>24/10/2024</b><br>
+			<li>Unité ajoutée au labo d'occultisme</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_2" "<b>29/10/2024</b><br>
+			<li><i>Arme</i> : les dégâts des armes diminuent avec la distance, comme prévu.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_3" "<b>7/11/2024</b><br>
+			<li>Dispose maintenant d'une capacité ultime : <i>Grand final !</i></li>
+			<li><i>Arme</i> : 22 balles par chargeur au lieu de 20.</li>
+			<li><i>Éclair accablant</i> : ralentit maintenant la cadence de tir (de 20 %) au lieu de la vitesse de déplacement.</li>
+			<li><i>Éclair accablant</i> : 120 de dégâts au lieu de 100 ; 1,4 pour le mult. de pouvoir spirituel au lieu de 1,2.</li>
+			<li><i>Éclair accablant</i> : 5 s de durée de l'effet négatif au lieu de 2.</li>
+			<li><i>Éclair accablant</i> : −20 % de résistance spirituelle pour l'amélioration de niv. 2 au lieu de −15 %.</li>
+			<li><i>Éclair accablant</i> : l'amélioration de niv. 3 augmente désormais la vitesse de l'éclair.</li>
+			<li><i>Éclair accablant</i> : un indicateur s'affiche désormais à l'écran quand la redirection de l'éclair est disponible.</li>
+			<li><i>Assistante spectrale</i> : peut être lancée depuis les airs.</li>
+			<li><i>Lagomorphose</i> : ne peut plus être lancée sur des unités alliées.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_4" "<b>21/11/2024</b><br>
+			<li><i>Éclair accablant</i> : l'Assistante lance également un éclair avec des dégâts moindres.</li>
+			<li><i>Éclair accablant</i> : améliorations revisitées pour être conformes aux mises à jour.</li>
+			<li><i>Éclair accablant</i> : 1,2 pour le mult. de pouvoir spirituel au lieu de 1.4.</li>
+			<li><i>Lagomorphose</i> : Magician fait maintenant la différence entre les lapins et les grenouilles.</li>
+			<li><i>Lagomorphose</i> : ne peut plus être lancée sur soi-même.</li>
+			<li><i>Lagomorphose</i> : applique une limite de vitesse max. au lieu d'une vitesse qui augmente progressivement.</li>
+			<li><i>Lagomorphose</i> : l'amélioration de niv. 3 inflige la malédiction sur toute la durée et sur toutes les cibles dans le rayon.</li>
+			<li><i>Assistante spectrale</i> : recharge votre arme lorsque la capacité est lancée.</li>
+			<li><i>Assistante spectrale</i> : l'Assistante tire ses balles deux par deux.</li>
+			<li><i>Assistante spectrale</i> : 2×30 pour les dég. spirituels (avec un mult. de 0,3) au lieu de 1×60 (avec un mult. de 0,5).</li>
+			<li><i>Assistante spectrale</i> : les trainées de balles correspondent mieux à la trajectoire des balles.</li>
+			<li><i>Assistante spectrale</i> : amélioration de la détection de cibles.</li>
+			<li><i>Assistante spectrale</i> : correction d'un problème qui pouvait empêcher de rediriger votre éclair en même temps que celui de l'Assistante.</li>
+			<li><i>Assistante spectrale</i> : meilleure transition de la caméra lors de la téléportation.</li>
+			<li><i>Assistante spectrale</i> : 15 m de portée d'incantation au lieu de 20.</li>
+			<li><i>Assistante spectrale</i> : améliorations revisitées pour être conformes aux mises à jour.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_operative
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_operative_1" "<b>6/12/2024</b><br>
+			<li>Unité ajoutée au labo d'occultisme.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_operative_2" "<b>17/12/2024</b><br>
+			<li>Ajout d'un build avec les objets par défaut.</li>"
+
+		}
+}

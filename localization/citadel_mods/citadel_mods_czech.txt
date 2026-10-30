@@ -1,0 +1,1022 @@
+﻿"lang"
+{
+	"Language"		"czech"
+	"Tokens"
+	{
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Weapon
+		//-----------------------------------------------------------------------------
+
+		//Ammo Scavenger
+		"upgrade_ammo_scavenger_desc"		"Vždy když vlastník zajistí nebo ukradne duše sestřelením orbu z mrtvé jednotky, jsou mu <span class=\"highlight\">vráceny náboje</span> a získá sčitatelný bonus k <span class=\"highlight\">spirituální síle</span>.<br>Při maximálním počtu sečtení se vlastník také začne pohybovat rychlostí sprintu."
+		"AmmoPerSoul_prefix"				"+"
+		"AmmoPerSoul_label"					"Náboje za orb"
+		"AmmoPerSoul_postvalue_label"					"Náboje za orb"
+		"SpiritPowerPerSoul_prefix"			"+"
+		"SpiritPowerPerSoul_label"			"Spirituální síla za orb"
+		"SpiritPowerPerSoul_postvalue_label"			"Spirituální síla za orb"
+		"AmmoScavengerDuration_label"		"Trvání"
+		"AmmoScavengerDuration_postvalue_label"		"Trvání"
+		"AmmoScavengerDuration_postfix"		" s"
+
+		//Melee Lifesteal
+		"upgrade_lifestrike_gauntlets_desc"	"Vlastníkův příští <span class=\"highlight\">úder</span> ho <span class=\"highlight\">vyléčí</span>.<span class=\"diminish\"><br><br>Vůči ne-okultistům má toto léčení pouze {s:NonHeroHealPct}% účinnost.<br>Pro slabé údery je doba obnovení {s:LightMeleeCooldownMult}× delší.</span>"
+		"LifestrikeHeal_label"				"Léčení po úderu"
+		"LifestrikeHeal_postvalue_label"				"Léčení po úderu"
+
+		//Tesla Bullets
+		"upgrade_chain_lightning_desc"	"Vlastníkovy střely mají šanci <span class=\"highlight\">zelektrizovat</span> svůj cíl. Případný <span class=\"highlight\">elektrický šok</span> přeskočí také na nepřítele poblíž."
+
+		//Galvanic Storm
+		"GalvanicBuffDuration_label"						"Trvání"
+		"GalvanicBuffDuration_postvalue_label"						"Trvání"
+		"GalvanicBuffDuration_postfix"					" s"
+
+		//Silence Glyph
+		"upgrade_targeted_silence_desc"	"Vlastník vypustí vlnu, která na krátkou dobu <span class=\"highlight\">umlčí</span> zasažené nepřátele a udělí jim poškození.<br><br><span class=\"diminish\">Umlčení nepřerušuje vyvolávání schopností.</span>"
+		"ResistReductionDuration_label"	"Trvání redukce spirituality"
+		"ResistReductionDuration_postvalue_label"	"Trvání redukce spirituality"
+		"ResistReductionDuration_postfix"	" s"
+
+		//EMP Bullets
+		"upgrade_proc_silence_desc"		"Po určitém počtu vlastníkových střel je nepřítel <span class=\"highlight\">umlčen</span>. Oběti jsou <span class=\"highlight\">{s:ImmunityDuration} sekund</span> po vypršení debuffu imunní vůči dalšímu narůstání umlčení."
+		"upgrade_proc_silence_debuff_desc"		"Vlastníkovy střely redukují <span class=\"highlight\">odchozí spirituální poškození</span> nepřátel."
+		"proc_silence_buildup"			"Narůstání umlčení..."
+		"modifier_citadel_silence_proc_tech_damage_reduction"	"Redukce spirituálního poškození"
+
+		//Silencer
+		"upgrade_silencer_active"		"Všechny vlastníkovy střely začnou {s:AbilityDuration} s <span class=\"highlight\">okamžitě aplikovat umlčení</span>. Umlčení nepřátelé nemohou sesílat schopnosti."
+
+		//Slowing Bullets
+		"upgrade_slowing_bullets_desc"	"Po určitém počtu vlastníkových střel je <span class=\"highlight\">snížena rychlost pohybu</span> nepřítele."
+		"upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base"					"Zpomalení"
+
+		//Inhibitor
+		"upgrade_inhibitor_desc"	"Po určitém počtu vlastníkových střel je sníženo <span class=\"highlight\">odchozí poškození</span> nepřítele a <span class=\"highlight\">redukováno jeho léčení</span>."
+		"OutgoingDamagePenaltyPercent_label"	"Penalizace poškození"
+		"OutgoingDamagePenaltyPercent_postvalue_label"	"Penalizace poškození"
+		"OutgoingDamagePenaltyPercent_postfix"	" %"
+
+		//Hunter's Aura
+		"upgrade_bullet_armor_reduction_aura_desc"		"Vlastník redukuje <span class=\"highlight\">balistickou odolnost a rychlost střelby</span> nepřátel poblíž. Pokud se poblíž něj nachází pouze jeden nepřátelský okultista, <span class=\"highlight\">redukce je dvojnásobná</span>."
+
+		//Heroic Aura
+		"upgrade_dps_aura_active_desc"	"Vlastník poskytne sobě a spojencům poblíž bonusy k <span class=\"highlight\">{g:citadel_inline_attribute:'MoveSpeed'}</span> a <span class=\"highlight\">{g:citadel_inline_attribute:'FireRate'}</span>. <span class=\"highlight\">Hráčské jednotky</span> získají dvojnásobné bonusy."
+		"upgrade_dps_aura_desc"			"Vlastník poskytuje spojencům poblíž bonus k <span class=\"highlight\">balistické odolnosti</span>."		
+		"modifier_dps_aura_active"		"Hrdinská aura"
+		"modifier_dps_aura_player"		"Hrdinská rychlost střelby"
+
+		//"BonusBaseDamage_label"			"Base Bullet and Melee Damage"
+		"BonusBaseDamage_postfix"		" %"
+
+		//Warp Stone
+		"upgrade_warp_stone_desc"	"Vlastník <span class=\"highlight\">se teleportuje</span> o určitý počet metrů dopředu a získá bonus k <span class=\"highlight\">balistické odolnosti</span>."
+		"WarpStoneRange_label"		"Vzdálenost teleportace"
+		"WarpStoneRange_postvalue_label"		"Vzdálenost teleportace"
+		"WarpStoneRange_postfix"		" m"
+		"CasterBuffDuration_label"	"Trvání buffu"
+		"CasterBuffDuration_postvalue_label"	"Trvání buffu"
+		"CasterBuffDuration_postfix"	" s"
+		"CasterSlowPercent_postfix"	" %"
+
+		//Torment Pulse
+		"upgrade_tech_damage_pulse_desc"	"Pravidelně udílí {g:citadel_inline_attribute:'SpiritDamage'} dvěma nepřátelům nacházejícím se nejblíže vlastníkovi."
+
+		//Mystic Burst
+		"upgrade_magic_burst_desc"	"Pokud vlastníkova schopnost udělí poškození vyšší než <span class=\"highlight\">{s:MinimumDamage}</span> bodů, udělí navíc {g:citadel_inline_attribute:'BonusSpiritDamage'}. Bonus dosáhne maxima po úplném obnovení této schopnosti."
+		"MagicBurstDamage_label"		"Bonus k poškození"
+
+		"MagicBurstDamage_postvalue_label"		"Bonus k poškození"
+
+		//Improved Burst Tankbuster
+		"upgrade_magic_shock_desc"	"Pokud vlastníkova schopnost udělí poškození vyšší než <span class=\"highlight\">{s:MinimumDamage}</span> bodů, udělí navíc {g:citadel_inline_attribute:'BonusSpiritDamage'}. Bonus dosáhne maxima po úplném obnovení této schopnosti. <span class=\"highlight\">Ignoruje spirituální odolnost.</span>"
+		"MagicShockDamage_label"		"Bonus k poškození dle moment. zdraví"
+		"MagicShockDamage_postvalue_label"		"Bonus k poškození dle moment. zdraví"
+		"MagicShockDamage_postfix"	" %"
+
+		//Mystic Reverb
+		"upgrade_tech_bleed_desc" "Umožňuje prodchnout schopnost <span class=\"highlight\">vampirismem</span> a zajistit, že na cíl aplikuje <span class=\"highlight\">zpomalení</span> a po krátké prodlevě udělí nepřátelům kolem něj <span class=\"highlight\">bonusové poškození ve výši určitého procenta uděleného touto schopností</span>."
+	
+		//Toxic Bullets
+		"upgrade_toxic_bullets_desc"	"Po určitém počtu vlastníkových střel je na nepřítele <span class=\"highlight\">aplikován efekt krvácení</span>, vlivem kterého začne průběžně ztrácet <span class=\"highlight\">určité procento ze svého maximálního zdraví</span>. Krvácející nepřátelé mají také <span class=\"highlight\">redukované příchozí léčení</span>."
+		"upgrade_toxic_bullets_buildup"					"Narůstání toxicity..."
+		"upgrade_bleeding_bullets_buildup"				"Narůstání krvácení..."
+		"modifier_item_burning_bullets_damageovertime" 	"Krvácení"
+		"upgrade_hemorrhage/modifier_item_hemorrhage/modifier_hemorrhage" "Krvácení"
+
+		// Weighted Shots
+		"upgrade_weighted_shots_desc"	"Po určitém počtu vlastníkových střel je <span class=\"highlight\">snížena rychlost pohybu</span> nepřítele."
+		//"upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base"					"Slowed"
+
+		//Spiritual Overflow
+		"upgrade_tech_overflow_desc"	"Po <span class=\"highlight\">určitém počtu zásahů</span> okultistů získá vlastník bonusy k <span class=\"highlight\">rychlosti střelby</span>, <span class=\"highlight\">spirituální síle</span> a <span class=\"highlight\">spirituálnímu vampirismu</span>."
+		"modifier_tech_overflow_building" "Narůstání spiritualismu..."
+
+		"OverflowTechPower_label"		"Spirituální síla"
+
+		"OverflowTechPower_postvalue_label"		"Spirituální síla"
+		"OverflowBonusDamage_postfix"	" %"
+
+		//Ricochet
+		"upgrade_ricochet_desc"		"Vlastníkovy střely <span class=\"highlight\">se odráží</span> na nepřátele poblíž cíle, aplikují na ně <span class=\"highlight\">efekty závislé na šanci</span> a udílí jim <span class=\"highlight\">určité procento z původního poškození</span>."
+		"RicochetTargetsTooltipOnly_label"			"Cíle po odražení"
+		"RicochetTargetsTooltipOnly_postvalue_label"			"Cíle po odražení"
+		"RicochetDamagePercent_label"					"Poškození po odražení"
+		"RicochetDamagePercent_postvalue_label"					"Poškození po odražení"
+		"RicochetDamagePercent_postfix"					" %"
+		"RicochetRadius_label"							"Dosah po odražení"
+		"RicochetRadius_postvalue_label"							"Dosah po odražení"
+		"RicochetRadius_postfix"							" m"
+
+		"ModelScaleGrowthTooltip_label"					"Velikost modelu"
+		"ModelScaleGrowthTooltip_postvalue_label"					"Velikost modelu"
+		"ModelScaleGrowthTooltip_postfix"					" %"
+
+		"ShrinkDuration_label"					"Trvání zmenšení"
+		"ShrinkDuration_postvalue_label"					"Trvání zmenšení"
+		"ShrinkDuration_postfix"					" s"
+		
+		"BonusBaseHealth_prefix"					"+"
+		"BonusBaseHealth_label"					"Základní zdraví"
+		"BonusBaseHealth_postvalue_label"					"Základní zdraví"
+		"BonusBaseHealth_postfix"					" %"
+
+		//Close Quarters
+		"upgrade_close_range_desc"	"Vlastník udílí dodatečné <span class=\"highlight\">fyzické poškození</span>, když se nachází v <span class=\"highlight\">těsné blízkosti</span> svého cíle."
+		"upgrade_close_quarter_combat/modifier_cqc_proc/modifier_slow_base"			"Zpomalení"
+
+		//Long Range
+		"upgrade_long_range_desc"	"Vlastník udílí dodatečné <span class=\"highlight\">fyzické poškození</span>, když se nachází mimo <span class=\"highlight\">minimální vzdálenost</span> od svého cíle."
+
+		//Mystic Shot
+		"upgrade_crackshot_desc"	"Vlastníkova příští střela udělí bonusové {g:citadel_inline_attribute:'SpiritDamage'}."
+		"ProcBonusMagicDamage_prefix"	"{s:sign}"
+		"ProcBonusMagicDamage_label"	"Spirituální poškození"
+
+		"ProcBonusMagicDamage_postvalue_label"	"Spirituální poškození"
+
+		//Ethereal Bullets
+		"upgrade_ethereal_bullets_desc"	"Umožňuje prodchnout schopnost, takže sesláním udělí {g:citadel_inline_attribute:'BonusSpiritDamage'}, vlastníkovi poskytne {g:citadel_inline_attribute:'BonusFireRate'} a také <span class=\"highlight\">přebije určité procento jeho nábojů</span>. Bonusy dosáhnou maxima po úplném obnovení této schopnosti. Vlastníkovy střely navíc do dalšího přebití <span class=\"highlight\">udílí {g:citadel_inline_attribute:'BonusSpiritDamage'}</span> odvíjející se od jeho spirituální síly."
+		"BulletsBonusMagicDamage_label"	"Základní balistické poškození"
+		"BulletsBonusMagicDamage_postvalue_label"	"Základní balistické poškození"
+		"BulletsBonusMagicDamage_prefix"	"+"
+		"BulletsBonusMagicDamage_postfix"	" %"
+
+		//Restorative Shot
+		"upgrade_medic_bullets_desc"	"Vlastníkova příští střela ho <span class=\"highlight\">vyléčí</span> v závislosti na tom, koho zasáhne."
+		"HealFromHero_label"	"Léčení od okultistů"
+		"HealFromHero_postvalue_label"	"Léčení od okultistů"
+		"HealFromNPC_label"	 "Léčení od NPC/orbů"
+
+		"HealFromNPC_postvalue_label"	 "Léčení od NPC/orbů"
+
+		//Point Blank
+		"upgrade_close_quarter_combat_desc"	"Zatímco se vlastník nachází v <span class=\"highlight\">těsné blízkosti</span> svého cíle, získává bonus k <span class=\"highlight\">fyzickému poškození</span> a jeho střely aplikují <span class=\"highlight\">zpomalení pohybu</span>."
+
+		//Headshot Booster
+		"upgrade_headshot_booster_desc"		"Vlastníkův příští <span class=\"highlight\">zásah do hlavy</span> udělí nepřátelskému okultistovi {g:citadel_inline_attribute:'BonusWeaponDamage'}."
+
+		//Weakening Headshot
+		"upgrade_headshot_booster2_desc"		"<span class=\"highlight\">Zásahy do hlavy</span> redukují nepřátelům <span class=\"highlight\">balistickou odolnost</span>."
+
+		//Sharpshooter
+		"upgrade_sharpshooter_desc"				"Vlastník udílí dodatečné <span class=\"highlight\">fyzické poškození</span>, když se nachází mimo <span class=\"highlight\">minimální vzdálenost</span> od svého cíle."
+
+		//Headhunter
+		"upgrade_headhunter_desc"	"Vlastníkův příští <span class=\"highlight\">zásah do hlavy</span> udělí nepřátelskému okultistovi {g:citadel_inline_attribute:'BonusWeaponDamage'}, vlastníka {g:citadel_inline_attribute:'Heal'} a dočasně mu poskytne {g:citadel_inline_attribute:'BonusMoveSpeed'}."
+		"HealPercentPerHeadshot_label"		"Léčení za zásah do hlavy"
+		"HealPercentPerHeadshot_postvalue_label"		"Léčení za zásah do hlavy"
+		"HealPercentPerHeadshot_postfix"	" %"
+		"BaseHealOnHeadshot_label"			"Léčení za zásah do hlavy"
+		"BaseHealOnHeadshot_postvalue_label"			"Léčení za zásah do hlavy"
+
+		//Spellslinger Headshots
+		"upgrade_spellslinger_headshots_part1_desc"	"Vlastníkovy střely aplikují na nepřátele debuff, který redukuje jejich <span class=\"highlight\">spirituální odolnost</span> a jak vlastníkovi, tak jeho spojencům poskytuje vůči těmto nepřátelům <span class=\"highlight\">spirituální vampirismus</span>."
+		"upgrade_spellslinger_headshots_part2_desc"	"<span class=\"highlight\">Zásahy do hlavy</span> dále snižují <span class=\"highlight\">spirituální odolnost</span> nepřátel."
+		"SpiritPowerGainPct_label"				"Bonus ke spirituální síle"
+		"SpiritPowerGainPct_postvalue_label"				"Bonus ke spirituální síle"
+		"SpiritPowerGainPct_postfix"			" %"
+		"SpellSlingerHeadshots_SpiritShredPerStack_label"		"Spirituální odolnost za zásah do hlavy"
+		"SpellSlingerHeadshots_SpiritShredPerStack_postvalue_label"		"Spirituální odolnost za zásah do hlavy"
+		"SpellSlingerHeadshots_SpiritShredPerStack_postfix"	" %"
+
+		//Crippling Headshot
+		"upgrade_banshee_slugs_headshots_desc"	"<span class=\"highlight\">Zásahy do hlavy</span> redukují nepřátelům <span class=\"highlight\">balistickou a spirituální odolnost a také příchozí léčení</span>."
+
+		//Berserker
+		"upgrade_berserker_desc"		"Vlastníkovo <span class=\"highlight\">fyzické poškození</span> se navyšuje podle toho, kolik poškození utrží."
+
+		//Frenzy
+		"upgrade_fervor_passive"	"Když má vlastník <span class=\"highlight\">méně než {s:LowHealthThreshold} % zdraví</span>, získá na chvíli bonusy k určitým statistikám a dojde k redukci jeho stávajících debuffů."
+		"FervorTechResist_postfix"  " %"
+		"modifier_fervor_aura_active"		"Pud sebezáchovy"
+		"FervorBulletResist_label"		"Balistická odolnost"
+		"FervorBulletResist_postvalue_label"		"Balistická odolnost"
+		"FervorBulletResist_prefix"		"+"
+		"FervorBulletResist_postfix"	" %"
+
+		//Soul Shredder Bullets
+		"upgrade_tech_defense_shredders_desc"	"Vlastníkovy střely aplikují na nepřátele debuff, který redukuje jejich <span class=\"highlight\">spirituální odolnost</span> a jak vlastníkovi, tak jeho spojencům poskytuje vůči těmto nepřátelům <span class=\"highlight\">spirituální vampirismus</span>."
+		"ShreddersTechAmp_label"				"Navýšení spirituálního poškození"
+		"ShreddersTechAmp_postvalue_label"				"Navýšení spirituálního poškození"
+		"ShreddersTechAmp_postfix"			" %"
+
+		//Hollow Point Ward
+		"upgrade_hollow_point_rounds_desc"				"Když má vlastník <span class=\"highlight\">více než {s:LifeThreshold} % zdraví</span>, udílí dodatečné <span class=\"highlight\">fyzické poškození</span> a jeho střely redukují <span class=\"highlight\">balistickou odolnost</span> nepřátel."
+
+		// Pristine Emblem
+		"upgrade_pristine_emblem_desc"	"Vlastník udílí dodatečné <span class=\"highlight\">fyzické poškození nepřátelům, kteří mají více než {s:EnemyLifeThreshold} % zdraví</span>."
+		"BaseAttackDamagePercentBonus_label"	"Fyzické poškození"
+		"BaseAttackDamagePercentBonus_postvalue_label"	"Fyzické poškození"
+		"BaseAttackDamagePercentBonus_prefix"	"+"
+		"BaseAttackDamagePercentBonus_postfix"	" %"
+
+		//Disarming Bullets
+
+		//Glass Cannon
+		"upgrade_glass_cannon_desc"		"Každé zabití okultisty poskytuje vlastníkovi <span class=\"highlight\">permanentní bonus k rychlosti střelby</span> (maximálně {s:MaxStacks} sečtení). Úmrtím je vždy jedno sečtení ztraceno."
+		"GlassCannon_SlowPercent_label"		"Zpomalení pohybu spuštěním"
+		"GlassCannon_SlowPercent_postvalue_label"		"Zpomalení pohybu spuštěním"
+		"GlassCannon_SlowPercent_postfix"	" %"
+		"GlassCannon_SlowPercent_prefix"	"+"
+		"upgrade_glass_cannon_plus1"		"Fórový kanón +1"
+
+		//Fury Trance
+		"upgrade_fury_trance_active"	"Vlastník získá bonusy k <span class=\"highlight\">rychlosti střelby</span>, <span class=\"highlight\">spirituální odolnosti</span> a <span class=\"highlight\">rychlosti pohybu</span> a je odstraněna jeho <span class=\"highlight\">penalizace rychlosti pohybu během střílení</span>, ale zároveň je <span class=\"highlight\">umlčen</span> a <span class=\"highlight\">nemůže spotřebovávat výdrž, která se mu také neregeneruje</span>."
+
+		//Vampiric Burst
+		"upgrade_surging_power_active"	"Vlastník získá bonusy k <span class=\"highlight\">vampirismu</span>, <span class=\"highlight\">rychlosti střelby</span> a <span class=\"highlight\">počtu nábojů</span>. Tyto přidané náboje ignorují maximální velikost zásobníku."
+		"ActiveBonusLifesteal_label"		"Balistický vampirismus"
+		"ActiveBonusLifesteal_postvalue_label"		"Balistický vampirismus"
+		"ActiveBonusLifesteal_postfix"	" %"
+
+		//Siphon Bullets
+		"upgrade_siphon_bullets_desc_passive2"	"Vlastníkovy střely dočasně <span class=\"highlight\">kradou maximální zdraví</span> nepřátel. Ukradené zdraví je vráceno vždy s vypršením debuffu."
+		"HealthSteal_label"						"Max. zdraví ukradené za střelu"
+		"HealthSteal_postvalue_label"			"Max. zdraví ukradené za střelu"
+		"SiphonBullets_HealthStealPctHero_label"			"Ukradené max. zdraví"
+		"SiphonBullets_HealthStealPctHero_postvalue_label"	"Ukradené max. zdraví"
+		"SiphonBullets_HealthStealPctHero_postfix"			" %"
+
+		//Overdrive Clip
+		"BonusReloadSpeed_label"						"Trvání přebíjení"
+		"BonusReloadSpeed_postvalue_label"						"Trvání přebíjení"
+		"BonusReloadSpeed_Postfix"						" %"
+		"OverdriveClipDuration_Postfix"					" s"
+
+		//Burst Fire Actuator
+		"BurstFireShotsFromClipPercent_Postfix"			" %"
+		"BonusHeadshotDamage_label"						"Bonus k poškození zásahem do hlavy"
+		"BonusHeadshotDamage_postvalue_label"						"Bonus k poškození zásahem do hlavy"
+		"BonusHeadshotDamage_postfix"					" %"
+		"BaseBonusWeaponPower_prefix"					"+"
+
+		//Lifestrike
+		"upgrade_boxing_glove_desc"						"<span class=\"highlight\">Údery</span> <span class=\"highlight\">léčí vlastníka</span> určitým procentem z <span class=\"highlight\">uděleného poškození</span> dále navýšeným o fixní hodnotu a aplikují na cíl <span class=\"highlight\">zpomalení pohybu</span>.<span class=\"diminish\"><br><br>Vůči ne-okultistům má toto léčení pouze {s:NonHeroHealPct}% účinnost.<br>Pro slabé údery je doba obnovení {s:LightMeleeCooldownMult}× delší.</span>"
+		"BonusMeleeSpeed_prefix"						"+"
+		"BonusMeleeSpeed_postfix"						" %"
+		"DisarmDuration_label"							"Trvání odzbrojení"
+		"DisarmDuration_postvalue_label"							"Trvání odzbrojení"
+		"DisarmDuration_postfix"						" s"
+		"LifestealHeal_label"				"Fixní bonus k léčení"
+		"LifestealHeal_postvalue_label"				"Fixní bonus k léčení"
+		"LifestealHealPercent_label"				"Poškození na léčení"
+		"LifestealHealPercent_postvalue_label"				"Poškození na léčení"
+		"LifestealHealPercent_postfix"				" %"
+
+		"MeleeLifesteal_label"				"Vampirismus údery"
+		"MeleeLifesteal_postvalue_label"				"Vampirismus údery"
+		"MeleeLifesteal_postfix"				" %"
+
+
+
+		//Belt-Fed Magazine
+		"SpinUpTime_postfix"							" s"
+		"InitialFireRateDecrease_prefix"				"-"
+		"InitialFireRateDecrease_postfix"				" %"
+		"MaxFireRateIncrease_prefix"					"+"
+		"MaxFireRateIncrease_postfix"							" %"
+		"BonusReloadTime_postfix"						" s"
+
+		//Stabilizing Tripod
+		"StationaryRecoilReduction_postfix"					" %"
+		"StationaryWeaponPower_prefix"						"+"
+		"CasterHealthPercent_postfix"					" %"
+
+		//Burst Fire
+		"upgrade_burst_fire_desc"						"Když jedna z vlastníkových střel zasáhne okultistu, vlastník dočasně získá bonusy k <span class=\"highlight\">rychlosti střelby</span> a <span class=\"highlight\">rychlosti pohybu</span>."
+
+		//Intensifying Magazine
+		"upgrade_intensifying_clip_desc"				"Když vlastník nepřetržitě střílí ze své zbraně, získává navyšující se bonus k <span class=\"highlight\">fyzickému poškození</span>."
+		"BaseAttackDamagePercentAtMaxDuration_label"	"Max. fyzické poškození"
+		"BaseAttackDamagePercentAtMaxDuration_postvalue_label"	"Max. fyzické poškození"
+		"BaseAttackDamagePercentAtMaxDuration_postfix"		" %"
+		"ShootDurationForMax_label"						"Trvání střelby pro max. bonus"
+		"ShootDurationForMax_postvalue_label"						"Trvání střelby pro max. bonus"
+		"ShootDurationForMax_postfix"							" s"
+		
+		//Escalating Resilience
+		"upgrade_reinforcing_casings_desc"    "Kdykoli vlastník zasáhne okultistu, získá bonus k <span class=\"highlight\">balistické odolnosti</span>. <span class=\"highlight\">Každá střela může zajistit pouze jedno sečtení bonusu.</span>"
+		"MaxArmorStacks_label"				"Max. balistická odolnost"
+		"MaxArmorStacks_postvalue_label"				"Max. balistická odolnost"
+		"MaxArmorStacks_postfix"				" %"
+		"BulletResistPerStack_label"				"Balistická odolnost za sečtení"
+		"BulletResistPerStack_postvalue_label"				"Balistická odolnost za sečtení"
+		"BulletResistPerStack_postfix"			" %"
+		"BulletResistDuration_label"				"Trvání sečtení"
+		"BulletResistDuration_postvalue_label"				"Trvání sečtení"
+		"BulletResistDuration_postfix"			" s"
+
+		//Lucky Shot
+		"upgrade_critshot_desc"				"Vlastníkovy střely mají šanci být posíleny, a tím pádem udělit <span class=\"highlight\">bonusové fyzické poškození</span>.<br><span class=\"diminish\">Bonusové poškození nemůže být kritické.</span>"
+		"CritDamagePercent_prefix"			"+"
+		"CritDamagePercent_label"			"Bonus k fyzickému poškození"
+		"CritDamagePercent_postvalue_label"			"Bonus k fyzickému poškození"
+		"CritDamagePercent_postfix"			" %"
+
+		//Veil Walker
+		"upgrade_veil_walker_desc"			"Když vlastník projde <span class=\"highlight\">kosmickým závojem</span>, získá <span class=\"highlight\">neviditelnost</span>, bonus k <span class=\"highlight\">rychlosti pohybu</span> a dojde k jeho <span class=\"highlight\">vyléčení</span>."
+		"VeilWalker_MoveSpeed_label"			"Rychlost pohybu v neviditelnosti"
+		"VeilWalker_MoveSpeed_postvalue_label"			"Rychlost pohybu v neviditelnosti"
+		"VeilWalker_MoveSpeed_postfix"		" m/s"
+		"VeilWalker_Heal_label"			"Léčení"
+		"VeilWalker_Heal_postvalue_label"			"Léčení"
+		//Glass Cannon2
+		"upgrade_glass_cannon2_desc"		"Každé zabití okultisty poskytuje vlastníkovi <span class=\"highlight\">permanentní bonus k fyzickému poškození</span> (maximálně {s:MaxStacks} sečtení). Úmrtím je vždy jedno sečtení ztraceno."
+
+		//"upgrade_split_shot"					"Split Shot"
+		"upgrade_split_shot_desc"			"Zajistí, že vlastníkovy útoky budou <span class=\"highlight\">rozděleny na více střel</span>.<br><br>Když útok zasáhne více než jednoho okultistu, získá vlastník <span class=\"highlight\">sčitatelný bonus k fyzickému poškození</span>.<br><br><span class=\"diminish\">Jeden cíl nemůže v rámci jednoho útoku zasáhnout více střel.</span>"
+		"upgrade_split_shot_desc_02"		"Bonus za zásah více nepřátel"
+		"SpecialShotsBonusFireRate_label"	"Rychlost střelby rozdělených útoků"
+		"SpecialShotsBonusFireRate_postvalue_label"	"Rychlost střelby rozdělených útoků"
+		"SpecialShotsBonusFireRate_postfix"	" %"
+		"SpecialShotsBonusFireRate_prefix"	"+"
+		"SplitShotWeaponDuration_label"		"Trvání sečtení"
+		"SplitShotWeaponDuration_postvalue_label"		"Trvání sečtení"
+		"SplitShotWeaponDuration_postfix"		" s"
+		
+		// upgrade_blood_tribute			// Blood Tribute
+		"upgrade_blood_tribute_desc"		"Přepnutí: Vlastník začne průběžně obětovat své zdraví, aby výměnou za něj získal bonusy k {g:citadel_inline_attribute:'FireRate'}, <span class=\"highlight\">odolnosti vůči debuffům</span> a <span class=\"highlight\">rychlosti pohybu</span>."
+
+		//"upgrade_non_player_bonus_sacrifice"	"Cultlist Sacrifice"
+		"upgrade_non_player_bonus_sacrifice_desc"	"Vlastník zkonzumuje zacílené nepřátelské NPC, čímž získá dlouhotrvající buff a <span class=\"highlight\">{s:BonusSoulsPct} % jeho duší</span>."
+
+		//"upgrade_capacitor"						"Capacitor"
+		"upgrade_capacitor_desc"					"Vlastník vystřelí projektil, který nepříteli udělí <span class=\"highlight\">{g:citadel_inline_attribute:'SpiritIcon'} spirituální poškození</span>, aplikuje na něj silné zpomalení (které postupně slábne), <span class=\"highlight\">zamezí mu ve spotřebovávání výdrže</span> a <span class=\"highlight\">umlčí veškeré jeho pohybové schopnosti a předměty</span>."
+		
+		//"upgrade_enchanted_holsters"			"Enchanted Holsters"
+		"upgrade_enchanted_holsters_desc"		"Kdykoli vlastník v boji sešle schopnost nebo použije předmět, získá sčitatelný buff vylepšující rychlost střelby a přebíjení. <br><span class=\"diminish\">Každé sečtení obnoví trvání.</span>"
+		
+		// "upgrade_weapon_backstabber"			"Stalker"
+		"upgrade_weapon_backstabber_desc"		"Kdykoli vlastník udělí {g:citadel_inline_attribute:'WeaponDamage'} z těsné blízkosti, způsobí nepříteli zranění a pro sebe získá {g:citadel_inline_attribute:'BonusMoveSpeed'}.<br><br>Zranění nepřátelé dostávají {g:citadel_inline_attribute:'SpiritDPS'}, je redukována jejich <panel class=\"InlineAttributeIcon BulletResist\" replacechar=\"_\"><span class=\"InlineAttributeName BulletResist\">balistická odolnost</span> a <span class=\"highlight\">jsou vidět skrze zdi</span>."
+		"BackstabberRadius_label"		"Rozsah pro bonusy"
+		"BackstabberRadius_postvalue_label"		"Rozsah pro bonusy"
+		"BackstabberRadius_postfix"		" m"
+		"ProcRadius_label"				"Těsná blízkost"
+		"ProcRadius_postvalue_label"	"Těsná blízkost"
+		"ProcRadius_postfix"			" m"
+		
+
+		//"upgrade_express_shot"				"Express Shot"
+		"upgrade_express_shot_desc"				"Vlastníkův příští útok <span class=\"highlight\">vystřelí dvakrát po sobě</span> s <span class=\"highlight\">navýšeným poškozením a rychlostí</span>. Tento útok spotřebuje více nábojů."
+		"ProcAmmoConsumed_label"				"Náboje spotřebované navíc"
+		"ProcAmmoConsumed_postvalue_label"				"Náboje spotřebované navíc"
+		//Melee Charge
+		"upgrade_melee_charge_desc"				"Vlastníkův příští <span class=\"highlight\">silný úder</span> udělí nepříteli <span class=\"highlight\">vyšší poškození</span>."
+		"MeleeDistanceScale_label"				"Dosah silných úderů"
+		"MeleeDistanceScale_postvalue_label"				"Dosah silných úderů"
+		"MeleeDistanceScale_prefix"				"+"
+		"MeleeDistanceScale_postfix"			" %"
+		"BonusHeavyMeleeDamage_prefix"			"+"
+		"BonusHeavyMeleeDamage_label"			"Bonus k poškození silných úderů"
+		"BonusHeavyMeleeDamage_postvalue_label"			"Bonus k poškození silných úderů"
+		"BonusHeavyMeleeDamage_postfix"			" %"
+
+		// "upgrade_crushing_fists"				"Crushing Fists"
+		"upgrade_crushing_fists_desc"			"Když vlastník udělí <span class=\"highlight\">{g:citadel_inline_attribute:'MeleeDamage'}</span>, <span class=\"highlight\">obnoví se mu určité procento nábojů</span> a na nepřítele je aplikován <span class=\"highlight\">sčitatelný debuff balistické odolnosti</span>. Silné údery aplikují 2 sečtení.<br><br>Pokud je na nepříteli dosaženo maximálního počtu sečtení, je <span class=\"highlight\">omráčen</span>."
+		"notification_crushing_fists_stun"		"Omráčení od Drtivých rukavic"
+
+		//"upgrade_stackingdamageproc"		"Hungering Blade"
+		"upgrade_stackingdamageproc_desc"	"Zajišťuje, že udílení poškození <span class=\"highlight\">okultistům s nízkým zdravím</span> se rovná <panel class=\"InlineAttributeIcon BonusWeaponDamage\" replacechar=\"_\"><span class=\"InlineAttributeName BonusWeaponDamage\">bonusovému fyzickému poškození</span>.<br><br>Tento efekt se sčítá po každém spuštění a {g:citadel_inline_attribute:'BonusWeaponDamage'} je permanentně navyšováno."
+
+		//"upgrade_building_buster"				"Explosive Demolition"
+		"upgrade_building_buster_desc"		"Vlastník vyhodí několik lepivých výbušnin, které po dlouhé prodlevě explodují a udělí {g:citadel_inline_attribute:'WeaponDamage'}.<br><br>Pokud exploze zasáhne <span class=\"highlight\">bosse</span>, udělí mu {g:citadel_inline_attribute:'BonusWeaponDamage'}."
+		"BossDamage_postvalue_label" "Poškození bossů"
+
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Tech
+		//-----------------------------------------------------------------------------
+		
+		// "upgrade_mystic_regeneration"		"Mystic Regeneration"
+		"upgrade_mystic_regeneration_desc"		"Kdykoli vlastník udělí nepřátelskému okultistovi {g:citadel_inline_attribute:'SpiritDamage'}, získá bonus k {g:citadel_inline_attribute:'Regen'}. Bonus se sčítá při udílení poškození různým okultistům."
+
+		//Spirit Lifesteal
+		"NonHeroAbilityLifestealTooltipOnly_postfix"		" %"
+		
+		//Mystic Vulnerability
+		"upgrade_magic_vulnerability_desc"	"Když vlastník udělí nepříteli {g:citadel_inline_attribute:'SpiritDamage'}, také redukuje jeho <panel class=\"InlineAttributeIcon SpiritResist\" replacechar=\"_\"><span class=\"InlineAttributeName SpiritResist\">spirituální odolnost</span>."		
+
+		//Healbane
+		"upgrade_healbane_desc"	"Vlastníkovo {g:citadel_inline_attribute:'SpiritDamage'} redukuje <span class=\"highlight\">příchozí léčení nepřátel</span>. Pokud pod tímto efektem zemře nepřátelský okultista, vlastník je vyléčen."
+		"HealOnKill_label"		"Léčení za zabití okultisty"
+
+		"HealOnKill_postvalue_label"		"Léčení za zabití okultisty"
+
+		//Mystic Slow
+		"upgrade_magic_slow_desc"	"Když vlastník udělí nepříteli {g:citadel_inline_attribute:'SpiritDamage'}, také redukuje jeho <span class=\"highlight\">rychlost pohybu</span>."
+
+		//Escalating Exposure
+		"upgrade_escalating_exposure_desc"	"Kdykoli vlastník udělí {g:citadel_inline_attribute:'SpiritDamage'}, aplikuje na cíl <span class=\"highlight\">sečtení</span> navyšující jeho {g:citadel_inline_attribute:'SpiritDamage'} vůči tomuto cíli."
+		"EscalatingExposureProcCooldown_label"	"Max. frekvence za cíl"
+		"EscalatingExposureProcCooldown_postvalue_label"	"Max. frekvence za cíl"
+		"EscalatingExposureProcCooldown_postfix"	" s"
+		"EscalatingExposureTechArmorDamageReduction_label"	"Odolnost při utržení spirituálního poškození"
+		"EscalatingExposureTechArmorDamageReduction_postvalue_label"	"Odolnost při utržení spirituálního poškození"
+		"EscalatingExposureTechArmorDamageReduction_postfix"	" %"
+
+		//Mystic Reach
+		"upgrade_magic_reach_desc"			"Umožňuje prodchnout schopnost pro navýšení jejího <span class=\"highlight\">dosahu</span> a <span class=\"highlight\">rozsahu</span>."
+
+		//Improved Reach
+		"upgrade_tech_range_desc"			"Navyšuje <span class=\"highlight\">dosahy</span> a <span class=\"highlight\">rozsahy</span> vlastníkových schopností a schopností jiných předmětů."
+
+		//Omni Spirit
+		"upgrade_long_range_slowing_tech/modifier_long_range_slowing_tech_proc/modifier_slow_base"	"Zpomalení"
+
+		//Improved Cooldown
+		"upgrade_magic_tempo_desc"	"Umožňuje prodchnout schopnost pro redukování její <span class=\"highlight\">doby obnovení</span>."
+
+		//Superior Cooldown
+		"upgrade_cooldown_reduction_desc"	"Redukuje <span class=\"highlight\">doby obnovení</span> vlastníkových schopností."
+
+		//Transcendent Cooldown
+		"upgrade_transcendent_cooldown_desc"	"Redukuje <span class=\"highlight\">doby obnovení</span> vlastníkových schopností a schopností jiných předmětů."
+
+		//Extra Charge
+		//"upgrade_extra_charge_desc"	"Adds one to your ability max <span class=\"highlight\">charges</span>."
+		"BonusSpiritForChargedAbilities_prefix"						"+"
+		"BonusSpiritForChargedAbilities_label"						"Bonus ke spirituální síle schopností s nabitími"
+		"BonusSpiritForChargedAbilities_postvalue_label"						"Bonus ke spirituální síle schopností s nabitími"
+
+		//Rapid Recharge
+		"CooldownReductionOnChargedAbilities_label"	"Redukce dob obnovení schopností s nabitími"
+		"CooldownReductionOnChargedAbilities_postvalue_label"	"Redukce dob obnovení schopností s nabitími"
+		"CooldownReductionOnChargedAbilities_postfix" " %"
+		"CooldownReductionOnChargedAbilities_prefix" "+"
+
+		//Alchemical Fire
+		"upgrade_thermal_detonator_desc"		"Vlastník hodí baňku, která při kontaktu s nepřítelem nebo překážkou vybuchne a vytvoří oblast, v níž začnou nepřátelé dostávat navyšující se {g:citadel_inline_attribute:'SpiritDamage'} <span class=\"highlight\">za sekundu</span>, a také zajistí, že tito nepřátelé budou mít redukovanou <span class=\"highlight\">balistickou odolnost</span>.<br><br>Účinnost je o {s:NonHeroReductionPercent} % nižší vůči ne-okultistům."
+		"BonusBaseWeaponDamageTaken_prefix"		"+"
+		"BonusBaseWeaponDamageTaken_label"		"Fyzické poškození"
+		"BonusBaseWeaponDamageTaken_postvalue_label"		"Fyzické poškození"
+		"BonusBaseWeaponDamageTaken_postfix"	" %"
+
+		//Fleetfoot
+		"upgrade_fleetfoot_boots_active_desc"	"Vlastník získá bonusy k <span class=\"highlight\">rychlosti pohybu</span> a <span class=\"highlight\">odolnosti vůči zpomalení</span>."
+		"upgrade_fleetfoot_boots_passive_desc"	"Odstraňuje penalizaci <span class=\"highlight\">rychlosti pohybu</span> vlastníka během střílení."
+
+		//Kinetic Dash
+		"upgrade_kinetic_sash_desc"		"Kdykoli vlastník provede <span class=\"highlight\">vymrštění</span>, do dalšího přebití získá bonusy k <span class=\"highlight\">rychlosti střelby</span> a <span class=\"highlight\">počtu nábojů</span>. Trvá maximálně {s:AbilityDuration} sekund."
+
+		//Arcane Surge
+		"upgrade_arcane_surge_desc"			"Poté, co vlastník provede <span class=\"highlight\">vymrštění</span>, je zajištěno, že na <span class=\"highlight\">příští schopnost, kterou sešle</span> v rámci {s:ArcaneSurgeWindow} sekund, se budou vztahovat bonusy k <span class=\"highlight\">dosahu, trvání</span> a <span class=\"highlight\">spirituální síle</span>."
+		"modifier_arcane_surge_triggered"	"Arkanistický výpad"
+		"modifier_arcane_surge_ability"		"Arkanistický výpad"
+		"ArcaneSurgeWindow_label"				"Okno pro seslání"
+		"ArcaneSurgeWindow_postvalue_label"		"Okno pro seslání"
+		"ArcaneSurgeWindow_postfix"				" s"
+
+		//Active Reload
+		"upgrade_active_reload_desc"	"Když vlastník při přebíjení stiskne {g:citadel_binding:'Reload'}, zatímco se ukazatel nachází ve zvýrazněné části, <span class=\"highlight\">přebíjení bude okamžitě dokončeno</span> a vlastník získá bonusy k <span class=\"highlight\">rychlosti střelby</span>, <span class=\"highlight\">balistickému vampirismu</span> a <span class=\"highlight\">rychlosti pohybu</span>."
+
+		//Slowing Hex
+		"upgrade_containment_desc"			"Vlastník <span class=\"highlight\">sníží rychlost pohybu</span> nepřítele a také <span class=\"highlight\">umlčí veškeré jeho pohybové schopnosti a předměty</span>.<br><span class=\"diminish\">Na cíl více působí gravitace.<br>Spotřeba výdrže cíle není ovlivněna.</span>"
+
+		//Spirit Sap
+		"upgrade_spirit_sap_desc"			"Vlastník <span class=\"highlight\">redukuje spirituální odolnost</span> zacíleného nepřítele a také jeho <span class=\"highlight\">spirituální sílu</span>."
+
+		//Focus Lens
+		"upgrade_focus_lens_desc"			"Vlastník <span class=\"highlight\">umlčí</span> zacíleného nepřítele. Část z <span class=\"highlight\">veškerého poškození utrženého během umlčení</span> je nepříteli po vypršení udělena znovu."
+		"PercentDamage_label"				"Poškození po vypršení"
+		"PercentDamage_postvalue_label"				"Poškození po vypršení"
+		"PercentDamage_postfix"				" %"
+
+		//Withering Whip , Rusted Barrel
+		"upgrade_withering_whip_desc"		"Vlastník redukuje <span class=\"highlight\">rychlost střelby</span> a <span class=\"highlight\">balistickou odolnost</span> zacíleného nepřítele."
+		"modifier_withering_whip_debuff"	"Redukce rychlosti střelby"
+		"MagicAmp_label"					"Navýšení spirituálního poškození"
+		"MagicAmp_postvalue_label"					"Navýšení spirituálního poškození"
+		"MagicAmp_postfix"					" %"
+		"WitheringWhipDisarmDuration_label"	"Trvání"
+		"WitheringWhipDisarmDuration_postvalue_label"	"Trvání"
+		"WitheringWhipDisarmDuration_postfix"	" s"
+		"SpiritPower_label"					"Spirituální síla"
+		"SpiritPower_postvalue_label"					"Spirituální síla"
+		"SpiritPower_prefix"					"+"
+
+		// Disarming Hex
+		"upgrade_greater_withering_whip_desc"		"Vlastník <span class=\"highlight\">odzbrojí</span> zacíleného nepřítele a redukuje jeho <span class=\"highlight\">balistickou odolnost</span>."
+		"upgrade_greater_withering_whip_debuff"		"Odzbrojení"
+
+		//Ethereal Shift
+		"upgrade_self_bubble_desc"			"Vlastník se vmžiku obklopí prázdnotou a na krátkou dobu se stane nezranitelným."
+		"upgrade_self_bubble_desc2"			"Poté získá několik dočasných buffů:"
+		"ShiftingVeil_channel_desc"			"Nezranitelnost"
+		"ShiftingVeilDuration_label"			"Trvání"
+		"ShiftingVeilDuration_postvalue_label"			"Trvání"
+		"ShiftingVeilDuration_postfix"		" s"
+		"BonusSpiritDuration_label"			"Trvání bonusu ke spirituální síle"
+		"BonusSpiritDuration_postvalue_label"			"Trvání bonusu ke spirituální síle"
+		"BonusSpiritDuration_postfix"			" s"
+		"BonusTechPower_prefix"				"{s:sign}"
+		"BonusTechPower_label"				"Spirituální síla"
+		"BonusTechPower_postvalue_label"				"Spirituální síla"
+		"shifting_veil_bonus"			"Bonus ke spirituální síle, rychlosti pohybu a spirituální odolnosti"
+
+		//Rescue Beam
+		"upgrade_rescue_beam_desc"		"Vlastník <span class=\"highlight\">vyléčí</span> sebe a zacíleného spojeneckého okultistu určitým procentem z <span class=\"highlight\">maximálního zdraví</span>. Zatímco probíhá léčení, může k sobě vlastník zacíleného spojence jednou <span class=\"highlight\">přitáhnout</span>. Vlastník může schopnost seslat také jenom sám na sebe."
+		"SelfModifier_postfix"			" %"
+		"upgrade_rescue_beam_pull"		"Přitáhnout cíl"
+
+		//Slowing Spirit
+		"upgrade_slowing_tech/modifier_slowing_tech_proc/modifier_slow_base"						"Zpomalení"
+
+		//Refresher
+		"upgrade_ability_refresher_desc"	"<span class=\"highlight\">Resetuje doby obnovení</span> všech vlastníkových schopností a také <span class=\"highlight\">obnoví všechna jeho nabití</span>."
+
+		//Cold Front
+		"upgrade_cold_front_desc"			"Vlastník na své pozici vypustí rozšiřující se výbuch ledu, který zasaženým nepřátelům udělí {g:citadel_inline_attribute:'SpiritDamage'} a <span class=\"highlight\">sníží rychlost jejich pohybu</span>."
+
+		//Arctic Blast
+		"upgrade_arctic_blast_desc"			"Vlastník na své pozici vypustí rozšiřující se výbuch ledu, který zasaženým nepřátelům udělí {g:citadel_inline_attribute:'SpiritDamage'}, <span class=\"highlight\">zmrazí je</span> a následně <span class=\"highlight\">sníží rychlost jejich pohybu</span>.<br><br>Zpomalení nepřátelé mají také <span class=\"highlight\">zmrazenou regeneraci výdrže</span>."
+		"ArcticBlastSlowDuration_label"		"Trvání zpomalení"
+		"ArcticBlastSlowDuration_postvalue_label"		"Trvání zpomalení"
+		"ArcticBlastSlowDuration_postfix"	" s"
+		"ArcticBlastPercentDamage_label"	"Bonus k poškození zmrazených nepřátel"
+		"ArcticBlastPercentDamage_postvalue_label"	"Bonus k poškození zmrazených nepřátel"
+		"ArcticBlastPercentDamage_postfix"	" %"
+
+		//Knockdown
+		"upgrade_target_stun_desc"			"Cíl je po <span class=\"highlight\">{s:StunDelay} sekundy</span> dlouhé prodlevě <span class=\"highlight\">omráčen</span>. Trvání omráčení je navýšeno vůči <span class=\"highlight\">cílům nacházejícím se ve vzduchu</span>.<br><br><span class=\"diminish\">Na cíl po dobu trvání omráčení více působí gravitace.</span>"
+		
+		//Vortex Web
+		"upgrade_aoe_root_active"		"Vlastník vrhne <span class=\"highlight\">vakuový granát</span>, který přitáhne nepřátele ke středu malé oblasti a aplikuje na ně efekty předmětu <span class=\"highlight\">Zpomalující znamení</span>.<br><br><span class=\"diminish\">Alternativním sesláním je možné zacílit jednotku, která je pak brána jako střed oblasti.</span>"
+
+		//Curse
+		"upgrade_glitch_desc"					"Vlastník prokleje nepřítele – <span class=\"highlight\">přeruší, umlčí a odzbrojí ho</span>, <span class=\"highlight\">zamezí mu v používání předmětů</span> a <span class=\"highlight\">odstraní všechny jeho buffy s výjimkou ultimátních</span>.<br><br>Po dobu trvání je ovšem také sníženo <span class=\"highlight\">poškození udílené vlastníkem</span>."
+		"modifier_glitch_debuff"				"Kletba"
+		"modifier_glitch_self_penalty"			"Penalizace Kletby"
+
+		//Bullet Resist Shredder
+		"upgrade_bullet_resist_shredder_desc"	"Když vlastník udělí nepříteli {g:citadel_inline_attribute:'SpiritDamage'}, také redukuje jeho <span class=\"highlight\">balistickou odolnost</span>."
+		"upgrade_bullet_resist_shredder/modifier_bullet_armor_shredder_proc/modifier_bullet_armor_shredder" "Redukovaná balistická odolnost"
+
+		//Echo Shard
+		"upgrade_ability_power_shard_active"	"<span class=\"highlight\">Resetuje dobu obnovení</span> prodchnuté schopnosti (s výjimkou ultimátní).<br><br>Doba obnovení předmětu je navýšena o <span class=\"highlight\">dobu obnovení prodchnuté schopnosti</span>."
+
+		//Duration Extender
+		"upgrade_arcane_extension_desc"	"Umožňuje prodchnout schopnost pro navýšení jejího <span class=\"highlight\">trvání</span>."
+
+		//Superior Duration
+		"upgrade_imbued_duration_extender_desc"	"Navyšuje <span class=\"highlight\">trvání</span> vlastníkových schopností a schopností jiných předmětů."
+
+		//Diviner's Kevlar
+		"upgrade_diviners_kevlar_desc"			"Po seslání <span class=\"highlight\">ultimátní schopnosti</span> získá vlastník <span class=\"highlight\">bariéru</span> a také dočasný bonus ke <span class=\"highlight\">spirituální síle</span>."
+		"BonusChannelTechPower_prefix"			"+"
+		
+		"BonusChannelTimePercentage_label"		"Max. doba vyvolávání"
+		"BonusChannelTimePercentage_postvalue_label"		"Max. doba vyvolávání"
+		"BonusChannelTimePercentage_prefix"		"+"
+		"BonusChannelTimePercentage_postfix"	" %"
+
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_label"		"Max. doba vyvolávání"
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_postvalue_label"		"Max. doba vyvolávání"
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_prefix"		"+"
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_postfix"	" %"
+
+		//Infuser
+		"upgrade_infuser_desc"			"Vlastník získá bonusy ke <span class=\"highlight\">spirituálnímu vampirismu</span> a <span class=\"highlight\">spirituální síle</span>."
+
+		//Spirit Strike
+		"upgrade_acolytes_glove_desc"			"Když vlastník zasáhne nepřátelského okultistu <span class=\"highlight\">slabým nebo silným úderem</span>, udělí mu bonusové {g:citadel_inline_attribute:'SpiritDamage'} a redukuje jeho <span class=\"highlight\">spirituální odolnost</span>.<span class=\"diminish\"><br><br>Pro slabé údery je doba obnovení {s:LightMeleeCooldownMult}× delší.</span>"
+		"SpiritDamage_label"					"Spirituální poškození"
+		"SpiritDamage_postvalue_label"					"Spirituální poškození"
+
+		//Spirit Snatch
+		"upgrade_spirit_snatch_desc"			"Když vlastník zasáhne nepřátelského okultistu <span class=\"highlight\">slabým nebo silným úderem</span>, udělí mu bonusové {g:citadel_inline_attribute:'SpiritDamage'} a zároveň mu ukradne část <span class=\"highlight\">spirituální odolnosti</span> a <span class=\"highlight\">spirituální síly</span>.<span class=\"diminish\"><br><br>Pro slabé údery jsou efekty o {s:LightMeleeReduction} % slabší.</span>"
+		"SpiritSnatch_TechArmorSteal_label"		"Ukradená spirituální odolnost"
+		"SpiritSnatch_TechArmorSteal_postvalue_label"		"Ukradená spirituální odolnost"
+		"SpiritSnatch_TechArmorSteal_postfix"	" %"
+		"SpiritSnatch_TechPowerSteal_label"		"Ukradená spirituální síla"
+		"SpiritSnatch_TechPowerSteal_postvalue_label"		"Ukradená spirituální síla"
+
+		//Clarity
+		//"upgrade_magic_clarity_desc"			"On ability or item use, gain a <span class=\"highlight\">move speed</span> bonus for {s:AbilityDuration}s. Your next ability cast will remove the move speed bonus and apply a <span class=\"highlight\">Spirit</span> bonus to that ability."
+		"ClarityBonusSpirit_prefix"				"{s:sign}"
+
+		//Surge of Power
+		"upgrade_magic_storm_desc"				"Umožňuje prodchnout schopnost <span class=\"highlight\">bonusem ke spirituální síle</span>. Sesláním schopnosti vlastník zároveň získá <span class=\"highlight\">bonus k rychlosti pohybu</span> a při útočení si zachová plnou rychlost."
+
+		//Suppressor
+		"upgrade_suppressor_desc"					"Když vlastník udělí nepříteli {g:citadel_inline_attribute:'SpiritDamage'}, také sníží <span class=\"highlight\">rychlost jeho střelby</span>."
+		"suppressor_debuff"						"Redukce rychlosti střelby"
+
+		//Quicksilver Reload
+		"upgrade_quick_silver_desc"				"Umožňuje prodchnout schopnost, takže sesláním udělí {g:citadel_inline_attribute:'BonusSpiritDamage'}, vlastníkovi poskytne {g:citadel_inline_attribute:'BonusFireRate'} a také <span class=\"highlight\">přebije určité procento jeho nábojů</span>. Bonusy dosáhnou maxima po úplném obnovení této schopnosti."
+
+		//Resonant Healing
+		"upgrade_resonant_healing_desc"			"Když vlastník sešle schopnost, je <span class=\"highlight\">vyléčen</span> a na krátkou dobu získá bonus k <span class=\"highlight\">rychlosti pohybu</span>."
+		"HealingPerCast_Label"					"Léčení po seslání schopnosti"
+
+		"HealingPerCast_postvalue_label"					"Léčení po seslání schopnosti"
+
+		// Magic carpet
+		"upgrade_magic_carpet_desc"				"Vlastník vyvolá kouzelný koberec, který ho začne <span class=\"highlight\">odnášet pryč</span>. Během letu na koberci je vlastník imunní vůči zpomalení a let může kdykoli přerušit provedením libovolné akce.<br><span class=\"diminish\">Zatímco je koberec vyvoláván, není možné seslat jinou schopnost.</span>"
+		"modifier_summon_magiccarpet"			"Vyvolávání kouzelného koberce"
+		"MagicCarpetMoveSpeed_prefix"			"+"
+		"MagicCarpetMoveSpeed_label"			"Bonus k rychlosti pohybu v letu"
+		"MagicCarpetMoveSpeed_postvalue_label"			"Bonus k rychlosti pohybu v letu"
+		"MagicCarpetMoveSpeed_postfix"			" m/s"
+		"MagicCarpetShieldDuration_label"		"Trvání štítu"
+		"MagicCarpetShieldDuration_postvalue_label"		"Trvání štítu"
+		"MagicCarpetShieldDuration_postfix"		" s"
+		"MagicCarpetSummoning_channel"			"Vyvolávání"
+
+		// Hex-Sealed Knuckles
+		"upgrade_superacolytes_glove_desc"			"Poté co vlastník udělí celkem <span class=\"highlight\">{s:StoredSpiritDamage} bodů</span> spirituálního poškození, jeho příští <span class=\"highlight\">silný úder</span> bude posílen o <span class=\"highlight\">{s:StoredSpiritDamage} bodů spirituálního poškození</span>."
+		"StoredSpiritDamage_label"			"Uložené spirituální poškození"
+		"StoredSpiritDamage_postvalue_label"			"Uložené spirituální poškození"
+		"upgrade_superacolytes_glove/modifier_superacoloytes_glove" "Nespoutané boxery"
+
+		//SpiritBurn
+		"upgrade_spirit_burn_desc"	"Když vlastník udělí nepříteli v rámci {s:DamageThresholdDuration} sekund značné {g:citadel_inline_attribute:'SpiritDamage'}, je vyvolán výbuch udílející poškození a zapalující tohoto nepřítele. Hořící nepřítel dostává průběžné poškození a je redukováno jím přijímané léčení.<br><span class=\"diminish\">Doba obnovení je za nepřítele, takže každý nepřítel může být za jedno obnovení zapálen pouze jednou. Poškození je při použití na ne-okultistech poloviční.</span>"
+		"modifier_spirit_burn_immunity"	"Imunita vůči Žhnoucí duši"
+		"MinDPS_label" "Min. poškození/s"
+
+		"MinDPS_postvalue_label" "Min. poškození/s"
+
+		//Lightning Scroll
+		"upgrade_ultimate_burst_desc"			"Zajišťuje, že vlastníkova ultimátní schopnost aplikuje nejen své běžné efekty, ale po krátké prodlevě také udělí {g:citadel_inline_attribute:'BonusSpiritDamage'} a aplikuje {g:citadel_inline_attribute:'Stun'}.</span>"
+		"upgrade_ultimate_burst_upgrade"		"<span class=\"highlight\">Efekty Mystického zpomalení</span>"
+		"upgrade_ultimate_burst_hint"			"<span class=\"diminish\">Tento efekt se může za jedno seslání ultimátní schopnosti spustit nejvýše jednou na každém cíli.</span>"
+		"LightningScrollMysticSlow_label"		"Rychlost pohybu po utržení spirituálního poškození"
+		"LightningScrollMysticSlow_postvalue_label"		"Rychlost pohybu po utržení spirituálního poškození"
+		"LightningScrollMysticSlow_prefix"		"-"
+		"LightningScrollMysticSlow_postfix"		" %"
+		"DelayBeforeStun_label"					"Prodleva spuštění"
+		"DelayBeforeStun_postvalue_label"					"Prodleva spuštění"
+		"DelayBeforeStun_postfix"				" s"
+
+		"MaxHealthDamage_label" "Poškození dle max. zdraví"
+		"MaxHealthDamage_postvalue_label" "Poškození dle max. zdraví"
+		"MaxHealthDamage_postfix" " %"
+
+		"CurrentHealthDamage_label" "Poškození dle moment. zdraví"
+		"CurrentHealthDamage_postvalue_label" "Poškození dle moment. zdraví"
+		"CurrentHealthDamage_postfix" " %"
+
+		"UltimateTechPower_label" "Bonus ke spirituální síle"
+
+		"UltimateTechPower_postvalue_label" "Bonus ke spirituální síle"
+
+		//Corpse Explosion
+		"upgrade_corpse_explosion_desc"			"Kdykoli vlastník zabije nebo asistuje u zabití jednotky, na místě její smrti je vyvolán <span class=\"highlight\">výbuch</span>. Mrtví okultisté způsobí výbuch s větším rozsahem a poškozením."
+		"HeroMultiplier_label" "Násobič výbuchu okultistů"
+		"HeroMultiplier_postvalue_label" "Násobič výbuchu okultistů"
+		"HeroMultiplier_postfix" " %"
+
+		//Golden Goose Egg
+		"upgrade_goose_egg_desc"	"Dokud je vlastník naživu, <span class=\"highlight\">průběžně získává duše</span>."
+		"upgrade_goose_egg_active_desc"	"Vlastník nechá vylíhnout vejce, čímž získá jeho <span class=\"highlight\">duše</span> a <span class=\"highlight\">permanentní buffy</span>.<br><br>Hodnota vejce roste s tím, jak dlouho ho vlastník nese.<br><br><span class=\"diminish\">Permanentní buff se ve vejci objeví vždy po nastřádání {s:BonusBuffsPerGold} duší.</span>"
+		"upgrade_goose_egg_stacklabel" "Počet získatelných duší"
+		"GoldPerMinute_postvalue_label" "Duše za minutu"
+		"GoldPerMinute_prefix" "{s:sign}"
+		"BonusGoldPerMinute_postvalue_label" "Hodnota v duších za minutu"
+
+		"SellBonusSouls_label"	"Bonusové duše za prodej:"
+
+		//"SellBonusSouls_postvalue_label"	"Sell Bonus Souls:"
+		//"SellBonusSouls_postvalue_prefix"	"{g:citadel_inline_attribute:'SoulsIcon'}"
+
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Armor
+		//-----------------------------------------------------------------------------
+		
+		//Healing Rite
+		"upgrade_health_stimpak_desc"					"Vlastník poskytne cíli <span class=\"highlight\">regeneraci zdraví</span> a bonus k <span class=\"highlight\">rychlosti sprintu</span>. Buff je odstraněn utržením poškození od nepřátelských hráčů nebo struktur. Vlastník může schopnost seslat sám na sebe."
+
+		//Shrink Ray
+		"upgrade_shrink_ray_desc"					"Vlastník redukuje <span class=\"highlight\">velikost modelu</span> cíle a poskytne mu <span class=\"highlight\">bonus k rychlosti pohybu</span>. Zmenšení okultisté mohou <span class=\"highlight\">procházet tunely</span>. Vlastník může schopnost seslat sám na sebe."
+		
+		//Guardian Ward
+		"upgrade_guardian_ward_desc"		"Vlastník poskytne cíli <span class=\"highlight\">bariéru</span> a dočasný bonus k <span class=\"highlight\">rychlosti pohybu</span>.<span class=\"diminish\"><br>Vlastník může schopnost seslat sám na sebe.<br>Pokud je schopnost seslána na někoho jiného, doba obnovení je poloviční.</span>"
+
+		//Divine Barrier
+		"upgrade_divine_barrier_desc"		"Vlastník odstraní z cíle <span class=\"highlight\">všechny debuffy s výjimkou omráčení</span> a poskytne mu <span class=\"highlight\">bariéru</span> a bonus k <span class=\"highlight\">rychlosti pohybu</span>.<br><span class=\"diminish\">Vlastník může schopnost seslat sám na sebe. Pokud je schopnost seslána na někoho jiného, doba obnovení je poloviční.</span>"
+
+		//Restorative Locket
+		"upgrade_restorative_locket_active_desc"		"Kdykoli nepřítel sešle schopnost v okruhu do {s:Radius} metrů od vlastníka, předmět získá <span class=\"highlight\">jedno sečtení</span>.<br><br>Sesláním schopnosti předmětu vlastník spotřebuje všechna jeho sečtení, <span class=\"highlight\">vyléčí se</span> a také si obnoví <span class=\"highlight\">až {s:MaxStaminaRestore} dílky výdrže</span> (podle počtu sečtení)."
+		"HealPerStack_label"								"Léčení za sečtení"	
+		"MinStaminaRestore_label"							"Min. obnovená výdrž"
+		"MinStaminaRestore_postvalue_label"							"Min. obnovená výdrž"
+		"MaxStaminaRestore_label"							"Max. obnovená výdrž"
+		"MaxStaminaRestore_postvalue_label"							"Max. obnovená výdrž"
+
+		"HealPerStack_postvalue_label"								"Léčení za sečtení"
+
+		//Cheat Death
+		"upgrade_cheat_death_unkillable_passive"	"Namísto toho, aby vlastník utržil smrtící poškození, se <span class=\"highlight\">dočasně stane imunním vůči smrti</span> a <span class=\"highlight\">odstraní ze sebe všechny debuffy s výjimkou omráčení</span>.<br><br>Zatímco je vlastník imunní vůči smrti, udílí <span class=\"highlight\">redukované poškození</span> a je <span class=\"highlight\">redukováno jeho léčení</span>."
+		"DeathImmunityDuration_label"	"Trvání imunity vůči smrti"
+		"DeathImmunityDuration_postvalue_label"	"Trvání imunity vůči smrti"
+		"DeathImmunityDuration_postfix"	" s"
+		"DeathImmunityDamageReduction_label"		"Redukce poškození"
+		"DeathImmunityDamageReduction_postvalue_label"		"Redukce poškození"
+		"DeathImmunityDamageReduction_postfix"		" %"
+
+		//Healing Booster
+		"upgrade_healing_booster_desc"		"Navyšuje účinnost vlastníkova <span class=\"highlight\">léčení</span>."
+
+		//Debuff Reducer
+		"upgrade_debuff_reducer_desc"			"Redukuje <span class=\"highlight\">trvání</span> všech negativních efektů aplikovaných na vlastníka."
+
+		//Debuff Remover | Dispel Magic
+		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Očistí všechny negativní efekty (s výjimkou ultimátních)</span>, které momentálně působí na vlastníka. Pokud dojde k odstranění nějakého efektu, vlastník <span class=\"highlight\">se vyléčí</span> a získá <span class=\"highlight\">bonus k rychlosti pohybu</span>.<br><span class=\"diminish\">Schopnost nelze seslat, zatímco je vlastník omráčen nebo uspán.</span>"
+		"HealOnActivate_label"		"Léčení po seslání"
+		"HealOnActivate_postvalue_label"		"Léčení po seslání"
+
+		"damage_reduction_postfix"						" %"
+
+		//Decay
+		"upgrade_rupture_desc"				"Vlastník aplikuje na zacíleného nepřítele <span class=\"highlight\">průběžné poškození</span>, které se odvíjí od jeho momentálního zdraví.<br>Poškození nemůže být smrtící a nespouští předměty."
+		"HealReductionDuration_label"		"Trvání redukce léčení"
+		"HealReductionDuration_postvalue_label"		"Trvání redukce léčení"
+		"HealReductionDuration_postfix"		" s"
+
+		//Discord | Scourge
+		"upgrade_discord_desc"						"Vlastník poskytne spojenci bonus ke <span class=\"highlight\">spirituální odolnosti</span> a <span class=\"highlight\">odolnosti vůči debuffům</span> a také auru, která nepřátelům poblíž udílí <span class=\"highlight\">{g:citadel_inline_attribute:'SpiritIcon'} spirituální poškození</span> odvíjející se od jejich maximálního zdraví. Stávající debuffy jsou redukovány.<br>Vlastník může schopnost seslat sám na sebe."
+		"MaxHealthPercentAsDPS_label"				"Poškození dle max. zdraví/s"
+		"MaxHealthPercentAsDPS_postvalue_label"				"Poškození dle max. zdraví/s"
+		"MaxHealthPercentAsDPS_postfix"				" %"
+		
+		//Fortitude
+		"upgrade_chonky_desc"							"Když vlastník chvíli neutrží poškození, získá bonus k regeneraci zdraví."
+		"upgrade_chonky_high_health_passive_desc"		"Když má vlastník <span class=\"highlight\">více než {s:HealthThreshold} % zdraví</span>, získává bonus k <span class=\"highlight\">rychlosti pohybu</span>."
+
+		//Leech
+		"upgrade_damage_recycler_desc"				"Redukuje účinnost <span class=\"highlight\">redukce léčení</span> aplikovaného na vlastníka."
+		"LeechHealOnKill_prefix"					"+"
+		"LeechHealOnKill_label"						"Léčení za zabití dle max. zdraví"
+		"LeechHealOnKill_postvalue_label"						"Léčení za zabití dle max. zdraví"
+		"LeechHealOnKill_postfix"					" %"
+		
+		//Rebirth
+		"upgrade_personal_rejuvenator_desc"		"Okultista oživne na místě, kde byl zabit."
+		"RespawnDelay_postfix"						" s"
+		"SpawnTimePenalty_prefix"				"+"
+		"SpawnTimePenalty_label"				"Navýšení času do oživnutí"
+		"SpawnTimePenalty_postvalue_label"				"Navýšení času do oživnutí"
+		"SpawnTimePenalty_postfix"				" s"
+
+		//Phantom Strike
+		"upgrade_phantom_strike_desc"			"Vlastník <span class=\"highlight\">se teleportuje</span> k nepřátelskému cíli a stáhne ho k zemi, čímž mu udělí <span class=\"highlight\">poškození</span>, sníží <span class=\"highlight\">rychlost jeho pohybu</span> a <span class=\"highlight\">odzbrojí ho</span>."
+		"PhantomStrikeDebuffDuration_label"		"Trvání debuffu"
+		"PhantomStrikeDebuffDuration_postvalue_label"		"Trvání debuffu"
+		"PhantomStrikeDebuffDuration_postfix"		" s"
+		"modifier_phantom_strike_bulletshield"		"Balistický štít"
+
+		//Soul Rebirth
+		"upgrade_rebirth_passive"				"Pokud vlastník zemře, po {s:RespawnDelay} sekundách <span class=\"highlight\">oživne na stejném místě</span> s určitým procentem svého zdraví."
+
+		//Return Fire
+		"upgrade_return_fire_desc"					"Zajistí, že vlastník automaticky <span class=\"highlight\">vystřelí</span> na každého nepřítele, který mu udělí balistické nebo spirituální poškození."
+		"ActiveFireRate_label"						"Rychlost střelby"
+		"ActiveFireRate_postvalue_label"						"Rychlost střelby"
+		"ActiveFireRate_postfix"						" %"
+
+		//Metal Skin
+		"upgrade_metal_skin_desc"						"Vlastník se stane <span class=\"highlight\">imunním vůči střelám</span>."
+		"AbilityApplyDelay_postfix"						" s"
+
+		//Battle Vest
+		"upgrade_regenerating_bullet_shield_desc"	"Když má vlastník <span class=\"highlight\">více než {s:LifeThreshold} % zdraví</span>, udílí dodatečné <span class=\"highlight\">{g:citadel_inline_attribute:'WeaponDamage'}</span> a získává <span class=\"highlight\">{g:citadel_inline_attribute:'BonusFireRate'}</span>."
+
+		//Enchanter's Emblem
+		"upgrade_magic_shield_desc"		"Když má vlastník <span class=\"highlight\">více než {s:LifeThreshold} % zdraví</span>, získává bonusy ke <span class=\"highlight\">{g:citadel_inline_attribute:'Spirit'}</span> a <span class=\"highlight\">redukci dob obnovení</span>."
+		
+		// "upgrade_weapon_shielding"						"Weapon Shielding"
+		"upgrade_weapon_shielding_desc"			"Kdykoli vlastník v krátkém časovém rámci utrží značné {g:citadel_inline_attribute:'WeaponDamage'} od nepřátelských okultistů, získá <span class=\"highlight\">bariéru</span>."
+		"DamageWindow_label"								"Časový rámec"
+		"DamageWindow_postvalue_label"								"Časový rámec"
+		"DamageWindow_postfix"								" s"
+		
+		// "upgrade_spirit_bubble"							"Spirit Bubble"
+		"upgrade_spirit_bubble_desc"			"Kdykoli vlastník v krátkém časovém rámci utrží značné {g:citadel_inline_attribute:'SpiritDamage'} od nepřátelských okultistů, získá <span class=\"highlight\">bariéru</span>."
+
+		// "upgrade_grit"							"Grit"
+		"upgrade_grit_desc"			"Vlastník si pro sebe na krátkou chvíli vytvoří <span class=\"highlight\">bariéru</span>."
+
+		//Unstoppable
+		"upgrade_unstoppable_desc"				"Vlastník dočasně potlačí <span class=\"highlight\">negativní stavové efekty</span> a stane se <span class=\"highlight\">imunním</span> vůči <span class=\"highlight\">omráčení, umlčení, uspání, zakořenění a odzbrojení</span>.<br>Schopnost nelze seslat, zatímco je vlastník <span class=\"highlight\">omráčen</span> nebo <span class=\"highlight\">uspán</span>."
+
+		//Colossus
+		"upgrade_colossus_desc"			"Vlastník <span class=\"highlight\">se zvětší</span> a získá bonusy k {g:citadel_inline_attribute:'BulletResist'}, {g:citadel_inline_attribute:'SpiritResist'} a {g:citadel_inline_attribute:'MeleeDamage'}.<br><br>Nepřátelé poblíž vlastníka jsou <panel class=\"InlineAttributeIcon Slow\" replacechar=\"_\"><span class=\"InlineAttributeName Slow\">zpomaleni</span> a je redukována <span class=\"highlight\">rychlost jejich výpadů</span>."
+		"BuffBulletResist_label"		"Balistická odolnost"
+		"BuffBulletResist_postvalue_label"		"Balistická odolnost"
+		"BuffBulletResist_postfix"		" %"
+		"BuffTechResist_label"			"Spirituální odolnost"
+		"BuffTechResist_postvalue_label"			"Spirituální odolnost"
+		"BuffTechResist_postfix"		" %"
+
+		// Rebuttal - upgrade_melee_rebuttal
+		"upgrade_melee_rebuttal_desc"				"Po úspěšném <span class=\"highlight\">vykrytí</span> úderu nepřátelského okultisty je vlastník <span class=\"highlight\">vyléčen</span> hodnotou vykrytého poškození, toto poškození vrátí nepříteli a dočasně získá bonus k <span class=\"highlight\">poškození</span>."
+
+		// Counterspell
+		"upgrade_counterspell_desc"				"Příští vykrytí <span class=\"highlight\">ochrání vlastníka před poškozením a efekty nepřátelských schopností a předmětů</span>. Po úspěšném vykrytí schopnosti se vlastník {g:citadel_inline_attribute:'Heal'} a získá bonusy k {g:citadel_inline_attribute:'MoveSpeed'} a {g:citadel_inline_attribute:'Spirit'}."
+		
+		"ParrySuccessHealPercentage_label"					"Vykryté poškození na léčení"
+		"ParrySuccessHealPercentage_postvalue_label"					"Vykryté poškození na léčení"
+		"ParrySuccessHealPercentage_postfix"					" %"
+
+		// 
+		"upgrade_tech_purge_desc"	"Když má vlastník <span class=\"highlight\">méně než {s:HealthThreshold} % zdraví</span>, získává bonus ke <span class=\"highlight\">spirituální odolnosti</span>."
+		"upgrade_improved_bullet_armor_desc"	"Když má vlastník <span class=\"highlight\">méně než {s:HealthThreshold} % zdraví</span>, získává bonus k <span class=\"highlight\">balistické odolnosti</span>."
+
+		// Spellbreaker
+		"upgrade_spellbreaker_desc"				"Příští instance značného <panel class=\"InlineAttributeIcon SpiritDamage\" replacechar=\"_\"><span class=\"InlineAttributeName SpiritDamage\">spirituálního poškození</span> utržená vlastníkem je výrazně redukována."
+		"SpiritDamageReductionProc_label"		"Redukce spirituálního poškození"
+		"SpiritDamageReductionProc_postvalue_label"		"Redukce spirituálního poškození"
+		"SpiritDamageReductionProc_postfix"		" %"
+
+		"upgrade_juggernaut_slow_desc"			"Nepřátelé, kteří zaútočí na vlastníka střelami, mají redukovanou <span class=\"highlight\">rychlost střelby</span>."
+		"FireRateSlowDuration_label"			"Trvání"
+		"FireRateSlowDuration_postvalue_label"			"Trvání"
+		"FireRateSlowDuration_postfix"			" s"
+
+		"upgrade_trophy_collector_desc"			"Kdykoli vlastník provede <span class=\"highlight\">zabití nebo asistenci</span>, získá bonusy k <span class=\"highlight\">rychlosti sprintu</span>, <span class=\"highlight\">dosahům schopností</span> a <span class=\"highlight\">pasivnímu získávání duší</span>. Tento efekt se sčítá a přetrvává mezi životy."
+		"StackingGoldPerMinute_label"			"Duše za minutu"
+		"StackingGoldPerMinute_postvalue_label"			"Duše za minutu"
+		
+		// Indomitable
+		"upgrade_upgrade_auto_cleanse_desc"		"Příští <span class=\"highlight\">omráčení, přivázání, znehybnění, uspání, umlčení nebo vystrašení</span> je automaticky očištěno. Když se tak stane, vlastník získá <span class=\"highlight\">bariéru</span> a <span class=\"highlight\">doby obnovení</span> všech jeho schopností jsou redukovány o {s:CooldownReductionOnProc} %."
+		
+		//-----------------------------------------------------------------------------
+		// Upgrades: Utility
+		//----------------------------------------------------------------------------- 
+		
+		//Superior Stamina
+		"upgrade_superior_stamina_passive"			"Umožňuje vlastníkovi před dopadem provést jeden <span class=\"highlight\">vzdušný skok</span> nebo <span class=\"highlight\">vzdušný výpad</span> navíc."
+
+		//Enduring Speed
+		"upgrade_cardio_calibrator_desc"			"Redukuje účinnost penalizací <span class=\"highlight\">rychlosti pohybu</span> aplikovaných na vlastníka."
+
+		//Health Nova
+		"upgrade_health_nova_desc"					"Vlastník <span class=\"highlight\">vyléčí</span> sebe a spojence poblíž."
+
+		//Shadow Weave
+		"upgrade_cloaking_device_active_desc"		"Vlastník se stane <span class=\"highlight\">neviditelným</span>. Kdykoli poté utrží poškození, je krátce odhalen."
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>Útok nebo seslání schopnosti ukončí neviditelnost a zahájí <span class=\"highlight\">přepadení</span>, takže vlastník dočasně získá bonusy k <span class=\"highlight\">rychlosti střelby</span>, <span class=\"highlight\">spirituální síle</span> a <span class=\"highlight\">poškození úderů</span>."
+		"modifier_cloaking_device_active_stealth"		"Neviditelnost od Maskovacího zařízení"
+		"modifier_cloaking_device_active_ambush"		"Přepadení s Maskovacím zařízením"
+		"AmbushBonusTechPower_prefix"					"+"
+		"AmbushBonusTechPower_label"					"Spirituální síla při přepadení"
+		"AmbushBonusTechPower_postvalue_label"					"Spirituální síla při přepadení"
+		"AmbushBonusFireRate_prefix"					"+"
+		"AmbushBonusFireRate_label"					"Rychlost střelby při přepadení"
+		"AmbushBonusFireRate_postvalue_label"					"Rychlost střelby při přepadení"
+		"AmbushBonusFireRate_postfix"					" %"
+		"AmbushBonusMeleeDamage_label"					"Poškození úderů při přepadení"
+		"AmbushBonusMeleeDamage_postvalue_label"		"Poškození úderů při přepadení"
+		"AmbushBonusMeleeDamage_postfix"				" %"
+		"AmbushDuration_label"						"Trvání přepadení"
+		"AmbushDuration_postvalue_label"						"Trvání přepadení"
+		"AmbushDuration_postfix"						" s"
+		"StealthDuration_label"						"Trvání neviditelnosti"
+		"StealthDuration_postvalue_label"						"Trvání neviditelnosti"
+		"StealthDuration_postfix"						" s"
+		"SpottedRadius_label"						"Rozsah detekce"
+		"SpottedRadius_postvalue_label"						"Rozsah detekce"
+		"SpottedRadius_postfix"						" m"
+
+		//Majestic Leap
+		"upgrade_rocket_booster_desc"				"Vlastník <span class=\"highlight\">vyskočí vysoko do vzduchu</span> a získá <span class=\"highlight\">bariéru</span>. Opětovným sesláním schopnosti ve vzduchu je možné dopadnout zpět na zem rychleji.<br><br><span class=\"diminish\">Schopnost nelze seslat v rámci {s:InterruptCooldown} sekund od utržení poškození od nepřátelského okultisty.</span>"
+		"upgrade_rocket_booster_drop_down"			"Dopadnout"
+		
+		//Drain Will
+		"SpiritStealDuration_postfix"	" s"
+
+		//Reactive Barrier
+		"upgrade_vex_barrier_desc"		"Když je vlastník <span class=\"highlight\">omráčen, přivázán, znehybněn, uspán nebo umlčen</span>, získá <span class=\"highlight\">bariéru</span>."
+
+		//Spell Shield
+		"upgrade_spellshield_desc"		"Vyblokuje příští instanci <panel class=\"InlineAttributeIcon SpiritDamage\" replacechar=\"_\"><span class=\"InlineAttributeName SpiritDamage\">spirituálního poškození</span> nebo <span class=\"highlight\">debuff</span>, který by měl ovlivnit vlastníka, a tím jeho efektu zabrání. Obnovuje se pouze mimo boj."
+		"upgrade_spellshield_shield"	"Runový blokátor"
+		"upgrade_spellshield/modifier_spellshield_linger_buff"  "Přerušený Runový blokátor"
+		"SpellShieldFlavorText_label"	"Label!"
+
+		"SpellShieldFlavorText_postvalue_label"	"Label!"
+
+		//Heal On Level
+		"upgrade_heal_on_level_desc"	"Vždy když vlastník <span class=\"highlight\">obdrží dar od svého patrona</span>, je automaticky <span class=\"highlight\">vyléčen</span>."
+		"upgrade_heal_on_level_buff"	"Léčivý dar"
+		"HealOnlevelHealAmount_label"	"Hodnota léčení"
+		"HealOnlevelHealAmount_postvalue_label"	"Hodnota léčení"
+		"upgrade_heal_on_level/heal_on_level_buff"			"Léčivý dar"
+
+		//Absorbing armor / witchmail
+		"upgrade_absorbing_armor_desc" "Kdykoli vlastník utrží od nepřátel značné {g:citadel_inline_attribute:'SpiritDamage'}, dojde k redukci <span class=\"highlight\">doby obnovení jedné jeho náhodné schopnosti</span>."
+
+		//Healing Buff
+		"upgrade_healbuff_desc" "Když vlastník na sebe nebo na spojence aplikuje {g:citadel_inline_attribute:'Healing'}, cíl získá {g:citadel_inline_attribute:'BonusFireRate'} a {g:citadel_inline_attribute:'BonusMoveSpeed'}.<br><br><span class=\"diminish\">Nevztahuje se na vrozenou regeneraci ani na pasivní balistický/spirituální vampirismus.</span>"
+
+		//Infinite Magazine
+		"upgrade_infinitemagazine_desc" "Vlastník získá <span class=\"highlight\">neomezený počet nábojů</span> a {g:citadel_inline_attribute:'BonusFireRate'}."
+
+		//APRounds
+		"upgrade_aprounds_desc" "Vlastníkovy střely mají šanci stát se nevyhnutelnými, <span class=\"highlight\">procházejícími skrze nepřátele</span> a <span class=\"highlight\">ignorujícími balistickou odolnost</span>."
+
+		//Deflecting Armor
+		"upgrade_deflecting_armor_desc" "Vlastník má šanci buď odrazit příchozí střely, vynulovat veškeré {g:citadel_inline_attribute:'WeaponDamage'}, nebo zabránit <span class=\"highlight\">všem efektům spuštěným při zásahu střelou</span>."
+		"DeflectionPercent_label" "Šance na odražení"
+		"DeflectionPercent_postvalue_label" "Šance na odražení"
+		"DeflectionPercent_postfix" " %"	
+		
+		"BulletProcDeflectionPercent_label" "Šance na zabránění efektům"
+		"BulletProcDeflectionPercent_postvalue_label" "Šance na zabránění efektům"
+		"BulletProcDeflectionPercent_postfix" " %"
+
+		// Shadow Step Active
+		"upgrade_shadow_step_desc"	"Vlastník <span class=\"highlight\">se teleportuje</span> o určitý počet metrů dopředu."
+
+		//Shadow Step Passive
+		"upgrade_shadow_step_passive_desc"	"Pravidelně udílí {g:citadel_inline_attribute:'SpiritDamage'} všem nepřátelům nacházejícím se poblíž vlastníka."
+
+		"upgrade_haunting_scream_desc"	"Vlastník vypustí vlnu, která na krátkou dobu <span class=\"highlight\">prokleje</span> zasažené nepřátele."
+		
+		"upgrade_apex_combat_desc"		"Vlastníkovy střely <span class=\"highlight\">se odráží</span> na nepřátele poblíž cíle, aplikují na ně <span class=\"highlight\">efekty závislé na šanci</span> a udílí jim <span class=\"highlight\">určité procento z původního poškození</span>."
+
+		"upgrade_aerial_supremacy_passive"			"Umožňuje vlastníkovi před dopadem provést <span class=\"highlight\">neomezený počet</span> <span class=\"highlight\">vzdušných skoků</span> a <span class=\"highlight\">vzdušných výpadů</span>."
+
+		"upgrade_infinite_rounds_desc" "Vlastník má <span class=\"highlight\">neomezený počet nábojů</span>."
+
+		// BulletShredImbue Ballistic Enchantment
+		"upgrade_bulletshredimbue_desc" "Umožňuje prodchnout schopnost pro navýšení jejího <span class=\"highlight\">dosahu</span>. Když poté vlastník touto schopností udělí poškození, získá za <span class=\"highlight\">každého unikátního zasaženého nepřítele</span> <span class=\"highlight\">bonus k fyzickému poškození</span>. Účinnost je nižší vůči ne-okultistům."
+
+		// Recharging Bullets
+		"upgrade_rechargingbullets_desc" "Když vlastník udělí značné {g:citadel_inline_attribute:'WeaponDamage'}, obnoví si nabití <span class=\"highlight\">všech schopností s nabitími</span>."
+		"CooldownReductionOnProc_postvalue_label" "Redukce dob obnovení"
+		"CooldownReductionOnProc_label" "Redukce dob obnovení"
+		"CooldownReductionOnProc_postfix" " s"
+		"CooldownReductionOnProc_prefix" "{s:sign}"
+
+
+		//-----------------------------------------------------------------------------
+		// Street Brawl Tier5
+		//----------------------------------------------------------------------------- 
+		"upgrade_icarus_wings_desc"		"Zatímco se vlastník nachází ve vzduchu, udílí vyšší poškození a dostává redukované poškození. Vlastník může také provést <span class=\"highlight\">neomezený počet</span> vzdušných výpadů a skoků."
+		"upgrade_mystical_piano_desc"	"Vlastník po krátké prodlevě shodí na nepřátele v cílové oblasti klavír, čímž je omráčí a vysaje jejich výdrž. Po skončení omráčení jsou nepřátelé dočasně omámeni."
+		"upgrade_nullification_aura_desc"	"Vlastník odstraní z nepřátel veškeré pozitivní buffy a zamezí jim ve spotřebovávání výdrže a v léčení."
+		"upgrade_nullification_aura_deathdamage_desc"	"Vlastník po své smrti udělí značné spirituální poškození."
+		"upgrade_celestial_guidance_desc"	"Vlastník vyšle extrémně účinné očišťující kouzlo, které obnoví spojence nacházející se kdekoli na mapě."
+		"upgrade_eternal_gift_desc"			"Vlastník v pravidelných intervalech získává náhodné permanentní buffy statistik."
+		"upgrade_eternal_gift_respawn_desc"		"Vlastník po své příští smrti rychleji oživne."
+		"upgrade_patrons_blessing_desc"			"Vlastník poskytuje sobě a spojencům mocnou spirituální auru. Na spojencích je účinnost o něco nižší."
+		"upgrade_patrons_blessing_proc_desc"	"Když vlastník udělí nepříteli v rámci {s:DamageThresholdDuration} sekund značné <span class=\"highlight\">poškození</span>, vyléčí sebe a spojence poblíž."
+
+		"AllyPercentage_postvalue_label" "Procento pro spojence"
+		"AllyPercentage_label" "Procento pro spojence"
+		"AllyPercentage_postfix" " %"
+		"AllyPercentage_prefix" "{s:sign}"
+		"RespawnTime_postvalue_label" "Čas do oživnutí"
+		"RespawnTime_label" "Čas do oživnutí"
+		"RespawnTime_postfix" " %"
+		"RespawnTime_prefix" "{s:sign}"
+
+		"upgrade_eldritch_shot_desc"			"Vlastníkova příští střela aplikuje silný debuff, který redukuje odchozí poškození cíle, jeho léčení a jeho rychlost pohybu. Střela také udělí {g:citadel_inline_attribute:'BonusSpiritDamage'} odvíjející se od momentálního zdraví cíle.<br><br>Střela je větší a může prolétnout skrze nepřátele."
+		"upgrade_cloak_of_opportunity_desc"		"Vyblokuje příští debuff, který by na vlastníka aplikoval <span class=\"highlight\">uzamčení pohybu, omráčení, přivázání, znehybnění nebo uspání</span> a učiní vlastníka <span class=\"highlight\">nezastavitelným</span>. Vlastník získá také <span class=\"highlight\">bariéru</span> a bonus k {g:citadel_inline_attribute:'MoveSpeed'}."
+		"upgrade_runed_gauntlets_desc"			"Kdykoli vlastník zasáhne nepřítele silným úderem, dojde k redukci jeho aktivních dob obnovení."
+		"upgrade_runed_gauntlets_parry_desc"		"Vlastníkovy údery projdou přes vykrytí."
+		"upgrade_electric_slippers_desc"		"Vlastník získá při skluzu bonus k balistickému úhybu, bonus k rychlosti střelby a udělí poškození nepřátelům kolem sebe. <span class=\"diminish\"><br><br>Doba obnovení je za cíl.</span>"
+		"upgrade_prism_blast_desc"				"Vlastník se obklopí prázdnotou a na krátkou dobu se stane <span class=\"highlight\">nezaměřitelným a nezranitelným</span>. Během této doby z něj také vystřelují rotující laserové paprsky."
+		"upgrade_unstable_concoction_desc"		"Vlastník vypije tinkturu, která mu poskytne <span class=\"highlight\">nezastavitelnost</span> a bonusy k <span class=\"highlight\">rychlosti, zdraví a spirituálnímu i fyzickému poškození</span>. Chvíli poté vlastník <span class=\"highlight\">zemře a vybuchne</span>, čímž omráčí nepřátele poblíž a udělí jim poškození odvíjející se od jeho maximálního zdraví. Čas do oživnutí je po takové smrti o <span class=\"highlight\">{s:RespawnTimeMod} %</span> kratší."
+		"upgrade_shivas_bracelet_desc"			"Umožňuje prodchnout schopnost pro <span class=\"highlight\">redukování její doby obnovení</span> a navýšení její <span class=\"highlight\">spirituální síly</span>. Když poté vlastník touto schopností udělí poškození, cíl <span class=\"highlight\">zamrzne na místě</span> a utrží <span class=\"highlight\">bonusové poškození</span>.<span class=\"diminish\"><br><br>Doba obnovení je za cíl.</span>"
+		"upgrade_shadow_strike_desc"			"Vlastník se <span class=\"highlight\">se spotřebováním výdrže</span> <span class=\"highlight\">zneviditelní</span> a nebude možné ho detekovat. Když poté z neviditelnosti provede <span class=\"highlight\">úder</span>, <span class=\"highlight\">ukradne cíli část z balistické a spirituální odolnosti</span> a cíl začne dostávat <span class=\"highlight\">průběžné poškození</span>."
+		"upgrade_omnicharge_pendant_desc"		"Umožňuje prodchnout libovolnou aktivní schopnost s výjimkou ultimátních <span class=\"highlight\">bonusovými nabitími</span>. Schopnosti, které už mají nabití, získají více těch bonusových."
+		"upgrade_omnicharge_pendant_charges"	"Bonusová nabití"
+
+		//-----------------------------------------------------------------------------
+		// Cosmetic
+		//----------------------------------------------------------------------------- 
+		"cosmetic_ability_snowball"		"Sněhová koule"
+		"cosmetic_ability_snowball_desc"		"Vlastník hodí na spojence nebo nepřítele sněhovou kouli. Počet koulí a další vlastnosti se vylepšují podle postupu ve <span class=\"highlight\">Vánoční výzvě 2025</span>.<br><br><span class=\"diminish\">Když je koule hozena na spojence, neudělí mu poškození a dojde k okamžitému obnovení předmětu.</span>"
+		"SnowballSpeed_label"			"Rychlost hodu"
+		"SnowballSpeed_postvalue_label"		"Rychlost"
+		"SnowballSpeed_postfix"			" m/s"
+		"SnowballCount_label"			"Počet koulí"
+		"SnowballCount_postvalue_label"		"Projektily"
+
+		"cosmetic_item_voting_poster"		"Volební plakát"
+	}
+}

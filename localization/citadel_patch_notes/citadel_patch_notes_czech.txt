@@ -1,0 +1,244 @@
+﻿"lang"
+{
+	"Language"		"czech"
+	"Tokens"
+	{
+
+		//-----------------------------------------------------------------------------
+		// hero_astro
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_astro_1" "<b>24. 10. 2024</b><br>
+			<li>Okultista byl přidán do Okultní laboratoře</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_astro_2" "<b>29. 10. 2024</b><br>
+			<li><i>Odrazová plošina</i>: Nově správně udílí plošné poškození dopadem</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_astro_3" "<b>7. 11. 2024</b><br>
+			<li><i>Odrazová plošina</i>: Nově platí, že jedna plošina se rovná jednomu dupnutí</li>
+			<li><i>Odrazová plošina</i>: Spojenci už nově při vyhození do vzduchu nejsou doprovázeni částicovými efekty</li>
+			<li><i>Zbraň</i>: Byly aktualizovány vizuální efekty</li>
+			<li><i>Sud střelného prachu</i>: Byla redukována intenzita vizuálních efektů poblíž sudu</li>
+			<li><i>Pistolnice</i>: Byla redukována intenzita vizuálních efektů z pohledu oběti</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_nano
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_nano_1" "<b>24. 10. 2024</b><br>
+			<li>Okultista byl přidán do Okultní laboratoře</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_nano_2" "<b>29. 10. 2024</b><br>
+			<li><i>Zbraň</i>: Trvání přebíjení bylo sníženo z 3,5 na 3 sekundy</li>
+			<li><i>Zbraň</i>: Počet nábojů byl snížen z 18 na 16</li>
+			<li><i>Zbraň</i>: Balistické poškození alternativní střelby bylo navýšeno z 6 na 7 bodů</li>
+			<li><i>Sachmetina duše</i>: Kočku lze nově odpálit okamžitě po seslání</li>
+			<li><i>Sachmetina duše</i>: Výbuch nově odhodí pouze nepřátele, kteří byli chyceni/taženi kočkou</li>
+			<li><i>Nekomatická stráž</i>: Schopnost už nemá nabití</li>
+			<li><i>Nekomatická stráž</i>: Nově disponuje odděleným „dosahem útoku“ o hodnotě 30 metrů</li>
+			<li><i>Nekomatická stráž</i>: Trvání bylo sníženo ze 120 na 60 sekund</li>
+			<li><i>Nekomatická stráž</i>: Vylepšování poškození za sekundu podle spirituální síly bylo sníženo z 0,4 na 0,3 bodu</li>
+			<li><i>Nekomatická stráž</i>: Vylepšování zdraví podle spirituální síly bylo sníženo z 3,0 na 2,0 bodu</li>
+			<li><i>Nekomatická stráž</i>: Vylepšení 2. úrovně už neposkytuje bonusová nabití schopnosti, ale „+30 s k trvání“</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_wrecker
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_1" "<b>24. 10. 2024</b><br>
+			<li>Okultista byl přidán do Okultní laboratoře</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_2" "<b>7. 11. 2024</b><br>
+			<li><i>Zbraň</i>: Počet nábojů byl navýšen z 10 na 15</li>
+			<li><i>Zbraň</i>: Počet střel za sekundu byl navýšen z 2,86 na 4</li>
+			<li><i>Zbraň</i>: Balistické poškození bylo sníženo z 25 na 21 bodů</li>
+			<li><i>Demoliční koule</i>: Nově exploduje se zásahem prvního nepřítele</li>
+			<li><i>Demoliční koule</i>: Základní poškození bylo navýšeno z 80 na 150 bodů</li>
+			<li><i>Demoliční koule</i>: Rychlost koule byla navýšena z 1 500 na 2 000</li>
+			<li><i>Demoliční koule</i>: Síla koule byla navýšena z 280 na 1 500</li>
+			<li><i>Demoliční koule</i>: Prodleva vytvoření koule byla navýšena z 1,2 na 1,4 sekundy</li>
+			<li><i>Demoliční koule</i>: Vylepšování poškození podle spirituální síly bylo navýšeno z 1,0 na 1,4 bodu</li>
+			<li><i>Demoliční koule</i>: Základní doba obnovení byla navýšena z 21 na 31 sekund</li>
+			<li><i>Násilná recyklace</i>: Schopnost lze nově seslat na všechny nepřátele</li>
+			<li><i>Násilná recyklace</i>: Nepřátelé už nejsou ani omráčeni, ani vyzvednuti do vzduchu</li>
+			<li><i>Násilná recyklace</i>: Základní poškození za sekundu bylo sníženo z 80 na 40 bodů</li>
+			<li><i>Násilná recyklace</i>: Vylepšení 1. úrovně bylo změněno na „+75 % Léčení dle poškození“</li>
+			<li><i>Násilná recyklace</i>: Vylepšení 2. úrovně bylo změněno z „+40 Poškození/s“ na +80</li>
+			<li><i>Násilná recyklace</i>: Vylepšení 3. úrovně bylo změněno na „+2 dodatečné cíle“</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_3" "<b>21. 11. 2024</b><br>
+			<li><i>Demoliční koule</i>: Wrecker může nově při nesení koule skákat do omezené výšky</li>
+			<li><i>Demoliční koule</i>: Rozsah koule byl snížen z 92 na 65</li>
+			<li><i>Násilná recyklace</i>: Byla provedena aktualizace efektů</li>
+			<li><i>Násilná recyklace</i>: Základní poškození za sekundu bylo navýšeno ze 40 na 60 bodů</li>
+			<li><i>Násilná recyklace</i>: Dosah schopnosti byl navýšen z 12 na 15 metrů</li>
+			<li><i>Násilná recyklace</i>: Schopnost má nově definovaný maximální dosah spojení (20 metrů)</li>
+			<li><i>Násilná recyklace</i>: Aby spojení zůstalo aktivní, je nově vyžadováno, aby Wrecker viděl na svůj cíl</li>
+			<li><i>Násilná recyklace</i>: Schopnost už nepřerušuje pohyb nepřítele</li>
+			<li><i>Násilná recyklace</i>: Byl odstraněn bonus k rychlosti střelby</li>
+			<li><i>Násilná recyklace</i>: Schopnost nově léčí 50 % z uděleného poškození</li>
+			<li><i>Násilná recyklace</i>: Vylepšení 1. úrovně bylo změněno z „+75 % Léčení dle poškození“ na +25 %</li>
+			<li><i>Biologická zbraň</i>: Dosah schopnosti byl navýšen z 5 na 10 metrů</li>
+			<li><i>Biologická zbraň</i>: Byl částečně aktualizován zaměřovací kužel</li>
+			<li><i>Biologická zbraň</i>: Byl odstraněn efekt ztmavení obrazovky při seslání</li>
+			<li><i>Astrální let</i>: Schopnost byla odstraněna a nahrazena novou ultimátní schopností <i>Přetížení</i></li>
+			<li><i>Přetížení</i>: Byla provedena aktualizace efektů</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_4" "<b>6. 12. 2024</b><br>
+			<li><i>Demoliční koule</i>: Bylo přepracováno chování schopnosti</li>
+			<li><i>Demoliční koule</i>: Aktualizace vizuálu</li>
+			<li><i>Přetížení</i>: Bylo navýšeno oddálení kamery</li>
+			<li><i>Přetížení</i>: Vylepšení 2. úrovně bylo změněno na „-35 s Doba obnovení“</li>
+			<li><i>Přetížení</i>: V popisu a ukazatelích je nově zahrnuto zpomalení pohybu</li>"
+		//-----------------------------------------------------------------------------
+		// hero_trapper
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_1" "<b>07. 11. 2024</b><br>
+			<li>Okultista byl přidán do Okultní laboratoře</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_2" "<b>8. 11. 2024</b><br>
+			<li><i>Hedvábná past</i>: Byl opraven problém, kvůli kterému nemusel být někdy viditelný efekt vlákna</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_3" "<b>21. 11. 2024</b><br>
+			<li><i>Fantasmicid v lahvi</i>: Počáteční rozsah byl snížen z 5 na 3 metry</li>
+			<li><i>Fantasmicid v lahvi</i>: Trvání bylo sníženo z 9 na 8 sekund</li>
+			<li><i>Fantasmicid v lahvi</i>: Základní doba obnovení byla navýšena z 20 na 25 sekund</li>
+			<li><i>Fantasmicid v lahvi</i>: Vylepšení 1. úrovně bylo změněno na „-20 % ze spirituálního poškození ovlivněných nepřátel</li>
+			<li><i>Fantasmicid v lahvi</i>: Vylepšení 2. úrovně bylo změněno na „+4 s Trvání“</li>
+			<li><i>Hedvábná past</i>: Schopnost nově může zacílit neutrály a pěšáky</li>
+			<li><i>Hedvábná past</i>: Byla opravena chyba, kvůli které mohla past udělit poškození z druhé strany zdi</li>
+			<li><i>Hedvábná past</i>: Byla opravena chyba, kvůli které se past někdy vůbec nezhmotnila</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_4" "<b>24. 11. 2024</b><br>
+			<li><i>Fantasmicid v lahvi</i>: Výpočet nárůstu rozsahu byl změněn na fixní, který postupuje každou sekundu a škáluje se s dosahem schopnosti</li>
+			<li><i>Hedvábná past</i>: Byl vylepšen vizuál náhledu</li>
+			<li><i>Hedvábná past</i>: Byl opraven problém, kvůli kterému se past někdy nezhmotnila</li>
+			<li><i>Hedvábná past</i>: Vlákno má nově určenou minimální délku</li>
+			<li><i>Hedvábná past</i>: Vylepšení 3. úrovně bylo změněno z odzbrojení na 4 sekundy na umlčení na 2,5 sekundy</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_5" "<b>6. 12. 2024</b><br>
+			<li><i>Fantasmicid v lahvi</i>: Počáteční rozsah byl navýšen z 3 na 4,5 metru</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_6" "<b>20. 2. 2025</b><br>
+			<li><i>Fantasmicid v lahvi</i>: Počáteční rozsah byl navýšen ze 4,5 na 6 metrů</li>
+			<li><i>Fantasmicid v lahvi</i>: Už neudílí poškození, ale umlčuje nepřátele v kaluži</li>
+			<li><i>Fantasmicid v lahvi</i>: Doba obnovení byla navýšena z 25 na 30 sekund</li>
+			<li><i>Fantasmicid v lahvi</i>: Vylepšení 3. úrovně bylo změněno na „-25 % ze spirituální odolnosti ovlivněných nepřátel“</li>
+			<li><i>Fantasmicid v lahvi</i>: Bylo upraveno škálování podle spirituální síly, aby bylo dosaženo vyšších hodnot zpomalení</li>
+			<li><i>Hedvábná past</i>: Nově udílí průběžné poškození</li>
+			<li><i>Hedvábná past</i>: Nově odhaluje nepřátele</li>
+			<li><i>Hedvábná past</i>: Trvání vlákna bylo navýšeno z 60 na 120 sekund</li>
+			<li><i>Hedvábná past</i>: Trvání debuffu bylo navýšeno z 2 na 3 sekundy</li>
+			<li><i>Hedvábná past</i>: Vylepšení 3. úrovně nově také navyšuje trvání debuffu o 2 sekundy</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_slork
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_slork_1" "<b>24. 10. 2024</b><br>
+			<li>Okultista byl přidán do Okultní laboratoře</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_slork_2" "<b>29. 10. 2024</b><br>
+			<li><i>Zbraň</i>: Poškození za brok bylo sníženo z 5 na 4,5 bodu</li>
+			<li><i>Zbraň</i>: Rozptyl broků byl navýšen a počáteční vzdálenost pro klesání poškození byla snížena z 20 na 18 metrů</li>
+			<li><i>Vařící voda</i>: Byly aktualizovány částicové efekty, aby nebránily Fathomovi v rozhledu, a také byl přidán efekt zásahu nepřítele</li>
+			<li><i>Příboj</i>: V rámci pohybu lze nově sesílat jiné schopnosti</li>
+			<li><i>Příboj</i>: Byly aktualizovány částicové efekty</li>
+			<li><i>Lovecká harpuna</i>: Nově platí, že zatímco Fathom visí na laně, může provést libovolnou akci, ale visení je přerušeno</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_3" "<b>1. 11. 2024</b><br>
+			<li><i>Tělo</i>: Bonus ke zdraví za navýšení síly byl snížen ze 41 na 36 bodů</li>
+			<li><i>Zbraň</i>: Poškození za brok bylo sníženo z 4,5 na 4 body</li>
+			<li><i>Zbraň</i>: Počáteční vzdálenost pro klesání poškození byla snížena z 18 na 16 metrů</li>
+			<li><i>Vařící voda</i>: Nárůst fyzického poškození za sekundu byl snížen z 8 na 7 %</li>
+			<li><i>Ignorace nebezpečí</i>: Schopnost byla aktualizována, aby měla stejné hodnoty jako poslední verze Shivovy stejnojmenné schopnosti</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_4" "<b>8. 11. 2024</b><br>
+			<li><b>Nová schopnost</b>: <i>Vyčkávající predátor</i></li>
+			<li>Schopnost <i>Ignorace nebezpečí<i> byla nahrazena schopností <i>Lovecká harpuna</i></li>
+			<li><i>Lovecká harpuna</i>: Nově platí, že když je Fathom přichycen k povrchu, získá 2 nabití této schopnosti</li>
+			<li><i>Lovecká harpuna</i>: Schopnost nově nemůže zacílit podlahy/zem</li>
+			<li><i>Lovecká harpuna</i>: Nově je zabráněno seslání, když je cílový povrch příliš daleko</li>
+			<li><i>Lovecká harpuna</i>: Seslání nově nepřeruší neviditelnost</li>
+			<li><i>Lovecká harpuna</i>: Seslání nově aktivuje neviditelnost schopnosti Vyčkávající predátor</li>
+			<li><i>Lovecká harpuna</i>: Doba obnovení nově začíná běžet s odpojením od povrchu</li>
+			<li><i>Lovecká harpuna</i>: Schopnost už pasivně neposkytuje regeneraci zdraví</li>
+			<li><i>Lovecká harpuna</i>: Schopnost už pasivně neposkytuje neviditelnost</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_5" "<b>21. 11. 2024</b><br>
+			<li><i>Zbraň</i>: Růst balistického poškození za navýšení síly byl snížen z 0,57 na 0,35 bodu</li>
+			<li><i>Vyčkávající predátor</i>: Byly aktualizovány částicové efekty</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_6" "<b>6. 12. 2024</b><br>
+			<li><i>Vařící voda</i>: Byly aktualizovány částicové efekty</li>
+			<li><i>Vyčkávající predátor</i>: Byl přidán „vodní“ efekt na obrazovce znehybněného cíle</li>
+			<li><i>Vyčkávající predátor</i>: Projektil aktivního komponentu má nově rozsah 2,5 metru</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_7" "<b>17. 12. 2024</b><br>
+			<li>Byl přidán výchozí build předmětů</li>
+			<li>Byly aktualizovány a vylepšeny efekty všech schopností</li>"
+
+
+		//-----------------------------------------------------------------------------
+		// hero_viper
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_viper_1" "<b>24. 10. 2024</b><br>
+			<li>Okultista byl přidán do Okultní laboratoře</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_2" "<b>29. 10. 2024</b><br>
+			<li>Schopnost <i>Přitahovací čepel</i> byla nahrazena schopností <i>Ještěří dýka</i></li>
+			<li><i>Smrtící jed</i>: Nově může zacílit pouze nepřátelské okultisty</li>
+			<li><i>Smrtící jed</i>: Byly vylepšeny vizuální efekty</li>
+			<li><i>Hadí žena</i>: Schopnost je nově automaticky odemčena jako první</li>
+			<li><i>Hadí žena</i>: Vylepšení 1. úrovně bylo změněno na „+25 % Vzdálenost skluzu“, vylepšení 2. úrovně na „+2 Výdrž“ a vylepšení 3. úrovně na „+30 % ke spirituální a balistické odolnosti při klouzání“</li>
+			<li><i>Zkamenění</i>: Prodleva aktivace byla navýšena z 0,6 na 1,0 sekundy</li>
+			<li><i>Zkamenění</i>: Byly vylepšeny vizuální a zvukové efekty a ovládání kamery při zkamenění</li>
+			<li><i>Zkamenění</i>: Hodnota vyblokovaného poškození se nově vylepšuje podle spirituální síly</li>
+			<li><i>Zkamenění</i>: Schopnost už nelze seslat ve vzduchu</li>
+			<li><i>Zkamenění</i>: Schopnost je nově správně blokována předmětem Lektvar nezastavitelnosti</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_3" "<b>21. 11. 2024</b><br>
+			<li>Schopnost <i>Zkamenění</i> byla nahrazena schopností <i>Zkameňující bola</i></li>
+			<li><i>Zkameňující bola</i>: Byl aktualizován vzhled projektilu</li>
+			<li><i>Ještěří dýka</i>: Schopnost už nepřerušuje klouzání</li>
+			<li><i>Ještěří dýka</i>: Pro zajištění lepší viditelnosti byl aktualizován projektil a efekty jeho dopadu</li>
+			<li><i>Smrtící jed</i>: Schopnost je nově doprovázena efektem na obrazovce cíle</li>
+			<li><i>Zbraň</i>: Poškození bylo sníženo z 12 na 11 bodů</li>
+			<li><i>Zbraň</i>: Byly přepracovány stopy střel, aby byly lépe vidět při vysoké rychlosti střelby</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_4" "<b>26. 11. 2024</b><br>
+			<li><i>Tělo</i>: Bonus ke zdraví za navýšení síly byl snížen z 35 na 30 bodů</li>
+			<li><i>Zbraň</i>: Balistické poškození bylo sníženo z 11 na 9 bodů</li>
+			<li><i>Zbraň</i>: Rychlost střel byla navýšena z 81 na 411 m/s</li>
+			<li><i>Zbraň</i>: Počet nábojů byl navýšen z 18 na 24</li>
+			<li><i>Zkameňující bola</i>: Rozsah projektilu byl navýšen z 30 na 45</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_5" "<b>6. 12. 2024</b><br>
+			<li>Model okultisty byl zvětšen o 15 %</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_magician
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_magician_1" "<b>24. 10. 2024</b><br>
+			<li>Okultista byl přidán do Okultní laboratoře</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_2" "<b>29. 10. 2024</b><br>
+			<li><i>Zbraň</i>: Poškození nově správně klesá se vzdáleností</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_3" "<b>7. 11. 2024</b><br>
+			<li>Nově disponuje ultimátní schopností <i>Velké finále</i></li>
+			<li><i>Zbraň</i>: Počet nábojů byl navýšen z 20 na 22</li>
+			<li><i>Magický blesk</i>: Namísto zpomalení pohybu nově aplikuje 20% zpomalení střelby</li>
+			<li><i>Magický blesk</i>: Poškození bylo navýšeno ze 100 na 120 bodů a vylepšování poškození podle spirituální síly bylo navýšeno z 1,2 na 1,4 bodu</li>
+			<li><i>Magický blesk</i>: Trvání debuffu bylo navýšeno z 2 na 5 sekund</li>
+			<li><i>Magický blesk</i>: Vylepšení 2. úrovně bylo změněno z „-15 % Spirituální odolnost“ na -20 %</li>
+			<li><i>Magický blesk</i>: Vylepšení 3. úrovně nově také navyšuje rychlost blesku</li>
+			<li><i>Magický blesk</i>: Hráč je nově upozorněn na možnost přesměrování blesku</li>
+			<li><i>Spektrální pomocnice</i>: Schopnost lze nově seslat ve vzduchu</li>
+			<li><i>Trik s králíkem</i>: Schopnost už nelze seslat na spojence</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_4" "<b>21. 11. 2024</b><br>
+			<li><i>Magický blesk</i>: Pomocnice nově vždy také vyšle magický blesk, ale s nižším poškozením</li>
+			<li><i>Magický blesk</i>: Vylepšení byla aktualizována v souladu s novým fungováním</li>
+			<li><i>Magický blesk</i>: Vylepšování poškození podle spirituální síly bylo sníženo z 1,4 na 1,2 bodu</li>
+			<li><i>Trik s králíkem</i>: Magician byl poučen o rozdílu mezi králíky a žábami, takže už proměňuje nepřátele ve správné zvíře</li>
+			<li><i>Trik s králíkem</i>: Schopnost už nově nelze seslat na sebe</li>
+			<li><i>Trik s králíkem</i>: Nově namísto navýšení rychlosti aplikuje omezení rychlosti pohybu</li>
+			<li><i>Trik s králíkem</i>: Vylepšení 3. úrovně bylo změněno na „Prokleti jsou všichni nepřátelé v okruhu 6 m“</li>
+			<li><i>Spektrální pomocnice</i>: Sesláním je Magicianovi nově přebita jeho zbraň</li>
+			<li><i>Spektrální pomocnice</i>: Pomocnice nově střílí v dávkách po dvou</li>
+			<li><i>Spektrální pomocnice</i>: Spirituální poškození bylo změněno z 1× 60 bodů s vylepšováním o hodnotě 0,5 bodu na 2× 30 bodů s vylepšováním o hodnotě 0,3 bodu</li>
+			<li><i>Spektrální pomocnice</i>: Stopy střel pomocnice nově vzhledově odpovídají Magicianovým</li>
+			<li><i>Spektrální pomocnice</i>: Bylo vylepšeno hledání cílů</li>
+			<li><i>Spektrální pomocnice</i>: Byla opravena chyba, kvůli které někdy nebylo možné přesměrovat Magický blesk, když ho seslala pomocnice</li>
+			<li><i>Spektrální pomocnice</i>: Byl vyhlazen pohyb kamery při prohození pozice</li>
+			<li><i>Spektrální pomocnice</i>: Dosah schopnosti byl snížen z 20 na 15 metrů</li>
+			<li><i>Spektrální pomocnice</i>: Vylepšení byla aktualizována v souladu s novým fungováním</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_operative
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_operative_1" "<b>6. 12. 2024</b><br>
+			<li>Okultista byl přidán do Okultní laboratoře</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_operative_2" "<b>17. 12. 2024</b><br>
+			<li>Byl přidán výchozí build předmětů</li>"
+
+		}
+}

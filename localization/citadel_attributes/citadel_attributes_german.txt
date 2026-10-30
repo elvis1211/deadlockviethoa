@@ -1,0 +1,3291 @@
+﻿"lang"
+{
+	"Language"		"german"
+	"Tokens"
+	{
+
+		//-----------------------------------------------------------------------------
+		// Unit states (that we want to show)
+		//-----------------------------------------------------------------------------
+
+		"MODIFIER_STATE_ROOTED"								"Festgesetzt"
+		"MODIFIER_STATE_DISARMED"							"Entwaffnet"
+		"MODIFIER_STATE_SILENCED"							"Verstummt"
+		"MODIFIER_STATE_STUNNED"							"Betäubt"
+		"MODIFIER_STATE_INVULNERABLE"						"Unverwundbar"
+		"MODIFIER_STATE_TECH_INVULNERABLE"					"Immun gegen Magieschaden"
+		//"MODIFIER_STATE_BURNING"							"Burning"
+
+		// Commenting this out so it doesn't show overhead of the player your applied it to
+		//"MODIFIER_STATE_SLOWED"								"Slowed"
+
+		//"MODIFIER_STATE_BULLET_SHIELD_WEAKENED"				"Weakened Bullet Shield"
+		//"MODIFIER_STATE_IS_ASLEEP"							"Asleep"
+		//"MODIFIER_STATE_BULLET_DAMAGE_TAKEN_ALWAYS_CRITS"	"Crit Vulnerable"		 				
+		"MODIFIER_STATE_CHAINED"							"Angekettet"
+		//"MODIFIER_STATE_ALL_ARMOR_DISABLED"					"Armors Disabled"
+		//"MODIFIER_STATE_BULLET_INVULNERABLE"				"Bulletproof"
+		//"MODIFIER_STATE_DRONE_ATTACHED"						"Drone Attached"
+		//"MODIFIER_STATE_WEAPON_JAMMED"						"Weapon Jammed"
+		"MODIFIER_STATE_TOXIC_BULLETS"						"Toxisch"
+		//"MODIFIER_STATE_DISPLAY_LIFETIME"					"Life Time"
+		"MODIFIER_STATE_BLINDED"							"Geblendet"
+
+		// Status Effects
+		"Citadel_StatusEffect"					"Statuseffekt"
+		"Citadel_StatusEffectStun"				"Betäubt"
+		"Citadel_StatusEffectEMP"				"Verstummt"
+		"Citadel_StatusEffectFreeze"			"Einfrieren"
+		"Citadel_StatusEffectBurn"				"Brennt"
+		"Citadel_StatusEffectBleed"				"Blutet aus"
+		"Citadel_StatusEffectSleep"				"Schlaf"
+		"Citadel_StatusEffectTethered"			"Verbindung"
+		"Citadel_StatusEffectImmobilize" 		"Festsetzen"
+		"Citadel_StatusEffectDisarmed"			"Entwaffnet"
+		"Citadel_StatusEffectInvisible"			"Unsichtbar"
+		"Citadel_StatusEffectPetrify"			"Versteinerung"
+		"Citadel_StatusEffectCustomDebuff"		"Schwächung"
+		//"Citadel_StatusEffectStacks"			"Stacks "
+		"Citadel_StatusEffectInfiniteClip"		"Unendliche Munition"
+		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
+		//"Citadel_StatusEffectBuff"				"Buff"
+		"Citadel_StatusEffectUnstoppable"		"Unaufhaltsam"
+		"Citadel_StatusEffectDisplacement"		"Erzw. Bewegung"
+		"Citadel_StatusEffectSilence"			"Verstummung"
+		"Citadel_StatusEffectCurse"				"Verflucht"
+
+		//"modifier_citadel_in_shop"				"In Shop"	
+		"modifier_citadel_in_fountain"			"Basis"
+		"modifier_citadel_pre_match_wait"		"Wartet auf Partiebeginn"
+		//"modifier_citadel_rapid_fire"			"Bullet Storm"
+		//"modifier_citadel_damageboost"			"Damage Boost"
+		//"modifier_citadel_damage_reduction" 	"Armor Boost"
+		"modifier_slowaura" 					"Verlangsamt"
+		"modifier_citadel_slowtarget" 			"Verlangsamt"
+		"modifier_citadel_lineslow"				"Verlangsamt"
+		"modifier_slow_base"																		"Verlangsamt"
+		"modifier_damageovertime" 				"Blutet aus"
+		"modifier_citadel_stunned" 				"Betäubt"
+		"modifier_citadel_knockdown"			"Betäubt"
+		"modifier_citadel_delayed_stun"			"Verzögerte Betäubung"
+		//"modifier_citadel_knockdown_stumble"	"Stumble"
+		"modifier_citadel_banished"				"Verbannt"
+		"modifier_citadel_tethered"				"Angebunden"
+		//"modifier_citadel_speed_boost" 			"Speed Boost"
+		//"modifier_pullaura" 					"Pulled"
+		//"modifier_healaura" 					"Healing"
+		"modifier_citadel_root"					"Festgesetzt"
+		//"modifier_citadel_charging" 			"Charging"
+		//"modifier_invis" 						"Stealthed"
+		//"modifier_invis_start_delay" 			"Entering Stealth"
+		//"modifier_invis_fading"					"Fading"
+		//"modifier_camouflage_invis"				"Camouflaged"
+		"modifier_citadel_silenced"				"Verstummt"
+		"silencer_immune"						"Immun gegen Verstummung"
+		//"modifier_citadel_muted"				"Muted"
+		"modifier_citadel_disarmed"				"Entwaffnet"
+		"modifier_citadel_tech_shield"		"Schildpunkte gegen Magieschaden"
+		"modifier_citadel_revealed_on_map"		"Aufgedeckt"
+		"modifier_citadel_cursed"				"Verflucht"
+		"modifier_citadel_feared"				"Verängstigt"
+
+		"modifier_item_disarmed"				"Entwaffnet"
+		"modifier_citadel_disarm_proc"			"Entwaffnet"
+		//"modifier_citadel_disarm_proc_buildup"	"Disarming..."
+		//"disarm_immune"							"Disarm Immune"
+		//"modifier_citadel_dodging"				"Dodging"
+		//"modifier_prevent_healing"				"Healing Disabled"
+		
+		//"modifier_obscured_by_steam"			"Obscured"
+		"modifier_citadel_unstick" 				"Wird befreit …"
+		"modifier_citadel_barrier"				"Barriere"
+
+		"base_stat_regen"						"Grundregeneration des Helden"
+		"modifier_citadel_dazed"				"Benommen"
+
+		//-----------------------------------------------------------------------------
+		// END Unit states
+		//-----------------------------------------------------------------------------
+
+
+		//-----------------------------------------------------------------------------
+		// Ability Property Text
+		//-----------------------------------------------------------------------------
+		"Citadel_AbilityProperty_OnHit"			"Bei Treffer:"
+		"Citadel_AbilityProperty_OnExplode"		"Bei Explosion:"
+		"Citadel_AbilityProperty_OnAttach"		"Beim Anbringen:"
+		"Citadel_AbilityProperty_BulletBuildup"	"Zunahme (Kugeltreffer):"
+		"Citadel_AbilityProperty_OnPickup"		"Beim Aufsammeln:"
+		"Citadel_AbilityProperty_Withdrawals"	"Rückzüge:"
+		"Citadel_AbilityProperty_OnHitEnemy"	"Bei Treffer (Gegner):"
+		"Citadel_AbilityProperty_OnHitFriendly"	"Bei Treffer (Verbündeter):"
+		"Citadel_AbilityProperty_OnCursedCast"	"Bei gewirktem Fluch:"
+
+
+		//-----------------------------------------------------------------------------
+		// Stat desc - These are the labels in the hero stats for each EStatType
+		//-----------------------------------------------------------------------------
+		"StatDesc_DPS"									"Schaden pro Sek."
+		"StatDesc_DPS_postvalue_label"									"Schaden pro Sek."
+		"StatDesc_MeleeDamage"							"Nahkampfschaden"
+		"StatDesc_MeleeDamage_postvalue_label"							"Nahkampfschaden"
+		"StatDesc_LightMeleeDamage"						"Nahkampfschaden (leicht)"
+		"StatDesc_LightMeleeDamage_postvalue_label"						"Nahkampfschaden (leicht)"
+		"StatDesc_HeavyMeleeDamage"						"Nahkampfschaden (schwer)"
+		"StatDesc_HeavyMeleeDamage_postvalue_label"						"Nahkampfschaden (schwer)"
+		"StatDesc_MaxHealth"							"max. LP"
+		"StatDesc_MaxHealth_postvalue_label"							"max. LP"
+		"StatDesc_ClipSizeBonus"						"Munition"
+		"StatDesc_ClipSizeBonus_postvalue_label"						"Munition"
+		"StatDesc_ClipSizeIncrease"						"Magazinkapazität"
+		"StatDesc_ClipSizeIncrease_postvalue_label"						"Magazinkapazität"
+		"StatDesc_ClipSizeIncrease_postfix"				" %"
+		//"StatDesc_BonusClips"							"Clips"
+		//"StatDesc_AmmoRegen"							"Ammo Regen"
+		"StatDesc_HealthRegen"							"Lebens­regen­eration"
+		"StatDesc_HealthRegen_postvalue_label"							"Lebensregeneration"
+		"StatDesc_BaseHealthRegen"						"Lebens­regene­ration"
+		"StatDesc_BaseHealthRegen_postvalue_label"						"Lebensregeneration"
+		"StatDesc_OutOfCombatHealthRegen"				"Reg. außerh. des Kampfes"
+		"StatDesc_OutOfCombatHealthRegen_postvalue_label"				"Reg. außerh. des Kampfes"
+		//"StatDesc_ExternalHealthRegen"					"External Health Regen"
+		"StatDesc_RunSpeed"								"Bewegungstempo"
+		"StatDesc_RunSpeed_postvalue_label"								"Bewegungstempo"
+		"StatDesc_RunSpeed_postfix"						" m/s"
+		"StatDesc_SprintSpeed"							"Sprinttempo"
+		"StatDesc_SprintSpeed_postvalue_label"							"Sprinttempo"
+		"StatDesc_SprintSpeed_postfix"					" m/s"
+		//"StatDesc_RunAcceleration"						"Move Acceleration"
+		//"StatDesc_SprintAcceleration"					"Sprint Acceleration"
+		"StatDesc_IncomingDamageReduction"				"Rüstung"
+		"StatDesc_IncomingDamageReduction_postvalue_label"				"Rüstung"
+		//"StatDesc_IncomingDamageScale"					"Incoming Damage Scale"
+		"StatDesc_BulletArmor"							"Rüstung"
+		"StatDesc_BulletArmor_postvalue_label"							"Rüstung"
+		"StatDesc_BulletArmorDamageReduction"			"Kugelresistenz"
+		"StatDesc_BulletArmorDamageReduction_postvalue_label"			"Kugelresistenz"
+		"StatDesc_BulletArmorDamageReduction_postfix"	" %"
+		//"StatDesc_IncomingBulletDamageReduction"		"Bullet Damage Armor"
+		//"StatDesc_IncomingBulletDamageScale"			"Bullet Damage Scale"
+		//"StatDesc_IncomingMeleeDamageReduction"			"Melee Damage Armor"
+		//"StatDesc_IncomingMeleeDamageScale"				"Melee Damage Scale"
+		"StatDesc_TechArmor"							"Magierüstung"
+		"StatDesc_TechArmor_postvalue_label"							"Magierüstung"
+		"StatDesc_TechArmorDamageReduction"		 		"Magieresistenz"
+		"StatDesc_TechArmorDamageReduction_postvalue_label"		 		"Magieresistenz"
+		"StatDesc_TechArmorDamageReduction_postfix"		" %"
+		//"StatDesc_IncomingAbilityDamageReduction"		"Ability Armor"
+		//"StatDesc_IncomingAbilityDamageScale"			"Ability Damage Scale"
+		"StatDesc_TechPower"							"Magiekraft"
+		"StatDesc_TechPower_postvalue_label"							"Magiekraft"
+		//"StatDesc_ManaPerLevel"							"Energy Per Level"
+		//"StatDesc_HealthPerLevel"						"Health Per Level"
+		//"StatDesc_ManaRegenPerLevel"					"Energy Regen Per Level"
+		//"StatDesc_HealthRegenPerLevel"					"Health Regen Per Level"
+		//"StatDesc_WeaponDPSPerLevel"					"Weapon DPS Per Level"
+		//"StatDesc_SuperSprintSpeed"						"Super Sprint Speed"
+		//"StatDesc_WeaponRange"							"Range"
+		//"StatDesc_WeaponRecoilReduction"				"Recoil Reduction"
+		"StatDesc_FireRate"								"Feuerrate"
+		"StatDesc_FireRate_postvalue_label"								"Feuerrate"
+		"StatDesc_FireRate_postfix"						" %"
+		//"StatDesc_Toughness"							"Toughness"
+		//"StatDesc_Technology"							"Technology"
+		//"StatDesc_Weaponry"								"Weaponry"
+		"StatDesc_WeaponPower"							"Waffenschaden"
+		"StatDesc_WeaponPower_postvalue_label"							"Waffenschaden"
+		"StatDesc_BulletDamage"							"Kugel­schaden"
+		"StatDesc_BulletDamage_postvalue_label"							"Kugel­schaden"
+		//"StatDesc_TechPowerAmp"							"Spirit"
+		//"StatDesc_EnergyMax"							"Energy Cells"
+		//"StatDesc_EnergyRegenTime"						"Energy Regen Time"
+		"StatDesc_RoundsPerSecond"						"Kugeln pro Sek."
+		"StatDesc_RoundsPerSecond_postvalue_label"						"Kugeln pro Sek."
+		//"StatDesc_BulletDamagePerLevel"					"Bullet Damage Per Level"
+		//"StatDesc_WeaponPowerAmp"						"Bullet Damage Amp"
+		//"StatDesc_AirJumps"								"Air Jumps"
+		//"StatDesc_ZipLineSpeed"							"Hyperline Speed"
+		//"StatDesc_ProcModifier"							"Proc Modifier"
+		"StatDesc_TechCooldown"							"Fähigkeitsabklingzeit"
+		"StatDesc_TechCooldown_postvalue_label"							"Fähigkeitsabklingzeit"
+		"StatDesc_TechCooldown_postfix"					" %"
+		"StatDesc_TechCooldownBetweenCharges"			"Aufladungsabklingzeit"
+		"StatDesc_TechCooldownBetweenCharges_postvalue_label"			"Aufladungsabklingzeit"
+		"StatDesc_TechCooldownBetweenCharges_postfix"	" %"
+		"StatDesc_TechRange"							"Fähigkeitsreichweite"
+		"StatDesc_TechRange_postvalue_label"							"Fähigkeitsreichweite"
+		"StatDesc_TechRange_postfix"					" %"
+		"StatDesc_MaxChargesIncrease"					"zusätzliche Aufladungen"
+		"StatDesc_MaxChargesIncrease_postvalue_label"					"zusätzliche Aufladungen"
+		//"StatDesc_RechargeRate"							"Recharge Rate"
+		"StatDesc_TechDuration"							"Fähigkeitsdauer"
+		"StatDesc_TechDuration_postvalue_label"							"Fähigkeitsdauer"
+		"StatDesc_TechDuration_postfix"					" %"
+		"StatDesc_WeaponPowerAttribute"					"Waffenschaden"
+		"StatDesc_WeaponPowerAttribute_postvalue_label"					"Waffenschaden"
+		"StatDesc_ArmorAttribute"						"Rüstung"
+		"StatDesc_ArmorAttribute_postvalue_label"						"Rüstung"
+		"StatDesc_HealthAttribute"						"Lebenspunkte"
+		"StatDesc_HealthAttribute_postvalue_label"						"Lebenspunkte"
+		"StatDesc_TechDamageAttribute"					"Magieschaden"
+		"StatDesc_TechDamageAttribute_postvalue_label"					"Magieschaden"
+		"StatDesc_FireRateAttribute"					"Feuerrate"
+		"StatDesc_FireRateAttribute_postvalue_label"					"Feuerrate"
+		"StatDesc_ReloadTime"							"Nachladedauer"
+		"StatDesc_ReloadTime_postvalue_label"							"Nachladedauer"
+		"StatDesc_ReloadTime_postfix"					" s"
+		"StatDesc_Stamina"								"Ausdauer"
+		"StatDesc_Stamina_postvalue_label"								"Ausdauer"
+		"StatDesc_StaminaRegenPerSecond"				"Ausdauer­regeneration"
+		"StatDesc_StaminaRegenPerSecond_postvalue_label"				"Ausdauerregeneration"
+		"StatDesc_StaminaRegenPerSecond_postfix"		" %"
+		"StatDesc_DashSpeedInMeters"								"Spurttempo"
+		"StatDesc_DashSpeedInMeters_postvalue_label"				"Spurttempo"
+		"StatDesc_DashSpeedInMeters_postfix"						" m/s"
+		"StatDesc_SpiritLifestealEffectiveness"					"Lebensraubeffektivität"
+		"StatDesc_SpiritLifestealEffectiveness_postvalue_label"				"Lebensraubeffektivität"
+		"StatDesc_SpiritLifestealEffectiveness_postfix"						" %"
+		"StatDesc_BaseWeaponDamage"						"Waffenschaden"
+		"StatDesc_BaseWeaponDamage_postvalue_label"						"Waffenschaden"
+		"StatDesc_BaseWeaponDamage_postfix"				" %"
+		"StatDesc_TechDamageScale"						"Magieschaden"
+		"StatDesc_TechDamageScale_postvalue_label"						"Magieschaden"
+		//"StatDesc_TechShieldHealth"						"Spirit Shield"
+		"StatDesc_BulletShieldHealth"					"Barrierepunkte"
+		"StatDesc_BulletShieldHealth_postvalue_label"					"Barrierepunkte"
+		"StatDesc_ReloadSpeed_prefix"					"{s:sign}"
+		"StatDesc_ReloadSpeed"							"Nachladedauerred."
+		"StatDesc_ReloadSpeed_postvalue_label"							"Nachladedauerred."
+		"StatDesc_ReloadSpeed_postfix"					" %"
+		"StatDesc_CritDamageReceivedScale"				"krit. Schadensred."
+		"StatDesc_CritDamageReceivedScale_postvalue_label"				"krit. Schadensred."
+		"StatDesc_CritDamageReceivedScale_postfix"		" %"
+		"StatDesc_StaminaCooldown"						"Ausdauer­abklingzeit"
+		"StatDesc_StaminaCooldown_postvalue_label"						"Ausdauerabklingzeit"
+		"StatDesc_StaminaCooldown_postfix"				" s"
+		"StatDesc_StaminaRegenIncrease_prefix"			"+"
+		"StatDesc_StaminaRegenIncrease"					"Ausdauer­regeneration"
+		"StatDesc_StaminaRegenIncrease_postvalue_label"					"Ausdauerregeneration"
+		"StatDesc_StaminaRegenIncrease_postfix"			" %"
+		"StatDesc_DebuffResist"							"Schwächungs­resistenz"
+		"StatDesc_DebuffResist_postvalue_label"							"Schwächungsresistenz"
+		"StatDesc_DebuffResist_postfix"					" %"
+		"StatDesc_HealingOutput"						"Ausgehende Heilung"
+		"StatDesc_HealingOutput_postvalue_label"						"ausgehende Heilung"
+		"StatDesc_HealingOutput_postfix"				" %"
+		"StatDesc_CritDamageBonusScale"					"krit. Schadensmod."
+		"StatDesc_CritDamageBonusScale_postvalue_label"					"krit. Schadensmod."
+		"StatDesc_CritDamageBonusScale_postfix"			" %"
+		"StatDesc_MeleeResist"							"Nahkampfresistenz"
+		"StatDesc_MeleeResist_postvalue_label"							"Nahkampfresistenz"
+		"StatDesc_MeleeResist_postfix"					" %"
+
+		"StatDesc_BulletSpeed"							"Kugeltempo"
+		"StatDesc_BulletSpeed_postvalue_label"							"Kugeltempo"
+		"StatDesc_BulletSpeed_postfix"					" m/s"
+		"StatDesc_BulletSpeedIncrease"					"Kugeltempoerhöhung"
+		"StatDesc_BulletSpeedIncrease_postvalue_label"					"Kugeltempoerhöhung"
+		"StatDesc_BulletSpeedIncrease_postfix"			" %"
+		
+		"StatDesc_WeaponRangeFalloffMin_postfix"		" m"
+		"StatDesc_WeaponRangeFalloffMax_postfix"		" m"
+
+		//"StatDesc_AttackPower"							"Attack Power"
+		//"StatDesc_AbilityPower"							"Ability Power"
+		//"StatDesc_DefensePower"							"Defense Power"
+
+		"StatDesc_TechLifesteal_prefix"					"{s:sign}"
+		"StatDesc_TechLifesteal"						"Magie­lebensraub"
+		"StatDesc_TechLifesteal_postvalue_label"						"Magielebensraub"
+		"StatDesc_TechLifesteal_postfix"				" %"
+
+		"StatDesc_TechLifestealNonHero_prefix"			"{s:sign}"
+		"StatDesc_TechLifestealNonHero"					"Magielebensraub gegen Nicht-Helden"
+		"StatDesc_TechLifestealNonHero_postvalue_label"					"Magielebensraub (Nicht-Helden)"
+
+		"StatDesc_BulletLifesteal_prefix"					"{s:sign}"
+		"StatDesc_BulletLifesteal"						"Kugel­lebensraub"
+		"StatDesc_BulletLifesteal_postvalue_label"						"Kugellebensraub"
+		"StatDesc_BulletLifesteal_postfix"				" %"
+
+		"StatDesc_StaminaRegenPercent"						"Ausdauer­regeneration"
+		"StatDesc_StaminaRegenPercent_postvalue_label"						"Ausdauerregeneration"
+		"StatDesc_StaminaRegenPercent_postfix"				" %"
+
+		"Attribute_EWeaponAttribute_RapidFire"			"Schnellfeuer"
+		"Attribute_EWeaponAttribute_BurstFire"			"Feuerstoß"
+		"Attribute_EWeaponAttribute_Spreadshot"			"Streuschuss"
+		"Attribute_EWeaponAttribute_BeamWeapon"			"Strahlenwaffe"
+		"Attribute_EWeaponAttribute_CloseRange"			"Nahbereich"
+		"Attribute_EWeaponAttribute_MediumRange"		"Mittlere Reichweite"
+		"Attribute_EWeaponAttribute_LongRange"			"Große Reichweite"
+		"Attribute_EWeaponAttribute_HeavyHitter"		"Hoher Schaden"
+		"Attribute_EWeaponAttribute_Projectile"			"Projektil"
+		"Attribute_EWeaponAttribute_Pistol"				"Pistole"
+		"Attribute_EWeaponAttribute_Heavy"				"Schwere Artillerie"
+		"Attribute_EWeaponAttribute_Bow"				"Bogen"
+		"Attribute_EWeaponAttribute_Bouncy"				"Projektil springt über"
+		"Attribute_EWeaponAttribute_Crossbow"			"Armbrust"
+		
+
+		//"WeaponPowerAttribute_Desc"						"%s1 to any weapon damage bonus"
+		//"ArmorAttribute_Desc"							"%s1 to any bullet and spirit armor bonus"
+		//"HealthAttribute_Desc"							"%s1 to any health and health regen bonuses"
+		//"TechDamageAttribute_Desc"						"%s1 to any spirit damage bonus"
+		//"FireRateAttribute_Desc"						"%s1 to any weapon fire rate bonus"
+
+		//"WeaponPowerAttribute_Desc_0"					"no additional weapon damage bonuses"
+		//"ArmorAttribute_Desc_0"							"no additional bullet armor bonuses"
+		//"HealthAttribute_Desc_0"						"no additional health and health regen bonuses"
+		//"TechDamageAttribute_Desc_0"					"no additional spirit damage bonuses"
+		//"FireRateAttribute_Desc_0"						"no additional weapon fire rate bonuses"
+
+		//-----------------------------------------------------------------------------
+		// END Stat desc
+		//-----------------------------------------------------------------------------
+
+		//-----------------------------------------------------------------------------
+		// Ability Properties desc
+		//-----------------------------------------------------------------------------
+		"AffectedProperty_new_value"				"<span class=\"AffectedValNew\">{s:valNew}</span>"
+		"AffectedPropertyPostFix"					"<span class=\"AffectedValPostfix\">{s:valPostfix}</span>"
+
+		"EMultiplyBase_postfix"						" %"
+
+		"HealAmount_label"							"Heilung"
+
+		"HealAmount_postvalue_label"							"Heilung"
+		"HealInterval_label"						"Heilungsintervall"
+		"HealInterval_postvalue_label"						"Heilungsintervall"
+		"HealInterval_postfix"						" s"
+		
+		"SlowPercent_label"							"Bewegungstempo"
+		"SlowPercent_postvalue_label"				"Bewegungstempo"
+		"SlowPercent_postfix"						" %"
+		"SlowPercent_prefix"						"−"
+		"movement_slow"								"Bewegungstempo reduziert"
+
+		"SlowPercentPerStack"						"Bewegungstempo pro Instanz"
+		"SlowPercentPerStack_postvalue_label"		"Bewegungstempo pro Instanz"
+		"SlowPercentPerStack_postfix"						" %"
+		"SlowPercentPerStack_prefix"						"−"
+
+		"MovementSpeedSlow_label"							"Bewegungstempo"
+		"MovementSpeedSlow_postvalue_label"					"Bewegungstempo"
+		"MovementSpeedSlow_postfix"							" %"
+		"MovementSpeedSlow_prefix"							"−"
+
+		"MovementSlowDuration_label"						"Verlangsamungs­dauer"
+		"MovementSlowDuration_postvalue_label"				"Verlangsamungs­dauer"
+		"MovementSlowDuration_postfix"						" s"
+
+		"MoveSpeedBonusPct_label"				"Bonusbewegungstempo"
+		"MoveSpeedBonusPct_postvalue_label"		"Bonusbewegungstempo"
+		"MoveSpeedBonusPct_prefix"				"+"
+		"MoveSpeedBonusPct_postfix"				" %"
+
+		//"DroneLifetime_label"							"Drone Lifetime"
+
+		"CritChance_label"							"Krit. Trefferchance"
+
+		"CritChance_postvalue_label"							"krit. Trefferchance"
+		"CritChance_postfix"							" %"
+
+		"ShieldHealth_label"							"Schildpunkte"
+
+
+		"ShieldHealth_postvalue_label"							"Schildpunkte"
+
+		//"SpeedBoostPercent_label"						"Speed"
+		"SpeedBoostPercent_prefix"						"{s:sign}"
+		"SpeedBoostPercent_postfix"						" %"
+
+		"Damage_label"								"Schaden"
+		"Damage_postvalue_label"								"Schaden"
+		
+		"DamagePerStack_label"								"Schaden pro Instanz"
+		"DamagePerStack_postvalue_label"					"Schaden pro Instanz"
+
+		"DamageBoosted_label"						"Schaden"
+		"DamageBoosted_postvalue_label"						"Schaden"
+
+		"BonusDamage_label"							"Bonusschaden"
+		"BonusDamage_postvalue_label"							"Bonusschaden"
+
+		"BonusDamagePercent_label"							"Bonusschaden"
+		"BonusDamagePercent_postvalue_label"							"Bonusschaden"
+		"BonusDamagePercent_prefix"						"{s:sign}"
+		"BonusDamagePercent_postfix"						" %"
+
+		"DamagePlayer_label"							"Schaden (Spieler)"
+		"DamagePlayer_postvalue_label"							"Schaden (Spieler)"
+
+		"DamageNPC_label"								"Schaden (Nicht-Spieler)"
+
+
+		"DamageNPC_postvalue_label"								"Schaden (Nicht-Spieler)"
+
+		"DetectionRadius_label"						"Enttarnungsradius"
+
+
+		"DetectionRadius_postvalue_label"						"Enttarnungsradius"
+
+		//"MaxMines_label"								"Max Mines"
+	
+		//"HealRate_label"								"Heal Rate"
+		"HealRate_postfix"								"/Sek."
+
+		"Radius_label"								"Radius"
+
+		"Radius_postvalue_label"								"Radius"
+		"Radius_postfix"								" m"
+
+		"InactiveRadius_label"						"Radius (inaktiv)"
+
+		"InactiveRadius_postvalue_label"						"Radius (inaktiv)"
+		"InactiveRadius_postfix"						" m"
+
+		"ActiveRadius_label"						"Radius (aktiv)"
+
+		"ActiveRadius_postvalue_label"						"Radius (aktiv)"
+		"ActiveRadius_postfix"						" m"
+
+		"MaxRadius_label"								"max. Radius"
+		"MinRadius_postvalue_label"					"min. Radius"
+		"MinRadius_postfix"							" m"
+		"MaxRadius_postvalue_label"								"max. Radius"
+		"MaxRadius_postfix"								" m"
+
+		//"TackleRadius_label"							"Tackle Radius"
+		"TackleRadius_postfix"							" m"
+
+		"MovementDamagePercent_label"					"Schaden"
+
+		"MovementDamagePercent_postvalue_label"					"Schaden"
+		//"MovementDamagePercent_postfix"					" % Damage every 256 units moved"
+
+		"DPS_prefix"									""
+		"DPS_postfix"									""
+		"DPS_label"									"Schaden pro Sek."
+
+		"DPS_postvalue_label"									"Schaden pro Sek."
+
+		"DamagePercentHealth_label"				"Max. LP als Schaden"
+
+		"DamagePercentHealth_postvalue_label"				"max. LP als Schaden"
+		"DamagePercentHealth_postfix"			" %"
+		"DPSPercentHealth_label" "Max. LP als Schaden"
+		"DPSPercentHealth_postvalue_label" "max. LP als Schaden"
+		"DPSPercentHealth_postfix" " %"
+
+		//"DPSIncrease_label"							"Damage Increase Rate"
+		"DPSMin_label"								"min. Schaden pro Sek."
+		"DPSMin_postvalue_label"								"Min. Schaden pro Sek."
+		"DPSMax_label"								"Max. Schaden pro Sek."
+
+		"DPSMax_postvalue_label"								"max. Schaden pro Sek."
+
+		"DPS_Self_label"								"Selbstschaden"
+
+		"DPS_Self_postvalue_label"								"Selbstschaden"
+		"DPS_Self_postfix"								"/Sek."
+
+		"BaseAttackDamage_prefix"						"{s:sign}"
+		"BaseAttackDamage_label"						"Grundschaden"
+		"BaseAttackDamage_postvalue_label"						"Grundschaden"
+
+		"MODIFIER_VALUE_BASEATTACK_DAMAGE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_BASEATTACK_DAMAGE_label"						"Grundschaden"
+		"MODIFIER_VALUE_BASEATTACK_DAMAGE_postvalue_label"						"Grundschaden"
+
+		"BonusHealth_prefix"							"{s:sign}"
+		"BonusHealth_label"							"Bonuslebenspunkte"
+		"BonusHealth_postvalue_label"							"Bonuslebenspunkte"
+
+		"MODIFIER_VALUE_HEALTH_MAX_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_HEALTH_MAX_label"							"Bonuslebenspunkte"
+		"MODIFIER_VALUE_HEALTH_MAX_postvalue_label"							"Bonuslebenspunkte"
+
+		"SpiritPowerInnate_prefix"							"{s:sign}"
+		"SpiritPowerInnate_label"							"Magiekraft"
+		"SpiritPowerInnate_postvalue_label"					"Magiekraft"
+
+		"MaxHealth_prefix"							"{s:sign}"
+		"MaxHealth_label"							"max. Lebenspunkte"
+
+		"MaxHealth_postvalue_label"							"max. LP"
+
+		//"BonusEnergyMax_label"						"Energy Cells"
+
+		"BonusMaxHealth_prefix"							"{s:sign}"
+		"BonusMaxHealth_label"						"max. Lebens­punkte"
+
+		"BonusMaxHealth_postvalue_label"						"Max. LP"
+
+		"BonusHealthPercent_prefix"					"{s:sign}"
+		"BonusHealthPercent_postfix"				" %"
+		"BonusHealthPercent_label"					"Lebenspunkte"
+		"BonusHealthPercent_postvalue_label"					"Lebenspunkte"
+
+		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_postfix"				" %"
+		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_label"					"Lebenspunkte"
+		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_postvalue_label"					"Lebenspunkte"
+
+		"BonusHealthRegen_prefix"					"{s:sign}"
+		"BonusHealthRegen_postfix"					""
+		"BonusHealthRegen_label"					"Lebensregeneration"
+		"BonusHealthRegen_postvalue_label"					"Lebensregeneration"
+
+		"MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND_postfix"					""
+		"MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND_label"					"Lebensregeneration"
+		"MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND_postvalue_label"					"Lebensregeneration"
+
+		"OutOfCombatHealthRegen_prefix"					"{s:sign}"
+		"OutOfCombatHealthRegen_postfix"				""
+		"OutOfCombatHealthRegen_label"					"Regeneration außerh. des Kampfes"
+		"OutOfCombatHealthRegen_postvalue_label"					"Regeneration außerh. des Kampfes"
+
+		"MODIFIER_VALUE_OUT_OF_COMBAT_HEALTH_REGEN_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_OUT_OF_COMBAT_HEALTH_REGEN_postfix"				""
+		"MODIFIER_VALUE_OUT_OF_COMBAT_HEALTH_REGEN_label"					"Regeneration außerh. des Kampfes"
+		"MODIFIER_VALUE_OUT_OF_COMBAT_HEALTH_REGEN_postvalue_label"					"Regeneration außerh. des Kampfes"
+
+		"BaseWeaponDamage_postfix"						" %"
+
+		//"LevelUpBaseWeaponDamage"					"Bullet Damage"
+		"LevelUpBaseMeleeDamage"					"Nahkampfschaden"
+
+		"HealthRegen_prefix"						"{s:sign}"
+		"HealthRegen_postfix"						""
+		"HealthRegen_label"						"Lebensregeneration"
+
+		"HealthRegen_postvalue_label"						"Lebensregeneration"
+
+		"BonusRegenMaxHealthPercent_prefix"					"{s:sign}"
+		"BonusRegenMaxHealthPercent_postfix"					" %"
+		"BonusRegenMaxHealthPercent_label"						"Lebensregeneration (max. LP)"
+		"BonusRegenMaxHealthPercent_postvalue_label"						"Lebensregeneration (max. LP)"
+
+		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_postfix"					" %"
+		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_label"						"Lebensregeneration (max. LP)"
+		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_postvalue_label"						"Lebensregeneration (max. LP)"
+
+		"BonusHealthRegenOutOfCombat_prefix"			"{s:sign}"
+		//"BonusHealthRegenOutOfCombat_postfix"			""
+		//"BonusHealthRegenOutOfCombat_label"			"Health Regen Out of Combat"
+
+		"ExternalBonusHealthRegen_prefix"				"{s:sign}"
+		"ExternalBonusHealthRegen_postfix"				"/Sek."
+		"ExternalBonusHealthRegen_label"				"Lebensregeneration"
+		"ExternalBonusHealthRegen_postvalue_label"				"Lebensregeneration"
+
+		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_postfix"				"/Sek."
+		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_label"				"Lebensregeneration"
+		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_postvalue_label"				"Lebensregeneration"
+
+		"ActiveHealthRegenBoost_prefix"					"{s:sign}"
+		//"ActiveHealthRegenBoost_postfix"				"hp/s"
+		"ActiveHealthRegenBoost_label"				"Lebensregeneration"
+
+		"ActiveHealthRegenBoost_postvalue_label"				"Lebensregeneration"
+
+		"NonPlayerBonusWeaponPower_label"			"Waffenschaden gegen NSC"
+		"NonPlayerBonusWeaponPower_postvalue_label"			"Waffenschaden gegen NSC"
+		"NonPlayerBonusWeaponPower_prefix"			"{s:sign}"
+		"NonPlayerBonusWeaponPower_postfix"			" %"
+		"NonPlayerBonusWeaponPower_conditional"		"gegen NSC"
+
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_label"			"Waffenschaden gegen NSC"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_postvalue_label"			"Waffenschaden gegen NSC"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_prefix"			"{s:sign}"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_postfix"			" %"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_conditional"		"gegen NSC"
+
+		"NonPlayerBulletResist_label"			"Kugelresistenz gegen NSC"
+
+		"NonPlayerBulletResist_postvalue_label"			"Kugelresistenz gegen NSC"
+		"NonPlayerBulletResist_prefix"			"{s:sign}"
+		"NonPlayerBulletResist_postfix"			" %"
+		"NonPlayerBulletResist_conditional"		"gegen NSC"
+
+		"BonusMeleeDamagePercent_prefix"				"{s:sign}"
+		"BonusMeleeDamagePercent_postfix"				" %"
+		"BonusMeleeDamagePercent_label"				"Nahkampfschaden"
+
+		"BonusMeleeDamagePercent_postvalue_label"				"Nahkampfschaden"
+
+		"BonusMeleeDamage_prefix"						"{s:sign}"
+		"BonusMeleeDamage_label"						"Nahkampfschaden"
+
+		"BonusMeleeDamage_postvalue_label"						"Nahkampfschaden"
+
+		"MODIFIER_VALUE_MELEEATTACK_DAMAGE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_MELEEATTACK_DAMAGE_label"						"Nahkampfschaden"
+
+		"MODIFIER_VALUE_MELEEATTACK_DAMAGE_postvalue_label"						"Nahkampfschaden"
+
+		"FuseTime_label"								"Zündungsverzögerung"
+
+		"FuseTime_postvalue_label"								"Zündungsverzögerung"
+		"FuseTime_postfix"								" s"
+
+		"BonusAmmoRegen_prefix"							"{s:sign}"
+		"BonusAmmoRegen_postfix"						" pro Sekunde"
+		//"BonusAmmoRegen_label"						"Ammo Regen"
+
+		"BonusAmmo_prefix"								"{s:sign}"
+		"BonusAmmo_postfix"								" %"
+		//"BonusAmmo_label"								"Bullets"
+
+		"Lifetime_postfix"								" s"
+		"Lifetime_label"								"Lebensdauer"
+
+		"Lifetime_postvalue_label"								"Lebensdauer"
+
+		"Distance_postfix"								" m"
+		//"Distance_label"								"Distance"
+
+		//"ChainDamageCoeff_postfix"						"% of gun damage"
+		//"ChainDamageCoeff_label"						"Chain Damage"
+
+		"BulletArmor_prefix"							"{s:sign}"
+		"BulletArmor_label"								"Kugelrüstung"
+		"BulletArmor_postvalue_label"								"Kugelrüstung"
+
+		"MODIFIER_VALUE_BULLET_ARMOR_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_BULLET_ARMOR_label"								"Kugelrüstung"
+		"MODIFIER_VALUE_BULLET_ARMOR_postvalue_label"								"Kugelrüstung"
+
+		"BulletResist_prefix"							"{s:sign}"
+		"BulletResist_postfix"							" %"
+		"BulletResist_label"							"Kugelresistenz"
+		"BulletResist_postvalue_label"							"Kugelresistenz"
+
+		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_postfix"							" %"
+		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_label"							"Kugelresistenz"
+		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_postvalue_label"							"Kugelresistenz"
+
+		"BulletArmorDamageReduction_prefix"				"{s:sign}"
+		"BulletArmorDamageReduction_postfix"			" %"
+		"BulletArmorDamageReduction_label"				"Kugelresistenz"
+		"BulletArmorDamageReduction_postvalue_label"				"Kugelresistenz"
+
+		"BulletArmorDamageReductionPerStack_prefix"				"{s:sign}"
+		"BulletArmorDamageReductionPerStack_postfix"			" %"
+		"BulletArmorDamageReductionPerStack_label"				"Kugelresistenz pro Instanz"
+		"BulletArmorDamageReductionPerStack_postvalue_label"	"Kugelresistenz pro Instanz"
+
+
+
+		// this name is misleading since we use this as a debuff ("TechResist" is the buff version)
+		"TechArmorDamageReduction_prefix"				"{s:sign}"
+		"TechArmorDamageReduction_postfix"				" %"
+		"TechArmorDamageReduction_Label"				"Magieresistenz"
+		"TechArmorDamageReduction_postvalue_label"				"Magieresistenz"
+
+		"BulletResistReduction_label"		"Kugelresistenz"
+		"BulletResistReduction_postvalue_label"		"Kugelresistenz"
+		"BulletResistReduction_postfix"	" %"
+
+		"MeleeResistReduction_label"		"Nahkampfresistenz"
+		"MeleeResistReduction_postvalue_label"		"Nahkampfresistenz"
+		"MeleeResistReduction_postfix"	" %"
+
+		"BulletResistReductionPerStack_label"		"Kugelresistenz pro Instanz"
+		"BulletResistReductionPerStack_postvalue_label"		"Kugelresistenz pro Instanz"
+		"BulletResistReductionPerStack_postfix"	" %"
+
+		"MagicResistReduction_label"		"Magieresistenz"
+
+		"MagicResistReduction_postvalue_label"		"Magieresistenz"
+		"MagicResistReduction_postfix"	" %"
+
+		"TechDamageScale_prefix"						"{s:sign}"
+		"TechDamageScale_postfix"						" %"
+		"TechDamageScale_label"							"Magieschaden"
+
+		"TechDamageScale_postvalue_label"							"Magieschaden"
+
+		"OutgoingTechDamagePercent_label" "Magieschaden"
+
+		"OutgoingTechDamagePercent_postvalue_label" "Magieschaden"
+		"OutgoingTechDamagePercent_postfix" " %"
+
+		"TechArmor_prefix"								"{s:sign}"
+		"TechArmor_label"								"Magierüstung"
+		"TechArmor_postvalue_label"								"Magierüstung"
+
+		"MODIFIER_VALUE_TECH_ARMOR_prefix"								"{s:sign}"
+		"MODIFIER_VALUE_TECH_ARMOR_label"								"Magierüstung"
+		"MODIFIER_VALUE_TECH_ARMOR_postvalue_label"								"Magierüstung"
+		
+		"TechResist_prefix"								"{s:sign}"
+		"TechResist_postfix"							" %"
+		"TechResist_label"								"Magieresistenz"
+		"TechResist_postvalue_label"								"Magieresistenz"
+
+		"MODIFIER_VALUE_TECH_RESIST_prefix"								"{s:sign}"
+		"MODIFIER_VALUE_TECH_RESIST_postfix"							" %"
+		"MODIFIER_VALUE_TECH_RESIST_label"								"Magieresistenz"
+		"MODIFIER_VALUE_TECH_RESIST_postvalue_label"								"Magieresistenz"
+
+		"TechResistPerStack_prefix"						"{s:sign}"
+		"TechResistPerStack_postfix"					" %"
+		"TechResistPerStack_label"						"Magieschadens­verstärkung pro Instanz"
+		"TechResistPerStack_postvalue_label"						"Magieschadens­verstärkung pro Instanz"
+
+		"MagicIncreasePerStack_prefix"					"{s:sign}"
+		"MagicIncreasePerStack_postfix"					" %"
+		"MagicIncreasePerStack_label"					"Magieschadens­verstärkung pro Instanz"
+
+		"MagicIncreasePerStack_postvalue_label"					"Magieschadens­verstärkung pro Instanz"
+
+		"BulletDamageReduction_postfix"					" %"
+		"BulletDamageReduction_label"					"Kugelrüstung"
+		"BulletDamageReduction_postvalue_label"					"Kugelrüstung"
+
+		"ActiveBulletDamageReduction_prefix"			"{s:sign}"
+		"ActiveBulletDamageReduction_label"			"Kugelschaden"
+		"ActiveBulletDamageReduction_postvalue_label"			"Kugel­schaden"
+		"ActiveBulletDamageReduction_postfix"			" %"
+
+		"MODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_postfix"					" %"
+		"MODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_label"					"Kugelrüstung"
+		"MODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_postvalue_label"					"Kugelrüstung"
+
+		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_prefix"			"{s:sign}"
+		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_label"			"Kugel­schaden"
+		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_postvalue_label"			"Kugel­schaden"
+		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_postfix"			" %"
+
+		"BonusMoveSpeed_prefix"							"{s:sign}"
+		"BonusMoveSpeed_label"						"Bewegungstempo"
+		"BonusMoveSpeed_postvalue_label"						"Bewegungstempo"
+		"BonusMoveSpeed_postfix"						" m/s"
+
+		"FloatMoveSpeed_prefix"							""
+		"FloatMoveSpeed_label"						"Schwebetempo"
+		"FloatMoveSpeed_postvalue_label"						"Schwebetempo"
+		"FloatMoveSpeed_postfix"						" m/s"
+
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_label"						"Bewegungstempo"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_postvalue_label"						"Bewegungstempo"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_postfix"						" m/s"
+
+		"RestoreDelay_prefix"							"{s:sign}"
+		"RestoreDelay_label"						"Wiederherstellungsverzögerung"
+		"RestoreDelay_postvalue_label"						"Wiederherstellungsverzögerung"
+		"RestoreDelay_postfix"						" s"
+
+		"HealLifePercentOutOfCombat_prefix"				"{s:sign}"
+		"HealLifePercentOutOfCombat_label"				"Lebensregeneration (max. LP)"
+		"HealLifePercentOutOfCombat_postvalue_label"	"Lebensregeneration (max. LP)"
+		"HealLifePercentOutOfCombat_postfix"			" %"
+		
+		"TeleporterBonus"							"Bonusbewegungstempo!"
+		"RunSpeed_postfix"						" m/s"
+
+		"WeaponRange_label"							"Waffenreichweite"
+
+		"WeaponRange_postvalue_label"							"Waffenreichweite"
+		"WeaponRange_postfix"						" m"
+
+		"BonusMoveSpeedPercent_prefix"					"{s:sign}"
+		"BonusMoveSpeedPercent_postfix"					" %"
+		"BonusMoveSpeedPercent_label"					"Bewegungstempo"
+		"BonusMoveSpeedPercent_postvalue_label"					"Bewegungstempo"
+
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_postfix"					" %"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_label"					"Bewegungstempo"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_postvalue_label"					"Bewegungstempo"
+
+		"SlowResistancePercent_prefix"					"{s:sign}"
+		"SlowResistancePercent_label"					"Verlangsamungsresistenz"
+		"SlowResistancePercent_postvalue_label"					"Verlangsamungsresistenz"
+		"SlowResistancePercent_postfix"					" %"
+
+		"AirSpeedBonus_label"						"Bonustempo in der Luft"
+
+		"AirSpeedBonus_postvalue_label"						"Bonustempo in der Luft"
+		"AirSpeedBonus_prefix"						"{s:sign}"
+		"AirSpeedBonus_postfix"						" m/s"
+		//"AscendSpeed_label"							""
+		//"DescendSpeed_label"							""
+
+		"BonusCooldownReduction_label"					"Abklingzeitreduzierung pro Kugel"
+
+
+		"BonusCooldownReduction_postvalue_label"					"Abklingzeitreduzierung pro Kugel"
+
+		"BonusClipSize_prefix"							"{s:sign}"
+		"BonusClipSize_label"							"Munition"
+		"BonusClipSize_postvalue_label"							"Munition"
+
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_label"							"Munition"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_postvalue_label"							"Munition"
+
+		"BonusClipSizePercent_prefix"					"{s:sign}"
+		"BonusClipSizePercent_postfix"					" %"
+		"BonusClipSizePercent_label"					"Max. Munition"
+		"BonusClipSizePercent_postvalue_label"					"max. Munition"
+
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_postfix"					" %"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_label"					"Max. Munition"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_postvalue_label"					"max. Munition"
+
+		"TemporaryBonusClipSize_prefix"				"{s:sign}"
+		"TemporaryBonusClipSize_label"				"temp. Munition"
+		"TemporaryBonusClipSize_postvalue_label"				"temp. Munition"
+
+		"TemporaryBonusClipSizePercent_prefix"			"{s:sign}"
+		"TemporaryBonusClipSizePercent_postfix"			" %"
+		"TemporaryBonusClipSizePercent_label"			"temp. Munition"
+
+		"TemporaryBonusClipSizePercent_postvalue_label"			"temp. Munition"
+
+		"AmmoReloadPercent_postfix"					" %"
+		"AmmoReloadPercent_label"					"nachgeladene Kugeln"
+
+		"AmmoReloadPercent_postvalue_label"					"nachgeladene Kugeln"
+
+		"BulletPenetrationPercent_postfix"				" %"
+		"BulletPenetrationPercent_label"				"Kugeldurchdringungsschaden"
+
+		"BulletPenetrationPercent_postvalue_label"				"Kugeldurchdringungsschaden"
+
+		"TechPower_prefix"								"{s:sign}"
+		"TechPower_label"								"Magiekraft"
+		"TechPower_postvalue_label"								"Magiekraft"
+		"TechPower_postfix"								""
+
+		"MODIFIER_VALUE_TECH_POWER_prefix"								"{s:sign}"
+		"MODIFIER_VALUE_TECH_POWER_label"								"Magiekraft"
+		"MODIFIER_VALUE_TECH_POWER_postvalue_label"								"Magiekraft"
+		"MODIFIER_VALUE_TECH_POWER_postfix"								""
+
+		"TechPowerPercent_prefix"						"{s:sign}"
+		"TechPowerPercent_label"						"Magiekraft"
+		"TechPowerPercent_postvalue_label"						"Magiekraft"
+		"TechPowerPercent_postfix"						" %"
+
+		"MODIFIER_VALUE_TECH_POWER_PERCENT_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_TECH_POWER_PERCENT_label"						"Magiekraft"
+		"MODIFIER_VALUE_TECH_POWER_PERCENT_postvalue_label"						"Magiekraft"
+		"MODIFIER_VALUE_TECH_POWER_PERCENT_postfix"						" %"
+
+		"ArmorPower_prefix"								"{s:sign}"
+		"ArmorPower_label"								"Grundlebens­punkte"
+		"ArmorPower_postvalue_label"								"Grundlebens­punkte"
+		"ArmorPower_postfix"								" %"
+
+		"MODIFIER_VALUE_ARMOR_POWER_prefix"								"{s:sign}"
+		"MODIFIER_VALUE_ARMOR_POWER_label"								"Grundlebens­punkte"
+		"MODIFIER_VALUE_ARMOR_POWER_postvalue_label"								"Grundlebens­punkte"
+		"MODIFIER_VALUE_ARMOR_POWER_postfix"								" %"
+
+		"TechPowerAmp_prefix"							"{s:sign}"
+		//"TechPowerAmp_label"							"Spirit"
+		//"TechPowerAmp_postfix"							""
+
+		"SpellAmplificationPercent_prefix"				"{s:sign}"
+		"SpellAmplificationPercent_label"				"Magiekraft"
+		"SpellAmplificationPercent_postvalue_label"				"Magiekraft"
+		"SpellAmplificationPercent_postfix"				""
+
+		//BaseDamagePerShot_label							"Base Damage"
+		"NanoTechPerShot_label"							"Magieschaden"
+		"NanoTechPerShot_postvalue_label"							"Magieschaden"
+		//"ExplosiveSplashDamage_label"						"Explode Damage"
+		"BulletDamageTotal_label"							"Kugelschaden"
+
+		"BulletDamageTotal_postvalue_label"							"Kugelschaden"
+
+		"ChargesRestored_label"							"Aufladungen wiederhergestellt"			
+
+
+		"ChargesRestored_postvalue_label"							"Aufladungen wiederhergestellt"			
+
+		"BonusFireRate_prefix"							"{s:sign}"
+		"BonusFireRate_postfix"							" %"
+		"BonusFireRate_label"							"Feuerrate"
+		"BonusFireRate_postvalue_label"							"Feuerrate"
+
+		"MODIFIER_VALUE_FIRE_RATE_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_FIRE_RATE_postfix"							" %"
+		"MODIFIER_VALUE_FIRE_RATE_label"							"Feuerrate"
+		"MODIFIER_VALUE_FIRE_RATE_postvalue_label"							"Feuerrate"
+		
+		"ActivatedFireRate_prefix"						"{s:sign}"
+		"ActivatedFireRate_postfix"						" %"
+		"ActivatedFireRate_label"						"Feuerrate"
+
+		"ActivatedFireRate_postvalue_label"						"Feuerrate"
+
+		"BonusFireRatePlayerUnit_prefix"				"{s:sign}"
+		"BonusFireRatePlayerUnit_postfix"				" %"
+		"BonusFireRatePlayerUnit_label"					"Feuerrate (Spielerdiener)"
+
+		"BonusFireRatePlayerUnit_postvalue_label"					"Feuerrate (Spielerdiener)"
+
+		"BonusFireRateNPC_prefix"							"{s:sign}"
+		"BonusFireRateNPC_postfix"							" %"
+		"BonusFireRateNPC_label"							"Feuerrate für NSC"
+
+		"BonusFireRateNPC_postvalue_label"							"Feuerrate (NSC)"
+
+		"BonusMeleeAttackSpeed_prefix"					"{s:sign}"
+		"BonusMeleeAttackSpeed_postfix"					" %"
+		//"BonusMeleeAttackSpeed_label"					"Melee Speed"
+
+		"MODIFIER_VALUE_MELEEATTACK_SPEED_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_MELEEATTACK_SPEED_postfix"					" %"
+
+		"AbilityDamageReduction_label"				"Magieschadens­reduzierung"
+		"AbilityDamageReduction_postvalue_label"				"Magieschadens­reduzierung"
+		"AbilityDamageReduction_postfix"				" %"
+
+		"MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_label"				"Magieschadens­reduzierung"
+		"MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_postvalue_label"				"Magieschadens­reduzierung"
+		"MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_postfix"				" %"
+
+		//"SlowProcChance_label"						"Chance to slow on hit"
+		"SlowProcChance_postfix"						" %"
+
+		"EnemySlowPct_label"							"Bewegungstempo (Gegner)"
+
+		"EnemySlowPct_postvalue_label"							"Bewegungstempo (Gegner)"
+		"EnemySlowPct_postfix"							" %"
+		"EnemySlowPct_prefix"							"−"
+
+		"SlowDuration_label"							"Verlangsamungsdauer"			
+
+		"SlowDuration_postvalue_label"							"Verlangsamungs­dauer"
+		"SlowDuration_postfix"							" s"
+
+		"MoveSpeedSlowDuration_label"							"Verlangsamungs­dauer"
+
+		"MoveSpeedSlowDuration_postvalue_label"							"Verlangsamungs­dauer"
+		"MoveSpeedSlowDuration_postfix"							" s"
+
+		//"PoisonDamage_label"							"Poison Damage"
+		"PoisonDuration_label"							"Dauer"
+		"PoisonDuration_postvalue_label"							"Dauer"
+		"PoisonDuration_postfix"							" s"
+
+
+		"DebuffDuration_label"						"Schwächungs­dauer"
+
+
+		"DebuffDuration_postvalue_label"						"Schwächungs­dauer"
+		"DebuffDuration_postfix"						" s"
+
+		"DotHealthPercent_label"						"Ausblutungsschaden"
+
+		"DotHealthPercent_postvalue_label"						"Ausblutungsschaden"
+		"DotHealthPercent_postfix"						" % Schaden pro Sek."
+
+		"CurrentHealthPercent_label"					"aktuelle LP"
+
+		"CurrentHealthPercent_postvalue_label"					"aktuelle LP"
+		"CurrentHealthPercent_postfix"					" %"
+		
+		"CurrentHealthPercentDamage_label"				"aktuelle LP"
+		
+		"CurrentHealthPercentDamage_postvalue_label"				"aktuelle LP"
+		"CurrentHealthPercentDamage_postfix"			" %"
+		"FreezeDuration_label"							"Einfrierungsdauer"
+		"FreezeDuration_postvalue_label"							"Einfrierungsdauer"
+		"FreezeDuration_postfix"							" s"
+
+		"CooldownReduction_prefix"						"{s:sign}"
+		"CooldownReduction_postfix"						" %"
+		"CooldownReduction_label"						"Abklingzeitred. für Fähigkeit"
+		"CooldownReduction_postvalue_label"						"Abklingzeitred. für Fähigkeit"
+		"UltimateCooldownReduction_prefix"						"{s:sign}"
+		"UltimateCooldownReduction_postfix"						" %"
+		"UltimateCooldownReduction_label"						"Abklingzeitred. für ult. Fähigkeit"
+		"UltimateCooldownReduction_postvalue_label"						"Abklingzeitred. für ult. Fähigkeit"
+		
+		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_postfix"						" %"
+		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_label"						"Abklingzeitred. für Fähigkeit"
+		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_postvalue_label"						"Abklingzeitred. für Fähigkeit"
+
+		"SingleAbilityCooldownReduction_prefix"						"{s:sign}"
+		"SingleAbilityCooldownReduction_postfix"					" %"
+		"SingleAbilityCooldownReduction_label"						"Abklingzeitred. für Fähigkeit"
+		"SingleAbilityCooldownReduction_postvalue_label"			"Abklingzeitred. für Fähigkeit"
+		
+		"ItemCooldownReduction_prefix"						"{s:sign}"
+		"ItemCooldownReduction_postfix"						" %"
+		"ItemCooldownReduction_label"						"Abklingzeitred. für Gegenstand"
+		"ItemCooldownReduction_postvalue_label"						"Abklingzeitred. für Gegenstand"
+
+		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_postfix"						" %"
+		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_label"						"Abklingzeitred. für Gegenstand"
+		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_postvalue_label"						"Abklingzeitred. für Gegenstand"
+
+		"CooldownRefundPercent_postfix"	" %"
+		"CooldownRefundPercent_label"	"Abklingzeiterstattung"
+
+		"CooldownRefundPercent_postvalue_label"	"Abklingzeiterstattung"
+
+		"ImbuedCooldownReduction_prefix"				"{s:sign}"
+		"ImbuedCooldownReduction_postfix"				" %"
+		"ImbuedCooldownReduction_label"					"Abklingzeitred. für veredelte Fähigkeit"
+
+		"ImbuedCooldownReduction_postvalue_label"					"Abklingzeitred. für veredelte Fähigkeit"
+
+		"NonImbuedCooldownReduction_prefix"				"{s:sign}"
+		"NonImbuedCooldownReduction_postfix"			" %"
+		"NonImbuedCooldownReduction_label"				"Abklingzeitred. für nicht veredelte Fähigkeiten"
+
+		"NonImbuedCooldownReduction_postvalue_label"				"Abklingzeitred. für nicht veredelte Fähigkeiten"
+
+		"CooldownReductionFlat_postfix"					" s"
+		"CooldownReductionFlat_label"					"Abklingzeitreduzierung"
+
+		"CooldownReductionFlat_postvalue_label"					"Abklingzeitreduzierung"
+
+		"BonusAbilityCharges_prefix"					"{s:sign}"
+		"BonusAbilityCharges_label"					"Bonusaufladung(en) für Fähigkeit"
+
+		"BonusAbilityCharges_postvalue_label"					"Bonusaufladung(en) für Fähigkeit"
+
+		"MODIFIER_VALUE_BONUS_ABILITY_CHARGES_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_BONUS_ABILITY_CHARGES_label"					"Bonusaufladung(en) für Fähigkeit"
+
+		"MODIFIER_VALUE_BONUS_ABILITY_CHARGES_postvalue_label"					"Bonusaufladung(en) für Fähigkeit"
+
+		//"BonusChargedAbilityDamage_label"				"Charged Ability Damage"
+		"BonusChargedAbilityDamage_prefix"				"{s:sign}"
+		"BonusChargedAbilityDamage_postfix"				" %"
+
+		"CooldownBetweenChargeReduction_prefix"			"{s:sign}"
+		"CooldownBetweenChargeReduction_label"			"Verzögerungsred. zw. Aufladungen"
+		"CooldownBetweenChargeReduction_postvalue_label"			"Verzögerungsred. zw. Aufladungen"
+		"CooldownBetweenChargeReduction_postfix"		" %"
+
+		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_prefix"			"{s:sign}"
+		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_label"			"Verzögerungsred. zw. Aufladungen"
+		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_postvalue_label"			"Verzögerungsred. zw. Aufladungen"
+		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_postfix"		" %"
+
+		"BonusSprintSpeed_prefix"						"{s:sign}"
+		"BonusSprintSpeed_postfix"						" m/s"
+		"BonusSprintSpeed_label"						"Sprinttempo"
+		"BonusSprintSpeed_postvalue_label"						"Sprinttempo"
+		
+		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_postfix"						" m/s"
+		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_label"						"Sprinttempo"
+		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_postvalue_label"						"Sprinttempo"
+
+		"SprintSpeed_postfix"							" m/s"
+		"SprintSpeed_label"								"Sprinttempo"
+
+		"SprintSpeed_postvalue_label"								"Sprinttempo"
+
+		"BonusSprintSpeedPercent_prefix"				"{s:sign}"
+		"BonusSprintSpeedPercent_label"				"Sprinttempo"
+		"BonusSprintSpeedPercent_postvalue_label"				"Sprinttempo"
+		"BonusSprintSpeedPercent_postfix"				" %"
+
+		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_label"				"Sprinttempo"
+		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_postvalue_label"				"Sprinttempo"
+		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_postfix"				" %"
+
+		"BonusSuperSprintSpeed_prefix"					"{s:sign}"
+		"BonusSuperSprintSpeed_label"					"Sprinttempo"
+
+		"BonusSuperSprintSpeed_postvalue_label"					"Sprinttempo"
+
+		"BonusSuperSprintSpeedPercent_prefix"			"{s:sign}"
+		"BonusSuperSprintSpeedPercent_postfix"			" %"
+
+		"TotalHealthRegen_label"						"Insg. regenerierte LP"
+
+
+		"TotalHealthRegen_postvalue_label"						"insg. regenerierte LP"
+
+		"StatusResistancePercent_prefix"				"{s:sign}"
+		"StatusResistancePercent_label"				"Schwächungsresistenz"
+		"StatusResistancePercent_postvalue_label"				"Schwächungsresistenz"
+		"StatusResistancePercent_postfix"				" %"
+
+		"InnateStatusResistancePercent_prefix"				"{s:sign}"
+		"InnateStatusResistancePercent_label"				"Schwächungsresistenz"
+		"InnateStatusResistancePercent_postvalue_label"				"Schwächungsresistenz"
+		"InnateStatusResistancePercent_postfix"				" %"
+
+		"FervorStatusResistancePercent_prefix"				"{s:sign}"
+		"FervorStatusResistancePercent_label"				"Schwächungsresistenz"
+		"FervorStatusResistancePercent_postvalue_label"				"Schwächungsresistenz"
+		"FervorStatusResistancePercent_postfix"				" %"
+
+		"MODIFIER_VALUE_STATUS_RESISTANCE_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_STATUS_RESISTANCE_label"				"Schwächungsresistenz"
+		"MODIFIER_VALUE_STATUS_RESISTANCE_postvalue_label"				"Schwächungsresistenz"
+		"MODIFIER_VALUE_STATUS_RESISTANCE_postfix"				" %"
+
+		"StatusResistanceDuration_label"				"Dauer"
+
+		"StatusResistanceDuration_postvalue_label"				"Dauer"
+		"StatusResistanceDuration_postfix"				" s"
+
+		"CleavePercentage_prefix"						"{s:sign}"
+		//"CleavePercentage_label"						"Splash Amount"
+		"CleavePercentage_postfix"						" %"
+
+		//"CleaveRadius_label"							"Splash Radius"
+
+		"BonusAccuracy_prefix"							"{s:sign}"
+		"BonusAccuracy_postfix"							" %"
+		//"BonusAccuracy_label"							"Gun Accuracy"
+
+		"MODIFIER_VALUE_FIREARM_ACCURACY_PERCENTAGE_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_FIREARM_ACCURACY_PERCENTAGE_postfix"							" %"
+
+		"BonusBulletSpeedPercent_prefix"				"{s:sign}"
+		"BonusBulletSpeedPercent_postfix"				" %"
+		"BonusBulletSpeedPercent_label"					"Kugeltempo"
+		"BonusBulletSpeedPercent_postvalue_label"					"Kugeltempo"
+
+		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_postfix"				" %"
+		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_label"					"Kugeltempo"
+		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_postvalue_label"					"Kugeltempo"
+
+		"LifeStealPercent_prefix"						"{s:sign}"
+		"LifeStealPercent_label"						"Lebensraub"
+		"LifeStealPercent_postvalue_label"						"Lebensraub"
+		"LifeStealPercent_postfix"						" %"
+
+		"LifestealPercentHero_label"					"Lebensraub"
+
+		"LifestealPercentHero_postvalue_label"					"Lebensraub"
+		"LifestealPercentHero_postfix"					" %"
+
+		"LifestealPercentNonHero_prefix"						"{s:sign}"
+		"LifestealPercentNonHero_label"					"Lebensraub (Nicht-Helden)"
+		"LifestealPercentNonHero_postvalue_label"					"Lebensraub (Nicht-Helden)"
+		"LifestealPercentNonHero_postfix"				" %"
+
+		"AbilityLifestealDuration_label"				"Lebensraubdauer (Fähigkeit)"
+		"AbilityLifestealDuration_postvalue_label"		"Lebensraubdauer (Fähigkeit)"
+		"AbilityLifestealDuration_postfix"				" s"
+
+		"BulletLifestealPercent_prefix"						"{s:sign}"
+		"BulletLifestealPercent_label"					"Kugellebensraub"
+		"BulletLifestealPercent_postvalue_label"					"Kugellebensraub"
+		"BulletLifestealPercent_postfix"				" %"
+
+		"MODIFIER_VALUE_BULLET_LIFESTEAL_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_BULLET_LIFESTEAL_label"					"Kugellebensraub"
+		"MODIFIER_VALUE_BULLET_LIFESTEAL_postvalue_label"					"Kugellebensraub"
+		"MODIFIER_VALUE_BULLET_LIFESTEAL_postfix"				" %"
+
+		"TechLifestealPercent_prefix"					"{s:sign}"
+		"TechLifestealPercent_label"						"Magielebensraub"
+		"TechLifestealPercent_postvalue_label"						"Magielebensraub"
+		"TechLifestealPercent_postfix"					" %"
+
+		"MeleeLifestealPercent_prefix"						"{s:sign}"
+		"MeleeLifestealPercent_label"					"Nahkampflebensraub"
+		"MeleeLifestealPercent_postvalue_label"					"Nahkampflebensraub"
+		"MeleeLifestealPercent_postfix"					" %"
+
+		"StunDuration_label"							"Betäubungs­dauer"
+
+		"StunDuration_postvalue_label"							"Betäubungs­dauer"
+		"StunDuration_postfix"							" s"
+
+		"StunDelay_label"								"Betäubungs­verzögerung"
+
+		"StunDelay_postvalue_label"								"Betäubungs­verzögerung"
+		"StunDelay_postfix"								" s"
+
+		"MinStunDuration_prefix"						""
+		"MinStunDuration_postfix"						" s"
+		"MinStunDuration_label"							"min. Betäubungs­dauer"
+
+		"MinStunDuration_postvalue_label"							"min. Betäubungs­dauer"
+
+		"MaxStunDuration_prefix"						""
+		"MaxStunDuration_postfix"						" s"
+		"MaxStunDuration_label"							"max. Betäubungs­dauer"
+
+		"MaxStunDuration_postvalue_label"				"max. Betäubungs­dauer"
+
+		"DazeDuration_label"							"Benommenheitsdauer"
+		"DazeDuration_postvalue_label"					"Benommenheitsdauer"
+		"DazeDuration_postfix"							" s"
+
+		"TossDuration_postvalue_label"					"Dauer"
+		"TossDuration_postfix"							" s"
+
+		//"MeleeDamageReduction_label"					"Melee Armor"
+
+		"MeleeDamageReductionPercent_prefix"			"{s:sign}"
+		"MeleeDamageReductionPercent_postfix"			" %"
+		//"MeleeDamageReductionPercent_label"			"Melee Armor"
+		
+		"MODIFIER_VALUE_MELEE_RESIST_prefix"			"{s:sign}"
+		"MODIFIER_VALUE_MELEE_RESIST_postfix"			" %"
+		//"MODIFIER_VALUE_MELEE_RESIST_label"			"Melee Armor"
+
+		//"DispenserHealth_label"						"Dispenser Health"
+
+		//"ShotRegenTime_label"							"Shot Regen Time"
+		"ShotRegenTime_postfix"							" s"
+
+		//"MaxShots_label"								"Max Shots"
+
+		"PathLength_label"							"Länge des Strahls"
+
+		"PathLength_postvalue_label"							"Strahllänge"
+		"PathLength_postfix"							" m"
+
+		"ChainCount_label"							"max. Sprünge"
+
+		"ChainCount_postvalue_label"							"max. Sprünge"
+		"BonusPerChain_label"						"Schaden bei Sprung"
+
+		"BonusPerChain_postvalue_label"						"Schaden bei Sprung"
+
+		"RichochetChance_label"						"Auslösechance"
+
+		"RichochetChance_postvalue_label"						"Auslösechance"
+		"RichochetChance_postfix"						" %"
+
+		//"SlowSpeedLimit_label"						"Speed Reduced To"
+
+		"HealAmpReceivePercent_prefix"					"{s:sign}"
+		"HealAmpReceivePercent_label"					"Verstärkte erhaltene Heilung"
+		"HealAmpReceivePercent_postvalue_label"			"verstärkte erhaltene Heilung"
+		"HealAmpReceivePercent_postfix"					" %"
+
+		"MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT_prefix"					"{s:sign}"
+		//"MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT_label"					"Healing Received Boost"
+		"MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT_postfix"					" %"
+
+		"HealAmpCastPercent_prefix"					"{s:sign}"
+		"HealAmpCastPercent_label"					"Ausgehende Heilung"
+		"HealAmpCastPercent_postvalue_label"					"ausgehende Heilung"
+		"HealAmpCastPercent_postfix"					" %"
+		
+		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_label"					"Ausgehende Heilung"
+		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_postvalue_label"					"ausgehende Heilung"
+		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_postfix"					" %"
+
+		"HealAmpRegenPercent_prefix"					"{s:sign}"
+		//"HealAmpRegenPercent_label"					"Health Regen Boost"
+		"HealAmpRegenPercent_postfix"					" %"
+		
+		"MODIFIER_VALUE_HEAL_AMP_REGEN_PERCENT_prefix"					"{s:sign}"
+		//"MODIFIER_VALUE_HEAL_AMP_REGEN_PERCENT_label"					"Health Regen Boost"
+		"MODIFIER_VALUE_HEAL_AMP_REGEN_PERCENT_postfix"					" %"
+		
+		"HealAmpRegenMultiplierOutOfCombat_prefix"					"{s:sign}"
+		//"HealAmpRegenMultiplierOutOfCombat_label"		"Health Regen Multiplier"
+		"HealAmpRegenMultiplierOutOfCombat_postfix"			"×"
+
+		"HealAmpReceivePenaltyPercent_label"		"Eingehende Heilung"
+
+		"HealAmpReceivePenaltyPercent_postvalue_label"		"eingehende Heilung"
+		"HealAmpReceivePenaltyPercent_prefix" ""
+		"HealAmpReceivePenaltyPercent_postfix"			" %"
+		
+		"HealAmpRegenPenaltyPercent_label"		"Eingehende Heilung"
+		
+		"HealAmpRegenPenaltyPercent_postvalue_label"		"eingehende Heilung"
+		"HealAmpRegenPenaltyPercent_postfix"	" %"
+		"HealingEffectiveness_label"		"Heilungseffektivität"
+		"HealingEffectiveness_postvalue_label"		"Heilungseffektivität"
+		"HealingEffectiveness_postfix"	" %"
+		"PercentHealthHealing_label" "geheilte LP"
+		"PercentHealthHealing_postvalue_label" "geheilte LP"
+		"PercentHealthHealing_postfix" " %"
+
+		"ProcChance_label"							"Auslösechance"
+
+		"ProcChance_postvalue_label"							"Auslösechance"
+		"ProcChance_postfix"							" %"
+
+		//"OutgoingDamageReduction_label"				"Attack Damage"
+		"OutgoingDamageReduction_prefix"				"−"
+		"OutgoingDamageReduction_postfix"				" %"
+
+		"OutgoingDamagePercent_prefix" "{s:sign}"
+		"OutgoingDamagePercent_label" "Schaden"
+		"OutgoingDamagePercent_postvalue_label" "Schaden"
+		"OutgoingDamagePercent_postfix" " %"
+
+		"ProcHealth_label"							"Lebenspunkteschwelle"
+
+		"ProcHealth_postvalue_label"							"Lebenspunkteschwelle"
+		"ProcHealth_postfix"							" %"
+
+		//"DamageBoostFromBehind_label"					"Damage From Behind"
+		"DamageBoostFromBehind_postfix"					" %"
+
+		//"DamageBoostElsewhere_label"					"Damage From Elsewhere"
+		"DamageBoostElsewhere_postfix"					" %"
+
+		//"BonusDPSVsPlayers_label"						"DPS vs Players"
+
+		//"BonusDPSVsCreeps_label"						"DPS vs Creeps"
+
+		//"EvasionPercentGlider_label"					"Evasion Chance Gliding"
+		"EvasionPercentGlider_postfix"					" %"
+
+		"EvasionPercent_label"						"Kugelausweichchance"
+
+		"EvasionPercent_postvalue_label"						"Kugelausweichchance"
+		"EvasionPercent_postfix"						" %"
+
+		//"MeleeDamagePercent_label"					"Melee Damage Bonus"
+		"MeleeDamagePercent_postfix"					" %"
+
+
+		"TechShieldHealth_label"					"Schildpunkte gegen Magieschaden"
+
+
+		"TechShieldHealth_postvalue_label"					"Schildpunkte gegen Magieschaden"
+		//"TempTechShieldHealth_label"				"Temp Spirit Shield Health"
+		"TechShieldDamagePercent_prefix"			"{s:sign}"
+		//"TechShieldDamagePercent_label"				"Spirit Shield Damage"
+		"TechShieldDamagePercent_postfix"			" %"
+
+		"BulletShieldHealth_label"					"Schildpunkte gegen Kugelschaden"
+		"BulletShieldHealth_postvalue_label"					"Schildpunkte gegen Kugelschaden"
+
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_label"					"Schildpunkte gegen Kugelschaden"
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_postvalue_label"					"Schildpunkte gegen Kugelschaden"
+
+		//"TempBulletShieldHealth_label"				"Temp Bullet Shield Health"
+		"BulletShieldDamagePercent_prefix"			"{s:sign}"
+		//"BulletShieldDamagePercent_label"			"Damage Amplification vs Bullet Shields"
+		"BulletShieldDamagePercent_postfix"			" %"
+
+		//"ShieldBlockPercent_label"					"Damage Deflected"
+		"ShieldBlockPercent_postfix"					" %"
+
+		//"DamagePercent_label"							"Bullet Damage Done"
+		"DamagePercent_postfix"							" %"
+		
+		//"CycleTimePercent_label"						"Fire Rate compared to Gun"
+		"CycleTimePercent_postfix"						" %"
+
+		//"StickyClusterCount_label"					"Splits into"
+		//"StickyClusterCount_postfix"					"Sticky Grenades"
+
+		//"FuseDuration_label"							"Fuse Duration"
+		//"FuseDuration_postfix"							""
+		
+		//"DroneCount_label"							"Drone Count"
+		
+		//"BasicReflectPercent_label"					"Basic Damage Reflect"
+		"BasicReflectPercent_postfix"					" %"
+
+		"LifeDrainPerSecond_label"					"Schaden pro Sek."
+
+		"LifeDrainPerSecond_postvalue_label"					"Schaden pro Sek."
+		"LifeDrainPerSecond_postfix"					""
+
+		"HealthPercent_label"							"Lebenspunkte"
+
+		"HealthPercent_postvalue_label"							"Lebenspunkte"
+		"HealthPercent_postfix"							" %"
+
+		//"DodgeAnimSpeedScale_label"					"Dodge Speed Multiplier"
+		"DodgeAnimSpeedScale_postfix"					"×"
+
+		"BulletDamagePercent_prefix"					"{s:sign}"
+		"BulletDamagePercent_label"					"Kugelschaden"
+		"BulletDamagePercent_postvalue_label"					"Kugel­schaden"
+		"BulletDamagePercent_postfix"					" %"
+
+		"AbilityLifestealPercent_prefix"					"{s:sign}"
+		"AbilityLifestealPercent_label"				"Magielebensraub"
+		"AbilityLifestealPercent_postvalue_label"				"Magielebensraub"
+		"AbilityLifestealPercent_postfix"				" %"
+		
+		"AbilityLifestealPercentHero_prefix"					"{s:sign}"
+		"AbilityLifestealPercentHero_label"				"Magielebensraub"
+		"AbilityLifestealPercentHero_postvalue_label"				"Magielebensraub"
+		"AbilityLifestealPercentHero_postfix"			" %"
+
+		"MODIFIER_VALUE_TECH_LIFESTEAL_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_TECH_LIFESTEAL_label"				"Magielebensraub"
+		"MODIFIER_VALUE_TECH_LIFESTEAL_postvalue_label"				"Magielebensraub"
+		"MODIFIER_VALUE_TECH_LIFESTEAL_postfix"			" %"
+		
+		"AbilityLifestealPercentHeroPassive_prefix"					"{s:sign}"
+		"AbilityLifestealPercentHeroPassive_label"				"Magielebensraub"
+		"AbilityLifestealPercentHeroPassive_postvalue_label"				"Magielebensraub"
+		"AbilityLifestealPercentHeroPassive_postfix"			" %"
+
+		"AbilityLifestealPercentNonHero_prefix"					"{s:sign}"
+		"AbilityLifestealPercentNonHero_label"			"Magielebensraub gegen Nicht-Helden"
+		"AbilityLifestealPercentNonHero_postvalue_label"			"Magielebensraub (Nicht-Helden)"
+		"AbilityLifestealPercentNonHero_postfix"		" %"
+
+		"RegenDuration_label"							"Regenerationsdauer"
+
+		"RegenDuration_postvalue_label"							"Regenerationsdauer"
+		"RegenDuration_postfix"							" s"
+
+		//"SpreadDuration_label"						"Spread Duration: "
+		"SpreadDuration_postfix"						" s"
+		
+		"EndRadius_label"								"Endradius"
+		
+		"EndRadius_postvalue_label"								"Endradius"
+		"EndRadius_postfix"								" m"
+
+		//"BulletPercentAsBurn_label"					"Bullet Damage as Burning"
+		"BulletPercentAsBurn_postfix"					" %"
+
+		"ItemInitialCharges_label"					"Aufladung(en)"
+
+
+		"ItemInitialCharges_postvalue_label"					"Aufladung(en)"
+
+		"AuraDuration_label"							"Dauer für Aura"
+
+		"AuraDuration_postvalue_label"							"Dauer für Aura"
+		"AuraDuration_postfix"							" s"
+
+		//"ApproachSpeed_label"							"Project Speed"
+
+		"GrenadesInVolley_label"						"Granate(n)"
+
+
+		"GrenadesInVolley_postvalue_label"						"Granate(n)"
+
+		"ReloadSpeedDecrease_prefix"					""
+		"ReloadSpeedDecrease_label"						"Nachladedauer"
+		"ReloadSpeedDecrease_postvalue_label"						"Nachladedauer"
+		"ReloadSpeedDecrease_postfix"					" %"
+
+		"AbsorbPercentage_label"						"absorbierter Schaden"
+
+		"AbsorbPercentage_postvalue_label"						"absorbierter Schaden"
+		"AbsorbPercentage_postfix"						" %"
+
+		//"HitCap_label"								"Hit Cap"
+		//"HitCap_postfix"								"hits"
+
+		//"AbilityDamageReductionPerHit_label"			"Ability Dmg Red Per Hit"
+		"AbilityDamageReductionPerHit_postfix"			" %"
+
+		//"ActiveAbilityDamageReduction_label"			"Active Ability Dmg Red"
+		"ActiveAbilityDamageReduction_postfix"			" %"
+
+		"BonusAttackRange_postfix"						" m"
+		//"BonusAttackRange_label"						"Weapon Range"
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_postfix"						" m"
+
+		"BonusAttackRangePercent_prefix"				"{s:sign}"
+		"BonusAttackRangePercent_postfix"				" %"
+		"BonusAttackRangePercent_label"					"Reichweite bis Schadensreduzierung"
+		"BonusAttackRangePercent_postvalue_label"					"Reichweite bis Schadensreduzierung"
+
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_postfix"				" %"
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_label"					"Reichweite bis Schadensreduzierung"
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_postvalue_label"					"Reichweite bis Schadensreduzierung"
+
+		"WeaponRecoilReduction_postfix"					" %"
+		//"WeaponRecoilReduction_label"					"Recoil Reduction"
+
+		"MODIFIER_VALUE_WEAPON_RECOIL_REDUCTION_PERCENT_postfix"					" %"
+		//"WeaponRecoilReduction_label"					"Recoil Reduction"
+
+		"BonusDPSPercent_prefix"						"{s:sign}"
+		"BonusDPSPercent_label"						"Kugelschaden"
+		"BonusDPSPercent_postvalue_label"						"Kugel­schaden"
+		"BonusDPSPercent_postfix"						" %"
+
+		//"DroneHealth_label"							"Drone Health"
+
+		//"DeployHealthRegen_label"						"Deployable Health"
+
+		"TurretFireRate_label"							"Feuerrate für Geschütz"
+
+		"TurretFireRate_postvalue_label"							"Feuerrate für Geschütz"
+		"TurretFireRate_prefix"							"{s:sign}"
+		"TurretFireRate_postfix"						" %"
+
+		"TurretDPS_label"								"Geschützschaden pro Sek."
+
+
+		"TurretDPS_postvalue_label"								"Geschützschaden pro Sek."
+
+		//"MobileResupplyRegenMultiplier_label"			"Mobile Resupply Regen Multiplier"
+		"MobileResupplyRegenMultiplier_postfix"			"×"
+
+		"HealRadius_label"								"Heilungsradius"
+
+		"HealRadius_postvalue_label"								"Heilungsradius"
+		"HealRadius_postfix"								" m"
+
+		"BulletArmorReduction_prefix"					"{s:sign}"
+		"BulletArmorReduction_postfix"					" %"
+		"BulletArmorReduction_label"					"Kugelresistenz"
+
+		"BulletArmorReduction_postvalue_label"					"Kugelresistenz"
+
+		"LocalBulletArmorReduction_prefix"				"{s:sign}"
+		"LocalBulletArmorReduction_postfix"				" %"
+		"LocalBulletArmorReduction_label"				"Kugelresistenz"
+
+		"LocalBulletArmorReduction_postvalue_label"				"Kugelresistenz"
+
+		"LocalTechArmorReduction_prefix"				"{s:sign}"
+		//"LocalTechArmorReduction_label"				"Magic Resist"
+		"LocalTechArmorReduction_postfix"				" %"
+
+		"BulletResistOnActive_label"					"Kugelresistenz"
+
+		"BulletResistOnActive_postvalue_label"					"Kugelresistenz"
+		"BulletResistOnActive_prefix"					"{s:sign}"
+		"BulletResistOnActive_postfix"					" %"
+
+		"WeaponPowerAmp_prefix"							"{s:sign}"
+		//"WeaponPowerAmp_label"						"Courage"
+
+		"WeaponPowerWhileActivated_prefix"						"{s:sign}"
+		//"WeaponPowerWhileActivated_label"						"Courage"
+
+		"FireRate_postfix"								" %"
+
+		"WeaponPower_prefix"							"{s:sign}"
+		"WeaponPower_label"								"Waffenschaden"
+		"WeaponPower_postvalue_label"								"Waffenschaden"
+		"WeaponPower_postfix"							" %"
+
+		"MODIFIER_VALUE_WEAPON_POWER_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_WEAPON_POWER_label"								"Waffenschaden"
+		"MODIFIER_VALUE_WEAPON_POWER_postvalue_label"								"Waffenschaden"
+		"MODIFIER_VALUE_WEAPON_POWER_postfix"							" %"
+
+		"DamageIncrease_prefix"							"{s:sign}"
+		"DamageIncrease_label"						"Erlittener Schaden"
+
+		"DamageIncrease_postvalue_label"						"erlittener Schaden"
+
+		"DamageIncreasePercent_prefix"					"{s:sign}"
+		"DamageIncreasePercent_label"					"Erlittener Schaden"
+		"DamageIncreasePercent_postvalue_label"					"erlittener Schaden"
+		"DamageIncreasePercent_postfix"					" %"
+
+		"BonusAbilitySpeed_prefix"						"{s:sign}"
+		//"BonusAbilitySpeed_postfix"						""
+		//"BonusAbilitySpeed_label"							"Ability Move Speed"
+
+		"ReloadSpeedMultipler_prefix"					"{s:sign}"
+		"ReloadSpeedMultipler_label"					"Nachladedauer"
+		"ReloadSpeedMultipler_postvalue_label"					"Nachladedauer"
+		"ReloadSpeedMultipler_postfix"					" %"
+
+		"MODIFIER_VALUE_RELOAD_SPEED_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_RELOAD_SPEED_label"					"Nachladedauer"
+		"MODIFIER_VALUE_RELOAD_SPEED_postvalue_label"					"Nachladedauer"
+		"MODIFIER_VALUE_RELOAD_SPEED_postfix"					" %"
+
+		"HealthRegenPerTrooper_prefix"					"+"
+		"HealthRegenPerTrooper_postfix"					" pro Infanterist in der Nähe"
+		"HealthRegenPerTrooper_label"					"Lebensregeneration"
+
+		"HealthRegenPerTrooper_postvalue_label"					"Lebensregeneration"
+
+		//"TroopersToSummon_label"						"Troopers created"
+		//"TrooperLifetime_label"						"Trooper lifetime"
+		"TrooperLifetime_postfix"						" s"
+
+		"DamagePerChain_label"						"Schockschaden"
+		
+
+		"DamagePerChain_postvalue_label"						"Schockschaden"
+		
+		"SpeedMax_label"								"Bewegungstempo"
+		"SpeedMax_postvalue_label"								"Bewegungstempo"
+		"SpeedMax_postfix"							" m/s"
+		"MoveSpeedMax_label"							"Bewegungstempo"
+		"MoveSpeedMax_postvalue_label"							"Bewegungstempo"
+		"MoveSpeedMax_postfix"						" m/s"
+
+		"BulletDamagePercentAsTechDamage_label"		"Bonusmagieschaden"
+
+		"BulletDamagePercentAsTechDamage_postvalue_label"		"Bonusmagieschaden"
+		//"BulletDamagePercentAsTechDamage_postfix"		"% Bullet Damage "
+
+		"BonusCritDamagePercent_prefix"					"{s:sign}"
+		//"BonusCritDamagePercent_label"				"Bonus Crit Damage"
+		"BonusCritDamagePercent_postfix"				" %"
+
+		"MODIFIER_VALUE_BONUS_CRIT_DAMAGE_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_BONUS_CRIT_DAMAGE_PERCENT_postfix"				" %"
+
+		//"DPSDmgPercent_label"							"DPS as Damage"
+		"DPSDmgPercent_postfix"							" %"
+
+		"DamagePerSecond_label"						"Schaden pro Sek."
+
+
+		"DamagePerSecond_postvalue_label"						"Schaden pro Sek."
+
+		//"TechReduction_label"						"Spirit Reduction"
+
+		//"TechResistReduction_label"					"Target Spirit Resist"
+		//"TechResistReduction_prefix"					""
+		"TechResistReduction_postfix"					" %"
+		"DamagePulseAmount_label"						"Impulsschaden"
+		"DamagePulseAmount_postvalue_label"						"Impulsschaden"
+		"DamagePulseInterval_label"					"Impulsintervall"
+		"DamagePulseInterval_postvalue_label"					"Impulsintervall"
+		"DamagePulseInterval_postfix"					" s"
+		"DamagePulseRadius_label"						"Impulsradius"
+		"DamagePulseRadius_postvalue_label"						"Impulsradius"
+		"DamagePulseRadius_postfix"					" m"
+
+		"CloseRangeBonusDamagePercent_prefix"			"+"
+		"CloseRangeBonusDamagePercent_label"			"Waffenschaden"
+		"CloseRangeBonusDamagePercent_postvalue_label"			"Waffenschaden"
+		"CloseRangeBonusDamagePercent_postfix"			" %"
+
+		"CloseRangeBonusDamageRange_label"				"Nahbereich"
+
+		"CloseRangeBonusDamageRange_postvalue_label"				"Nahbereich"
+		"CloseRangeBonusDamageRange_postfix"			" m"
+
+		"CloseRangeBonusWeaponPower_prefix"				"{s:sign}"
+		"CloseRangeBonusWeaponPower_label"				"Waffenschaden"
+		"CloseRangeBonusWeaponPower_postvalue_label"				"Waffenschaden"
+		"CloseRangeBonusWeaponPower_postfix"			" %"
+		"CloseRangeBonusWeaponPower_conditional"		"im Nahbereich"
+
+		"BonusSpirit_conditional"						"nach Auslösung"
+
+		"AfterProc_conditional"							"nach Auslösung"
+		"DuringAmbush_conditional"						"während Hinterhalt"
+
+		"AboveHealthThreshold_conditional"				"über Lebenspunkteschwelle"
+		"BelowHealthThreshold_conditional"				"unter Lebenspunkteschwelle"
+		"DashJump_conditional"							"nach Spurtsprung"
+
+		//"EnemyAboveHealthThreshold_conditional"			"Enemy above health threshold"
+		
+		"Quicksilver_conditional"						"nach Fähigkeitseinsatz"
+
+		"SurgeOfPower_conditional"						"nach Fähigkeitseinsatz"
+
+		"SpiritStrike_conditional"						"nach erfolgreichem Nahkampftreffer"
+
+		"LongRangeBonusWeaponPowerMinRange_label"		"min. Distanz"
+		"LongRangeBonusWeaponPowerMinRange_postvalue_label"		"min. Distanz"
+		"LongRangeBonusWeaponPowerMinRange_postfix"		" m"
+
+		"LongRangeBonusWeaponPower_prefix"				"{s:sign}"
+		"LongRangeBonusWeaponPower_label"				"Waffenschaden"
+		"LongRangeBonusWeaponPower_postvalue_label"				"Waffenschaden"
+		"LongRangeBonusWeaponPower_postfix"				" %"
+		"LongRangeBonusWeaponPower_conditional"			"außer Reichweite"
+
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASEMinRange_label"		"Min. Distanz"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASEMinRange_postvalue_label"		"min. Distanz"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASEMinRange_postfix"		" m"
+
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_label"				"Waffenschaden"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_postvalue_label"				"Waffenschaden"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_postfix"				" %"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_conditional"			"außer Reichweite"
+
+		"TechRangeMultiplier_prefix"					"{s:sign}"
+		"TechRangeMultiplier_label"						"Fähigkeitsreichweite"
+		"TechRangeMultiplier_postvalue_label"						"Fähigkeitsreichweite"
+		"TechRangeMultiplier_postfix"					" %"
+
+		"TechRangeMultiplierBuff_prefix"					"{s:sign}"
+		"TechRangeMultiplierBuff_label"						"Fähigkeitsreichweite"
+		"TechRangeMultiplierBuff_postvalue_label"						"Fähigkeitsreichweite"
+		"TechRangeMultiplierBuff_postfix"					" %"
+
+		"ImbuedTechRangeMultiplier_prefix"				"{s:sign}"
+		"ImbuedTechRangeMultiplier_label"				"Reichweite für veredelte Fähigkeit"
+		"ImbuedTechRangeMultiplier_postvalue_label"				"Reichweite für veredelte Fähigkeit"
+		"ImbuedTechRangeMultiplier_postfix"				" %"
+
+		"NonImbuedTechRangeMultiplier_prefix"			"{s:sign}"
+		"NonImbuedTechRangeMultiplier_label"			"Reichweite für nicht veredelte Fähigkeiten"
+		"NonImbuedTechRangeMultiplier_postvalue_label"			"Reichweite für nicht veredelte Fähigkeit"
+		"NonImbuedTechRangeMultiplier_postfix"			" %"
+
+		"MODIFIER_VALUE_TECH_RANGE_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENT_label"						"Fähigkeitsreichweite"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENT_postvalue_label"						"Fähigkeitsreichweite"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENT_postfix"					" %"
+
+		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_label"						"Fähigkeitsreichweite"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_postvalue_label"						"Fähigkeitsreichweite"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_postfix"					" %"
+
+		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_prefix"				"{s:sign}"
+		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_label"				"Reichweite für veredelte Fähigkeit"
+		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postvalue_label"				"Reichweite für veredelte Fähigkeit"
+		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postfix"				" %"
+
+		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_prefix"			"{s:sign}"
+		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_label"			"Reichweite für nicht veredelte Fähigkeit"
+		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postvalue_label"			"Reichweite für nicht veredelte Fähigkeit"
+		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postfix"			" %"
+
+		//"ThrowRange_label"								"Throw Range"
+		"ThrowRange_postfix"							" m"
+
+		"TechRadiusMultiplier_prefix"					"{s:sign}"
+		"TechRadiusMultiplier_label"					"Radius"
+		"TechRadiusMultiplier_postvalue_label"					"Radius"
+		"TechRadiusMultiplier_postfix"					" %"
+
+		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_label"					"Radius"
+		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_postvalue_label"					"Radius"
+		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_postfix"					" %"
+
+		"TechRadiusMultiplierBuff_prefix"					"{s:sign}"
+		"TechRadiusMultiplierBuff_label"					"Radius"
+		"TechRadiusMultiplierBuff_postvalue_label"					"Radius"
+		"TechRadiusMultiplierBuff_postfix"					" %"
+
+		"ImbuedTechRadiusMultiplier_prefix"					"{s:sign}"
+		//"ImbuedTechRadiusMultiplier_label"					"Imbued Radius"
+		"ImbuedTechRadiusMultiplier_postfix"					" %"
+
+		"NonImbuedTechRadiusMultiplier_prefix"					"{s:sign}"
+		//"NonImbuedTechRadiusMultiplier_label"					"Non-Imbued Radius"
+		"NonImbuedTechRadiusMultiplier_postfix"					" %"
+
+		"TechRangeAdditive_prefix"						"{s:sign}"
+		"TechRangeAdditive_label"						"Fähigkeitsreichweite"
+		"TechRangeAdditive_postvalue_label"						"Fähigkeitsreichweite"
+		"TechRangeAdditive_postfix"						" m"
+
+		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_label"						"Fähigkeitsreichweite"
+		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_postvalue_label"						"Fähigkeitsreichweite"
+		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_postfix"						" m"
+
+		//"WindUpTime_label"								"Windup Time"
+		"WindUpTime_postfix"								" s"
+
+		"HealthDrainedPerSecond_label"				"Lebensentzug"
+
+		"HealthDrainedPerSecond_postvalue_label"				"Lebensentzug"
+		"HealthDrainedPerSecond_postfix"				"/Sek."
+
+		"DebuffDurationReductionPercentage_label"		"Reduzierung der Schwächungsdauer"
+
+		"DebuffDurationReductionPercentage_postvalue_label"		"Reduzierung der Schwächungsdauer"
+		"DebuffDurationReductionPercentage_postfix"		" %"
+
+		//"HealthCost_label"							"Health Cost"
+
+		"ZipLineSpeedPercent_prefix"					"{s:sign}"
+		"ZipLineSpeedPercent_label"						"Transportkabeltempo"
+		"ZipLineSpeedPercent_postvalue_label"						"Transportkabeltempo"
+		"ZipLineSpeedPercent_postfix"					" %"
+
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_label"						"Transportkabeltempo"
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_postvalue_label"						"Transportkabeltempo"
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_postfix"					" %"
+	
+		//"ZiplineJumpBonusDuration_label"					"Jump Off Duration"
+		"ZiplineJumpBonusDuration_postfix"					" s"
+
+		//"ZiplineJumpBonusMoveSpeed_label"					"Jump Off Speed Bonus"
+		"ZiplineJumpBonusMoveSpeed_postfix"					" m/s"
+
+		"BonusZipLineSpeed_prefix"						"{s:sign}"
+		//"BonusZipLineSpeed_label"						"Hyperline Speed"
+
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_ADDITIVE_prefix"						"{s:sign}"
+
+		"MaxProjectiles_label"						"Projektil(e)"
+
+
+		"MaxProjectiles_postvalue_label"						"Projektil(e)"
+
+		//"DeathDelay_label"							"Delay Death Duration"
+
+		//"TackleDurationMax_label"						"Max Tackle Duration"
+
+		"MoveSpeed_postfix"								" m/s"
+		"MoveSpeedBonus_prefix"							"{s:sign}"
+		"MoveSpeedBonus_label"							"Bewegungstempo"
+		"MoveSpeedBonus_postvalue_label"							"Bewegungstempo"
+		"MoveSpeedBonus_postfix"						" m/s"
+
+		//"MoveSpeedFriendlyBuff_prefix"			""
+		//"MoveSpeedFriendlyBuff_label"				"Ally Move Speed"
+		"MoveSpeedFriendlyBuff_postfix"			" m/s"
+		
+		//"ProcBuildupPercent_label"					"Proc Buildup"
+		"ProcBuildupPercent_postfix"					" %"
+
+		//"AwakenDamage_label"							"Awaken Damage"
+
+		//"LockOnTime_label"							"Lock On Time"
+		"LockOnTime_postfix"							" Sekunden"
+
+		//"StalkDuration_label"							"Stalk Time"
+		"StalkDuration_postfix"							" Sekunden"
+
+		"MaxStacks_label"								"max. Instanzen"
+		"MaxStacks_postvalue_label"								"max. Instanzen"
+		
+		"CurrentStacks_label"							"Aktuelle Instanzen:"
+		"CurrentStacks_postvalue_label"							"Aktuelle Instanzen:"
+
+		"CurrentBonus_label"							"Aktueller Bonus"
+		"CurrentBonus_postvalue_label"					"aktueller Bonus"
+
+
+		//"TimeToMaxStacks_label"							"Time To Max Stacks"
+		"TimeToMaxStacks_postfix"						" s"
+
+		//"DamagePerHit_label"							"Damage Per Hit"
+
+		//"FinalBlow_label"							"Final Blow Damage"
+
+		"DamageThreshold_label"						"Schadensschwelle"
+		
+
+		"DamageThreshold_postvalue_label"						"Schadensschwelle"
+		
+		"DamageReduction_label"						"Schadensreduzierung"
+		"DamageReduction_postvalue_label"						"Schadensreduzierung"
+		"DamageReduction_postfix"					" %"
+
+		"MeleeDamage_label"							"Nahkampfschaden"
+
+
+		"MeleeDamage_postvalue_label"							"Nahkampfschaden"
+
+		//"ConvertedHealth_label"						"Trooper Health"
+
+		"SilenceDuration_label"							"Verstummungsdauer"
+
+		"SilenceDuration_postvalue_label"							"Verstummungsdauer"
+		"SilenceDuration_postfix"						" s"
+
+		"Range_postfix"									" m"
+		"Range_label"									"Reichweite"
+
+		"Range_postvalue_label"									"Reichweite"
+
+		"MinRange_label"								"min. Reichweite"
+
+		"MinRange_postvalue_label"								"min. Reichweite"
+		"MinRange_postfix"								" m"
+
+		//"ConeRadius_label"							"Lightning Distance"
+		"ConeRadius_postfix"							" m"
+		"ConeAngle_label"						"Kegelwinkel"
+		"ConeAngle_postvalue_label"						"Kegelwinkel"
+		"ConeAngle_postfix"						" °"
+
+		"ShockRadius_label"							"Radius"
+
+		"ShockRadius_postvalue_label"							"Radius"
+		"ShockRadius_postfix"						" m"
+
+		//"KnockDownRadius_label"						"Knockdown Radius"
+		"KnockDownRadius_postfix"						" m"
+
+		"BurnDuration_postfix"							" s"
+		"BurnDuration_label"							"Branddauer"
+
+		"BurnDuration_postvalue_label"							"Branddauer"
+
+		"AbilityCooldown_postfix"						" s"
+		"AbilityCooldown_label"						"Abklingzeit"
+
+		"AbilityCooldown_postvalue_label"						"Abklingzeit"
+
+		"TechCooldown_postfix"						" %"
+		"TechDuration_postfix"						" %"
+		"TechLifesteal_postfix"						" %"
+		"TechRange_postfix"							" %"
+
+		"HealingPercent_label"						"Heilung"
+
+		"HealingPercent_postvalue_label"						"Heilung"
+		"HealingPercent_postfix"						" %"
+
+		"AbilityCooldownBetweenCharge_label"			"Verzögerung zw. Aufladungen"
+
+		"AbilityCooldownBetweenCharge_postvalue_label"			"Verzögerung zw. Aufladungen"
+		"AbilityCooldownBetweenCharge_postfix"			" s"
+
+		"AbilityChargeUpTime_label" "Wartezeit"
+
+		"AbilityChargeUpTime_postvalue_label" "Wartezeit"
+		"AbilityChargeUpTime_postfix"	" s"
+
+		"AbilityDuration_postfix"						" s"
+		"AbilityDuration_label"						"Dauer"
+
+		"AbilityDuration_postvalue_label"						"Dauer"
+
+		"TetherDuration_postfix"					" s"
+		"TetherDuration_label"						"Verbindungsdauer"
+
+		"TetherDuration_postvalue_label"						"Verbindungsdauer"
+
+		"TetherRadius_postfix"						" m"
+		//"TetherRadius_label"						"Tether Radius"
+
+		"AbilityCastRange_postfix"						" m"
+		"AbilityCastRange_label"						"Einsatzreichweite"
+
+		"AbilityCastRange_postvalue_label"						"Einsatzreichweite"
+
+		"AbilityCastRangeMinimum_postfix"				" m"
+		//"AbilityCastRangeMinimum_label"					"Range Minimum"
+
+		"AbilityChannelTime_postfix"					" s"
+		"AbilityChannelTime_label"					"Kanalisierungs­dauer"
+
+		"AbilityChannelTime_postvalue_label"					"Kanalisierungs­dauer"
+
+		"AbilityCastDelay_postfix"					" s"
+		"AbilityCastDelay_label"					"Zauberverzögerung"
+
+		"AbilityCastDelay_postvalue_label"					"Zauberverzögerung"
+
+		"MaxRecasts_label"				"Max. erneute Einsätze"
+		"MaxRecasts_postvalue_label"	"max. erneute Einsätze"
+
+		"AbilityCharges_label"						"Aufladung(en)"
+		
+		
+
+		"AbilityCharges_postvalue_label"						"Aufladung(en)"
+		
+		
+		"BonusAbilityDurationPercent_prefix"			"{s:sign}"
+		"BonusAbilityDurationPercent_label"				"Fähigkeitsdauer"
+		"BonusAbilityDurationPercent_postvalue_label"				"Fähigkeitsdauer"
+		"BonusAbilityDurationPercent_postfix"			" %"		
+				
+		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_prefix"			"{s:sign}"
+		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_label"				"Fähigkeitsdauer"
+		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_postvalue_label"				"Fähigkeitsdauer"
+		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_postfix"			" %"		
+		
+		"NonImbuedBonusDuration_prefix"				"{s:sign}"
+		"NonImbuedBonusDuration_label"				"Dauer für nicht veredelte Fähigkeiten"
+		"NonImbuedBonusDuration_postvalue_label"				"Dauer für nicht veredelte Fähigkeit"
+		"NonImbuedBonusDuration_postfix"			" %"		
+		
+		"ImbuedBonusDuration_prefix"					"{s:sign}"
+		"ImbuedBonusDuration_label"						"Dauer für veredelte Fähigkeit"
+		"ImbuedBonusDuration_postvalue_label"						"Dauer für veredelte Fähigkeit"
+		"ImbuedBonusDuration_postfix"					" %"
+
+		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_label"						"Dauer für veredelte Fähigkeit"
+		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_postvalue_label"						"Dauer für veredelte Fähigkeit"
+		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_postfix"					" %"
+
+		"MissCooldown_postfix"							" s"
+		//"MissCooldown_label"							"Cooldown on miss"
+
+		"ShockDelay_label"							"Betäubungsverzögerung"
+
+		"ShockDelay_postvalue_label"							"Betäubungsverzögerung"
+		"ShockDelay_postfix"							" s"
+
+		"ArmTime_label"									"Scharfmachungs­dauer"
+
+		"ArmTime_postvalue_label"									"Scharfmachungs­dauer"
+		"ArmTime_postfix"								" s"
+
+		"Barrel_ArmTime_label"							"Scharfmachungs­dauer"
+
+		"Barrel_ArmTime_postvalue_label"							"Scharfmachungs­dauer"
+		"Barrel_ArmTime_postfix"						" s"
+
+		"ExplodeDelay_label"							"Explosions­verzögerung"
+
+		"ExplodeDelay_postvalue_label"							"Explosions­verzögerung"
+		"ExplodeDelay_postfix"							" s"
+		
+		"BuildUpPercentPerHit_label"					"Zunahme pro Treffer"
+		
+		"BuildUpPercentPerHit_postvalue_label"					"Zunahme pro Treffer"
+		"BuildUpPercentPerHit_postfix"					" %"
+
+		"BuildUpPerSecond_label"					"Zunahme pro Sek."
+		"BuildUpPerSecond_postvalue_label"					"Zunahme pro Sek."
+		"BuildUpPerSecond_postfix"					" %"
+
+		//"FreezeBuildUpTime_label"						"Freeze buildup time"
+		"FreezeBuildUpTime_postfix"						" s"
+
+		//"CritStackInterval_label"						"Crit Charge Delay"
+		"CritStackInterval_postfix"						" s"
+
+		"TurretLifetime_label"						"Lebensdauer"
+
+		"TurretLifetime_postvalue_label"						"Lebensdauer"
+		"TurretLifetime_postfix"						" s"
+
+		"CritCoatingDamagePercent_prefix"				"{s:sign}"
+		//"CritCoatingDamagePercent_label"				"Crit Coating Crit Bonus"
+		"CritCoatingDamagePercent_postfix"				" %"
+
+		//"ExplosionCoatingRadius_label"				"Explosion Coating Radius"
+		"ExplosionCoatingRadius_postfix"				" m"
+
+		//"SlowCoatingProcChance_label"					"Slowing Coating Chance"
+		"SlowCoatingProcChance_postfix"					" %"
+
+		//"SlowCoatingMoveSpeed_label"					"Slowing Coating Slow Amount"
+		"SlowCoatingMoveSpeed_postfix"					" %"
+
+		//"SlowCoatingDuration_label"					"Slowing Coating Slow Duration"
+		//"SlowCoatingDuration_postfix"					""
+
+		"MaxLifetime_label"							"Lebensdauer"
+
+		"MaxLifetime_postvalue_label"							"Lebensdauer"
+		"MaxLifetime_postfix"							" s"
+
+		//"ZipLineArrowLifetime_label"					"Arrow Flight Time"
+		//"ZipLineArrowLifetime_postfix"					""
+
+		//"DamageTakenPercentIncreasePerStack_label"	"Damage Increase Per Stack"
+		"DamageTakenPercentIncreasePerStack_postfix"	" %"
+
+		//"ShotsFired_label"							"Shots fired"
+		//"ShotsFired_postfix"							""
+
+		//"TimeBetweenShots_label"						"Time between shots"
+		//"TimeBetweenShots_postfix"						""
+
+		//"DroneDPS_label"								"Drone Damage"
+		"DroneDPS_postfix"								"Schaden pro Sek."
+
+		"DistanceBuff_postfix"							" %"
+		//"DistanceBuff_label"							"Increase at Max Range"
+
+		//"FullDistance_label"							"Max Range: "
+		"FullDistance_postfix"							" m"
+
+		"ProcDamage_label"								"Magieschaden"
+
+		"ProcDamage_postvalue_label"								"Magieschaden"
+		"ProcDamage_postfix"							""
+
+		//"BaseDamagePct_label"							"Bonus Spirit Amp"
+		"BaseDamagePct_prefix"							"{s:sign}"
+		"BaseDamagePct_postfix"							" %"
+
+		"TargetsPerTick_label"						"getroffenes Ziel pro Schuss"
+
+		"TargetsPerTick_postvalue_label"						"getroffene Ziele pro Schuss"
+		"TargetsPerTick_postfix"						""
+
+		"HealthToDamage_label"						"Schaden"
+
+		"HealthToDamage_postvalue_label"						"Schaden"
+		"HealthToDamage_postfix"						""
+
+		"SelfDamagePct_label"						"Lebensverlust"
+
+		"SelfDamagePct_postvalue_label"						"Lebensverlust"
+		"SelfDamagePct_postfix"						" %"
+
+		"DamageHealPerTarget_label"						"Schaden/Heilung pro Ziel"
+
+
+		"DamageHealPerTarget_postvalue_label"						"Schaden/Heilung pro Ziel"
+
+		//"DeathTaxHeal_label"							"Health Per Kill"
+
+		"ChainRadius_label"							"Sprungradius"
+
+		"ChainRadius_postvalue_label"							"Sprungradius"
+		"ChainRadius_postfix"							" m"
+		
+		//"LaunchDamage_postfix"							""
+		//"LaunchDamage_label"							"Knockback Damage"
+
+		//"ImpaleDamage_postfix"							""
+		//"ImpaleDamage_label"							"Impale Damage"
+
+		//"ImpaleDuration_label"						"Impale Duration"
+		"ImpaleDuration_postfix"						" s"
+
+		"ExplosionRadius_label"						"Explosionsradius"
+
+		"ExplosionRadius_postvalue_label"						"Explosionsradius"
+		"ExplosionRadius_postfix"						" m"
+
+		"MinExplosionRadius_label"					"min. Explosionsradius"
+
+		"MinExplosionRadius_postvalue_label"					"min. Explosionsradius"
+		"MinExplosionRadius_postfix"					" m"
+
+		"MaxExplosionRadius_label"					"max. Explosionsradius"
+
+		"MaxExplosionRadius_postvalue_label"					"max. Explosionsradius"
+		"MaxExplosionRadius_postfix"					" m"
+
+		"ExplosionDamage_label"						"Explosionsschaden"
+
+		"ExplosionDamage_postvalue_label"						"Explosionsschaden"
+		"ExplosionDamage_postfix"						""
+
+		//"MinExplosionDamage_label"						"Min Explosion Damage: "
+		//"MinExplosionDamage_postfix"					""
+
+		//"ExplosionMinPercent_label"					"Min Explosion Damage: "
+		"ExplosionMinPercent_postfix"					" %"
+
+		//"ExplosionMaxPercent_label"					"Max Explosion Damage: "
+		"ExplosionMaxPercent_postfix"					" %"
+
+		//"EMPBuildupPercentPerShot_label"				"Silence Charge Per Shot"
+		"EMPBuildupPercentPerShot_postfix"				" %"
+
+		"InvisFadeToDuration_label"						"Übergangsdauer"
+
+		"InvisFadeToDuration_postvalue_label"						"Übergangsdauer"
+		"InvisFadeToDuration_postfix"						" s"
+
+		"InvisMoveSpeedMod_prefix"					"{s:sign}"
+		"InvisMoveSpeedMod_postfix"					" m/s"
+		"InvisMoveSpeedMod_label"					"Sprinttempo (unsichtbar)"
+
+		"InvisMoveSpeedMod_postvalue_label"					"Sprinttempo (unsichtbar)"
+
+		//"MeleeAttackLength_label"						"Melee Range"
+		"MeleeAttackLength_postfix"						" m"
+
+		"ArmingDuration_label"						"Scharfmachungs­dauer"
+
+		"ArmingDuration_postvalue_label"						"Scharfmachungs­dauer"
+		"ArmingDuration_postfix"						" s"
+
+		"AirJumpVerticalSpeedPercent_prefix"			"{s:sign}"
+		//"AirJumpVerticalSpeedPercent_label"			"Air Jump Vertical Speed"
+		"AirJumpVerticalSpeedPercent_postfix"			" %"
+
+
+		//"ReflectDamage_label"							"Bullet Reflect Damage"
+		"ReflectDamage_postfix"							" %"
+
+		"ImmobilizeDuration_label"					"Festsetzungs­dauer"
+
+		"ImmobilizeDuration_postvalue_label"					"Festsetzungs­dauer"
+		"ImmobilizeDuration_postfix"					" s"
+
+		"AirControlPercentBarrier_label"					"Kontrolle in der Luft"
+		"AirControlPercentBarrier_postvalue_label"					"Kontrolle in der Luft"
+		"AirControlPercentBarrier_prefix"							"{s:sign}"
+		"AirControlPercentBarrier_postfix"							" %"
+
+		"AirControlPercent_label"					"Kontrolle in der Luft"
+		"AirControlPercent_postvalue_label"					"Kontrolle in der Luft"
+		"AirControlPercent_prefix"							"{s:sign}"
+		"AirControlPercent_postfix"							" %"
+
+		"AirControlAccelPercent_label"					"Beschleunigung in der Luft"
+		"AirControlAccelPercent_postvalue_label"					"Beschleunigung in der Luft"
+		"AirControlAccelPercent_prefix"							"{s:sign}"
+		"AirControlAccelPercent_postfix"							" %"
+
+		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_label"					"Kontrolle in der Luft"
+		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_postvalue_label"					"Kontrolle in der Luft"
+		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_postfix"							" %"
+
+		//"HeadStompBonusDamage_label"					"Head Stomp Damage Bonus"
+		//"HeadStompBonusDamage_postfix"					""
+
+		//"HeadStompBonusRadius_label"					"Head Stomp Radius Bonus"
+		//"HeadStompBonusRadius_postfix"					""
+
+		//"BouncePadStompCount_label"					"Max Head Stomps"
+
+		"NPCProcChance_label"							"Auslösechance bei Infanteristen"
+
+		"NPCProcChance_postvalue_label"							"Auslösechance bei Infanteristen"
+		"NPCProcChance_postfix"							" %"
+
+		"HeroProcChance_label"						"Auslösechance (Helden)"
+
+		"HeroProcChance_postvalue_label"						"Auslösechance (Helden)"
+		"HeroProcChance_postfix"						" %"
+		
+		//"AbilityProjectileSpeedPercent_label"			"Speed Increase"
+		"AbilityProjectileSpeedPercent_postfix"			" %"
+
+		//"MODIFIER_VALUE_ABILITY_PROJECTILE_SPEED_PERCENT_label"			"Speed Increase"
+		"MODIFIER_VALUE_ABILITY_PROJECTILE_SPEED_PERCENT_postfix"			" %"
+		
+		"TechCleaveDamagePercent_label"				"Flächenschaden"
+		
+		"TechCleaveDamagePercent_postvalue_label"				"Flächenschaden"
+		"TechCleaveDamagePercent_postfix"				" %"
+		
+		"TechCleaveTargetCap_label"					"zusätzliche Ziele"
+		
+		"TechCleaveTargetCap_postvalue_label"					"zusätzliche Ziele"
+		//"TechCleaveTargetCap_postfix"					""
+		
+		"TechCleaveRadius_label"						"Radius für Flächenschaden"
+		
+		"TechCleaveRadius_postvalue_label"						"Radius für Flächenschaden"
+		"TechCleaveRadius_postfix"						" m"
+
+		"InitialRadius_label"							"anfänglicher Radius"
+
+		"InitialRadius_postvalue_label"							"anfänglicher Radius"
+		"InitialRadius_postfix"							" m"
+
+		//"BlurVisionRange_label"							"Blur Vision Range"
+		"BlurVisionRange_postfix"						" m"
+		
+		//"ExplosiveShotRadiusPercent_label"				"Explosive Shot Radius Increase"
+		"ExplosiveShotRadiusPercent_postfix"			" %"
+				
+		//"TechPowerPerCharge_label"						"Spirit per Charge"	
+		
+		//"FireRatePerCharge_label"						"Fire Rate per Charge"
+		"FireRatePerCharge_postfix"						" %"
+		
+		//"ChargeDuration_label"							"Charge Duration"
+		"ChargeDuration_postfix"						" s"
+
+		//"MaxCharges_label"								"Max Charges"
+
+		//"ExtraBladeDamage_label"						"Extra Damage per Charge"
+
+		//"WaveStunDuration_label"						"Disarm/EMP Duration"
+		"WaveStunDuration_postfix"						" s"
+
+		"WaveLifetime_label"							"Lebensdauer von Projektilen"
+
+		"WaveLifetime_postvalue_label"							"Lebensdauer von Projektilen"
+		"WaveLifetime_postfix"							" s"
+
+		//"LockedRadius_label"							"Chain Length"
+		"LockedRadius_postfix"							" m"
+
+		//"BoostDuration_label"							"Ally Move Speed Duration"
+		"BoostDuration_postfix"							" s"
+
+		//"ShieldPercentage_label"						"Shield Max Health %"
+		"ShieldPercentage_postfix"						" % max. LP"
+
+		"ShieldDuration_label"							"Schilddauer"
+
+		"ShieldDuration_postvalue_label"							"Schilddauer"
+		"ShieldDuration_postfix"						" s"
+
+		"SlowRadius_label"								"Verlangsamungsradius"
+
+		"SlowRadius_postvalue_label"								"Verlangsamungsradius"
+		"SlowRadius_postfix"							" m"
+		
+		//"SmokeDuration_label"							"Smoke Duration"
+		"SmokeDuration_postfix"							" s"
+
+		//"SmokeRadius_label"								"Smoke Radius"
+		"SmokeRadius_postfix"							" m"
+
+		"ChainDuration_label"							"Verbindungsdauer"
+
+		"ChainDuration_postvalue_label"							"Verbindungsdauer"
+		"ChainDuration_postfix"							" s"
+
+		//"InfectDuration_label"							"Infect Duration"
+		"InfectDuration_postfix"						" s"
+
+		//"CloudDuration_label"							"Cloud Lifetime"
+		"CloudDuration_postfix"							" s"
+
+		"TimeSlowPercent_label"							"Zeitverlangsamung"
+
+		"TimeSlowPercent_postvalue_label"							"Zeitverlangsamung"
+		"TimeSlowPercent_postfix"						" %"
+
+		//"CombatRegenPercent_label"						"Health Regen in Combat"
+		"CombatRegenPercent_postfix"					" %"
+
+		"AttackPower_prefix"							"{s:sign}"
+		//"AttackPower_postfix"							""
+		//"AttackPower_label"								"Attack Power"
+
+		"AbilityPower_prefix"							"{s:sign}"
+		//"AbilityPower_postfix"							""
+		//"AbilityPower_label"							"Ability Power"
+		  
+		"DefensePower_prefix"							"{s:sign}"
+		//"DefensePower_postfix"							""
+		//"DefensePower_label"							"Defense Power"
+
+		//"InfectionBonusDPS_prefix"						""
+		//"InfectionBonusDPS_postfix"						""
+		//"InfectionBonusDPS_label"						"Infection Bonus DPS"
+
+		//"DecoyLifetime_prefix"							""
+		"DecoyLifetime_postfix"							" s"
+		//"DecoyLifetime_label"							"Decoy Lifetime"
+
+		"Health_prefix"									""
+		"Health_postfix"								""
+		"Health_label"									"Lebenspunkte"
+
+		"Health_postvalue_label"									"Lebenspunkte"
+
+		"Grenades_prefix"					""
+		"Grenades_postfix"					""
+		//"Grenades_label"					"Extra Bombs"
+
+		//"SearchRadius_label"				"Search Radius"
+		"SearchRadius_postfix"				" m"
+
+		//"GrenadesPerVolley_label"			"Bombs Per Volley"
+
+		//"BulletArmorPenetration_label"		"Target Bullet Resist"
+		//"BulletArmorPenetration_postfix"	""
+
+		//"RampDuration_label"						"Ramp Duration"
+		"RampDuration_postfix"						" s"
+
+		//"EndDuration_label"							"Final Duration"
+		"EndDuration_postfix"						" s"
+
+		//"FinalSlow_label"							"Slowest Speed"		
+		"FinalSlow_postfix"							" m/s"		
+
+		"WeaponPowerPerStack_prefix"				"{s:sign}"
+		"WeaponPowerPerStack_label"					"Waffenschaden pro Instanz"
+		"WeaponPowerPerStack_postvalue_label"					"Waffenschaden pro Instanz"
+		"WeaponPowerPerStack_postfix"				" %"
+		"WeaponPowerPerStackNonHero_prefix"				"{s:sign}"
+		"WeaponPowerPerStackNonHero_label"					"Waffenschaden (Nicht-Helden)"
+		"WeaponPowerPerStackNonHero_postvalue_label"					"Waffenschaden (Nicht-Helden)"
+		"WeaponPowerPerStackNonHero_postfix"				" %"
+
+		"NonHeroStackLimit_prefix"				""
+		"NonHeroStackLimit_label"					"Instanzenlimit (Nicht-Helden)"
+		"NonHeroStackLimit_postvalue_label"				"Instanzenlimit (Nicht-Helden)"
+		"NonHeroStackLimit_postfix"				""
+
+		"DamageToStack_label"						"Erlittener Schaden zu Instanz"
+		"DamageToStack_postvalue_label"						"erlittener Schaden zu Instanz"
+		"DamageDuration_label"						"Dauer"
+		"DamageDuration_postvalue_label"						"Dauer"
+		"DamageDuration_postfix"						" s"
+
+		"RegenWhileInvisible_label"				"Lebensregeneration während Unsichtbarkeit"
+
+		"RegenWhileInvisible_postvalue_label"				"Lebensregeneration während Unsichtbarkeit"
+		"RegenWhileInvisible_prefix"			"+"
+		"RegenWhileInvisible_postfix"			""
+
+		"DamageRadius_label"						"Schadensradius"
+
+		"DamageRadius_postvalue_label"						"Schadensradius"
+		"DamageRadius_postfix"						" m"
+
+		//"RegenerationRate_label"					"Restore Time"
+		"RegenerationRate_postfix"					" s"
+
+		"BulletShieldMaxHealth_prefix"				"{s:sign}"
+		"BulletShieldMaxHealth_label"				"Schildpunkte gegen Kugelschaden"
+		"BulletShieldMaxHealth_postvalue_label"				"Schildpunkte gegen Kugelschaden"
+
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_label"				"Schildpunkte gegen Kugelschaden"
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_postvalue_label"				"Schildpunkte gegen Kugelschaden"
+
+		"ActiveBulletShieldMaxHealth_prefix"		"{s:sign}"
+		"ActiveBulletShieldMaxHealth_label"			"Schildpunkte gegen Kugelschaden"
+		"ActiveBulletShieldMaxHealth_postvalue_label"			"Schildpunkte gegen Kugelschaden"
+
+		"ActiveMODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_prefix"		"{s:sign}"
+		"ActiveMODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_label"			"Schildpunkte gegen Kugelschaden"
+		"ActiveMODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_postvalue_label"			"Schildpunkte gegen Kugelschaden"
+
+		"TechShieldMaxHealth_prefix"				"{s:sign}"
+		"TechShieldMaxHealth_label"					"Schildpunkte gegen Magieschaden"
+		"TechShieldMaxHealth_postvalue_label"					"Schildpunkte gegen Magieschaden"
+
+		"WeaponPowerPerKill_label"			"Waffenschaden pro Kill"
+
+		"WeaponPowerPerKill_postvalue_label"			"Waffenschaden pro Kill"
+		"WeaponPowerPerKill_prefix"			"+"
+		"WeaponPowerPerKill_postfix"		" %"
+		//"WeaponPowerPerAssist_label"		"Courage per Assist"
+		//"WeaponPowerPerDeath_label"			"Courage per Death"
+
+		"FireRatePerKill_label"			"Feuerrate pro Kill"
+
+		"FireRatePerKill_postvalue_label"			"Feuerrate pro Kill"
+		"FireRatePerKill_prefix"			"+"
+		"FireRatePerKill_postfix"		" %"
+
+		"BonusZoomPercent_prefix"				"{s:sign}"
+		"BonusZoomPercent_label"				"Reichweite für Waffenzoom"
+		"BonusZoomPercent_postvalue_label"				"Reichweite für Waffenzoom"
+		"BonusZoomPercent_postfix"				" %"
+
+		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_label"				"Reichweite für Waffenzoom"
+		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_postvalue_label"				"Reichweite für Waffenzoom"
+		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_postfix"				" %"
+
+		"MaxDPS_label"						"Max. Schaden pro Sek."
+
+		"MaxDPS_postvalue_label"						"max. Schaden pro Sek."
+		//"DamageOnHit_label"					"Damage on Hit"
+		"ProcCooldown_label"					"max. Zufügungshäufigkeit"
+		"ProcCooldown_postvalue_label"					"max. Zufügungshäufigkeit"
+		"ProcCooldown_postfix"				" s"
+
+		//"WeaponPowerPerEnemy_label"			"Courage per Enemy"
+		"WeaponPowerPerEnemy_prefix"			"+"
+
+		//"FireRatePerEnemy_label"				"Fire Rate per Enemy"
+		"FireRatePerEnemy_prefix"				"+"
+		"FireRatePerEnemy_postfix"			" %"
+
+		//"AssaultDuration_label"				"Air Attack Duration"
+		"AssaultDuration_postfix"				" s"
+
+		//"AssaultFireRate_label"				"Air Attack Fire Rate"
+		"AssaultFireRate_prefix"				"{s:sign}"
+		"AssaultFireRate_postfix"				" %"
+
+		"ActiveHealthRegen_prefix"			"{s:sign}"
+		"ActiveHealthRegen_label"			"Lebensregeneration"
+		"ActiveHealthRegen_postvalue_label"			"Lebensregeneration"
+		"ActiveHealthRegen_postfix"			" LP/Sek."
+
+		"ActiveBonusFireRate_label"			"Feuerrate"
+
+		"ActiveBonusFireRate_postvalue_label"			"Feuerrate"
+		"ActiveBonusFireRate_postfix"		" %"
+		"SurgeDelay_label"					"Verzögerung"
+		"SurgeDelay_postvalue_label"					"Verzögerung"
+		"SurgeDelay_postfix"				" s"
+
+		//"upgrade_fervor/modifier_fervor/modifier_fervor_damage_stack"	"Fervor Stack"
+		//"upgrade_fervor/modifier_fervor/modifier_fervor_bonuses"	"Enrage Bonuses"
+		"FervorMovespeed_label"		"Bewegungstempo"
+		"FervorMovespeed_postvalue_label"		"Bewegungstempo"
+		"FervorMovespeed_postfix"	" m/s"
+		"FervorFireRate_label"		"Feuerrate"
+		"FervorFireRate_postvalue_label"		"Feuerrate"
+		"FervorFireRate_postfix"	" %"
+		//"FervorDebuffResistance_label"		"Enrage Debuff Resistance"
+		"FervorDebuffResistance_postfix"	" %"
+		"FervorTechResist_label"			"Magieresistenz"
+
+		"FervorTechResist_postvalue_label"			"Magieresistenz"
+
+		"PassiveFireRate_label"		"Feuerrate"
+
+		"PassiveFireRate_postvalue_label"		"Feuerrate"
+		"PassiveFireRate_postfix"	" %"
+
+		"TechDamagePercent_Label"	"Schaden"
+		"TechDamagePercent_postvalue_label"	"Schaden"
+		"TechDamagePercent_Postfix"	" %"
+		
+		"MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER_Label"	"Schaden"
+		"MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER_postvalue_label"	"Schaden"
+		"MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER_Postfix"	" %"
+		
+		"DelayDuration_Label"	"Verzögerung"
+		"DelayDuration_postvalue_label"	"Verzögerung"
+		"DelayDuration_Postfix"	" s"
+		//"MinimumDamage_Label"	"Minimum Damage"
+
+		"EMPDuration_label"				"Schwächungs­dauer"
+
+		"EMPDuration_postvalue_label"				"Schwächungs­dauer"
+		"EMPDuration_postfix"			" s"
+
+		//"BonusBulletDamageToEMPTargets_label" "Bullet Damage to Silenced targets"
+		"BonusBulletDamageToEMPTargets_prefix" "+"
+		"BonusBulletDamageToEMPTargets_postfix" " %"
+		"modifier_silencer_proc_active"	"Verstummer"
+
+		"BulletDamageReflectedPct_label"					"reflektierter Kugelschaden"
+
+		"BulletDamageReflectedPct_postvalue_label"					"reflektierter Kugelschaden"
+		"BulletDamageReflectedPct_postfix"					" %"
+		"SpiritDamageReflectedPct_label"					"reflektierter Magieschaden"
+		"SpiritDamageReflectedPct_postvalue_label"					"reflektierter Magieschaden"
+		"SpiritDamageReflectedPct_postfix"					" %"
+		"DamageReflectedFrequencyPct_label"				"Auslösechance"
+		"DamageReflectedFrequencyPct_postvalue_label"				"Auslösechance"
+		"DamageReflectedFrequencyPct_postfix"			" %"
+		"modifier_armor_reactive_armor"					"Feuererwiderung"
+		"ReturnFireBulletResist_prefix"					"+"
+		"ReturnFireBulletResist_label"					"Kugelresistenz"
+		"ReturnFireBulletResist_postvalue_label"					"Kugelresistenz"
+		"ReturnFireBulletResist_postfix"					" %"
+
+		//"RespawnBonusHealth_label"							"Respawn Bonus Health"
+		//"RespawnBonusHealthDuration_label"					"Respawn Bonus Health Duration"
+		"RespawnBonusHealthDuration_postfix"				" s"
+		//"upgrade_rebirth/respawn_bonus_health_modifier"		"Rebirth Bonus Health"
+
+		//"DeathImmunityDuration_label"				"Death Immunity Duration"
+		//"DeathImmunityDuration_postfix"			"s"
+		//"DeathImmunityPulseRateMultiplier_label"		"Pulse Rate"
+		//"DeathImmunityPulseRateMultiplier_postfix"	"x"
+		//"modifier_cheat_death_immunity"			"Death Immune"
+
+		"StasisRadius_label"				"Radius"
+
+		"StasisRadius_postvalue_label"				"Radius"
+		"StasisRadius_postfix"				" m"
+
+		//"upgrade_quarantine/modifier_citadel_quarantine"	"Quarantined"
+
+		"HealPercentAmount_label"				"Heilung"
+
+		"HealPercentAmount_postvalue_label"				"Heilung"
+		"HealPercentAmount_postfix"			" %"
+
+		"Stamina_label"							"Ausdauer"
+		"Stamina_postvalue_label"							"Ausdauer"
+		"Stamina_prefix"							"{s:sign}"
+
+		"MODIFIER_VALUE_STAMINA_label"							"Ausdauer"
+		"MODIFIER_VALUE_STAMINA_postvalue_label"							"Ausdauer"
+		"MODIFIER_VALUE_STAMINA_prefix"							"{s:sign}"
+
+		"StaminaCooldownReduction_prefix"				"{s:sign}"
+		"StaminaCooldownReduction_label"				"Ausdauer­regeneration"
+		"StaminaCooldownReduction_postvalue_label"				"Ausdauer­regeneration"
+		"StaminaCooldownReduction_postfix"			" %"
+
+		//"ActiveHealthChange_label"			"Health Steal"
+		"ActiveHealthChange_postfix"			" LP"
+		//"ActiveWeaponDamageChange_label"		"Weapon Damage Steal"
+		"ActiveWeaponDamageChange_postfix"    " %"
+
+		//"modifier_upgrade_siphon_buff"		"Siphon"
+		"modifier_upgrade_siphon_debuff"		"Gestohlene Lebenspunkte"
+		//"SiphonRadius_label"					"Activate Radius"
+		"SiphonRadius_postfix"				" m"
+
+		"TechResistDuration_label"			"Dauer"
+
+		"TechResistDuration_postvalue_label"			"Dauer"
+		"TechResistDuration_postfix"			" s"
+
+		"BleedTechResist_label"				"Magieresistenz"
+
+		"BleedTechResist_postvalue_label"				"Magieresistenz"
+		"BleedTechResist_prefix"				"{s:sign}"
+		"BleedTechResist_postfix"				" %"
+
+		//"StackProcDamage_label"			"Burst Damage"
+		"StackDuration_label"				"Instanzendauer"
+		"StackDuration_postvalue_label"				"Instanzendauer"
+		"StackDuration_postfix"			" s"
+
+		"HeadShotBonusDamage_prefix"		"{s:sign}"
+		"HeadShotBonusDamage_label"			"Bonusschaden bei Kopfschuss"
+		"HeadShotBonusDamage_postvalue_label"			"Bonusschaden bei Kopfschuss"
+		"HeadShotDebuffDuration_label"		"Dauer"
+		"HeadShotDebuffDuration_postvalue_label"		"Dauer"
+		"HeadShotDebuffDuration_postfix"	" s"
+		"HeadShotCooldown_label"			"Abklingzeit"
+		"HeadShotCooldown_postvalue_label"			"Abklingzeit"
+		"HeadShotCooldown_postfix"			" s"
+		//"upgrade_leveler/headshot_cooldown_modifier"	"Head Shot Bonus Cooldown"
+		//"ActiveChainDuration_label"			"Tether Duration"
+		"ActiveChainDuration_postfix"		" s"
+		"ActiveBulletArmorReduction_label"	"Kugelresistenz­reduzierung"
+
+		"ActiveBulletArmorReduction_postvalue_label"	"Kugelresistenz­reduzierung"
+
+		//"modifier_galvanic_storm"				"Galvanic Storm"
+		//"BuildupPerProc_label"				"Buildup on Shock"
+		"BuildupPerProc_postfix"				" %"
+		//"BuildupDamage_label"					"Damage on Buildup"
+		
+		//"ShockBuildupDuration_label"			"Shock Buildup Lifetime"
+		"ShockBuildupDuration_postfix"		" s"
+
+		"GalvanicProcDuration_label"			"Verlangsamungsdauer"
+
+		"GalvanicProcDuration_postvalue_label"			"Verlangsamungs­dauer"
+		"GalvanicProcDuration_postfix"		" s"
+
+		"FireRateSlow_label"					"Feuerrate"
+		"FireRateSlow_postvalue_label"					"Feuerrate"
+		"FireRateSlow_prefix"					"−"
+		"FireRateSlow_postfix"					" %"
+
+		"MODIFIER_VALUE_FIRE_RATE_SLOW_label"					"Feuerrate"
+		"MODIFIER_VALUE_FIRE_RATE_SLOW_postvalue_label"					"Feuerrate"
+		"MODIFIER_VALUE_FIRE_RATE_SLOW_prefix"					"−"
+		"MODIFIER_VALUE_FIRE_RATE_SLOW_postfix"					" %"
+
+		"TechPowerReduction_label"					"Magiekraft"
+
+		"TechPowerReduction_postvalue_label"					"Magiekraft"
+		"TechPowerReduction_prefix"					""
+		"TechPowerReduction_postfix"					""
+
+		//"SlowFireRatePercent_label"			"Fire Rate Scale"
+		"SlowFireRatePercent_prefix"			"{s:sign}"
+		"SlowFireRatePercent_postfix"			" %"
+
+		"MaxFireRateSlowPercent_label"			"max. Feuerrate"
+
+		"MaxFireRateSlowPercent_postvalue_label"			"max. Feuerrate"
+		"MaxFireRateSlowPercent_postfix"		" %"
+		"MaxFireRateSlowPercent_prefix"		"−"
+
+		//"FireRateScale_label"					"Fire Rate Scale"
+		"FireRateScale_prefix"				"{s:sign}"
+		"FireRateScale_postfix"				" %"
+
+		//"ActiveHealAmount_label"				"Self Heal"
+		//"ActiveHealAmount_postfix"			"HP"
+
+		//"BonusDamagePerHero_label"			"Bonus Damage Per Hero"
+		"BonusDamagePerHero_postfix"			" %"
+
+		//"DebuffDelay_label"					"Debuff Delay"
+		"DebuffDelay_postfix"					" s"
+
+		//"ArmorLossPerHit_label"				"Resist lost per Hit"
+		"ArmorLossPerHit_postfix"				" %"
+
+		//"StackLossFrequency_label"			"Resist Loss Frequency"
+		"StackLossFrequency_postfix"			" s"
+
+		"MaxBulletResist_label"				"max. Kugelresistenz"
+
+		"MaxBulletResist_postvalue_label"				"max. Kugelresistenz"
+		"MaxBulletResist_postfix"				" %"
+
+		"upgrade_berserker/modifier_berserker/modifier_berserker_damage_stack"		"Berserker"
+		"berserker_stack"							"Berserker"
+
+		"WeaponDamageBonus_prefix"		"{s:sign}"
+		"WeaponDamageBonus_label"			"Waffenschaden"
+
+		"WeaponDamageBonus_postvalue_label"			"Waffenschaden"
+
+		"TechDamageBonusPercent_prefix"		"{s:sign}"
+		"TechDamageBonusPercent_label"		"Magieschaden"
+		"TechDamageBonusPercent_postvalue_label"		"Magieschaden"
+		"TechDamageBonusPercent_postfix"		" %"
+
+		"SuperiorStaminaBonusSpirit_prefix"	"{s:sign}"
+		//"SuperiorStaminaBonusSpirit_label"	"Spirit Power After Second Jump/Dash"
+
+		"EchoShardBonusSpirit_prefix"		"{s:sign}"
+		//"EchoShardBonusSpirit_label"		"Spirit Power for Echo Ability"
+
+
+
+		"BonusSpirit_prefix"				"{s:sign}"
+		"BonusSpirit_label"				"Magiekraft"
+		"BonusSpirit_postvalue_label"				"Magiekraft"
+		"BonusSpiritLifesteal_prefix"				"{s:sign}"
+		"BonusSpiritLifesteal_label"				"Magielebensraub"
+		"BonusSpiritLifesteal_postvalue_label"				"Magielebensraub"
+		"BonusSpiritLifesteal_postfix"			" %"
+		//"modifier_power_shard_bonus"		"Echo Boost"
+
+		//"BonusDuration_label"				"Bonus Duration"
+		"BonusDuration_postfix" 			" s"
+		//"superior_stamina_buff"			"Bonus Spirit Power"
+
+		"HighGroundBonusWeaponPower_prefix"	"{s:sign}"
+		//"HighGroundBonusWeaponPower_label"	"Weapon Damage When Above Enemies"
+		"HighGroundBonusWeaponPower_postfix"	" %"
+
+		"BonusBaseWeaponDamage_prefix"					"{s:sign}"
+		"BonusBaseWeaponDamage_label"					"Waffenschaden"
+		"BonusBaseWeaponDamage_postvalue_label"					"Waffenschaden"
+		"BonusBaseWeaponDamage_postfix"					" %"
+
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_label"					"Waffenschaden"
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_postvalue_label"					"Waffenschaden"
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_postfix"					" %"
+
+		"BaseAttackDamagePercent_prefix"					"{s:sign}"
+		"BaseAttackDamagePercent_label"					"Waffenschaden"
+		"BaseAttackDamagePercent_postvalue_label"					"Waffenschaden"
+		"BaseAttackDamagePercent_postfix"					" %"
+
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_label"					"Waffenschaden"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_postvalue_label"					"Waffenschaden"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_postfix"					" %"
+
+		"BaseAttackDamagePercentAltFire_prefix"					"{s:sign}"
+		"BaseAttackDamagePercentAltFire_label"					"Waffenschaden (alt. Feuermodus)"
+		"BaseAttackDamagePercentAltFire_postvalue_label"					"Waffenschaden (alt. Feuermodus)"
+		"BaseAttackDamagePercentAltFire_postfix"					" %"
+
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_label"					"Waffenschaden (alt. Feuermodus)"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_postvalue_label"					"Waffenschaden (alt. Feuermodus)"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_postfix"					" %"
+
+		"ImbuedTechPower_prefix"					"{s:sign}"
+		"ImbuedTechPower_label"						"Magiekraft für veredelte Fähigkeit"
+
+		"ImbuedTechPower_postvalue_label"						"Magiekraft für veredelte Fähigkeit"
+
+		"MovementSpeedBonusDuration_label"			"Bewegungstempobonus (Dauer)"
+
+		"MovementSpeedBonusDuration_postvalue_label"			"Bewegungstempobonus (Dauer)"
+		"MovementSpeedBonusDuration_postfix"		" s"
+
+		//"EnemyLifeThreshold_label"					"Threshold"
+		"EnemyLifeThreshold_postfix"					" %"
+
+		//"CloneDamageTakenIncreasePercent_label"		"Clone Damage Taken"
+		"CloneDamageTakenIncreasePercent_prefix"		"{s:sign}"
+		"CloneDamageTakenIncreasePercent_postfix"		" %"
+
+		"ability_abort_cast"						"Abbrechen"
+		"ability_cancel_channel"					"Kanalisierung beenden"
+
+		//"citadel_ability_lightning_dodge"	"Lightning Roll"
+		//"citadel_ability_lightning_dodge_passive"	"Lightning Roll"
+		//"citadel_ability_basicdamagereflect"	"Reflect Basic Damage"
+		//"citadel_ability_bullet_damage_amp_wall"	"Bullet Damage Amp Wall"
+
+		//"modifier_limit_ability_cooldown"		"Quick Cooldowns"
+
+		//"ability_golden_idol"					"Drop Soul Urn"
+		"golden_idol_bonus_01"					"+35 % zusätzliche Seelen"
+		"golden_idol_bonus_02"					"+1 Fähigkeitspunkt"
+
+		//"ability_capture_zip_line"				"Capture Hyperline"
+		//"modifier_citadel_capture_zipline_timer"	"Capturing Hyperline"
+
+		//"modifier_citadel_containment_victim"	"Containment"
+		"modifier_hollow_point_stack"			"Hohlspitz-Kugeln"
+		//"LifeThreshold_label"					"Life Threshold"
+		"LifeThreshold_postfix"					" %"
+		//"Cloaked"								"Cloaked"
+
+		"zipline_boost"							"Temposchub für Transportkabel"
+		"ActiveTechPower_label"					"Magiekraft"
+		"ActiveTechPower_postvalue_label"					"Magiekraft"
+		"ActiveTechPower_prefix"				"+"
+
+		//"ActiveBulletShieldHealth_label"		"Active Shield Health"
+		//"ActiveBulletShieldDuration_label"		"Active Shield Duration"
+		"ActiveBulletShieldDuration_postfix"		" s"
+		"PassiveShieldCooldown_label"			"Abklingzeit"
+		"PassiveShieldCooldown_postvalue_label"			"Abklingzeit"
+		"PassiveShieldCooldown_postfix"			" s"
+		"active_bullet_shield"					"Schildpunkte gegen Kugelschaden"
+
+		//"SlamDownRadius_label"					"Slam Radius"
+		"SlamDownRadius_postfix"				" m"
+
+		"StealDuration_label"					"Stehldauer"
+
+		"StealDuration_postvalue_label"					"Stehldauer"
+		"StealDuration_postfix"					" s"
+
+		"VeilCross_conditional"					"nach Durchschreiten eines Schleiers"
+		"modifier_veil_walker_triggered"			"Feuerrate durch Mystischer Schleier"
+		"modifier_veil_walker_stealth"			"Unsichtbar durch Mystischer Schleier"
+
+		"InvisDuration_label"						"Unsichtbarkeitsdauer"
+
+		"InvisDuration_postvalue_label"						"Unsichtbarkeitsdauer"
+		"InvisDuration_postfix"					" s"
+
+		"SlideScale_label"						"Rutschdistanz"
+
+		"SlideScale_postvalue_label"						"Rutschdistanz"
+		"SlideScale_postfix"						" %"
+		"SlideScale_prefix"						"+"
+
+		"AirMoveIncreasePercent_label"				"Sprung-/Spurtdistanz in der Luft"
+		"AirMoveIncreasePercent_postvalue_label"				"Sprung-/Spurtdistanz in der Luft"
+		"AirMoveIncreasePercent_postfix"						" %"
+		"AirMoveIncreasePercent_prefix"						"+"
+
+		"MODIFIER_VALUE_AIR_MOVE_DISTANCE_INCREASE_PERCENT_label"				"Sprung-/Spurtdistanz in der Luft"
+		"MODIFIER_VALUE_AIR_MOVE_DISTANCE_INCREASE_PERCENT_postvalue_label"				"Sprung-/Spurtdistanz in der Luft"
+		"MODIFIER_VALUE_AIR_MOVE_DISTANCE_INCREASE_PERCENT_postfix"						" %"
+		"MODIFIER_VALUE_AIR_MOVE_DISTANCE_INCREASE_PERCENT_prefix"						"+"
+
+		"FreeAirJumps_prefix"							"{s:sign}"
+		"FreeAirJumps_label"							"Luftsprünge ohne Ausdauer"
+		"FreeAirJumps_postvalue_label"					"Luftsprünge ohne Ausdauer"
+
+		"MODIFIER_VALUE_FREE_AIR_JUMPS_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_FREE_AIR_JUMPS_label"					"Luftsprünge ohne Ausdauer"
+		"MODIFIER_VALUE_FREE_AIR_JUMPS_postvalue_label"			"Luftsprünge ohne Ausdauer"
+
+		"ActiveReloadPercent_label"				"Munition"
+		
+		"ActiveReloadPercent_postvalue_label"				"Munition"
+		"ActiveReloadPercent_postfix"				" %"
+		"ActiveReloadPercent_prefix"				"+"
+
+		"ImbuedCooldownMultiplier_label"			"Abklingzeit für veredelte Fähigkeit"
+		"ImbuedCooldownMultiplier_postvalue_label"			"Abklingzeit für veredelte Fähigkeit"
+		"ImbuedCooldownMultiplier_postfix"			" %"
+
+		"RespawnHealthPercent_label"				"LP bei Wiederbelebung"
+
+		"RespawnHealthPercent_postvalue_label"				"LP bei Wiederbelebung"
+		"RespawnHealthPercent_postfix"			" %"
+
+		"ActiveBonusMoveSpeed_label"					"Bewegungstempo"
+
+		"ActiveBonusMoveSpeed_postvalue_label"					"Bewegungstempo"
+		"ActiveBonusMoveSpeed_prefix"					"{s:sign}"
+		"ActiveBonusMoveSpeed_postfix"					" m/s"
+		"ActiveItemUse_conditional"					"wenn aktiv"
+
+		"BuffMoveSpeedBonus_label"						"Bewegungstempo"
+
+		"BuffMoveSpeedBonus_postvalue_label"						"Bewegungstempo"
+		"BuffMoveSpeedBonus_postfix"						" m/s"
+		"BuffMoveSpeedBonus_prefix"						"{s:sign}"
+
+		//"ChannelMoveSpeed_label"						"Channel Move Speed"
+		"ChannelMoveSpeed_postfx"						" m/s"
+		//"ChannelMoveSpeed_prefix"						""
+
+		"BulletShieldOnCast_label"						"Schildpunkte gegen Kugelschaden"
+
+		"BulletShieldOnCast_postvalue_label"						"Schildpunkte gegen Kugelschaden"
+		"TechShieldOnCast_label"						"Schildpunkte gegen Magieschaden"
+		"TechShieldOnCast_postvalue_label"						"Magieschild"
+		//"BulletShieldDuration_label"					"Bullet Shield Duration"
+		"BulletShieldDuration_postfix"					" s"
+
+		
+		//"BloodPoolDPS_label"							"Blood Pool DPS"
+		//"BloodPoolDuration_label"						"Blood Pool Duration"
+		"BloodPoolDuration_postfix"						" s"
+		//"BloodPoolRadius_label"							"Blood Pool Radius"
+		"BloodPoolRadius_postfix"						" m"
+
+		"LowHealthThreshold_label"						"Lebenspunkteschwelle"
+		"LowHealthThreshold_postvalue_label"			"Lebenspunkteschwelle"
+		"LowHealthThreshold_postfix"					" %"
+		"LowHealthTechResist_label"						"Magieresistenz"
+		"LowHealthTechResist_postvalue_label"						"Magieresistenz"
+		"LowHealthTechResist_prefix"					"{s:sign}"
+		//"LowHealthWeaponPowerPercent_label"				"Courage"
+		"LowHealthWeaponPowerPercent_prefix"			"{s:sign}"
+		"LowHealthWeaponPowerPercent_postfix"			" %"
+		"ExecuteThreshold_label"						"LP-Schwelle für Hinrichtung"
+		"ExecuteThreshold_postvalue_label"						"LP-Schwelle für Hinrichtung"
+		"ExecuteThreshold_postfix"						" %"
+
+		"BuildupDuration_label"							"Zeit bis Verfall der Zunahme"
+
+		"BuildupDuration_postvalue_label"							"Zeit bis Verfall der Zunahme"
+		"BuildupDuration_postfix"						" s"
+		//"BuildupExpire_label"							"Buildup Expire"
+		"BuildupExpire_postfix"							" s"
+		//"BuildupDecayDelay_label"						"Buildup Decay Delay"
+		"BuildupDecayDelay_postfix"						" s"
+		//"BuildupRate_label"							"Buildup Per Shot"
+		//"BuildupRate_postfix"							""
+		"BuildupPerShot_label"							"Zunahme pro Schuss"
+		"BuildupPerShot_postvalue_label"							"Zunahme pro Schuss"
+		"BuildupPerShot_postfix"						" %"
+		//"StacksPerShot_label"							"Stacks Per Shot"
+
+		//"DamageOnApply_label"							"Damage On Apply"
+
+		"citadel_modifier_teleport"						"Teleportation läuft …"
+		"citadel_modifier_hideout_teleport"				"Versteck wird verlassen …"
+		"citadel_trigger_teleport_sandbox"				"Teleportation zum Testmodus …"
+		"citadel_trigger_teleport_hideout"				"Teleportation zum Versteck …"
+
+		"MaxHealthLossPercent_label"				"max. Lebenspunkte"
+
+		"MaxHealthLossPercent_postvalue_label"				"max. LP"
+		"MaxHealthLossPercent_postfix"			" %"
+
+		"BonusClipPerKill_prefix"				"{s:sign}"
+		"BonusClipPerKill_label"				"Bonusmunition pro Kill"
+
+		"BonusClipPerKill_postvalue_label"				"Bonusmunition pro Kill"
+
+		"BonusSpiritPerKill_prefix"				"{s:sign}"
+		//"BonusSpiritPerKill_label"				"Bonus Spirit Power Per Kill"
+
+		//"MaxClipBonus_label"				"Max Clip Bonus"
+
+		"SummonDuration_label"					"Beschwörungsdauer"
+
+		"SummonDuration_postvalue_label"					"Beschwörungsdauer"
+		"SummonDuration_postfix" 				" s"
+
+		"Reloaded"							"Nachgeladen!"
+		"BonusAmmo"							"Bonusmunition!"
+
+		"ExplodeDamage_label"				"Explosionsschaden"
+
+
+		"ExplodeDamage_postvalue_label"				"Explosionsschaden"
+
+		"StaminaRegenPercent_label"			"Ausdauerregeneration"
+		"StaminaRegenPercent_postvalue_label"			"Ausdauerregeneration"
+		"StaminaRegenPercent_postfix"		" %"
+
+		"MeleeResistPercent_prefix"			"{s:sign}"
+		"MeleeResistPercent_label"			"Nahkampfresistenz"
+		"MeleeResistPercent_postvalue_label"			"Nahkampfresistenz"
+		"MeleeResistPercent_postfix"		" %"
+		
+		"BuffDuration_label"				"Stärkungsdauer"
+		
+		"BuffDuration_postvalue_label"				"Stärkungsdauer"
+		"BuffDuration_postfix"				" s"
+
+		"GroundDashReductionPercent_label"	"Spurtdistanz"
+
+		"GroundDashReductionPercent_postvalue_label"	"Spurtdistanz"
+		"GroundDashReductionPercent_postfix"	" %"
+		
+		"ActivePlayerStats_Percentage"		" %"
+		"ActivePlayerStats_MoveSpeed"		" m/s"
+		"ActivePlayerStats_Regen"			" LP"
+		"ActivePlayerStats_Health"			" LP"
+
+		"TechDamageReduction_label"			"Magieschadens­reduzierung"
+
+		"TechDamageReduction_postvalue_label"			"Magieschadens­reduzierung"
+		"TechDamageReduction_postfix"		" %"
+
+		"ActiveMoveSpeedPenalty_label"		"Bewegungstempomalus (aktiv)"
+
+		"ActiveMoveSpeedPenalty_postvalue_label"		"Bewegungstempomalus (aktiv)"
+		"ActiveMoveSpeedPenalty_postfix"		" m/s"
+
+		"IncomingDamagePercent_label"		"Erlittener Schaden"
+
+		"IncomingDamagePercent_postvalue_label"		"erlittener Schaden"
+		"IncomingDamagePercent_postfix"		" %"
+		"IncomingDamagePercent_prefix"		"{s:sign}"
+
+		"IncomingDamagePercentFromCaster_label"		"Erlittener Schaden"
+
+		"IncomingDamagePercentFromCaster_postvalue_label"		"erlittener Schaden"
+		"IncomingDamagePercentFromCaster_postfix"	" %"
+		"IncomingDamagePercentFromCaster_prefix"	"{s:sign}"
+
+		
+		"IncomingBulletDamagePercentFromCaster_label"	"erlittener Kugelschaden"
+
+		
+		"IncomingBulletDamagePercentFromCaster_postvalue_label"	"erlittener Kugelschaden"
+		"IncomingBulletDamagePercentFromCaster_postfix"	" %"
+		"IncomingBulletDamagePercentFromCaster_prefix"	"{s:sign}"
+
+		"SlowResistance_label" "Verlangsamungsresistenz"
+		"SlowResistance_postvalue_label" "Verlangsamungsresistenz"
+		"SlowResistance_postfix" " %"
+
+		"MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE_label" "Verlangsamungsresistenz"
+		"MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE_postvalue_label" "Verlangsamungsresistenz"
+		"MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE_postfix" " %"
+
+		"MODIFIER_VALUE_STAMINA_REGEN_PER_SECOND_PERCENTAGE_postvalue_label" "Ausdauerregeneration"
+		"MODIFIER_VALUE_STAMINA_REGEN_PER_SECOND_PERCENTAGE_postfix" " %"
+
+		"CooldownReductionPerHit_label" "Abklingzeitred. pro Treffer"
+
+		"CooldownReductionPerHit_postvalue_label" "Abklingzeitred. pro Treffer"
+		"CooldownReductionPerHit_postfix" " s"
+
+		"ParryCooldownReduction_label"				"Abklingzeit für Parieren"
+
+		"ParryCooldownReduction_postvalue_label"				"Abklingzeit für Parieren"
+		"ParryCooldownReduction_prefix"			"−"
+		"ParryCooldownReduction_postfix"			" s"
+
+		"ImmunityDuration_label"	"Immunitätsdauer"
+
+		"ImmunityDuration_postvalue_label"	"Immunitätsdauer"
+		"ImmunityDuration_postfix"	" s"
+
+		"CombatBarrier_label"	"Barrierepunkte"
+
+		"CombatBarrier_postvalue_label"	"Barrierepunkte"
+		"BarrierDuration_label"	"Barrieredauer"
+		"BarrierDuration_postvalue_label"	"Barrieredauer"
+		"BarrierDuration_postfix" " s"
+
+		"InterruptCooldown_label"	"Abklingzeit nach Unterbrechung"
+		"InterruptCooldown_postvalue_label"	"Abklingzeit nach Unterbrechung"
+		"InterruptCooldown_postfix"	" s"
+
+		"BonusSoulsPct_label"	"Bonusseelen"
+		
+		"BonusSoulsPct_postvalue_label"	"Bonusseelen"
+		"BonusSoulsPct_prefix" "+"
+		"BonusSoulsPct_postfix" " %"
+		
+		"EnemyRange_label"		"Distanz zu Gegnern"
+		
+		"EnemyRange_postvalue_label"		"Distanz zu Gegnern"
+		"EnemyRange_postfix"	" m"
+
+		"ReduceFootstepSound_label"	"Distanz für Schrittgeräusche"
+
+		"ReduceFootstepSound_postvalue_label"	"Distanz für Schrittgeräusche"
+		"ReduceFootstepSound_postfix"	" %"
+
+		"WeaponDamagePerStack_label" "Waffenschaden pro Instanz"
+
+		"WeaponDamagePerStack_postvalue_label" "Waffenschaden pro Instanz"
+		"WeaponDamagePerStack_postfix" " %"
+		"WeaponDamagePerStack_prefix" "+"
+	
+		"LightMeleeAmmo_label"			"Munition"
+	
+		"LightMeleeAmmo_postvalue_label"			"Munition"
+		"LightMeleeAmmo_postfix"		" %"
+		"LightMeleeAmmo_prefix"			"+"
+
+		"HeavyMeleeMultiplier_label"	"Bonus für Nahkampfschaden (schwer)"
+
+		"HeavyMeleeMultiplier_postvalue_label"	"Bonus für Nahkampfschaden (schwer)"
+		"HeavyMeleeMultiplier_postfix"	"×"
+
+		"SpellParryDuration_label"		"Abwehrdauer für Zauber"
+
+		"SpellParryDuration_postvalue_label"		"Abwehrdauer für Zauber"
+		"SpellParryDuration_postfix"		" s"
+
+		"CooldownOnMissReduction_label"		"Abklingzeit bei Fehlschuss"
+
+		"CooldownOnMissReduction_postvalue_label"		"Abklingzeit bei Fehlschuss"
+		"CooldownOnMissReduction_postfix"	" %"
+
+		"HealOnCounterSpell_label"				"Heilung"
+		"HealOnCounterSpell_postvalue_label"	"Heilung"
+
+		"ProcMaxRange_label"					"Max. Auslösungsreichweite"
+		"ProcMaxRange_postvalue_label"			"max. Auslösungsreichweite"
+		"ProcMaxRange_postfix"					" m"
+
+		"HealOnHit_postvalue_label" "Heilung bei Treffer"
+
+		"GravityScale_label"					"Schwerkraftmodifikator"
+		"GravityScale_postvalue_label"			"Schwerkraftmodifikator"
+		"GravityScale_postfix"					" %"
+
+		"AirBonusDamageGiven_label"					"Schaden in der Luft"
+		"AirBonusDamageGiven_postvalue_label"		"Schaden in der Luft"
+		"AirBonusDamageGiven_prefix"				"{s:sign}"
+		"AirBonusDamageGiven_postfix"				" %"
+
+		"AirBonusDamageTaken_label"					"Erlittener Schaden in der Luft"
+		"AirBonusDamageTaken_postvalue_label"		"erlittener Schaden in der Luft"
+		"AirBonusDamageTaken_postfix"				" %"
+
+		"MinHeal_label"					"Min. Heilung"
+		"MinHeal_postvalue_label"		"min. Heilung"
+
+		"BuffFrequency_label"						"Stärkungshäufigkeit"
+		"BuffFrequency_postvalue_label"				"Stärkungshäufigkeit"
+		"BuffFrequency_postfix"						" s"
+
+		"BulletRadius_label"						"Kugelradius"
+		"BulletRadius_postvalue_label"				"Kugelradius"
+		"BulletRadius_postfix"						" m"
+
+		"StatusImmuneDuration_label"						"Unaufhaltsamkeitsdauer"
+		"StatusImmuneDuration_postvalue_label"				"Unaufhaltsamkeitsdauer"
+		"StatusImmuneDuration_postfix"						" s"
+
+		"CooldownReductionOnHitMin_label"					"Min. Reduzierung"
+		"CooldownReductionOnHitMin_postvalue_label"			"min. Reduzierung"
+		"CooldownReductionOnHitMin_postfix"					" s"
+
+		"CooldownReductionOnHitPct_label"					"Abklingzeitred. bei Treffer"
+		"CooldownReductionOnHitPct_postvalue_label"			"Abklingzeitred. bei Treffer"
+		"CooldownReductionOnHitPct_postfix"					" %"
+
+		"EvasionWhileSliding_label"						"Ausweichchance beim Rutschen"
+		"EvasionWhileSliding_postvalue_label"			"Ausweichchance beim Rutschen"						"EvasionWhileSliding_postfix"			" %"
+		"FireRateWhileSliding_label"						"Feuerrate beim Rutschen"
+		"FireRateWhileSliding_postvalue_label"			"Feuerrate beim Rutschen"
+		"FireRateWhileSliding_postfix"					" %"
+
+		"HealthPctDamage_label"						"Aktuelle LP als Schaden"
+		"HealthPctDamage_postvalue_label"			"aktuelle LP als Schaden"
+		"HealthPctDamage_postfix"					" %"
+		
+		"MaxHPDamage_label"								"Schaden (max. LP)"
+		"MaxHPDamage_postvalue_label"		"Schaden (max. LP)"
+		"MaxHPDamage_postfix"				" %"
+
+		"ResistStealAmount_label"				"Gestohlene Resistenz"
+		"ResistStealAmount_postvalue_label"		"gestohlene Resistenz"
+		"ResistStealAmount_postfix"				" %"
+
+		"OmniPendantBonusAbilityCharges_prefix"	"{s:sign}"
+		"OmniPendantBonusAbilityCharges_label"	"Fähigkeit mit gewährten Aufladungen"
+		"OmniPendantBonusAbilityCharges_postvalue_label"	"Fähigkeit mit gewährten Aufladungen"
+
+		"BonusAbilityChargesNonCharge_prefix"	"{s:sign}"
+		"BonusAbilityChargesNonCharge_label"			"Fähigkeit ohne gewährte Aufladungen"
+		"BonusAbilityChargesNonCharge_postvalue_label"	"Fähigkeit ohne gewährte Aufladungen"
+
+		"WeaponDamageBonusPerKill_prefix"				"{s:sign}"
+		"WeaponDamageBonusPerKill_label"				"Waffenschaden pro Kill"
+		"WeaponDamageBonusPerKill_postvalue_label"		"Waffenschaden pro Kill"
+		"WeaponDamageBonusPerKill_postfix"				" %"
+
+		"ImbueAbilityLifesteal_prefix"				"{s:sign}"
+		"ImbueAbilityLifesteal_label"				"Lebensraub für veredelte Fähigkeit"
+		"ImbueAbilityLifesteal_postvalue_label"				"Lebensraub für veredelte Fähigkeit"
+		"ImbueAbilityLifesteal_postfix"				" %"
+
+		"MissingHPHeal_label"						"Heilung (fehlende LP)"
+		"MissingHPHeal_postvalue_label"				"Heilung (fehlende LP)"
+		"MissingHPHeal_postfix"					" %"
+
+		"RegenerationDuration_label"		"Regenerationsdauer"
+		"RegenerationDuration_postvalue_label"		"Regenerationsdauer"
+		"RegenerationDuration_postfix"		" s"
+		"Regeneration_label"		"Regeneration"
+		"Regeneration_postvalue_label"		"Regeneration"
+		"Regeneration_postfix"		" LP/Sek."
+
+		"FlyingBulletResist_label"					"Kugelresistenz"
+		"FlyingBulletResist_postvalue_label"					"Kugelresistenz"
+		"FlyingBulletResist_postfix"				" %"
+
+		"RecastWindow_label"					"Zeitfenster für erneuten Einsatz"
+		"RecastWindow_postvalue_label"			"Zeitfenster für erneuten Einsatz"
+		"RecastWindow_postfix"					" s"
+
+		"UnstoppablePerHero_prefix"				"+"
+		"UnstoppablePerHero_label"					"Pro Held"
+		"UnstoppablePerHero_postvalue_label"		"pro Held"
+		"UnstoppablePerHero_postfix"				" s"
+
+		//-----------------------------------------------------------------------------
+		// END Ability Properties desc
+		//-----------------------------------------------------------------------------
+		
+		//-----------------------------------------------------------------------------
+		// Stat Descriptions - Used in Tooltips/Resources
+		//-----------------------------------------------------------------------------
+
+		"StatDesc_SpiritPowerDesc"				"<b>Magiekraft</b>: Erhöht die Effektivität Deiner Fähigkeiten und Gegenstände."
+		"StatDesc_AbilityRangeDesc"				"<b>Fähigkeitsreichweite</b>: Erhöht die Reichweite und den Radius Deiner Fähigkeiten und Gegenstände."
+		"StatDesc_AbilityDurationDesc"			"<b>Fähigkeitsdauer</b>: Erhöht die Dauer Deiner Fähigkeiten und Gegenstände."
+		"StatDesc_WeaponDamageDesc"				"<b>Waffenschaden</b>: Prozentuale Anpassung des Schadens Deiner Waffe und Nahkampfangriffe."
+		"StatDesc_MoveSpeedDesc"				"<b>Bewegungstempo</b>: Dein aktuelles Bewegungstempo."
+		"StatDesc_SpiritResistDesc"				"<b>Magieresistenz</b>: Deine Resistenz gegen eingehenden Magieschaden."
+		"StatDesc_WeaponResistDesc"				"<b>Kugelresistenz</b>: Deine Resistenz gegen eingehenden Kugelschaden."
+		"StatDesc_HealingBoostDesc"				"<b>Ausgehende Heilung</b>: Prozentuale Anpassung Deiner ausgehenden Heilungsfähigkeiten."
+		"StatDesc_HealingAmpDesc"				"<b>Eingehende Heilung</b>: Prozentuale Anpassung Deiner erhaltenen Heilung."
+		"StatDesc_AmmoDesc"						"<b>Munition</b>: Die Anzahl der Kugeln im Magazin Deiner Waffe, bevor das Nachladen erforderlich ist."
+		"StatDesc_FireRateDesc"					"<b>Feuerrate</b>: Prozentuale Anpassung der Feuerrate Deiner Waffe."
+		"StatDesc_SpiritLifestealDesc"			"<b>Magielebensraub</b>: Die Menge an Lebenspunkten, die Du durch das Zufügen von Magieschaden wieder erhältst."
+		"StatDesc_WeaponLifestealDesc"			"<b>Waffenlebensraub</b>: Die Menge an Lebenspunkten, die Du durch Zufügen von Waffenschaden wieder erhältst."
+		"StatDesc_BulletEvationDesc"			"<b>Kugelausweichchance</b>: Prozentuale Chance, eingehenden Kugeln auszuweichen."
+		"StatDesc_RegenDesc"					"<b>Lebensregeneration</b>: Die Menge an Lebenspunkten, die pro Sekunde regeneriert wird."
+		"StatDesc_DamageAmpDesc"					"<b>Schadensverstärkung</b>: Prozentuale Anpassung Deines ausgehenden Schadens."
+
+
+		//-----------------------------------------------------------------------------
+		// Inline Attributes
+		//-----------------------------------------------------------------------------
+
+		"InlineAttribute_Fortitude"		"Vitalität"
+		"InlineAttribute_Courage"		"Waffe"
+		"InlineAttribute_Spirit"		"Magiekraft"
+		"InlineAttribute_Slow"			"verlangsamt"
+		"InlineAttribute_SlowResistance""Verlangsamungsresistenz"
+		"InlineAttribute_DamageAmp"		"erhöhten Schaden"
+		"InlineAttribute_SpiritDamage"	"Magieschaden"
+		"InlineAttribute_SpiritDPS"	"kontinuierlichen Magieschaden"
+		"InlineAttribute_WeaponDPS"	"kontinuierlichen Waffenschaden"
+		"InlineAttribute_BonusSpiritDamage"	"Bonusmagieschaden"
+		"InlineAttribute_AbilityCooldown"	"klingt ab"
+		"InlineAttribute_Stun"	"betäubt"
+		"InlineAttribute_Heal"	"geheilt"
+		"InlineAttribute_Heals"	"heilt"
+		"InlineAttribute_Healing" "Heilung"
+		"InlineAttribute_Health" "Lebenspunkte"
+		"InlineAttribute_MaxHealth" "max. LP"
+		"InlineAttribute_Regen" "Regeneration"
+		"InlineAttribute_MeleeDamage"	"Nahkampfschaden"
+		"InlineAttribute_BulletDamage"	"Kugel­schaden"
+		"InlineAttribute_FireRate"	"Feuerrate"
+		"InlineAttribute_ReducedFireRate"	"reduzieren die Feuerrate"
+		"InlineAttribute_BonusFireRate"	"Bonusfeuerrate"
+		"InlineAttribute_MoveSpeed"		"Bewegungstempo"
+		"InlineAttribute_BonusMoveSpeed""Bonus­bewegungstempo"
+		"InlineAttribute_WeaponDamage"	"Waffenschaden"
+		"InlineAttribute_BonusWeaponDamage"	"Bonuswaffenschaden"
+		"InlineAttribute_SpiritResist"	"Magieresistenz"
+		"InlineAttribute_BulletResist"	"Kugelresistenz"
+		"InlineAttribute_SpiritIcon"	""
+		"InlineAttribute_CombatBarrier" "Barriere"
+		"InlineAttribute_Immobilize" "festgesetzt"
+		"InlineAttribute_Sleep" "in Schlaf versetzt"
+		"InlineAttribute_StaminaRegenPerSecond" "Ausdauerregeneration"
+		"InlineAttribute_KnockBack" "zurückgestoßen"
+		"InlineAttribute_KnockUp" "in die Luft schleudert"
+		"InlineAttribute_Pull" "hergezogen"
+		"InlineAttribute_Pulls" "heranzieht"
+		"InlineAttribute_Pulling" "zieht"
+		"InlineAttribute_PureDamage"	"reinen Schaden"
+		"InlineAttribute_Silence"	"verstummt"
+		"InlineAttribute_BonusSprintSpeed""Bonussprinttempo"
+	}
+}

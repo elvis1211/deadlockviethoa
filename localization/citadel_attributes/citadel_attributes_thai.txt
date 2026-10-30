@@ -1,0 +1,3246 @@
+﻿"lang"
+{
+	"Language"		"thai"
+	"Tokens"
+	{
+
+		//-----------------------------------------------------------------------------
+		// Unit states (that we want to show)
+		//-----------------------------------------------------------------------------
+
+		"MODIFIER_STATE_ROOTED"								"ถูกตรึง"
+		"MODIFIER_STATE_DISARMED"							"ถูกปลดอาวุธ"
+		"MODIFIER_STATE_SILENCED"							"ถูกใบ้"
+		"MODIFIER_STATE_STUNNED"							"ถูกสตัน"
+		"MODIFIER_STATE_INVULNERABLE"						"อมตะ"
+		"MODIFIER_STATE_TECH_INVULNERABLE"					"ไม่ได้รับความเสียหายวิญญาณ"
+		//"MODIFIER_STATE_BURNING"							"Burning"
+
+		// Commenting this out so it doesn't show overhead of the player your applied it to
+		//"MODIFIER_STATE_SLOWED"								"Slowed"
+
+		//"MODIFIER_STATE_BULLET_SHIELD_WEAKENED"				"Weakened Bullet Shield"
+		//"MODIFIER_STATE_IS_ASLEEP"							"Asleep"
+		//"MODIFIER_STATE_BULLET_DAMAGE_TAKEN_ALWAYS_CRITS"	"Crit Vulnerable"		 				
+		"MODIFIER_STATE_CHAINED"							"ถูกล่าม"
+		//"MODIFIER_STATE_ALL_ARMOR_DISABLED"					"Armors Disabled"
+		//"MODIFIER_STATE_BULLET_INVULNERABLE"				"Bulletproof"
+		//"MODIFIER_STATE_DRONE_ATTACHED"						"Drone Attached"
+		//"MODIFIER_STATE_WEAPON_JAMMED"						"Weapon Jammed"
+		"MODIFIER_STATE_TOXIC_BULLETS"						"พิษ"
+		//"MODIFIER_STATE_DISPLAY_LIFETIME"					"Life Time"
+		"MODIFIER_STATE_BLINDED"							"ตาบอด"
+
+		// Status Effects
+		"Citadel_StatusEffect"					"เอฟเฟกต์สถานะ"
+		"Citadel_StatusEffectStun"				"สตัน"
+		"Citadel_StatusEffectEMP"				"ใบ้"
+		"Citadel_StatusEffectFreeze"			"แช่แข็ง"
+		"Citadel_StatusEffectBurn"				"เผาไหม้"
+		"Citadel_StatusEffectBleed"				"เลือดไหล"
+		"Citadel_StatusEffectSleep"				"หลับ"
+		"Citadel_StatusEffectTethered"			"ผูกรัด"
+		"Citadel_StatusEffectImmobilize" 		"ตรึง"
+		"Citadel_StatusEffectDisarmed"			"ปลดอาวุธ"
+		"Citadel_StatusEffectInvisible"			"ล่องหน"
+		"Citadel_StatusEffectPetrify"			"กลายเป็นหิน"
+		"Citadel_StatusEffectCustomDebuff"		"ดีบัฟ"
+		//"Citadel_StatusEffectStacks"			"Stacks "
+		"Citadel_StatusEffectInfiniteClip"		"กระสุนไม่จำกัด"
+		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
+		//"Citadel_StatusEffectBuff"				"Buff"
+		"Citadel_StatusEffectUnstoppable"		"​อันสต็อป​เอเบิล​"
+		"Citadel_StatusEffectDisplacement"		"เปลี่ยนตำแหน่ง"
+		"Citadel_StatusEffectSilence"			"ใบ้"
+		"Citadel_StatusEffectCurse"				"​เคิร์ส​"
+
+		//"modifier_citadel_in_shop"				"In Shop"	
+		"modifier_citadel_in_fountain"			"ฐานที่มั่น"
+		"modifier_citadel_pre_match_wait"		"รอเริ่มแมตช์"
+		//"modifier_citadel_rapid_fire"			"Bullet Storm"
+		//"modifier_citadel_damageboost"			"Damage Boost"
+		//"modifier_citadel_damage_reduction" 	"Armor Boost"
+		"modifier_slowaura" 					"ช้าลง"
+		"modifier_citadel_slowtarget" 			"ช้าลง"
+		"modifier_citadel_lineslow"				"ช้าลง"
+		"modifier_slow_base"																		"ช้าลง"
+		"modifier_damageovertime" 				"เลือดไหล"
+		"modifier_citadel_stunned" 				"ถูกสตัน"
+		"modifier_citadel_knockdown"			"ถูกสตัน"
+		"modifier_citadel_delayed_stun"			"สตันแบบดีเลย์"
+		//"modifier_citadel_knockdown_stumble"	"Stumble"
+		"modifier_citadel_banished"				"ถูกขัง"
+		"modifier_citadel_tethered"				"ถูกโยง"
+		//"modifier_citadel_speed_boost" 			"Speed Boost"
+		//"modifier_pullaura" 					"Pulled"
+		//"modifier_healaura" 					"Healing"
+		"modifier_citadel_root"					"ถูกตรึง"
+		//"modifier_citadel_charging" 			"Charging"
+		//"modifier_invis" 						"Stealthed"
+		//"modifier_invis_start_delay" 			"Entering Stealth"
+		//"modifier_invis_fading"					"Fading"
+		//"modifier_camouflage_invis"				"Camouflaged"
+		"modifier_citadel_silenced"				"ถูกใบ้"
+		"silencer_immune"						"ไม่ได้รับผลจาก ​ไซเลนเซอร์​"
+		//"modifier_citadel_muted"				"Muted"
+		"modifier_citadel_disarmed"				"ถูกปลดอาวุธ"
+		"modifier_citadel_tech_shield"		"โล่กันวิญญาณ"
+		"modifier_citadel_revealed_on_map"		"เผยตัว"
+		"modifier_citadel_cursed"				"ถูกสาป"
+		"modifier_citadel_feared"				"หวาดกลัว"
+
+		"modifier_item_disarmed"				"ถูกปลดอาวุธ"
+		"modifier_citadel_disarm_proc"			"ถูกปลดอาวุธ"
+		//"modifier_citadel_disarm_proc_buildup"	"Disarming..."
+		//"disarm_immune"							"Disarm Immune"
+		//"modifier_citadel_dodging"				"Dodging"
+		//"modifier_prevent_healing"				"Healing Disabled"
+		
+		//"modifier_obscured_by_steam"			"Obscured"
+		"modifier_citadel_unstick" 				"กำลังปลดปล่อย"
+		"modifier_citadel_barrier"				"แบร์ริเออร์​"
+
+		"base_stat_regen"						"อัตราฟื้นฟูพื้นฐานฮีโร่"
+		"modifier_citadel_dazed"				"งุนงง"
+
+		//-----------------------------------------------------------------------------
+		// END Unit states
+		//-----------------------------------------------------------------------------
+
+
+		//-----------------------------------------------------------------------------
+		// Ability Property Text
+		//-----------------------------------------------------------------------------
+		"Citadel_AbilityProperty_OnHit"			"เมื่อโดน:"
+		"Citadel_AbilityProperty_OnExplode"		"เมื่อระเบิด:"
+		"Citadel_AbilityProperty_OnAttach"		"เมื่อติดระเบิด:"
+		"Citadel_AbilityProperty_BulletBuildup"	"สะสมกระสุน:"
+		"Citadel_AbilityProperty_OnPickup"		"เมื่อเก็บ:"
+		"Citadel_AbilityProperty_Withdrawals"	"ถอน:"
+		"Citadel_AbilityProperty_OnHitEnemy"	"เมื่อโดนศัตรู:"
+		"Citadel_AbilityProperty_OnHitFriendly"	"เมื่อโดนฝ่ายเดียวกัน:"
+		"Citadel_AbilityProperty_OnCursedCast"	"เมื่อร่ายตอนถูกสาป:"
+
+
+		//-----------------------------------------------------------------------------
+		// Stat desc - These are the labels in the hero stats for each EStatType
+		//-----------------------------------------------------------------------------
+		"StatDesc_DPS"									"DPS"
+		"StatDesc_DPS_postvalue_label"									"DPS"
+		"StatDesc_MeleeDamage"							"ความเสียหาย​ประชิด"
+		"StatDesc_MeleeDamage_postvalue_label"							"ความเสียหาย​ประชิด"
+		"StatDesc_LightMeleeDamage"						"โจมตี​ประชิด​​ธรรมดา"
+		"StatDesc_LightMeleeDamage_postvalue_label"						"โจมตี​ประชิด​​ธรรมดา"
+		"StatDesc_HeavyMeleeDamage"						"โจมตี​ประชิด​รุนแรง"
+		"StatDesc_HeavyMeleeDamage_postvalue_label"						"โจมตี​ประชิด​รุนแรง"
+		"StatDesc_MaxHealth"							"พลังชีวิตสูงสุด"
+		"StatDesc_MaxHealth_postvalue_label"							"พลังชีวิตสูงสุด"
+		"StatDesc_ClipSizeBonus"						"กระสุน"
+		"StatDesc_ClipSizeBonus_postvalue_label"						"กระสุน"
+		"StatDesc_ClipSizeIncrease"						"เพิ่มขนาดตับกระสุน"
+		"StatDesc_ClipSizeIncrease_postvalue_label"						"เพิ่มขนาดตับกระสุน"
+		"StatDesc_ClipSizeIncrease_postfix"				"%"
+		//"StatDesc_BonusClips"							"Clips"
+		//"StatDesc_AmmoRegen"							"Ammo Regen"
+		"StatDesc_HealthRegen"							"อัตรา​ฟื้นฟู​พลังชีวิต"
+		"StatDesc_HealthRegen_postvalue_label"							"อัตรา​ฟื้นฟู​พลังชีวิต"
+		"StatDesc_BaseHealthRegen"						"อัตรา​ฟื้นฟู​พลังชีวิต"
+		"StatDesc_BaseHealthRegen_postvalue_label"						"อัตรา​ฟื้นฟู​พลังชีวิต"
+		"StatDesc_OutOfCombatHealthRegen"				"อัตราฟื้นฟูนอกการต่อสู้"
+		"StatDesc_OutOfCombatHealthRegen_postvalue_label"				"อัตราฟื้นฟูนอกการต่อสู้"
+		//"StatDesc_ExternalHealthRegen"					"External Health Regen"
+		"StatDesc_RunSpeed"								"ความเร็ว​การ​เคลื่อนที่"
+		"StatDesc_RunSpeed_postvalue_label"								"ความเร็ว​การ​เคลื่อนที่"
+		"StatDesc_RunSpeed_postfix"						"ม"
+		"StatDesc_SprintSpeed"							"ความเร็ว​การวิ่ง"
+		"StatDesc_SprintSpeed_postvalue_label"							"ความเร็ว​การวิ่ง"
+		"StatDesc_SprintSpeed_postfix"					"ม"
+		//"StatDesc_RunAcceleration"						"Move Acceleration"
+		//"StatDesc_SprintAcceleration"					"Sprint Acceleration"
+		"StatDesc_IncomingDamageReduction"				"เกราะ"
+		"StatDesc_IncomingDamageReduction_postvalue_label"				"เกราะ"
+		//"StatDesc_IncomingDamageScale"					"Incoming Damage Scale"
+		"StatDesc_BulletArmor"							"เกราะ"
+		"StatDesc_BulletArmor_postvalue_label"							"เกราะ"
+		"StatDesc_BulletArmorDamageReduction"			"ต้านทาน​กระสุน​"
+		"StatDesc_BulletArmorDamageReduction_postvalue_label"			"ต้านทาน​กระสุน​"
+		"StatDesc_BulletArmorDamageReduction_postfix"	"%"
+		//"StatDesc_IncomingBulletDamageReduction"		"Bullet Damage Armor"
+		//"StatDesc_IncomingBulletDamageScale"			"Bullet Damage Scale"
+		//"StatDesc_IncomingMeleeDamageReduction"			"Melee Damage Armor"
+		//"StatDesc_IncomingMeleeDamageScale"				"Melee Damage Scale"
+		"StatDesc_TechArmor"							"เกราะกันวิญญาณ"
+		"StatDesc_TechArmor_postvalue_label"							"เกราะกันวิญญาณ"
+		"StatDesc_TechArmorDamageReduction"		 		"ต้านทาน​วิญญาณ​"
+		"StatDesc_TechArmorDamageReduction_postvalue_label"		 		"ต้านทาน​วิญญาณ​"
+		"StatDesc_TechArmorDamageReduction_postfix"		"%"
+		//"StatDesc_IncomingAbilityDamageReduction"		"Ability Armor"
+		//"StatDesc_IncomingAbilityDamageScale"			"Ability Damage Scale"
+		"StatDesc_TechPower"							"พลังวิญญาณ"
+		"StatDesc_TechPower_postvalue_label"							"พลังวิญญาณ"
+		//"StatDesc_ManaPerLevel"							"Energy Per Level"
+		//"StatDesc_HealthPerLevel"						"Health Per Level"
+		//"StatDesc_ManaRegenPerLevel"					"Energy Regen Per Level"
+		//"StatDesc_HealthRegenPerLevel"					"Health Regen Per Level"
+		//"StatDesc_WeaponDPSPerLevel"					"Weapon DPS Per Level"
+		//"StatDesc_SuperSprintSpeed"						"Super Sprint Speed"
+		//"StatDesc_WeaponRange"							"Range"
+		//"StatDesc_WeaponRecoilReduction"				"Recoil Reduction"
+		"StatDesc_FireRate"								"อัตรายิง"
+		"StatDesc_FireRate_postvalue_label"								"อัตรายิง"
+		"StatDesc_FireRate_postfix"						"%"
+		//"StatDesc_Toughness"							"Toughness"
+		//"StatDesc_Technology"							"Technology"
+		//"StatDesc_Weaponry"								"Weaponry"
+		"StatDesc_WeaponPower"							"ความเสียหายอาวุธ"
+		"StatDesc_WeaponPower_postvalue_label"							"ความเสียหายอาวุธ"
+		"StatDesc_BulletDamage"							"ความ​เสียหาย​กระสุน​​"
+		"StatDesc_BulletDamage_postvalue_label"							"ความ​เสียหาย​กระสุน​​"
+		//"StatDesc_TechPowerAmp"							"Spirit"
+		//"StatDesc_EnergyMax"							"Energy Cells"
+		//"StatDesc_EnergyRegenTime"						"Energy Regen Time"
+		"StatDesc_RoundsPerSecond"						"นัดต่อวินาที"
+		"StatDesc_RoundsPerSecond_postvalue_label"						"นัดต่อวินาที"
+		//"StatDesc_BulletDamagePerLevel"					"Bullet Damage Per Level"
+		//"StatDesc_WeaponPowerAmp"						"Bullet Damage Amp"
+		//"StatDesc_AirJumps"								"Air Jumps"
+		//"StatDesc_ZipLineSpeed"							"Hyperline Speed"
+		//"StatDesc_ProcModifier"							"Proc Modifier"
+		"StatDesc_TechCooldown"							"คูลดาวน์สกิล"
+		"StatDesc_TechCooldown_postvalue_label"							"คูลดาวน์สกิล"
+		"StatDesc_TechCooldown_postfix"					"%"
+		"StatDesc_TechCooldownBetweenCharges"			"คูลดาวน์ชาร์จ"
+		"StatDesc_TechCooldownBetweenCharges_postvalue_label"			"คูลดาวน์ชาร์จ"
+		"StatDesc_TechCooldownBetweenCharges_postfix"	"%"
+		"StatDesc_TechRange"							"ระยะสกิล"
+		"StatDesc_TechRange_postvalue_label"							"ระยะสกิล"
+		"StatDesc_TechRange_postfix"					"%"
+		"StatDesc_MaxChargesIncrease"					"เพิ่มชาร์จสูงสุด"
+		"StatDesc_MaxChargesIncrease_postvalue_label"					"เพิ่มชาร์จสูงสุด"
+		//"StatDesc_RechargeRate"							"Recharge Rate"
+		"StatDesc_TechDuration"							"ระยะเวลาสกิล"
+		"StatDesc_TechDuration_postvalue_label"							"ระยะเวลาสกิล"
+		"StatDesc_TechDuration_postfix"					"%"
+		"StatDesc_WeaponPowerAttribute"					"ความเสียหายอาวุธ"
+		"StatDesc_WeaponPowerAttribute_postvalue_label"					"ความเสียหายอาวุธ"
+		"StatDesc_ArmorAttribute"						"เกราะ"
+		"StatDesc_ArmorAttribute_postvalue_label"						"เกราะ"
+		"StatDesc_HealthAttribute"						"พลังชีวิต"
+		"StatDesc_HealthAttribute_postvalue_label"						"พลังชีวิต"
+		"StatDesc_TechDamageAttribute"					"ความ​เสียหาย​วิญญาณ"
+		"StatDesc_TechDamageAttribute_postvalue_label"					"ความ​เสียหาย​วิญญาณ"
+		"StatDesc_FireRateAttribute"					"อัตรายิง"
+		"StatDesc_FireRateAttribute_postvalue_label"					"อัตรายิง"
+		"StatDesc_ReloadTime"							"เวลาเติมกระสุน"
+		"StatDesc_ReloadTime_postvalue_label"							"เวลาเติมกระสุน"
+		"StatDesc_ReloadTime_postfix"					"วิ"
+		"StatDesc_Stamina"								"สแตมินา"
+		"StatDesc_Stamina_postvalue_label"								"สแตมินา"
+		"StatDesc_StaminaRegenPerSecond"				"การฟื้น​สแตมินา"
+		"StatDesc_StaminaRegenPerSecond_postvalue_label"				"การฟื้น​สแตมินา"
+		"StatDesc_StaminaRegenPerSecond_postfix"		"%"
+		"StatDesc_DashSpeedInMeters"								"ความเร็วการพุ่งตัว"
+		"StatDesc_DashSpeedInMeters_postvalue_label"				"ความเร็วการพุ่งตัว"
+		"StatDesc_DashSpeedInMeters_postfix"						"ม/วิ"
+		"StatDesc_SpiritLifestealEffectiveness"					"ประสิทธิภาพการดูดพลังชีวิต"
+		"StatDesc_SpiritLifestealEffectiveness_postvalue_label"				"ประสิทธิภาพการดูดพลังชีวิต"
+		"StatDesc_SpiritLifestealEffectiveness_postfix"						"%"
+		"StatDesc_BaseWeaponDamage"						"ความเสียหายอาวุธ"
+		"StatDesc_BaseWeaponDamage_postvalue_label"						"ความเสียหายอาวุธ"
+		"StatDesc_BaseWeaponDamage_postfix"				"%"
+		"StatDesc_TechDamageScale"						"ความ​เสียหาย​วิญญาณ"
+		"StatDesc_TechDamageScale_postvalue_label"						"ความ​เสียหาย​วิญญาณ"
+		//"StatDesc_TechShieldHealth"						"Spirit Shield"
+		"StatDesc_BulletShieldHealth"					"โล่กันความเสียหาย"
+		"StatDesc_BulletShieldHealth_postvalue_label"					"โล่กันความเสียหาย"
+		"StatDesc_ReloadSpeed_prefix"					"{s:sign}"
+		"StatDesc_ReloadSpeed"							"ลด​เวลา​เติม​กระสุน"
+		"StatDesc_ReloadSpeed_postvalue_label"							"ลด​เวลา​เติม​กระสุน"
+		"StatDesc_ReloadSpeed_postfix"					"%"
+		"StatDesc_CritDamageReceivedScale"				"ลดคริติคอล"
+		"StatDesc_CritDamageReceivedScale_postvalue_label"				"ลดคริติคอล"
+		"StatDesc_CritDamageReceivedScale_postfix"		"%"
+		"StatDesc_StaminaCooldown"						"คูลดาวน์สแตมินา"
+		"StatDesc_StaminaCooldown_postvalue_label"						"คูลดาวน์สแตมินา"
+		"StatDesc_StaminaCooldown_postfix"				"วิ"
+		"StatDesc_StaminaRegenIncrease_prefix"			"+"
+		"StatDesc_StaminaRegenIncrease"					"การฟื้น​สแตมินา"
+		"StatDesc_StaminaRegenIncrease_postvalue_label"					"การฟื้น​สแตมินา"
+		"StatDesc_StaminaRegenIncrease_postfix"			"%"
+		"StatDesc_DebuffResist"							"ต้านทานดีบัฟ"
+		"StatDesc_DebuffResist_postvalue_label"							"ต้านทานดีบัฟ"
+		"StatDesc_DebuffResist_postfix"					"%"
+		"StatDesc_HealingOutput"						"การรักษาที่มอบ"
+		"StatDesc_HealingOutput_postvalue_label"						"การรักษาที่มอบ"
+		"StatDesc_HealingOutput_postfix"				"%"
+		"StatDesc_CritDamageBonusScale"					"เพิ่มคริติคอล"
+		"StatDesc_CritDamageBonusScale_postvalue_label"					"เพิ่มคริติคอล"
+		"StatDesc_CritDamageBonusScale_postfix"			"%"
+		"StatDesc_MeleeResist"							"ต้านทาน​โจมตี​ประชิด​"
+		"StatDesc_MeleeResist_postvalue_label"							"ต้านทาน​โจมตี​ประชิด​"
+		"StatDesc_MeleeResist_postfix"					"%"
+
+		"StatDesc_BulletSpeed"							"ความเร็วกระสุน"
+		"StatDesc_BulletSpeed_postvalue_label"							"ความเร็วกระสุน"
+		"StatDesc_BulletSpeed_postfix"					"ม/วิ"
+		"StatDesc_BulletSpeedIncrease"					"เพิ่มความเร็วกระสุน"
+		"StatDesc_BulletSpeedIncrease_postvalue_label"					"เพิ่มความเร็วกระสุน"
+		"StatDesc_BulletSpeedIncrease_postfix"			"%"
+		
+		"StatDesc_WeaponRangeFalloffMin_postfix"		"ม"
+		"StatDesc_WeaponRangeFalloffMax_postfix"		"ม"
+
+		//"StatDesc_AttackPower"							"Attack Power"
+		//"StatDesc_AbilityPower"							"Ability Power"
+		//"StatDesc_DefensePower"							"Defense Power"
+
+		"StatDesc_TechLifesteal_prefix"					"{s:sign}"
+		"StatDesc_TechLifesteal"						"วิญญาณ​ดูดพลังชีวิต"
+		"StatDesc_TechLifesteal_postvalue_label"						"วิญญาณ​ดูดพลังชีวิต"
+		"StatDesc_TechLifesteal_postfix"				"%"
+
+		"StatDesc_TechLifestealNonHero_prefix"			"{s:sign}"
+		"StatDesc_TechLifestealNonHero"					"วิญญาณ​ดูดพลังชีวิตยูนิตที่ไม่ใช่ฮีโร่"
+		"StatDesc_TechLifestealNonHero_postvalue_label"					"วิญญาณ​ดูดพลังชีวิตยูนิตที่ไม่ใช่ฮีโร่"
+
+		"StatDesc_BulletLifesteal_prefix"					"{s:sign}"
+		"StatDesc_BulletLifesteal"						"กระสุนดูดพลังชีวิต"
+		"StatDesc_BulletLifesteal_postvalue_label"						"กระสุนดูดพลังชีวิต"
+		"StatDesc_BulletLifesteal_postfix"				"%"
+
+		"StatDesc_StaminaRegenPercent"						"การฟื้น​สแตมินา"
+		"StatDesc_StaminaRegenPercent_postvalue_label"						"การฟื้น​สแตมินา"
+		"StatDesc_StaminaRegenPercent_postfix"				"%"
+
+		"Attribute_EWeaponAttribute_RapidFire"			"ยิงรัวอย่างเร็ว"
+		"Attribute_EWeaponAttribute_BurstFire"			"ยิงเป็นชุด"
+		"Attribute_EWeaponAttribute_Spreadshot"			"ยิงกระจาย"
+		"Attribute_EWeaponAttribute_BeamWeapon"			"อาวุธยิงลำแสง"
+		"Attribute_EWeaponAttribute_CloseRange"			"ระยะใกล้"
+		"Attribute_EWeaponAttribute_MediumRange"		"ระยะกลาง"
+		"Attribute_EWeaponAttribute_LongRange"			"ระยะไกล"
+		"Attribute_EWeaponAttribute_HeavyHitter"		"หนักหน่วง"
+		"Attribute_EWeaponAttribute_Projectile"			"โพรเจกไทล์"
+		"Attribute_EWeaponAttribute_Pistol"				"ปืนพก"
+		"Attribute_EWeaponAttribute_Heavy"				"ปืนใหญ่"
+		"Attribute_EWeaponAttribute_Bow"				"ธนู"
+		"Attribute_EWeaponAttribute_Bouncy"				"เด้งได้"
+		"Attribute_EWeaponAttribute_Crossbow"			"หน้าไม้"
+		
+
+		//"WeaponPowerAttribute_Desc"						"%s1 to any weapon damage bonus"
+		//"ArmorAttribute_Desc"							"%s1 to any bullet and spirit armor bonus"
+		//"HealthAttribute_Desc"							"%s1 to any health and health regen bonuses"
+		//"TechDamageAttribute_Desc"						"%s1 to any spirit damage bonus"
+		//"FireRateAttribute_Desc"						"%s1 to any weapon fire rate bonus"
+
+		//"WeaponPowerAttribute_Desc_0"					"no additional weapon damage bonuses"
+		//"ArmorAttribute_Desc_0"							"no additional bullet armor bonuses"
+		//"HealthAttribute_Desc_0"						"no additional health and health regen bonuses"
+		//"TechDamageAttribute_Desc_0"					"no additional spirit damage bonuses"
+		//"FireRateAttribute_Desc_0"						"no additional weapon fire rate bonuses"
+
+		//-----------------------------------------------------------------------------
+		// END Stat desc
+		//-----------------------------------------------------------------------------
+
+		//-----------------------------------------------------------------------------
+		// Ability Properties desc
+		//-----------------------------------------------------------------------------
+		"AffectedProperty_new_value"				"<span class=\"AffectedValNew\">{s:valNew}</span>"
+		"AffectedPropertyPostFix"					"<span class=\"AffectedValPostfix\">{s:valPostfix}</span>"
+
+		"EMultiplyBase_postfix"						"%"
+
+		"HealAmount_label"							"จำนวนการรักษา"
+
+		"HealAmount_postvalue_label"							"จำนวนการรักษา"
+		"HealInterval_label"						"เวลาเว้นช่วงการรักษา"
+		"HealInterval_postvalue_label"						"เวลาเว้นช่วงการรักษา"
+		"HealInterval_postfix"						"วิ"
+		
+		"SlowPercent_label"							"ความเร็ว​การ​เคลื่อนที่"
+		"SlowPercent_postvalue_label"				"ความเร็ว​การ​เคลื่อนที่"
+		"SlowPercent_postfix"						"%"
+		"SlowPercent_prefix"						"-"
+		"movement_slow"								"-ความเร็ว​การ​เคลื่อนที่"
+
+		"SlowPercentPerStack"						"ความเร็ว​การ​เคลื่อนที่ต่อการซ้อนทับ"
+		"SlowPercentPerStack_postvalue_label"		"ความเร็ว​การ​เคลื่อนที่ต่อการซ้อนทับ"
+		"SlowPercentPerStack_postfix"						"%"
+		"SlowPercentPerStack_prefix"						"-"
+
+		"MovementSpeedSlow_label"							"ความเร็ว​การ​เคลื่อนที่"
+		"MovementSpeedSlow_postvalue_label"					"ความเร็ว​การ​เคลื่อนที่"
+		"MovementSpeedSlow_postfix"							"%"
+		"MovementSpeedSlow_prefix"							"-"
+
+		"MovementSlowDuration_label"						"ระยะเวลาช้าลง"
+		"MovementSlowDuration_postvalue_label"				"ระยะเวลาช้าลง"
+		"MovementSlowDuration_postfix"						"วิ"
+
+		"MoveSpeedBonusPct_label"				"เพิ่มความเร็ว​การ​เคลื่อนที่"
+		"MoveSpeedBonusPct_postvalue_label"		"เพิ่มความเร็ว​การ​เคลื่อนที่"
+		"MoveSpeedBonusPct_prefix"				"+"
+		"MoveSpeedBonusPct_postfix"				"%"
+
+		//"DroneLifetime_label"							"Drone Lifetime"
+
+		"CritChance_label"							"โอกาสติดคริติคอล"
+
+		"CritChance_postvalue_label"							"โอกาสติดคริติคอล"
+		"CritChance_postfix"							"%"
+
+		"ShieldHealth_label"							"พลังชีวิตโล่"
+
+
+		"ShieldHealth_postvalue_label"							"พลังชีวิตโล่"
+
+		//"SpeedBoostPercent_label"						"Speed"
+		"SpeedBoostPercent_prefix"						"{s:sign}"
+		"SpeedBoostPercent_postfix"						"%"
+
+		"Damage_label"								"ความเสียหาย"
+		"Damage_postvalue_label"								"ความเสียหาย"
+		
+		"DamagePerStack_label"								"ความเสียหาย​ต่อ​การ​ซ้อนทับ"
+		"DamagePerStack_postvalue_label"					"ความเสียหาย​ต่อ​การ​ซ้อนทับ"
+
+		"DamageBoosted_label"						"ความเสียหาย"
+		"DamageBoosted_postvalue_label"						"ความเสียหาย"
+
+		"BonusDamage_label"							"ความเสียหายเพิ่มเติม"
+		"BonusDamage_postvalue_label"							"เพิ่มความเสียหาย"
+
+		"BonusDamagePercent_label"							"เพิ่มความเสียหาย"
+		"BonusDamagePercent_postvalue_label"							"เพิ่มความเสียหาย"
+		"BonusDamagePercent_prefix"						"{s:sign}"
+		"BonusDamagePercent_postfix"						"%"
+
+		"DamagePlayer_label"							"ความเสียหายต่อผู้เล่น"
+		"DamagePlayer_postvalue_label"							"ความเสียหายต่อผู้เล่น"
+
+		"DamageNPC_label"								"ความเสียหายต่อยูนิตที่ไม่ใช่ผู้เล่น"
+
+
+		"DamageNPC_postvalue_label"								"ความเสียหายต่อยูนิตที่ไม่ใช่ผู้เล่น"
+
+		"DetectionRadius_label"						"รัศมีตรวจจับ"
+
+
+		"DetectionRadius_postvalue_label"						"รัศมีตรวจจับ"
+
+		//"MaxMines_label"								"Max Mines"
+	
+		//"HealRate_label"								"Heal Rate"
+		"HealRate_postfix"								"/วินาที"
+
+		"Radius_label"								"รัศมี"
+
+		"Radius_postvalue_label"								"รัศมี"
+		"Radius_postfix"								"ม"
+
+		"InactiveRadius_label"						"รัศมีปิดใช้งาน"
+
+		"InactiveRadius_postvalue_label"						"รัศมีปิดใช้งาน"
+		"InactiveRadius_postfix"						"ม"
+
+		"ActiveRadius_label"						"รัศมีเปิดใช้งาน"
+
+		"ActiveRadius_postvalue_label"						"รัศมีเปิดใช้งาน"
+		"ActiveRadius_postfix"						"ม"
+
+		"MaxRadius_label"								"รัศมีสูงสุด"
+		"MinRadius_postvalue_label"					"รัศมีต่ำสุด"
+		"MinRadius_postfix"							"ม"
+		"MaxRadius_postvalue_label"								"รัศมีสูงสุด"
+		"MaxRadius_postfix"								"ม"
+
+		//"TackleRadius_label"							"Tackle Radius"
+		"TackleRadius_postfix"							"ม"
+
+		"MovementDamagePercent_label"					"ความเสียหาย"
+
+		"MovementDamagePercent_postvalue_label"					"ความเสียหาย"
+"DPS_label"									"ความ​เสียหาย​​ต่อ​​วินาที"
+
+		"DPS_postvalue_label"									"ความ​เสียหาย​​ต่อ​​วินาที"
+
+		"DamagePercentHealth_label"				"ความเสียหาย​จาก​พลังชีวิต​สูงสุด"
+
+		"DamagePercentHealth_postvalue_label"				"ความเสียหาย​จาก​พลังชีวิต​สูงสุด"
+		"DamagePercentHealth_postfix"			"%"
+		"DPSPercentHealth_label" "ความเสียหาย​จาก​พลังชีวิต​สูงสุด"
+		"DPSPercentHealth_postvalue_label" "ความเสียหาย​จาก​พลังชีวิต​สูงสุด"
+		"DPSPercentHealth_postfix" "%"
+
+		//"DPSIncrease_label"							"Damage Increase Rate"
+		"DPSMin_label"								"DPS ต่ำสุด"
+		"DPSMin_postvalue_label"								"DPS ต่ำสุด"
+		"DPSMax_label"								"DPS สูงสุด"
+
+		"DPSMax_postvalue_label"								"DPS สูงสุด"
+
+		"DPS_Self_label"								"ความเสียหายต่อตนเอง"
+
+		"DPS_Self_postvalue_label"								"ความเสียหายต่อตนเอง"
+		"DPS_Self_postfix"								"/วินาที"
+
+		"BaseAttackDamage_prefix"						"{s:sign}"
+		"BaseAttackDamage_label"						"ความเสียหาย​พื้นฐาน"
+		"BaseAttackDamage_postvalue_label"						"ความเสียหาย​พื้นฐาน"
+
+		"MODIFIER_VALUE_BASEATTACK_DAMAGE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_BASEATTACK_DAMAGE_label"						"ความเสียหาย​พื้นฐาน"
+		"MODIFIER_VALUE_BASEATTACK_DAMAGE_postvalue_label"						"ความเสียหาย​พื้นฐาน"
+
+		"BonusHealth_prefix"							"{s:sign}"
+		"BonusHealth_label"							"เพิ่มพลังชีวิต"
+		"BonusHealth_postvalue_label"							"เพิ่มพลังชีวิต"
+
+		"MODIFIER_VALUE_HEALTH_MAX_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_HEALTH_MAX_label"							"เพิ่มพลังชีวิต"
+		"MODIFIER_VALUE_HEALTH_MAX_postvalue_label"							"เพิ่มพลังชีวิต"
+
+		"SpiritPowerInnate_prefix"							"{s:sign}"
+		"SpiritPowerInnate_label"							"พลังวิญญาณ"
+		"SpiritPowerInnate_postvalue_label"					"พลังวิญญาณ"
+
+		"MaxHealth_prefix"							"{s:sign}"
+		"MaxHealth_label"							"พลังชีวิตสูงสุด"
+
+		"MaxHealth_postvalue_label"							"พลังชีวิตสูงสุด"
+
+		//"BonusEnergyMax_label"						"Energy Cells"
+
+		"BonusMaxHealth_prefix"							"{s:sign}"
+		"BonusMaxHealth_label"						"พลังชีวิตสูงสุด"
+
+		"BonusMaxHealth_postvalue_label"						"พลังชีวิตสูงสุด"
+
+		"BonusHealthPercent_prefix"					"{s:sign}"
+		"BonusHealthPercent_postfix"				"%"
+		"BonusHealthPercent_label"					"พลังชีวิต"
+		"BonusHealthPercent_postvalue_label"					"พลังชีวิต"
+
+		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_postfix"				"%"
+		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_label"					"พลังชีวิต"
+		"MODIFIER_VALUE_HEALTH_MAX_PERCENT_postvalue_label"					"พลังชีวิต"
+
+		"BonusHealthRegen_prefix"					"{s:sign}"
+		"BonusHealthRegen_label"					"อัตรา​ฟื้นฟู​พลังชีวิต"
+		"BonusHealthRegen_postvalue_label"					"อัตรา​ฟื้นฟู​พลังชีวิต"
+
+		"MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND_label"					"อัตรา​ฟื้นฟู​พลังชีวิต"
+		"MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND_postvalue_label"					"อัตรา​ฟื้นฟู​พลังชีวิต"
+
+		"OutOfCombatHealthRegen_prefix"					"{s:sign}"
+		"OutOfCombatHealthRegen_label"					"ฟื้นฟู​พลังชีวิตนอกการต่อสู้"
+		"OutOfCombatHealthRegen_postvalue_label"					"ฟื้นฟู​พลังชีวิตนอกการต่อสู้"
+
+		"MODIFIER_VALUE_OUT_OF_COMBAT_HEALTH_REGEN_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_OUT_OF_COMBAT_HEALTH_REGEN_label"					"ฟื้นฟู​พลังชีวิตนอกการต่อสู้"
+		"MODIFIER_VALUE_OUT_OF_COMBAT_HEALTH_REGEN_postvalue_label"					"ฟื้นฟู​พลังชีวิตนอกการต่อสู้"
+
+		"BaseWeaponDamage_postfix"						"%"
+
+		//"LevelUpBaseWeaponDamage"					"Bullet Damage"
+		"LevelUpBaseMeleeDamage"					"ความเสียหายประชิด"
+
+		"HealthRegen_prefix"						"{s:sign}"
+		"HealthRegen_label"						"อัตรา​ฟื้นฟู​พลังชีวิต"
+
+		"HealthRegen_postvalue_label"						"อัตรา​ฟื้นฟู​พลังชีวิต"
+
+		"BonusRegenMaxHealthPercent_prefix"					"{s:sign}"
+		"BonusRegenMaxHealthPercent_postfix"					"%"
+		"BonusRegenMaxHealthPercent_label"						"อัตรา​ฟื้นฟู​พลังชีวิตสูงสุด"
+		"BonusRegenMaxHealthPercent_postvalue_label"						"อัตรา​ฟื้นฟู​พลังชีวิตสูงสุด"
+
+		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_postfix"					"%"
+		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_label"						"อัตรา​ฟื้นฟู​พลังชีวิตสูงสุด"
+		"MODIFIER_VALUE_REGEN_MAX_HEALTH_PERCENT_PER_SECOND_postvalue_label"						"อัตรา​ฟื้นฟู​พลังชีวิตสูงสุด"
+
+		"BonusHealthRegenOutOfCombat_prefix"			"{s:sign}"
+		//"BonusHealthRegenOutOfCombat_postfix"			""
+		//"BonusHealthRegenOutOfCombat_label"			"Health Regen Out of Combat"
+
+		"ExternalBonusHealthRegen_prefix"				"{s:sign}"
+		"ExternalBonusHealthRegen_postfix"				"/วิ"
+		"ExternalBonusHealthRegen_label"				"อัตรา​ฟื้นฟู​พลังชีวิต"
+		"ExternalBonusHealthRegen_postvalue_label"				"อัตรา​ฟื้นฟู​พลังชีวิต"
+
+		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_postfix"				"/วิ"
+		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_label"				"อัตรา​ฟื้นฟู​พลังชีวิต"
+		"MODIFIER_VALUE_EXTERNAL_HEALTH_REGEN_PER_SECOND_postvalue_label"				"อัตรา​ฟื้นฟู​พลังชีวิต"
+
+		"ActiveHealthRegenBoost_prefix"					"{s:sign}"
+		//"ActiveHealthRegenBoost_postfix"				"hp/s"
+		"ActiveHealthRegenBoost_label"				"อัตรา​ฟื้นฟู​พลังชีวิต"
+
+		"ActiveHealthRegenBoost_postvalue_label"				"อัตรา​ฟื้นฟู​พลังชีวิต"
+
+		"NonPlayerBonusWeaponPower_label"			"ความเสียหายอาวุธต่อ NPC"
+		"NonPlayerBonusWeaponPower_postvalue_label"			"ความเสียหายอาวุธต่อ NPC"
+		"NonPlayerBonusWeaponPower_prefix"			"{s:sign}"
+		"NonPlayerBonusWeaponPower_postfix"			"%"
+		"NonPlayerBonusWeaponPower_conditional"		"ต่อ NPC"
+
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_label"			"ความเสียหายอาวุธต่อ NPC"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_postvalue_label"			"ความเสียหายอาวุธต่อ NPC"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_prefix"			"{s:sign}"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_postfix"			"%"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_TO_NPC_INCREASE_conditional"		"ต่อ NPC"
+
+		"NonPlayerBulletResist_label"			"ต้านทาน​กระสุน​ต่อ NPC"
+
+		"NonPlayerBulletResist_postvalue_label"			"ต้านทาน​กระสุน​ต่อ NPC"
+		"NonPlayerBulletResist_prefix"			"{s:sign}"
+		"NonPlayerBulletResist_postfix"			"%"
+		"NonPlayerBulletResist_conditional"		"ต่อ NPC"
+
+		"BonusMeleeDamagePercent_prefix"				"{s:sign}"
+		"BonusMeleeDamagePercent_postfix"				"%"
+		"BonusMeleeDamagePercent_label"				"ความเสียหายประชิด"
+
+		"BonusMeleeDamagePercent_postvalue_label"				"ความเสียหาย​ประชิด"
+
+		"BonusMeleeDamage_prefix"						"{s:sign}"
+		"BonusMeleeDamage_label"						"ความเสียหายประชิด"
+
+		"BonusMeleeDamage_postvalue_label"						"ความเสียหาย​ประชิด"
+
+		"MODIFIER_VALUE_MELEEATTACK_DAMAGE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_MELEEATTACK_DAMAGE_label"						"ความเสียหาย​ประชิด"
+
+		"MODIFIER_VALUE_MELEEATTACK_DAMAGE_postvalue_label"						"ความเสียหาย​ประชิด"
+
+		"FuseTime_label"								"ระยะเวลาจุดชนวน"
+
+		"FuseTime_postvalue_label"								"ระยะเวลาจุดชนวน"
+		"FuseTime_postfix"								"วิ"
+
+		"BonusAmmoRegen_prefix"							"{s:sign}"
+		"BonusAmmoRegen_postfix"						" ต่อวินาที"
+		//"BonusAmmoRegen_label"						"Ammo Regen"
+
+		"BonusAmmo_prefix"								"{s:sign}"
+		"BonusAmmo_postfix"								"%"
+		//"BonusAmmo_label"								"Bullets"
+
+		"Lifetime_postfix"								"วิ"
+		"Lifetime_label"								"ช่วง​ชีวิต"
+
+		"Lifetime_postvalue_label"								"ระยะเวลามี​ชีวิต"
+
+		"Distance_postfix"								"ม"
+		//"Distance_label"								"Distance"
+
+		//"ChainDamageCoeff_postfix"						"% of gun damage"
+		//"ChainDamageCoeff_label"						"Chain Damage"
+
+		"BulletArmor_prefix"							"{s:sign}"
+		"BulletArmor_label"								"เกราะกันกระสุน"
+		"BulletArmor_postvalue_label"								"​บุลเล็ต​อาร์เมอร์​"
+
+		"MODIFIER_VALUE_BULLET_ARMOR_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_BULLET_ARMOR_label"								"เกราะกันกระสุน"
+		"MODIFIER_VALUE_BULLET_ARMOR_postvalue_label"								"เกราะกันกระสุน"
+
+		"BulletResist_prefix"							"{s:sign}"
+		"BulletResist_postfix"							"%"
+		"BulletResist_label"							"ต้านทาน​กระสุน​"
+		"BulletResist_postvalue_label"							"ต้านทาน​กระสุน​"
+
+		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_postfix"							"%"
+		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_label"							"ต้านทาน​กระสุน​"
+		"MODIFIER_VALUE_BULLET_ARMOR_DAMAGE_RESIST_postvalue_label"							"ต้านทาน​กระสุน​"
+
+		"BulletArmorDamageReduction_prefix"				"{s:sign}"
+		"BulletArmorDamageReduction_postfix"			"%"
+		"BulletArmorDamageReduction_label"				"ต้านทาน​กระสุน​"
+		"BulletArmorDamageReduction_postvalue_label"				"ต้านทาน​กระสุน​"
+
+		"BulletArmorDamageReductionPerStack_prefix"				"{s:sign}"
+		"BulletArmorDamageReductionPerStack_postfix"			"%"
+		"BulletArmorDamageReductionPerStack_label"				"ต้านทานกระสุนต่อการซ้อนทับ"
+		"BulletArmorDamageReductionPerStack_postvalue_label"	"ต้านทานกระสุนต่อการซ้อนทับ"
+
+
+
+		// this name is misleading since we use this as a debuff ("TechResist" is the buff version)
+		"TechArmorDamageReduction_prefix"				"{s:sign}"
+		"TechArmorDamageReduction_postfix"				"%"
+		"TechArmorDamageReduction_Label"				"ต้านทาน​วิญญาณ​"
+		"TechArmorDamageReduction_postvalue_label"				"ต้านทาน​วิญญาณ​"
+
+		"BulletResistReduction_label"		"ต้านทาน​กระสุน​"
+		"BulletResistReduction_postvalue_label"		"ต้านทาน​กระสุน​"
+		"BulletResistReduction_postfix"	"%"
+
+		"MeleeResistReduction_label"		"ต้านทาน​โจมตี​ประชิด​"
+		"MeleeResistReduction_postvalue_label"		"ต้านทาน​โจมตี​ประชิด​"
+		"MeleeResistReduction_postfix"	"%"
+
+		"BulletResistReductionPerStack_label"		"ต้านทานกระสุนต่อการซ้อนทับ"
+		"BulletResistReductionPerStack_postvalue_label"		"ต้านทานกระสุนต่อการซ้อนทับ"
+		"BulletResistReductionPerStack_postfix"	"%"
+
+		"MagicResistReduction_label"		"ต้านทาน​วิญญาณ​"
+
+		"MagicResistReduction_postvalue_label"		"ต้านทาน​วิญญาณ​"
+		"MagicResistReduction_postfix"	"%"
+
+		"TechDamageScale_prefix"						"{s:sign}"
+		"TechDamageScale_postfix"						"%"
+		"TechDamageScale_label"							"ความ​เสียหาย​วิญญาณ"
+
+		"TechDamageScale_postvalue_label"							"ความ​เสียหาย​วิญญาณ"
+
+		"OutgoingTechDamagePercent_label" "ความ​เสียหาย​วิญญาณ"
+
+		"OutgoingTechDamagePercent_postvalue_label" "ความ​เสียหาย​วิญญาณ"
+		"OutgoingTechDamagePercent_postfix" "%"
+
+		"TechArmor_prefix"								"{s:sign}"
+		"TechArmor_label"								"เกราะกันวิญญาณ"
+		"TechArmor_postvalue_label"								"เกราะกันวิญญาณ"
+
+		"MODIFIER_VALUE_TECH_ARMOR_prefix"								"{s:sign}"
+		"MODIFIER_VALUE_TECH_ARMOR_label"								"เกราะกันวิญญาณ"
+		"MODIFIER_VALUE_TECH_ARMOR_postvalue_label"								"เกราะกันวิญญาณ"
+		
+		"TechResist_prefix"								"{s:sign}"
+		"TechResist_postfix"							"%"
+		"TechResist_label"								"ต้านทาน​วิญญาณ​"
+		"TechResist_postvalue_label"								"ต้านทาน​วิญญาณ​"
+
+		"MODIFIER_VALUE_TECH_RESIST_prefix"								"{s:sign}"
+		"MODIFIER_VALUE_TECH_RESIST_postfix"							"%"
+		"MODIFIER_VALUE_TECH_RESIST_label"								"ต้านทาน​วิญญาณ​"
+		"MODIFIER_VALUE_TECH_RESIST_postvalue_label"								"ต้านทาน​วิญญาณ​"
+
+		"TechResistPerStack_prefix"						"{s:sign}"
+		"TechResistPerStack_postfix"					"%"
+		"TechResistPerStack_label"						"เพิ่ม​อัตราวิญญาณ​ต่อการซ้อนทับ"
+		"TechResistPerStack_postvalue_label"						"เพิ่ม​อัตราวิญญาณ​ต่อการซ้อนทับ"
+
+		"MagicIncreasePerStack_prefix"					"{s:sign}"
+		"MagicIncreasePerStack_postfix"					"%"
+		"MagicIncreasePerStack_label"					"เพิ่ม​อัตราวิญญาณ​ต่อการซ้อนทับ"
+
+		"MagicIncreasePerStack_postvalue_label"					"เพิ่ม​อัตราวิญญาณ​ต่อการซ้อนทับ"
+
+		"BulletDamageReduction_postfix"					"%"
+		"BulletDamageReduction_label"					"เกราะกันกระสุน"
+		"BulletDamageReduction_postvalue_label"					"เกราะกันกระสุน"
+
+		"ActiveBulletDamageReduction_prefix"			"{s:sign}"
+		"ActiveBulletDamageReduction_label"			"ความ​เสียหาย​กระสุน​​"
+		"ActiveBulletDamageReduction_postvalue_label"			"ความ​เสียหาย​กระสุน​​"
+		"ActiveBulletDamageReduction_postfix"			"%"
+
+		"MODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_postfix"					"%"
+		"MODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_label"					"เกราะกันกระสุน"
+		"MODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_postvalue_label"					"เกราะกันกระสุน"
+
+		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_prefix"			"{s:sign}"
+		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_label"			"ความ​เสียหาย​กระสุน​​"
+		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_postvalue_label"			"ความ​เสียหาย​กระสุน​​"
+		"ActiveMODIFIER_VALUE_BULLET_DAMAGE_REDUCTION_postfix"			"%"
+
+		"BonusMoveSpeed_prefix"							"{s:sign}"
+		"BonusMoveSpeed_label"						"ความเร็ว​การ​เคลื่อนที่"
+		"BonusMoveSpeed_postvalue_label"						"ความเร็ว​การ​เคลื่อนที่"
+		"BonusMoveSpeed_postfix"						" ม"
+
+		"FloatMoveSpeed_label"						"ความเร็ว​การลอยกลางอากาศ"
+		"FloatMoveSpeed_postvalue_label"						"ความเร็ว​การลอยกลางอากาศ"
+		"FloatMoveSpeed_postfix"						" ม"
+
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_label"						"ความเร็ว​การ​เคลื่อนที่"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_postvalue_label"						"ความเร็ว​การ​เคลื่อนที่"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_postfix"						" ม"
+
+		"RestoreDelay_prefix"							"{s:sign}"
+		"RestoreDelay_label"						"ดีเลย์การฟื้นฟู"
+		"RestoreDelay_postvalue_label"						"ดีเลย์การฟื้นฟู"
+		"RestoreDelay_postfix"						" วิ"
+
+		"HealLifePercentOutOfCombat_prefix"				"{s:sign}"
+		"HealLifePercentOutOfCombat_label"				"อัตรา​ฟื้นฟู​พลังชีวิตสูงสุด"
+		"HealLifePercentOutOfCombat_postvalue_label"	"อัตรา​ฟื้นฟู​พลังชีวิตสูงสุด"
+		"HealLifePercentOutOfCombat_postfix"			" %"
+		
+		"TeleporterBonus"							"เพิ่มความเร็วการ​เคลื่อนที่!"
+		"RunSpeed_postfix"						" ม/วิ"
+
+		"WeaponRange_label"							"ระยะอาวุธ"
+
+		"WeaponRange_postvalue_label"							"ระยะอาวุธ"
+		"WeaponRange_postfix"						" ม"
+
+		"BonusMoveSpeedPercent_prefix"					"{s:sign}"
+		"BonusMoveSpeedPercent_postfix"					"%"
+		"BonusMoveSpeedPercent_label"					"ความเร็ว​การ​เคลื่อนที่"
+		"BonusMoveSpeedPercent_postvalue_label"					"ความเร็ว​การ​เคลื่อนที่"
+
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_postfix"					"%"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_label"					"ความเร็ว​การ​เคลื่อนที่"
+		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_postvalue_label"					"ความเร็ว​การ​เคลื่อนที่"
+
+		"SlowResistancePercent_prefix"					"{s:sign}"
+		"SlowResistancePercent_label"					"ต้านทานลดความเร็ว"
+		"SlowResistancePercent_postvalue_label"					"ต้านทานลดความเร็ว"
+		"SlowResistancePercent_postfix"					"%"
+
+		"AirSpeedBonus_label"						"เพิ่มความเร็วกลางอากาศ"
+
+		"AirSpeedBonus_postvalue_label"						"เพิ่มความเร็วกลางอากาศ"
+		"AirSpeedBonus_prefix"						"{s:sign}"
+		"AirSpeedBonus_postfix"						"ม"
+		//"AscendSpeed_label"							""
+		//"DescendSpeed_label"							""
+
+		"BonusCooldownReduction_label"					"ลดคูลดาวน์ต่อนัด"
+
+
+		"BonusCooldownReduction_postvalue_label"					"ลดคูลดาวน์ต่อนัด"
+
+		"BonusClipSize_prefix"							"{s:sign}"
+		"BonusClipSize_label"							"กระสุน"
+		"BonusClipSize_postvalue_label"							"กระสุน"
+
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_label"							"กระสุน"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_postvalue_label"							"กระสุน"
+
+		"BonusClipSizePercent_prefix"					"{s:sign}"
+		"BonusClipSizePercent_postfix"					"%"
+		"BonusClipSizePercent_label"					"กระสุนสูงสุด"
+		"BonusClipSizePercent_postvalue_label"					"กระสุนสูงสุด"
+
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_postfix"					"%"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_label"					"กระสุนสูงสุด"
+		"MODIFIER_VALUE_AMMO_CLIP_SIZE_PERCENT_postvalue_label"					"กระสุนสูงสุด"
+
+		"TemporaryBonusClipSize_prefix"				"{s:sign}"
+		"TemporaryBonusClipSize_label"				"กระสุนชั่วคราว"
+		"TemporaryBonusClipSize_postvalue_label"				"กระสุนชั่วคราว"
+
+		"TemporaryBonusClipSizePercent_prefix"			"{s:sign}"
+		"TemporaryBonusClipSizePercent_postfix"			"%"
+		"TemporaryBonusClipSizePercent_label"			"กระสุนชั่วคราว"
+
+		"TemporaryBonusClipSizePercent_postvalue_label"			"กระสุนชั่วคราว"
+
+		"AmmoReloadPercent_postfix"					"%"
+		"AmmoReloadPercent_label"					"กระสุนที่เติม"
+
+		"AmmoReloadPercent_postvalue_label"					"กระสุนที่เติม"
+
+		"BulletPenetrationPercent_postfix"				"%"
+		"BulletPenetrationPercent_label"				"ความเสียหายกระสุนเจาะเกราะ"
+
+		"BulletPenetrationPercent_postvalue_label"				"ความเสียหายกระสุนเจาะเกราะ"
+
+		"TechPower_prefix"								"{s:sign}"
+		"TechPower_label"								"พลังวิญญาณ"
+		"TechPower_postvalue_label"								"พลังวิญญาณ"
+		"MODIFIER_VALUE_TECH_POWER_prefix"								"{s:sign}"
+		"MODIFIER_VALUE_TECH_POWER_label"								"พลังวิญญาณ"
+		"MODIFIER_VALUE_TECH_POWER_postvalue_label"								"พลังวิญญาณ"
+		"TechPowerPercent_prefix"						"{s:sign}"
+		"TechPowerPercent_label"						"พลังวิญญาณ"
+		"TechPowerPercent_postvalue_label"						"พลังวิญญาณ"
+		"TechPowerPercent_postfix"						"%"
+
+		"MODIFIER_VALUE_TECH_POWER_PERCENT_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_TECH_POWER_PERCENT_label"						"พลังวิญญาณ"
+		"MODIFIER_VALUE_TECH_POWER_PERCENT_postvalue_label"						"พลังวิญญาณ"
+		"MODIFIER_VALUE_TECH_POWER_PERCENT_postfix"						"%"
+
+		"ArmorPower_prefix"								"{s:sign}"
+		"ArmorPower_label"								"พลังชีวิตพื้นฐาน"
+		"ArmorPower_postvalue_label"								"พลังชีวิตพื้นฐาน"
+		"ArmorPower_postfix"								"%"
+
+		"MODIFIER_VALUE_ARMOR_POWER_prefix"								"{s:sign}"
+		"MODIFIER_VALUE_ARMOR_POWER_label"								"พลังชีวิตพื้นฐาน"
+		"MODIFIER_VALUE_ARMOR_POWER_postvalue_label"								"พลังชีวิตพื้นฐาน"
+		"MODIFIER_VALUE_ARMOR_POWER_postfix"								"%"
+
+		"TechPowerAmp_prefix"							"{s:sign}"
+		//"TechPowerAmp_label"							"Spirit"
+		//"TechPowerAmp_postfix"							""
+
+		"SpellAmplificationPercent_prefix"				"{s:sign}"
+		"SpellAmplificationPercent_label"				"พลังวิญญาณ"
+		"SpellAmplificationPercent_postvalue_label"				"พลังวิญญาณ"
+		//BaseDamagePerShot_label							"Base Damage"
+		"NanoTechPerShot_label"							"ความ​เสียหาย​วิญญาณ"
+		"NanoTechPerShot_postvalue_label"							"ความ​เสียหาย​วิญญาณ"
+		//"ExplosiveSplashDamage_label"						"Explode Damage"
+		"BulletDamageTotal_label"							"ความ​เสียหาย​กระสุน​​"
+
+		"BulletDamageTotal_postvalue_label"							"ความ​เสียหาย​กระสุน​​"
+
+		"ChargesRestored_label"							"เติมชาร์จแล้ว"			
+
+
+		"ChargesRestored_postvalue_label"							"เติมชาร์จ"			
+
+		"BonusFireRate_prefix"							"{s:sign}"
+		"BonusFireRate_postfix"							"%"
+		"BonusFireRate_label"							"อัตรายิง"
+		"BonusFireRate_postvalue_label"							"อัตรายิง"
+
+		"MODIFIER_VALUE_FIRE_RATE_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_FIRE_RATE_postfix"							"%"
+		"MODIFIER_VALUE_FIRE_RATE_label"							"อัตรายิง"
+		"MODIFIER_VALUE_FIRE_RATE_postvalue_label"							"อัตรายิง"
+		
+		"ActivatedFireRate_prefix"						"{s:sign}"
+		"ActivatedFireRate_postfix"						"%"
+		"ActivatedFireRate_label"						"อัตรายิง"
+
+		"ActivatedFireRate_postvalue_label"						"อัตรายิง"
+
+		"BonusFireRatePlayerUnit_prefix"				"{s:sign}"
+		"BonusFireRatePlayerUnit_postfix"				"%"
+		"BonusFireRatePlayerUnit_label"					"อัตรายิงของลูกสมุน"
+
+		"BonusFireRatePlayerUnit_postvalue_label"					"อัตรายิงของลูกสมุน"
+
+		"BonusFireRateNPC_prefix"							"{s:sign}"
+		"BonusFireRateNPC_postfix"							"%"
+		"BonusFireRateNPC_label"							"อัตรายิงต่อ NPC"
+
+		"BonusFireRateNPC_postvalue_label"							"อัตรายิงต่อ NPC"
+
+		"BonusMeleeAttackSpeed_prefix"					"{s:sign}"
+		"BonusMeleeAttackSpeed_postfix"					"%"
+		//"BonusMeleeAttackSpeed_label"					"Melee Speed"
+
+		"MODIFIER_VALUE_MELEEATTACK_SPEED_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_MELEEATTACK_SPEED_postfix"					"%"
+
+		"AbilityDamageReduction_label"				"ลดความเสียหายวิญญาณ"
+		"AbilityDamageReduction_postvalue_label"				"ลดความเสียหายวิญญาณ"
+		"AbilityDamageReduction_postfix"				"%"
+
+		"MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_label"				"ลดความเสียหายวิญญาณ"
+		"MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_postvalue_label"				"ลดความเสียหายวิญญาณ"
+		"MODIFIER_VALUE_ABILITY_DAMAGE_REDUCTION_postfix"				"%"
+
+		//"SlowProcChance_label"						"Chance to slow on hit"
+		"SlowProcChance_postfix"						"%"
+
+		"EnemySlowPct_label"							"ความเร็ว​การ​เคลื่อนที่ของศัตรู"
+
+		"EnemySlowPct_postvalue_label"							"ความเร็ว​การ​เคลื่อนที่ของศัตรู"
+		"EnemySlowPct_postfix"							"%"
+		"EnemySlowPct_prefix"							"-"
+
+		"SlowDuration_label"							"ระยะเวลาช้าลง"			
+
+		"SlowDuration_postvalue_label"							"ระยะเวลาช้าลง"
+		"SlowDuration_postfix"							"วิ"
+
+		"MoveSpeedSlowDuration_label"							"ระยะเวลาช้าลง"
+
+		"MoveSpeedSlowDuration_postvalue_label"							"ระยะเวลาช้าลง"
+		"MoveSpeedSlowDuration_postfix"							"วิ"
+
+		//"PoisonDamage_label"							"Poison Damage"
+		"PoisonDuration_label"							"ระยะเวลา"
+		"PoisonDuration_postvalue_label"							"ระยะเวลา"
+		"PoisonDuration_postfix"							"วิ"
+
+
+		"DebuffDuration_label"						"ระยะเวลาดีบัฟ"
+
+
+		"DebuffDuration_postvalue_label"						"ระยะเวลาดีบัฟ"
+		"DebuffDuration_postfix"						"วิ"
+
+		"DotHealthPercent_label"						"ความ​เสียหายเลือดไหล"
+
+		"DotHealthPercent_postvalue_label"						"ความ​เสียหายเลือดไหล"
+		"DotHealthPercent_postfix"						"% DPS"
+
+		"CurrentHealthPercent_label"					"พลังชีวิตที่เหลืออยู่"
+
+		"CurrentHealthPercent_postvalue_label"					"พลังชีวิตที่เหลืออยู่"
+		"CurrentHealthPercent_postfix"					"%"
+		
+		"CurrentHealthPercentDamage_label"				"พลังชีวิตที่เหลืออยู่"
+		
+		"CurrentHealthPercentDamage_postvalue_label"				"พลังชีวิตที่เหลืออยู่"
+		"CurrentHealthPercentDamage_postfix"			"%"
+		"FreezeDuration_label"							"ระยะเวลาแช่แข็ง"
+		"FreezeDuration_postvalue_label"							"ระยะเวลาแช่แข็ง"
+		"FreezeDuration_postfix"							"วิ"
+
+		"CooldownReduction_prefix"						"{s:sign}"
+		"CooldownReduction_postfix"						"%"
+		"CooldownReduction_label"						"ลดคูลดาวน์สกิล"
+		"CooldownReduction_postvalue_label"						"ลดคูลดาวน์สกิล"
+		"UltimateCooldownReduction_prefix"						"{s:sign}"
+		"UltimateCooldownReduction_postfix"						"%"
+		"UltimateCooldownReduction_label"						"ลดคูลดาวน์อัลติเมท"
+		"UltimateCooldownReduction_postvalue_label"						"ลดคูลดาวน์อัลติเมท"
+		
+		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_postfix"						"%"
+		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_label"						"ลดคูลดาวน์สกิล"
+		"MODIFIER_VALUE_COOLDOWN_REDUCTION_PERCENTAGE_postvalue_label"						"ลดคูลดาวน์สกิล"
+
+		"SingleAbilityCooldownReduction_prefix"						"{s:sign}"
+		"SingleAbilityCooldownReduction_postfix"					"%"
+		"SingleAbilityCooldownReduction_label"						"ลดคูลดาวน์สกิล"
+		"SingleAbilityCooldownReduction_postvalue_label"			"ลดคูลดาวน์สกิล"
+		
+		"ItemCooldownReduction_prefix"						"{s:sign}"
+		"ItemCooldownReduction_postfix"						"%"
+		"ItemCooldownReduction_label"						"ลดคูลดาวน์ไอเท็ม"
+		"ItemCooldownReduction_postvalue_label"						"ลดคูลดาวน์ไอเท็ม"
+
+		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_postfix"						"%"
+		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_label"						"ลดคูลดาวน์ไอเท็ม"
+		"MODIFIER_VALUE_ITEM_COOLDOWN_REDUCTION_PERCENTAGE_postvalue_label"						"ลดคูลดาวน์ไอเท็ม"
+
+		"CooldownRefundPercent_postfix"	"%"
+		"CooldownRefundPercent_label"	"คืนคูลดาวน์"
+
+		"CooldownRefundPercent_postvalue_label"	"คืนคูลดาวน์"
+
+		"ImbuedCooldownReduction_prefix"				"{s:sign}"
+		"ImbuedCooldownReduction_postfix"				"%"
+		"ImbuedCooldownReduction_label"					"ลดคูลดาวน์สกิลที่ผสาน"
+
+		"ImbuedCooldownReduction_postvalue_label"					"ลดคูลดาวน์สกิลที่ผสาน"
+
+		"NonImbuedCooldownReduction_prefix"				"{s:sign}"
+		"NonImbuedCooldownReduction_postfix"			"%"
+		"NonImbuedCooldownReduction_label"				"ลดคูลดาวน์สกิลที่ไม่ได้ผสาน"
+
+		"NonImbuedCooldownReduction_postvalue_label"				"ลดคูลดาวน์สกิลที่ไม่ได้ผสาน"
+
+		"CooldownReductionFlat_postfix"					"วิ"
+		"CooldownReductionFlat_label"					"ลดคูลดาวน์"
+
+		"CooldownReductionFlat_postvalue_label"					"ลดคูลดาวน์"
+
+		"BonusAbilityCharges_prefix"					"{s:sign}"
+		"BonusAbilityCharges_label"					"เพิ่มชาร์จสกิล"
+
+		"BonusAbilityCharges_postvalue_label"					"เพิ่มชาร์จสกิล"
+
+		"MODIFIER_VALUE_BONUS_ABILITY_CHARGES_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_BONUS_ABILITY_CHARGES_label"					"เพิ่มชาร์จสกิล"
+
+		"MODIFIER_VALUE_BONUS_ABILITY_CHARGES_postvalue_label"					"เพิ่มชาร์จสกิล"
+
+		//"BonusChargedAbilityDamage_label"				"Charged Ability Damage"
+		"BonusChargedAbilityDamage_prefix"				"{s:sign}"
+		"BonusChargedAbilityDamage_postfix"				"%"
+
+		"CooldownBetweenChargeReduction_prefix"			"{s:sign}"
+		"CooldownBetweenChargeReduction_label"			"เวลาเติมชาร์จเร็วขึ้น"
+		"CooldownBetweenChargeReduction_postvalue_label"			"เวลาเติมชาร์จเร็วขึ้น"
+		"CooldownBetweenChargeReduction_postfix"		"%"
+
+		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_prefix"			"{s:sign}"
+		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_label"			"เวลาเติมชาร์จเร็วขึ้น"
+		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_postvalue_label"			"เวลาเติมชาร์จเร็วขึ้น"
+		"MODIFIER_VALUE_COOLDOWN_BETWEEN_CHARGE_REDUCTION_PERCENTAGE_postfix"		"%"
+
+		"BonusSprintSpeed_prefix"						"{s:sign}"
+		"BonusSprintSpeed_postfix"						"ม"
+		"BonusSprintSpeed_label"						"ความเร็ว​การวิ่ง"
+		"BonusSprintSpeed_postvalue_label"						"ความเร็ว​การวิ่ง"
+		
+		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_postfix"						"ม"
+		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_label"						"ความเร็ว​การวิ่ง"
+		"MODIFIER_VALUE_SPRINT_SPEED_BONUS_postvalue_label"						"ความเร็ว​การวิ่ง"
+
+		"SprintSpeed_postfix"							"ม"
+		"SprintSpeed_label"								"ความเร็ว​การวิ่ง"
+
+		"SprintSpeed_postvalue_label"								"ความเร็ว​การวิ่ง"
+
+		"BonusSprintSpeedPercent_prefix"				"{s:sign}"
+		"BonusSprintSpeedPercent_label"				"ความเร็ว​การวิ่ง"
+		"BonusSprintSpeedPercent_postvalue_label"				"ความเร็ว​การวิ่ง"
+		"BonusSprintSpeedPercent_postfix"				"%"
+
+		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_label"				"ความเร็ว​การวิ่ง"
+		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_postvalue_label"				"ความเร็ว​การวิ่ง"
+		"MODIFIER_VALUE_SPRINT_SPEED_MAX_PERCENT_postfix"				"%"
+
+		"BonusSuperSprintSpeed_prefix"					"{s:sign}"
+		"BonusSuperSprintSpeed_label"					"ความเร็ว​การวิ่ง"
+
+		"BonusSuperSprintSpeed_postvalue_label"					"ความเร็ว​การวิ่ง"
+
+		"BonusSuperSprintSpeedPercent_prefix"			"{s:sign}"
+		"BonusSuperSprintSpeedPercent_postfix"			"%"
+
+		"TotalHealthRegen_label"						"ฟื้นฟูพลังชีวิต​รวมทั้งหมด"
+
+
+		"TotalHealthRegen_postvalue_label"						"ฟื้นฟูพลังชีวิต​รวมทั้งหมด"
+
+		"StatusResistancePercent_prefix"				"{s:sign}"
+		"StatusResistancePercent_label"				"ต้านทานดีบัฟ"
+		"StatusResistancePercent_postvalue_label"				"ต้านทานดีบัฟ"
+		"StatusResistancePercent_postfix"				"%"
+
+		"InnateStatusResistancePercent_prefix"				"{s:sign}"
+		"InnateStatusResistancePercent_label"				"ต้านทานดีบัฟ"
+		"InnateStatusResistancePercent_postvalue_label"				"ต้านทานดีบัฟ"
+		"InnateStatusResistancePercent_postfix"				"%"
+
+		"FervorStatusResistancePercent_prefix"				"{s:sign}"
+		"FervorStatusResistancePercent_label"				"ต้านทานดีบัฟ"
+		"FervorStatusResistancePercent_postvalue_label"				"ต้านทานดีบัฟ"
+		"FervorStatusResistancePercent_postfix"				"%"
+
+		"MODIFIER_VALUE_STATUS_RESISTANCE_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_STATUS_RESISTANCE_label"				"ต้านทานดีบัฟ"
+		"MODIFIER_VALUE_STATUS_RESISTANCE_postvalue_label"				"ต้านทานดีบัฟ"
+		"MODIFIER_VALUE_STATUS_RESISTANCE_postfix"				"%"
+
+		"StatusResistanceDuration_label"				"ระยะเวลา"
+
+		"StatusResistanceDuration_postvalue_label"				"ระยะเวลา"
+		"StatusResistanceDuration_postfix"				"วิ"
+
+		"CleavePercentage_prefix"						"{s:sign}"
+		//"CleavePercentage_label"						"Splash Amount"
+		"CleavePercentage_postfix"						"%"
+
+		//"CleaveRadius_label"							"Splash Radius"
+
+		"BonusAccuracy_prefix"							"{s:sign}"
+		"BonusAccuracy_postfix"							"%"
+		//"BonusAccuracy_label"							"Gun Accuracy"
+
+		"MODIFIER_VALUE_FIREARM_ACCURACY_PERCENTAGE_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_FIREARM_ACCURACY_PERCENTAGE_postfix"							"%"
+
+		"BonusBulletSpeedPercent_prefix"				"{s:sign}"
+		"BonusBulletSpeedPercent_postfix"				"%"
+		"BonusBulletSpeedPercent_label"					"ความเร็วกระสุน"
+		"BonusBulletSpeedPercent_postvalue_label"					"ความเร็วกระสุน"
+
+		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_postfix"				"%"
+		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_label"					"ความเร็วกระสุน"
+		"MODIFIER_VALUE_BONUS_BULLET_SPEED_PERCENT_postvalue_label"					"ความเร็วกระสุน"
+
+		"LifeStealPercent_prefix"						"{s:sign}"
+		"LifeStealPercent_label"						"ดูดพลังชีวิต"
+		"LifeStealPercent_postvalue_label"						"ดูดพลังชีวิต"
+		"LifeStealPercent_postfix"						"%"
+
+		"LifestealPercentHero_label"					"ดูดพลังชีวิต"
+
+		"LifestealPercentHero_postvalue_label"					"ดูดพลังชีวิต"
+		"LifestealPercentHero_postfix"					"%"
+
+		"LifestealPercentNonHero_prefix"						"{s:sign}"
+		"LifestealPercentNonHero_label"					"​ดูดพลังชีวิตยูนิตที่ไม่ใช่ฮีโร่"
+		"LifestealPercentNonHero_postvalue_label"					"​ดูดพลังชีวิตยูนิตที่ไม่ใช่ฮีโร่"
+		"LifestealPercentNonHero_postfix"				"%"
+
+		"AbilityLifestealDuration_label"				"ระยะเวลาสกิลดูดพลังชีวิต"
+		"AbilityLifestealDuration_postvalue_label"		"ระยะเวลาสกิลดูดพลังชีวิต"
+		"AbilityLifestealDuration_postfix"				"วิ"
+
+		"BulletLifestealPercent_prefix"						"{s:sign}"
+		"BulletLifestealPercent_label"					"กระสุนดูดพลังชีวิต"
+		"BulletLifestealPercent_postvalue_label"					"กระสุนดูดพลังชีวิต"
+		"BulletLifestealPercent_postfix"				"%"
+
+		"MODIFIER_VALUE_BULLET_LIFESTEAL_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_BULLET_LIFESTEAL_label"					"กระสุนดูดพลังชีวิต"
+		"MODIFIER_VALUE_BULLET_LIFESTEAL_postvalue_label"					"กระสุนดูดพลังชีวิต"
+		"MODIFIER_VALUE_BULLET_LIFESTEAL_postfix"				"%"
+
+		"TechLifestealPercent_prefix"					"{s:sign}"
+		"TechLifestealPercent_label"						"วิญญาณ​ดูดพลังชีวิต"
+		"TechLifestealPercent_postvalue_label"						"วิญญาณ​ดูดพลังชีวิต"
+		"TechLifestealPercent_postfix"					"%"
+
+		"MeleeLifestealPercent_prefix"						"{s:sign}"
+		"MeleeLifestealPercent_label"					"โจมตี​ประชิด​ดูดพลังชีวิต"
+		"MeleeLifestealPercent_postvalue_label"					"โจมตี​ประชิด​ดูดพลังชีวิต"
+		"MeleeLifestealPercent_postfix"					"%"
+
+		"StunDuration_label"							"ระยะเวลาสตัน"
+
+		"StunDuration_postvalue_label"							"ระยะเวลาสตัน"
+		"StunDuration_postfix"							"วิ"
+
+		"StunDelay_label"								"ดีเลย์สตัน"
+
+		"StunDelay_postvalue_label"								"ดีเลย์สตัน"
+		"StunDelay_postfix"								"วิ"
+
+		"MinStunDuration_postfix"						"วิ"
+		"MinStunDuration_label"							"ระยะเวลาสตันต่ำสุด"
+
+		"MinStunDuration_postvalue_label"							"ระยะเวลาสตันต่ำสุด"
+
+		"MaxStunDuration_postfix"						"วิ"
+		"MaxStunDuration_label"							"ระยะเวลาสตันสูงสุด"
+
+		"MaxStunDuration_postvalue_label"				"ระยะเวลาสตันสูงสุด"
+
+		"DazeDuration_label"							"ระยะเวลางุนงง"
+		"DazeDuration_postvalue_label"					"ระยะเวลางุนงง"
+		"DazeDuration_postfix"							"วิ"
+
+		"TossDuration_postvalue_label"					"ระยะเวลา"
+		"TossDuration_postfix"							"วิ"
+
+		//"MeleeDamageReduction_label"					"Melee Armor"
+
+		"MeleeDamageReductionPercent_prefix"			"{s:sign}"
+		"MeleeDamageReductionPercent_postfix"			"%"
+		//"MeleeDamageReductionPercent_label"			"Melee Armor"
+		
+		"MODIFIER_VALUE_MELEE_RESIST_prefix"			"{s:sign}"
+		"MODIFIER_VALUE_MELEE_RESIST_postfix"			"%"
+		//"MODIFIER_VALUE_MELEE_RESIST_label"			"Melee Armor"
+
+		//"DispenserHealth_label"						"Dispenser Health"
+
+		//"ShotRegenTime_label"							"Shot Regen Time"
+		"ShotRegenTime_postfix"							"วิ"
+
+		//"MaxShots_label"								"Max Shots"
+
+		"PathLength_label"							"ความยาวลำแสง"
+
+		"PathLength_postvalue_label"							"ความยาวลำแสง"
+		"PathLength_postfix"							"ม"
+
+		"ChainCount_label"							"ชิ่งสูงสุด"
+
+		"ChainCount_postvalue_label"							"ชิ่งสูงสุด"
+		"BonusPerChain_label"						"ความเสียหายเมื่อชิ่ง"
+
+		"BonusPerChain_postvalue_label"						"ความเสียหายเมื่อชิ่ง"
+
+		"RichochetChance_label"						"โอกาสทำงาน"
+
+		"RichochetChance_postvalue_label"						"โอกาสทำงาน"
+		"RichochetChance_postfix"						"%"
+
+		//"SlowSpeedLimit_label"						"Speed Reduced To"
+
+		"HealAmpReceivePercent_prefix"					"{s:sign}"
+		"HealAmpReceivePercent_label"					"เพิ่มการรักษาที่ได้รับ"
+		"HealAmpReceivePercent_postvalue_label"			"เพิ่มการรักษาที่ได้รับ"
+		"HealAmpReceivePercent_postfix"					"%"
+
+		"MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT_prefix"					"{s:sign}"
+		//"MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT_label"					"Healing Received Boost"
+		"MODIFIER_VALUE_HEAL_AMP_RECEIVE_PERCENT_postfix"					"%"
+
+		"HealAmpCastPercent_prefix"					"{s:sign}"
+		"HealAmpCastPercent_label"					"การรักษาที่มอบ"
+		"HealAmpCastPercent_postvalue_label"					"การรักษาที่มอบ"
+		"HealAmpCastPercent_postfix"					"%"
+		
+		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_label"					"การรักษาที่มอบ"
+		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_postvalue_label"					"การรักษาที่มอบ"
+		"MODIFIER_VALUE_HEAL_AMP_CAST_PERCENT_postfix"					"%"
+
+		"HealAmpRegenPercent_prefix"					"{s:sign}"
+		//"HealAmpRegenPercent_label"					"Health Regen Boost"
+		"HealAmpRegenPercent_postfix"					"%"
+		
+		"MODIFIER_VALUE_HEAL_AMP_REGEN_PERCENT_prefix"					"{s:sign}"
+		//"MODIFIER_VALUE_HEAL_AMP_REGEN_PERCENT_label"					"Health Regen Boost"
+		"MODIFIER_VALUE_HEAL_AMP_REGEN_PERCENT_postfix"					"%"
+		
+		"HealAmpRegenMultiplierOutOfCombat_prefix"					"{s:sign}"
+		//"HealAmpRegenMultiplierOutOfCombat_label"		"Health Regen Multiplier"
+		"HealAmpRegenMultiplierOutOfCombat_postfix"			"x"
+
+		"HealAmpReceivePenaltyPercent_label"		"การรักษาที่ได้รับ"
+
+		"HealAmpReceivePenaltyPercent_postvalue_label"		"การรักษาที่ได้รับ"
+		"HealAmpReceivePenaltyPercent_postfix"			"%"
+		
+		"HealAmpRegenPenaltyPercent_label"		"การรักษาที่ได้รับ"
+		
+		"HealAmpRegenPenaltyPercent_postvalue_label"		"การรักษาที่ได้รับ"
+		"HealAmpRegenPenaltyPercent_postfix"	"%"
+		"HealingEffectiveness_label"		"ประสิทธิภาพการรักษา"
+		"HealingEffectiveness_postvalue_label"		"ประสิทธิภาพการรักษา"
+		"HealingEffectiveness_postfix"	"%"
+		"PercentHealthHealing_label" "พลังชีวิต​ที่รักษา"
+		"PercentHealthHealing_postvalue_label" "พลังชีวิต​ที่รักษา"
+		"PercentHealthHealing_postfix" "%"
+
+		"ProcChance_label"							"โอกาสทำงาน"
+
+		"ProcChance_postvalue_label"							"โอกาสทำงาน"
+		"ProcChance_postfix"							"%"
+
+		//"OutgoingDamageReduction_label"				"Attack Damage"
+		"OutgoingDamageReduction_prefix"				"-"
+		"OutgoingDamageReduction_postfix"				"%"
+
+		"OutgoingDamagePercent_prefix" "{s:sign}"
+		"OutgoingDamagePercent_label" "ความเสียหาย"
+		"OutgoingDamagePercent_postvalue_label" "ความเสียหาย"
+		"OutgoingDamagePercent_postfix" "%"
+
+		"ProcHealth_label"							"พลังชีวิตขั้นต่ำ"
+
+		"ProcHealth_postvalue_label"							"พลังชีวิตขั้นต่ำ"
+		"ProcHealth_postfix"							"%"
+
+		//"DamageBoostFromBehind_label"					"Damage From Behind"
+		"DamageBoostFromBehind_postfix"					"%"
+
+		//"DamageBoostElsewhere_label"					"Damage From Elsewhere"
+		"DamageBoostElsewhere_postfix"					"%"
+
+		//"BonusDPSVsPlayers_label"						"DPS vs Players"
+
+		//"BonusDPSVsCreeps_label"						"DPS vs Creeps"
+
+		//"EvasionPercentGlider_label"					"Evasion Chance Gliding"
+		"EvasionPercentGlider_postfix"					"%"
+
+		"EvasionPercent_label"						"หลบหลีกกระสุน"
+
+		"EvasionPercent_postvalue_label"						"หลบหลีกกระสุน"
+		"EvasionPercent_postfix"						"%"
+
+		//"MeleeDamagePercent_label"					"Melee Damage Bonus"
+		"MeleeDamagePercent_postfix"					"%"
+
+
+		"TechShieldHealth_label"					"พลังชีวิต​โล่​กันวิญญาณ"
+
+
+		"TechShieldHealth_postvalue_label"					"พลังชีวิต​โล่​กันวิญญาณ"
+		//"TempTechShieldHealth_label"				"Temp Spirit Shield Health"
+		"TechShieldDamagePercent_prefix"			"{s:sign}"
+		//"TechShieldDamagePercent_label"				"Spirit Shield Damage"
+		"TechShieldDamagePercent_postfix"			"%"
+
+		"BulletShieldHealth_label"					"พลังชีวิตโล่กันกระสุน"
+		"BulletShieldHealth_postvalue_label"					"พลังชีวิตโล่กันกระสุน"
+
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_label"					"พลังชีวิตโล่กันกระสุน"
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_postvalue_label"					"พลังชีวิตโล่กันกระสุน"
+
+		//"TempBulletShieldHealth_label"				"Temp Bullet Shield Health"
+		"BulletShieldDamagePercent_prefix"			"{s:sign}"
+		//"BulletShieldDamagePercent_label"			"Damage Amplification vs Bullet Shields"
+		"BulletShieldDamagePercent_postfix"			"%"
+
+		//"ShieldBlockPercent_label"					"Damage Deflected"
+		"ShieldBlockPercent_postfix"					"%"
+
+		//"DamagePercent_label"							"Bullet Damage Done"
+		"DamagePercent_postfix"							"%"
+		
+		//"CycleTimePercent_label"						"Fire Rate compared to Gun"
+		"CycleTimePercent_postfix"						"%"
+
+		//"StickyClusterCount_label"					"Splits into"
+		//"StickyClusterCount_postfix"					"Sticky Grenades"
+
+		//"FuseDuration_label"							"Fuse Duration"
+		//"FuseDuration_postfix"							""
+		
+		//"DroneCount_label"							"Drone Count"
+		
+		//"BasicReflectPercent_label"					"Basic Damage Reflect"
+		"BasicReflectPercent_postfix"					"%"
+
+		"LifeDrainPerSecond_label"					"ความ​เสียหาย​​ต่อ​​วินาที"
+
+		"LifeDrainPerSecond_postvalue_label"					"ความ​เสียหาย​​ต่อ​​วินาที"
+		"HealthPercent_label"							"เปอร์เซ็นต์​พลังชีวิต"
+
+		"HealthPercent_postvalue_label"							"เปอร์เซ็นต์​พลังชีวิต"
+		"HealthPercent_postfix"							"%"
+
+		//"DodgeAnimSpeedScale_label"					"Dodge Speed Multiplier"
+		"DodgeAnimSpeedScale_postfix"					"x"
+
+		"BulletDamagePercent_prefix"					"{s:sign}"
+		"BulletDamagePercent_label"					"ความ​เสียหาย​กระสุน​​"
+		"BulletDamagePercent_postvalue_label"					"ความ​เสียหาย​กระสุน​​"
+		"BulletDamagePercent_postfix"					"%"
+
+		"AbilityLifestealPercent_prefix"					"{s:sign}"
+		"AbilityLifestealPercent_label"				"วิญญาณ​ดูดพลังชีวิต"
+		"AbilityLifestealPercent_postvalue_label"				"วิญญาณ​ดูดพลังชีวิต"
+		"AbilityLifestealPercent_postfix"				"%"
+		
+		"AbilityLifestealPercentHero_prefix"					"{s:sign}"
+		"AbilityLifestealPercentHero_label"				"วิญญาณ​ดูดพลังชีวิต"
+		"AbilityLifestealPercentHero_postvalue_label"				"วิญญาณ​ดูดพลังชีวิต"
+		"AbilityLifestealPercentHero_postfix"			"%"
+
+		"MODIFIER_VALUE_TECH_LIFESTEAL_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_TECH_LIFESTEAL_label"				"วิญญาณ​ดูดพลังชีวิต"
+		"MODIFIER_VALUE_TECH_LIFESTEAL_postvalue_label"				"วิญญาณ​ดูดพลังชีวิต"
+		"MODIFIER_VALUE_TECH_LIFESTEAL_postfix"			"%"
+		
+		"AbilityLifestealPercentHeroPassive_prefix"					"{s:sign}"
+		"AbilityLifestealPercentHeroPassive_label"				"วิญญาณ​ดูดพลังชีวิต"
+		"AbilityLifestealPercentHeroPassive_postvalue_label"				"วิญญาณ​ดูดพลังชีวิต"
+		"AbilityLifestealPercentHeroPassive_postfix"			"%"
+
+		"AbilityLifestealPercentNonHero_prefix"					"{s:sign}"
+		"AbilityLifestealPercentNonHero_label"			"วิญญาณ​ดูดพลังชีวิตยูนิตที่ไม่ใช่ฮีโร่"
+		"AbilityLifestealPercentNonHero_postvalue_label"			"วิญญาณ​ดูดพลังชีวิตยูนิตที่ไม่ใช่ฮีโร่"
+		"AbilityLifestealPercentNonHero_postfix"		"%"
+
+		"RegenDuration_label"							"ระยะเวลาฟื้นฟู"
+
+		"RegenDuration_postvalue_label"							"ระยะเวลาฟื้นฟู"
+		"RegenDuration_postfix"							"วิ"
+
+		//"SpreadDuration_label"						"Spread Duration: "
+		"SpreadDuration_postfix"						"วิ"
+		
+		"EndRadius_label"								"รัศมีสิ้นสุด"
+		
+		"EndRadius_postvalue_label"								"รัศมีสิ้นสุด"
+		"EndRadius_postfix"								"ม"
+
+		//"BulletPercentAsBurn_label"					"Bullet Damage as Burning"
+		"BulletPercentAsBurn_postfix"					"%"
+
+		"ItemInitialCharges_label"					"ชาร์จ"
+
+
+		"ItemInitialCharges_postvalue_label"					"ชาร์จ"
+
+		"AuraDuration_label"							"ระยะเวลาออรา"
+
+		"AuraDuration_postvalue_label"							"ระยะเวลาออรา"
+		"AuraDuration_postfix"							"วิ"
+
+		//"ApproachSpeed_label"							"Project Speed"
+
+		"GrenadesInVolley_label"						"จำนวนระเบิดมือ"
+
+
+		"GrenadesInVolley_postvalue_label"						"จำนวนระเบิดมือ"
+
+		"ReloadSpeedDecrease_label"						"เวลาเติมกระสุน"
+		"ReloadSpeedDecrease_postvalue_label"						"เวลาเติมกระสุน"
+		"ReloadSpeedDecrease_postfix"					"%"
+
+		"AbsorbPercentage_label"						"ดูดซับความเสียหาย"
+
+		"AbsorbPercentage_postvalue_label"						"ดูดซับความเสียหาย"
+		"AbsorbPercentage_postfix"						"%"
+
+		//"HitCap_label"								"Hit Cap"
+		//"HitCap_postfix"								"hits"
+
+		//"AbilityDamageReductionPerHit_label"			"Ability Dmg Red Per Hit"
+		"AbilityDamageReductionPerHit_postfix"			"%"
+
+		//"ActiveAbilityDamageReduction_label"			"Active Ability Dmg Red"
+		"ActiveAbilityDamageReduction_postfix"			"%"
+
+		"BonusAttackRange_postfix"						"เมตร"
+		//"BonusAttackRange_label"						"Weapon Range"
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_postfix"						"เมตร"
+
+		"BonusAttackRangePercent_prefix"				"{s:sign}"
+		"BonusAttackRangePercent_postfix"				"%"
+		"BonusAttackRangePercent_label"					"ระยะลดทอนพลังอาวุธ"
+		"BonusAttackRangePercent_postvalue_label"					"ระยะลดทอนพลังอาวุธ"
+
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_postfix"				"%"
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_label"					"ระยะลดทอนพลังอาวุธ"
+		"MODIFIER_VALUE_BONUS_ATTACK_RANGE_PERCENT_postvalue_label"					"ระยะลดทอนพลังอาวุธ"
+
+		"WeaponRecoilReduction_postfix"					"%"
+		//"WeaponRecoilReduction_label"					"Recoil Reduction"
+
+		"MODIFIER_VALUE_WEAPON_RECOIL_REDUCTION_PERCENT_postfix"					"%"
+		//"WeaponRecoilReduction_label"					"Recoil Reduction"
+
+		"BonusDPSPercent_prefix"						"{s:sign}"
+		"BonusDPSPercent_label"						"ความ​เสียหาย​กระสุน​​"
+		"BonusDPSPercent_postvalue_label"						"ความ​เสียหาย​กระสุน​​"
+		"BonusDPSPercent_postfix"						"%"
+
+		//"DroneHealth_label"							"Drone Health"
+
+		//"DeployHealthRegen_label"						"Deployable Health"
+
+		"TurretFireRate_label"							"อัตรายิงของป้อมปืน"
+
+		"TurretFireRate_postvalue_label"							"อัตรายิงของป้อมปืน"
+		"TurretFireRate_prefix"							"{s:sign}"
+		"TurretFireRate_postfix"						"%"
+
+		"TurretDPS_label"								"DPS ป้อมปืน"
+
+
+		"TurretDPS_postvalue_label"								"DPS ป้อมปืน"
+
+		//"MobileResupplyRegenMultiplier_label"			"Mobile Resupply Regen Multiplier"
+		"MobileResupplyRegenMultiplier_postfix"			"x"
+
+		"HealRadius_label"								"รัศมีการรักษา"
+
+		"HealRadius_postvalue_label"								"รัศมีการรักษา"
+		"HealRadius_postfix"								"ม"
+
+		"BulletArmorReduction_prefix"					"{s:sign}"
+		"BulletArmorReduction_postfix"					"%"
+		"BulletArmorReduction_label"					"ต้านทาน​กระสุน​"
+
+		"BulletArmorReduction_postvalue_label"					"ต้านทาน​กระสุน​"
+
+		"LocalBulletArmorReduction_prefix"				"{s:sign}"
+		"LocalBulletArmorReduction_postfix"				"%"
+		"LocalBulletArmorReduction_label"				"ต้านทาน​กระสุน​"
+
+		"LocalBulletArmorReduction_postvalue_label"				"ต้านทาน​กระสุน​"
+
+		"LocalTechArmorReduction_prefix"				"{s:sign}"
+		//"LocalTechArmorReduction_label"				"Magic Resist"
+		"LocalTechArmorReduction_postfix"				"%"
+
+		"BulletResistOnActive_label"					"ต้านทาน​กระสุน​"
+
+		"BulletResistOnActive_postvalue_label"					"ต้านทาน​กระสุน​"
+		"BulletResistOnActive_prefix"					"{s:sign}"
+		"BulletResistOnActive_postfix"					"%"
+
+		"WeaponPowerAmp_prefix"							"{s:sign}"
+		//"WeaponPowerAmp_label"						"Courage"
+
+		"WeaponPowerWhileActivated_prefix"						"{s:sign}"
+		//"WeaponPowerWhileActivated_label"						"Courage"
+
+		"FireRate_postfix"								"%"
+
+		"WeaponPower_prefix"							"{s:sign}"
+		"WeaponPower_label"								"ความเสียหายอาวุธ"
+		"WeaponPower_postvalue_label"								"ความเสียหายอาวุธ"
+		"WeaponPower_postfix"							"%"
+
+		"MODIFIER_VALUE_WEAPON_POWER_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_WEAPON_POWER_label"								"ความเสียหายอาวุธ"
+		"MODIFIER_VALUE_WEAPON_POWER_postvalue_label"								"ความเสียหายอาวุธ"
+		"MODIFIER_VALUE_WEAPON_POWER_postfix"							"%"
+
+		"DamageIncrease_prefix"							"{s:sign}"
+		"DamageIncrease_label"						"ความเสียหายที่ได้รับ"
+
+		"DamageIncrease_postvalue_label"						"ความเสียหายที่ได้รับ"
+
+		"DamageIncreasePercent_prefix"					"{s:sign}"
+		"DamageIncreasePercent_label"					"ความเสียหายที่ได้รับ"
+		"DamageIncreasePercent_postvalue_label"					"ความเสียหายที่ได้รับ"
+		"DamageIncreasePercent_postfix"					"%"
+
+		"BonusAbilitySpeed_prefix"						"{s:sign}"
+		//"BonusAbilitySpeed_postfix"						""
+		//"BonusAbilitySpeed_label"							"Ability Move Speed"
+
+		"ReloadSpeedMultipler_prefix"					"{s:sign}"
+		"ReloadSpeedMultipler_label"					"เวลาเติมกระสุน"
+		"ReloadSpeedMultipler_postvalue_label"					"เวลาเติมกระสุน"
+		"ReloadSpeedMultipler_postfix"					"%"
+
+		"MODIFIER_VALUE_RELOAD_SPEED_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_RELOAD_SPEED_label"					"เวลาเติมกระสุน"
+		"MODIFIER_VALUE_RELOAD_SPEED_postvalue_label"					"เวลาเติมกระสุน"
+		"MODIFIER_VALUE_RELOAD_SPEED_postfix"					"%"
+
+		"HealthRegenPerTrooper_prefix"					"+"
+		"HealthRegenPerTrooper_postfix"					" ต่อทรูปเปอร์ที่อยู่ใกล้เคียง"
+		"HealthRegenPerTrooper_label"					"อัตรา​ฟื้นฟู​พลังชีวิต"
+
+		"HealthRegenPerTrooper_postvalue_label"					"อัตรา​ฟื้นฟู​พลังชีวิต"
+
+		//"TroopersToSummon_label"						"Troopers created"
+		//"TrooperLifetime_label"						"Trooper lifetime"
+		"TrooperLifetime_postfix"						"วิ"
+
+		"DamagePerChain_label"						"ความเสียหายช็อต"
+		
+
+		"DamagePerChain_postvalue_label"						"ความเสียหายช็อต"
+		
+		"SpeedMax_label"								"ความเร็ว​การ​เคลื่อนที่"
+		"SpeedMax_postvalue_label"								"ความเร็ว​การ​เคลื่อนที่"
+		"SpeedMax_postfix"							" ม/วิ"
+		"MoveSpeedMax_label"							"ความเร็ว​การ​เคลื่อนที่"
+		"MoveSpeedMax_postvalue_label"							"ความเร็ว​การ​เคลื่อนที่"
+		"MoveSpeedMax_postfix"						" ม/วิ"
+
+		"BulletDamagePercentAsTechDamage_label"		"เพิ่ม​ความเสียหายวิญญาณ"
+
+		"BulletDamagePercentAsTechDamage_postvalue_label"		"​เพิ่มความ​เสียหาย​​วิญญาณ"
+		//"BulletDamagePercentAsTechDamage_postfix"		"% Bullet Damage "
+
+		"BonusCritDamagePercent_prefix"					"{s:sign}"
+		//"BonusCritDamagePercent_label"				"Bonus Crit Damage"
+		"BonusCritDamagePercent_postfix"				"%"
+
+		"MODIFIER_VALUE_BONUS_CRIT_DAMAGE_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_BONUS_CRIT_DAMAGE_PERCENT_postfix"				"%"
+
+		//"DPSDmgPercent_label"							"DPS as Damage"
+		"DPSDmgPercent_postfix"							"%"
+
+		"DamagePerSecond_label"						"ความ​เสียหาย​​ต่อ​​วินาที"
+
+
+		"DamagePerSecond_postvalue_label"						"ความ​เสียหาย​​ต่อ​​วินาที"
+
+		//"TechReduction_label"						"Spirit Reduction"
+
+		//"TechResistReduction_label"					"Target Spirit Resist"
+		//"TechResistReduction_prefix"					""
+		"TechResistReduction_postfix"					"%"
+		"DamagePulseAmount_label"						"ความเสียหายคลื่น"
+		"DamagePulseAmount_postvalue_label"						"ความเสียหาย​คลื่น"
+		"DamagePulseInterval_label"					"เวลาเว้นช่วงคลื่น"
+		"DamagePulseInterval_postvalue_label"					"เวลาเว้นช่วงคลื่น"
+		"DamagePulseInterval_postfix"					"วิ"
+		"DamagePulseRadius_label"						"รัศมีคลื่น"
+		"DamagePulseRadius_postvalue_label"						"รัศมีคลื่น"
+		"DamagePulseRadius_postfix"					"ม"
+
+		"CloseRangeBonusDamagePercent_prefix"			"+"
+		"CloseRangeBonusDamagePercent_label"			"ความเสียหายอาวุธ"
+		"CloseRangeBonusDamagePercent_postvalue_label"			"ความเสียหายอาวุธ"
+		"CloseRangeBonusDamagePercent_postfix"			"%"
+
+		"CloseRangeBonusDamageRange_label"				"ระยะใกล้"
+
+		"CloseRangeBonusDamageRange_postvalue_label"				"ระยะใกล้"
+		"CloseRangeBonusDamageRange_postfix"			"ม"
+
+		"CloseRangeBonusWeaponPower_prefix"				"{s:sign}"
+		"CloseRangeBonusWeaponPower_label"				"ความเสียหายอาวุธ"
+		"CloseRangeBonusWeaponPower_postvalue_label"				"ความเสียหายอาวุธ"
+		"CloseRangeBonusWeaponPower_postfix"			"%"
+		"CloseRangeBonusWeaponPower_conditional"		"ภายในระยะ"
+
+		"BonusSpirit_conditional"						"หลังจากทำงาน"
+
+		"AfterProc_conditional"							"หลังจากทำงาน"
+		"DuringAmbush_conditional"						"ระหว่างลอบโจมตี"
+
+		"AboveHealthThreshold_conditional"				"มากกว่าพลังชีวิตขั้นต่ำ"
+		"BelowHealthThreshold_conditional"				"น้อยกว่าพลังชีวิตขั้นต่ำ"
+		"DashJump_conditional"							"หลังจากพุ่งตัวกระโดด"
+
+		//"EnemyAboveHealthThreshold_conditional"			"Enemy above health threshold"
+		
+		"Quicksilver_conditional"						"หลังจากใช้สกิล"
+
+		"SurgeOfPower_conditional"						"หลังจากใช้สกิล"
+
+		"SpiritStrike_conditional"						"หลังจากโจมตีประชิดสำเร็จ"
+
+		"LongRangeBonusWeaponPowerMinRange_label"		"ระยะทางต่ำสุด"
+		"LongRangeBonusWeaponPowerMinRange_postvalue_label"		"ระยะทางต่ำสุด"
+		"LongRangeBonusWeaponPowerMinRange_postfix"		"ม"
+
+		"LongRangeBonusWeaponPower_prefix"				"{s:sign}"
+		"LongRangeBonusWeaponPower_label"				"ความเสียหายอาวุธ"
+		"LongRangeBonusWeaponPower_postvalue_label"				"ความเสียหายอาวุธ"
+		"LongRangeBonusWeaponPower_postfix"				"%"
+		"LongRangeBonusWeaponPower_conditional"			"นอกระยะ"
+
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASEMinRange_label"		"ระยะทางต่ำสุด"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASEMinRange_postvalue_label"		"ระยะทางต่ำสุด"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASEMinRange_postfix"		"ม"
+
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_label"				"ความเสียหายอาวุธ"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_postvalue_label"				"ความเสียหายอาวุธ"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_postfix"				"%"
+		"MODIFIER_VALUE_LONG_RANGE_BULLET_DAMAGE_INCREASE_conditional"			"นอกระยะ"
+
+		"TechRangeMultiplier_prefix"					"{s:sign}"
+		"TechRangeMultiplier_label"						"ระยะสกิล"
+		"TechRangeMultiplier_postvalue_label"						"ระยะสกิล"
+		"TechRangeMultiplier_postfix"					"%"
+
+		"TechRangeMultiplierBuff_prefix"					"{s:sign}"
+		"TechRangeMultiplierBuff_label"						"ระยะสกิล"
+		"TechRangeMultiplierBuff_postvalue_label"						"ระยะสกิล"
+		"TechRangeMultiplierBuff_postfix"					"%"
+
+		"ImbuedTechRangeMultiplier_prefix"				"{s:sign}"
+		"ImbuedTechRangeMultiplier_label"				"ระยะสกิลที่ผสาน"
+		"ImbuedTechRangeMultiplier_postvalue_label"				"ระยะสกิลที่ผสาน"
+		"ImbuedTechRangeMultiplier_postfix"				"%"
+
+		"NonImbuedTechRangeMultiplier_prefix"			"{s:sign}"
+		"NonImbuedTechRangeMultiplier_label"			"ระยะสกิล​ที่ไม่ได้ผสาน​"
+		"NonImbuedTechRangeMultiplier_postvalue_label"			"ระยะสกิล​ที่ไม่ได้ผสาน​"
+		"NonImbuedTechRangeMultiplier_postfix"			"%"
+
+		"MODIFIER_VALUE_TECH_RANGE_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENT_label"						"ระยะสกิล"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENT_postvalue_label"						"ระยะสกิล"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENT_postfix"					"%"
+
+		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_label"						"ระยะสกิล"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_postvalue_label"						"ระยะสกิล"
+		"MODIFIER_VALUE_TECH_RANGE_PERCENTBuff_postfix"					"%"
+
+		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_prefix"				"{s:sign}"
+		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_label"				"ระยะสกิลที่ผสาน"
+		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postvalue_label"				"ระยะสกิลที่ผสาน"
+		"ImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postfix"				"%"
+
+		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_prefix"			"{s:sign}"
+		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_label"			"ระยะสกิล​ที่ไม่ได้ผสาน​"
+		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postvalue_label"			"ระยะสกิล​ที่ไม่ได้ผสาน​"
+		"NonImbuedMODIFIER_VALUE_TECH_RANGE_PERCENT_postfix"			"%"
+
+		//"ThrowRange_label"								"Throw Range"
+		"ThrowRange_postfix"							"ม"
+
+		"TechRadiusMultiplier_prefix"					"{s:sign}"
+		"TechRadiusMultiplier_label"					"รัศมี"
+		"TechRadiusMultiplier_postvalue_label"					"รัศมี"
+		"TechRadiusMultiplier_postfix"					"%"
+
+		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_label"					"รัศมี"
+		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_postvalue_label"					"รัศมี"
+		"MODIFIER_VALUE_TECH_RADIUS_PERCENT_postfix"					"%"
+
+		"TechRadiusMultiplierBuff_prefix"					"{s:sign}"
+		"TechRadiusMultiplierBuff_label"					"รัศมี"
+		"TechRadiusMultiplierBuff_postvalue_label"					"รัศมี"
+		"TechRadiusMultiplierBuff_postfix"					"%"
+
+		"ImbuedTechRadiusMultiplier_prefix"					"{s:sign}"
+		//"ImbuedTechRadiusMultiplier_label"					"Imbued Radius"
+		"ImbuedTechRadiusMultiplier_postfix"					"%"
+
+		"NonImbuedTechRadiusMultiplier_prefix"					"{s:sign}"
+		//"NonImbuedTechRadiusMultiplier_label"					"Non-Imbued Radius"
+		"NonImbuedTechRadiusMultiplier_postfix"					"%"
+
+		"TechRangeAdditive_prefix"						"{s:sign}"
+		"TechRangeAdditive_label"						"ระยะสกิล"
+		"TechRangeAdditive_postvalue_label"						"ระยะสกิล"
+		"TechRangeAdditive_postfix"						"ม"
+
+		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_prefix"						"{s:sign}"
+		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_label"						"ระยะสกิล"
+		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_postvalue_label"						"ระยะสกิล"
+		"MODIFIER_VALUE_TECH_RANGE_ADDITIVE_postfix"						"ม"
+
+		//"WindUpTime_label"								"Windup Time"
+		"WindUpTime_postfix"								"วิ"
+
+		"HealthDrainedPerSecond_label"				"ดูดพลังชีวิต"
+
+		"HealthDrainedPerSecond_postvalue_label"				"ดูดพลังชีวิต"
+		"HealthDrainedPerSecond_postfix"				"/วิ"
+
+		"DebuffDurationReductionPercentage_label"		"ลดระยะเวลาดีบัฟ"
+
+		"DebuffDurationReductionPercentage_postvalue_label"		"ลดระยะเวลาดีบัฟ"
+		"DebuffDurationReductionPercentage_postfix"		"%"
+
+		//"HealthCost_label"							"Health Cost"
+
+		"ZipLineSpeedPercent_prefix"					"{s:sign}"
+		"ZipLineSpeedPercent_label"						"ความเร็วซิปไลน์"
+		"ZipLineSpeedPercent_postvalue_label"						"ความเร็วซิปไลน์"
+		"ZipLineSpeedPercent_postfix"					"%"
+
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_label"						"ความเร็วซิปไลน์"
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_postvalue_label"						"ความเร็วซิปไลน์"
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_PERCENTAGE_postfix"					"%"
+	
+		//"ZiplineJumpBonusDuration_label"					"Jump Off Duration"
+		"ZiplineJumpBonusDuration_postfix"					"วิ"
+
+		//"ZiplineJumpBonusMoveSpeed_label"					"Jump Off Speed Bonus"
+		"ZiplineJumpBonusMoveSpeed_postfix"					"ม"
+
+		"BonusZipLineSpeed_prefix"						"{s:sign}"
+		//"BonusZipLineSpeed_label"						"Hyperline Speed"
+
+		"MODIFIER_VALUE_ZIP_LINE_SPEED_ADDITIVE_prefix"						"{s:sign}"
+
+		"MaxProjectiles_label"						"จำนวนโพรเจกไทล์"
+
+
+		"MaxProjectiles_postvalue_label"						"จำนวนโพรเจกไทล์"
+
+		//"DeathDelay_label"							"Delay Death Duration"
+
+		//"TackleDurationMax_label"						"Max Tackle Duration"
+
+		"MoveSpeed_postfix"								"ม"
+		"MoveSpeedBonus_prefix"							"{s:sign}"
+		"MoveSpeedBonus_label"							"ความเร็ว​การ​เคลื่อนที่"
+		"MoveSpeedBonus_postvalue_label"							"ความเร็ว​การ​เคลื่อนที่"
+		"MoveSpeedBonus_postfix"						"ม"
+
+		//"MoveSpeedFriendlyBuff_prefix"			""
+		//"MoveSpeedFriendlyBuff_label"				"Ally Move Speed"
+		"MoveSpeedFriendlyBuff_postfix"			" ม/วิ"
+		
+		//"ProcBuildupPercent_label"					"Proc Buildup"
+		"ProcBuildupPercent_postfix"					"%"
+
+		//"AwakenDamage_label"							"Awaken Damage"
+
+		//"LockOnTime_label"							"Lock On Time"
+		"LockOnTime_postfix"							" วินาที"
+
+		//"StalkDuration_label"							"Stalk Time"
+		"StalkDuration_postfix"							" วินาที"
+
+		"MaxStacks_label"								"ซ้อนทับสูงสุด"
+		"MaxStacks_postvalue_label"								"ซ้อนทับสูงสุด"
+		
+		"CurrentStacks_label"							"การซ้อนทับปัจจุบัน:"
+		"CurrentStacks_postvalue_label"							"การซ้อนทับปัจจุบัน:"
+
+		"CurrentBonus_label"							"โบนัสปัจจุบัน:"
+		"CurrentBonus_postvalue_label"					"โบนัสปัจจุบัน:"
+
+
+		//"TimeToMaxStacks_label"							"Time To Max Stacks"
+		"TimeToMaxStacks_postfix"						"วิ"
+
+		//"DamagePerHit_label"							"Damage Per Hit"
+
+		//"FinalBlow_label"							"Final Blow Damage"
+
+		"DamageThreshold_label"						"ความเสียหายขั้นต่ำ"
+		
+
+		"DamageThreshold_postvalue_label"						"ความเสียหายขั้นต่ำ"
+		
+		"DamageReduction_label"						"ลดความเสียหาย"
+		"DamageReduction_postvalue_label"						"ลดความเสียหาย"
+		"DamageReduction_postfix"					"%"
+
+		"MeleeDamage_label"							"ความเสียหายประชิด"
+
+
+		"MeleeDamage_postvalue_label"							"ความเสียหาย​ประชิด"
+
+		//"ConvertedHealth_label"						"Trooper Health"
+
+		"SilenceDuration_label"							"ระยะเวลาใบ้"
+
+		"SilenceDuration_postvalue_label"							"ระยะเวลาใบ้"
+		"SilenceDuration_postfix"						"วิ"
+
+		"Range_postfix"									"ม"
+		"Range_label"									"ระยะ"
+
+		"Range_postvalue_label"									"ระยะ"
+
+		"MinRange_label"								"ระยะต่ำสุด"
+
+		"MinRange_postvalue_label"								"ระยะต่ำสุด"
+		"MinRange_postfix"								"ม"
+
+		//"ConeRadius_label"							"Lightning Distance"
+		"ConeRadius_postfix"							"ม"
+		"ConeAngle_label"						"มุมกรวย"
+		"ConeAngle_postvalue_label"						"มุมกรวย"
+		"ConeAngle_postfix"						" องศา"
+
+		"ShockRadius_label"							"รัศมี"
+
+		"ShockRadius_postvalue_label"							"รัศมี"
+		"ShockRadius_postfix"						"ม"
+
+		//"KnockDownRadius_label"						"Knockdown Radius"
+		"KnockDownRadius_postfix"						"ม"
+
+		"BurnDuration_postfix"							"วิ"
+		"BurnDuration_label"							"ระยะเวลาเผาไหม้"
+
+		"BurnDuration_postvalue_label"							"ระยะเวลาเผาไหม้"
+
+		"AbilityCooldown_postfix"						"วิ"
+		"AbilityCooldown_label"						"คูลดาวน์"
+
+		"AbilityCooldown_postvalue_label"						"คูลดาวน์"
+
+		"TechCooldown_postfix"						"%"
+		"TechDuration_postfix"						"%"
+		"TechLifesteal_postfix"						"%"
+		"TechRange_postfix"							"%"
+
+		"HealingPercent_label"						"เปอร์เซ็นต์การรักษา"
+
+		"HealingPercent_postvalue_label"						"เปอร์เซ็นต์การรักษา"
+		"HealingPercent_postfix"						"%"
+
+		"AbilityCooldownBetweenCharge_label"			"ดีเลย์ชาร์จ"
+
+		"AbilityCooldownBetweenCharge_postvalue_label"			"ดีเลย์ชาร์จ"
+		"AbilityCooldownBetweenCharge_postfix"			"วิ"
+
+		"AbilityChargeUpTime_label" "เวลาชาร์จพลัง"
+
+		"AbilityChargeUpTime_postvalue_label" "เวลาชาร์จพลัง"
+		"AbilityChargeUpTime_postfix"	"วิ"
+
+		"AbilityDuration_postfix"						"วิ"
+		"AbilityDuration_label"						"ระยะเวลา"
+
+		"AbilityDuration_postvalue_label"						"ระยะเวลา"
+
+		"TetherDuration_postfix"					"วิ"
+		"TetherDuration_label"						"ระยะเวลาผูกรัด"
+
+		"TetherDuration_postvalue_label"						"ระยะเวลาผูกรัด"
+
+		"TetherRadius_postfix"						"ม"
+		//"TetherRadius_label"						"Tether Radius"
+
+		"AbilityCastRange_postfix"						"ม"
+		"AbilityCastRange_label"						"ระยะร่าย"
+
+		"AbilityCastRange_postvalue_label"						"ระยะร่าย"
+
+		"AbilityCastRangeMinimum_postfix"				"ม"
+		//"AbilityCastRangeMinimum_label"					"Range Minimum"
+
+		"AbilityChannelTime_postfix"					"วิ"
+		"AbilityChannelTime_label"					"ระยะเวลายืนร่าย"
+
+		"AbilityChannelTime_postvalue_label"					"ระยะเวลายืนร่าย"
+
+		"AbilityCastDelay_postfix"					"วิ"
+		"AbilityCastDelay_label"					"ดีเลย์การร่าย"
+
+		"AbilityCastDelay_postvalue_label"					"ดีเลย์การร่าย"
+
+		"MaxRecasts_label"				"ร่ายซ้ำสูงสุด"
+		"MaxRecasts_postvalue_label"	"ร่ายซ้ำสูงสุด"
+
+		"AbilityCharges_label"						"ชาร์จ"
+		
+		
+
+		"AbilityCharges_postvalue_label"						"ชาร์จ"
+		
+		
+		"BonusAbilityDurationPercent_prefix"			"{s:sign}"
+		"BonusAbilityDurationPercent_label"				"ระยะเวลาสกิล"
+		"BonusAbilityDurationPercent_postvalue_label"				"ระยะเวลาสกิล"
+		"BonusAbilityDurationPercent_postfix"			"%"		
+				
+		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_prefix"			"{s:sign}"
+		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_label"				"ระยะเวลาสกิล"
+		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_postvalue_label"				"ระยะเวลาสกิล"
+		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_postfix"			"%"		
+		
+		"NonImbuedBonusDuration_prefix"				"{s:sign}"
+		"NonImbuedBonusDuration_label"				"ระยะเวลาสกิล​ที่ไม่ได้ผสาน​"
+		"NonImbuedBonusDuration_postvalue_label"				"ระยะเวลาสกิล​ที่ไม่ได้ผสาน​"
+		"NonImbuedBonusDuration_postfix"			"%"		
+		
+		"ImbuedBonusDuration_prefix"					"{s:sign}"
+		"ImbuedBonusDuration_label"						"ระยะเวลาสกิล​ที่ผสาน"
+		"ImbuedBonusDuration_postvalue_label"						"ระยะเวลาสกิล​ที่ผสาน"
+		"ImbuedBonusDuration_postfix"					"%"
+
+		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_label"						"ระยะเวลาสกิล​ที่ผสาน"
+		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_postvalue_label"						"ระยะเวลาสกิล​ที่ผสาน"
+		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_postfix"					"%"
+
+		"MissCooldown_postfix"							"วิ"
+		//"MissCooldown_label"							"Cooldown on miss"
+
+		"ShockDelay_label"							"ดีเลย์ก่อนสตัน"
+
+		"ShockDelay_postvalue_label"							"ดีเลย์ก่อนสตัน"
+		"ShockDelay_postfix"							"วิ"
+
+		"ArmTime_label"									"เวลาเตรียมพร้อม"
+
+		"ArmTime_postvalue_label"									"เวลาเตรียมพร้อม"
+		"ArmTime_postfix"								"วิ"
+
+		"Barrel_ArmTime_label"							"เวลาเตรียมพร้อม"
+
+		"Barrel_ArmTime_postvalue_label"							"เวลาเตรียมพร้อม"
+		"Barrel_ArmTime_postfix"						"วิ"
+
+		"ExplodeDelay_label"							"ดีเลย์การระเบิด"
+
+		"ExplodeDelay_postvalue_label"							"ดีเลย์การระเบิด"
+		"ExplodeDelay_postfix"							"วิ"
+		
+		"BuildUpPercentPerHit_label"					"สะสมพลังต่อครั้ง"
+		
+		"BuildUpPercentPerHit_postvalue_label"					"สะสมพลังต่อครั้ง"
+		"BuildUpPercentPerHit_postfix"					"%"
+
+		"BuildUpPerSecond_label"					"สะสมพลังต่อวินาที"
+		"BuildUpPerSecond_postvalue_label"					"สะสมพลังต่อวินาที"
+		"BuildUpPerSecond_postfix"					"%"
+
+		//"FreezeBuildUpTime_label"						"Freeze buildup time"
+		"FreezeBuildUpTime_postfix"						"วิ"
+
+		//"CritStackInterval_label"						"Crit Charge Delay"
+		"CritStackInterval_postfix"						"วิ"
+
+		"TurretLifetime_label"						"ระยะเวลามี​ชีวิต"
+
+		"TurretLifetime_postvalue_label"						"ระยะเวลามี​ชีวิต"
+		"TurretLifetime_postfix"						"วิ"
+
+		"CritCoatingDamagePercent_prefix"				"{s:sign}"
+		//"CritCoatingDamagePercent_label"				"Crit Coating Crit Bonus"
+		"CritCoatingDamagePercent_postfix"				"%"
+
+		//"ExplosionCoatingRadius_label"				"Explosion Coating Radius"
+		"ExplosionCoatingRadius_postfix"				"ม"
+
+		//"SlowCoatingProcChance_label"					"Slowing Coating Chance"
+		"SlowCoatingProcChance_postfix"					"%"
+
+		//"SlowCoatingMoveSpeed_label"					"Slowing Coating Slow Amount"
+		"SlowCoatingMoveSpeed_postfix"					"%"
+
+		//"SlowCoatingDuration_label"					"Slowing Coating Slow Duration"
+		//"SlowCoatingDuration_postfix"					""
+
+		"MaxLifetime_label"							"ช่วง​ชีวิต"
+
+		"MaxLifetime_postvalue_label"							"ระยะเวลามี​ชีวิต"
+		"MaxLifetime_postfix"							"วิ"
+
+		//"ZipLineArrowLifetime_label"					"Arrow Flight Time"
+		//"ZipLineArrowLifetime_postfix"					""
+
+		//"DamageTakenPercentIncreasePerStack_label"	"Damage Increase Per Stack"
+		"DamageTakenPercentIncreasePerStack_postfix"	"%"
+
+		//"ShotsFired_label"							"Shots fired"
+		//"ShotsFired_postfix"							""
+
+		//"TimeBetweenShots_label"						"Time between shots"
+		//"TimeBetweenShots_postfix"						""
+
+		//"DroneDPS_label"								"Drone Damage"
+		"DroneDPS_postfix"								"DPS"
+
+		"DistanceBuff_postfix"							"%"
+		//"DistanceBuff_label"							"Increase at Max Range"
+
+		//"FullDistance_label"							"Max Range: "
+		"FullDistance_postfix"							"ม"
+
+		"ProcDamage_label"								"ความ​เสียหาย​วิญญาณ"
+
+		"ProcDamage_postvalue_label"								"ความ​เสียหาย​วิญญาณ"
+		//"BaseDamagePct_label"							"Bonus Spirit Amp"
+		"BaseDamagePct_prefix"							"{s:sign}"
+		"BaseDamagePct_postfix"							"%"
+
+		"TargetsPerTick_label"						"เป้าหมาย​ต่อการยิง​หนึ่งครั้ง"
+
+		"TargetsPerTick_postvalue_label"						"เป้าหมาย​ต่อการยิง​หนึ่งครั้ง"
+		"HealthToDamage_label"						"ความเสียหาย"
+
+		"HealthToDamage_postvalue_label"						"ความเสียหาย"
+		"SelfDamagePct_label"						"สูญเสีย​พลังชีวิต"
+
+		"SelfDamagePct_postvalue_label"						"สูญเสีย​พลังชีวิต"
+		"SelfDamagePct_postfix"						"%"
+
+		"DamageHealPerTarget_label"						"ความเสียหาย/การรักษาต่อเป้าหมาย"
+
+
+		"DamageHealPerTarget_postvalue_label"						"ความเสียหาย/การรักษาต่อเป้าหมาย"
+
+		//"DeathTaxHeal_label"							"Health Per Kill"
+
+		"ChainRadius_label"							"รัศมีการชิ่ง"
+
+		"ChainRadius_postvalue_label"							"รัศมีการชิ่ง"
+		"ChainRadius_postfix"							"ม"
+		
+		//"LaunchDamage_postfix"							""
+		//"LaunchDamage_label"							"Knockback Damage"
+
+		//"ImpaleDamage_postfix"							""
+		//"ImpaleDamage_label"							"Impale Damage"
+
+		//"ImpaleDuration_label"						"Impale Duration"
+		"ImpaleDuration_postfix"						"วิ"
+
+		"ExplosionRadius_label"						"รัศมีการระเบิด"
+
+		"ExplosionRadius_postvalue_label"						"รัศมีการระเบิด"
+		"ExplosionRadius_postfix"						"ม"
+
+		"MinExplosionRadius_label"					"รัศมีการระเบิดต่ำสุด"
+
+		"MinExplosionRadius_postvalue_label"					"รัศมีการระเบิดต่ำสุด"
+		"MinExplosionRadius_postfix"					"ม"
+
+		"MaxExplosionRadius_label"					"รัศมีการระเบิดสูงสุด"
+
+		"MaxExplosionRadius_postvalue_label"					"รัศมีการระเบิดสูงสุด"
+		"MaxExplosionRadius_postfix"					"ม"
+
+		"ExplosionDamage_label"						"ความเสียหาย​ระเบิด"
+
+		"ExplosionDamage_postvalue_label"						"ความเสียหาย​ระเบิด"
+		//"MinExplosionDamage_label"						"Min Explosion Damage: "
+		//"MinExplosionDamage_postfix"					""
+
+		//"ExplosionMinPercent_label"					"Min Explosion Damage: "
+		"ExplosionMinPercent_postfix"					"%"
+
+		//"ExplosionMaxPercent_label"					"Max Explosion Damage: "
+		"ExplosionMaxPercent_postfix"					"%"
+
+		//"EMPBuildupPercentPerShot_label"				"Silence Charge Per Shot"
+		"EMPBuildupPercentPerShot_postfix"				"%"
+
+		"InvisFadeToDuration_label"						"ดีเลย์การล่องหน"
+
+		"InvisFadeToDuration_postvalue_label"						"ดีเลย์การล่องหน"
+		"InvisFadeToDuration_postfix"						"วิ"
+
+		"InvisMoveSpeedMod_prefix"					"{s:sign}"
+		"InvisMoveSpeedMod_postfix"					"ม"
+		"InvisMoveSpeedMod_label"					"ความเร็ว​การวิ่งขณะล่องหน"
+
+		"InvisMoveSpeedMod_postvalue_label"					"ความเร็ว​การวิ่งขณะล่องหน"
+
+		//"MeleeAttackLength_label"						"Melee Range"
+		"MeleeAttackLength_postfix"						"ม"
+
+		"ArmingDuration_label"						"ระยะเวลาเตรียมพร้อม"
+
+		"ArmingDuration_postvalue_label"						"ระยะเวลาเตรียมพร้อม"
+		"ArmingDuration_postfix"						"วิ"
+
+		"AirJumpVerticalSpeedPercent_prefix"			"{s:sign}"
+		//"AirJumpVerticalSpeedPercent_label"			"Air Jump Vertical Speed"
+		"AirJumpVerticalSpeedPercent_postfix"			"%"
+
+
+		//"ReflectDamage_label"							"Bullet Reflect Damage"
+		"ReflectDamage_postfix"							"%"
+
+		"ImmobilizeDuration_label"					"ระยะเวลาตรึง"
+
+		"ImmobilizeDuration_postvalue_label"					"ระยะเวลาตรึง"
+		"ImmobilizeDuration_postfix"					"วิ"
+
+		"AirControlPercentBarrier_label"					"การควบคุม​กลางอากาศ​"
+		"AirControlPercentBarrier_postvalue_label"					"การควบคุม​กลางอากาศ​"
+		"AirControlPercentBarrier_prefix"							"{s:sign}"
+		"AirControlPercentBarrier_postfix"							"%"
+
+		"AirControlPercent_label"					"การควบคุม​กลางอากาศ​"
+		"AirControlPercent_postvalue_label"					"การควบคุม​กลางอากาศ​"
+		"AirControlPercent_prefix"							"{s:sign}"
+		"AirControlPercent_postfix"							"%"
+
+		"AirControlAccelPercent_label"					"การเร่งความเร็ว​กลางอากาศ​"
+		"AirControlAccelPercent_postvalue_label"					"การเร่งความเร็ว​กลางอากาศ​"
+		"AirControlAccelPercent_prefix"							"{s:sign}"
+		"AirControlAccelPercent_postfix"							"%"
+
+		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_label"					"การควบคุม​กลางอากาศ​"
+		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_postvalue_label"					"การควบคุม​กลางอากาศ​"
+		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_prefix"							"{s:sign}"
+		"MODIFIER_VALUE_AIR_CONTROL_PERCENT_postfix"							"%"
+
+		//"HeadStompBonusDamage_label"					"Head Stomp Damage Bonus"
+		//"HeadStompBonusDamage_postfix"					""
+
+		//"HeadStompBonusRadius_label"					"Head Stomp Radius Bonus"
+		//"HeadStompBonusRadius_postfix"					""
+
+		//"BouncePadStompCount_label"					"Max Head Stomps"
+
+		"NPCProcChance_label"							"โอกาสทริกเกอร์ทรูปเปอร์"
+
+		"NPCProcChance_postvalue_label"							"โอกาสทำงานต่อทรูปเปอร์"
+		"NPCProcChance_postfix"							"%"
+
+		"HeroProcChance_label"						"โอกาสทำงานต่อฮีโร่"
+
+		"HeroProcChance_postvalue_label"						"โอกาสทำงานต่อฮีโร่"
+		"HeroProcChance_postfix"						"%"
+		
+		//"AbilityProjectileSpeedPercent_label"			"Speed Increase"
+		"AbilityProjectileSpeedPercent_postfix"			"%"
+
+		//"MODIFIER_VALUE_ABILITY_PROJECTILE_SPEED_PERCENT_label"			"Speed Increase"
+		"MODIFIER_VALUE_ABILITY_PROJECTILE_SPEED_PERCENT_postfix"			"%"
+		
+		"TechCleaveDamagePercent_label"				"ความเสียหายกระจาย"
+		
+		"TechCleaveDamagePercent_postvalue_label"				"ความเสียหายกระจาย"
+		"TechCleaveDamagePercent_postfix"				"%"
+		
+		"TechCleaveTargetCap_label"					"เป้าหมายเพิ่มเติม"
+		
+		"TechCleaveTargetCap_postvalue_label"					"เป้าหมายเพิ่มเติม"
+		//"TechCleaveTargetCap_postfix"					""
+		
+		"TechCleaveRadius_label"						"รัศมีการกระจาย"
+		
+		"TechCleaveRadius_postvalue_label"						"รัศมีการกระจาย"
+		"TechCleaveRadius_postfix"						"ม"
+
+		"InitialRadius_label"							"รัศมีเริ่มต้น"
+
+		"InitialRadius_postvalue_label"							"รัศมีเริ่มต้น"
+		"InitialRadius_postfix"							"ม"
+
+		//"BlurVisionRange_label"							"Blur Vision Range"
+		"BlurVisionRange_postfix"						"ม"
+		
+		//"ExplosiveShotRadiusPercent_label"				"Explosive Shot Radius Increase"
+		"ExplosiveShotRadiusPercent_postfix"			"%"
+				
+		//"TechPowerPerCharge_label"						"Spirit per Charge"	
+		
+		//"FireRatePerCharge_label"						"Fire Rate per Charge"
+		"FireRatePerCharge_postfix"						"%"
+		
+		//"ChargeDuration_label"							"Charge Duration"
+		"ChargeDuration_postfix"						"วิ"
+
+		//"MaxCharges_label"								"Max Charges"
+
+		//"ExtraBladeDamage_label"						"Extra Damage per Charge"
+
+		//"WaveStunDuration_label"						"Disarm/EMP Duration"
+		"WaveStunDuration_postfix"						"วิ"
+
+		"WaveLifetime_label"							"ระยะเวลาโพรเจกไทล์"
+
+		"WaveLifetime_postvalue_label"							"ระยะเวลาโพรเจกไทล์"
+		"WaveLifetime_postfix"							"วิ"
+
+		//"LockedRadius_label"							"Chain Length"
+		"LockedRadius_postfix"							"ม"
+
+		//"BoostDuration_label"							"Ally Move Speed Duration"
+		"BoostDuration_postfix"							"วิ"
+
+		//"ShieldPercentage_label"						"Shield Max Health %"
+		"ShieldPercentage_postfix"						"% พลังชีวิตสูงสุด"
+
+		"ShieldDuration_label"							"ระยะเวลาโล่"
+
+		"ShieldDuration_postvalue_label"							"ระยะเวลาโล่"
+		"ShieldDuration_postfix"						"วิ"
+
+		"SlowRadius_label"								"รัศมีลดความเร็ว"
+
+		"SlowRadius_postvalue_label"								"รัศมีลดความเร็ว"
+		"SlowRadius_postfix"							"ม"
+		
+		//"SmokeDuration_label"							"Smoke Duration"
+		"SmokeDuration_postfix"							"วิ"
+
+		//"SmokeRadius_label"								"Smoke Radius"
+		"SmokeRadius_postfix"							"ม"
+
+		"ChainDuration_label"							"ระยะเวลาผูกรัด"
+
+		"ChainDuration_postvalue_label"							"ระยะเวลาผูกรัด"
+		"ChainDuration_postfix"							"วิ"
+
+		//"InfectDuration_label"							"Infect Duration"
+		"InfectDuration_postfix"						"วิ"
+
+		//"CloudDuration_label"							"Cloud Lifetime"
+		"CloudDuration_postfix"							"วิ"
+
+		"TimeSlowPercent_label"							"เวลาช้าลง"
+
+		"TimeSlowPercent_postvalue_label"							"เวลาช้าลง"
+		"TimeSlowPercent_postfix"						"%"
+
+		//"CombatRegenPercent_label"						"Health Regen in Combat"
+		"CombatRegenPercent_postfix"					"%"
+
+		"AttackPower_prefix"							"{s:sign}"
+		//"AttackPower_postfix"							""
+		//"AttackPower_label"								"Attack Power"
+
+		"AbilityPower_prefix"							"{s:sign}"
+		//"AbilityPower_postfix"							""
+		//"AbilityPower_label"							"Ability Power"
+		  
+		"DefensePower_prefix"							"{s:sign}"
+		//"DefensePower_postfix"							""
+		//"DefensePower_label"							"Defense Power"
+
+		//"InfectionBonusDPS_prefix"						""
+		//"InfectionBonusDPS_postfix"						""
+		//"InfectionBonusDPS_label"						"Infection Bonus DPS"
+
+		//"DecoyLifetime_prefix"							""
+		"DecoyLifetime_postfix"							"วิ"
+"Health_label"									"พลังชีวิต"
+
+		"Health_postvalue_label"									"พลังชีวิต"
+
+		//"Grenades_label"					"Extra Bombs"
+
+		//"SearchRadius_label"				"Search Radius"
+		"SearchRadius_postfix"				"ม"
+
+		//"GrenadesPerVolley_label"			"Bombs Per Volley"
+
+		//"BulletArmorPenetration_label"		"Target Bullet Resist"
+		//"BulletArmorPenetration_postfix"	""
+
+		//"RampDuration_label"						"Ramp Duration"
+		"RampDuration_postfix"						"วิ"
+
+		//"EndDuration_label"							"Final Duration"
+		"EndDuration_postfix"						"วิ"
+
+		//"FinalSlow_label"							"Slowest Speed"		
+		"FinalSlow_postfix"							"ม/วิ"		
+
+		"WeaponPowerPerStack_prefix"				"{s:sign}"
+		"WeaponPowerPerStack_label"					"ความเสียหายอาวุธต่อการซ้อนทับ"
+		"WeaponPowerPerStack_postvalue_label"					"ความเสียหายอาวุธต่อการซ้อนทับ"
+		"WeaponPowerPerStack_postfix"				"%"
+		"WeaponPowerPerStackNonHero_prefix"				"{s:sign}"
+		"WeaponPowerPerStackNonHero_label"					"ความเสียหายอาวุธที่ไม่ใช่ฮีโร่"
+		"WeaponPowerPerStackNonHero_postvalue_label"					"ความเสียหายอาวุธที่ไม่ใช่ฮีโร่"
+		"WeaponPowerPerStackNonHero_postfix"				"%"
+
+		"NonHeroStackLimit_label"					"ขีดจำกัดการซ้อนทับยูนิตที่ไม่ใช่ฮีโร่"
+		"NonHeroStackLimit_postvalue_label"				"ขีดจำกัดการซ้อนทับยูนิตที่ไม่ใช่ฮีโร่"
+		"DamageToStack_label"						"ความเสียหาย​แปลงเป็น​การซ้อนทับ"
+		"DamageToStack_postvalue_label"						"ความเสียหาย​แปลงเป็น​การซ้อนทับ"
+		"DamageDuration_label"						"ระยะเวลา"
+		"DamageDuration_postvalue_label"						"ระยะเวลา"
+		"DamageDuration_postfix"						"วิ"
+
+		"RegenWhileInvisible_label"				"อัตรา​ฟื้นฟู​พลังชีวิตขณะล่องหน"
+
+		"RegenWhileInvisible_postvalue_label"				"อัตรา​ฟื้นฟู​พลังชีวิตขณะล่องหน"
+		"RegenWhileInvisible_prefix"			"+"
+		"DamageRadius_label"						"รัศมีความเสียหาย"
+
+		"DamageRadius_postvalue_label"						"รัศมีความเสียหาย"
+		"DamageRadius_postfix"						"ม"
+
+		//"RegenerationRate_label"					"Restore Time"
+		"RegenerationRate_postfix"					"วิ"
+
+		"BulletShieldMaxHealth_prefix"				"{s:sign}"
+		"BulletShieldMaxHealth_label"				"พลังชีวิตโล่กันกระสุน"
+		"BulletShieldMaxHealth_postvalue_label"				"พลังชีวิตโล่กันกระสุน"
+
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_label"				"พลังชีวิตโล่กันกระสุน"
+		"MODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_postvalue_label"				"พลังชีวิตโล่กันกระสุน"
+
+		"ActiveBulletShieldMaxHealth_prefix"		"{s:sign}"
+		"ActiveBulletShieldMaxHealth_label"			"พลังชีวิตโล่กันกระสุน"
+		"ActiveBulletShieldMaxHealth_postvalue_label"			"พลังชีวิตโล่กันกระสุน"
+
+		"ActiveMODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_prefix"		"{s:sign}"
+		"ActiveMODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_label"			"พลังชีวิตโล่กันกระสุน"
+		"ActiveMODIFIER_VALUE_BULLET_SHIELD_HEALTH_MAX_postvalue_label"			"พลังชีวิตโล่กันกระสุน"
+
+		"TechShieldMaxHealth_prefix"				"{s:sign}"
+		"TechShieldMaxHealth_label"					"พลังชีวิต​โล่​กันวิญญาณ"
+		"TechShieldMaxHealth_postvalue_label"					"พลังชีวิต​โล่​กันวิญญาณ"
+
+		"WeaponPowerPerKill_label"			"ความเสียหายอาวุธต่อการสังหาร"
+
+		"WeaponPowerPerKill_postvalue_label"			"ความเสียหายอาวุธต่อการสังหาร"
+		"WeaponPowerPerKill_prefix"			"+"
+		"WeaponPowerPerKill_postfix"		"%"
+		//"WeaponPowerPerAssist_label"		"Courage per Assist"
+		//"WeaponPowerPerDeath_label"			"Courage per Death"
+
+		"FireRatePerKill_label"			"อัตรายิงต่อการสังหาร"
+
+		"FireRatePerKill_postvalue_label"			"อัตรายิงต่อการสังหาร"
+		"FireRatePerKill_prefix"			"+"
+		"FireRatePerKill_postfix"		"%"
+
+		"BonusZoomPercent_prefix"				"{s:sign}"
+		"BonusZoomPercent_label"				"ระยะซูมอาวุธ"
+		"BonusZoomPercent_postvalue_label"				"ระยะซูมอาวุธ"
+		"BonusZoomPercent_postfix"				"%"
+
+		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_prefix"				"{s:sign}"
+		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_label"				"ระยะซูมอาวุธ"
+		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_postvalue_label"				"ระยะซูมอาวุธ"
+		"MODIFIER_VALUE_ZOOM_INCREASE_PERCENT_postfix"				"%"
+
+		"MaxDPS_label"						"DPS สูงสุด"
+
+		"MaxDPS_postvalue_label"						"DPS สูงสุด"
+		//"DamageOnHit_label"					"Damage on Hit"
+		"ProcCooldown_label"					"ความถี่สูงสุด"
+		"ProcCooldown_postvalue_label"					"ความถี่สูงสุด"
+		"ProcCooldown_postfix"				"วิ"
+
+		//"WeaponPowerPerEnemy_label"			"Courage per Enemy"
+		"WeaponPowerPerEnemy_prefix"			"+"
+
+		//"FireRatePerEnemy_label"				"Fire Rate per Enemy"
+		"FireRatePerEnemy_prefix"				"+"
+		"FireRatePerEnemy_postfix"			"%"
+
+		//"AssaultDuration_label"				"Air Attack Duration"
+		"AssaultDuration_postfix"				"วิ"
+
+		//"AssaultFireRate_label"				"Air Attack Fire Rate"
+		"AssaultFireRate_prefix"				"{s:sign}"
+		"AssaultFireRate_postfix"				"%"
+
+		"ActiveHealthRegen_prefix"			"{s:sign}"
+		"ActiveHealthRegen_label"			"อัตรา​ฟื้นฟู​พลังชีวิต"
+		"ActiveHealthRegen_postvalue_label"			"อัตรา​ฟื้นฟู​พลังชีวิต"
+		"ActiveHealthRegen_postfix"			"พลังชีวิต/วิ"
+
+		"ActiveBonusFireRate_label"			"อัตรายิง"
+
+		"ActiveBonusFireRate_postvalue_label"			"อัตรายิง"
+		"ActiveBonusFireRate_postfix"		"%"
+		"SurgeDelay_label"					"ดีเลย์"
+		"SurgeDelay_postvalue_label"					"ดีเลย์"
+		"SurgeDelay_postfix"				"วิ"
+
+		//"upgrade_fervor/modifier_fervor/modifier_fervor_damage_stack"	"Fervor Stack"
+		//"upgrade_fervor/modifier_fervor/modifier_fervor_bonuses"	"Enrage Bonuses"
+		"FervorMovespeed_label"		"ความเร็ว​การ​เคลื่อนที่"
+		"FervorMovespeed_postvalue_label"		"ความเร็ว​การ​เคลื่อนที่"
+		"FervorMovespeed_postfix"	" ม/วิ"
+		"FervorFireRate_label"		"อัตรายิง"
+		"FervorFireRate_postvalue_label"		"อัตรายิง"
+		"FervorFireRate_postfix"	"%"
+		//"FervorDebuffResistance_label"		"Enrage Debuff Resistance"
+		"FervorDebuffResistance_postfix"	"%"
+		"FervorTechResist_label"			"ต้านทาน​วิญญาณ​"
+
+		"FervorTechResist_postvalue_label"			"ต้านทาน​วิญญาณ​"
+
+		"PassiveFireRate_label"		"อัตรายิง"
+
+		"PassiveFireRate_postvalue_label"		"อัตรายิง"
+		"PassiveFireRate_postfix"	"%"
+
+		"TechDamagePercent_Label"	"ความเสียหาย"
+		"TechDamagePercent_postvalue_label"	"ความเสียหาย"
+		"TechDamagePercent_Postfix"	"%"
+		
+		"MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER_Label"	"ความเสียหาย"
+		"MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER_postvalue_label"	"ความเสียหาย"
+		"MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER_Postfix"	"%"
+		
+		"DelayDuration_Label"	"ระยะเวลาดีเลย์"
+		"DelayDuration_postvalue_label"	"ระยะเวลาดีเลย์"
+		"DelayDuration_Postfix"	"วิ"
+		//"MinimumDamage_Label"	"Minimum Damage"
+
+		"EMPDuration_label"				"ระยะเวลาดีบัฟ"
+
+		"EMPDuration_postvalue_label"				"ระยะเวลาดีบัฟ"
+		"EMPDuration_postfix"			"วิ"
+
+		//"BonusBulletDamageToEMPTargets_label" "Bullet Damage to Silenced targets"
+		"BonusBulletDamageToEMPTargets_prefix" "+"
+		"BonusBulletDamageToEMPTargets_postfix" "%"
+		"modifier_silencer_proc_active"	"​ไซเลนเซอร์​"
+
+		"BulletDamageReflectedPct_label"					"สะท้อน​ความเสียหายกระสุน"
+
+		"BulletDamageReflectedPct_postvalue_label"					"สะท้อน​ความเสียหายกระสุน"
+		"BulletDamageReflectedPct_postfix"					"%"
+		"SpiritDamageReflectedPct_label"					"สะท้อน​ความเสียหายวิญญาณ"
+		"SpiritDamageReflectedPct_postvalue_label"					"สะท้อน​ความเสียหายวิญญาณ"
+		"SpiritDamageReflectedPct_postfix"					"%"
+		"DamageReflectedFrequencyPct_label"				"โอกาสทำงาน"
+		"DamageReflectedFrequencyPct_postvalue_label"				"โอกาสทำงาน"
+		"DamageReflectedFrequencyPct_postfix"			"%"
+		"modifier_armor_reactive_armor"					"​รีเทิร์น​ไฟร์​"
+		"ReturnFireBulletResist_prefix"					"+"
+		"ReturnFireBulletResist_label"					"ต้านทาน​กระสุน​"
+		"ReturnFireBulletResist_postvalue_label"					"ต้านทาน​กระสุน​"
+		"ReturnFireBulletResist_postfix"					"%"
+
+		//"RespawnBonusHealth_label"							"Respawn Bonus Health"
+		//"RespawnBonusHealthDuration_label"					"Respawn Bonus Health Duration"
+		"RespawnBonusHealthDuration_postfix"				"วิ"
+		//"upgrade_rebirth/respawn_bonus_health_modifier"		"Rebirth Bonus Health"
+
+		//"DeathImmunityDuration_label"				"Death Immunity Duration"
+		//"DeathImmunityDuration_postfix"			"s"
+		//"DeathImmunityPulseRateMultiplier_label"		"Pulse Rate"
+		//"DeathImmunityPulseRateMultiplier_postfix"	"x"
+		//"modifier_cheat_death_immunity"			"Death Immune"
+
+		"StasisRadius_label"				"รัศมี"
+
+		"StasisRadius_postvalue_label"				"รัศมี"
+		"StasisRadius_postfix"				"ม"
+
+		//"upgrade_quarantine/modifier_citadel_quarantine"	"Quarantined"
+
+		"HealPercentAmount_label"				"จำนวนการรักษา"
+
+		"HealPercentAmount_postvalue_label"				"จำนวนการรักษา"
+		"HealPercentAmount_postfix"			"%"
+
+		"Stamina_label"							"สแตมินา"
+		"Stamina_postvalue_label"							"สแตมินา"
+		"Stamina_prefix"							"{s:sign}"
+
+		"MODIFIER_VALUE_STAMINA_label"							"สแตมินา"
+		"MODIFIER_VALUE_STAMINA_postvalue_label"							"สแตมินา"
+		"MODIFIER_VALUE_STAMINA_prefix"							"{s:sign}"
+
+		"StaminaCooldownReduction_prefix"				"{s:sign}"
+		"StaminaCooldownReduction_label"				"การฟื้น​สแตมินา"
+		"StaminaCooldownReduction_postvalue_label"				"การฟื้น​สแตมินา"
+		"StaminaCooldownReduction_postfix"			"%"
+
+		//"ActiveHealthChange_label"			"Health Steal"
+		"ActiveHealthChange_postfix"			"HP"
+		//"ActiveWeaponDamageChange_label"		"Weapon Damage Steal"
+		"ActiveWeaponDamageChange_postfix"    "%"
+
+		//"modifier_upgrade_siphon_buff"		"Siphon"
+		"modifier_upgrade_siphon_debuff"		"ขโมยพลังชีวิต"
+		//"SiphonRadius_label"					"Activate Radius"
+		"SiphonRadius_postfix"				"ม"
+
+		"TechResistDuration_label"			"ระยะเวลา"
+
+		"TechResistDuration_postvalue_label"			"ระยะเวลา"
+		"TechResistDuration_postfix"			"วิ"
+
+		"BleedTechResist_label"				"ต้านทาน​วิญญาณ​"
+
+		"BleedTechResist_postvalue_label"				"ต้านทาน​วิญญาณ​"
+		"BleedTechResist_prefix"				"{s:sign}"
+		"BleedTechResist_postfix"				"%"
+
+		//"StackProcDamage_label"			"Burst Damage"
+		"StackDuration_label"				"ระยะเวลาซ้อนทับ"
+		"StackDuration_postvalue_label"				"ระยะเวลาซ้อนทับ"
+		"StackDuration_postfix"			"วิ"
+
+		"HeadShotBonusDamage_prefix"		"{s:sign}"
+		"HeadShotBonusDamage_label"			"เพิ่ม​​ความเสียหาย​เฮดช็อต"
+		"HeadShotBonusDamage_postvalue_label"			"เพิ่ม​​ความเสียหาย​เฮดช็อต"
+		"HeadShotDebuffDuration_label"		"ระยะเวลา"
+		"HeadShotDebuffDuration_postvalue_label"		"ระยะเวลา"
+		"HeadShotDebuffDuration_postfix"	"วิ"
+		"HeadShotCooldown_label"			"คูลดาวน์"
+		"HeadShotCooldown_postvalue_label"			"คูลดาวน์"
+		"HeadShotCooldown_postfix"			"วิ"
+		//"upgrade_leveler/headshot_cooldown_modifier"	"Head Shot Bonus Cooldown"
+		//"ActiveChainDuration_label"			"Tether Duration"
+		"ActiveChainDuration_postfix"		"วิ"
+		"ActiveBulletArmorReduction_label"	"ลดต้านทาน​กระสุน​"
+
+		"ActiveBulletArmorReduction_postvalue_label"	"ลดต้านทาน​กระสุน​"
+
+		//"modifier_galvanic_storm"				"Galvanic Storm"
+		//"BuildupPerProc_label"				"Buildup on Shock"
+		"BuildupPerProc_postfix"				"%"
+		//"BuildupDamage_label"					"Damage on Buildup"
+		
+		//"ShockBuildupDuration_label"			"Shock Buildup Lifetime"
+		"ShockBuildupDuration_postfix"		"วิ"
+
+		"GalvanicProcDuration_label"			"ระยะเวลาช้าลง"
+
+		"GalvanicProcDuration_postvalue_label"			"ระยะเวลาช้าลง"
+		"GalvanicProcDuration_postfix"		"วิ"
+
+		"FireRateSlow_label"					"อัตรายิง"
+		"FireRateSlow_postvalue_label"					"อัตรายิง"
+		"FireRateSlow_prefix"					"-"
+		"FireRateSlow_postfix"					"%"
+
+		"MODIFIER_VALUE_FIRE_RATE_SLOW_label"					"อัตรายิง"
+		"MODIFIER_VALUE_FIRE_RATE_SLOW_postvalue_label"					"อัตรายิง"
+		"MODIFIER_VALUE_FIRE_RATE_SLOW_prefix"					"-"
+		"MODIFIER_VALUE_FIRE_RATE_SLOW_postfix"					"%"
+
+		"TechPowerReduction_label"					"พลังวิญญาณ"
+
+		"TechPowerReduction_postvalue_label"					"พลังวิญญาณ"
+		//"SlowFireRatePercent_label"			"Fire Rate Scale"
+		"SlowFireRatePercent_prefix"			"{s:sign}"
+		"SlowFireRatePercent_postfix"			"%"
+
+		"MaxFireRateSlowPercent_label"			"อัตราการยิงสูงสุด"
+
+		"MaxFireRateSlowPercent_postvalue_label"			"อัตราการยิงสูงสุด"
+		"MaxFireRateSlowPercent_postfix"		"%"
+		"MaxFireRateSlowPercent_prefix"		"-"
+
+		//"FireRateScale_label"					"Fire Rate Scale"
+		"FireRateScale_prefix"				"{s:sign}"
+		"FireRateScale_postfix"				"%"
+
+		//"ActiveHealAmount_label"				"Self Heal"
+		//"ActiveHealAmount_postfix"			"HP"
+
+		//"BonusDamagePerHero_label"			"Bonus Damage Per Hero"
+		"BonusDamagePerHero_postfix"			"%"
+
+		//"DebuffDelay_label"					"Debuff Delay"
+		"DebuffDelay_postfix"					"วิ"
+
+		//"ArmorLossPerHit_label"				"Resist lost per Hit"
+		"ArmorLossPerHit_postfix"				"%"
+
+		//"StackLossFrequency_label"			"Resist Loss Frequency"
+		"StackLossFrequency_postfix"			"วิ"
+
+		"MaxBulletResist_label"				"ต้านทาน​กระสุน​สูงสุด"
+
+		"MaxBulletResist_postvalue_label"				"ต้านทาน​กระสุน​สูงสุด"
+		"MaxBulletResist_postfix"				"%"
+
+		"upgrade_berserker/modifier_berserker/modifier_berserker_damage_stack"		"​เบอร์เซิร์ก​เกอร์​"
+		"berserker_stack"							"​เบอร์เซิร์ก​เกอร์​"
+
+		"WeaponDamageBonus_prefix"		"{s:sign}"
+		"WeaponDamageBonus_label"			"ความเสียหายอาวุธ"
+
+		"WeaponDamageBonus_postvalue_label"			"ความเสียหายอาวุธ"
+
+		"TechDamageBonusPercent_prefix"		"{s:sign}"
+		"TechDamageBonusPercent_label"		"ความ​เสียหาย​วิญญาณ"
+		"TechDamageBonusPercent_postvalue_label"		"ความ​เสียหาย​วิญญาณ"
+		"TechDamageBonusPercent_postfix"		"%"
+
+		"SuperiorStaminaBonusSpirit_prefix"	"{s:sign}"
+		//"SuperiorStaminaBonusSpirit_label"	"Spirit Power After Second Jump/Dash"
+
+		"EchoShardBonusSpirit_prefix"		"{s:sign}"
+		//"EchoShardBonusSpirit_label"		"Spirit Power for Echo Ability"
+
+
+
+		"BonusSpirit_prefix"				"{s:sign}"
+		"BonusSpirit_label"				"พลังวิญญาณ"
+		"BonusSpirit_postvalue_label"				"พลังวิญญาณ"
+		"BonusSpiritLifesteal_prefix"				"{s:sign}"
+		"BonusSpiritLifesteal_label"				"วิญญาณ​ดูดพลังชีวิต"
+		"BonusSpiritLifesteal_postvalue_label"				"วิญญาณ​ดูดพลังชีวิต"
+		"BonusSpiritLifesteal_postfix"			"%"
+		//"modifier_power_shard_bonus"		"Echo Boost"
+
+		//"BonusDuration_label"				"Bonus Duration"
+		"BonusDuration_postfix" 			"วิ"
+		//"superior_stamina_buff"			"Bonus Spirit Power"
+
+		"HighGroundBonusWeaponPower_prefix"	"{s:sign}"
+		//"HighGroundBonusWeaponPower_label"	"Weapon Damage When Above Enemies"
+		"HighGroundBonusWeaponPower_postfix"	"%"
+
+		"BonusBaseWeaponDamage_prefix"					"{s:sign}"
+		"BonusBaseWeaponDamage_label"					"ความเสียหายอาวุธ"
+		"BonusBaseWeaponDamage_postvalue_label"					"ความเสียหายอาวุธ"
+		"BonusBaseWeaponDamage_postfix"					"%"
+
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_label"					"ความเสียหายอาวุธ"
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_postvalue_label"					"ความเสียหายอาวุธ"
+		"MODIFIER_VALUE_BULLET_DAMAGE_INCREASE_postfix"					"%"
+
+		"BaseAttackDamagePercent_prefix"					"{s:sign}"
+		"BaseAttackDamagePercent_label"					"ความเสียหายอาวุธ"
+		"BaseAttackDamagePercent_postvalue_label"					"ความเสียหายอาวุธ"
+		"BaseAttackDamagePercent_postfix"					"%"
+
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_label"					"ความเสียหายอาวุธ"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_postvalue_label"					"ความเสียหายอาวุธ"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASE_postfix"					"%"
+
+		"BaseAttackDamagePercentAltFire_prefix"					"{s:sign}"
+		"BaseAttackDamagePercentAltFire_label"					"ความเสียหายอาวุธยิงรอง"
+		"BaseAttackDamagePercentAltFire_postvalue_label"					"ความเสียหายอาวุธยิงรอง"
+		"BaseAttackDamagePercentAltFire_postfix"					"%"
+
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_label"					"ความเสียหายอาวุธยิงรอง"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_postvalue_label"					"ความเสียหายอาวุธยิงรอง"
+		"MODIFIER_VALUE_WEAPON_DAMAGE_INCREASEAltFire_postfix"					"%"
+
+		"ImbuedTechPower_prefix"					"{s:sign}"
+		"ImbuedTechPower_label"						"พลังวิญญาณ​สกิล​ที่ผสาน​"
+
+		"ImbuedTechPower_postvalue_label"						"พลังวิญญาณ​สกิล​ที่ผสาน​"
+
+		"MovementSpeedBonusDuration_label"			"ระยะเวลา​เพิ่ม​ความเร็ว​​การ​เคลื่อนที่"
+
+		"MovementSpeedBonusDuration_postvalue_label"			"ระยะเวลา​เพิ่ม​ความเร็ว​​การ​เคลื่อนที่"
+		"MovementSpeedBonusDuration_postfix"		"วิ"
+
+		//"EnemyLifeThreshold_label"					"Threshold"
+		"EnemyLifeThreshold_postfix"					"%"
+
+		//"CloneDamageTakenIncreasePercent_label"		"Clone Damage Taken"
+		"CloneDamageTakenIncreasePercent_prefix"		"{s:sign}"
+		"CloneDamageTakenIncreasePercent_postfix"		"%"
+
+		"ability_abort_cast"						"ยกเลิก"
+		"ability_cancel_channel"					"ยุติการยืนร่าย"
+
+		//"citadel_ability_lightning_dodge"	"Lightning Roll"
+		//"citadel_ability_lightning_dodge_passive"	"Lightning Roll"
+		//"citadel_ability_basicdamagereflect"	"Reflect Basic Damage"
+		//"citadel_ability_bullet_damage_amp_wall"	"Bullet Damage Amp Wall"
+
+		//"modifier_limit_ability_cooldown"		"Quick Cooldowns"
+
+		//"ability_golden_idol"					"Drop Soul Urn"
+		"golden_idol_bonus_01"					"+35% โซลส์เพิ่มเติม"
+		"golden_idol_bonus_02"					"+1 แต้มสกิล"
+
+		//"ability_capture_zip_line"				"Capture Hyperline"
+		//"modifier_citadel_capture_zipline_timer"	"Capturing Hyperline"
+
+		//"modifier_citadel_containment_victim"	"Containment"
+		"modifier_hollow_point_stack"			"​ฮอลโลว์​พอยต์"
+		//"LifeThreshold_label"					"Life Threshold"
+		"LifeThreshold_postfix"					"%"
+		//"Cloaked"								"Cloaked"
+
+		"zipline_boost"							"เร่งซิปไลน์แล้ว"
+		"ActiveTechPower_label"					"พลังวิญญาณ"
+		"ActiveTechPower_postvalue_label"					"พลังวิญญาณ"
+		"ActiveTechPower_prefix"				"+"
+
+		//"ActiveBulletShieldHealth_label"		"Active Shield Health"
+		//"ActiveBulletShieldDuration_label"		"Active Shield Duration"
+		"ActiveBulletShieldDuration_postfix"		"วิ"
+		"PassiveShieldCooldown_label"			"คูลดาวน์"
+		"PassiveShieldCooldown_postvalue_label"			"คูลดาวน์"
+		"PassiveShieldCooldown_postfix"			"วิ"
+		"active_bullet_shield"					"โล่กันกระสุน"
+
+		//"SlamDownRadius_label"					"Slam Radius"
+		"SlamDownRadius_postfix"				"ม"
+
+		"StealDuration_label"					"ระยะเวลาขโมย"
+
+		"StealDuration_postvalue_label"					"ระยะเวลาขโมย"
+		"StealDuration_postfix"					"วิ"
+
+		"VeilCross_conditional"					"ก้าวผ่านม่านจักรวาล"
+		"modifier_veil_walker_triggered"			"อัตรายิงจาก ​เวล​วอล์ก​เกอร์​"
+		"modifier_veil_walker_stealth"			"ล่องหนจาก ​เวล​วอล์ก​เกอร์​"
+
+		"InvisDuration_label"						"ระยะเวลาล่องหน"
+
+		"InvisDuration_postvalue_label"						"ระยะเวลาล่องหน"
+		"InvisDuration_postfix"					"วิ"
+
+		"SlideScale_label"						"ระยะสไลด์"
+
+		"SlideScale_postvalue_label"						"ระยะสไลด์"
+		"SlideScale_postfix"						"%"
+		"SlideScale_prefix"						"+"
+
+		"AirMoveIncreasePercent_label"				"ระยะกระโดด/พุ่งตัวกลางอากาศ"
+		"AirMoveIncreasePercent_postvalue_label"				"ระยะกระโดด/พุ่งตัวกลางอากาศ"
+		"AirMoveIncreasePercent_postfix"						"%"
+		"AirMoveIncreasePercent_prefix"						"+"
+
+		"MODIFIER_VALUE_AIR_MOVE_DISTANCE_INCREASE_PERCENT_label"				"ระยะกระโดด/พุ่งตัวกลางอากาศ"
+		"MODIFIER_VALUE_AIR_MOVE_DISTANCE_INCREASE_PERCENT_postvalue_label"				"ระยะกระโดด/พุ่งตัวกลางอากาศ"
+		"MODIFIER_VALUE_AIR_MOVE_DISTANCE_INCREASE_PERCENT_postfix"						"%"
+		"MODIFIER_VALUE_AIR_MOVE_DISTANCE_INCREASE_PERCENT_prefix"						"+"
+
+		"FreeAirJumps_prefix"							"{s:sign}"
+		"FreeAirJumps_label"							"กระโดดกลาง​อากาศ​ฟรี"
+		"FreeAirJumps_postvalue_label"					"กระโดดกลาง​อากาศ​ฟรี"
+
+		"MODIFIER_VALUE_FREE_AIR_JUMPS_prefix"					"{s:sign}"
+		"MODIFIER_VALUE_FREE_AIR_JUMPS_label"					"กระโดดกลาง​อากาศ​ฟรี"
+		"MODIFIER_VALUE_FREE_AIR_JUMPS_postvalue_label"			"กระโดดกลาง​อากาศ​ฟรี"
+
+		"ActiveReloadPercent_label"				"กระสุน"
+		
+		"ActiveReloadPercent_postvalue_label"				"กระสุน"
+		"ActiveReloadPercent_postfix"				"%"
+		"ActiveReloadPercent_prefix"				"+"
+
+		"ImbuedCooldownMultiplier_label"			"คูลดาวน์สกิลที่ผสาน"
+		"ImbuedCooldownMultiplier_postvalue_label"			"คูลดาวน์สกิลที่ผสาน"
+		"ImbuedCooldownMultiplier_postfix"			"%"
+
+		"RespawnHealthPercent_label"				"พลังชีวิตเมื่อเกิดใหม่"
+
+		"RespawnHealthPercent_postvalue_label"				"พลังชีวิตเมื่อเกิดใหม่"
+		"RespawnHealthPercent_postfix"			"%"
+
+		"ActiveBonusMoveSpeed_label"					"ความเร็ว​การ​เคลื่อนที่"
+
+		"ActiveBonusMoveSpeed_postvalue_label"					"ความเร็ว​การ​เคลื่อนที่"
+		"ActiveBonusMoveSpeed_prefix"					"{s:sign}"
+		"ActiveBonusMoveSpeed_postfix"					"ม"
+		"ActiveItemUse_conditional"					"ขณะใช้งาน"
+
+		"BuffMoveSpeedBonus_label"						"ความเร็ว​การ​เคลื่อนที่"
+
+		"BuffMoveSpeedBonus_postvalue_label"						"ความเร็ว​การ​เคลื่อนที่"
+		"BuffMoveSpeedBonus_postfix"						"ม"
+		"BuffMoveSpeedBonus_prefix"						"{s:sign}"
+
+		//"ChannelMoveSpeed_label"						"Channel Move Speed"
+		"ChannelMoveSpeed_postfx"						"ม"
+		//"ChannelMoveSpeed_prefix"						""
+
+		"BulletShieldOnCast_label"						"โล่กันกระสุน"
+
+		"BulletShieldOnCast_postvalue_label"						"โล่กันกระสุน"
+		"TechShieldOnCast_label"						"โล่กันวิญญาณ"
+		"TechShieldOnCast_postvalue_label"						"โล่กันวิญญาณ"
+		//"BulletShieldDuration_label"					"Bullet Shield Duration"
+		"BulletShieldDuration_postfix"					"วิ"
+
+		
+		//"BloodPoolDPS_label"							"Blood Pool DPS"
+		//"BloodPoolDuration_label"						"Blood Pool Duration"
+		"BloodPoolDuration_postfix"						"วิ"
+		//"BloodPoolRadius_label"							"Blood Pool Radius"
+		"BloodPoolRadius_postfix"						"ม"
+
+		"LowHealthThreshold_label"						"พลังชีวิตขั้นต่ำ"
+		"LowHealthThreshold_postvalue_label"			"พลังชีวิตขั้นต่ำ"
+		"LowHealthThreshold_postfix"					"%"
+		"LowHealthTechResist_label"						"ต้านทาน​วิญญาณ​"
+		"LowHealthTechResist_postvalue_label"						"ต้านทาน​วิญญาณ​"
+		"LowHealthTechResist_prefix"					"{s:sign}"
+		//"LowHealthWeaponPowerPercent_label"				"Courage"
+		"LowHealthWeaponPowerPercent_prefix"			"{s:sign}"
+		"LowHealthWeaponPowerPercent_postfix"			"%"
+		"ExecuteThreshold_label"						"เกณฑ์พลังชีวิตที่จะสังหาร"
+		"ExecuteThreshold_postvalue_label"						"เกณฑ์พลังชีวิตที่จะสังหาร"
+		"ExecuteThreshold_postfix"						"%"
+
+		"BuildupDuration_label"							"เวลาสลายการสะสม"
+
+		"BuildupDuration_postvalue_label"							"เวลาสลายการสะสม"
+		"BuildupDuration_postfix"						"วิ"
+		//"BuildupExpire_label"							"Buildup Expire"
+		"BuildupExpire_postfix"							"วิ"
+		//"BuildupDecayDelay_label"						"Buildup Decay Delay"
+		"BuildupDecayDelay_postfix"						"วิ"
+		//"BuildupRate_label"							"Buildup Per Shot"
+		//"BuildupRate_postfix"							""
+		"BuildupPerShot_label"							"สะสมพลังต่อนัด"
+		"BuildupPerShot_postvalue_label"							"สะสมพลังต่อนัด"
+		"BuildupPerShot_postfix"						"%"
+		//"StacksPerShot_label"							"Stacks Per Shot"
+
+		//"DamageOnApply_label"							"Damage On Apply"
+
+		"citadel_modifier_teleport"						"กำลังเทเลพอร์ต"
+		"citadel_modifier_hideout_teleport"				"กำลังออกจากที่ซ่อน"
+		"citadel_trigger_teleport_sandbox"				"กำลังเทเลพอร์ตไปยัง​แซนด์บ็อกซ์"
+		"citadel_trigger_teleport_hideout"				"กำลังเทเลพอร์ตไปยังที่ซ่อน"
+
+		"MaxHealthLossPercent_label"				"พลังชีวิตสูงสุด"
+
+		"MaxHealthLossPercent_postvalue_label"				"พลังชีวิตสูงสุด"
+		"MaxHealthLossPercent_postfix"			"%"
+
+		"BonusClipPerKill_prefix"				"{s:sign}"
+		"BonusClipPerKill_label"				"โบนัสกระสุนต่อการสังหาร"
+
+		"BonusClipPerKill_postvalue_label"				"โบนัสกระสุนต่อการสังหาร"
+
+		"BonusSpiritPerKill_prefix"				"{s:sign}"
+		//"BonusSpiritPerKill_label"				"Bonus Spirit Power Per Kill"
+
+		//"MaxClipBonus_label"				"Max Clip Bonus"
+
+		"SummonDuration_label"					"ระยะเวลาอัญเชิญ"
+
+		"SummonDuration_postvalue_label"					"ระยะเวลาอัญเชิญ"
+		"SummonDuration_postfix" 				"วิ"
+
+		"Reloaded"							"เติมกระสุนแล้ว!"
+		"BonusAmmo"							"โบนัสกระสุน!"
+
+		"ExplodeDamage_label"				"ความเสียหายระเบิด"
+
+
+		"ExplodeDamage_postvalue_label"				"ความเสียหายระเบิด"
+
+		"StaminaRegenPercent_label"			"อัตรา​ฟื้นฟูสแตมินา"
+		"StaminaRegenPercent_postvalue_label"			"อัตรา​ฟื้นฟูสแตมินา"
+		"StaminaRegenPercent_postfix"		"%"
+
+		"MeleeResistPercent_prefix"			"{s:sign}"
+		"MeleeResistPercent_label"			"ต้านทาน​โจมตี​ประชิด​"
+		"MeleeResistPercent_postvalue_label"			"ต้านทาน​โจมตี​ประชิด​"
+		"MeleeResistPercent_postfix"		"%"
+		
+		"BuffDuration_label"				"ระยะเวลาบัฟ"
+		
+		"BuffDuration_postvalue_label"				"ระยะเวลาบัฟ"
+		"BuffDuration_postfix"				"วิ"
+
+		"GroundDashReductionPercent_label"	"ระยะพุ่งตัว"
+
+		"GroundDashReductionPercent_postvalue_label"	"ระยะพุ่งตัว"
+		"GroundDashReductionPercent_postfix"	"%"
+		
+		"ActivePlayerStats_Percentage"		"%"
+		"ActivePlayerStats_MoveSpeed"		"ม"
+		"ActivePlayerStats_Regen"			"HP"
+		"ActivePlayerStats_Health"			"HP"
+
+		"TechDamageReduction_label"			"ลดความเสียหายวิญญาณ"
+
+		"TechDamageReduction_postvalue_label"			"ลดความเสียหายวิญญาณ"
+		"TechDamageReduction_postfix"		"%"
+
+		"ActiveMoveSpeedPenalty_label"		"ลดความเร็ว​การ​เคลื่อนที่ขณะใช้"
+
+		"ActiveMoveSpeedPenalty_postvalue_label"		"ลดความเร็ว​การ​เคลื่อนที่ขณะใช้"
+		"ActiveMoveSpeedPenalty_postfix"		"ม"
+
+		"IncomingDamagePercent_label"		"ความเสียหายที่ได้รับ"
+
+		"IncomingDamagePercent_postvalue_label"		"ความเสียหายที่ได้รับ"
+		"IncomingDamagePercent_postfix"		"%"
+		"IncomingDamagePercent_prefix"		"{s:sign}"
+
+		"IncomingDamagePercentFromCaster_label"		"ความเสียหายที่ได้รับ"
+
+		"IncomingDamagePercentFromCaster_postvalue_label"		"ความเสียหายที่ได้รับ"
+		"IncomingDamagePercentFromCaster_postfix"	"%"
+		"IncomingDamagePercentFromCaster_prefix"	"{s:sign}"
+
+		
+		"IncomingBulletDamagePercentFromCaster_label"	"ความ​เสียหาย​กระสุน​​ที่ได้รับ"
+
+		
+		"IncomingBulletDamagePercentFromCaster_postvalue_label"	"ความ​เสียหาย​กระสุน​​ที่ได้รับ"
+		"IncomingBulletDamagePercentFromCaster_postfix"	"%"
+		"IncomingBulletDamagePercentFromCaster_prefix"	"{s:sign}"
+
+		"SlowResistance_label" "ต้านทานลดความเร็ว"
+		"SlowResistance_postvalue_label" "ต้านทานลดความเร็ว"
+		"SlowResistance_postfix" "%"
+
+		"MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE_label" "ต้านทานลดความเร็ว"
+		"MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE_postvalue_label" "ต้านทานลดความเร็ว"
+		"MODIFIER_VALUE_MOVEMENT_SLOW_RESISTANCE_postfix" "%"
+
+		"MODIFIER_VALUE_STAMINA_REGEN_PER_SECOND_PERCENTAGE_postvalue_label" "การฟื้น​สแตมินา"
+		"MODIFIER_VALUE_STAMINA_REGEN_PER_SECOND_PERCENTAGE_postfix" "%"
+
+		"CooldownReductionPerHit_label" "ลดคูลดาวน์ต่อนัด"
+
+		"CooldownReductionPerHit_postvalue_label" "ลดคูลดาวน์ต่อนัด"
+		"CooldownReductionPerHit_postfix" "วิ"
+
+		"ParryCooldownReduction_label"				"คูลดาวน์ปัดป้อง"
+
+		"ParryCooldownReduction_postvalue_label"				"คูลดาวน์ปัดป้อง"
+		"ParryCooldownReduction_prefix"			"-"
+		"ParryCooldownReduction_postfix"			"วิ"
+
+		"ImmunityDuration_label"	"ระยะเวลาป้องกัน"
+
+		"ImmunityDuration_postvalue_label"	"ระยะเวลาป้องกัน"
+		"ImmunityDuration_postfix"	"วิ"
+
+		"CombatBarrier_label"	"แบร์ริเออร์​"
+
+		"CombatBarrier_postvalue_label"	"แบร์ริเออร์​"
+		"BarrierDuration_label"	"ระยะเวลาแบร์ริเออร์​"
+		"BarrierDuration_postvalue_label"	"ระยะเวลาแบร์ริเออร์​"
+		"BarrierDuration_postfix" "วิ"
+
+		"InterruptCooldown_label"	"ขัดจังหวะคูลดาวน์"
+		"InterruptCooldown_postvalue_label"	"ขัดจังหวะคูลดาวน์"
+		"InterruptCooldown_postfix"	"วิ"
+
+		"BonusSoulsPct_label"	"โบนัสโซลส์"
+		
+		"BonusSoulsPct_postvalue_label"	"โบนัสโซลส์"
+		"BonusSoulsPct_prefix" "+"
+		"BonusSoulsPct_postfix" "%"
+		
+		"EnemyRange_label"		"ระยะทางศัตรู"
+		
+		"EnemyRange_postvalue_label"		"ระยะทางศัตรู"
+		"EnemyRange_postfix"	"ม"
+
+		"ReduceFootstepSound_label"	"ระยะห่างของเสียงฝีเท้า"
+
+		"ReduceFootstepSound_postvalue_label"	"ระยะห่างของเสียงฝีเท้า"
+		"ReduceFootstepSound_postfix"	"%"
+
+		"WeaponDamagePerStack_label" "ความเสียหายอาวุธต่อการซ้อนทับ"
+
+		"WeaponDamagePerStack_postvalue_label" "ความเสียหายอาวุธต่อการซ้อนทับ"
+		"WeaponDamagePerStack_postfix" "%"
+		"WeaponDamagePerStack_prefix" "+"
+	
+		"LightMeleeAmmo_label"			"กระสุน"
+	
+		"LightMeleeAmmo_postvalue_label"			"กระสุน"
+		"LightMeleeAmmo_postfix"		"%"
+		"LightMeleeAmmo_prefix"			"+"
+
+		"HeavyMeleeMultiplier_label"	"โบนัสโจมตี​ประชิด​รุนแรง"
+
+		"HeavyMeleeMultiplier_postvalue_label"	"โบนัสโจมตี​ประชิด​รุนแรง"
+		"HeavyMeleeMultiplier_postfix"	"x"
+
+		"SpellParryDuration_label"		"ระยะเวลาปัดป้องสกิล"
+
+		"SpellParryDuration_postvalue_label"		"ระยะเวลาปัดป้องสกิล"
+		"SpellParryDuration_postfix"		"วิ"
+
+		"CooldownOnMissReduction_label"		"คูลดาวน์เมื่อพลาด"
+
+		"CooldownOnMissReduction_postvalue_label"		"คูลดาวน์เมื่อพลาด"
+		"CooldownOnMissReduction_postfix"	"%"
+
+		"HealOnCounterSpell_label"				"รักษา"
+		"HealOnCounterSpell_postvalue_label"	"รักษา"
+
+		"ProcMaxRange_label"					"ระยะสูงสุดเมื่อทำงาน"
+		"ProcMaxRange_postvalue_label"			"ระยะสูงสุดเมื่อทำงาน"
+		"ProcMaxRange_postfix"					"ม"
+
+		"HealOnHit_postvalue_label" "รักษาเมื่อโดน​"
+
+		"GravityScale_label"					"สเกลแรงโน้มถ่วง"
+		"GravityScale_postvalue_label"			"สเกลแรงโน้มถ่วง"
+		"GravityScale_postfix"					"%"
+
+		"AirBonusDamageGiven_label"					"ความเสียหายกลางอากาศ"
+		"AirBonusDamageGiven_postvalue_label"		"ความเสียหายกลางอากาศ"
+		"AirBonusDamageGiven_prefix"				"{s:sign}"
+		"AirBonusDamageGiven_postfix"				"%"
+
+		"AirBonusDamageTaken_label"					"ความเสียหายที่ได้รับกลางอากาศ"
+		"AirBonusDamageTaken_postvalue_label"		"ความเสียหายที่ได้รับกลางอากาศ"
+		"AirBonusDamageTaken_postfix"				"%"
+
+		"MinHeal_label"					"การรักษาขั้นต่ำ"
+		"MinHeal_postvalue_label"		"การรักษาขั้นต่ำ"
+
+		"BuffFrequency_label"						"ความถี่บัฟ"
+		"BuffFrequency_postvalue_label"				"ความถี่บัฟ"
+		"BuffFrequency_postfix"						"วิ"
+
+		"BulletRadius_label"						"รัศมี​กระสุน​"
+		"BulletRadius_postvalue_label"				"รัศมี​กระสุน​"
+		"BulletRadius_postfix"						"ม"
+
+		"StatusImmuneDuration_label"						"ระยะเวลา​อันสต็อป​เอเบิล​"
+		"StatusImmuneDuration_postvalue_label"				"ระยะเวลา​อันสต็อป​เอเบิล​"
+		"StatusImmuneDuration_postfix"						"วิ"
+
+		"CooldownReductionOnHitMin_label"					"ลดต่ำสุด"
+		"CooldownReductionOnHitMin_postvalue_label"			"ลดต่ำสุด"
+		"CooldownReductionOnHitMin_postfix"					"วิ"
+
+		"CooldownReductionOnHitPct_label"					"ลดคูลดาวน์เมื่อโดน"
+		"CooldownReductionOnHitPct_postvalue_label"			"ลดคูลดาวน์เมื่อโดน"
+		"CooldownReductionOnHitPct_postfix"					"%"
+
+		"EvasionWhileSliding_label"						"หลบหลีกขณะสไลด์"
+		"EvasionWhileSliding_postvalue_label"			"หลบหลีกขณะสไลด์"						"EvasionWhileSliding_postfix"			"%"
+		"FireRateWhileSliding_label"						"อัตรายิงขณะสไลด์"
+		"FireRateWhileSliding_postvalue_label"			"อัตรายิงขณะสไลด์"
+		"FireRateWhileSliding_postfix"					"%"
+
+		"HealthPctDamage_label"						"ความเสียหาย​จาก​พลังชีวิตที่เหลืออยู่"
+		"HealthPctDamage_postvalue_label"			"ความเสียหาย​จาก​พลังชีวิตที่เหลืออยู่"
+		"HealthPctDamage_postfix"					"%"
+		
+		"MaxHPDamage_label"								"ความเสียหาย​จาก​พลังชีวิต​สูงสุด"
+		"MaxHPDamage_postvalue_label"		"ความเสียหาย​จาก​พลังชีวิต​สูงสุด"
+		"MaxHPDamage_postfix"				"%"
+
+		"ResistStealAmount_label"				"ขโมยต้านทาน"
+		"ResistStealAmount_postvalue_label"		"ขโมยต้านทาน"
+		"ResistStealAmount_postfix"				"%"
+
+		"OmniPendantBonusAbilityCharges_prefix"	"{s:sign}"
+		"OmniPendantBonusAbilityCharges_label"	"สกิล​ที่มีชาร์จ​"
+		"OmniPendantBonusAbilityCharges_postvalue_label"	"สกิล​ที่มีชาร์จ​"
+
+		"BonusAbilityChargesNonCharge_prefix"	"{s:sign}"
+		"BonusAbilityChargesNonCharge_label"			"สกิล​ที่ไม่มีชาร์จ​"
+		"BonusAbilityChargesNonCharge_postvalue_label"	"สกิล​ที่ไม่มีชาร์จ​"
+
+		"WeaponDamageBonusPerKill_prefix"				"{s:sign}"
+		"WeaponDamageBonusPerKill_label"				"ความเสียหายอาวุธต่อการสังหาร"
+		"WeaponDamageBonusPerKill_postvalue_label"		"ความเสียหายอาวุธต่อการสังหาร"
+		"WeaponDamageBonusPerKill_postfix"				"%"
+
+		"ImbueAbilityLifesteal_prefix"				"{s:sign}"
+		"ImbueAbilityLifesteal_label"				"ดูดพลังชีวิตจากการผสาน"
+		"ImbueAbilityLifesteal_postvalue_label"				"ดูดพลังชีวิตจากการผสาน"
+		"ImbueAbilityLifesteal_postfix"				"%"
+
+		"MissingHPHeal_label"						"รักษา​จาก​พลังชีวิตที่หายไป​"
+		"MissingHPHeal_postvalue_label"				"รักษา​จาก​พลังชีวิตที่หายไป​"
+		"MissingHPHeal_postfix"					"%"
+
+		"RegenerationDuration_label"		"ระยะเวลาฟื้นฟู"
+		"RegenerationDuration_postvalue_label"		"ระยะเวลาฟื้นฟู"
+		"RegenerationDuration_postfix"		"วิ"
+		"Regeneration_label"		"การฟื้นฟู"
+		"Regeneration_postvalue_label"		"การฟื้นฟู"
+		"Regeneration_postfix"		" พลังชีวิต/วิ"
+
+		"FlyingBulletResist_label"					"ต้านทานกระสุน"
+		"FlyingBulletResist_postvalue_label"					"ต้านทาน​กระสุน​"
+		"FlyingBulletResist_postfix"				"%"
+
+		"RecastWindow_label"					"ช่วงเวลาการร่ายซ้ำ"
+		"RecastWindow_postvalue_label"			"ช่วงเวลาการร่ายซ้ำ"
+		"RecastWindow_postfix"					"วิ"
+
+		"UnstoppablePerHero_prefix"				"+"
+		"UnstoppablePerHero_label"					"ต่อฮีโร่"
+		"UnstoppablePerHero_postvalue_label"		"ต่อฮีโร่"
+		"UnstoppablePerHero_postfix"				"วิ"
+
+		//-----------------------------------------------------------------------------
+		// END Ability Properties desc
+		//-----------------------------------------------------------------------------
+		
+		//-----------------------------------------------------------------------------
+		// Stat Descriptions - Used in Tooltips/Resources
+		//-----------------------------------------------------------------------------
+
+		"StatDesc_SpiritPowerDesc"				"<b>พลังวิญญาณ</b> - เพิ่มประสิทธิภาพ​ของ​สกิล​และ​ไอเท็มของคุณ"
+		"StatDesc_AbilityRangeDesc"				"<b>ระยะสกิล</b> - เพิ่มระยะและรัศมี​ของ​สกิล​และ​ไอเท็มของคุณ"
+		"StatDesc_AbilityDurationDesc"			"<b>ระยะเวลาสกิล</b> - เพิ่มระยะเวลา​ของ​สกิล​และ​ไอเท็มของคุณ"
+		"StatDesc_WeaponDamageDesc"				"<b>ความเสียหายอาวุธ</b> - เปอร์เซ็นต์​การเปลี่ยนแปลง​ความเสียหายปืน​หรือ​การ​โจมตี​ประชิดของคุณ"
+		"StatDesc_MoveSpeedDesc"				"<b>ความเร็ว​การ​เคลื่อนที่</b> - ความเร็วใน​การ​เคลื่อนที่ปัจจุบันของคุณ"
+		"StatDesc_SpiritResistDesc"				"<b>เกราะกันวิญญาณ</b> - ความต้านทาน​ของคุณ​ต่อ​ความ​เสียหาย​วิญญาณ​ที่ได้รับ"
+		"StatDesc_WeaponResistDesc"				"<b>เกราะกันกระสุน</b> - ความต้านทาน​ของคุณ​ต่อ​ความ​เสียหาย​กระสุน​ที่ได้รับ"
+		"StatDesc_HealingBoostDesc"				"<b>การรักษาที่มอบ</b> - เปอร์เซ็นต์การเปลี่ยนแปลงปริมาณการรักษาของสกิลของคุณ"
+		"StatDesc_HealingAmpDesc"				"<b>การรักษาที่ได้รับ</b> - เปอร์เซ็นต์การเปลี่ยนแปลงการรักษาที่ได้รับ"
+		"StatDesc_AmmoDesc"						"<b>กระสุน</b> - จำนวนลูกกระสุน​ในปืน​ของคุณ​ก่อนที่​จะ​ต้อง​เติมกระสุน"
+		"StatDesc_FireRateDesc"					"<b>อัตรายิง</b> - เปอร์เซ็นต์​​การเปลี่ยนแปลง​​อัตราการ​ยิงของปืน​คุณ"
+		"StatDesc_SpiritLifestealDesc"			"<b>วิญญาณ​ดูดพลังชีวิต</b> - จำนวนพลังชีวิต​ที่คุณ​จะได้รับ​จากการ​สร้าง​ความ​เสียหาย​วิญญาณ"
+		"StatDesc_WeaponLifestealDesc"			"<b>​อาวุธดูดพลังชีวิต</b> - จำนวนพลังชีวิต​ที่คุณ​จะได้รับ​จากการ​สร้าง​ความ​เสียหาย​อาวุธ"
+		"StatDesc_BulletEvationDesc"			"<b>หลบหลีกกระสุน</b> - เปอร์เซ็นต์​โอกาส​หลบ​กระสุน​ที่โดน"
+		"StatDesc_RegenDesc"					"<b>​อัตรา​ฟื้นฟู​พลังชีวิต</b> - จำนวนพลังชีวิต​ที่คุณ​ฟื้นฟูต่อวินาที"
+		"StatDesc_DamageAmpDesc"					"<b>เพิ่ม​ความเสียหาย</b> - เปอร์เซ็นต์​​การเปลี่ยนแปลง​​ต่อความเสียหายที่สร้าง"
+
+
+		//-----------------------------------------------------------------------------
+		// Inline Attributes
+		//-----------------------------------------------------------------------------
+
+		"InlineAttribute_Fortitude"		"​ฟอร์ติจูด​"
+		"InlineAttribute_Courage"		"เคอริจ"
+		"InlineAttribute_Spirit"		"วิญญาณ"
+		"InlineAttribute_Slow"			"ลดความเร็ว"
+		"InlineAttribute_SlowResistance""ต้านทาน​ลดความเร็ว​"
+		"InlineAttribute_DamageAmp"		"ความเสียหาย​เพิ่มขึ้น​"
+		"InlineAttribute_SpiritDamage"	"ความ​เสียหาย​​วิญญาณ​"
+		"InlineAttribute_SpiritDPS"	"ความ​เสียหาย​วิญญาณ​ต่อ​เนื่อง​"
+		"InlineAttribute_WeaponDPS"	"ความเสียหายอาวุธต่อเนื่อง"
+		"InlineAttribute_BonusSpiritDamage"	"ความ​เสียหาย​วิญญาณ​เพิ่มเติม​"
+		"InlineAttribute_AbilityCooldown"	"คูลดาวน์"
+		"InlineAttribute_Stun"	"สตัน"
+		"InlineAttribute_Heal"	"รักษา"
+		"InlineAttribute_Heals"	"รักษา"
+		"InlineAttribute_Healing" "การรักษา"
+		"InlineAttribute_Health" "พลังชีวิต"
+		"InlineAttribute_MaxHealth" "พลังชีวิตสูงสุด"
+		"InlineAttribute_Regen" "การฟื้นฟู​"
+		"InlineAttribute_MeleeDamage"	"ความเสียหาย​ประชิด​"
+		"InlineAttribute_BulletDamage"	"ความ​เสียหาย​กระสุน​​"
+		"InlineAttribute_FireRate"	"อัตรายิง​"
+		"InlineAttribute_ReducedFireRate"	"อัตรายิง​ลดลง​"
+		"InlineAttribute_BonusFireRate"	"อัตรายิง​เพิ่มเติม​"
+		"InlineAttribute_MoveSpeed"		"ความเร็ว​การ​เคลื่อนที่"
+		"InlineAttribute_BonusMoveSpeed""ความเร็วการ​เคลื่อนที่​เพิ่มเติม​"
+		"InlineAttribute_WeaponDamage"	"ความเสียหาย​อาวุธ​"
+		"InlineAttribute_BonusWeaponDamage"	"ความเสียหาย​อาวุธ​เพิ่มเติม​"
+		"InlineAttribute_SpiritResist"	"ต้านทาน​วิญญาณ​"
+		"InlineAttribute_BulletResist"	"ต้านทาน​กระสุน​"
+		"InlineAttribute_CombatBarrier" "แบร์ริเออร์​"
+		"InlineAttribute_Immobilize" "ตรึง"
+		"InlineAttribute_Sleep" "หลับ"
+		"InlineAttribute_StaminaRegenPerSecond" "การฟื้น​สแตมินา"
+		"InlineAttribute_KnockBack" "กระเด็นกลับ"
+		"InlineAttribute_KnockUp" "กระแทกขึ้น"
+		"InlineAttribute_Pull" "ดึง"
+		"InlineAttribute_Pulls" "ดึง"
+		"InlineAttribute_Pulling" "ดึง"
+		"InlineAttribute_PureDamage"	"ความเสียหายโดยตรง"
+		"InlineAttribute_Silence"	"ใบ้"
+		"InlineAttribute_BonusSprintSpeed""ความเร็วการ​วิ่งเพิ่มเติม​"
+	}
+}

@@ -1,0 +1,1026 @@
+﻿"lang"
+{
+	"Language"		"ukrainian"
+	"Tokens"
+	{
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Weapon
+		//-----------------------------------------------------------------------------
+
+		//Ammo Scavenger
+		"upgrade_ammo_scavenger_desc"		"Щоразу, коли власник захоплює чи перехоплює душу, він <span class=\"highlight\">повертає набої</span> та отримує поєднувану <span class=\"highlight\">духовну силу</span>.<br>Максимальна кількість поєднань дає додаткову швидкість бігу."
+		"AmmoPerSoul_prefix"				"+"
+		"AmmoPerSoul_label"					"Набої за душу"
+		"AmmoPerSoul_postvalue_label"					"набоям за душу"
+		"SpiritPowerPerSoul_prefix"			"+"
+		"SpiritPowerPerSoul_label"			"Духовна сила за душу"
+		"SpiritPowerPerSoul_postvalue_label"			"духовній силі за душу"
+		"AmmoScavengerDuration_label"		"Час дії"
+		"AmmoScavengerDuration_postvalue_label"		"часу дії"
+		"AmmoScavengerDuration_postfix"		" с"
+
+		//Melee Lifesteal
+		"upgrade_lifestrike_gauntlets_desc"	"Наступна атака <span class=\"highlight\">ближнього бою</span> від власника <span class=\"highlight\">лікує його</span>. <span class=\"diminish\"><br><br>Це лікування має {s:NonHeroHealPct}% ефективності проти негероїв. <br>Зарядка у ×{s:LightMeleeCooldownMult} довша, ніж для легких ударів ближнього бою.</span>"
+		"LifestrikeHeal_label"				"Лікування за ближній удар"
+		"LifestrikeHeal_postvalue_label"				"лікуванню за ближній удар"
+
+		//Tesla Bullets
+		"upgrade_chain_lightning_desc"	"Кулі мають шанс <span class=\"highlight\">вдарити електричним струмом</span> ціль. <span class=\"highlight\">Струм</span> відскочить до ворога поблизу."
+
+		//Galvanic Storm
+		"GalvanicBuffDuration_label"						"Час дії"
+		"GalvanicBuffDuration_postvalue_label"						"часу дії"
+		"GalvanicBuffDuration_postfix"					" с"
+
+		//Silence Glyph
+		"upgrade_targeted_silence_desc"	"Запускає розширювальний снаряд, який <span class=\"highlight\">знемовлює</span> ворогів на короткий час і завдає шкоди в разі влучання. <br><br><span class=\"diminish\">Знемовлення не перебиває процес заряджання вмінь.</span>"
+		"ResistReductionDuration_label"	"Час дії зменшення опору"
+		"ResistReductionDuration_postvalue_label"	"часу опору зменшенням"
+		"ResistReductionDuration_postfix"	" с"
+
+		//EMP Bullets
+		"upgrade_proc_silence_desc"		"Кулі власника накопичують <span class=\"highlight\">знемовлення</span> цілей. Жертви мають імунітет до накопичення впродовж <span class=\"highlight\">{s:ImmunityDuration} с</span> після завершення дії знемовлення."
+		"upgrade_proc_silence_debuff_desc"		"Після влучання кулі зменшують <span class=\"highlight\">вихідну духовну шкоду</span> цілі."
+		"proc_silence_buildup"			"Накопичення знемовлення…"
+		"modifier_citadel_silence_proc_tech_damage_reduction"	"Зменшення духовної шкоди"
+
+		//Silencer
+		"upgrade_silencer_active"		"Упродовж наступних {s:AbilityDuration} с <span class=\"highlight\">усі кулі одразу накладатимуть знемовлення</span>. Знемовлення не дозволяє цілям використовувати вміння."
+
+		//Slowing Bullets
+		"upgrade_slowing_bullets_desc"	"Кулі накопичують <span class=\"highlight\">сповільнення руху</span> для ворогів."
+		"upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base"					"Сповільнення"
+
+		//Inhibitor
+		"upgrade_inhibitor_desc"	"Після влучання кулі накопичують зменшення <span class=\"highlight\">вихідної шкоди</span> цілі й накладають <span class=\"highlight\">зменшення лікування</span>."
+		"OutgoingDamagePenaltyPercent_label"	"Штраф шкоди"
+		"OutgoingDamagePenaltyPercent_postvalue_label"	"штрафу шкоди"
+		"OutgoingDamagePenaltyPercent_postfix"	"%"
+
+		//Hunter's Aura
+		"upgrade_bullet_armor_reduction_aura_desc"		"Зменшує <span class=\"highlight\">опір кулям та швидкострільність</span> ворогам поблизу. Якщо поряд лише один ворог, цей <span class=\"highlight\">ефект подвоюється</span>."
+
+		//Heroic Aura
+		"upgrade_dps_aura_active_desc"	"Дає більше <span class=\"highlight\">{g:citadel_inline_attribute:'MoveSpeed'}</span> і <span class=\"highlight\">{g:citadel_inline_attribute:'FireRate'}</span> власнику та союзникам поблизу. <span class=\"highlight\">Міньйони</span> отримують подвійне значення."
+		"upgrade_dps_aura_desc"			"Дає <span class=\"highlight\">опір кулям</span> дружнім істотам поблизу."		
+		"modifier_dps_aura_active"		"Дієва аура героя"
+		"modifier_dps_aura_player"		"Героїчна швидкострільність"
+
+		//"BonusBaseDamage_label"			"Base Bullet and Melee Damage"
+		"BonusBaseDamage_postfix"		"%"
+
+		//Warp Stone
+		"upgrade_warp_stone_desc"	"<span class=\"highlight\">Телепортує</span> вперед, надаючи <span class=\"highlight\">опір кулям</span>."
+		"WarpStoneRange_label"		"Дальність телепортації"
+		"WarpStoneRange_postvalue_label"		"дальності телепортації"
+		"WarpStoneRange_postfix"		" м"
+		"CasterBuffDuration_label"	"Час посилення"
+		"CasterBuffDuration_postvalue_label"	"часу посилення"
+		"CasterBuffDuration_postfix"	" с"
+		"CasterSlowPercent_postfix"	"%"
+
+		//Torment Pulse
+		"upgrade_tech_damage_pulse_desc"	"Періодично завдає {g:citadel_inline_attribute:'SpiritDamage'} двом найближчим ворогам неподалік."
+
+		//Mystic Burst
+		"upgrade_magic_burst_desc"	"Заряджується поступово за допомогою {g:citadel_inline_attribute:'BonusSpiritDamage'}, щоб уміння, які завдають більше <span class=\"highlight\">{s:MinimumDamage}</span> шкоди, могли завдати додаткової шкоди."
+		"MagicBurstDamage_label"		"Додаткова шкода"
+
+		"MagicBurstDamage_postvalue_label"		"додачі шкоди"
+
+		//Improved Burst Tankbuster
+		"upgrade_magic_shock_desc"	"Заряджується поступово за допомогою {g:citadel_inline_attribute:'BonusSpiritDamage'}, щоб уміння, які завдають більше ніж <span class=\"highlight\">{s:MinimumDamage}</span> шкоди, могли завдати додаткової шкоди. <span class=\"highlight\">Ігнорує духовний опір.</span>"
+		"MagicShockDamage_label"		"Додаткова шкода від поточного здоров’я"
+		"MagicShockDamage_postvalue_label"		"додатковій шкоді від поточного здоров’я"
+		"MagicShockDamage_postfix"	"%"
+
+		//Mystic Reverb
+		"upgrade_tech_bleed_desc" "Насичує вміння <span class=\"highlight\">вампіризмом</span> і накладає <span class=\"highlight\">сповільнення</span> на зачеплену ціль, а також завдає <span class=\"highlight\">додатковий відсоток завданої шкоди</span> ворогам навколо цілі після невеликої затримки."
+	
+		//Toxic Bullets
+		"upgrade_toxic_bullets_desc"	"Кулі накопичують для ворогів <span class=\"highlight\">кровотечу</span>, через яку вони поступово втрачають <span class=\"highlight\">відсоток</span> свого <span class=\"highlight\">максимального здоров’я</span>. Також у цілі з кровотечею зменшується <span class=\"highlight\">вхідне лікування</span>."
+		"upgrade_toxic_bullets_buildup"					"Накопичення токсину…"
+		"upgrade_bleeding_bullets_buildup"				"Накопичення ран від зубців…"
+		"modifier_item_burning_bullets_damageovertime" 	"Кровотеча"
+		"upgrade_hemorrhage/modifier_item_hemorrhage/modifier_hemorrhage" "Кровотеча"
+
+		// Weighted Shots
+		"upgrade_weighted_shots_desc"	"Кулі накопичують <span class=\"highlight\">сповільнення руху</span> для ворогів."
+		//"upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base"					"Slowed"
+
+		//Spiritual Overflow
+		"upgrade_tech_overflow_desc"	"Здобуває додаткову <span class=\"highlight\">швидкострільність</span>, <span class=\"highlight\">духовну силу</span> й <span class=\"highlight\">духовний вампіризм</span>, <span class=\"highlight\">накопичуючи заряди</span> під час стрільби по героях."
+		"modifier_tech_overflow_building" "Накопичення духовного сповнення…"
+
+		"OverflowTechPower_label"		"Духовна сила"
+
+		"OverflowTechPower_postvalue_label"		"духовній силі"
+		"OverflowBonusDamage_postfix"	"%"
+
+		//Ricochet
+		"upgrade_ricochet_desc"		"Кулі <span class=\"highlight\">зрикошетять</span> на ворогів біля цілі, <span class=\"highlight\">накладаючи ефекти від куль</span> та <span class=\"highlight\">завдаючи відсоток початкової шкоди</span>."
+		"RicochetTargetsTooltipOnly_label"			"Цілі рикошету"
+		"RicochetTargetsTooltipOnly_postvalue_label"			"до цілей рикошету"
+		"RicochetDamagePercent_label"					"Шкода рикошету"
+		"RicochetDamagePercent_postvalue_label"					"шкоді рикошету"
+		"RicochetDamagePercent_postfix"					"%"
+		"RicochetRadius_label"							"Відстань рикошету"
+		"RicochetRadius_postvalue_label"							"відстані рикошету"
+		"RicochetRadius_postfix"							" м"
+
+		"ModelScaleGrowthTooltip_label"					"Розмір моделі"
+		"ModelScaleGrowthTooltip_postvalue_label"					"розміру моделі"
+		"ModelScaleGrowthTooltip_postfix"					"%"
+
+		"ShrinkDuration_label"					"Час зменшення"
+		"ShrinkDuration_postvalue_label"					"часу зменшення"
+		"ShrinkDuration_postfix"					" с"
+		
+		"BonusBaseHealth_prefix"					"+"
+		"BonusBaseHealth_label"					"Основне здоров’я"
+		"BonusBaseHealth_postvalue_label"					"основному здоров’ю"
+		"BonusBaseHealth_postfix"					"%"
+
+		//Close Quarters
+		"upgrade_close_range_desc"	"Завдає додаткової <span class=\"highlight\">збройової шкоди</span> на <span class=\"highlight\">короткій відстані</span> до цілі."
+		"upgrade_close_quarter_combat/modifier_cqc_proc/modifier_slow_base"			"Сповільнення"
+
+		//Long Range
+		"upgrade_long_range_desc"	"Завдає додаткової <span class=\"highlight\">збройової шкоди</span>, якщо відстань до цілі <span class=\"highlight\">далі мінімальної</span>."
+
+		//Mystic Shot
+		"upgrade_crackshot_desc"	"Ваш наступний постріл завдає додаткової {g:citadel_inline_attribute:'SpiritDamage'}."
+		"ProcBonusMagicDamage_prefix"	"{s:sign}"
+		"ProcBonusMagicDamage_label"	"Духовна шкода"
+
+		"ProcBonusMagicDamage_postvalue_label"	"духовній шкоді"
+
+		//Ethereal Bullets
+		"upgrade_ethereal_bullets_desc"	"Насичене вміння поступово накопичує заряд {g:citadel_inline_attribute:'BonusSpiritDamage'} і {g:citadel_inline_attribute:'BonusFireRate'}, а також <span class=\"highlight\">перезаряджає кулі</span> під час застосування вміння. До наступного перезаряджання <span class=\"highlight\">кулі завдають {g:citadel_inline_attribute:'BonusSpiritDamage'}</span>, що відповідає духовній силі."
+		"BulletsBonusMagicDamage_label"	"Основна шкода від куль"
+		"BulletsBonusMagicDamage_postvalue_label"	"основній шкоді від куль"
+		"BulletsBonusMagicDamage_prefix"	"+"
+		"BulletsBonusMagicDamage_postfix"	"%"
+
+		//Restorative Shot
+		"upgrade_medic_bullets_desc"	"Наступна куля власника <span class=\"highlight\">вилікує</span> його залежно від того, в яку ціль влучить."
+		"HealFromHero_label"	"Лікування від героїв"
+		"HealFromHero_postvalue_label"	"лікуванню від героїв"
+		"HealFromNPC_label"	 "Лікування від НГП і сфер"
+
+		"HealFromNPC_postvalue_label"	 "лікуванню від НГП і сфер"
+
+		//Point Blank
+		"upgrade_close_quarter_combat_desc"	"Коли власник перебуває на <span class=\"highlight\">короткій відстані</span> до своєї цілі, він здобуває <span class=\"highlight\">збройову шкоду</span> і його кулі накладають <span class=\"highlight\">сповільнення руху</span>."
+
+		//Headshot Booster
+		"upgrade_headshot_booster_desc"		"Наступний <span class=\"highlight\">постріл у голову</span> ворожому герою завдає {g:citadel_inline_attribute:'BonusWeaponDamage'}."
+
+		//Weakening Headshot
+		"upgrade_headshot_booster2_desc"		"<span class=\"highlight\">Постріл у голову</span> зменшує для цілі <span class=\"highlight\">опір кулям</span>."
+
+		//Sharpshooter
+		"upgrade_sharpshooter_desc"				"Завдає додаткової <span class=\"highlight\">збройової шкоди</span>, якщо відстань до цілі <span class=\"highlight\">далі мінімальної</span>."
+
+		//Headhunter
+		"upgrade_headhunter_desc"	"Наступний <span class=\"highlight\">постріл у голову</span> ворожому герою завдає {g:citadel_inline_attribute:'BonusWeaponDamage'}, застосовує до вас {g:citadel_inline_attribute:'Healing'} і призводить до надання {g:citadel_inline_attribute:'BonusMoveSpeed'}."
+		"HealPercentPerHeadshot_label"		"Лікування за постріл у голову"
+		"HealPercentPerHeadshot_postvalue_label"		"лікуванню за постріл у голову"
+		"HealPercentPerHeadshot_postfix"	"%"
+		"BaseHealOnHeadshot_label"			"Лікування за постріл у голову"
+		"BaseHealOnHeadshot_postvalue_label"			"лікуванню за постріл у голову"
+
+		//Spellslinger Headshots
+		"upgrade_spellslinger_headshots_part1_desc"	"Кулі накладають ослаблення, що зменшує <span class=\"highlight\">духовний опір</span> цілі й дає власнику та його союзникам <span class=\"highlight\">духовний вампіризм</span> проти неї."
+		"upgrade_spellslinger_headshots_part2_desc"	"<span class=\"highlight\">Влучання в голову</span> цілі зменшують її <span class=\"highlight\">духовний опір</span> ще більше."
+		"SpiritPowerGainPct_label"				"Духовна сила"
+		"SpiritPowerGainPct_postvalue_label"				"духовній силі"
+		"SpiritPowerGainPct_postfix"			"%"
+		"SpellSlingerHeadshots_SpiritShredPerStack_label"		"Духовний опір за постріл у голову"
+		"SpellSlingerHeadshots_SpiritShredPerStack_postvalue_label"		"духовному опору за постріл у голову"
+		"SpellSlingerHeadshots_SpiritShredPerStack_postfix"	"%"
+
+		//Crippling Headshot
+		"upgrade_banshee_slugs_headshots_desc"	"<span class=\"highlight\">Постріл у голову</span> знижує <span class=\"highlight\">опір кулям, духовний опір і вхідне лікування</span> цілі."
+
+		//Berserker
+		"upgrade_berserker_desc"		"<span class=\"highlight\">Збройова шкода</span> збільшується під час отримання тривалої шкоди."
+
+		//Frenzy
+		"upgrade_fervor_passive"	"Коли у вас <span class=\"highlight\">менше ніж {s:LowHealthThreshold}% здоров’я</span>, ви на деякий час отримаєте підвищення показників, а також на вас менше впливатимуть наявні ослаблення."
+		"FervorTechResist_postfix"  "%"
+		"modifier_fervor_aura_active"		"Під дією лихоманки"
+		"FervorBulletResist_label"		"Опір кулям"
+		"FervorBulletResist_postvalue_label"		"опору кулям"
+		"FervorBulletResist_prefix"		"+"
+		"FervorBulletResist_postfix"	"%"
+
+		//Soul Shredder Bullets
+		"upgrade_tech_defense_shredders_desc"	"Кулі накладають ослаблення, що зменшує <span class=\"highlight\">духовний опір</span> цілі й дає власнику та його союзникам <span class=\"highlight\">духовний вампіризм</span> проти неї."
+		"ShreddersTechAmp_label"				"Духовне посилення"
+		"ShreddersTechAmp_postvalue_label"				"духовному посиленню"
+		"ShreddersTechAmp_postfix"			"%"
+
+		//Hollow Point Ward
+		"upgrade_hollow_point_rounds_desc"				"За наявності <span class=\"highlight\">понад {s:LifeThreshold}% здоров’я</span> завдає додаткової <span class=\"highlight\">збройової шкоди</span>, а кулі зменшують у ворога <span class=\"highlight\">опір кулям</span>."
+
+		// Pristine Emblem
+		"upgrade_pristine_emblem_desc"	"Атаки проти <span class=\"highlight\">ворогів із понад {s:EnemyLifeThreshold}% здоров’я</span> завдають додаткової <span class=\"highlight\">збройової шкоди</span>."
+		"BaseAttackDamagePercentBonus_label"	"Збройова шкода"
+		"BaseAttackDamagePercentBonus_postvalue_label"	"збройовій шкоді"
+		"BaseAttackDamagePercentBonus_prefix"	"+"
+		"BaseAttackDamagePercentBonus_postfix"	"%"
+
+		//Disarming Bullets
+
+		//Glass Cannon
+		"upgrade_glass_cannon_desc"		"Кожне вбивство героя дає <span class=\"highlight\">постійну швидкострільність</span> (макс. до {s:MaxStacks} разів). Смерть призводить до втрати 1 заряду."
+		"GlassCannon_SlowPercent_label"		"Спрацювання сповільнення від куль"
+		"GlassCannon_SlowPercent_postvalue_label"		"спрацюванню сповільнення від куль"
+		"GlassCannon_SlowPercent_postfix"	"%"
+		"GlassCannon_SlowPercent_prefix"	"+"
+		"upgrade_glass_cannon_plus1"		"Скляна гармата +1"
+
+		//Fury Trance
+		"upgrade_fury_trance_active"	"Дає <span class=\"highlight\">швидкострільність</span>, <span class=\"highlight\">духовний опір</span> і <span class=\"highlight\">швидкість руху</span>, а також скасовує штраф до <span class=\"highlight\">швидкості руху</span> під час стрільби, але <span class=\"highlight\">знемовлює</span> власника та <span class=\"highlight\">унеможливлює використання й відновлення витривалості</span>."
+
+		//Vampiric Burst
+		"upgrade_surging_power_active"	"Дає <span class=\"highlight\">вампіризм</span>, <span class=\"highlight\">швидкострільність</span> і <span class=\"highlight\">набої</span>. Додаткові набої не обмежуються максимальним розміром вашого магазину."
+		"ActiveBonusLifesteal_label"		"Вампіризм від куль"
+		"ActiveBonusLifesteal_postvalue_label"		"вампіризму від куль"
+		"ActiveBonusLifesteal_postfix"	"%"
+
+		//Siphon Bullets
+		"upgrade_siphon_bullets_desc_passive2"	"Ваші кулі тимчасово <span class=\"highlight\">викрадають максимальне здоров’я</span> ворогів. Викрадене здоров’я повернеться до ворогів після завершення дії ослаблення."
+		"HealthSteal_label"						"Викрадення макс. здоров’я за кулю"
+		"HealthSteal_postvalue_label"			"викраденню макс. ОЗ за кулю"
+		"SiphonBullets_HealthStealPctHero_label"			"Викрадення макс. здоров’я"
+		"SiphonBullets_HealthStealPctHero_postvalue_label"	"викраденню макс. здоров’я"
+		"SiphonBullets_HealthStealPctHero_postfix"			"%"
+
+		//Overdrive Clip
+		"BonusReloadSpeed_label"						"Час перезаряджання"
+		"BonusReloadSpeed_postvalue_label"						"часу перезаряджання"
+		"BonusReloadSpeed_Postfix"						"%"
+		"OverdriveClipDuration_Postfix"					" с"
+
+		//Burst Fire Actuator
+		"BurstFireShotsFromClipPercent_Postfix"			"%"
+		"BonusHeadshotDamage_label"						"Додаткова шкода в голову"
+		"BonusHeadshotDamage_postvalue_label"						"додачі шкоди в голову"
+		"BonusHeadshotDamage_postfix"					"%"
+		"BaseBonusWeaponPower_prefix"					"+"
+
+		//Lifestrike
+		"upgrade_boxing_glove_desc"						"<span class=\"highlight\">Ближні атаки</span> власника накладають <span class=\"highlight\">сповільнення руху</span> і <span class=\"highlight\">лікують його</span> на відсоток завданої <span class=\"highlight\">шкоди ближнього бою</span>, а також на фіксовану величину. <span class=\"diminish\"><br><br>Це лікування має {s:NonHeroHealPct}% ефективності проти негероїв.<br>Зарядка у ×{s:LightMeleeCooldownMult} довша, ніж для легких ударів ближнього бою."
+		"BonusMeleeSpeed_prefix"						"+"
+		"BonusMeleeSpeed_postfix"						"%"
+		"DisarmDuration_label"							"Час роззброєння"
+		"DisarmDuration_postvalue_label"							"часу роззброєння"
+		"DisarmDuration_postfix"						" с"
+		"LifestealHeal_label"				"Лікування за ближній удар"
+		"LifestealHeal_postvalue_label"				"лікуванню за ближній удар"
+		"LifestealHealPercent_label"				"Лікування від ближнього удару"
+		"LifestealHealPercent_postvalue_label"				"лікуванню від ближнього удару"
+		"LifestealHealPercent_postfix"				"%"
+
+		"MeleeLifesteal_label"				"Ближній вампіризм"
+		"MeleeLifesteal_postvalue_label"				"ближньому вампіризму"
+		"MeleeLifesteal_postfix"				"%"
+
+
+
+		//Belt-Fed Magazine
+		"SpinUpTime_postfix"							" с"
+		"InitialFireRateDecrease_prefix"				"-"
+		"InitialFireRateDecrease_postfix"				"%"
+		"MaxFireRateIncrease_prefix"					"+"
+		"MaxFireRateIncrease_postfix"							"%"
+		"BonusReloadTime_postfix"						" с"
+
+		//Stabilizing Tripod
+		"StationaryRecoilReduction_postfix"					"%"
+		"StationaryWeaponPower_prefix"						"+"
+		"CasterHealthPercent_postfix"					"%"
+
+		//Burst Fire
+		"upgrade_burst_fire_desc"						"Влучання кулею в героя ненадовго підвищує <span class=\"highlight\">швидкострільність</span> і <span class=\"highlight\">швидкість руху</span>."
+
+		//Intensifying Magazine
+		"upgrade_intensifying_clip_desc"				"Збільшує <span class=\"highlight\">збройову шкоду</span> в разі тривалої стрільби зі зброї."
+		"BaseAttackDamagePercentAtMaxDuration_label"	"Макс. збройова шкода"
+		"BaseAttackDamagePercentAtMaxDuration_postvalue_label"	"макс. збройовій шкоді"
+		"BaseAttackDamagePercentAtMaxDuration_postfix"		"%"
+		"ShootDurationForMax_label"						"Час для максимальної шкоди"
+		"ShootDurationForMax_postvalue_label"						"часу для макс. шкоди"
+		"ShootDurationForMax_postfix"							" с"
+		
+		//Escalating Resilience
+		"upgrade_reinforcing_casings_desc"    "Надає <span class=\"highlight\">опір шкоді від куль</span>, коли кулі влучають у героя. <span class=\"highlight\">Кожен постріл може дати лише одне поєднання.</span>"
+		"MaxArmorStacks_label"				"Максимальний опір кулям"
+		"MaxArmorStacks_postvalue_label"				"макс. опору кулям"
+		"MaxArmorStacks_postfix"				"%"
+		"BulletResistPerStack_label"				"Опір кулям за поєднання"
+		"BulletResistPerStack_postvalue_label"				"опору кулям за поєднання"
+		"BulletResistPerStack_postfix"			"%"
+		"BulletResistDuration_label"				"Час дії ефекту"
+		"BulletResistDuration_postvalue_label"				"часу поєднання"
+		"BulletResistDuration_postfix"			" с"
+
+		//Lucky Shot
+		"upgrade_critshot_desc"				"Дає шанс на посилення куль, яке дозволить їм завдати <span class=\"highlight\">додаткової збройової шкоди</span> в разі влучання.<br><span class=\"diminish\">Додаткова шкода не може бути критичною</span>."
+		"CritDamagePercent_prefix"			"+"
+		"CritDamagePercent_label"			"Додаткова збройова шкода"
+		"CritDamagePercent_postvalue_label"			"додачі збройової шкоди"
+		"CritDamagePercent_postfix"			"%"
+
+		//Veil Walker
+		"upgrade_veil_walker_desc"			"Прохід крізь <span class=\"highlight\">космічну вуаль</span> дасть <span class=\"highlight\">непомітність</span>, <span class=\"highlight\">лікування</span> та збільшить <span class=\"highlight\">швидкість руху</span>."
+		"VeilWalker_MoveSpeed_label"			"Швидкість руху в невидимості"
+		"VeilWalker_MoveSpeed_postvalue_label"			"руху в невидимості"
+		"VeilWalker_MoveSpeed_postfix"		" м/с"
+		"VeilWalker_Heal_label"			"Лікування"
+		"VeilWalker_Heal_postvalue_label"			"лікуванню"
+		"VeilWalker_Heal_postfix"		""
+
+		//Glass Cannon2
+		"upgrade_glass_cannon2_desc"		"Кожне вбивство героя дає <span class=\"highlight\">постійну збройову шкоду</span> (макс. до {s:MaxStacks} разів). Смерть призводить до втрати 1 заряду."
+
+		//"upgrade_split_shot"					"Split Shot"
+		"upgrade_split_shot_desc"			"Зброя отримує <span class=\"highlight\">мультипостріл</span>. <br><br> Влучання в більше ніж одного героя за атаку дає <span class=\"highlight\">поєднувану додаткову збройову шкоду</span>. <br><br><span class=\"diminish\">У ціль можна влучити лише один раз за мультипостріл.</span>"
+		"upgrade_split_shot_desc_02"		"Додаткова шкода від мультипострілу"
+		"SpecialShotsBonusFireRate_label"	"Швидкострільність під час мультипострілів"
+		"SpecialShotsBonusFireRate_postvalue_label"	"швидкострільності під час мультипострілів"
+		"SpecialShotsBonusFireRate_postfix"	"%"
+		"SpecialShotsBonusFireRate_prefix"	"+"
+		"SplitShotWeaponDuration_label"		"Час дії ефекту"
+		"SplitShotWeaponDuration_postvalue_label"		"часу поєднання"
+		"SplitShotWeaponDuration_prefix"		""
+		"SplitShotWeaponDuration_postfix"		" с"
+		
+		// upgrade_blood_tribute			// Blood Tribute
+		"upgrade_blood_tribute_desc"		"Перемикається. Постійно жертвує здоров’я для покращення {g:citadel_inline_attribute:'FireRate'}, <span class=\"highlight\">опору ослабленням</span> та <span class=\"highlight\">швидкості руху</span>."
+
+		//"upgrade_non_player_bonus_sacrifice"	"Cultlist Sacrifice"
+		"upgrade_non_player_bonus_sacrifice_desc"	"Пожирає цільового ворожого НГП і здобуває на <span class=\"highlight\">{s:BonusSoulsPct}% більше душ</span> та довготривале посилення."
+
+		//"upgrade_capacitor"						"Capacitor"
+		"upgrade_capacitor_desc"					"Запускає снаряд, що завдає <span class=\"highlight\">{g:citadel_inline_attribute:'SpiritIcon'} шкоди</span>, накладає потужне сповільнення, яке поступово зникає, <span class=\"highlight\">не дозволяє користуватися витривалістю</span>, а також <span class=\"highlight\">знемовлює</span> <span class=\"highlight\">предмети та вміння цілі, які діють на рух</span>."
+		
+		//"upgrade_enchanted_holsters"			"Enchanted Holsters"
+		"upgrade_enchanted_holsters_desc"		"У бою щоразу під час застосування вміння чи предмета здобуває поєднуване посилення, яке покращує швидкострільність і перезаряджання.<br><span class=\"diminish\">Кожен заряд оновлює тривалість.</span>"
+		
+		// "upgrade_weapon_backstabber"			"Stalker"
+		"upgrade_weapon_backstabber_desc"		"Завдавання {g:citadel_inline_attribute:'WeaponDamage'} на близькій відстані відкриває рану, що дає власнику {g:citadel_inline_attribute_icon:'BonusMoveSpeed'}<span class=\\\"InlineAttributeName BonusMoveSpeed\\\">додаткову швидкість руху</span>. <br><br>Поранені вороги зазнають {g:citadel_inline_attribute:'SpiritDPS'}, зменшення {g:citadel_inline_attribute:'BulletResist'} та виявляються <span class=\"highlight\">крізь стіни</span>."
+		"BackstabberRadius_label"		"Додатковий радіус"
+		"BackstabberRadius_postvalue_label"		"додатковому радіусу"
+		"BackstabberRadius_prefix"		""
+		"BackstabberRadius_postfix"		" м"
+		"ProcRadius_label"				"Коротка відстань"
+		"ProcRadius_postvalue_label"	"короткій відстані"
+		"ProcRadius_postfix"			" м"
+		
+
+		//"upgrade_express_shot"				"Express Shot"
+		"upgrade_express_shot_desc"				"Наступна атака <span class=\"highlight\">спрацює двічі</span> у швидкій послідовності зі <span class=\"highlight\">збільшеною шкодою</span> та швидкістю кулі. Ця атака використає додатковий набій."
+		"ProcAmmoConsumed_label"				"Додатково витрачені набої"
+		"ProcAmmoConsumed_postvalue_label"				"додатково витраченим набоям"
+		//Melee Charge
+		"upgrade_melee_charge_desc"				"Наступна <span class=\"highlight\">важка ближня</span> атака проти ворога <span class=\"highlight\">завдає збільшеної шкоди</span>."
+		"MeleeDistanceScale_label"				"Відстань важкої ближньої атаки"
+		"MeleeDistanceScale_postvalue_label"				"відстані важкої ближньої атаки"
+		"MeleeDistanceScale_prefix"				"+"
+		"MeleeDistanceScale_postfix"			"%"
+		"BonusHeavyMeleeDamage_prefix"			"+"
+		"BonusHeavyMeleeDamage_label"			"Додаткова важка шкода"
+		"BonusHeavyMeleeDamage_postvalue_label"			"додачі важкої шкоди"
+		"BonusHeavyMeleeDamage_postfix"			"%"
+
+		// "upgrade_crushing_fists"				"Crushing Fists"
+		"upgrade_crushing_fists_desc"			"<span class=\"highlight\">{g:citadel_inline_attribute_icon:'MeleeDamage'}<span class=\\\"InlineAttributeName MeleeDamage\\\">ближня шкода</span></span> буде <span class=\"highlight\">відновлювати набої</span> й застосовуватиме на ворогів <span class=\"highlight\">поєднуване ослаблення опору кулям</span>. Важкий ближній удар застосовує 2 поєднання. <br><br>Якщо ціль отримує максимальну кількість поєднань, вона <span class=\"highlight\">приголомшується</span>."
+		"notification_crushing_fists_stun"		"Нищівні кулаки — приголомшення!"
+
+		//"upgrade_stackingdamageproc"		"Hungering Blade"
+		"upgrade_stackingdamageproc_desc"	"Коли ви завдаєте шкоди героям із <span class=\"highlight\">низьким рівнем здоров’я</span>, вони додатково отримують {g:citadel_inline_attribute:'BonusWeaponDamage'}. <br><br>З кожним спрацюванням ефект накопичується, назавжди збільшуючи {g:citadel_inline_attribute:'BonusWeaponDamage'}."
+
+		//"upgrade_building_buster"				"Explosive Demolition"
+		"upgrade_building_buster_desc"		"Кидає зв’язку вибухівки-липучки, що вибухає після довгої затримки, завдаючи {g:citadel_inline_attribute:'WeaponDamage'}. <br><br>У разі влучання в <span class=\"highlight\">ватажка</span> завдає {g:citadel_inline_attribute:'BonusWeaponDamage'}."
+		"BossDamage_postvalue_label" "шкоді ватажка"
+
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Tech
+		//-----------------------------------------------------------------------------
+		
+		// "upgrade_mystic_regeneration"		"Mystic Regeneration"
+		"upgrade_mystic_regeneration_desc"		"Завдаючи {g:citadel_inline_attribute:'SpiritDamage'} ворожим героям, ви отримуєте додаткове {g:citadel_inline_attribute:'Regen'} здоров’я. Поєднується, якщо шкода завдається різним героям."
+
+		//Spirit Lifesteal
+		"NonHeroAbilityLifestealTooltipOnly_postfix"		"%"
+		
+		//Mystic Vulnerability
+		"upgrade_magic_vulnerability_desc"	"Коли ворог зазнає {g:citadel_inline_attribute:'SpiritDamage'}, його <panel class=\"InlineAttributeIcon SpiritResist\" replacechar=\"_\"><span class=\"InlineAttributeName SpiritResist\">духовний опір</span> зменшується."		
+
+		//Healbane
+		"upgrade_healbane_desc"	"Завдана вами {g:citadel_inline_attribute:'SpiritDamage'} зменшує <span class=\"highlight\">вхідне лікування</span> ворога. Якщо ворожий герой помирає під дією цього ефекту, ви отримуєте значне лікування."
+		"HealOnKill_label"		"Лікування за вбивство героя"
+
+		"HealOnKill_postvalue_label"		"лікуванню за вбивство героя"
+
+		//Mystic Slow
+		"upgrade_magic_slow_desc"	"Коли ціль зазнає {g:citadel_inline_attribute:'SpiritDamage'}, її <span class=\"highlight\">швидкість руху</span> зменшується."
+
+		//Escalating Exposure
+		"upgrade_escalating_exposure_desc"	"Завдання {g:citadel_inline_attribute:'SpiritDamage'} застосовує накопичувальне <span class=\"highlight\">духовне посилення</span>, що призводить до підвищення {g:citadel_inline_attribute:'SpiritDamage'}, якої ви завдаєте цілі."
+		"EscalatingExposureProcCooldown_label"	"Максимальна частота за ціль"
+		"EscalatingExposureProcCooldown_postvalue_label"	"макс. частоті за ціль"
+		"EscalatingExposureProcCooldown_postfix"	" с"
+		"EscalatingExposureTechArmorDamageReduction_label"	"Духовний опір від духовної шкоди"
+		"EscalatingExposureTechArmorDamageReduction_postvalue_label"	"духовному опору від духовної шкоди"
+		"EscalatingExposureTechArmorDamageReduction_postfix"	"%"
+
+		//Mystic Reach
+		"upgrade_magic_reach_desc"			"Насичує вміння для збільшення його <span class=\"highlight\">дальності</span> та <span class=\"highlight\">радіуса дії ефекту</span>."
+
+		//Improved Reach
+		"upgrade_tech_range_desc"			"Збільшує <span class=\"highlight\">дальність</span> і <span class=\"highlight\">радіус дії ефектів</span> умінь і предметів."
+
+		//Omni Spirit
+		"upgrade_long_range_slowing_tech/modifier_long_range_slowing_tech_proc/modifier_slow_base"	"Сповільнення"
+
+		//Improved Cooldown
+		"upgrade_magic_tempo_desc"	"Насичує вміння зменшенням часу його <span class=\"highlight\">зарядки</span>."
+
+		//Superior Cooldown
+		"upgrade_cooldown_reduction_desc"	"Зменшує <span class=\"highlight\">час зарядки</span> умінь."
+
+		//Transcendent Cooldown
+		"upgrade_transcendent_cooldown_desc"	"Зменшує <span class=\"highlight\">час зарядки</span> умінь і предметів."
+
+		//Extra Charge
+		//"upgrade_extra_charge_desc"	"Adds one to your ability max <span class=\"highlight\">charges</span>."
+		"BonusSpiritForChargedAbilities_prefix"						"+"
+		"BonusSpiritForChargedAbilities_label"						"Додача духовної сили вмінням із зарядами"
+		"BonusSpiritForChargedAbilities_postvalue_label"						"додачі духовної сили вмінням із зарядами"
+
+		//Rapid Recharge
+		"CooldownReductionOnChargedAbilities_label"	"Зменшення зарядки вмінням із зарядами"
+		"CooldownReductionOnChargedAbilities_postvalue_label"	"зменшенню зарядки вмінням із зарядами"
+		"CooldownReductionOnChargedAbilities_postfix" "%"
+		"CooldownReductionOnChargedAbilities_prefix" "+"
+
+		//Alchemical Fire
+		"upgrade_thermal_detonator_desc"		"Кидає колбу, що вибухає при зіткненні з поверхнею і створює область, яка завдає збільшуваної {g:citadel_inline_attribute:'SpiritDamage'} <span class=\"highlight\">за секунду</span> та зменшує <span class=\"highlight\">опір кулям</span> у ворогів.<br><br>Завдає на {s:NonHeroReductionPercent}% менше ШЗС негероям."
+		"BonusBaseWeaponDamageTaken_prefix"		"+"
+		"BonusBaseWeaponDamageTaken_label"		"Збройова шкода"
+		"BonusBaseWeaponDamageTaken_postvalue_label"		"збройовій шкоді"
+		"BonusBaseWeaponDamageTaken_postfix"	"%"
+
+		//Fleetfoot
+		"upgrade_fleetfoot_boots_active_desc"	"Дає додаткову <span class=\"highlight\">швидкість руху</span> та <span class=\"highlight\">опір сповільненню</span>."
+		"upgrade_fleetfoot_boots_passive_desc"	"Вилучає штраф <span class=\"highlight\">швидкості руху</span> під час стрільби."
+
+		//Kinetic Dash
+		"upgrade_kinetic_sash_desc"		"<span class=\"highlight\">Стрибок-ривок</span> надасть додаткові <span class=\"highlight\">швидкострільність</span> та <span class=\"highlight\">набої</span> до наступного перезаряджання. Триває до {s:AbilityDuration} с."
+
+		//Arcane Surge
+		"upgrade_arcane_surge_desc"			"Після <span class=\"highlight\">стрибка-ривка</span> <span class=\"highlight\">наступне вміння, яке ви застосуєте </span> протягом {s:ArcaneSurgeWindow} с, матиме додаткові <span class=\"highlight\">дальність, тривалість</span> і <span class=\"highlight\">духовну силу</span>."
+		"modifier_arcane_surge_triggered"	"Духовна напруга!"
+		"modifier_arcane_surge_ability"		"Уміння під напругою!"
+		"ArcaneSurgeWindow_label"				"Вікно застосування"
+		"ArcaneSurgeWindow_postvalue_label"		"вікну застосування"
+		"ArcaneSurgeWindow_postfix"				" с"
+
+		//Active Reload
+		"upgrade_active_reload_desc"	"Якщо під час перезаряджання натиснути {g:citadel_binding:'Reload'} на виділеній частині, це <span class=\"highlight\">миттєво завершує перезаряджання</span> й дає <span class=\"highlight\">швидкострільність</span>, <span class=\"highlight\">вампіризм від куль</span> та <span class=\"highlight\">швидкість руху</span>."
+
+		//Slowing Hex
+		"upgrade_containment_desc"			"<span class=\"highlight\">Сповільнює рух</span> ворожої цілі. Також <span class=\"highlight\">знемовлює</span> її <span class=\"highlight\">вміння та предмети, що пов’язані з рухом</span>.<br><span class=\"diminish\">Збільшує гравітацію цілі.<br>Не впливає на можливість цілі використовувати витривалість</span>."
+
+		//Spirit Sap
+		"upgrade_spirit_sap_desc"			"<span class=\"highlight\">Зменшує духовний опір</span> і <span class=\"highlight\">духовну силу</span> цілі."
+
+		//Focus Lens
+		"upgrade_focus_lens_desc"			"<span class=\"highlight\">Знемовлює</span> ціль. Частка <span class=\"highlight\">всієї завданої шкоди</span> під час знемовлення накладається на ціль після завершення його дії."
+		"PercentDamage_label"				"Шкода після завершення"
+		"PercentDamage_postvalue_label"				"шкоді після завершення"
+		"PercentDamage_postfix"				"%"
+
+		//Withering Whip , Rusted Barrel
+		"upgrade_withering_whip_desc"		"Зменшує <span class=\"highlight\">швидкострільність</span> та <span class=\"highlight\">опір кулям</span> у ворожої цілі."
+		"modifier_withering_whip_debuff"	"-Швидкострільність"
+		"MagicAmp_label"					"Духовне посилення"
+		"MagicAmp_postvalue_label"					"духовному посиленню"
+		"MagicAmp_postfix"					"%"
+		"WitheringWhipDisarmDuration_label"	"Час дії"
+		"WitheringWhipDisarmDuration_postvalue_label"	"часу дії"
+		"WitheringWhipDisarmDuration_postfix"	" с"
+		"SpiritPower_label"					"Духовна сила"
+		"SpiritPower_postvalue_label"					"духовній силі"
+		"SpiritPower_prefix"					"+"
+
+		// Disarming Hex
+		"upgrade_greater_withering_whip_desc"		"<span class=\"highlight\">Роззброює</span> ворожу ціль і зменшує її <span class=\"highlight\">опір кулям</span>."
+		"upgrade_greater_withering_whip_debuff"		"Роззброєно"
+
+		//Ethereal Shift
+		"upgrade_self_bubble_desc"			"Миттєво увійдіть у стан порожнечі та станьте невразливими на короткий час."
+		"upgrade_self_bubble_desc2"			"Після цього отримайте низку тимчасових посилень:"
+		"ShiftingVeil_channel_desc"			"Невразливість"
+		"ShiftingVeilDuration_label"			"Час дії"
+		"ShiftingVeilDuration_postvalue_label"			"часу дії"
+		"ShiftingVeilDuration_postfix"		" с"
+		"BonusSpiritDuration_label"			"Додача часу духовної сили"
+		"BonusSpiritDuration_postvalue_label"			"додачі часу духовної сили"
+		"BonusSpiritDuration_postfix"			" с"
+		"BonusTechPower_prefix"				"{s:sign}"
+		"BonusTechPower_label"				"Духовна сила"
+		"BonusTechPower_postvalue_label"				"духовній силі"
+		"shifting_veil_bonus"			"духовній силі, швидкості та духовному опору"
+
+		//Rescue Beam
+		"upgrade_rescue_beam_desc"		"<span class=\"highlight\">Лікує</span> цільового союзного героя та власника на відсоток <span class=\"highlight\">максимального здоров’я</span>. Один раз під час лікування власник може <span class=\"highlight\">підтягнути</span> ціль до себе. Можна застосовувати на себе."
+		"SelfModifier_postfix"			"%"
+		"upgrade_rescue_beam_pull"		"Притягування цілі"
+
+		//Slowing Spirit
+		"upgrade_slowing_tech/modifier_slowing_tech_proc/modifier_slow_base"						"Сповільнення"
+
+		//Refresher
+		"upgrade_ability_refresher_desc"	"<span class=\"highlight\">Скидає зарядку</span> всіх умінь і <span class=\"highlight\">відновлює всі заряди</span>."
+
+		//Cold Front
+		"upgrade_cold_front_desc"			"Випускає розширюваний крижаний вибух, що завдає {g:citadel_inline_attribute:'SpiritDamage'} та <span class=\"highlight\">сповільнює</span> цілі, в які влучає."
+
+		//Arctic Blast
+		"upgrade_arctic_blast_desc"			"Випускає крижаний вибух, що завдає {g:citadel_inline_attribute:'SpiritDamage'}, <span class=\"highlight\">заморожує</span>, а потім <span class=\"highlight\">сповільнює</span> цілі, у які влучає.<br><br>У сповільнених цілей <span class=\"highlight\">заморожується відновлення витривалості</span>."
+		"ArcticBlastSlowDuration_label"		"Час сповільнення"
+		"ArcticBlastSlowDuration_postvalue_label"		"часу сповільнення"
+		"ArcticBlastSlowDuration_postfix"	" с"
+		"ArcticBlastPercentDamage_label"	"Додаткова шкода замороженим"
+		"ArcticBlastPercentDamage_postvalue_label"	"додатковій шкоді замороженим"
+		"ArcticBlastPercentDamage_postfix"	"%"
+
+		//Knockdown
+		"upgrade_target_stun_desc"			"Застосовує <span class=\"highlight\">приголомшення</span> через <span class=\"highlight\">{s:StunDelay} с</span>. Тривалість приголомшення зростає для цілей <span class=\"highlight\">у повітрі</span>.<br><br><span class=\"diminish\">Збільшує гравітацію цілі протягом приголомшення.</span>"
+		
+		//Vortex Web
+		"upgrade_aoe_root_active"		"Кидає <span class=\"highlight\">вакуумну</span> гранату, що притягує всіх ворогів у невелику область і накладає на них <span class=\"highlight\">гальмівний врок</span>. <span class=\"diminish\"><br><br>Альтернативне застосування націлює безпосередньо на істоту.</span>"
+
+		//Curse
+		"upgrade_glitch_desc"					"Накладає на ворога прокляття з <span class=\"highlight\">перериванням, знемовленням, роззброєнням</span>, яке також не дозволяє <span class=\"highlight\">використовувати предмети</span>. <span class=\"highlight\">Усуває всі неультимативні посилення</span>.<br><br>Ваша <span class=\"highlight\">вихідна шкода</span> зменшується на час дії."
+		"modifier_glitch_debuff"				"Прокляття!"
+		"modifier_glitch_self_penalty"			"Зворотне прокляття"
+
+		//Bullet Resist Shredder
+		"upgrade_bullet_resist_shredder_desc"	"Зменшує <span class=\"highlight\">опір кулям</span> ворогам, коли завдаєте їм {g:citadel_inline_attribute:'SpiritDamage'}."
+		"upgrade_bullet_resist_shredder/modifier_bullet_armor_shredder_proc/modifier_bullet_armor_shredder" "Зменшення броні від куль"
+
+		//Echo Shard
+		"upgrade_ability_power_shard_active"	"<span class=\"highlight\">Скидає зарядку</span> насиченого неультимативного вміння.<br><br>Зарядка цього предмета збільшується на величину <span class=\"highlight\">зарядки насиченого вміння</span>."
+
+		//Duration Extender
+		"upgrade_arcane_extension_desc"	"Насичує вміння для збільшення його <span class=\"highlight\">тривалості</span>."
+
+		//Superior Duration
+		"upgrade_imbued_duration_extender_desc"	"Збільшує <span class=\"highlight\">тривалість дії</span> умінь і предметів."
+
+		//Diviner's Kevlar
+		"upgrade_diviners_kevlar_desc"			"Після застосування <span class=\"highlight\">ультимативного вміння</span> здобуває <span class=\"highlight\">бар’єр</span> і тимчасову <span class=\"highlight\">духовну силу</span>."
+		"BonusChannelTechPower_prefix"			"+"
+		
+		"BonusChannelTimePercentage_label"		"Час заряджання"
+		"BonusChannelTimePercentage_postvalue_label"		"часу заряджання"
+		"BonusChannelTimePercentage_prefix"		"+"
+		"BonusChannelTimePercentage_postfix"	"%"
+
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_label"		"Час заряджання"
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_postvalue_label"		"часу заряджання"
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_prefix"		"+"
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_postfix"	"%"
+
+		//Infuser
+		"upgrade_infuser_desc"			"Дає <span class=\"highlight\">духовний вампіризм</span> та <span class=\"highlight\">духовну силу</span>."
+
+		//Spirit Strike
+		"upgrade_acolytes_glove_desc"			"Під час <span class=\"highlight\">легкої чи важкої ближньої атаки</span> проти героя завдає додаткової {g:citadel_inline_attribute:'SpiritDamage'} та зменшує <span class=\"highlight\">духовний опір</span> цілі.<span class=\"diminish\"><br><br>Зарядка триває довше (×{s:LightMeleeCooldownMult}) для легких ближніх ударів.</span>"
+		"SpiritDamage_label"					"Духовна шкода"
+		"SpiritDamage_postvalue_label"					"духовній шкоді"
+
+		//Spirit Snatch
+		"upgrade_spirit_snatch_desc"			"Під час <span class=\"highlight\">легкої чи важкої ближньої атаки</span> проти героя завдає додаткової {g:citadel_inline_attribute:'SpiritDamage'} та викрадає <span class=\"highlight\">духовний опір</span> і <span class=\"highlight\">духовну силу</span>.<span class=\"diminish\"><br><br>Для легких ближніх ударів ефекти зменшено на {s:LightMeleeReduction}%.</span>"
+		"SpiritSnatch_TechArmorSteal_label"		"Викрадення духовного опору"
+		"SpiritSnatch_TechArmorSteal_postvalue_label"		"викраденню духовного опору"
+		"SpiritSnatch_TechArmorSteal_postfix"	"%"
+		"SpiritSnatch_TechPowerSteal_label"		"Викрадення духовної сили"
+		"SpiritSnatch_TechPowerSteal_postvalue_label"		"викраденню духовної сили"
+
+		//Clarity
+		//"upgrade_magic_clarity_desc"			"On ability or item use, gain a <span class=\"highlight\">move speed</span> bonus for {s:AbilityDuration}s. Your next ability cast will remove the move speed bonus and apply a <span class=\"highlight\">Spirit</span> bonus to that ability."
+		"ClarityBonusSpirit_prefix"				"{s:sign}"
+
+		//Surge of Power
+		"upgrade_magic_storm_desc"				"Насичує вміння <span class=\"highlight\">постійною духовною силою</span>. Коли це вміння використовується, воно дає додаткову <span class=\"highlight\">швидкість руху</span> й підтримує повну швидкість під час атак."
+
+		//Suppressor
+		"upgrade_suppressor_desc"					"Коли ви завдаєте {g:citadel_inline_attribute:'SpiritDamage'} ворогам, ви також зменшуєте їхню <span class=\"highlight\">швидкострільність</span>."
+		"suppressor_debuff"						"-Швидкострільність"
+
+		//Quicksilver Reload
+		"upgrade_quick_silver_desc"				"Насичене вміння під час застосування поступово накопичує заряд {g:citadel_inline_attribute:'BonusSpiritDamage'}, {g:citadel_inline_attribute:'BonusFireRate'} і <span class=\"highlight\">перезаряджання куль</span>."
+
+		//Resonant Healing
+		"upgrade_resonant_healing_desc"			"<span class=\"highlight\">Лікує</span> й ненадовго дає додаткову <span class=\"highlight\">швидкість руху</span> під час застосування вміння."
+		"HealingPerCast_Label"					"Лікування від застосування вміння"
+
+		"HealingPerCast_postvalue_label"					"лікуванню від застосування вміння"
+
+		// Magic carpet
+		"upgrade_magic_carpet_desc"				"Викликає чарівний килим, на якому можна <span class=\"highlight\">літати</span>. В польоті дає імунітет до сповільнень, але будь-яка дія скасує килим. <br><span class=\"diminish\">Коли викликано килим, не можна користуватися вміннями.</span>"
+		"modifier_summon_magiccarpet"			"Виклик чарівного килима"
+		"MagicCarpetMoveSpeed_prefix"			"+"
+		"MagicCarpetMoveSpeed_label"			"Додаткова швидкість польоту"
+		"MagicCarpetMoveSpeed_postvalue_label"			"додачі швидкості польоту"
+		"MagicCarpetMoveSpeed_postfix"			" м/с"
+		"MagicCarpetShieldDuration_label"		"Час дії щита"
+		"MagicCarpetShieldDuration_postvalue_label"		"часу дії щита"
+		"MagicCarpetShieldDuration_postfix"		" с"
+		"MagicCarpetSummoning_channel"			"Прикликання"
+
+		// Hex-Sealed Knuckles
+		"upgrade_superacolytes_glove_desc"			"Після завдавання накопичених <span class=\"highlight\">{s:StoredSpiritDamage}</span> духовної шкоди, наступна <span class=\"highlight\">важка ближня атака</span> завдає додаткові <span class=\"highlight\">{s:StoredSpiritDamage} духовної шкоди</span>."
+		"StoredSpiritDamage_label"			"Збережена духовна шкода"
+		"StoredSpiritDamage_postvalue_label"			"збереженій духовній шкоді"
+		"upgrade_superacolytes_glove/modifier_superacoloytes_glove" "Вивільнені кастети!"
+
+		//SpiritBurn
+		"upgrade_spirit_burn_desc"	"Завдання значної {g:citadel_inline_attribute:'SpiritDamage'} ворогу впродовж {s:DamageThresholdDuration} с призводить до вибуху, який завдає додаткової шкоди та підпалює цього ворога. Підпалені вороги зазнають періодичної шкоди та зменшення лікування.<br><span class=\"diminish\">Окрема зарядка для кожного ворога. Через це кожну ціль можна підпалити тільки один раз за зарядку. Завдає половину шкоди негероям.</span>"
+		"modifier_spirit_burn_immunity"	"Імунітет до духовного вогню"
+		"MinDPS_label" "Мінімальна ШЗС"
+
+		"MinDPS_postvalue_label" "мін. ШЗС"
+
+		//Lightning Scroll
+		"upgrade_ultimate_burst_desc"			"Шкода від ультимативного вміння застосовує {g:citadel_inline_attribute:'Stun'} і завдає {g:citadel_inline_attribute:'BonusSpiritDamage'} після невеликої затримки.</span>"
+		"upgrade_ultimate_burst_upgrade"		"<span class=\"highlight\">Ефекти містичного сповільнення</span>"
+		"upgrade_ultimate_burst_hint"			"<span class=\"diminish\">Ефект спрацьовує один раз на ціль за ультимативне вміння.</span>"
+		"LightningScrollMysticSlow_label"		"Швидкість руху від духовної шкоди"
+		"LightningScrollMysticSlow_postvalue_label"		"швидкості руху від духовної шкоди"
+		"LightningScrollMysticSlow_prefix"		"-"
+		"LightningScrollMysticSlow_postfix"		"%"
+		"DelayBeforeStun_label"					"Затримка перед ефектом"
+		"DelayBeforeStun_postvalue_label"					"затримці перед ефектом"
+		"DelayBeforeStun_postfix"				" с"
+
+		"MaxHealthDamage_label" "Шкода від макс. здоров’я"
+		"MaxHealthDamage_postvalue_label" "шкоді від макс. здоров’я"
+		"MaxHealthDamage_postfix" "%"
+
+		"CurrentHealthDamage_label" "Шкода від поточного здоров’я"
+		"CurrentHealthDamage_postvalue_label" "шкоді від поточного здоров’я"
+		"CurrentHealthDamage_postfix" "%"
+
+		"UltimateTechPower_label" "Духовна сила ульта"
+
+		"UltimateTechPower_postvalue_label" "духовній силі ульта"
+
+		//Corpse Explosion
+		"upgrade_corpse_explosion_desc"			"Убивства чи підмоги призводять до <span class=\"highlight\">вибуху</span> на місці смерті жертви. Убивство героїв дає більший радіус та шкоду."
+		"HeroMultiplier_label" "Множник вибуху героя"
+		"HeroMultiplier_postvalue_label" "множнику вибуху героя"
+		"HeroMultiplier_postfix" "%"
+
+		//Golden Goose Egg
+		"upgrade_goose_egg_desc"	"<span class=\"highlight\">Періодично дає душі</span>, коли власник живий."
+		"upgrade_goose_egg_active_desc"	"Вилуплює яйце, що дає <span class=\"highlight\">душі</span> та <span class=\"highlight\">постійні посилення</span>.<br><br>Цінність яйця зростає, що довше воно у вас є.<br><br><span class=\"diminish\">Після вилуплення здобуває постійне посилення за збережені душі ({s:BonusBuffsPerGold})."
+		"upgrade_goose_egg_stacklabel" "Отримувані душі"
+		"GoldPerMinute_postvalue_label" "душам за хвилину"
+		"GoldPerMinute_prefix" "{s:sign}"
+		"BonusGoldPerMinute_postvalue_label" "душам за хвилину"
+
+		"SellBonusSouls_label"	"Додаткові душі за продаж:"
+
+		//"SellBonusSouls_postvalue_label"	"Sell Bonus Souls:"
+		//"SellBonusSouls_postvalue_prefix"	"{g:citadel_inline_attribute:'SoulsIcon'}"
+
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Armor
+		//-----------------------------------------------------------------------------
+		
+		//Healing Rite
+		"upgrade_health_stimpak_desc"					"Дає цілі <span class=\"highlight\">відновлення здоров’я</span> та <span class=\"highlight\">швидкість бігу</span>. Розвіюється, якщо власник зазнав шкоди від ворожих гравців чи ключових об’єктів. Можна застосувати на себе."
+
+		//Shrink Ray
+		"upgrade_shrink_ray_desc"					"Зменшує <span class=\"highlight\">розмір моделі</span> й дає цілі <span class=\"highlight\">швидкість руху</span>. У цьому режимі можна <span class=\"highlight\">користуватися тунелями</span>. Можна застосовувати на себе."
+		
+		//Guardian Ward
+		"upgrade_guardian_ward_desc"		"Дає цілі <span class=\"highlight\">бар’єр</span> і тимчасову додаткову <span class=\"highlight\">швидкість руху</span>. <span class=\"diminish\"><br>Можна застосувати на себе.<br>Час зарядки зменшується наполовину, якщо застосувати на когось іншого.</span>"
+
+		//Divine Barrier
+		"upgrade_divine_barrier_desc"		"<span class=\"highlight\">Усуває всі неприголомшувальні ослаблення</span> з цілі й дає їй <span class=\"highlight\">бар’єр</span> та додаткову <span class=\"highlight\">швидкість руху</span>. <span class=\"diminish\"><br>Можна застосовувати на себе. Час зарядки зменшується наполовину, якщо застосувати на когось іншого.</span>"
+
+		//Restorative Locket
+		"upgrade_restorative_locket_active_desc"		"Коли ворог застосовує вміння в радіусі {s:Radius} м від власника, зберігає один <span class=\"highlight\">заряд поновлення</span>. <br><br>Використовує всі заряди для <span class=\"highlight\">лікування себе</span> й відновлення <span class=\"highlight\">до {s:MaxStaminaRestore} витривалості</span> на основі того, скільки зарядів наявно."
+		"HealPerStack_label"								"Лікування за поєднання"	
+		"MinStaminaRestore_label"							"Мін. поновлення витривалості"
+		"MinStaminaRestore_postvalue_label"							"мін. поновленню витривалості"
+		"MaxStaminaRestore_label"							"Макс. поновлення витривалості"
+		"MaxStaminaRestore_postvalue_label"							"макс. поновленню витривалості"
+
+		"HealPerStack_postvalue_label"								"лікуванню за поєднання"
+
+		//Cheat Death
+		"upgrade_cheat_death_unkillable_passive"	"Коли власник мав би зазнати смертельної шкоди, він натомість отримує <span class=\"highlight\">тимчасовий імунітет до смерті</span> та <span class=\"highlight\">позбувається всіх ослаблень, крім приголомшень</span>. Під час імунітету до смерті завдає <span class=\"highlight\">зменшеної шкоди</span> та має <span class=\"highlight\">зменшене лікування</span>."
+		"DeathImmunityDuration_label"	"Час імунітету до смерті"
+		"DeathImmunityDuration_postvalue_label"	"часу імунітету до смерті"
+		"DeathImmunityDuration_postfix"	" с"
+		"DeathImmunityDamageReduction_label"		"Зменшення шкоди"
+		"DeathImmunityDamageReduction_postvalue_label"		"зменшенню шкоди"
+		"DeathImmunityDamageReduction_postfix"		"%"
+
+		//Healing Booster
+		"upgrade_healing_booster_desc"		"Збільшує ефективність <span class=\"highlight\">лікування</span>."
+
+		//Debuff Reducer
+		"upgrade_debuff_reducer_desc"			"Зменшує <span class=\"highlight\">тривалість дії</span> всіх накладених на власника негативних ефектів."
+
+		//Debuff Remover | Dispel Magic
+		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Очищує всі неультимативні негативні ефекти</span>, що накладені на власника. Коли ефект вилучається, власник <span class=\"highlight\">лікується</span> та здобуває <span class=\"highlight\">додаткову швидкість руху</span>. <br><span class=\"diminish\">Не можна використовувати під час приголомшення чи сну</span>."
+		"HealOnActivate_label"		"Лікування від задіяння"
+		"HealOnActivate_postvalue_label"		"лікуванню від задіяння"
+
+		"damage_reduction_postfix"						"%"
+
+		//Decay
+		"upgrade_rupture_desc"				"<span class=\"highlight\">Поступово завдає шкоди</span> цілі на основі її поточного здоров’я.<br>Шкода від згасання несмертельна й не викликає спрацювання від предметів."
+		"HealReductionDuration_label"		"Час зменшення лікування"
+		"HealReductionDuration_postvalue_label"		"часу зменшення лікування"
+		"HealReductionDuration_postfix"		" с"
+
+		//Discord | Scourge
+		"upgrade_discord_desc"						"Застосовує на союзну ціль <span class=\"highlight\">духовний опір</span>, <span class=\"highlight\">опір ослабленню</span> й ауру, що завдає <span class=\"highlight\">{g:citadel_inline_attribute:'SpiritIcon'} шкоди</span> ворогам пропорційно до їхнього максимального здоров’я. Наявні на цілі ослаблення зменшуються.<br>Можна застосувати на себе."
+		"MaxHealthPercentAsDPS_label"				"Макс. здоров‘я за секунду"
+		"MaxHealthPercentAsDPS_postvalue_label"				"макс. здоров‘ю за секунду"
+		"MaxHealthPercentAsDPS_postfix"				"%"
+		
+		//Fortitude
+		"upgrade_chonky_desc"							"Якщо не отримувати шкоди впродовж певного часу, надається відновлення здоров’я."
+		"upgrade_chonky_high_health_passive_desc"		"За наявності <span class=\"highlight\">понад {s:HealthThreshold}% здоров’я</span> надається додаткова <span class=\"highlight\">швидкість руху</span>."
+
+		//Leech
+		"upgrade_damage_recycler_desc"				"Послаблює ефект накладеного ворогом <span class=\"highlight\">зменшення лікування</span>."
+		"LeechHealOnKill_prefix"					"+"
+		"LeechHealOnKill_label"						"Макс. лікування після вбивства"
+		"LeechHealOnKill_postvalue_label"						"макс. лікуванню після вбивства"
+		"LeechHealOnKill_postfix"					"%"
+		
+		//Rebirth
+		"upgrade_personal_rejuvenator_desc"		"Відроджує героя в місці, де він помер."
+		"RespawnDelay_postfix"						" с"
+		"SpawnTimePenalty_prefix"				"+"
+		"SpawnTimePenalty_label"				"Збільшення часу відродження"
+		"SpawnTimePenalty_postvalue_label"				"збільшенню часу відродження"
+		"SpawnTimePenalty_postfix"				" с"
+
+		//Phantom Strike
+		"upgrade_phantom_strike_desc"			"<span class=\"highlight\">Телепортує</span> до ворожої цілі та притискає її до землі. Завдає <span class=\"highlight\">шкоди</span>, зменшує <span class=\"highlight\">швидкість руху</span> та <span class=\"highlight\">роззброює</span>."
+		"PhantomStrikeDebuffDuration_label"		"Час ослаблення"
+		"PhantomStrikeDebuffDuration_postvalue_label"		"часу ослаблення"
+		"PhantomStrikeDebuffDuration_postfix"		" с"
+		"modifier_phantom_strike_bulletshield"		"Щит від куль"
+
+		//Soul Rebirth
+		"upgrade_rebirth_passive"				"Якщо ви помрете, через {s:RespawnDelay} с <span class=\"highlight\">відродитеся на місці вашої смерті</span> з частковим здоров‘ям."
+
+		//Return Fire
+		"upgrade_return_fire_desc"					"Автоматично <span class=\"highlight\">стріляє кулею</span> в нападника, який завдав власнику шкоди своїми вміннями чи зброєю."
+		"ActiveFireRate_label"						"Швидкострільність"
+		"ActiveFireRate_postvalue_label"						"швидкострільності"
+		"ActiveFireRate_postfix"						"%"
+
+		//Metal Skin
+		"upgrade_metal_skin_desc"						"Надає <span class=\"highlight\">імунітет до куль</span>."
+		"AbilityApplyDelay_postfix"						" с"
+
+		//Battle Vest
+		"upgrade_regenerating_bullet_shield_desc"	"За наявності <span class=\"highlight\">понад {s:LifeThreshold}% здоров’я</span> дає більше <span class=\"highlight\">{g:citadel_inline_attribute:'WeaponDamage'}</span> та <span class=\"highlight\">{g:citadel_inline_attribute:'BonusFireRate'}</span>."
+
+		//Enchanter's Emblem
+		"upgrade_magic_shield_desc"		"За наявності <span class=\"highlight\">понад {s:LifeThreshold}% здоров’я</span> дає більше додаткової <span class=\"highlight\">{g:citadel_inline_attribute:'Spirit'}</span> та <span class=\"highlight\">зменшення зарядки</span>."
+		
+		// "upgrade_weapon_shielding"						"Weapon Shielding"
+		"upgrade_weapon_shielding_desc"			"Здобуває <span class=\"highlight\">бар’єр</span> щоразу, коли зазнає {g:citadel_inline_attribute:'WeaponDamage'} від ворожого героя за короткий проміжок часу."
+		"DamageWindow_label"								"Інтервал"
+		"DamageWindow_postvalue_label"								"інтервалу"
+		"DamageWindow_postfix"								" с"
+		
+		// "upgrade_spirit_bubble"							"Spirit Bubble"
+		"upgrade_spirit_bubble_desc"			"Здобуває <span class=\"highlight\">бар’єр</span> щоразу, коли зазнає {g:citadel_inline_attribute:'SpiritDamage'} від ворожого героя за короткий проміжок часу."
+
+		// "upgrade_grit"							"Grit"
+		"upgrade_grit_desc"			"Ненадовго отримує <span class=\"highlight\">бар’єр</span>."
+
+		//Unstoppable
+		"upgrade_unstoppable_desc"				"Тимчасово зменшує <span class=\"highlight\">негативні ефекти стану</span> й дає <span class=\"highlight\">імунітет</span> до <span class=\"highlight\">приголомшення, знемовлення, сну, знерухомлення та роззброєння</span>.<br>Не можна використовувати під час <span class=\"highlight\">приголомшення</span> чи <span class=\"highlight\">сну</span>."
+
+		//Colossus
+		"upgrade_colossus_desc"			"<span class=\"highlight\">Збільшує розмір</span> власника і його {g:citadel_inline_attribute_icon:'MeleeDamage'}<span class=\\\"InlineAttributeName MeleeDamage\\\">ближню шкоду</span>, а також дає йому {g:citadel_inline_attribute_icon:'BulletResist'}<span class=\\\"InlineAttributeName BulletResist\\\">опір кулям</span> і {g:citadel_inline_attribute_icon:'SpiritResist'}<span class=\\\"InlineAttributeName SpiritResist\\\">духовний опір</span>. <br><br>Вороги поблизу зазнають {g:citadel_inline_attribute:'Slow'} і зменшення <span class=\"highlight\">швидкості ривка</span>."
+		"BuffBulletResist_label"		"Опір кулям"
+		"BuffBulletResist_postvalue_label"		"опору кулям"
+		"BuffBulletResist_postfix"		"%"
+		"BuffTechResist_label"			"Духовний опір"
+		"BuffTechResist_postvalue_label"			"духовному опору"
+		"BuffTechResist_postfix"		"%"
+
+		// Rebuttal - upgrade_melee_rebuttal
+		"upgrade_melee_rebuttal_desc"				"Успішне <span class=\"highlight\">парирування</span> ворожого героя дає <span class=\"highlight\">лікування</span> на обсяг парируваної шкоди й повертає цю шкоду цілі, а також тимчасово збільшує <span class=\"highlight\">шкоду</span>."
+
+		// Counterspell
+		"upgrade_counterspell_desc"				"Наступне парирування <span class=\"highlight\">захистить від шкоди та ефектів ворожих умінь і предметів</span>. Успішне парирування {g:citadel_inline_attribute:'Heals'} й дає більше {g:citadel_inline_attribute:'MoveSpeed'} та {g:citadel_inline_attribute:'Spirit'}."
+		
+		"ParrySuccessHealPercentage_label"					"Парирувана шкода як лікування"
+		"ParrySuccessHealPercentage_postvalue_label"					"парируваній шкоді як лікуванню"
+		"ParrySuccessHealPercentage_postfix"					"%"
+
+		// 
+		"upgrade_tech_purge_desc"	"Коли власник має <span class=\"highlight\">менше ніж {s:HealthThreshold}% здоров’я</span>, здобуває додатковий <span class=\"highlight\">духовний опір</span>."
+		"upgrade_improved_bullet_armor_desc"	"Коли власник має <span class=\"highlight\">менше ніж {s:HealthThreshold}% здоров’я</span>, здобуває додатковий <span class=\"highlight\">опір кулям</span>."
+
+		// Spellbreaker
+		"upgrade_spellbreaker_desc"				"Наступне зазнавання великої {g:citadel_inline_attribute:'SpiritDamage'} суттєво зменшується."
+		"SpiritDamageReductionProc_label"		"Зменшення духовної шкоди"
+		"SpiritDamageReductionProc_postvalue_label"		"зменшенню духовної шкоди"
+		"SpiritDamageReductionProc_postfix"		"%"
+
+		"upgrade_juggernaut_slow_desc"			"Вороги, які стріляють у власника, отримують сповільнення <span class=\"highlight\">швидкості стрільби</span>."
+		"FireRateSlowDuration_label"			"Час дії"
+		"FireRateSlowDuration_postvalue_label"			"часу дії"
+		"FireRateSlowDuration_postfix"			" с"
+
+		"upgrade_trophy_collector_desc"			"Щоразу після здійсненого <span class=\"highlight\">вбивства чи підмоги</span> здобуває додатковий <span class=\"highlight\">біг</span>, <span class=\"highlight\">дальність умінь</span> і <span class=\"highlight\">пасивну генерацію душ</span>. Ефект поєднується і зберігається навіть після смерті."
+		"StackingGoldPerMinute_label"			"Душі за хвилину"
+		"StackingGoldPerMinute_postvalue_label"			"душам за хвилину"
+		
+		// Indomitable
+		"upgrade_upgrade_auto_cleanse_desc"		"Наступне <span class=\"highlight\">приголомшення, сковування, знерухомлення, сон, знемовлення чи страх</span> буде автоматично знято. Коли це станеться, власник отримає <span class=\"highlight\">барʼєр</span>, а <span class=\"highlight\">зарядки всіх його вмінь</span> скоротяться на {s:CooldownReductionOnProc}%."
+		
+		//-----------------------------------------------------------------------------
+		// Upgrades: Utility
+		//----------------------------------------------------------------------------- 
+		
+		//Superior Stamina
+		"upgrade_superior_stamina_passive"			"Дає можливість додатково використовувати <span class=\"highlight\">повітряні стрибки</span> або <span class=\"highlight\">повітряні ривки</span> перед приземленням."
+
+		//Enduring Speed
+		"upgrade_cardio_calibrator_desc"			"Послаблює ефект накладених ворогом штрафів до <span class=\"highlight\">швидкості руху</span>."
+
+		//Health Nova
+		"upgrade_health_nova_desc"					"<span class=\"highlight\">Лікує</span> себе та союзників поблизу."
+
+		//Shadow Weave
+		"upgrade_cloaking_device_active_desc"		"Надає <span class=\"highlight\">непомітність</span>. Щоразу, коли власник зазнає шкоди в непомітності, він ненадовго розкривається перед ворогами."
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>Атака чи використання вміння припинить непомітність власника й почне <span class=\"highlight\">напад із засідки</span>, що тимчасово надасть йому додаткову <span class=\"highlight\">швидкострільність</span>, <span class=\"highlight\">духовну силу</span> та <span class=\"highlight\">шкоду в ближньому бою</span>."
+		"modifier_cloaking_device_active_stealth"		"Тіньове плетиво — непомітність"
+		"modifier_cloaking_device_active_ambush"		"Тіньове плетиво — напад із засідки"
+		"AmbushBonusTechPower_prefix"					"+"
+		"AmbushBonusTechPower_label"					"Духовна сила із засідки"
+		"AmbushBonusTechPower_postvalue_label"					"духовній силі із засідки"
+		"AmbushBonusFireRate_prefix"					"+"
+		"AmbushBonusFireRate_label"					"Швидкострільність із засідки"
+		"AmbushBonusFireRate_postvalue_label"					"швидкострільності із засідки"
+		"AmbushBonusFireRate_postfix"					"%"
+		"AmbushBonusMeleeDamage_label"					"Ближня шкода із засідки"
+		"AmbushBonusMeleeDamage_postvalue_label"		"ближній шкоді із засідки"
+		"AmbushBonusMeleeDamage_postfix"				"%"
+		"AmbushDuration_label"						"Час дії засідки"
+		"AmbushDuration_postvalue_label"						"часу дії засідки"
+		"AmbushDuration_postfix"						" с"
+		"StealthDuration_label"						"Час дії непомітності"
+		"StealthDuration_postvalue_label"						"часу непомітності"
+		"StealthDuration_postfix"						" с"
+		"SpottedRadius_label"						"Радіус виявлення"
+		"SpottedRadius_postvalue_label"						"радіусу виявлення"
+		"SpottedRadius_postfix"						" м"
+
+		//Majestic Leap
+		"upgrade_rocket_booster_desc"				"<span class=\"highlight\">Запускає власника</span> високо в повітря й дає <span class=\"highlight\">бар’єр</span>. У повітрі можна знову скористатися активним ефектом, щоби швидше опуститися.<br><br><span class=\"diminish\">Не можна скористатися впродовж {s:InterruptCooldown} с після атаки від ворожого героя.</span>"
+		"upgrade_rocket_booster_drop_down"			"Опускання"
+		
+		//Drain Will
+		"SpiritStealDuration_postfix"	" с"
+
+		//Reactive Barrier
+		"upgrade_vex_barrier_desc"		"Ви здобуваєте <span class=\"highlight\">бар’єр</span>, коли <span class=\"highlight\">приголмшені, скуті, знерухомлені, у сні чи знемовлені</span>."
+
+		//Spell Shield
+		"upgrade_spellshield_desc"		"Блокує наступну <panel class=\"InlineAttributeIcon SpiritDamage\" replacechar=\"_\"><span class=\"InlineAttributeName SpiritDamage\">духовну шкоду</span> чи <span class=\"highlight\">ослаблення</span>, запобігаючи їхньому впливу. Відновлюється лише поза боєм."
+		"upgrade_spellshield_shield"	"Протидуховний знак"
+		"upgrade_spellshield/modifier_spellshield_linger_buff"  "Захист із фольги зламано!"
+		"SpellShieldFlavorText_label"	"Напис!"
+
+		"SpellShieldFlavorText_postvalue_label"	"напис!"
+
+		//Heal On Level
+		"upgrade_heal_on_level_desc"	"Якщо отримати <span class=\"highlight\">перевагу</span>, надає автоматичне <span class=\"highlight\">лікування</span>."
+		"upgrade_heal_on_level_buff"	"Лікування підвищенням рівня"
+		"HealOnlevelHealAmount_label"	"Обсяг лікування"
+		"HealOnlevelHealAmount_postvalue_label"	"обсягу лікування"
+		"upgrade_heal_on_level/heal_on_level_buff"			"Лікування підвищенням рівня"
+
+		//Absorbing armor / witchmail
+		"upgrade_absorbing_armor_desc" "Зазнавання сильних ударів {g:citadel_inline_attribute:'SpiritDamage'} від ворога зменшує <span class=\"highlight\">час зарядки випадкового вміння</span>."
+
+		//Healing Buff
+		"upgrade_healbuff_desc" "Застосування {g:citadel_inline_attribute:'Healing'} на себе чи союзника призводить до надання цілі {g:citadel_inline_attribute:'BonusFireRate'} та {g:citadel_inline_attribute:'BonusMoveSpeed'}.<br><br><span class=\"diminish\">Не застосовується на вроджене відновлення здоров’я чи пасивний духовний вампіризм та/або вампіризм від куль</span>."
+
+		//Infinite Magazine
+		"upgrade_infinitemagazine_desc" "Дає <span class=\"highlight\">нескінченні набої</span> та більше {g:citadel_inline_attribute:'BonusFireRate'}."
+
+		//APRounds
+		"upgrade_aprounds_desc" "Кулі власника отримують шанс стати неминучими та <span class=\"highlight\">пробити</span> ворогів наскрізь, <span class=\"highlight\">ігноруючи їхній опір кулям</span>."
+
+		//Deflecting Armor
+		"upgrade_deflecting_armor_desc" "Здобуває шанс або відбити вхідні кулі, уникаючи всієї {g:citadel_inline_attribute:'WeaponDamage'}, або уникнути <span class=\"highlight\">ефектів влучання</span> від куль."
+		"DeflectionPercent_label" "Відсоток відбиття"
+		"DeflectionPercent_postvalue_label" "відсотку відбиття"
+		"DeflectionPercent_postfix" "%"	
+		
+		"BulletProcDeflectionPercent_label" "Відсоток запобігання влучанню"
+		"BulletProcDeflectionPercent_postvalue_label" "відсотку запобігання влучанню"
+		"BulletProcDeflectionPercent_postfix" "%"
+
+		// Shadow Step Active
+		"upgrade_shadow_step_desc"	"<span class=\"highlight\">Телепортує</span> вперед."
+
+		//Shadow Step Passive
+		"upgrade_shadow_step_passive_desc"	"Періодично завдає {g:citadel_inline_attribute:'SpiritDamage'} всім ворогам поблизу."
+
+		"upgrade_haunting_scream_desc"	"Запускає розширювальний снаряд, що ненадовго <span class=\"highlight\">проклинає</span> ворогів."
+		
+		"upgrade_apex_combat_desc"		"Кулі <span class=\"highlight\">зрикошетять</span> на ворогів біля цілі, <span class=\"highlight\">накладаючи ефекти від куль</span> та <span class=\"highlight\">завдаючи відсоток початкової шкоди</span>."
+
+		"upgrade_aerial_supremacy_passive"			"Дає можливість <span class=\"highlight\">необмежено</span> використовувати <span class=\"highlight\">повітряні стрибки</span> або <span class=\"highlight\">повітряні ривки</span> перед приземленням."
+
+		"upgrade_infinite_rounds_desc" "Дає <span class=\"highlight\">нескінченні набої</span>."
+
+		// BulletShredImbue Ballistic Enchantment
+		"upgrade_bulletshredimbue_desc" "Насичує вміння збільшеною <span class=\"highlight\">дальністю</span>. Завдавання шкоди цим умінням дає збільшену <span class=\"highlight\">збройову шкоду</span> за <span class=\"highlight\">влучання в окремого героя</span>. Ефект від негероїв зменшено."
+
+		// Recharging Bullets
+		"upgrade_rechargingbullets_desc" "Завдання значної {g:citadel_inline_attribute:'WeaponDamage'} поновлює один заряд для <span class=\"highlight\">кожного вміння, що має заряди</span>."
+		"CooldownReductionOnProc_postvalue_label" "зменшенню зарядки"
+		"CooldownReductionOnProc_label" "Зменшення зарядки"
+		"CooldownReductionOnProc_postfix" " с"
+		"CooldownReductionOnProc_prefix" "{s:sign}"
+
+
+		//-----------------------------------------------------------------------------
+		// Street Brawl Tier5
+		//----------------------------------------------------------------------------- 
+		"upgrade_icarus_wings_desc"		"У повітрі власник завдає додаткової шкоди й зазнає зменшеної шкоди. Дає можливість здійснювати <span class=\"highlight\">необмежену кількість</span> ривків у повітрі та стрибків."
+		"upgrade_mystical_piano_desc"	"Після короткої затримки вороги в цільовій області приголомшуються, а їхня витривалість вичерпується. Після приголомшення вони зазнають тимчасового запаморочення."
+		"upgrade_nullification_aura_desc"	"Вилучає всі посилення й не дає ворогам користуватися витривалістю та лікуванням."
+		"upgrade_nullification_aura_deathdamage_desc"	"Завдає великої духовної шкоди після смерті власника."
+		"upgrade_celestial_guidance_desc"	"Застосовує надзвичайно потужне очищення, яке глобально поновлює союзників."
+		"upgrade_eternal_gift_desc"			"Періодично дає випадкове постійне посилення показників."
+		"upgrade_eternal_gift_respawn_desc"		"Зменшує час відродження після наступної смерті."
+		"upgrade_patrons_blessing_desc"			"Дає власнику та союзникам потужну духовну ауру. Союзники отримують зменшені значення."
+		"upgrade_patrons_blessing_proc_desc"	"Завдавання суттєвої <span class=\"highlight\">шкоди</span> ворожому герою впродовж {s:DamageThresholdDuration} с лікує власника та союзників поблизу."
+
+		"AllyPercentage_postvalue_label" "союзникам"
+		"AllyPercentage_label" "Союзникам"
+		"AllyPercentage_postfix" "%"
+		"AllyPercentage_prefix" "{s:sign}"
+		"RespawnTime_postvalue_label" "відродженню"
+		"RespawnTime_label" "Відродження"
+		"RespawnTime_postfix" "%"
+		"RespawnTime_prefix" "{s:sign}"
+
+		"upgrade_eldritch_shot_desc"			"Наступна куля накладе потужне ослаблення, що зменшить вихідну шкоду, лікування та швидкість руху ворога. Також завдає {g:citadel_inline_attribute:'BonusSpiritDamage'} відповідно до поточного здоров’я цілі. <br><br>Розмір кулі збільшується й вона пробиває цілі наскрізь."
+		"upgrade_cloak_of_opportunity_desc"		"Блокує наступне ослаблення, що накладає <span class=\"highlight\">зупинку руху, приголомшення, сковування, знерухомлення чи сон</span>, і дає <span class=\"highlight\">нестримність</span>. Також дає <span class=\"highlight\">бар’єр</span> і додачу {g:citadel_inline_attribute:'MoveSpeed'}."
+		"upgrade_runed_gauntlets_desc"			"Щоразу після завдавання важкого ближнього удару наявні зарядки зменшуються."
+		"upgrade_runed_gauntlets_parry_desc"		"Пробиває крізь парирування."
+		"upgrade_electric_slippers_desc"		"Під час ковзання дає ухилення від куль, швидкострільність і завдає шкоди ворогам навколо. <span class=\"diminish\"><br><br>Окрема зарядка для кожної цілі.</span>"
+		"upgrade_prism_blast_desc"				"Власник входить у стан порожнечі й <span class=\"highlight\">на нього не можна націлитися чи вразити його</span> впродовж короткого проміжку часу, коли лазери вистрілюють та обертаються навколо."
+		"upgrade_unstable_concoction_desc"		"Споживає відвар, який надає <span class=\"highlight\">нестримність</span> та збільшує <span class=\"highlight\">швидкість, здоров’я, духовну та збройову шкоду</span>. Після короткого часу <span class=\"highlight\">герой помирає й вибухає</span>, приголомшуючи ворогів довкола й завдаючи шкоди відповідно до свого максимального здоров’я. Якщо померти в такий спосіб, час відродження буде зменшено на <span class=\"highlight\">{s:RespawnTimeMod}%</span>."
+		"upgrade_shivas_bracelet_desc"			"У насиченого вміння <span class=\"highlight\">зменшується зарядка</span> й воно здобуває додаткову <span class=\"highlight\">духовну силу</span>. Коли це вміння завдає шкоди, воно <span class=\"highlight\">заморожує</span> ціль і накладає <span class=\"highlight\">додаткову шкоду</span>. <span class=\"diminish\"><br><br>Окрема зарядка для кожної цілі.</span>"
+		"upgrade_shadow_strike_desc"			"Здобуває <span class=\"highlight\">невидимість</span> під час <span class=\"highlight\">використання витривалості</span> без дальності виявлення. Завдавання <span class=\"highlight\">ближнього удару</span> під час невидимості дозволяє <span class=\"highlight\">викрасти опір кулям і духовний опір</span> у цілі й завдати їй <span class=\"highlight\">періодичної шкоди</span>."
+		"upgrade_omnicharge_pendant_desc"		"Насичує будь-яке дієве неультимативне вміння <span class=\"highlight\">додатковими зарядами вміння</span>. Уже заряджені здобувають додаткові заряди."
+		"upgrade_omnicharge_pendant_charges"	"Додаткові заряди"
+
+		//-----------------------------------------------------------------------------
+		// Cosmetic
+		//----------------------------------------------------------------------------- 
+		"cosmetic_ability_snowball"		"Сніжка"
+		"cosmetic_ability_snowball_desc"		"Кидайте сніжки у своїх друзів та ворогів. Відстань та інші властивості покращуватимуться з прогресом у <span class=\"highlight\">святковому випробуванні 2025 року</span>.<br><br><span class=\"diminish\">Кинута в союзника сніжка не завдасть шкоди, а зарядка буде миттєвою."
+		"SnowballSpeed_label"			"Швидкість кидка"
+		"SnowballSpeed_postvalue_label"		"швидкості"
+		"SnowballSpeed_postfix"			" м/с"
+		"SnowballCount_label"			"Кинуті сніжки"
+		"SnowballCount_postvalue_label"		"кількості"
+
+		"cosmetic_item_voting_poster"		"Розмістити плакат"
+	}
+}

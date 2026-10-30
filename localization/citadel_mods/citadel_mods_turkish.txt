@@ -1,0 +1,1022 @@
+﻿"lang"
+{
+	"Language"		"turkish"
+	"Tokens"
+	{
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Weapon
+		//-----------------------------------------------------------------------------
+
+		//Ammo Scavenger
+		"upgrade_ammo_scavenger_desc"		"Bir varlıktan Ruh topladığınızda veya Ruh reddettiğinizde <span class=\"highlight\">cephaneniz iade edilir</span> ve istiflenen <span class=\"highlight\">Büyü Gücü</span> kazanırsınız.<br>Maksimum İstif'e ulaştığınızda bonus Koşu Hızı elde edersiniz."
+		"AmmoPerSoul_prefix"				"+"
+		"AmmoPerSoul_label"					"Ruh Başına Cephane"
+		"AmmoPerSoul_postvalue_label"					"Ruh Başına Cephane"
+		"SpiritPowerPerSoul_prefix"			"+"
+		"SpiritPowerPerSoul_label"			"Ruh Başına Büyü Gücü"
+		"SpiritPowerPerSoul_postvalue_label"			"Ruh Başına Büyü Gücü"
+		"AmmoScavengerDuration_label"		"Süre"
+		"AmmoScavengerDuration_postvalue_label"		"Süre"
+		"AmmoScavengerDuration_postfix"		" sn."
+
+		//Melee Lifesteal
+		"upgrade_lifestrike_gauntlets_desc"	"Bir sonraki <span class=\"highlight\">yakın dövüş</span> saldırınız sizi <span class=\"highlight\">iyileştirir</span>. <span class=\"diminish\"><br><br>İyileştirme, kahraman olmayan birimlere karşı %{s:NonHeroHealPct} etkilidir. <br>Hafif yakın dövüş saldırılarında dolum süresi {s:LightMeleeCooldownMult} kat fazladır.</span>"
+		"LifestrikeHeal_label"				"Yakın Dövüş Saldırısıyla İyileşme"
+		"LifestrikeHeal_postvalue_label"				"Yakın Dövüş Saldırısıyla İyileşme"
+
+		//Tesla Bullets
+		"upgrade_chain_lightning_desc"	"Mermilerinizin hedefinize <span class=\"highlight\">elektrik çarpma</span> şansı vardır. <span class=\"highlight\">Elektrik çarpması</span> yakındaki bir düşmana seker."
+
+		//Galvanic Storm
+		"GalvanicBuffDuration_label"						"Süre"
+		"GalvanicBuffDuration_postvalue_label"						"Süre"
+		"GalvanicBuffDuration_postfix"					" sn."
+
+		//Silence Glyph
+		"upgrade_targeted_silence_desc"	"Düşmanları kısa bir süreliğine <span class=\"highlight\">Susturan</span>, çarpma hasarı veren ve gittikçe genişleyen bir atış yapın. <br><br><span class=\"diminish\">Susturma, yönlendirmeli yetenekleri durdurmaz.</span>"
+		"ResistReductionDuration_label"	"Direnç Azaltma Süresi"
+		"ResistReductionDuration_postvalue_label"	"Direnç Azaltma Süresi"
+		"ResistReductionDuration_postfix"	" sn."
+
+		//EMP Bullets
+		"upgrade_proc_silence_desc"		"Mermileriniz <span class=\"highlight\">susturma</span> uygular. Kurbanlar, susturma sona erdikten sonra <span class=\"highlight\">{s:ImmunityDuration} saniye</span> boyunca bu etkiye karşı bağışıklık kazanır."
+		"upgrade_proc_silence_debuff_desc"		"Mermileriniz hedefin <span class=\"highlight\">verdiği büyü hasarını</span> azaltır."
+		"proc_silence_buildup"			"Susturmaya hazırlanıyor..."
+		"modifier_citadel_silence_proc_tech_damage_reduction"	"-Büyü Hasarı"
+
+		//Silencer
+		"upgrade_silencer_active"		"{s:AbilityDuration} saniye boyunca <span class=\"highlight\">tüm mermileriniz susturma uygular</span>. Susturulan hedefler yeteneklerini kullanamaz."
+
+		//Slowing Bullets
+		"upgrade_slowing_bullets_desc"	"Mermileriniz düşmanlara <span class=\"highlight\">hareket yavaşlatması</span> uygular."
+		"upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base"					"Yavaşlatıldı"
+
+		//Inhibitor
+		"upgrade_inhibitor_desc"	"Mermileriniz birikerek hedefin <span class=\"highlight\">verdiği hasarı</span> azaltır ve <span class=\"highlight\">iyileştirme azaltması</span> uygular."
+		"OutgoingDamagePenaltyPercent_label"	"Hasar Cezası"
+		"OutgoingDamagePenaltyPercent_postvalue_label"	"Hasar Cezası"
+		"OutgoingDamagePenaltyPercent_postfix"	"%"
+
+		//Hunter's Aura
+		"upgrade_bullet_armor_reduction_aura_desc"		"Yakındaki düşmanların <span class=\"highlight\">mermi direnci ve atış hızını</span> azaltır. Yakında sadece tek bir düşman kahraman varsa, bu <span class=\"highlight\">etki ikiye katlanır</span>."
+
+		//Heroic Aura
+		"upgrade_dps_aura_active_desc"	"Size ve yakındaki dostlara <span class=\"highlight\">{g:citadel_inline_attribute:'MoveSpeed'}</span> ve <span class=\"highlight\">{g:citadel_inline_attribute:'FireRate'}</span> verir. <span class=\"highlight\">Kahramanların birimleri</span> iki kat daha fazlasını alır."
+		"upgrade_dps_aura_desc"			"Yakındaki dost birimlere <span class=\"highlight\">mermi direnci</span> sağlar."		
+		"modifier_dps_aura_active"		"Kahramanlık Aktif"
+		"modifier_dps_aura_player"		"Kahramanlık Atış Hızı"
+
+		//"BonusBaseDamage_label"			"Base Bullet and Melee Damage"
+		"BonusBaseDamage_postfix"		"%"
+
+		//Warp Stone
+		"upgrade_warp_stone_desc"	"Dümdüz ileri <span class=\"highlight\">ışınlanın</span> ve <span class=\"highlight\">mermi direnci</span> kazanın."
+		"WarpStoneRange_label"		"Işınlanma Menzili"
+		"WarpStoneRange_postvalue_label"		"Işınlanma Menzili"
+		"WarpStoneRange_postfix"		" m"
+		"CasterBuffDuration_label"	"Güçlendirme Süresi"
+		"CasterBuffDuration_postvalue_label"	"Güçlendirme Süresi"
+		"CasterBuffDuration_postfix"	" sn."
+		"CasterSlowPercent_postfix"	"%"
+
+		//Torment Pulse
+		"upgrade_tech_damage_pulse_desc"	"Düzenli aralıklarla en yakın iki düşmana {g:citadel_inline_attribute:'SpiritDamage'} verir."
+
+		//Mystic Burst
+		"upgrade_magic_burst_desc"	"Zamanla {g:citadel_inline_attribute:'BonusSpiritDamage'} ile dolar ve <span class=\"highlight\">{s:MinimumDamage}</span> değerinden fazla hasar veren yeteneklerin ek hasar vermesini sağlar."
+		"MagicBurstDamage_label"		"Bonus Hasar"
+
+		"MagicBurstDamage_postvalue_label"		"Bonus Hasar"
+
+		//Improved Burst Tankbuster
+		"upgrade_magic_shock_desc"	"Zamanla {g:citadel_inline_attribute:'BonusSpiritDamage'} ile dolar ve <span class=\"highlight\">{s:MinimumDamage}</span> değerinden fazla hasar veren yeteneklerin ek hasar vermesini sağlar. <span class=\"highlight\">Büyü direncinden etkilenmez.</span>"
+		"MagicShockDamage_label"		"Mevcut Sağlık Bonus Hasarı"
+		"MagicShockDamage_postvalue_label"		"Mevcut Sağlık Bonus Hasarı"
+		"MagicShockDamage_postfix"	"%"
+
+		//Mystic Reverb
+		"upgrade_tech_bleed_desc" "Vurulan hedefe <span class=\"highlight\">yavaşlatma</span> uygulamak ve kısa bir gecikme sonrasında <span class=\"highlight\">verilmiş hasarın bir bölümünü ilave olarak</span> hedefin etrafındaki düşmanlara vermek için bir yeteneği <span class=\"highlight\">can çalma</span> ile güçlendirin."
+	
+		//Toxic Bullets
+		"upgrade_toxic_bullets_desc"	"Mermileriniz düşmanlar üzerinde <span class=\"highlight\">Kanama</span> biriktirerek <span class=\"highlight\">Maksimum Sağlıklarının</span> <span class=\"highlight\">belirli bir yüzdesini</span> zamanla kaybetmelerine neden olur. Ayrıca kanayan hedefin <span class=\"highlight\">Aldığı İyileştirmeyi</span> de azaltır."
+		"upgrade_toxic_bullets_buildup"					"Toksisite artıyor..."
+		"upgrade_bleeding_bullets_buildup"				"Tırtıklı bıçaklar bileniyor..."
+		"modifier_item_burning_bullets_damageovertime" 	"Kanıyor"
+		"upgrade_hemorrhage/modifier_item_hemorrhage/modifier_hemorrhage" "Kanıyor"
+
+		// Weighted Shots
+		"upgrade_weighted_shots_desc"	"Mermileriniz düşmanlara <span class=\"highlight\">hareket yavaşlatması</span> uygular."
+		//"upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base"					"Slowed"
+
+		//Spiritual Overflow
+		"upgrade_tech_overflow_desc"	"Kahramanlara ateş ederken <span class=\"highlight\">şarj olarak</span> bonus <span class=\"highlight\">Atış Hızı</span>, <span class=\"highlight\">Büyü Gücü</span> ve <span class=\"highlight\">Büyü Can Çalması</span> kazandırır."
+		"modifier_tech_overflow_building" "Büyülü Coşkunluk Birikiyor..."
+
+		"OverflowTechPower_label"		"Büyü Gücü"
+
+		"OverflowTechPower_postvalue_label"		"Büyü Gücü"
+		"OverflowBonusDamage_postfix"	"%"
+
+		//Ricochet
+		"upgrade_ricochet_desc"		"Mermileriniz, hedefinizin yakınındaki düşmanlar arasında <span class=\"highlight\">sekerek</span> <span class=\"highlight\">mevcut her türlü mermi etkinleşmesini uygular</span> ve <span class=\"highlight\">ilk hasarın bir oranını verir</span>."
+		"RicochetTargetsTooltipOnly_label"			"Sekme Hedefi"
+		"RicochetTargetsTooltipOnly_postvalue_label"			"Sekme Hedefi"
+		"RicochetDamagePercent_label"					"Sekme Hasarı"
+		"RicochetDamagePercent_postvalue_label"					"Sekme Hasarı"
+		"RicochetDamagePercent_postfix"					"%"
+		"RicochetRadius_label"							"Sekme Menzili"
+		"RicochetRadius_postvalue_label"							"Sekme Menzili"
+		"RicochetRadius_postfix"							" m"
+
+		"ModelScaleGrowthTooltip_label"					"Model Boyutu"
+		"ModelScaleGrowthTooltip_postvalue_label"					"Model Boyutu"
+		"ModelScaleGrowthTooltip_postfix"					"%"
+
+		"ShrinkDuration_label"					"Küçültme Süresi"
+		"ShrinkDuration_postvalue_label"					"Küçültme Süresi"
+		"ShrinkDuration_postfix"					" sn."
+		
+		"BonusBaseHealth_prefix"					"+"
+		"BonusBaseHealth_label"					"Temel Sağlık"
+		"BonusBaseHealth_postvalue_label"					"Temel Sağlık"
+		"BonusBaseHealth_postfix"					"%"
+
+		//Close Quarters
+		"upgrade_close_range_desc"	"Hedefinizle aranızda <span class=\"highlight\">kısa menzil</span> varken ilave <span class=\"highlight\">silah hasarı</span> verin."
+		"upgrade_close_quarter_combat/modifier_cqc_proc/modifier_slow_base"			"Yavaşlatıldı"
+
+		//Long Range
+		"upgrade_long_range_desc"	"Hedefinizle aranızdaki mesafe <span class=\"highlight\">minimum mesafeden daha fazlaysa</span>, hedefinize ilave <span class=\"highlight\">silah hasarı</span> verirsiniz."
+
+		//Mystic Shot
+		"upgrade_crackshot_desc"	"Bir sonraki merminiz bonus {g:citadel_inline_attribute:'SpiritDamage'} verir."
+		"ProcBonusMagicDamage_prefix"	"{s:sign}"
+		"ProcBonusMagicDamage_label"	"Büyü Hasarı"
+
+		"ProcBonusMagicDamage_postvalue_label"	"Büyü Hasarı"
+
+		//Ethereal Bullets
+		"upgrade_ethereal_bullets_desc"	"Güçlendirilmiş yeteneğiniz zamanla şarj olarak, kullanıldığında {g:citadel_inline_attribute:'BonusSpiritDamage'} ve {g:citadel_inline_attribute:'BonusFireRate'} sağlar ve <span class=\"highlight\">şarjör değiştirir</span>. Şarjör değiştirene kadar sahip olduğunuz büyü gücüne oranla <span class=\"highlight\">mermileriniz {g:citadel_inline_attribute:'BonusSpiritDamage'} verir</span>."
+		"BulletsBonusMagicDamage_label"	"Temel Mermi Hasarı"
+		"BulletsBonusMagicDamage_postvalue_label"	"Temel Mermi Hasarı"
+		"BulletsBonusMagicDamage_prefix"	"+"
+		"BulletsBonusMagicDamage_postfix"	"%"
+
+		//Restorative Shot
+		"upgrade_medic_bullets_desc"	"Bir sonraki atışınız, vurduğunuz hedefe göre sizi <span class=\"highlight\">iyileştirir</span>."
+		"HealFromHero_label"	"Kahramanlardan Gelen İyileştirme"
+		"HealFromHero_postvalue_label"	"Kahramanlardan Gelen İyileştirme"
+		"HealFromNPC_label"	 "NPC'lerden/Kürelerden Gelen İyileştirme"
+
+		"HealFromNPC_postvalue_label"	 "NPC'lerden/Kürelerden Gelen İyileştirme"
+
+		//Point Blank
+		"upgrade_close_quarter_combat_desc"	"Hedefinizle <span class=\"highlight\">yakın menzildeyken</span> <span class=\"highlight\">silah hasarı</span> kazanırsınız ve mermileriniz <span class=\"highlight\">hareket yavaşlatması</span> uygular."
+
+		//Headshot Booster
+		"upgrade_headshot_booster_desc"		"Bir düşman kahramana yapacağınız bir sonraki <span class=\"highlight\">kafadan vuruşunuz</span> {g:citadel_inline_attribute:'BonusWeaponDamage'} hasar verecek."
+
+		//Weakening Headshot
+		"upgrade_headshot_booster2_desc"		"<span class=\"highlight\">Kafadan vuruş</span> yapmak, hedefin <span class=\"highlight\">mermi direncini</span> azaltır."
+
+		//Sharpshooter
+		"upgrade_sharpshooter_desc"				"Hedefinizle aranızdaki mesafe <span class=\"highlight\">minimum mesafeden daha fazlaysa</span>, hedefinize ilave <span class=\"highlight\">silah hasarı</span> verirsiniz."
+
+		//Headhunter
+		"upgrade_headhunter_desc"	"Bir düşman kahramana yapacağınız bir sonraki <span class=\"highlight\">kafadan vuruşunuz;</span> ona {g:citadel_inline_attribute:'BonusWeaponDamage'}, size {g:citadel_inline_attribute:'Heal'} verecek ve kısa süreliğine {g:citadel_inline_attribute:'BonusMoveSpeed'} sağlayacak."
+		"HealPercentPerHeadshot_label"		"Kafadan Vuruş Başına İyileşme"
+		"HealPercentPerHeadshot_postvalue_label"		"Kafadan Vuruş Başına İyileşme"
+		"HealPercentPerHeadshot_postfix"	"%"
+		"BaseHealOnHeadshot_label"			"Kafadan Vuruş Başına İyileşme"
+		"BaseHealOnHeadshot_postvalue_label"			"Kafadan Vuruş Başına İyileşme"
+
+		//Spellslinger Headshots
+		"upgrade_spellslinger_headshots_part1_desc"	"Mermileriniz, hedefin <span class=\"highlight\">büyü direncini</span> azaltan bir zayıflatma uygular ve hem size hem de dostlarınıza ona karşı <span class=\"highlight\">büyü can çalması</span> verir."
+		"upgrade_spellslinger_headshots_part2_desc"	"Hedefe isabet edecek daha fazla <span class=\"highlight\">kafadan vuruş</span> hedefin <span class=\"highlight\">büyü direncini</span> daha fazla azaltır."
+		"SpiritPowerGainPct_label"				"Büyü Gücü"
+		"SpiritPowerGainPct_postvalue_label"				"Büyü Gücü"
+		"SpiritPowerGainPct_postfix"			"%"
+		"SpellSlingerHeadshots_SpiritShredPerStack_label"		"Kafadan Vuruş Başına Büyü Direnci"
+		"SpellSlingerHeadshots_SpiritShredPerStack_postvalue_label"		"Kafadan Vuruş Başına Büyü Direnci"
+		"SpellSlingerHeadshots_SpiritShredPerStack_postfix"	"%"
+
+		//Crippling Headshot
+		"upgrade_banshee_slugs_headshots_desc"	"<span class=\"highlight\">Kafadan vuruş yapmak</span>, hedefin <span class=\"highlight\">Mermi, Büyü Direnci ve Alınan İyileştirmesini</span> azaltır."
+
+		//Berserker
+		"upgrade_berserker_desc"		"Sürekli hasar aldıkça <span class=\"highlight\">silah hasarınız</span> artar."
+
+		//Frenzy
+		"upgrade_fervor_passive"	"<span class=\"highlight\">%{s:LowHealthThreshold} sağlığın altındayken</span> bir süre boyunca özellik bonusları kazanırsınız ve mevcut zayıflatmaların etkisi azalır."
+		"FervorTechResist_postfix"  "%"
+		"modifier_fervor_aura_active"		"Çıldırdı"
+		"FervorBulletResist_label"		"Mermi Direnci"
+		"FervorBulletResist_postvalue_label"		"Mermi Direnci"
+		"FervorBulletResist_prefix"		"+"
+		"FervorBulletResist_postfix"	"%"
+
+		//Soul Shredder Bullets
+		"upgrade_tech_defense_shredders_desc"	"Mermileriniz, hedefin <span class=\"highlight\">büyü direncini</span> azaltan bir zayıflatma uygular ve hem size hem de dostlarınıza ona karşı <span class=\"highlight\">büyü can çalması</span> verir."
+		"ShreddersTechAmp_label"				"Büyü Artırımı"
+		"ShreddersTechAmp_postvalue_label"				"Büyü Artırımı"
+		"ShreddersTechAmp_postfix"			"%"
+
+		//Hollow Point Ward
+		"upgrade_hollow_point_rounds_desc"				"<span class=\"highlight\">%{s:LifeThreshold} sağlığın üzerindeyken</span> ilave <span class=\"highlight\">silah hasarı</span> verirsiniz ve mermileriniz düşmanın <span class=\"highlight\">mermi direncini</span> azaltır."
+
+		// Pristine Emblem
+		"upgrade_pristine_emblem_desc"	"Saldırılarınız <span class=\"highlight\">%{s:EnemyLifeThreshold} üzerinde sağlığa sahip düşmanlara</span> karşı ilave <span class=\"highlight\">silah hasarı</span> verir."
+		"BaseAttackDamagePercentBonus_label"	"Silah Hasarı"
+		"BaseAttackDamagePercentBonus_postvalue_label"	"Silah Hasarı"
+		"BaseAttackDamagePercentBonus_prefix"	"+"
+		"BaseAttackDamagePercentBonus_postfix"	"%"
+
+		//Disarming Bullets
+
+		//Glass Cannon
+		"upgrade_glass_cannon_desc"		"Her kahraman leşi en fazla {s:MaxStacks} defa olacak şekilde <span class=\"highlight\">kalıcı atış hızı</span> sağlar. Ölünce 1 istif kaybolur."
+		"GlassCannon_SlowPercent_label"		"Mermi Yavaşlatma Etkinleşmesi"
+		"GlassCannon_SlowPercent_postvalue_label"		"Mermi Yavaşlatma Etkinleşmesi"
+		"GlassCannon_SlowPercent_postfix"	"%"
+		"GlassCannon_SlowPercent_prefix"	"+"
+		"upgrade_glass_cannon_plus1"		"Kırılgan Kudret +1"
+
+		//Fury Trance
+		"upgrade_fury_trance_active"	"<span class=\"highlight\">Atış Hızı</span>, <span class=\"highlight\">Büyü Direnci</span> ve <span class=\"highlight\">Hareket Hızı</span> sağlar ve ateş ederken alınan <span class=\"highlight\">Hareket Hızı</span> cezasını kaldırır ancak sizi <span class=\"highlight\">Susturur</span> ve <span class=\"highlight\">kuvvet kullanımını ve yenilenmesini devre dışı bırakır</span>."
+
+		//Vampiric Burst
+		"upgrade_surging_power_active"	"<span class=\"highlight\">Can çalma</span>, <span class=\"highlight\">atış hızı</span> ve <span class=\"highlight\">cephane</span> verir. Eklenen bu cephane, maksimum şarjör kapasitenizle sınırlı değildir."
+		"ActiveBonusLifesteal_label"		"Mermi Can Çalması"
+		"ActiveBonusLifesteal_postvalue_label"		"Mermi Can Çalması"
+		"ActiveBonusLifesteal_postfix"	"%"
+
+		//Siphon Bullets
+		"upgrade_siphon_bullets_desc_passive2"	"Mermileriniz geçici olarak düşmanların <span class=\"highlight\">maksimum sağlığını çalar</span>. Zayıflatma sona erdikten sonra düşman çalınan sağlığını geri kazanır."
+		"HealthSteal_label"						"Mermi Başına Maks. Sağlık Çalma"
+		"HealthSteal_postvalue_label"			"Mermi Başına Maks. Sağlık Çalma"
+		"SiphonBullets_HealthStealPctHero_label"			"Maks. Sağlık Çalma"
+		"SiphonBullets_HealthStealPctHero_postvalue_label"	"Maks. Sağlık Çalma"
+		"SiphonBullets_HealthStealPctHero_postfix"			"%"
+
+		//Overdrive Clip
+		"BonusReloadSpeed_label"						"Şarjör Değiştirme Süresi"
+		"BonusReloadSpeed_postvalue_label"						"Şarjör Değiştirme Süresi"
+		"BonusReloadSpeed_Postfix"						"%"
+		"OverdriveClipDuration_Postfix"					" sn."
+
+		//Burst Fire Actuator
+		"BurstFireShotsFromClipPercent_Postfix"			"%"
+		"BonusHeadshotDamage_label"						"Bonus Kafadan Vuruş Hasarı"
+		"BonusHeadshotDamage_postvalue_label"						"Bonus Kafadan Vuruş Hasarı"
+		"BonusHeadshotDamage_postfix"					"%"
+		"BaseBonusWeaponPower_prefix"					"+"
+
+		//Lifestrike
+		"upgrade_boxing_glove_desc"						"<span class=\"highlight\">Yakın dövüş</span> saldırılarınız <span class=\"highlight\">hareket yavaşlatması</span> uygular ve sizi, verdiğiniz <span class=\"highlight\">yakın dövüş</span> hasarının bir yüzdesi ve belirli bir miktar <span class=\"highlight\">iyileştirir</span>. <span class=\"diminish\"><br><br>Bu iyileştirme kahraman olmayan birimlere karşı %{s:NonHeroHealPct} etkilidir. <br>Hafif yakın dövüş saldırılarında dolum süresi {s:LightMeleeCooldownMult} kat fazladır.</span>"
+		"BonusMeleeSpeed_prefix"						"+"
+		"BonusMeleeSpeed_postfix"						"%"
+		"DisarmDuration_label"							"Etkisizleştirme Süresi"
+		"DisarmDuration_postvalue_label"							"Etkisizleştirme Süresi"
+		"DisarmDuration_postfix"						" sn."
+		"LifestealHeal_label"				"Yakın Dövüş Saldırısıyla İyileşme"
+		"LifestealHeal_postvalue_label"				"Yakın Dövüş Saldırısıyla İyileşme"
+		"LifestealHealPercent_label"				"Yakın Dövüş Vuruşuyla İyileşme"
+		"LifestealHealPercent_postvalue_label"				"Yakın Dövüş Vuruşuyla İyileşme"
+		"LifestealHealPercent_postfix"				"%"
+
+		"MeleeLifesteal_label"				"Yakın Dövüş Can Çalması"
+		"MeleeLifesteal_postvalue_label"				"Yakın Dövüş Can Çalması"
+		"MeleeLifesteal_postfix"				"%"
+
+
+
+		//Belt-Fed Magazine
+		"SpinUpTime_postfix"							" sn."
+		"InitialFireRateDecrease_prefix"				"-"
+		"InitialFireRateDecrease_postfix"				"%"
+		"MaxFireRateIncrease_prefix"					"+"
+		"MaxFireRateIncrease_postfix"							"%"
+		"BonusReloadTime_postfix"						" sn."
+
+		//Stabilizing Tripod
+		"StationaryRecoilReduction_postfix"					"%"
+		"StationaryWeaponPower_prefix"						"+"
+		"CasterHealthPercent_postfix"					"%"
+
+		//Burst Fire
+		"upgrade_burst_fire_desc"						"Mermilerinizden biri bir kahramana isabet ettiğinde kısa süreliğine <span class=\"highlight\">Atış Hızı</span> ve <span class=\"highlight\">Hareket Hızı</span> kazanırsınız."
+
+		//Intensifying Magazine
+		"upgrade_intensifying_clip_desc"				"Silahınızı ateşledikçe <span class=\"highlight\">silah hasarınızı</span> artırır."
+		"BaseAttackDamagePercentAtMaxDuration_label"	"Maks. Silah Hasarı"
+		"BaseAttackDamagePercentAtMaxDuration_postvalue_label"	"Maks. Silah Hasarı"
+		"BaseAttackDamagePercentAtMaxDuration_postfix"		"%"
+		"ShootDurationForMax_label"						"Maksimum Hasara Ulaşma Süresi"
+		"ShootDurationForMax_postvalue_label"						"Maksimum Hasara Ulaşma Süresi"
+		"ShootDurationForMax_postfix"							" sn."
+		
+		//Escalating Resilience
+		"upgrade_reinforcing_casings_desc"    "Mermileriniz bir kahramana isabet ettiğinde <span class=\"highlight\">Mermi Direnci</span> sağlar. <span class=\"highlight\">Her atış en fazla bir istif kazandırabilir.</span>"
+		"MaxArmorStacks_label"				"Maksimum Mermi Direnci"
+		"MaxArmorStacks_postvalue_label"				"Maksimum Mermi Direnci"
+		"MaxArmorStacks_postfix"				"%"
+		"BulletResistPerStack_label"				"İstif Başına Mermi Direnci"
+		"BulletResistPerStack_postvalue_label"				"İstif Başına Mermi Direnci"
+		"BulletResistPerStack_postfix"			"%"
+		"BulletResistDuration_label"				"İstif Süresi"
+		"BulletResistDuration_postvalue_label"				"İstif Süresi"
+		"BulletResistDuration_postfix"			" sn."
+
+		//Lucky Shot
+		"upgrade_critshot_desc"				"Mermilerinizin güçlenme şansı vardır. İsabet eden güçlenmiş mermiler <span class=\"highlight\">bonus silah hasarı</span> verir.<br><span class=\"diminish\">Bonus hasar kritik hasar vermez.</span>"
+		"CritDamagePercent_prefix"			"+"
+		"CritDamagePercent_label"			"Bonus Silah Hasarı"
+		"CritDamagePercent_postvalue_label"			"Bonus Silah Hasarı"
+		"CritDamagePercent_postfix"			"%"
+
+		//Veil Walker
+		"upgrade_veil_walker_desc"			"<span class=\"highlight\">Kozmik bir düzlemde</span> seyahat edersiniz. Bu esnada <span class=\"highlight\">gizlenir</span>, <span class=\"highlight\">iyileşir</span> ve artırılmış <span class=\"highlight\">hareket hızı</span> kazanırsınız."
+		"VeilWalker_MoveSpeed_label"			"Görünmezken Hareket Hızı"
+		"VeilWalker_MoveSpeed_postvalue_label"			"Görünmezken Hareket Hızı"
+		"VeilWalker_MoveSpeed_postfix"		" m"
+		"VeilWalker_Heal_label"			"İyileşme"
+		"VeilWalker_Heal_postvalue_label"			"İyileşme"
+		//Glass Cannon2
+		"upgrade_glass_cannon2_desc"		"Her kahraman leşi en fazla {s:MaxStacks} defa olacak şekilde <span class=\"highlight\">kalıcı silah hasarı</span> sağlar. Ölünce 1 istif kaybolur."
+
+		//"upgrade_split_shot"					"Split Shot"
+		"upgrade_split_shot_desc"			"Silahınızın <span class=\"highlight\">çoklu atış</span> yapmasını sağlar.<br><br>Saldırı başına birden fazla kahramana vurmak <span class=\"highlight\">istiflenen bonus silah hasarı</span> verir.<br><br><span class=\"diminish\">Hedefler, çoklu atış başına sadece bir defa vurulabilir.</span>"
+		"upgrade_split_shot_desc_02"		"Parçalı Atış Çoklu Vuruş Bonusu"
+		"SpecialShotsBonusFireRate_label"	"Çoklu Atışlardaki Atış Hızı"
+		"SpecialShotsBonusFireRate_postvalue_label"	"Çoklu Atışlardaki Atış Hızı"
+		"SpecialShotsBonusFireRate_postfix"	"%"
+		"SpecialShotsBonusFireRate_prefix"	"+"
+		"SplitShotWeaponDuration_label"		"İstif Süresi"
+		"SplitShotWeaponDuration_postvalue_label"		"İstif Süresi"
+		"SplitShotWeaponDuration_postfix"		" sn."
+		
+		// upgrade_blood_tribute			// Blood Tribute
+		"upgrade_blood_tribute_desc"		"Aktif: {g:citadel_inline_attribute:'FireRate'}, <span class=\"highlight\">zayıflatma direnci</span> ve <span class=\"highlight\">hareket hızını</span> geliştirmek için sürekli olarak sağlık tüketir. "
+
+		//"upgrade_non_player_bonus_sacrifice"	"Cultlist Sacrifice"
+		"upgrade_non_player_bonus_sacrifice_desc"	"Bir düşman NPC'yi hedef alarak onu <span class=\"highlight\">%{s:BonusSoulsPct} bonus ruh</span> karşılığında tüketin ve uzun süren bir güçlendirme kazanın."
+
+		//"upgrade_capacitor"						"Capacitor"
+		"upgrade_capacitor_desc"					"<span class=\"highlight\">{g:citadel_inline_attribute:'SpiritIcon'} hasarı</span> veren, zamanla geçen güçlü bir yavaşlatma uygulayan, <span class=\"highlight\">Kuvvet kullanımını engelleyen</span> ve <span class=\"highlight\">hareketle ilgili eşyaları ve yetenekleri</span> <span class=\"highlight\">Susturan</span> bir top fırlatın."
+		
+		//"upgrade_enchanted_holsters"			"Enchanted Holsters"
+		"upgrade_enchanted_holsters_desc"		"Savaş sırasında bir yetenek veya eşyayı kullandığınızda, atış hızınızı ve şarjör değiştirme hızınızı iyileştiren istiflenen bir güçlendirme kazanırsınız.<br><span class=\"diminish\">Her istif, güçlendirmenin süresini yeniler.</span>"
+		
+		// "upgrade_weapon_backstabber"			"Stalker"
+		"upgrade_weapon_backstabber_desc"		"Yakın mesafeden {g:citadel_inline_attribute:'WeaponDamage'} vermek bir yara açar ve size {g:citadel_inline_attribute:'BonusMoveSpeed'} kazandırır. <br><br>Yaralı düşmanlar {g:citadel_inline_attribute:'SpiritDPS'} alır, {g:citadel_inline_attribute:'BulletResist'} azalır ve <span class=\"highlight\">duvarların arkasından</span> görünür hâle gelir."
+		"BackstabberRadius_label"		"Bonus Yarıçap"
+		"BackstabberRadius_postvalue_label"		"Bonus Yarıçap"
+		"BackstabberRadius_postfix"		" m"
+		"ProcRadius_label"				"Kısa Menzil"
+		"ProcRadius_postvalue_label"	"Kısa Menzil"
+		"ProcRadius_postfix"			" m"
+		
+
+		//"upgrade_express_shot"				"Express Shot"
+		"upgrade_express_shot_desc"				"Bir sonraki saldırınız <span class=\"highlight\">artırılmış hasar</span> ve mermi hızına sahip bir şekilde arka arkaya <span class=\"highlight\">iki defa tetiklenir</span>. Bu saldırı fazladan cephane tüketir."
+		"ProcAmmoConsumed_label"				"Fazladan Tüketilen Cephane"
+		"ProcAmmoConsumed_postvalue_label"				"Fazladan Tüketilen Cephane"
+		//Melee Charge
+		"upgrade_melee_charge_desc"				"Bir düşmana karşı yapacağınız bir sonraki <span class=\"highlight\">ağır yakın dövüş</span> saldırınız <span class=\"highlight\">artırılmış hasar verecek</span>."
+		"MeleeDistanceScale_label"				"Ağır Yakın Dövüş Mesafesi"
+		"MeleeDistanceScale_postvalue_label"				"Ağır Yakın Dövüş Mesafesi"
+		"MeleeDistanceScale_prefix"				"+"
+		"MeleeDistanceScale_postfix"			"%"
+		"BonusHeavyMeleeDamage_prefix"			"+"
+		"BonusHeavyMeleeDamage_label"			"Bonus Ağır Hasar"
+		"BonusHeavyMeleeDamage_postvalue_label"			"Bonus Ağır Hasar"
+		"BonusHeavyMeleeDamage_postfix"			"%"
+
+		// "upgrade_crushing_fists"				"Crushing Fists"
+		"upgrade_crushing_fists_desc"			"<span class=\"highlight\">{g:citadel_inline_attribute:'MeleeDamage'}</span> <span class=\"highlight\">cephane yeniler</span> ve düşmanlara <span class=\"highlight\">istiflenen mermi direnci zayıflatması</span> uygular. Ağır yakın dövüş saldırıları 2 istif uygular. <br><br>Hedef maksimum istife ulaşırsa, <span class=\"highlight\">sersemler</span>."
+		"notification_crushing_fists_stun"		"Ezici Yumruklar - Sersemletme!"
+
+		//"upgrade_stackingdamageproc"		"Hungering Blade"
+		"upgrade_stackingdamageproc_desc"	"<span class=\"highlight\">Düşük sağlığa sahip</span> kahramanlara hasar vermek {g:citadel_inline_attribute:'BonusWeaponDamage'} verir.<br><br>Bu efekt her tetiklendiğinde istiflenir, {g:citadel_inline_attribute:'BonusWeaponDamage'} kalıcı olarak artar."
+
+		//"upgrade_building_buster"				"Explosive Demolition"
+		"upgrade_building_buster_desc"		"Uzun bir gecikmeden sonra {g:citadel_inline_attribute:'WeaponDamage'} veren bir yapışkan patlayıcı yığını fırlatırsınız. <br><br>Eğer bir <span class=\"highlight\">başdüşmana</span> çarparsa {g:citadel_inline_attribute:'BonusWeaponDamage'} verir."
+		"BossDamage_postvalue_label" "Baş Düşman Hasarı"
+
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Tech
+		//-----------------------------------------------------------------------------
+		
+		// "upgrade_mystic_regeneration"		"Mystic Regeneration"
+		"upgrade_mystic_regeneration_desc"		"Düşman kahramanlara {g:citadel_inline_attribute:'SpiritDamage'} vermek size bonus {g:citadel_inline_attribute:'Regen'} sağlar. Farklı kahramanlara hasar verince istif sayısı artar."
+
+		//Spirit Lifesteal
+		"NonHeroAbilityLifestealTooltipOnly_postfix"		"%"
+		
+		//Mystic Vulnerability
+		"upgrade_magic_vulnerability_desc"	"Bir düşman {g:citadel_inline_attribute:'SpiritDamage'} aldığında {g:citadel_inline_attribute:'SpiritResist'} azalır."		
+
+		//Healbane
+		"upgrade_healbane_desc"	"Verdiğiniz {g:citadel_inline_attribute:'SpiritDamage'} düşmanın <span class=\"highlight\">Aldığı İyileştirmeyi</span> azaltır. Bir düşman kahraman bu etki altındayken ölürse yüksek miktarda iyileştirme alırsınız."
+		"HealOnKill_label"		"Kahraman Öldürme İyileştirmesi"
+
+		"HealOnKill_postvalue_label"		"Kahraman Öldürme İyileştirmesi"
+
+		//Mystic Slow
+		"upgrade_magic_slow_desc"	"Hedef {g:citadel_inline_attribute:'SpiritDamage'} aldığında <span class=\"highlight\">hareket hızı</span> azalır."
+
+		//Escalating Exposure
+		"upgrade_escalating_exposure_desc"	"Hedefe {g:citadel_inline_attribute:'SpiritDamage'} vermek, hedefe daha fazla {g:citadel_inline_attribute:'SpiritDamage'} vermenizi sağlayan ve istiflenen bir <span class=\"highlight\">büyü artırımı</span> uygular."
+		"EscalatingExposureProcCooldown_label"	"Hedef Başına Maksimum Sıklık"
+		"EscalatingExposureProcCooldown_postvalue_label"	"Hedef Başına Maksimum Sıklık"
+		"EscalatingExposureProcCooldown_postfix"	" sn."
+		"EscalatingExposureTechArmorDamageReduction_label"	"Büyü Hasarı Alınca Büyü Direnci"
+		"EscalatingExposureTechArmorDamageReduction_postvalue_label"	"Büyü Hasarı Alınca Büyü Direnci"
+		"EscalatingExposureTechArmorDamageReduction_postfix"	"%"
+
+		//Mystic Reach
+		"upgrade_magic_reach_desc"			"<span class=\"highlight\">Menzilini</span> ve <span class=\"highlight\">etki yarıçapını</span> artırmak için bir yeteneği güçlendirin."
+
+		//Improved Reach
+		"upgrade_tech_range_desc"			"Yeteneklerinizin ve eşyalarınızın <span class=\"highlight\">menzilini</span> ve <span class=\"highlight\">etki yarıçapını</span> artırır."
+
+		//Omni Spirit
+		"upgrade_long_range_slowing_tech/modifier_long_range_slowing_tech_proc/modifier_slow_base"	"Yavaşlatıldı"
+
+		//Improved Cooldown
+		"upgrade_magic_tempo_desc"	"<span class=\"highlight\">Dolum süresini</span> azaltmak için bir yeteneği güçlendirin."
+
+		//Superior Cooldown
+		"upgrade_cooldown_reduction_desc"	"Yeteneklerinizin <span class=\"highlight\">dolum süresini</span> azaltır."
+
+		//Transcendent Cooldown
+		"upgrade_transcendent_cooldown_desc"	"Yeteneklerinizin ve eşyalarınızın <span class=\"highlight\">dolum süresini</span> azaltır."
+
+		//Extra Charge
+		//"upgrade_extra_charge_desc"	"Adds one to your ability max <span class=\"highlight\">charges</span>."
+		"BonusSpiritForChargedAbilities_prefix"						"+"
+		"BonusSpiritForChargedAbilities_label"						"Şarjlı Yetenekler için Bonus Büyü Gücü"
+		"BonusSpiritForChargedAbilities_postvalue_label"						"Şarjlı Yetenekler için Bonus Büyü Gücü"
+
+		//Rapid Recharge
+		"CooldownReductionOnChargedAbilities_label"	"Şarjlı Yetenekler için Dolum Süresi Azaltma"
+		"CooldownReductionOnChargedAbilities_postvalue_label"	"Şarjlı Yetenekler için Dolum Süresi Azaltma"
+		"CooldownReductionOnChargedAbilities_postfix" "%"
+		"CooldownReductionOnChargedAbilities_prefix" "+"
+
+		//Alchemical Fire
+		"upgrade_thermal_detonator_desc"		"Temas ettiğinde patlayan bir şişe atın. Patladığı yerde zaman geçtikçe <span class=\"highlight\">saniye başına</span> {g:citadel_inline_attribute:'SpiritDamage'} artan ve düşmanların <span class=\"highlight\">mermi direncini</span> azaltan bir alan oluşturur.<br><br>Kahraman olmayan birimlere karşı %{s:NonHeroReductionPercent} daha az etkilidir."
+		"BonusBaseWeaponDamageTaken_prefix"		"+"
+		"BonusBaseWeaponDamageTaken_label"		"Silah Hasarı"
+		"BonusBaseWeaponDamageTaken_postvalue_label"		"Silah Hasarı"
+		"BonusBaseWeaponDamageTaken_postfix"	"%"
+
+		//Fleetfoot
+		"upgrade_fleetfoot_boots_active_desc"	"Bonus <span class=\"highlight\">hareket hızı</span> ve <span class=\"highlight\">yavaşlatma direnci</span> kazanın."
+		"upgrade_fleetfoot_boots_passive_desc"	"Ateş ederken uygulanan <span class=\"highlight\">hareket hızı cezasını</span> kaldırır."
+
+		//Kinetic Dash
+		"upgrade_kinetic_sash_desc"		"<span class=\"highlight\">Zıplayarak atıldığınızda</span> tekrar şarjör değiştirene kadar <span class=\"highlight\">atış hızı</span> ve bonus <span class=\"highlight\">cephane</span> kazanırsınız. En fazla {s:AbilityDuration} saniye sürer."
+
+		//Arcane Surge
+		"upgrade_arcane_surge_desc"			"<span class=\"highlight\">Zıplayarak atıldıktan</span> <span class=\"highlight\">sonra {s:ArcaneSurgeWindow} saniye içinde kullanacağınız yetenek</span> bonus <span class=\"highlight\">menzile, süreye</span> ve <span class=\"highlight\">büyü gücüne</span> sahip olur."
+		"modifier_arcane_surge_triggered"	"Gizemli Dalgalanma!"
+		"modifier_arcane_surge_ability"		"Yetenek Güçlendi!"
+		"ArcaneSurgeWindow_label"				"Kullanma Aralığı"
+		"ArcaneSurgeWindow_postvalue_label"		"Kullanma Aralığı"
+		"ArcaneSurgeWindow_postfix"				" sn."
+
+		//Active Reload
+		"upgrade_active_reload_desc"	"Şarjör değiştirirken çıkan göstergedeki işaret yeşil alana geldiğinde {g:citadel_binding:'Reload'} tuşuna basarsanız <span class=\"highlight\">şarjör değiştirme anında tamamlanır</span> ve <span class=\"highlight\">atış hızı</span>, <span class=\"highlight\">mermi can çalması</span> ve <span class=\"highlight\">hareket hızı</span> kazanırsınız."
+
+		//Slowing Hex
+		"upgrade_containment_desc"			"Hedeflenen düşmanın <span class=\"highlight\">hareket hızını yavaşlatır</span>. Ayrıca, <span class=\"highlight\">hareket tabanlı eşyaları ve yetenekleri</span> de <span class=\"highlight\">susturur</span>.<br><span class=\"diminish\">Hedefin yer çekimini artırır.<br>Hedefin kuvvet kullanımını etkilemez.</span>"
+
+		//Spirit Sap
+		"upgrade_spirit_sap_desc"			"<span class=\"highlight\">Büyü direncini</span> ve <span class=\"highlight\">büyü gücünü</span> azaltmak için bir düşmanı hedef alın."
+
+		//Focus Lens
+		"upgrade_focus_lens_desc"			"Bir düşmanı <span class=\"highlight\">susturmak</span> için hedef alın. Susturma sırasında verilen tüm hasarın <span class=\"highlight\">bir kısmı</span> susturma sona erdikten sonra hedefe uygulanır."
+		"PercentDamage_label"				"Sona Erdiğinde Verilen Hasar"
+		"PercentDamage_postvalue_label"				"Sona Erdiğinde Verilen Hasar"
+		"PercentDamage_postfix"				"%"
+
+		//Withering Whip , Rusted Barrel
+		"upgrade_withering_whip_desc"		"Bir düşmanı hedef alarak <span class=\"highlight\">atış hızını</span> ve <span class=\"highlight\">mermi direncini</span> azaltın."
+		"modifier_withering_whip_debuff"	"-Atış Hızı"
+		"MagicAmp_label"					"Büyü Artırımı"
+		"MagicAmp_postvalue_label"					"Büyü Artırımı"
+		"MagicAmp_postfix"					"%"
+		"WitheringWhipDisarmDuration_label"	"Süre"
+		"WitheringWhipDisarmDuration_postvalue_label"	"Süre"
+		"WitheringWhipDisarmDuration_postfix"	" sn."
+		"SpiritPower_label"					"Büyü Gücü"
+		"SpiritPower_postvalue_label"					"Büyü Gücü"
+		"SpiritPower_prefix"					"+"
+
+		// Disarming Hex
+		"upgrade_greater_withering_whip_desc"		"Bir düşman hedefi <span class=\"highlight\">etkisizleştirir</span> ve <span class=\"highlight\">mermi direncini</span> azaltır."
+		"upgrade_greater_withering_whip_debuff"		"Etkisizleştirildi"
+
+		//Ethereal Shift
+		"upgrade_self_bubble_desc"			"Anında hiçlik durumuna girin ve kısa bir süreliğine Hasar Verilemez olun."
+		"upgrade_self_bubble_desc2"			"Sonrasında çeşitli geçici güçlendirmeleri kazanın:"
+		"ShiftingVeil_channel_desc"			"Hasar Verilemez"
+		"ShiftingVeilDuration_label"			"Süre"
+		"ShiftingVeilDuration_postvalue_label"			"Süre"
+		"ShiftingVeilDuration_postfix"		" sn."
+		"BonusSpiritDuration_label"			"Bonus Büyü Süresi"
+		"BonusSpiritDuration_postvalue_label"			"Bonus Büyü Süresi"
+		"BonusSpiritDuration_postfix"			" sn."
+		"BonusTechPower_prefix"				"{s:sign}"
+		"BonusTechPower_label"				"Büyü Gücü"
+		"BonusTechPower_postvalue_label"				"Büyü Gücü"
+		"shifting_veil_bonus"			"Büyü Gücü, Hız ve Büyü Direnci"
+
+		//Rescue Beam
+		"upgrade_rescue_beam_desc"		"Hedef bir dost kahramanı ve sizi <span class=\"highlight\">Maksimum Sağlığınızın</span> belirli bir yüzdesi kadar <span class=\"highlight\">iyileştirir</span>. İyileştirme sırasında bir kez hedefi kendinize doğru <span class=\"highlight\">çekebilirsiniz</span>. Kendi üzerinizde kullanabilirsiniz."
+		"SelfModifier_postfix"			"%"
+		"upgrade_rescue_beam_pull"		"Hedefi Çek"
+
+		//Slowing Spirit
+		"upgrade_slowing_tech/modifier_slowing_tech_proc/modifier_slow_base"						"Yavaşlatıldı"
+
+		//Refresher
+		"upgrade_ability_refresher_desc"	"Tüm yeteneklerinizin <span class=\"highlight\">dolum süresini sıfırlayın</span> ve <span class=\"highlight\">tüm şarjlarınızı doldurun</span>."
+
+		//Cold Front
+		"upgrade_cold_front_desc"			"Vurduğu hedeflere {g:citadel_inline_attribute:'SpiritDamage'} veren ve <span class=\"highlight\">yavaşlatma</span> uygulayan, genişleyen bir buz patlamasına neden olun."
+
+		//Arctic Blast
+		"upgrade_arctic_blast_desc"			"Vurduğu hedeflere {g:citadel_inline_attribute:'SpiritDamage'} veren, onları <span class=\"highlight\">donduran</span> ve ardından <span class=\"highlight\">yavaşlatan</span> genişleyen bir buz patlamasına neden olun.<br><br>Yavaşlatılan hedeflerin <span class=\"highlight\">kuvvet yenilenmesi dondurulur</span>."
+		"ArcticBlastSlowDuration_label"		"Yavaşlatma Süresi"
+		"ArcticBlastSlowDuration_postvalue_label"		"Yavaşlatma Süresi"
+		"ArcticBlastSlowDuration_postfix"	" sn."
+		"ArcticBlastPercentDamage_label"	"Donmuşken Bonus Hasar"
+		"ArcticBlastPercentDamage_postvalue_label"	"Donmuşken Bonus Hasar"
+		"ArcticBlastPercentDamage_postfix"	"%"
+
+		//Knockdown
+		"upgrade_target_stun_desc"			"<span class=\"highlight\">{s:StunDelay} saniye</span> sonra <span class=\"highlight\">sersemletme</span> uygular. <span class=\"highlight\">Havadaki</span> hedeflere artırılmış sersemletme süresi uygulanır.<br><br><span class=\"diminish\">Sersemletme süresi boyunca hedefin yer çekimini artırır.</span>"
+		
+		//Vortex Web
+		"upgrade_aoe_root_active"		"<span class=\"highlight\">Vakum</span> bombası atarak tüm düşmanları küçük bir alana çeker ve onlara <span class=\"highlight\">Yavaşlatma Büyüsü</span> uygularsınız.  <span class=\"diminish\"><br><br>Alternatif kullanımla bir birimi doğrudan hedefleyin.</span>"
+
+		//Curse
+		"upgrade_glitch_desc"					"Bir düşmanı lanetleyerek <span class=\"highlight\">kesintiye uğratır, Susturur ve Etkisizleştirir</span>, ayrıca <span class=\"highlight\">eşya kullanımını engeller</span>. <span class=\"highlight\">Son yetenek olmayan tüm güçlendirmeleri kaldırır</span>.<br><br>Verdiğiniz <span class=\"highlight\">Hasar</span> bu esnada azalır."
+		"modifier_glitch_debuff"				"Lanetlendi!"
+		"modifier_glitch_self_penalty"			"Ters Tepen Lanet"
+
+		//Bullet Resist Shredder
+		"upgrade_bullet_resist_shredder_desc"	"{g:citadel_inline_attribute:'SpiritDamage'} verdiğiniz düşmanların <span class=\"highlight\">mermi direncini</span> azaltır."
+		"upgrade_bullet_resist_shredder/modifier_bullet_armor_shredder_proc/modifier_bullet_armor_shredder" "Mermi Direnci Azaltıldı"
+
+		//Echo Shard
+		"upgrade_ability_power_shard_active"	"Son yetenek olmayan güçlendirilmiş yeteneğin <span class=\"highlight\">dolum süresini sıfırlar</span>.<br><br>Bu eşyanın dolum süresi <span class=\"highlight\">güçlendirilen yeteneğin dolum süresi kadar</span> artar."
+
+		//Duration Extender
+		"upgrade_arcane_extension_desc"	"<span class=\"highlight\">Süresini</span> artırmak için bir yeteneği güçlendirin."
+
+		//Superior Duration
+		"upgrade_imbued_duration_extender_desc"	"Yeteneklerinizin ve eşyalarınızın <span class=\"highlight\">süresini</span> uzatır."
+
+		//Diviner's Kevlar
+		"upgrade_diviners_kevlar_desc"			"<span class=\"highlight\">Son yeteneğinizi</span> kullandığınızda bir <span class=\"highlight\">bariyer</span> ve geçici <span class=\"highlight\">büyü gücü</span> kazanırsınız."
+		"BonusChannelTechPower_prefix"			"+"
+		
+		"BonusChannelTimePercentage_label"		"Yönlendirme Süresi"
+		"BonusChannelTimePercentage_postvalue_label"		"Yönlendirme Süresi"
+		"BonusChannelTimePercentage_prefix"		"+"
+		"BonusChannelTimePercentage_postfix"	"%"
+
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_label"		"Yönlendirme Süresi"
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_postvalue_label"		"Yönlendirme Süresi"
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_prefix"		"+"
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_postfix"	"%"
+
+		//Infuser
+		"upgrade_infuser_desc"			"<span class=\"highlight\">Büyü can çalması</span> ve <span class=\"highlight\">büyü gücü</span> kazanın."
+
+		//Spirit Strike
+		"upgrade_acolytes_glove_desc"			"Bir kahramana karşı <span class=\"highlight\">hafif veya ağır yakın dövüş</span> saldırısı yaptığınızda ekstra {g:citadel_inline_attribute:'SpiritDamage'} verirsiniz ve hedefin <span class=\"highlight\">büyü direncini</span> azaltırsınız.<span class=\"diminish\"><br><br>Hafif yakın dövüş saldırılarında dolum süresi {s:LightMeleeCooldownMult} kat fazladır.</span>"
+		"SpiritDamage_label"					"Büyü Hasarı"
+		"SpiritDamage_postvalue_label"					"Büyü Hasarı"
+
+		//Spirit Snatch
+		"upgrade_spirit_snatch_desc"			"Bir kahramana karşı <span class=\"highlight\">hafif veya ağır yakın dövüş</span> saldırısı yaptığınızda ekstra {g:citadel_inline_attribute:'SpiritDamage'} verip <span class=\"highlight\">büyü direnci</span> ve <span class=\"highlight\">büyü gücü</span> çalarsınız.<span class=\"diminish\"><br><br>Hafif yakın dövüş saldırılarında etki %{s:LightMeleeReduction} düşürülür.</span>"
+		"SpiritSnatch_TechArmorSteal_label"		"Büyü Direnci Çalma"
+		"SpiritSnatch_TechArmorSteal_postvalue_label"		"Büyü Direnci Çalma"
+		"SpiritSnatch_TechArmorSteal_postfix"	"%"
+		"SpiritSnatch_TechPowerSteal_label"		"Büyü Gücü Çalma"
+		"SpiritSnatch_TechPowerSteal_postvalue_label"		"Büyü Gücü Çalma"
+
+		//Clarity
+		//"upgrade_magic_clarity_desc"			"On ability or item use, gain a <span class=\"highlight\">move speed</span> bonus for {s:AbilityDuration}s. Your next ability cast will remove the move speed bonus and apply a <span class=\"highlight\">Spirit</span> bonus to that ability."
+		"ClarityBonusSpirit_prefix"				"{s:sign}"
+
+		//Surge of Power
+		"upgrade_magic_storm_desc"				"Bir yeteneği <span class=\"highlight\">kalıcı büyü gücüyle</span> güçlendirin. Güçlendirilmiş yetenek kullanıldığında bonus <span class=\"highlight\">hareket hızı</span> kazanırsınız ve saldırırken tam hızınızı korursunuz."
+
+		//Suppressor
+		"upgrade_suppressor_desc"					"Düşmanlara {g:citadel_inline_attribute:'SpiritDamage'} verdiğinizde aynı zamanda onların <span class=\"highlight\">atış hızını</span> da azaltırsınız."
+		"suppressor_debuff"						"-Atış Hızı"
+
+		//Quicksilver Reload
+		"upgrade_quick_silver_desc"				"Güçlendirilmiş yeteneğiniz zamanla {g:citadel_inline_attribute:'BonusSpiritDamage'} ve {g:citadel_inline_attribute:'BonusFireRate'} ile dolar ve kullanıldığında <span class=\"highlight\">mermileri yeniler</span>."
+
+		//Resonant Healing
+		"upgrade_resonant_healing_desc"			"Yetenek kullandığınızda kısa süreliğine <span class=\"highlight\">iyileşir</span> ve bonus <span class=\"highlight\">hareket hızı</span> kazanırsınız."
+		"HealingPerCast_Label"					"Yetenek Kullanımından Gelen İyileşme"
+
+		"HealingPerCast_postvalue_label"					"Yetenek Kullanımından Gelen İyileşme"
+
+		// Magic carpet
+		"upgrade_magic_carpet_desc"				"Sizi <span class=\"highlight\">uçuran</span> bir Sihirli Halı çağırır. Uçarken yavaşlatmalara karşı bağışıklık kazanırsınız. Uçarken yapacağınız herhangi bir eylem halının kaybolmasına neden olur. <span class=\"diminish\"><br>Halıyı çağırırken yetenek kullanamazsınız.</span>"
+		"modifier_summon_magiccarpet"			"Sihirli Halı Çağrılıyor"
+		"MagicCarpetMoveSpeed_prefix"			"+"
+		"MagicCarpetMoveSpeed_label"			"Bonus Uçuş Hızı"
+		"MagicCarpetMoveSpeed_postvalue_label"			"Bonus Uçuş Hızı"
+		"MagicCarpetMoveSpeed_postfix"			" m"
+		"MagicCarpetShieldDuration_label"		"Kalkan Süresi"
+		"MagicCarpetShieldDuration_postvalue_label"		"Kalkan Süresi"
+		"MagicCarpetShieldDuration_postfix"		" sn."
+		"MagicCarpetSummoning_channel"			"Çağrılıyor"
+
+		// Hex-Sealed Knuckles
+		"upgrade_superacolytes_glove_desc"			"Birikmiş <span class=\"highlight\">{s:StoredSpiritDamage}</span> büyü hasarı verdikten sonraki <span class=\"highlight\">ağır yakın dövüş saldırınız</span> ek olarak <span class=\"highlight\">{s:StoredSpiritDamage} büyü hasarı verir</span>."
+		"StoredSpiritDamage_label"			"Birikmiş Büyü Hasarı"
+		"StoredSpiritDamage_postvalue_label"			"Birikmiş Büyü Hasarı"
+		"upgrade_superacolytes_glove/modifier_superacoloytes_glove" "Yumruklar Açıldı!"
+
+		//SpiritBurn
+		"upgrade_spirit_burn_desc"	"{s:DamageThresholdDuration}sn içinde bir düşmana yüksek {g:citadel_inline_attribute:'SpiritDamage'} vermek, hasar veren ve bu düşmanı yakan bir patlamaya sebep olur. Düşmanlar yanarken zamanla hasar alır ve aldıkları iyileşme miktarı azalır.<br><span class=\"diminish\"> Her düşman için dolum süresi farklı olduğu için her hedef dolum süresi başına yalnızca bir kez yakılabilir. Kahraman dışı birimlere normal hasarın yarısı kadar hasar verir.</span>"
+		"modifier_spirit_burn_immunity"	"Yakıcı Büyü Bağışıklığı"
+		"MinDPS_label" "Minimum SBH"
+
+		"MinDPS_postvalue_label" "Minimum SBH"
+
+		//Lightning Scroll
+		"upgrade_ultimate_burst_desc"			"Son yeteneğinizin hasarı kısa bir gecikmeden sonra bir {g:citadel_inline_attribute:'Stun'} uygular ve {g:citadel_inline_attribute:'BonusSpiritDamage'} verir.</span>"
+		"upgrade_ultimate_burst_upgrade"		"<span class=\"highlight\">Mistik Yavaşlatma etkileri</span>"
+		"upgrade_ultimate_burst_hint"			"<span class=\"diminish\">Bu etki, her son yetenek kullanımında hedef başına yalnızca bir defa tetiklenebilir.</span>"
+		"LightningScrollMysticSlow_label"		"Büyü Hasarında Hareket Hızı"
+		"LightningScrollMysticSlow_postvalue_label"		"Büyü Hasarında Hareket Hızı"
+		"LightningScrollMysticSlow_prefix"		"-"
+		"LightningScrollMysticSlow_postfix"		"%"
+		"DelayBeforeStun_label"					"Etki Öncesi Gecikme"
+		"DelayBeforeStun_postvalue_label"					"Etki Öncesi Gecikme"
+		"DelayBeforeStun_postfix"				" sn."
+
+		"MaxHealthDamage_label" "Maks. Sağlık Hasarı"
+		"MaxHealthDamage_postvalue_label" "Maks. Sağlık Hasarı"
+		"MaxHealthDamage_postfix" "%"
+
+		"CurrentHealthDamage_label" "Mevcut Sağlık Hasarı"
+		"CurrentHealthDamage_postvalue_label" "Mevcut Sağlık Hasarı"
+		"CurrentHealthDamage_postfix" "%"
+
+		"UltimateTechPower_label" "Son Büyü Gücü"
+
+		"UltimateTechPower_postvalue_label" "Son Büyü Gücü"
+
+		//Corpse Explosion
+		"upgrade_corpse_explosion_desc"			"Leşler veya asistler kurbanın öldüğü bir <span class=\"highlight\">patlamaya</span> neden olur. Kurban bir kahramansa patlama yarıçapı ve hasarı çok daha fazla olur."
+		"HeroMultiplier_label" "Kahraman Patlama Çarpanı"
+		"HeroMultiplier_postvalue_label" "Kahraman Patlama Çarpanı"
+		"HeroMultiplier_postfix" "%"
+
+		//Golden Goose Egg
+		"upgrade_goose_egg_desc"	"Hayatta olduğunuz sürece <span class=\"highlight\">zamanla ruh</span> kazanın."
+		"upgrade_goose_egg_active_desc"	"Yumurta açıldıktan sonra <span class=\"highlight\">ruh</span> ve <span class=\"highlight\">kalıcı güçlendirme</span> kazanın.<br><br>Yumurtanın değeri elinizde tuttuğunuz süre boyunca artar.<br><br><span class=\"diminish\">Yumurta açıldığında biriktirdiğiniz her {s:BonusBuffsPerGold} ruh başına kalıcı güçlendirme kazanırsınız."
+		"upgrade_goose_egg_stacklabel" "Kazanılacak Ruh"
+		"GoldPerMinute_postvalue_label" "Dakika Başına Ruh"
+		"GoldPerMinute_prefix" "{s:sign}"
+		"BonusGoldPerMinute_postvalue_label" "Dakika Başına Ruh Değeri"
+
+		"SellBonusSouls_label"	"Bonus Ruh Satışı:"
+
+		//"SellBonusSouls_postvalue_label"	"Sell Bonus Souls:"
+		//"SellBonusSouls_postvalue_prefix"	"{g:citadel_inline_attribute:'SoulsIcon'}"
+
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Armor
+		//-----------------------------------------------------------------------------
+		
+		//Healing Rite
+		"upgrade_health_stimpak_desc"					"Hedefe <span class=\"highlight\">yenilenme</span> ve <span class=\"highlight\">koşu hızı</span> verir. Düşman oyunculardan veya hedeflerden hasar alırsanız geçer. Kendi üzerinizde kullanabilirsiniz."
+
+		//Shrink Ray
+		"upgrade_shrink_ray_desc"					"<span class=\"highlight\">Model boyutunu</span> küçültür ve hedefe <span class=\"highlight\">hareket hızı</span> sağlar. <span class=\"highlight\">Tünellerin kullanımına</span> bu modda izin verilir. Kendi üzerinde kullanılabilir."
+		
+		//Guardian Ward
+		"upgrade_guardian_ward_desc"		"Hedefe <span class=\"highlight\">bariyer</span> ve geçici <span class=\"highlight\">hareket hızı</span> sağlar.<span class=\"diminish\"><br>Kendi üzerinizde kullanabilirsiniz.<br>Başka biri üzerinde kullanıldığında dolum süresi yarıya iner.</span>"
+
+		//Divine Barrier
+		"upgrade_divine_barrier_desc"		"<span class=\"highlight\">Sersemletme harici tüm zayıflatmaları</span> hedeften kaldırır, ayrıca hedefe <span class=\"highlight\">bariyer</span> ve geçici <span class=\"highlight\">hareket hızı</span> sağlar.<span class=\"diminish\"><br>Kendi üzerinizde kullanabilirsiniz. Başka biri üzerinde kullanıldığında dolum süresi yarıya iner.</span>"
+
+		//Restorative Locket
+		"upgrade_restorative_locket_active_desc"		"Bir düşman {s:Radius} m menzilinizde bir yetenek kullanırsa bir <span class=\"highlight\">şifa istifi</span> depolarsınız.<br><br><span class=\"highlight\">Kendinizi iyileştirmek</span> ve sahip olduğunuz istif sayısına göre <span class=\"highlight\">{s:MaxStaminaRestore} değerine kadar kuvvet</span> yenilemek için tüm istifleri tüketin."
+		"HealPerStack_label"								"İstif Başına İyileştirme"	
+		"MinStaminaRestore_label"							"Minimum Kuvvet Yenileme"
+		"MinStaminaRestore_postvalue_label"							"Minimum Kuvvet Yenileme"
+		"MaxStaminaRestore_label"							"Maksimum Kuvvet Yenileme"
+		"MaxStaminaRestore_postvalue_label"							"Maksimum Kuvvet Yenileme"
+
+		"HealPerStack_postvalue_label"								"İstif Başına İyileştirme"
+
+		//Cheat Death
+		"upgrade_cheat_death_unkillable_passive"	"Öldürücü hasar aldığınızda ölmek yerine <span class=\"highlight\">geçici olarak ölümsüz</span> olursunuz ve <span class=\"highlight\">sersemletme dışındaki tüm zayıflatmalar kaldırılır</span>. <br><br>Ölümsüzken <span class=\"highlight\">azaltılmış hasar</span> verirsiniz ve <span class=\"highlight\">iyileştirme miktarınız azalır</span>."
+		"DeathImmunityDuration_label"	"Ölümsüzlük Süresi"
+		"DeathImmunityDuration_postvalue_label"	"Ölümsüzlük Süresi"
+		"DeathImmunityDuration_postfix"	" sn."
+		"DeathImmunityDamageReduction_label"		"Hasar Azaltma"
+		"DeathImmunityDamageReduction_postvalue_label"		"Hasar Azaltma"
+		"DeathImmunityDamageReduction_postfix"		"%"
+
+		//Healing Booster
+		"upgrade_healing_booster_desc"		"<span class=\"highlight\">İyileştirmenizin</span> etkisini artırır."
+
+		//Debuff Reducer
+		"upgrade_debuff_reducer_desc"			"Size uygulanan tüm olumsuz etkilerin <span class=\"highlight\">süresini</span> azaltır."
+
+		//Debuff Remover | Dispel Magic
+		"upgrade_reduce_debuff_duration_active_desc"	"Kendinizi üzerinizdeki <span class=\"highlight\">son yetenek hariç diğer tüm olumsuz etkilerden arındırın</span>. Bir etkiden arındığınızda <span class=\"highlight\">kendinizi iyileştirip</span> <span class=\"highlight\">bonus hareket hızı</span> kazanırsınız.<br><span class=\"diminish\">Sersemletilmiş veya uyutulmuşken</span> kullanılamaz."
+		"HealOnActivate_label"		"Etkinleştirildiğinde Gelen SP"
+		"HealOnActivate_postvalue_label"		"Etkinleştirildiğinde Gelen SP"
+
+		"damage_reduction_postfix"						"%"
+
+		//Decay
+		"upgrade_rupture_desc"				"Bir hedefe <span class=\"highlight\">zamanla hasar verin</span>. Verilen hasar hedefin mevcut sağlığına göre belirlenir.<br>Çürüme'nin hasarı öldürmez ve eşya etkinleşmelerini tetiklemez."
+		"HealReductionDuration_label"		"İyileştirme Azaltma Süresi"
+		"HealReductionDuration_postvalue_label"		"İyileştirme Azaltma Süresi"
+		"HealReductionDuration_postfix"		" sn."
+
+		//Discord | Scourge
+		"upgrade_discord_desc"						"Dost bir hedefe <span class=\"highlight\">Büyü Direnci</span>, <span class=\"highlight\">Zayıflatma Direnci</span> ve düşmanlara maksimum sağlıklarıyla orantılı olarak <span class=\"highlight\">{g:citadel_inline_attribute:'SpiritIcon'}hasarı</span> veren bir aura uygulayın. Hedef üzerindeki mevcut zayıflatmalar azaltılır.<br>Kendi üzerinizde kullanabilirsiniz."
+		"MaxHealthPercentAsDPS_label"				"Saniye Başına Maks. Sağlık"
+		"MaxHealthPercentAsDPS_postvalue_label"				"Saniye Başına Maks. Sağlık"
+		"MaxHealthPercentAsDPS_postfix"				"%"
+		
+		//Fortitude
+		"upgrade_chonky_desc"							"Bir süre hasar almadığınızda sağlık yenilenmesi kazanırsınız."
+		"upgrade_chonky_high_health_passive_desc"		"<span class=\"highlight\">%{s:HealthThreshold} sağlığın üstündeyken</span>, bonus <span class=\"highlight\">hareket hızı</span> kazanırsınız."
+
+		//Leech
+		"upgrade_damage_recycler_desc"				"Düşmanların uyguladığı <span class=\"highlight\">iyileştirme azaltmalarının</span> etkisini azaltır."
+		"LeechHealOnKill_prefix"					"+"
+		"LeechHealOnKill_label"						"Öldürmede Maks. Sağlık Kazanımı"
+		"LeechHealOnKill_postvalue_label"						"Öldürmede Maks. Sağlık Kazanımı"
+		"LeechHealOnKill_postfix"					"%"
+		
+		//Rebirth
+		"upgrade_personal_rejuvenator_desc"		"Kahramanı öldüğü yerde anında canlandırır."
+		"RespawnDelay_postfix"						" sn."
+		"SpawnTimePenalty_prefix"				"+"
+		"SpawnTimePenalty_label"				"Canlanma Süresi Arttı"
+		"SpawnTimePenalty_postvalue_label"				"Canlanma Süresi Arttı"
+		"SpawnTimePenalty_postfix"				" sn."
+
+		//Phantom Strike
+		"upgrade_phantom_strike_desc"			"Bir düşman hedefe <span class=\"highlight\">ışınlanıp</span> ardından onu yere çalarak <span class=\"highlight\">hasar verin</span>, <span class=\"highlight\">hareket hızını</span> azaltın ve <span class=\"highlight\">etkisizleştirin</span>."
+		"PhantomStrikeDebuffDuration_label"		"Zayıflatma Süresi"
+		"PhantomStrikeDebuffDuration_postvalue_label"		"Zayıflatma Süresi"
+		"PhantomStrikeDebuffDuration_postfix"		" sn."
+		"modifier_phantom_strike_bulletshield"		"Mermi Kalkanı"
+
+		//Soul Rebirth
+		"upgrade_rebirth_passive"				"Ölürseniz {s:RespawnDelay} saniye sonra <span class=\"highlight\">öldüğünüz yerde eksik sağlıkla yeniden doğarsınız</span>."
+
+		//Return Fire
+		"upgrade_return_fire_desc"					"Size yetenek veya silahıyla hasar veren bir saldırgana otomatik olarak <span class=\"highlight\">bir mermi atar</span>."
+		"ActiveFireRate_label"						"Atış Hızı"
+		"ActiveFireRate_postvalue_label"						"Atış Hızı"
+		"ActiveFireRate_postfix"						"%"
+
+		//Metal Skin
+		"upgrade_metal_skin_desc"						"<span class=\"highlight\">Mermilere karşı bağışıklık</span> kazanın."
+		"AbilityApplyDelay_postfix"						" sn."
+
+		//Battle Vest
+		"upgrade_regenerating_bullet_shield_desc"	"<span class=\"highlight\">%{s:LifeThreshold} sağlığın üzerindeyken</span> <span class=\"highlight\">{g:citadel_inline_attribute:'WeaponDamage'}</span> ve <span class=\"highlight\">{g:citadel_inline_attribute:'BonusFireRate'}</span> kazanın."
+
+		//Enchanter's Emblem
+		"upgrade_magic_shield_desc"		"<span class=\"highlight\">%{s:LifeThreshold} sağlığın üzerindeyken</span> bonus <span class=\"highlight\">{g:citadel_inline_attribute:'Spirit'}</span> ve <span class=\"highlight\">dolum süresi azaltması</span> kazanın."
+		
+		// "upgrade_weapon_shielding"						"Weapon Shielding"
+		"upgrade_weapon_shielding_desc"			"Bir düşman kahramandan çok kısa bir süre zarfında çok yüksek {g:citadel_inline_attribute:'WeaponDamage'} aldığınızda <span class=\"highlight\">bariyer</span> kazanın."
+		"DamageWindow_label"								"Süre Zarfı"
+		"DamageWindow_postvalue_label"								"Süre Zarfı"
+		"DamageWindow_postfix"								" sn."
+		
+		// "upgrade_spirit_bubble"							"Spirit Bubble"
+		"upgrade_spirit_bubble_desc"			"Bir düşman kahramandan çok kısa bir süre zarfında çok yüksek {g:citadel_inline_attribute:'SpiritDamage'} aldığınızda <span class=\"highlight\">bariyer</span> kazanın."
+
+		// "upgrade_grit"							"Grit"
+		"upgrade_grit_desc"			"Kısa süreliğine <span class=\"highlight\">bariyer</span> kazanın."
+
+		//Unstoppable
+		"upgrade_unstoppable_desc"				"<span class=\"highlight\">Olumsuz durum etkilerini</span> geçici olarak baskılarsınız ve <span class=\"highlight\">sersemletme, susturma, uyutma, bağlama ve etkisizleştirmeye</span> karşı <span class=\"highlight\">bağışıklığınız</span> olur.<br> <span class=\"highlight\">Sersemlemişken</span> ve <span class=\"highlight\">uyutulmuşken</span> kullanılamaz."
+
+		//Colossus
+		"upgrade_colossus_desc"			"<span class=\"highlight\">Büyüyerek</span> {g:citadel_inline_attribute:'BulletResist'}, {g:citadel_inline_attribute:'SpiritResist'} ve {g:citadel_inline_attribute:'MeleeDamage'} elde edersiniz. <br><br>Yakındaki düşmanlara {g:citadel_inline_attribute:'Slow'} uygulanır ve <span class=\"highlight\">atılma hızları</span> azalır."
+		"BuffBulletResist_label"		"Mermi Direnci"
+		"BuffBulletResist_postvalue_label"		"Mermi Direnci"
+		"BuffBulletResist_postfix"		"%"
+		"BuffTechResist_label"			"Büyü Direnci"
+		"BuffTechResist_postvalue_label"			"Büyü Direnci"
+		"BuffTechResist_postfix"		"%"
+
+		// Rebuttal - upgrade_melee_rebuttal
+		"upgrade_melee_rebuttal_desc"				"Bir düşman kahramana karşı başarılı bir <span class=\"highlight\">savuşturma</span> yaptığınızda, savuşturduğunuz hasar kadar kendinizi <span class=\"highlight\">iyileştirirsiniz</span> ve bu hasarı hedefe geri gönderirsiniz, ayrıca geçici olarak artırılmış <span class=\"highlight\">hasar</span> kazanırsınız."
+
+		// Counterspell
+		"upgrade_counterspell_desc"				"Bir sonraki savuşturmanız <span class=\"highlight\">sizi düşmanların yetenek ve eşyalarından gelen hasar ve etkilere karşı korur</span>. Bir büyüyü başarılı olarak savuşturduğunuzda {g:citadel_inline_attribute:'Heal'}, {g:citadel_inline_attribute:'MoveSpeed'} ve {g:citadel_inline_attribute:'Spirit'} kazanırsınız."
+		
+		"ParrySuccessHealPercentage_label"					"Savuşturmadan Gelen İyileştirme"
+		"ParrySuccessHealPercentage_postvalue_label"					"Savuşturmadan Gelen İyileştirme"
+		"ParrySuccessHealPercentage_postfix"					"%"
+
+		// 
+		"upgrade_tech_purge_desc"	"<span class=\"highlight\">%{s:HealthThreshold} sağlığın</span> altındayken ilave büyü direnci kazanırsınız."
+		"upgrade_improved_bullet_armor_desc"	"<span class=\"highlight\">%{s:HealthThreshold} sağlığın</span> altındayken ilave <span class=\"highlight\">mermi direnci</span> kazanırsınız."
+
+		// Spellbreaker
+		"upgrade_spellbreaker_desc"				"Bir dahaki sefere alacağınız yüksek {g:citadel_inline_attribute:'SpiritDamage'} büyük oranda azalır."
+		"SpiritDamageReductionProc_label"		"Büyü Hasarı Azaltması"
+		"SpiritDamageReductionProc_postvalue_label"		"Büyü Hasarı Azaltması"
+		"SpiritDamageReductionProc_postfix"		"%"
+
+		"upgrade_juggernaut_slow_desc"			"Size ateş eden düşmanların <span class=\"highlight\">atış hızı</span> yavaşlar."
+		"FireRateSlowDuration_label"			"Süre"
+		"FireRateSlowDuration_postvalue_label"			"Süre"
+		"FireRateSlowDuration_postfix"			" sn."
+
+		"upgrade_trophy_collector_desc"			"Bir <span class=\"highlight\">asist veya leş</span> yaptığınızda fazladan <span class=\"highlight\">koşu</span>, <span class=\"highlight\">yetenek menzili</span> ve <span class=\"highlight\">pasif ruh oluşturma</span> kazanırsınız. Bu etki istiflenir ve öldükten sonra da devam eder."
+		"StackingGoldPerMinute_label"			"Dakika Başına Ruh"
+		"StackingGoldPerMinute_postvalue_label"			"Dakika Başına Ruh"
+		
+		// Indomitable
+		"upgrade_upgrade_auto_cleanse_desc"		"Bir sonraki <span class=\"highlight\">Sersemletme, Zincirleme, Hareketsizleştirme, Uyutma, Susturma veya Korkutma</span> otomatik olarak arındırılır. Bu gerçekleştiğinde bir <span class=\"highlight\">bariyer</span> kazanırsınız ve tüm <span class=\"highlight\">yeteneklerinizin dolum süresi</span> %{s:CooldownReductionOnProc} azalır."
+		
+		//-----------------------------------------------------------------------------
+		// Upgrades: Utility
+		//----------------------------------------------------------------------------- 
+		
+		//Superior Stamina
+		"upgrade_superior_stamina_passive"			"İnmeden önce ilave olarak bir defa <span class=\"highlight\">havada zıplama</span> veya <span class=\"highlight\">zıplayarak atılma</span> olanağı verir."
+
+		//Enduring Speed
+		"upgrade_cardio_calibrator_desc"			"Düşmanların olumsuz <span class=\"highlight\">hareket hızı</span> etkilerini azaltır."
+
+		//Health Nova
+		"upgrade_health_nova_desc"					"Kendinizi ve etrafınızdaki dostları <span class=\"highlight\">iyileştirin</span>."
+
+		//Shadow Weave
+		"upgrade_cloaking_device_active_desc"		"<span class=\"highlight\">Gizlenin</span>. Gizliyken hasar aldığınızda kısa süreliğine açığa çıkarsınız."
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>Saldırmak veya bir yetenek kullanmak gizliliğinizi sonlandırır ve bir <span class=\"highlight\">pusu</span> başlatıp geçici olarak size bonus <span class=\"highlight\">atış hızı</span>, <span class=\"highlight\">büyü gücü</span> ve <span class=\"highlight\">yakın dövüş hasarı</span> sağlar."
+		"modifier_cloaking_device_active_stealth"		"Gölge Pelerin - Gizlilik"
+		"modifier_cloaking_device_active_ambush"		"Gölge Pelerin - Pusu"
+		"AmbushBonusTechPower_prefix"					"+"
+		"AmbushBonusTechPower_label"					"Pusu Büyü Gücü"
+		"AmbushBonusTechPower_postvalue_label"					"Pusu Büyü Gücü"
+		"AmbushBonusFireRate_prefix"					"+"
+		"AmbushBonusFireRate_label"					"Pusu Atış Hızı"
+		"AmbushBonusFireRate_postvalue_label"					"Pusu Atış Hızı"
+		"AmbushBonusFireRate_postfix"					"%"
+		"AmbushBonusMeleeDamage_label"					"Pusu Yakın Dövüş Hasarı"
+		"AmbushBonusMeleeDamage_postvalue_label"		"Pusu Yakın Dövüş Hasarı"
+		"AmbushBonusMeleeDamage_postfix"				"%"
+		"AmbushDuration_label"						"Pusu Süresi"
+		"AmbushDuration_postvalue_label"						"Pusu Süresi"
+		"AmbushDuration_postfix"						" sn."
+		"StealthDuration_label"						"Gizlenme Süresi"
+		"StealthDuration_postvalue_label"						"Gizlenme Süresi"
+		"StealthDuration_postfix"						" sn."
+		"SpottedRadius_label"						"Görülebilme Yarıçapı"
+		"SpottedRadius_postvalue_label"						"Görülebilme Yarıçapı"
+		"SpottedRadius_postfix"						" m"
+
+		//Majestic Leap
+		"upgrade_rocket_booster_desc"				"<span class=\"highlight\">Kendinizi havaya fırlatın</span> ve <span class=\"highlight\">bariyer</span> kazanın. Havadayken tekrar kullanarak yere daha hızlı inebilirsiniz.<br><br><span class=\"diminish\">Düşman bir kahraman saldırısından sonra {s:InterruptCooldown} saniye boyunca kullanılamaz.</span>"
+		"upgrade_rocket_booster_drop_down"			"Yere Düşüş"
+		
+		//Drain Will
+		"SpiritStealDuration_postfix"	" sn."
+
+		//Reactive Barrier
+		"upgrade_vex_barrier_desc"		"<span class=\"highlight\">Sersemletme, zincirleme, hareketsizleştirme, uyutma veya susturma</span> etkisindeyken bir <span class=\"highlight\">bariyer</span> kazanın."
+
+		//Spell Shield
+		"upgrade_spellshield_desc"		"Bir sonraki {g:citadel_inline_attribute:'SpiritDamage'} veya <span class=\"highlight\">zayıflatmayı</span> engelleyerek etkilerini önler. Yalnızca çatışma dışındayken yenilenir."
+		"upgrade_spellshield_shield"	"Büyü Önleyici Mühür"
+		"upgrade_spellshield/modifier_spellshield_linger_buff"  "Büyülü Kalkan Kırıldı!"
+		"SpellShieldFlavorText_label"	"Label!"
+
+		"SpellShieldFlavorText_postvalue_label"	"Label!"
+
+		//Heal On Level
+		"upgrade_heal_on_level_desc"	"Bir <span class=\"highlight\">lütuf</span> aldığınızda otomatik olarak <span class=\"highlight\">iyileşin</span>."
+		"upgrade_heal_on_level_buff"	"Seviye Atlama İyileştirmesi"
+		"HealOnlevelHealAmount_label"	"İyileştirme Miktarı"
+		"HealOnlevelHealAmount_postvalue_label"	"İyileştirme Miktarı"
+		"upgrade_heal_on_level/heal_on_level_buff"			"Seviye Atlama İyileştirmesi"
+
+		//Absorbing armor / witchmail
+		"upgrade_absorbing_armor_desc" "Bir düşmandan yüksek miktarda {g:citadel_inline_attribute:'SpiritDamage'} almak <span class=\"highlight\">rastgele bir yeteneğin dolum süresini</span> azaltır."
+
+		//Healing Buff
+		"upgrade_healbuff_desc" "Kendinize veya bir dosta {g:citadel_inline_attribute:'Heal'} uygulamak hedefe {g:citadel_inline_attribute:'BonusFireRate'} ve {g:citadel_inline_attribute:'BonusMoveSpeed'} sağlar.<br><br><span class=\"diminish\">Doğal Sağlık Yenilenmesi veya pasif Mermi/Büyü Can Çalması'nda uygulanmaz.</span>"
+
+		//Infinite Magazine
+		"upgrade_infinitemagazine_desc" "<span class=\"highlight\">Sonsuz cephane</span> ve {g:citadel_inline_attribute:'BonusFireRate'} kazanın."
+
+		//APRounds
+		"upgrade_aprounds_desc" "Mermileriniz belirli bir ihtimalle önlenemez olur. Önlenemez mermiler düşmanların <span class=\"highlight\">Mermi Direnci'ni yok sayarak</span> onları <span class=\"highlight\">delip geçer</span>."
+
+		//Deflecting Armor
+		"upgrade_deflecting_armor_desc" "Gelen mermileri saptırarak {g:citadel_inline_attribute:'WeaponDamage'} engelleme veya mermilerin uyguladığı tüm <span class=\"highlight\">vuruş etkilerini</span> engelleme şansı kazanın."
+		"DeflectionPercent_label" "Saptırma Oranı"
+		"DeflectionPercent_postvalue_label" "Saptırma Oranı"
+		"DeflectionPercent_postfix" "%"	
+		
+		"BulletProcDeflectionPercent_label" "Vuruş Etkilerini Engelleme Oranı"
+		"BulletProcDeflectionPercent_postvalue_label" "Vuruş Etkilerini Engelleme Oranı"
+		"BulletProcDeflectionPercent_postfix" "%"
+
+		// Shadow Step Active
+		"upgrade_shadow_step_desc"	"İleriye doğru <span class=\"highlight\">ışınlanın.</span>"
+
+		//Shadow Step Passive
+		"upgrade_shadow_step_passive_desc"	"Düzenli aralıklarla yakındaki tüm düşmanlara {g:citadel_inline_attribute:'SpiritDamage'} verir."
+
+		"upgrade_haunting_scream_desc"	"Kısa süreliğine düşmanları <span class=\"highlight\">lanetleyen</span>, genişleyen bir atış yapın."
+		
+		"upgrade_apex_combat_desc"		"Mermileriniz, hedefinizin yakınındaki düşmanlar arasında <span class=\"highlight\">sekerek</span> <span class=\"highlight\">mevcut her türlü mermi etkinleşmesini uygular</span> ve <span class=\"highlight\">ilk hasarın bir oranını verir</span>."
+
+		"upgrade_aerial_supremacy_passive"			"İnmeden önce <span class=\"highlight\">sınırsız</span> <span class=\"highlight\">havada zıplama</span> veya <span class=\"highlight\">zıplayarak atılma</span> olanağı verir."
+
+		"upgrade_infinite_rounds_desc" "<span class=\"highlight\">Sonsuz</span> cephaneye sahipsiniz."
+
+		// BulletShredImbue Ballistic Enchantment
+		"upgrade_bulletshredimbue_desc" "Bir yeteneği, artırılmış <span class=\"highlight\">menzil</span> ile güçlendirin. Bu yetenek ile hasar vermek, <span class=\"highlight\">vurulan her farklı kahraman</span> için <span class=\"highlight\">silah hasarınızı</span> artırır. Kahraman dışı birimler üzerindeki etkisi daha azdır."
+
+		// Recharging Bullets
+		"upgrade_rechargingbullets_desc" "Önemli derecede {g:citadel_inline_attribute:'WeaponDamage'} vermek <span class=\"highlight\">şarjlı yeteneklerinizin her biri için</span> bir şarj yeniler."
+		"CooldownReductionOnProc_postvalue_label" "Dolum Süresi Azaltma"
+		"CooldownReductionOnProc_label" "Dolum Süresi Azaltma"
+		"CooldownReductionOnProc_postfix" " sn."
+		"CooldownReductionOnProc_prefix" "{s:sign}"
+
+
+		//-----------------------------------------------------------------------------
+		// Street Brawl Tier5
+		//----------------------------------------------------------------------------- 
+		"upgrade_icarus_wings_desc"		"Havadayken, daha fazla hasar verir ve daha az hasar alırsınız. <span class=\"highlight\">Sınırsız</span> zıplama ve zıplayarak atılma verir."
+		"upgrade_mystical_piano_desc"	"Kısa bir gecikmeden sonra, hedef alandaki düşmanlar sersemletilir ve kuvvetleri tükenir. Sersemletme sonrası geçici olarak afallarlar."
+		"upgrade_nullification_aura_desc"	"Düşmanlar üzerindeki her türlü olumlu güçlendirmeyi kaldırır, kuvvet kullanımını ve iyileştirmeyi engeller."
+		"upgrade_nullification_aura_deathdamage_desc"	"Öldükten sonra yüksek büyü hasarı verir."
+		"upgrade_celestial_guidance_desc"	"Bütün haritadaki dostlara son derece güçlü bir arındırma uygular."
+		"upgrade_eternal_gift_desc"			"Düzenli aralıklarla, rastgele belirlenen kalıcı bir özellik güçlendirmesi kazanın."
+		"upgrade_eternal_gift_respawn_desc"		"Bir sonraki ölümünüzün canlanma süresini azaltır."
+		"upgrade_patrons_blessing_desc"			"Size ve dostlarınıza büyü odaklı güçlü bir aura sağlar. Dostlar üzerindeki etkisi azaltılır."
+		"upgrade_patrons_blessing_proc_desc"	"Bir düşman kahramanına {s:DamageThresholdDuration} sn. içerisinde önemli miktarda <span class=\"highlight\">Hasar</span> verdiğinizde kendinizi ve yakındaki dostları iyileştirirsiniz."
+
+		"AllyPercentage_postvalue_label" "Dost Yüzdesi"
+		"AllyPercentage_label" "Dost Yüzdesi"
+		"AllyPercentage_postfix" "%"
+		"AllyPercentage_prefix" "{s:sign}"
+		"RespawnTime_postvalue_label" "Canlanma Süresi"
+		"RespawnTime_label" "Canlanma Süresi"
+		"RespawnTime_postfix" "%"
+		"RespawnTime_prefix" "{s:sign}"
+
+		"upgrade_eldritch_shot_desc"			"Bir sonraki merminiz güçlü bir zayıflatma uygulayarak düşmanın hasarını, iyileştirmesini ve hareket hızını azaltır. Ayrıca hedefin mevcut Sağlığına bağlı olarak {g:citadel_inline_attribute:'BonusSpiritDamage'} verir. <br><br>Bu mermi diğerlerinden daha büyüktür ve hedeflerin içinden geçer."
+		"upgrade_cloak_of_opportunity_desc"		"<span class=\"highlight\">Hareket engelleme, sersemletme, zincirleme, hareketsizleştirme veya uyutma</span> uygulayacak bir sonraki zayıflatmayı engeller ve kahramanı <span class=\"highlight\">durdurulamaz</span> hâle getirir. Ayrıca <span class=\"highlight\">bariyer</span> ve fazladan {g:citadel_inline_attribute:'MoveSpeed'} sağlar."
+		"upgrade_runed_gauntlets_desc"			"Ağır yakın dövüş saldırısıyla yaptığınız her vuruş mevcut dolum sürenizi azaltır."
+		"upgrade_runed_gauntlets_parry_desc"		"Savuşturmayı yok sayar."
+		"upgrade_electric_slippers_desc"		"Kayarken, mermilerden kaçının, atış hızı kazanın ve etrafınızdaki düşmanlara hasar verin. <span class=\"diminish\"><br><br>Her hedef için dolum süresi ayrıdır.</span>"
+		"upgrade_prism_blast_desc"				"Hiçlik durumuna girerek kısa süreliğine <span class=\"highlight\">hedeflenemez ve dokunulmaz</span> olursunuz. Bu süre zarfında etrafınıza dönen lazer ışınları yayılır."
+		"upgrade_unstable_concoction_desc"		"<span class=\"highlight\">Durdurulamaz</span> olmanızı ve <span class=\"highlight\">hızınızı, sağlığınızı, büyü hasarınızı ve silah hasarınızı</span> artıran bir karışım tüketin. Kısa bir süre sonra <span class=\"highlight\">ölüp patlayarak</span> yakındaki düşmanları sersemletirsiniz ve maksimum sağlığınıza bağlı olarak hasar verirsiniz. Bu şekilde ölmek, yeniden canlanma sürenizi <span class=\"highlight\">%{s:RespawnTimeMod}</span> azaltır."
+		"upgrade_shivas_bracelet_desc"			"Güçlendirilmiş yeteneğin <span class=\"highlight\">dolum süresi azaltılır</span> ve <span class=\"highlight\">büyü gücü</span> kazanır. Yetenek hasar verdiğinde hedefi <span class=\"highlight\">dondurur</span> ve <span class=\"highlight\">fazladan hasar</span> verir. <span class=\"diminish\"><br><br>Her hedef için dolum süresi ayrıdır.</span>"
+		"upgrade_shadow_strike_desc"			"<span class=\"highlight\">Kuvvet kullanımında</span> algılanma menzili olmadan <span class=\"highlight\">görünmez</span> olun. Görünmezken <span class=\"highlight\">yakın dövüş saldırısı</span> yapmak hedeften <span class=\"highlight\">mermi ve büyü direnci çalar</span> ve <span class=\"highlight\">zamanla hasar verir</span>."
+		"upgrade_omnicharge_pendant_desc"		"Son yetenek olmayan herhangi bir etkin yeteneği <span class=\"highlight\">bonus yetenek şarjı</span> ile güçlendirin. Zaten şarj edilmiş yetenekler daha fazla bonus şarj elde eder."
+		"upgrade_omnicharge_pendant_charges"	"Bonus Şarj"
+
+		//-----------------------------------------------------------------------------
+		// Cosmetic
+		//----------------------------------------------------------------------------- 
+		"cosmetic_ability_snowball"		"Kar topu"
+		"cosmetic_ability_snowball_desc"		"Dostlarınıza ve düşmanlarınıza kar topu fırlatın. <span class=\"highlight\">2025 Yılbaşı Mücadelesi</span>'nde ilerledikçe mesafe ve diğer özellikler gelişir.<br><br><span class=\"diminish\">Dostlara atılan kar topları hasar vermez ve dolum süreleri sıfırlanır.</span>"
+		"SnowballSpeed_label"			"Fırlatma Hızı"
+		"SnowballSpeed_postvalue_label"		"Hız"
+		"SnowballSpeed_postfix"			" m/sn"
+		"SnowballCount_label"			"Fırlatılan Kar topu"
+		"SnowballCount_postvalue_label"		"Atış"
+
+		"cosmetic_item_voting_poster"		"Posteri As"
+	}
+}

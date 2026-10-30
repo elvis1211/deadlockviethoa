@@ -1,0 +1,1022 @@
+﻿"lang"
+{
+	"Language"		"thai"
+	"Tokens"
+	{
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Weapon
+		//-----------------------------------------------------------------------------
+
+		//Ammo Scavenger
+		"upgrade_ammo_scavenger_desc"		"ทุกครั้งที่คุณการันตีหรือดีนายโซลส์จากยูนิต คุณจะ<span class=\"highlight\">ได้รับกระสุนคืน</span>และได้รับการซ้อนทับ<span class=\"highlight\">พลังวิญญาณ</span><br>เมื่อซ้อนทับสูงสุดจะได้รับความเร็ว​การวิ่งเพิ่มขึ้น"
+		"AmmoPerSoul_prefix"				"+"
+		"AmmoPerSoul_label"					"กระสุนต่อโซลส์"
+		"AmmoPerSoul_postvalue_label"					"กระสุนต่อโซลส์"
+		"SpiritPowerPerSoul_prefix"			"+"
+		"SpiritPowerPerSoul_label"			"พลังวิญญาณต่อโซลส์"
+		"SpiritPowerPerSoul_postvalue_label"			"พลังวิญญาณต่อโซลส์"
+		"AmmoScavengerDuration_label"		"ระยะเวลา"
+		"AmmoScavengerDuration_postvalue_label"		"ระยะเวลา"
+		"AmmoScavengerDuration_postfix"		"วิ"
+
+		//Melee Lifesteal
+		"upgrade_lifestrike_gauntlets_desc"	"การโจมตี<span class=\"highlight\">ประชิด</span>ครั้งถัดไปของคุณจะ<span class=\"highlight\">รักษาคุณ</span> <span class=\"diminish\"><br><br>การรักษานี้มีประสิทธิภาพ {s:NonHeroHealPct}% เมื่อใช้กับยูนิตที่ไม่ใช่ฮีโร่<br>คูลดาวน์จะนานขึ้น {s:LightMeleeCooldownMult} เท่าหากโจมตี​ประชิด​ธรรมดา</span>"
+		"LifestrikeHeal_label"				"รักษาเมื่อโจมตี​ประชิด"
+		"LifestrikeHeal_postvalue_label"				"รักษาเมื่อโจมตี​ประชิด"
+
+		//Tesla Bullets
+		"upgrade_chain_lightning_desc"	"กระสุนของคุณมีโอกาสที่จะ<span class=\"highlight\">ช็อต</span>เป้าหมายของคุณ การ<span class=\"highlight\">ช็อต</span>จะชิ่งไปยังศัตรูที่อยู่ใกล้เคียง"
+
+		//Galvanic Storm
+		"GalvanicBuffDuration_label"						"ระยะเวลา"
+		"GalvanicBuffDuration_postvalue_label"						"ระยะเวลา"
+		"GalvanicBuffDuration_postfix"					"วิ"
+
+		//Silence Glyph
+		"upgrade_targeted_silence_desc"	"ปล่อยโพรเจกไทล์ที่ขยายออกไป ซึ่ง<span class=\"highlight\">ใบ้</span> ศัตรูเป็นระยะเวลาสั้น ๆ และสร้างความเสียหายปะทะ <br><br><span class=\"diminish\">การใบ้จะไม่ขัดจังหวะสกิลยืนร่าย</span>"
+		"ResistReductionDuration_label"	"ระยะเวลาลดต้านทาน​"
+		"ResistReductionDuration_postvalue_label"	"ระยะเวลาลดต้านทาน​"
+		"ResistReductionDuration_postfix"	"วิ"
+
+		//EMP Bullets
+		"upgrade_proc_silence_desc"		"กระสุนของคุณจะสะสมพลังจนทำให้ติดดีบัฟ<span class=\"highlight\">ใบ้</span> เหยื่อจะไม่ได้รับผลจากการสะสมพลังเป็นเวลา <span class=\"highlight\">{s:ImmunityDuration}วิ</span> หลังจากดีบัฟใบ้หมดเวลา"
+		"upgrade_proc_silence_debuff_desc"		"กระสุนของคุณจะลด<span class=\"highlight\">ความ​เสียหาย​วิญญาณที่สร้าง</span>ของเป้าหมาย"
+		"proc_silence_buildup"			"สะสมพลังใบ้..."
+		"modifier_citadel_silence_proc_tech_damage_reduction"	"-ความ​เสียหาย​วิญญาณ"
+
+		//Silencer
+		"upgrade_silencer_active"		"ในช่วง {s:AbilityDuration}วิ ถัดไป <span class=\"highlight\">กระสุนทุกนัดของคุณจะใบ้เป้าหมายทันที</span> เป้าหมายจะไม่สามารถใช้สกิลได้ขณะถูกใบ้"
+
+		//Slowing Bullets
+		"upgrade_slowing_bullets_desc"	"กระสุนของคุณจะสะสมพลังซึ่งจะ<span class=\"highlight\">ลดความเร็ว​การเคลื่อนที่</span>ของศัตรู"
+		"upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base"					"ช้าลง"
+
+		//Inhibitor
+		"upgrade_inhibitor_desc"	"กระสุนของคุณจะสะสมพลังในการลด<span class=\"highlight\">ความ​เสียหาย​ที่สร้าง</span>ของเป้าหมาย และ<span class=\"highlight\">ลดการรักษา</span>"
+		"OutgoingDamagePenaltyPercent_label"	"ลดทอนความเสียหายที่สร้าง"
+		"OutgoingDamagePenaltyPercent_postvalue_label"	"ลดทอนความเสียหายที่สร้าง"
+		"OutgoingDamagePenaltyPercent_postfix"	"%"
+
+		//Hunter's Aura
+		"upgrade_bullet_armor_reduction_aura_desc"		"ลด<span class=\"highlight\">ต้านทานกระสุนและอัตรายิง</span>ของศัตรูที่อยู่ใกล้เคียง หากมีฮีโร่ศัตรูเพียงคนเดียวอยู่ใน​บริเวณ​ใกล้เคียง​<span class=\"highlight\">​เอฟเฟกต์นี้​จะเพิ่มขึ้นเป็นสองเท่า</span>"
+
+		//Heroic Aura
+		"upgrade_dps_aura_active_desc"	"มอบ<span class=\"highlight\">{g:citadel_inline_attribute:'MoveSpeed'}</span>และ<span class=\"highlight\">{g:citadel_inline_attribute:'FireRate'}</span>ให้กับคุณและเพื่อนร่วมทีมใน​บริเวณ​ใกล้เคียง​ ส่วน<span class=\"highlight\">ลูกสมุน</span>จะได้รับเป็นสองเท่า"
+		"upgrade_dps_aura_desc"			"มอบ<span class=\"highlight\">ต้านทานกระสุน</span>ให้กับยูนิตฝ่ายเดียวกันใน​บริเวณ​ใกล้เคียง​"		
+		"modifier_dps_aura_active"		"​ฮีโรอิก​ออรา​ กำลังทำงาน"
+		"modifier_dps_aura_player"		"​ฮีโรอิก​ออรา​ เพิ่มอัตรายิง"
+
+		//"BonusBaseDamage_label"			"Base Bullet and Melee Damage"
+		"BonusBaseDamage_postfix"		"%"
+
+		//Warp Stone
+		"upgrade_warp_stone_desc"	"<span class=\"highlight\">เทเลพอร์ต</span>ไปข้างหน้า พร้อมทั้งเพิ่ม<span class=\"highlight\">ต้านทานกระสุน</span>"
+		"WarpStoneRange_label"		"ระยะเทเลพอร์ต"
+		"WarpStoneRange_postvalue_label"		"ระยะเทเลพอร์ต"
+		"WarpStoneRange_postfix"		"ม"
+		"CasterBuffDuration_label"	"ระยะเวลาบัฟ"
+		"CasterBuffDuration_postvalue_label"	"ระยะเวลาบัฟ"
+		"CasterBuffDuration_postfix"	"วิ"
+		"CasterSlowPercent_postfix"	"%"
+
+		//Torment Pulse
+		"upgrade_tech_damage_pulse_desc"	"สร้าง {g:citadel_inline_attribute:'SpiritDamage'} เป็นระยะแก่ศัตรู 2 ตัวที่อยู่ใกล้ที่สุดในบริเวณใกล้เคียง"
+
+		//Mystic Burst
+		"upgrade_magic_burst_desc"	"สะสมพลัง{g:citadel_inline_attribute:'BonusSpiritDamage'}อย่างต่อเนื่อง ส่งผลให้สกิลที่สร้างความเสียหายมากกว่า<span class=\"highlight\">{s:MinimumDamage}</span> หน่วยจะสร้างความเสียหายเพิ่มเติม"
+		"MagicBurstDamage_label"		"ความเสียหายเพิ่มเติม"
+
+		"MagicBurstDamage_postvalue_label"		"เพิ่มความเสียหาย"
+
+		//Improved Burst Tankbuster
+		"upgrade_magic_shock_desc"	"สะสมพลัง{g:citadel_inline_attribute:'BonusSpiritDamage'}อย่างต่อเนื่อง ส่งผลให้สกิลที่สร้างความเสียหายมากกว่า <span class=\"highlight\">{s:MinimumDamage}</span> หน่วยจะสร้างความเสียหายเพิ่มเติม <span class=\"highlight\">ทะลุต้านทาน​วิญญาณ​</span>"
+		"MagicShockDamage_label"		"ความเสียหายเพิ่มเติม​จาก​พลังชีวิต​ปัจจุบัน"
+		"MagicShockDamage_postvalue_label"		"ความเสียหายเพิ่มเติม​จาก​พลังชีวิต​ปัจจุบัน"
+		"MagicShockDamage_postfix"	"%"
+
+		//Mystic Reverb
+		"upgrade_tech_bleed_desc" "ผสานสกิลให้<span class=\"highlight\">ดูดพลังชีวิต</span> และ<span class=\"highlight\">ลดความเร็ว</span>เป้าหมายที่โดน รวมทั้งสร้าง<span class=\"highlight\">ความเสียหายเพิ่มเติมเป็นเปอร์เซ็นต์ของ​ความเสียหาย​ที่สร้าง</span>แก่ศัตรูรอบเป้าหมายหลังจาก​ดีเลย์สั้น ๆ"
+	
+		//Toxic Bullets
+		"upgrade_toxic_bullets_desc"	"กระสุนของคุณจะสะสมพลังซึ่งเมื่อครบแล้ว​จะ​ทำให้​ศัตรู​<span class=\"highlight\">เลือดไหล</span>​ ส่งผลให้ศัตรู​สูญเสีย​พลังชีวิต​เป็น<span class=\"highlight\">เปอร์เซ็นต์</span>​ของ<span class=\"highlight\">​พลังชีวิตสูงสุด</span>อย่างต่อเนื่อง พร้อมทั้งลด<span class=\"highlight\">การรักษาที่ได้รับ</span>ของเป้าหมายที่กำลังเลือดไหล"
+		"upgrade_toxic_bullets_buildup"					"Toxic สะสมพลัง..."
+		"upgrade_bleeding_bullets_buildup"				"สะสมพลังเลือดไหล..."
+		"modifier_item_burning_bullets_damageovertime" 	"เลือดไหล"
+		"upgrade_hemorrhage/modifier_item_hemorrhage/modifier_hemorrhage" "เลือดสาด"
+
+		// Weighted Shots
+		"upgrade_weighted_shots_desc"	"กระสุนของคุณจะสะสมพลังซึ่งจะ<span class=\"highlight\">ลดความเร็ว​การเคลื่อนที่</span>ของศัตรู"
+		//"upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base"					"Slowed"
+
+		//Spiritual Overflow
+		"upgrade_tech_overflow_desc"	"เพิ่ม<span class=\"highlight\">อัตรายิง</span> <span class=\"highlight\">พลังวิญญาณ</span> และ<span class=\"highlight\">วิญญาณ​ดูดพลังชีวิต</span>โดยการ<span class=\"highlight\">สะสมพลัง</span>เมื่อยิงใส่ฮีโร่"
+		"modifier_tech_overflow_building" "​สปิริชวล​โอเวอร์​โฟลว์​ สะสมพลัง..."
+
+		"OverflowTechPower_label"		"พลังวิญญาณ"
+
+		"OverflowTechPower_postvalue_label"		"พลังวิญญาณ"
+		"OverflowBonusDamage_postfix"	"%"
+
+		//Ricochet
+		"upgrade_ricochet_desc"		"กระสุนของคุณจะ<span class=\"highlight\">กระดอน​</span>ไปโจมตี​ศัตรู​ที่อยู่ใกล้​กับเป้าหมาย​ของคุณ <span class=\"highlight\">ส่งผล​เอฟเฟกต์​ของ​กระสุน​ทั้งหมด​</span>และ<span class=\"highlight\">สร้างความเสียหาย​เป็น​เปอร์เซ็นต์​​ของ​​ความเสียหายเดิม</span>"
+		"RicochetTargetsTooltipOnly_label"			"เป้าหมาย​การกระดอน"
+		"RicochetTargetsTooltipOnly_postvalue_label"			"เป้าหมาย​การกระดอน"
+		"RicochetDamagePercent_label"					"ความเสียหาย​กระดอน"
+		"RicochetDamagePercent_postvalue_label"					"ความเสียหาย​กระดอน"
+		"RicochetDamagePercent_postfix"					"%"
+		"RicochetRadius_label"							"ระยะกระดอน"
+		"RicochetRadius_postvalue_label"							"ระยะกระดอน"
+		"RicochetRadius_postfix"							"ม"
+
+		"ModelScaleGrowthTooltip_label"					"ขนาดโมเดล"
+		"ModelScaleGrowthTooltip_postvalue_label"					"ขนาดโมเดล"
+		"ModelScaleGrowthTooltip_postfix"					"%"
+
+		"ShrinkDuration_label"					"ระยะเวลาย่อส่วน"
+		"ShrinkDuration_postvalue_label"					"ระยะเวลาย่อส่วน"
+		"ShrinkDuration_postfix"					"วิ"
+		
+		"BonusBaseHealth_prefix"					"+"
+		"BonusBaseHealth_label"					"พลังชีวิตพื้นฐาน"
+		"BonusBaseHealth_postvalue_label"					"พลังชีวิตพื้นฐาน"
+		"BonusBaseHealth_postfix"					"%"
+
+		//Close Quarters
+		"upgrade_close_range_desc"	"สร้าง<span class=\"highlight\">ความเสียหายอาวุธ</span>เพิ่มเติมเมื่ออยู่ใน<span class=\"highlight\">ระยะใกล้</span>​กับ​เป้าหมายของคุณ"
+		"upgrade_close_quarter_combat/modifier_cqc_proc/modifier_slow_base"			"ช้าลง"
+
+		//Long Range
+		"upgrade_long_range_desc"	"สร้าง<span class=\"highlight\">ความเสียหายอาวุธ</span>เพิ่มเติมเมื่ออยู่<span class=\"highlight\">​ไกลกว่าระยะขั้นต่ำ​</span>จากเป้าหมายของคุณ"
+
+		//Mystic Shot
+		"upgrade_crackshot_desc"	"กระสุนนัดถัดไปของคุณจะสร้าง {g:citadel_inline_attribute:'SpiritDamage'} เพิ่มเติม"
+		"ProcBonusMagicDamage_prefix"	"{s:sign}"
+		"ProcBonusMagicDamage_label"	"ความ​เสียหาย​วิญญาณ"
+
+		"ProcBonusMagicDamage_postvalue_label"	"ความ​เสียหาย​วิญญาณ"
+
+		//Ethereal Bullets
+		"upgrade_ethereal_bullets_desc"	"สกิลที่ผสานของคุณจะสะสมพลังอย่างต่อเนื่องทำให้มี{g:citadel_inline_attribute:'BonusSpiritDamage'} {g:citadel_inline_attribute:'BonusFireRate'} และจะ<span class=\"highlight\">เติมกระสุน</span>เมื่อใช้ <span class=\"highlight\">กระสุนของคุณจะสร้าง {g:citadel_inline_attribute:'BonusSpiritDamage'}</span>ตามพลังวิญญาณของคุณจนกว่าคุณจะเติมกระสุนใหม่อีกครั้ง"
+		"BulletsBonusMagicDamage_label"	"ความ​เสียหาย​กระสุน​​พื้นฐาน"
+		"BulletsBonusMagicDamage_postvalue_label"	"ความ​เสียหาย​กระสุน​​พื้นฐาน"
+		"BulletsBonusMagicDamage_prefix"	"+"
+		"BulletsBonusMagicDamage_postfix"	"%"
+
+		//Restorative Shot
+		"upgrade_medic_bullets_desc"	"กระสุนนัดถัดไปของคุณจะ<span class=\"highlight\">รักษา</span>คุณตามประเภท​เป้าหมาย​ที่คุณยิง"
+		"HealFromHero_label"	"การรักษาจากฮีโร่"
+		"HealFromHero_postvalue_label"	"การรักษาจากฮีโร่"
+		"HealFromNPC_label"	 "การรักษาจาก NPC / ลูกแก้ว"
+
+		"HealFromNPC_postvalue_label"	 "การรักษาจาก NPC / ลูกแก้ว"
+
+		//Point Blank
+		"upgrade_close_quarter_combat_desc"	"เมื่ออยู่ใน<span class=\"highlight\">ระยะใกล้</span>กับ​เป้าหมายของคุณ คุณจะสร้าง<span class=\"highlight\">ความเสียหายอาวุธ</span>เพิ่มขึ้น และกระสุนของคุณจะ<span class=\"highlight\">ลดความเร็ว​การเคลื่อนที่</span>ของ​เป้าหมาย"
+
+		//Headshot Booster
+		"upgrade_headshot_booster_desc"		"เมื่อคุณยิงกระสุนนัดถัดไปเป็น<span class=\"highlight\">​เฮดช็อต</span>ใส่ฮีโร่ศัตรู จะสร้าง{g:citadel_inline_attribute:'BonusWeaponDamage'}"
+
+		//Weakening Headshot
+		"upgrade_headshot_booster2_desc"		"การยิง<span class=\"highlight\">เฮดช็อต</span>จะลด<span class=\"highlight\">ต้านทานกระสุน</span>ของศัตรูนั้น"
+
+		//Sharpshooter
+		"upgrade_sharpshooter_desc"				"สร้าง<span class=\"highlight\">ความเสียหายอาวุธ</span>เพิ่มเติมเมื่ออยู่<span class=\"highlight\">​ไกลกว่าระยะขั้นต่ำ​</span>จากเป้าหมายของคุณ"
+
+		//Headhunter
+		"upgrade_headhunter_desc"	"เมื่อคุณยิงกระสุนนัดถัดไปเป็น<span class=\"highlight\">​เฮดช็อต</span>ใส่ฮีโร่ศัตรู จะสร้าง{g:citadel_inline_attribute:'BonusWeaponDamage'}, {g:citadel_inline_attribute:'Heal'}ตัวคุณเอง และมอบ{g:citadel_inline_attribute:'BonusMoveSpeed'}ชั่วครู่"
+		"HealPercentPerHeadshot_label"		"รักษาต่อเฮดช็อต"
+		"HealPercentPerHeadshot_postvalue_label"		"รักษาต่อเฮดช็อต"
+		"HealPercentPerHeadshot_postfix"	"%"
+		"BaseHealOnHeadshot_label"			"รักษาต่อเฮดช็อต"
+		"BaseHealOnHeadshot_postvalue_label"			"รักษาต่อเฮดช็อต"
+
+		//Spellslinger Headshots
+		"upgrade_spellslinger_headshots_part1_desc"	"กระสุนของคุณสร้างดีบัฟที่ลด<span class=\"highlight\">ต้านทาน​วิญญาณ</span>​ของ​​เป้าหมาย และ​มอบ​<span class=\"highlight\">วิญญาณ​ดูดพลังชีวิต​</span>​ให้​คุณ​และเพื่อนร่วมทีมของคุณเมื่อ​โจมตี​เป้าหมาย"
+		"upgrade_spellslinger_headshots_part2_desc"	"การยิง<span class=\"highlight\">เฮดช็อต</span>ใส่เป้าหมายจะลด<span class=\"highlight\">ต้านทาน​วิญญาณ</span>ของเป้าหมายลงไปอีก"
+		"SpiritPowerGainPct_label"				"พลังวิญญาณ"
+		"SpiritPowerGainPct_postvalue_label"				"พลังวิญญาณ"
+		"SpiritPowerGainPct_postfix"			"%"
+		"SpellSlingerHeadshots_SpiritShredPerStack_label"		"ต้านทาน​วิญญาณ​เมื่อเฮดช็อต"
+		"SpellSlingerHeadshots_SpiritShredPerStack_postvalue_label"		"ต้านทาน​วิญญาณ​เมื่อเฮดช็อต"
+		"SpellSlingerHeadshots_SpiritShredPerStack_postfix"	"%"
+
+		//Crippling Headshot
+		"upgrade_banshee_slugs_headshots_desc"	"การยิง<span class=\"highlight\">เฮดช็อต</span>จะลด<span class=\"highlight\">ต้านทานกระสุน ต้านทานวิญญาณ และการรักษาที่ได้รับ</span>ของศัตรูนั้น"
+
+		//Berserker
+		"upgrade_berserker_desc"		"<span class=\"highlight\">ความเสียหายอาวุธ</span>ของคุณเพิ่มขึ้นเมื่อคุณได้รับ​ความ​เสียหาย​อย่างต่อเนื่อง"
+
+		//Frenzy
+		"upgrade_fervor_passive"	"เมื่อคุณมี<span class=\"highlight\">พลังชีวิตต่ำกว่า {s:LowHealthThreshold}%</span> คุณจะได้รับค่าสถานะเพิ่มเติมชั่วคราว และดีบัฟที่คุณติดอยู่จะลดลง"
+		"FervorTechResist_postfix"  "%"
+		"modifier_fervor_aura_active"		"บ้าระห่ำ"
+		"FervorBulletResist_label"		"ต้านทาน​กระสุน​"
+		"FervorBulletResist_postvalue_label"		"ต้านทาน​กระสุน​"
+		"FervorBulletResist_prefix"		"+"
+		"FervorBulletResist_postfix"	"%"
+
+		//Soul Shredder Bullets
+		"upgrade_tech_defense_shredders_desc"	"กระสุนของคุณสร้างดีบัฟที่ลด<span class=\"highlight\">ต้านทาน​วิญญาณ</span>​ของ​​เป้าหมาย และ​มอบ​<span class=\"highlight\">วิญญาณ​ดูดพลังชีวิต​</span>​ให้​คุณ​และเพื่อนร่วมทีมของคุณเมื่อ​โจมตี​เป้าหมาย"
+		"ShreddersTechAmp_label"				"เพิ่มอัตราวิญญาณ"
+		"ShreddersTechAmp_postvalue_label"				"เพิ่มอัตราวิญญาณ"
+		"ShreddersTechAmp_postfix"			"%"
+
+		//Hollow Point Ward
+		"upgrade_hollow_point_rounds_desc"				"เมื่อคุณมี<span class=\"highlight\">พลังชีวิตมากกว่า {s:LifeThreshold}%</span> คุณจะสร้าง<span class=\"highlight\">ความเสียหายอาวุธ​</span>มากขึ้น​ และกระสุนของคุณจะลด<span class=\"highlight\">ต้านทานกระสุน</span>ของ​ศัตรู"
+
+		// Pristine Emblem
+		"upgrade_pristine_emblem_desc"	"การโจมตีของคุณจะสร้าง<span class=\"highlight\">ความเสียหายอาวุธ</span>เพิ่มเติม​แก่​<span class=\"highlight\">ศัตรูที่มีพลังชีวิตมากกว่า {s:EnemyLifeThreshold}%</span>"
+		"BaseAttackDamagePercentBonus_label"	"ความเสียหายอาวุธ"
+		"BaseAttackDamagePercentBonus_postvalue_label"	"ความเสียหายอาวุธ"
+		"BaseAttackDamagePercentBonus_prefix"	"+"
+		"BaseAttackDamagePercentBonus_postfix"	"%"
+
+		//Disarming Bullets
+
+		//Glass Cannon
+		"upgrade_glass_cannon_desc"		"การสังหารฮีโร่แต่ละครั้งจะมอบ<span class=\"highlight\">อัตรายิง​ถาวร</span> (สูงสุด {s:MaxStacks} ครั้ง) การตายจะทำให้สูญเสีย 1 การซ้อนทับ"
+		"GlassCannon_SlowPercent_label"		"กระสุน​ลด​ความเร็ว​การเคลื่อนที่"
+		"GlassCannon_SlowPercent_postvalue_label"		"กระสุน​ลด​ความเร็ว​การเคลื่อนที่"
+		"GlassCannon_SlowPercent_postfix"	"%"
+		"GlassCannon_SlowPercent_prefix"	"+"
+		"upgrade_glass_cannon_plus1"		"​กลาส​แคนนอน​ +1"
+
+		//Fury Trance
+		"upgrade_fury_trance_active"	"เพิ่ม<span class=\"highlight\">อัตรายิง</span> <span class=\"highlight\">ต้านทาน​วิญญาณ​</span> และ<span class=\"highlight\">ความเร็ว​การ​เคลื่อนที่</span> รวมทั้งทำให้ไม่ถูกลด<span class=\"highlight\">ความเร็ว​การ​เคลื่อนที่</span>ขณะยิง แต่จะ<span class=\"highlight\">ใบ้</span>คุณและ​<span class=\"highlight\">ปิด​การใช้งาน​และ​ฟื้นฟู​สแตมินา</span>"
+
+		//Vampiric Burst
+		"upgrade_surging_power_active"	"เพิ่มการ<span class=\"highlight\">ดูดพลังชีวิต</span> <span class=\"highlight\">อัตรายิง</span> และ<span class=\"highlight\">กระสุน</span> กระสุนที่เพิ่มขึ้นนี้จะไม่ถูกจำกัดด้วยขนาดซอง​กระสุน​สูงสุด​ของคุณ"
+		"ActiveBonusLifesteal_label"		"กระสุนดูดพลังชีวิต"
+		"ActiveBonusLifesteal_postvalue_label"		"กระสุนดูดพลังชีวิต"
+		"ActiveBonusLifesteal_postfix"	"%"
+
+		//Siphon Bullets
+		"upgrade_siphon_bullets_desc_passive2"	"กระสุนของคุณ<span class=\"highlight\">ขโมยพลังชีวิตสูงสุด</span>จากศัตรูชั่วคราว เมื่อดีบัฟหมดเวลาศัตรูจะได้รับพลังชีวิตที่ถูกขโมยคืน"
+		"HealthSteal_label"						"ขโมย​พลังชีวิต​สูงสุด​ต่อกระสุน​"
+		"HealthSteal_postvalue_label"			"ขโมย​พลังชีวิต​สูงสุด​ต่อกระสุน​"
+		"SiphonBullets_HealthStealPctHero_label"			"ขโมย​พลังชีวิต​สูงสุด"
+		"SiphonBullets_HealthStealPctHero_postvalue_label"	"ขโมย​พลังชีวิต​สูงสุด"
+		"SiphonBullets_HealthStealPctHero_postfix"			"%"
+
+		//Overdrive Clip
+		"BonusReloadSpeed_label"						"เวลาเติมกระสุน"
+		"BonusReloadSpeed_postvalue_label"						"เวลาเติมกระสุน"
+		"BonusReloadSpeed_Postfix"						"%"
+		"OverdriveClipDuration_Postfix"					"วิ"
+
+		//Burst Fire Actuator
+		"BurstFireShotsFromClipPercent_Postfix"			"%"
+		"BonusHeadshotDamage_label"						"เพิ่ม​​ความเสียหาย​เฮดช็อต"
+		"BonusHeadshotDamage_postvalue_label"						"เพิ่ม​​ความเสียหาย​เฮดช็อต"
+		"BonusHeadshotDamage_postfix"					"%"
+		"BaseBonusWeaponPower_prefix"					"+"
+
+		//Lifestrike
+		"upgrade_boxing_glove_desc"						"<span class=\"highlight\">การโจมตี​ประชิด</span>ของคุณจะ<span class=\"highlight\">ลดความเร็ว​การเคลื่อนที่</span>ของเป้าหมาย พร้อมทั้ง<span class=\"highlight\">รักษาคุณ</span>เป็นเปอร์เซ็นต์​ของ<span class=\"highlight\">ความเสียหาย​ประชิด</span>ที่ทำได้บวกกับจำนวนที่คงที่ <span class=\"diminish\"><br><br>การรักษานี้มีประสิทธิภาพ {s:NonHeroHealPct}% เมื่อใช้กับยูนิตที่ไม่ใช่ฮีโร่<br>คูลดาวน์จะนานขึ้น {s:LightMeleeCooldownMult} เท่าหากโจมตี​ประชิด​ธรรมดา</span>"
+		"BonusMeleeSpeed_prefix"						"+"
+		"BonusMeleeSpeed_postfix"						"%"
+		"DisarmDuration_label"							"ระยะเวลาปลดอาวุธ"
+		"DisarmDuration_postvalue_label"							"ระยะเวลาปลดอาวุธ"
+		"DisarmDuration_postfix"						"วิ"
+		"LifestealHeal_label"				"รักษาเมื่อโจมตี​ประชิด"
+		"LifestealHeal_postvalue_label"				"รักษาเมื่อโจมตี​ประชิด"
+		"LifestealHealPercent_label"				"รักษาเมื่อโจมตี​ประชิด"
+		"LifestealHealPercent_postvalue_label"				"รักษาเมื่อโจมตี​ประชิด"
+		"LifestealHealPercent_postfix"				"%"
+
+		"MeleeLifesteal_label"				"โจมตี​ประชิด​ดูดพลังชีวิต"
+		"MeleeLifesteal_postvalue_label"				"โจมตี​ประชิด​ดูดพลังชีวิต"
+		"MeleeLifesteal_postfix"				"%"
+
+
+
+		//Belt-Fed Magazine
+		"SpinUpTime_postfix"							"วิ"
+		"InitialFireRateDecrease_prefix"				"-"
+		"InitialFireRateDecrease_postfix"				"%"
+		"MaxFireRateIncrease_prefix"					"+"
+		"MaxFireRateIncrease_postfix"							"%"
+		"BonusReloadTime_postfix"						"วิ"
+
+		//Stabilizing Tripod
+		"StationaryRecoilReduction_postfix"					"%"
+		"StationaryWeaponPower_prefix"						"+"
+		"CasterHealthPercent_postfix"					"%"
+
+		//Burst Fire
+		"upgrade_burst_fire_desc"						"เพิ่ม<span class=\"highlight\">อัตรายิง</span>และ<span class=\"highlight\">ความเร็ว​การ​เคลื่อนที่</span>ชั่วคราว​เมื่อหนึ่งในกระสุน​ของคุณ​ยิงโดน​ฮีโร่"
+
+		//Intensifying Magazine
+		"upgrade_intensifying_clip_desc"				"เพิ่ม<span class=\"highlight\">ความเสียหายอาวุธ</span>เมื่อคุณใช้อาวุธยิงอย่างต่อเนื่อง"
+		"BaseAttackDamagePercentAtMaxDuration_label"	"ความเสียหายอาวุธสูงสุด"
+		"BaseAttackDamagePercentAtMaxDuration_postvalue_label"	"ความเสียหายอาวุธสูงสุด"
+		"BaseAttackDamagePercentAtMaxDuration_postfix"		"%"
+		"ShootDurationForMax_label"						"เวลาสร้าง​ความเสียหาย​สูงสุด"
+		"ShootDurationForMax_postvalue_label"						"เวลาสร้าง​ความเสียหาย​สูงสุด"
+		"ShootDurationForMax_postfix"							"วิ"
+		
+		//Escalating Resilience
+		"upgrade_reinforcing_casings_desc"    "มอบ<span class=\"highlight\">ต้านทานกระสุน</span>เมื่อกระสุนของคุณโดนฮีโร่ <span class=\"highlight\">แต่ละนัดจะมอบเพียงหนึ่งการซ้อนทับเท่านั้น</span>"
+		"MaxArmorStacks_label"				"ต้านทานกระสุนสูงสุด"
+		"MaxArmorStacks_postvalue_label"				"ต้านทาน​กระสุน​สูงสุด"
+		"MaxArmorStacks_postfix"				"%"
+		"BulletResistPerStack_label"				"ต้านทานกระสุนต่อการซ้อนทับ"
+		"BulletResistPerStack_postvalue_label"				"ต้านทานกระสุนต่อการซ้อนทับ"
+		"BulletResistPerStack_postfix"			"%"
+		"BulletResistDuration_label"				"ระยะเวลาซ้อนทับ"
+		"BulletResistDuration_postvalue_label"				"ระยะเวลาซ้อนทับ"
+		"BulletResistDuration_postfix"			"วิ"
+
+		//Lucky Shot
+		"upgrade_critshot_desc"				"กระสุนของคุณมีโอกาสที่จะได้รับการเสริมพลัง ทำให้กระสุนสร้าง<span class=\"highlight\">ความเสียหายอาวุธเพิ่มเติม</span>แก่เป้าหมายเมื่อยิงโดน<br><span class=\"diminish\">ความเสียหายเพิ่มเติมจะไม่สามารถติดคริติคอล</span>"
+		"CritDamagePercent_prefix"			"+"
+		"CritDamagePercent_label"			"ความเสียหายอาวุธเพิ่มเติม"
+		"CritDamagePercent_postvalue_label"			"โบนัสความเสียหายอาวุธ"
+		"CritDamagePercent_postfix"			"%"
+
+		//Veil Walker
+		"upgrade_veil_walker_desc"			"การเดินผ่าน<span class=\"highlight\">ม่านจักรวาล</span>จะทำให้คุณเข้าสู่สถานะ<span class=\"highlight\">พรางตัว</span> <span class=\"highlight\">รักษา</span>พลังชีวิต และเพิ่ม<span class=\"highlight\">ความเร็ว​การ​เคลื่อนที่</span>"
+		"VeilWalker_MoveSpeed_label"			"ความเร็ว​การเคลื่อนที่ขณะล่องหน"
+		"VeilWalker_MoveSpeed_postvalue_label"			"ความเร็ว​การเคลื่อนที่ขณะล่องหน"
+		"VeilWalker_MoveSpeed_postfix"		"ม"
+		"VeilWalker_Heal_label"			"รักษา"
+		"VeilWalker_Heal_postvalue_label"			"รักษา"
+		//Glass Cannon2
+		"upgrade_glass_cannon2_desc"		"การสังหารฮีโร่แต่ละครั้งจะมอบ<span class=\"highlight\">ความเสียหายอาวุธ​ถาวร</span> (สูงสุด {s:MaxStacks} ครั้ง) การตายจะทำให้สูญเสีย 1 การซ้อนทับ"
+
+		//"upgrade_split_shot"					"Split Shot"
+		"upgrade_split_shot_desc"			"ทำให้อาวุธของคุณ<span class=\"highlight\">ยิงกระจาย</span> <br><br> หากโจมตีโดนฮีโร่มากกว่า 1 ตัวจะ<span class=\"highlight\">เพิ่มความเสียหายอาวุธแบบซ้อนทับ</span> <br><br><span class=\"diminish\">เป้าหมายสามารถโดนโจมตีได้เพียงครั้งเดียวต่อการกระจาย</span>"
+		"upgrade_split_shot_desc_02"		"โบนัสยิงโดนหลายตัวจาก​สปลิต​ช็อต​"
+		"SpecialShotsBonusFireRate_label"	"อัตรายิงระหว่างยิงกระจาย"
+		"SpecialShotsBonusFireRate_postvalue_label"	"อัตรายิงระหว่างยิงกระจาย"
+		"SpecialShotsBonusFireRate_postfix"	"%"
+		"SpecialShotsBonusFireRate_prefix"	"+"
+		"SplitShotWeaponDuration_label"		"ระยะเวลาซ้อนทับ"
+		"SplitShotWeaponDuration_postvalue_label"		"ระยะเวลาซ้อนทับ"
+		"SplitShotWeaponDuration_postfix"		"วิ"
+		
+		// upgrade_blood_tribute			// Blood Tribute
+		"upgrade_blood_tribute_desc"		"เปิด/ปิด: สละพลังชีวิตอย่างต่อเนื่องเพื่อเพิ่ม{g:citadel_inline_attribute:'FireRate'} <span class=\"highlight\">ต้านทานดีบัฟ</span> และ<span class=\"highlight\">ความเร็ว​การ​เคลื่อนที่</span> "
+
+		//"upgrade_non_player_bonus_sacrifice"	"Cultlist Sacrifice"
+		"upgrade_non_player_bonus_sacrifice_desc"	"เลือกเป้าหมาย NPC ฝ่ายศัตรูและกลืนกินยูนิตนั้น เพื่อรับ<span class=\"highlight\">โบนัสโซลส์ {s:BonusSoulsPct}%</span> และได้รับบัฟทรงพลังที่อยู่ยาวนาน"
+
+		//"upgrade_capacitor"						"Capacitor"
+		"upgrade_capacitor_desc"					"ปล่อยโพรเจกไทล์ซึ่งสร้าง<span class=\"highlight\">{g:citadel_inline_attribute:'SpiritIcon'}ความเสียหาย</span> ลดความเร็วอย่างรุนแรงซึ่งจะฟื้นกลับคืนตามเวลา <span class=\"highlight\">หยุดยั้งการใช้งาน​​สแตมินา</span> และ<span class=\"highlight\">ใบ้</span><span class=\"highlight\">ไอเท็มและสกิล​ที่เกี่ยวกับ​การเคลื่อนที่​​</span>ของเป้าหมาย"
+		
+		//"upgrade_enchanted_holsters"			"Enchanted Holsters"
+		"upgrade_enchanted_holsters_desc"		"ขณะอยู่ในการต่อสู้ เมื่อคุณร่ายสกิลหรือใช้ไอเท็ม จะได้รับบัฟที่ซ้อนทับได้​ ซึ่งเพิ่มอัตรายิงและความเร็วการเติมกระสุน <br><span class=\"diminish\">การซ้อนทับแต่ละครั้งจะทำให้ระยะเวลาเริ่มนับใหม่</span>"
+		
+		// "upgrade_weapon_backstabber"			"Stalker"
+		"upgrade_weapon_backstabber_desc"		"การสร้าง {g:citadel_inline_attribute:'WeaponDamage'} ในระยะใกล้จะสร้างบาดแผล และมอบ {g:citadel_inline_attribute:'BonusMoveSpeed'} ให้คุณ <br><br>ศัตรูที่มีบาดแผลจะได้รับ {g:citadel_inline_attribute:'SpiritDPS'} มี {g:citadel_inline_attribute:'BulletResist'} ลดลง และถูกเผยให้เห็น<span class=\"highlight\">ทะลุกำแพง</span>"
+		"BackstabberRadius_label"		"รัศมีมอบโบนัส"
+		"BackstabberRadius_postvalue_label"		"รัศมีมอบโบนัส"
+		"BackstabberRadius_postfix"		"ม"
+		"ProcRadius_label"				"ระยะใกล้"
+		"ProcRadius_postvalue_label"	"ระยะใกล้"
+		"ProcRadius_postfix"			"ม"
+		
+
+		//"upgrade_express_shot"				"Express Shot"
+		"upgrade_express_shot_desc"				"การโจมตีครั้งต่อไปของคุณจะยิงติดต่อกัน<span class=\"highlight\">สองครั้ง</span>อย่างรวดเร็ว ด้วย<span class=\"highlight\">ความเสียหาย</span>และความเร็วกระสุนเพิ่มขึ้น การโจมตีนี้จะใช้กระสุนเพิ่มเติม"
+		"ProcAmmoConsumed_label"				"ใช้กระสุนเพิ่มเติม"
+		"ProcAmmoConsumed_postvalue_label"				"ใช้กระสุนเพิ่มเติม"
+		//Melee Charge
+		"upgrade_melee_charge_desc"				"การ<span class=\"highlight\">โจมตี​ประชิด​รุนแรง</span>ต่อศัตรูครั้งถัดไปของคุณจะ<span class=\"highlight\">สร้าง​ความเสียหาย​เพิ่มขึ้น</span>"
+		"MeleeDistanceScale_label"				"ระยะโจมตี​ประชิด​รุนแรง"
+		"MeleeDistanceScale_postvalue_label"				"ระยะโจมตี​ประชิด​รุนแรง"
+		"MeleeDistanceScale_prefix"				"+"
+		"MeleeDistanceScale_postfix"			"%"
+		"BonusHeavyMeleeDamage_prefix"			"+"
+		"BonusHeavyMeleeDamage_label"			"เพิ่มความเสียหายประชิด​รุนแรง"
+		"BonusHeavyMeleeDamage_postvalue_label"			"เพิ่มความเสียหายประชิด​รุนแรง"
+		"BonusHeavyMeleeDamage_postfix"			"%"
+
+		// "upgrade_crushing_fists"				"Crushing Fists"
+		"upgrade_crushing_fists_desc"			"<span class=\"highlight\">{g:citadel_inline_attribute:'MeleeDamage'}</span>ของคุณจะ<span class=\"highlight\">ฟื้นฟูกระสุน</span> และส่งผล<span class=\"highlight\">ดีบัฟลดต้านทานกระสุนที่ซ้อนทับได้</span>แก่ศัตรู การโจมตี​ประชิด​รุนแรงจะเพิ่ม 2 การซ้อนทับ <br><br>หากเป้าหมายถึงจำนวนการซ้อนทับสูงสุด เป้าหมายจะ<span class=\"highlight\">ถูกสตัน</span>"
+		"notification_crushing_fists_stun"		"​ครัชชิง​ฟิสต์​ - สตัน!"
+
+		//"upgrade_stackingdamageproc"		"Hungering Blade"
+		"upgrade_stackingdamageproc_desc"	"การสร้างความเสียหายแก่ฮีโร่ที่มี<span class=\"highlight\">พลังชีวิตต่ำ</span>จะสร้าง {g:citadel_inline_attribute:'BonusWeaponDamage'} <br><br>เอฟเฟกต์นี้จะซ้อนทับทุกครั้งที่ทำงาน ทำให้ {g:citadel_inline_attribute:'BonusWeaponDamage'} เพิ่มขึ้นอย่างถาวร"
+
+		//"upgrade_building_buster"				"Explosive Demolition"
+		"upgrade_building_buster_desc"		"ขว้างระเบิดชนิดเกาะติดออกไปเป็นกลุ่ม ซึ่งจะระเบิดสร้าง {g:citadel_inline_attribute:'WeaponDamage'} หลังจากดีเลย์เป็นเวลานาน <br><br>หากโดน<span class=\"highlight\">บอส</span> จะสร้าง {g:citadel_inline_attribute:'BonusWeaponDamage'}"
+		"BossDamage_postvalue_label" "ความเสียหายต่อบอส"
+
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Tech
+		//-----------------------------------------------------------------------------
+		
+		// "upgrade_mystic_regeneration"		"Mystic Regeneration"
+		"upgrade_mystic_regeneration_desc"		"การสร้าง {g:citadel_inline_attribute:'SpiritDamage'} แก่ฮีโร่ศัตรูจะมอบโบนัส {g:citadel_inline_attribute:'Regen'} ให้แก่คุณ สามารถซ้อนทับได้เมื่อสร้างความเสียหายแก่ฮีโร่หลายตัว"
+
+		//Spirit Lifesteal
+		"NonHeroAbilityLifestealTooltipOnly_postfix"		"%"
+		
+		//Mystic Vulnerability
+		"upgrade_magic_vulnerability_desc"	"เมื่อศัตรูได้รับ {g:citadel_inline_attribute:'SpiritDamage'} {g:citadel_inline_attribute:'SpiritResist'} ของพวกเขาจะลดลง"		
+
+		//Healbane
+		"upgrade_healbane_desc"	"{g:citadel_inline_attribute:'SpiritDamage'} ของคุณจะลด<span class=\"highlight\">การรักษาที่ได้รับ</span>ของศัตรู หากฮีโร่ศัตรูตายขณะได้รับผลของดีบัฟนี้ คุณจะได้รับการรักษาในปริมาณมาก"
+		"HealOnKill_label"		"รักษาเมื่อสังหารฮีโร่"
+
+		"HealOnKill_postvalue_label"		"รักษาเมื่อสังหารฮีโร่"
+
+		//Mystic Slow
+		"upgrade_magic_slow_desc"	"เมื่อเป้าหมายได้รับ {g:citadel_inline_attribute:'SpiritDamage'} พวกเขาจะถูกลด<span class=\"highlight\">ความเร็ว​การ​เคลื่อนที่</span>"
+
+		//Escalating Exposure
+		"upgrade_escalating_exposure_desc"	"การสร้าง {g:citadel_inline_attribute:'SpiritDamage'} จะส่งผลให้เกิดการซ้อนทับ<span class=\"highlight\">เพิ่มอัตราวิญญาณ</span> ซึ่งจะเพิ่ม {g:citadel_inline_attribute:'SpiritDamage'} ของคุณแก่เป้าหมาย"
+		"EscalatingExposureProcCooldown_label"	"ความถี่สูงสุดต่อเป้าหมาย"
+		"EscalatingExposureProcCooldown_postvalue_label"	"ความถี่สูงสุดต่อเป้าหมาย"
+		"EscalatingExposureProcCooldown_postfix"	"วิ"
+		"EscalatingExposureTechArmorDamageReduction_label"	"ต้านทาน​วิญญาณ​เมื่อสร้าง​​ความ​เสียหาย​​วิญญาณ"
+		"EscalatingExposureTechArmorDamageReduction_postvalue_label"	"ต้านทาน​วิญญาณ​เมื่อสร้าง​​ความ​เสียหาย​​วิญญาณ"
+		"EscalatingExposureTechArmorDamageReduction_postfix"	"%"
+
+		//Mystic Reach
+		"upgrade_magic_reach_desc"			"ผสานสกิลเพื่อเพิ่ม<span class=\"highlight\">ระยะ</span>และ<span class=\"highlight\">รัศมีเอฟเฟกต์</span>ของสกิล"
+
+		//Improved Reach
+		"upgrade_tech_range_desc"			"เพิ่ม<span class=\"highlight\">ระยะ</span>และ<span class=\"highlight\">รัศมีเอฟเฟกต์</span>ของสกิลและไอเท็มของคุณ"
+
+		//Omni Spirit
+		"upgrade_long_range_slowing_tech/modifier_long_range_slowing_tech_proc/modifier_slow_base"	"ช้าลง"
+
+		//Improved Cooldown
+		"upgrade_magic_tempo_desc"	"ผสานสกิลเพื่อลด<span class=\"highlight\">คูลดาวน์</span>ของสกิล"
+
+		//Superior Cooldown
+		"upgrade_cooldown_reduction_desc"	"ลด<span class=\"highlight\">คูลดาวน์</span>สกิลของคุณ"
+
+		//Transcendent Cooldown
+		"upgrade_transcendent_cooldown_desc"	"ลด<span class=\"highlight\">คูลดาวน์</span>สกิลและไอเท็มของคุณ"
+
+		//Extra Charge
+		//"upgrade_extra_charge_desc"	"Adds one to your ability max <span class=\"highlight\">charges</span>."
+		"BonusSpiritForChargedAbilities_prefix"						"+"
+		"BonusSpiritForChargedAbilities_label"						"เพิ่มพลังวิญญาณสกิลที่มีชาร์จ"
+		"BonusSpiritForChargedAbilities_postvalue_label"						"เพิ่มพลังวิญญาณสกิลสกิลที่มีชาร์จ"
+
+		//Rapid Recharge
+		"CooldownReductionOnChargedAbilities_label"	"ลดคูลดาวน์สกิลที่มีชาร์จ"
+		"CooldownReductionOnChargedAbilities_postvalue_label"	"ลดคูลดาวน์สกิลที่มีชาร์จ"
+		"CooldownReductionOnChargedAbilities_postfix" "%"
+		"CooldownReductionOnChargedAbilities_prefix" "+"
+
+		//Alchemical Fire
+		"upgrade_thermal_detonator_desc"		"ขว้างขวดแก้วที่จะระเบิดเมื่อปะทะ กลายเป็นอาณาบริเวณที่สร้าง {g:citadel_inline_attribute:'SpiritDamage'} <span class=\"highlight\">ต่อวินาที</span>​เพิ่มขึ้นเรื่อย ๆ และลด<span class=\"highlight\">ต้านทานกระสุน</span>ของศัตรู<br><br>มีผลน้อยลงแก่ยูนิตที่ไม่ใช่ฮีโร่ {s:NonHeroReductionPercent}%"
+		"BonusBaseWeaponDamageTaken_prefix"		"+"
+		"BonusBaseWeaponDamageTaken_label"		"ความเสียหายอาวุธ"
+		"BonusBaseWeaponDamageTaken_postvalue_label"		"ความเสียหายอาวุธ"
+		"BonusBaseWeaponDamageTaken_postfix"	"%"
+
+		//Fleetfoot
+		"upgrade_fleetfoot_boots_active_desc"	"เพิ่ม<span class=\"highlight\">ความเร็ว​การ​เคลื่อนที่</span>และ<span class=\"highlight\">ต้านทานลดความเร็ว</span>"
+		"upgrade_fleetfoot_boots_passive_desc"	"ลบล้างผลของการลดทอน<span class=\"highlight\">ความเร็ว​การ​เคลื่อนที่</span>ขณะยิง"
+
+		//Kinetic Dash
+		"upgrade_kinetic_sash_desc"		"เมื่อคุณ<span class=\"highlight\">พุ่งตัวกระโดด</span>คุณจะได้รับ<span class=\"highlight\">อัตรายิง</span>และ<span class=\"highlight\">กระสุน</span>เพิ่มเติมจนกว่าคุณจะ​เติม​กระสุนอีกครั้ง มีผลได้นานถึง {s:AbilityDuration} วินาที"
+
+		//Arcane Surge
+		"upgrade_arcane_surge_desc"			"หลังจากคุณ<span class=\"highlight\">พุ่งตัวกระโดด</span> <span class=\"highlight\">สกิลถัดไปที่คุณใช้</span>ภายใน {s:ArcaneSurgeWindow}วิ จะมี<span class=\"highlight\">ระยะ ระยะเวลา</span> และ<span class=\"highlight\">พลังวิญญาณ</span>เพิ่มขึ้น"
+		"modifier_arcane_surge_triggered"	"​อาร์เคน​เซิร์จ​!"
+		"modifier_arcane_surge_ability"		"สกิลได้รับ ​อาร์เคน​เซิร์จ​!"
+		"ArcaneSurgeWindow_label"				"ช่วงเวลาการร่าย"
+		"ArcaneSurgeWindow_postvalue_label"		"ช่วงเวลาการร่าย"
+		"ArcaneSurgeWindow_postfix"				"วิ"
+
+		//Active Reload
+		"upgrade_active_reload_desc"	"ขณะเติมกระสุน การกด {g:citadel_binding:'Reload'} ในแถบไฮไลต์​จะ<span class=\"highlight\">​ทำให้​การเติม​กระสุน​ของคุณ​เสร็จสิ้น​ทันที</span>​พร้อมทั้งมอบ<span class=\"highlight\">อัตรายิง</span>​ <span class=\"highlight\">กระสุนดูดพลังชีวิต</span> และ<span class=\"highlight\">ความเร็ว​การ​เคลื่อนที่</span>"
+
+		//Slowing Hex
+		"upgrade_containment_desc"			"ทำให้​ศัตรูเป้าหมาย<span class=\"highlight\">​เคลื่อนที่​ช้าลง</span>​ พร้อมทั้ง<span class=\"highlight\">ใบ้</span><span class=\"highlight\">ไอเท็มและสกิล​ที่เกี่ยวกับ​การเคลื่อนที่​ของเป้าหมาย​</span><br><span class=\"diminish\">เพิ่มแรงโน้มถ่วงของเป้าหมาย<br>ไม่ส่งผลกระทบต่อการใช้สแตมินาของเป้าหมาย</span>"
+
+		//Spirit Sap
+		"upgrade_spirit_sap_desc"			"เลือกเป้าหมายศัตรูเพื่อ<span class=\"highlight\">ลดต้านทาน​วิญญาณ​</span>​และ​<span class=\"highlight\">พลัง​วิญญาณ​</span>ของศัตรู"
+
+		//Focus Lens
+		"upgrade_focus_lens_desc"			"เลือกเป้าหมายศัตรูเพื่อ<span class=\"highlight\">ใบ้</span>ศัตรู ส่วนหนึ่งของ<span class=\"highlight\">ความเสียหาย​ที่สร้าง​ทั้งหมด​</span>ขณะ​ใบ้​จะสร้าง​เป็น​ความเสียหาย​เพิ่มเติมแก่ศัตรู"
+		"PercentDamage_label"				"ความเสียหายเมื่อหมดเวลา"
+		"PercentDamage_postvalue_label"				"ความเสียหายเมื่อหมดเวลา"
+		"PercentDamage_postfix"				"%"
+
+		//Withering Whip , Rusted Barrel
+		"upgrade_withering_whip_desc"		"เลือกเป้าหมายศัตรูเพื่อลด<span class=\"highlight\">อัตรายิง</span>และ<span class=\"highlight\">ต้านทาน​กระสุน​</span>ของศัตรู"
+		"modifier_withering_whip_debuff"	"-อัตรายิง"
+		"MagicAmp_label"					"เพิ่มอัตราวิญญาณ"
+		"MagicAmp_postvalue_label"					"เพิ่มอัตราวิญญาณ"
+		"MagicAmp_postfix"					"%"
+		"WitheringWhipDisarmDuration_label"	"ระยะเวลา"
+		"WitheringWhipDisarmDuration_postvalue_label"	"ระยะเวลา"
+		"WitheringWhipDisarmDuration_postfix"	"วิ"
+		"SpiritPower_label"					"พลังวิญญาณ"
+		"SpiritPower_postvalue_label"					"พลังวิญญาณ"
+		"SpiritPower_prefix"					"+"
+
+		// Disarming Hex
+		"upgrade_greater_withering_whip_desc"		"<span class=\"highlight\">ปลดอาวุธ</span>ศัตรูเป้าหมาย และลด<span class=\"highlight\">ต้านทานกระสุน</span>ของศัตรู"
+		"upgrade_greater_withering_whip_debuff"		"ถูกปลดอาวุธ"
+
+		//Ethereal Shift
+		"upgrade_self_bubble_desc"			"เข้าสู่สภาวะว่างเปล่าทันทีและกลายเป็นอมตะเป็นช่วงระยะเวลาสั้น ๆ"
+		"upgrade_self_bubble_desc2"			"หลังจากนั้นจะได้รับบัฟชั่วคราวหลากหลายแบบ:"
+		"ShiftingVeil_channel_desc"			"อมตะ"
+		"ShiftingVeilDuration_label"			"ระยะเวลา"
+		"ShiftingVeilDuration_postvalue_label"			"ระยะเวลา"
+		"ShiftingVeilDuration_postfix"		"วิ"
+		"BonusSpiritDuration_label"			"ระยะเวลาเพิ่มวิญญาณ"
+		"BonusSpiritDuration_postvalue_label"			"ระยะเวลาเพิ่มวิญญาณ"
+		"BonusSpiritDuration_postfix"			"วิ"
+		"BonusTechPower_prefix"				"{s:sign}"
+		"BonusTechPower_label"				"พลังวิญญาณ"
+		"BonusTechPower_postvalue_label"				"พลังวิญญาณ"
+		"shifting_veil_bonus"			"พลังวิญญาณ ความเร็ว และ​ต้านทาน​วิญญาณ​"
+
+		//Rescue Beam
+		"upgrade_rescue_beam_desc"		"<span class=\"highlight\">รักษา</span>ฮีโร่เพื่อนร่วมทีมเป้าหมายและตัวคุณเองเป็น​เปอร์เซ็นต์​ของ​<span class=\"highlight\">พลังชีวิตสูงสุด</span> โดยระหว่างการรักษาคุณสามารถ<span class=\"highlight\">ดึง</span>เป้าหมายเข้าหา​ตัวคุณ​ได้ 1 ครั้ง สามารถร่ายใส่ตนเองได้"
+		"SelfModifier_postfix"			"%"
+		"upgrade_rescue_beam_pull"		"ดึงเป้าหมาย"
+
+		//Slowing Spirit
+		"upgrade_slowing_tech/modifier_slowing_tech_proc/modifier_slow_base"						"ช้าลง"
+
+		//Refresher
+		"upgrade_ability_refresher_desc"	"<span class=\"highlight\">รีเซ็ตคูลดาวน์</span>สกิลทั้งหมดของคุณ และ<span class=\"highlight\">เติมชาร์จทั้งหมดของคุณ</span>"
+
+		//Cold Front
+		"upgrade_cold_front_desc"			"ปลดปล่อยพลังระเบิดน้ำแข็งออกไปซึ่งสร้าง {g:citadel_inline_attribute:'SpiritDamage'} และ<span class=\"highlight\">ลดความเร็ว​</span>เป้าหมายที่โดน"
+
+		//Arctic Blast
+		"upgrade_arctic_blast_desc"			"ปลดปล่อยพลังระเบิดน้ำแข็งออกไปซึ่งสร้าง {g:citadel_inline_attribute:'SpiritDamage'} และ<span class=\"highlight\">แช่แข็ง</span> จากนั้น<span class=\"highlight\">ลดความเร็ว</span>เป้าหมายที่โดน<br><br>เป้าหมายที่ถูกลดความเร็วจะ<span class=\"highlight\">ไม่สามารถฟื้นฟูสแตมินาได้</span>"
+		"ArcticBlastSlowDuration_label"		"ระยะเวลาช้าลง"
+		"ArcticBlastSlowDuration_postvalue_label"		"ระยะเวลาช้าลง"
+		"ArcticBlastSlowDuration_postfix"	"วิ"
+		"ArcticBlastPercentDamage_label"	"ความเสียหายเพิ่มเติมขณะแช่แข็ง"
+		"ArcticBlastPercentDamage_postvalue_label"	"ความเสียหายเพิ่มเติมขณะแช่แข็ง"
+		"ArcticBlastPercentDamage_postfix"	"%"
+
+		//Knockdown
+		"upgrade_target_stun_desc"			"<span class=\"highlight\">สตัน​</span>ศัตรูหลังจาก​<span class=\"highlight\">ดีเลย์​ {s:StunDelay}วิ</span> ระยะเวลาสตันจะเพิ่มขึ้นเมื่อใช้กับเป้าหมายที่<span class=\"highlight\">ลอย​อยู่กลางอากาศ</span><br><br><span class=\"diminish\">เพิ่มแรงโน้มถ่วงของเป้าหมายตลอดช่วงระยะเวลาการสตัน</span>"
+		
+		//Vortex Web
+		"upgrade_aoe_root_active"		"ขว้างระเบิด <span class=\"highlight\">สุญญากาศ</span> ดึงศัตรูทั้งหมดเข้าสู่พื้นที่ขนาดเล็กและส่งผล <span class=\"highlight\">​สโลวิง​เฮ็กซ์​</span>  <span class=\"diminish\"><br><br>ร่ายอีกแบบเพื่อเลือกเป้าหมายเป็นยูนิตโดยตรง</span>"
+
+		//Curse
+		"upgrade_glitch_desc"					"สาปศัตรู - <span class=\"highlight\">ขัดจังหวะ ใบ้ ปลดอาวุธ</span> และ<span class=\"highlight\">หยุดยั้งการใช้ไอเท็ม</span> <span class=\"highlight\">ลบล้างบัฟที่ไม่ใช่อัลติเมทของศัตรูทั้งหมด</span><br><br>คุณจะ<span class=\"highlight\">สร้างความเสียหาย</span>ลดลงในช่วงเวลาดังกล่าว"
+		"modifier_glitch_debuff"				"ถูกสาป!"
+		"modifier_glitch_self_penalty"			"​ผลกระทบจากเคิร์ส​"
+
+		//Bullet Resist Shredder
+		"upgrade_bullet_resist_shredder_desc"	"ลด<span class=\"highlight\">ต้านทาน​กระสุน​</span>ของศัตรูเมื่อคุณสร้าง {g:citadel_inline_attribute:'SpiritDamage'}"
+		"upgrade_bullet_resist_shredder/modifier_bullet_armor_shredder_proc/modifier_bullet_armor_shredder" "เกราะกันกระสุนลดลง"
+
+		//Echo Shard
+		"upgrade_ability_power_shard_active"	"<span class=\"highlight\">รีเซ็ตคูลดาวน์</span>ของสกิลที่ผสานที่ไม่ใช่อัลติเมท<br><br>คูลดาวน์ของไอเท็มนี้จะเพิ่มขึ้นตาม<span class=\"highlight\">คูลดาวน์ของสกิล​ที่ผสาน</span>"
+
+		//Duration Extender
+		"upgrade_arcane_extension_desc"	"ผสานสกิลเพื่อเพิ่ม<span class=\"highlight\">ระยะเวลา</span>ของสกิล"
+
+		//Superior Duration
+		"upgrade_imbued_duration_extender_desc"	"เพิ่ม<span class=\"highlight\">ระยะเวลา</span>สกิลและไอเท็มของคุณ"
+
+		//Diviner's Kevlar
+		"upgrade_diviners_kevlar_desc"			"เมื่อร่าย<span class=\"highlight\">สกิลอัลติเมท</span>จะได้รับ<span class=\"highlight\">แบร์ริเออร์​</span>และ​<span class=\"highlight\">พลังวิญญาณ​</span>ชั่วคราว"
+		"BonusChannelTechPower_prefix"			"+"
+		
+		"BonusChannelTimePercentage_label"		"ระยะเวลายืนร่าย"
+		"BonusChannelTimePercentage_postvalue_label"		"ระยะเวลายืนร่าย"
+		"BonusChannelTimePercentage_prefix"		"+"
+		"BonusChannelTimePercentage_postfix"	"%"
+
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_label"		"ระยะเวลายืนร่าย"
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_postvalue_label"		"ระยะเวลายืนร่าย"
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_prefix"		"+"
+		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_postfix"	"%"
+
+		//Infuser
+		"upgrade_infuser_desc"			"เพิ่ม<span class=\"highlight\">วิญญาณ​ดูดพลังชีวิต</span>และ<span class=\"highlight\">พลังวิญญาณ</span>"
+
+		//Spirit Strike
+		"upgrade_acolytes_glove_desc"			"เมื่อคุณ<span class=\"highlight\">โจมตี​ประชิด​ธรรมดาหรือโจมตี​ประชิด​รุนแรง</span>ใส่ฮีโร่ จะสร้าง {g:citadel_inline_attribute:'SpiritDamage'} เพิ่มเติมให้กับการโจมตีนั้น พร้อมทั้งลด<span class=\"highlight\">ต้านทาน​วิญญาณ</span>ของเป้าหมาย<span class=\"diminish\"><br><br>คูลดาวน์จะนานขึ้น {s:LightMeleeCooldownMult} เท่าหากโจมตี​ประชิด​ธรรมดา</span>"
+		"SpiritDamage_label"					"ความ​เสียหาย​วิญญาณ"
+		"SpiritDamage_postvalue_label"					"ความ​เสียหาย​วิญญาณ"
+
+		//Spirit Snatch
+		"upgrade_spirit_snatch_desc"			"เมื่อคุณ<span class=\"highlight\">โจมตี​ประชิด​ธรรมดาหรือโจมตี​ประชิด​รุนแรง</span>ใส่ฮีโร่ การโจมตีจะสร้าง {g:citadel_inline_attribute:'SpiritDamage'} เพิ่มเติม พร้อมทั้งขโมย<span class=\"highlight\">ต้านทาน​วิญญาณ</span>และ<span class=\"highlight\">พลังวิญญาณ</span><span class=\"diminish\"><br><br>เอฟเฟกต์จะลดลง {s:LightMeleeReduction}% หากโจมตี​ประชิด​ธรรมดา</span>"
+		"SpiritSnatch_TechArmorSteal_label"		"ขโมยต้านทาน​วิญญาณ"
+		"SpiritSnatch_TechArmorSteal_postvalue_label"		"ขโมยต้านทาน​วิญญาณ"
+		"SpiritSnatch_TechArmorSteal_postfix"	"%"
+		"SpiritSnatch_TechPowerSteal_label"		"ขโมยพลังวิญญาณ"
+		"SpiritSnatch_TechPowerSteal_postvalue_label"		"ขโมยพลังวิญญาณ"
+
+		//Clarity
+		//"upgrade_magic_clarity_desc"			"On ability or item use, gain a <span class=\"highlight\">move speed</span> bonus for {s:AbilityDuration}s. Your next ability cast will remove the move speed bonus and apply a <span class=\"highlight\">Spirit</span> bonus to that ability."
+		"ClarityBonusSpirit_prefix"				"{s:sign}"
+
+		//Surge of Power
+		"upgrade_magic_storm_desc"				"ผสานสกิลด้วย<span class=\"highlight\">พลังวิญญาณถาวร</span> เมื่อใช้สกิลที่ผสานพลังจะเพิ่ม<span class=\"highlight\">ความเร็ว​การ​เคลื่อนที่</span> และยังรักษาความเร็วสูงสุดขณะโจมตี"
+
+		//Suppressor
+		"upgrade_suppressor_desc"					"เมื่อคุณสร้าง {g:citadel_inline_attribute:'SpiritDamage'} แก่ศัตรู คุณจะลด<span class=\"highlight\">อัตรายิง​</span>ของพวกเขาด้วย"
+		"suppressor_debuff"						"-อัตรายิง"
+
+		//Quicksilver Reload
+		"upgrade_quick_silver_desc"				"สกิลที่ผสานของคุณจะสะสมพลังอย่างต่อเนื่องทำให้มี{g:citadel_inline_attribute:'BonusSpiritDamage'} {g:citadel_inline_attribute:'BonusFireRate'} และ<span class=\"highlight\">เติมกระสุน</span>เมื่อใช้"
+
+		//Resonant Healing
+		"upgrade_resonant_healing_desc"			"<span class=\"highlight\">รักษา</span>พลังชีวิตและเพิ่ม<span class=\"highlight\">ความเร็ว​การ​เคลื่อนที่</span>เป็นเวลาสั้น ๆ เมื่อคุณร่ายสกิล"
+		"HealingPerCast_Label"					"รักษาเมื่อร่ายสกิล"
+
+		"HealingPerCast_postvalue_label"					"รักษาเมื่อร่ายสกิล"
+
+		// Magic carpet
+		"upgrade_magic_carpet_desc"				"อัญเชิญพรมวิเศษที่จะพาคุณ<span class=\"highlight\">บิน</span>หนีไป​​ ขณะที่บินอยู่คุณจะไม่ถูกทำให้ช้าลง และหากมีการกระทำใด ๆ จะทำให้พรมหายไป <span class=\"diminish\"><br>ขณะที่กำลังอัญเชิญพรมจะไม่สามารถใช้สกิลได้</span>"
+		"modifier_summon_magiccarpet"			"กำลังอัญเชิญพรมวิเศษ"
+		"MagicCarpetMoveSpeed_prefix"			"+"
+		"MagicCarpetMoveSpeed_label"			"เพิ่มความเร็วการบิน"
+		"MagicCarpetMoveSpeed_postvalue_label"			"เพิ่มความเร็วการบิน"
+		"MagicCarpetMoveSpeed_postfix"			"ม"
+		"MagicCarpetShieldDuration_label"		"ระยะเวลาโล่"
+		"MagicCarpetShieldDuration_postvalue_label"		"ระยะเวลาโล่"
+		"MagicCarpetShieldDuration_postfix"		"วิ"
+		"MagicCarpetSummoning_channel"			"กำลังอัญเชิญ"
+
+		// Hex-Sealed Knuckles
+		"upgrade_superacolytes_glove_desc"			"หลังจากสร้างความ​เสียหาย​วิญญาณสะสมรวม <span class=\"highlight\">{s:StoredSpiritDamage}</span> หน่วย การ<span class=\"highlight\">โจมตี​ประชิด​รุนแรง</span>ครั้งถัดไปของคุณจะสร้าง<span class=\"highlight\">ความ​เสียหาย​วิญญาณเพิ่มเติม {s:StoredSpiritDamage}</span> หน่วย"
+		"StoredSpiritDamage_label"			"ความ​เสียหาย​วิญญาณสะสม"
+		"StoredSpiritDamage_postvalue_label"			"ความ​เสียหาย​วิญญาณสะสม"
+		"upgrade_superacolytes_glove/modifier_superacoloytes_glove" "กำปั้นถูกปลดผนึก!"
+
+		//SpiritBurn
+		"upgrade_spirit_burn_desc"	"การสร้าง {g:citadel_inline_attribute:'SpiritDamage'} แก่ศัตรูอย่างรุนแรงภายในช่วง {s:DamageThresholdDuration}วิ จะทำให้เกิดการระเบิด ซึ่งจะสร้างความเสียหายและเผาไหม้ศัตรูนั้น ขณะเผาไหม้ ศัตรูจะได้รับความเสียหายต่อเนื่อง และได้รับการรักษาลดลง<br><span class=\"diminish\">คูลดาวน์แยกแต่ละศัตรู ดังนั้นศัตรูแต่ละตัวจะถูกเผาได้เพียงครั้งเดียวต่อคูลดาวน์ สร้างความเสียหายครึ่งหนึ่งเมื่อใช้กับยูนิตที่ไม่ใช่ฮีโร่</span>"
+		"modifier_spirit_burn_immunity"	"ไม่ได้รับผลสปิริต​​เบิร์น​"
+		"MinDPS_label" "DPS ต่ำสุด"
+
+		"MinDPS_postvalue_label" "DPS ต่ำสุด"
+
+		//Lightning Scroll
+		"upgrade_ultimate_burst_desc"			"ความเสียหายจากสกิลอัลติเมทของคุณจะ {g:citadel_inline_attribute:'Stun'} และสร้าง {g:citadel_inline_attribute:'BonusSpiritDamage'}หลังจากดีเลย์สั้น ๆ</span>"
+		"upgrade_ultimate_burst_upgrade"		"<span class=\"highlight\">เอฟเฟกต์มิสติกสโลว์</span>"
+		"upgrade_ultimate_burst_hint"			"<span class=\"diminish\">เอฟเฟกต์นี้สามารถทำงานได้ครั้งเดียวต่อสกิลอัลติเมท</span>"
+		"LightningScrollMysticSlow_label"		"ความเร็ว​การ​เคลื่อนที่เมื่อสร้าง​​ความ​เสียหาย​​วิญญาณ"
+		"LightningScrollMysticSlow_postvalue_label"		"ความเร็ว​การ​เคลื่อนที่เมื่อสร้าง​​ความ​เสียหาย​​วิญญาณ"
+		"LightningScrollMysticSlow_prefix"		"-"
+		"LightningScrollMysticSlow_postfix"		"%"
+		"DelayBeforeStun_label"					"ดีเลย์ก่อนส่งผล"
+		"DelayBeforeStun_postvalue_label"					"ดีเลย์ก่อนส่งผล"
+		"DelayBeforeStun_postfix"				"วิ"
+
+		"MaxHealthDamage_label" "ความเสียหาย​จาก​พลังชีวิต​สูงสุด"
+		"MaxHealthDamage_postvalue_label" "ความเสียหาย​จาก​พลังชีวิต​สูงสุด"
+		"MaxHealthDamage_postfix" "%"
+
+		"CurrentHealthDamage_label" "ความเสียหาย​จาก​พลังชีวิตที่เหลืออยู่"
+		"CurrentHealthDamage_postvalue_label" "ความเสียหาย​จาก​พลังชีวิตที่เหลืออยู่"
+		"CurrentHealthDamage_postfix" "%"
+
+		"UltimateTechPower_label" "พลังวิญญาณอัลติเมท"
+
+		"UltimateTechPower_postvalue_label" "พลังวิญญาณอัลติเมท"
+
+		//Corpse Explosion
+		"upgrade_corpse_explosion_desc"			"การสังหารหรือช่วยสังหารจะทำให้เกิด<span class=\"highlight\">การระเบิด</span>ในตำแหน่งที่เหยื่อตาย การสังหารฮีโร่จะทำให้รัศมีและความเสียหายสูงขึ้น"
+		"HeroMultiplier_label" "อัตราคูณการระเบิดจากฮีโร่"
+		"HeroMultiplier_postvalue_label" "อัตราคูณการระเบิดจากฮีโร่"
+		"HeroMultiplier_postfix" "%"
+
+		//Golden Goose Egg
+		"upgrade_goose_egg_desc"	"รับ<span class=\"highlight\">โซลส์ต่อเนื่อง</span> ตราบใดที่คุณยังมีชีวิตอยู่"
+		"upgrade_goose_egg_active_desc"	"ฟักไข่เพื่อรับ<span class=\"highlight\">โซลส์</span>และ<span class=\"highlight\">บัฟถาวร</span><br><br>ยิ่งถือไข่ไว้นานเท่าไหร่ มูลค่าของไข่ก็จะยิ่งเพิ่มขึ้น<br><br><span class=\"diminish\">รับบัฟถาวร 1 บัฟต่อ {s:BonusBuffsPerGold} โซลส์ที่รวบรวมได้เมื่อฟักไข่"
+		"upgrade_goose_egg_stacklabel" "โซลส์ที่จะได้รับ"
+		"GoldPerMinute_postvalue_label" "โซลส์ต่อนาที"
+		"GoldPerMinute_prefix" "{s:sign}"
+		"BonusGoldPerMinute_postvalue_label" "ค่าโซลส์ต่อนาที"
+
+		"SellBonusSouls_label"	"ขายโบนัสโซลส์:"
+
+		//"SellBonusSouls_postvalue_label"	"Sell Bonus Souls:"
+		//"SellBonusSouls_postvalue_prefix"	"{g:citadel_inline_attribute:'SoulsIcon'}"
+
+
+		//-----------------------------------------------------------------------------
+		// Upgrades: Armor
+		//-----------------------------------------------------------------------------
+		
+		//Healing Rite
+		"upgrade_health_stimpak_desc"					"มอบ<span class=\"highlight\">อัตรา​ฟื้นฟู​พลังชีวิต</span>และ<span class=\"highlight\">ความเร็ว​การวิ่ง</span>แก่เป้าหมาย บัฟนี้จะถูกลบล้างหากคุณได้รับความเสียหาย​จากผู้เล่นฝ่ายศัตรู​​หรือยูนิตที่เป็นจุดมุ่งหมายของเกม สามารถร่ายใส่ตนเองได้"
+
+		//Shrink Ray
+		"upgrade_shrink_ray_desc"					"ลด<span class=\"highlight\">ขนาดโมเดล</span>และมอบ<span class=\"highlight\">ความเร็ว​การ​เคลื่อนที่</span>แก่เป้าหมาย ทำให้สามารถ<span class=\"highlight\">ใช้อุโมงค์</span>ในโหมดนี้ ร่ายสกิลใส่ตัวเองได้"
+		
+		//Guardian Ward
+		"upgrade_guardian_ward_desc"		"มอบ<span class=\"highlight\">แบร์ริเออร์​</span>และ<span class=\"highlight\">ความเร็ว​การ​เคลื่อนที่</span>ชั่วคราวแก่เป้าหมาย <span class=\"diminish\"><br>สามารถร่ายใส่ตนเองได้<br>คูลดาวน์จะลดลงครึ่งหนึ่งเมื่อร่ายใส่คนอื่น</span>"
+
+		//Divine Barrier
+		"upgrade_divine_barrier_desc"		"<span class=\"highlight\">ลบล้างดีบัฟ​ที่ไม่ใช่สตันทั้งหมด</span>ออกจากเป้าหมาย พร้อมกับมอบ<span class=\"highlight\">แบร์ริเออร์​</span>และ<span class=\"highlight\">ความเร็ว​การ​เคลื่อนที่</span>แก่เป้าหมาย <span class=\"diminish\"><br>สามารถร่ายใส่ตนเองได้ คูลดาวน์จะลดลงครึ่งหนึ่งเมื่อร่ายใส่คนอื่น</span>"
+
+		//Restorative Locket
+		"upgrade_restorative_locket_active_desc"		"เมื่อศัตรูใช้สกิลในระยะใกล้คุณ {s:Radius}ม คุณจะได้รับหนึ่ง<span class=\"highlight\">ชาร์จการฟื้นฟู</span> <br><br>ใช้ชาร์จทั้งหมดเพื่อ<span class=\"highlight\">รักษาตนเอง</span>และ​เติม<span class=\"highlight\">สูงสุด {s:MaxStaminaRestore} สแตมินา</span> ตามจำนวนชาร์จที่คุณมี"
+		"HealPerStack_label"								"การรักษาต่อชาร์จ"	
+		"MinStaminaRestore_label"							"ฟื้นฟูสแตมินาต่ำสุด"
+		"MinStaminaRestore_postvalue_label"							"ฟื้นฟูสแตมินาต่ำสุด"
+		"MaxStaminaRestore_label"							"ฟื้นฟูสแตมินาสูงสุด"
+		"MaxStaminaRestore_postvalue_label"							"ฟื้นฟูสแตมินาสูงสุด"
+
+		"HealPerStack_postvalue_label"								"การรักษาต่อชาร์จ"
+
+		//Cheat Death
+		"upgrade_cheat_death_unkillable_passive"	"เมื่อคุณรับความเสียหายที่จะทำให้ถึงตาย คุณจะ<span class=\"highlight\">ป้องกันความตายชั่วคราว</span>และ<span class=\"highlight\">ลบล้างดีบัฟ​ที่ไม่ใช่สตันทั้งหมด</span>แทน <br><br>ในขณะที่ป้องกันความตาย คุณจะสร้าง<span class=\"highlight\">ความเสียหายลดลง</span> และ<span class=\"highlight\">การรักษาลดลง</span>"
+		"DeathImmunityDuration_label"	"ระยะเวลาป้องกัน​ความตาย"
+		"DeathImmunityDuration_postvalue_label"	"ระยะเวลาป้องกัน​ความตาย"
+		"DeathImmunityDuration_postfix"	"วิ"
+		"DeathImmunityDamageReduction_label"		"ลดความเสียหาย"
+		"DeathImmunityDamageReduction_postvalue_label"		"ลดความเสียหาย"
+		"DeathImmunityDamageReduction_postfix"		"%"
+
+		//Healing Booster
+		"upgrade_healing_booster_desc"		"เพิ่มประสิทธิภาพ<span class=\"highlight\">การรักษา</span>ของคุณ"
+
+		//Debuff Reducer
+		"upgrade_debuff_reducer_desc"			"ลด<span class=\"highlight\">ระยะเวลา</span>ของเอฟเฟกต์เชิงลบทั้งหมดที่มีผลกับคุณ"
+
+		//Debuff Remover | Dispel Magic
+		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">ลบล้างดีบัฟที่ไม่ได้มาจากสกิลอัลติเมททั้งหมด</span>ที่กำลังส่งผลกับคุณ หากมีการลบล้างดีบัฟคุณจะ<span class=\"highlight\">รักษาตัวคุณ</span>และ<span class=\"highlight\">เพิ่มความเร็ว​การ​เคลื่อน​ที่</span>​<br><span class=\"diminish\">ไม่สามารถใช้ได้ขณะที่ถูกสตันหรือถูกทำให้หลับ</span>"
+		"HealOnActivate_label"		"รักษาพลังชีวิตเมื่อกดใช้"
+		"HealOnActivate_postvalue_label"		"รักษาพลังชีวิตเมื่อกดใช้"
+
+		"damage_reduction_postfix"						"%"
+
+		//Decay
+		"upgrade_rupture_desc"				"สร้าง<span class=\"highlight\">ความเสียหายต่อเนื่อง</span>แก่เป้าหมาย โดยจะสร้าง​ความเสียหาย​ตาม​พลังชีวิต​ที่เหลือ​อยู่​ของ​เป้าหมาย<br>ความเสียหายของ​ดีเคย์​จะไม่ทำให้ถึงตาย และไม่ส่งผลเอฟเฟกต์จากไอเท็ม"
+		"HealReductionDuration_label"		"ระยะเวลาลดการรักษา"
+		"HealReductionDuration_postvalue_label"		"ระยะเวลาลดการรักษา"
+		"HealReductionDuration_postfix"		"วิ"
+
+		//Discord | Scourge
+		"upgrade_discord_desc"						"มอบ<span class=\"highlight\">ต้านทานวิญญาณ</span> <span class=\"highlight\">ต้านทานดีบัฟ</span> และออราแก่เป้าหมายฝ่ายเดียวกัน ซึ่งจะสร้าง <span class=\"highlight\">{g:citadel_inline_attribute:'SpiritIcon'}ความเสียหาย</span>แก่ศัตรูเป็นจำนวนตามพลังชีวิตสูงสุด ดีบัฟที่มีอยู่ต่อเป้าหมายจะลดลง<br>สามารถร่ายใส่ตนเองได้"
+		"MaxHealthPercentAsDPS_label"				"พลังชีวิตสูงสุดต่อวินาที"
+		"MaxHealthPercentAsDPS_postvalue_label"				"พลังชีวิตสูงสุดต่อวินาที"
+		"MaxHealthPercentAsDPS_postfix"				"%"
+		
+		//Fortitude
+		"upgrade_chonky_desc"							"หากไม่ได้รับความเสียหายในช่วงระยะเวลาหนึ่ง จะได้รับอัตรา​ฟื้นฟู​พลังชีวิต"
+		"upgrade_chonky_high_health_passive_desc"		"เมื่อคุณมี<span class=\"highlight\">พลังชีวิตมากกว่า {s:HealthThreshold}%</span> คุณจะมี​<span class=\"highlight\">ความเร็ว​การ​เคลื่อนที่</span>เพิ่มขึ้น"
+
+		//Leech
+		"upgrade_damage_recycler_desc"				"ลดทอนประสิทธิภาพการ<span class=\"highlight\">ลดการรักษา</span>​โดยฝ่ายศัตรู"
+		"LeechHealOnKill_prefix"					"+"
+		"LeechHealOnKill_label"						"รักษาพลังชีวิตสูงสุดเมื่อสังหาร"
+		"LeechHealOnKill_postvalue_label"						"รักษาพลังชีวิตสูงสุดเมื่อสังหาร"
+		"LeechHealOnKill_postfix"					"%"
+		
+		//Rebirth
+		"upgrade_personal_rejuvenator_desc"		"ทำให้ฮีโร่เกิดใหม่ในจุดที่ตาย"
+		"RespawnDelay_postfix"						"วิ"
+		"SpawnTimePenalty_prefix"				"+"
+		"SpawnTimePenalty_label"				"เวลาเกิดใหม่เพิ่มขึ้น"
+		"SpawnTimePenalty_postvalue_label"				"เวลาเกิดใหม่เพิ่มขึ้น"
+		"SpawnTimePenalty_postfix"				"วิ"
+
+		//Phantom Strike
+		"upgrade_phantom_strike_desc"			"<span class=\"highlight\">เทเลพอร์ต</span>ไปยังเป้าหมายที่เป็นศัตรู และดึงเป้าหมายลงสู่พื้น สร้าง<span class=\"highlight\">ความเสียหาย</span> ลด<span class=\"highlight\">ความเร็ว​การ​เคลื่อนที่</span> และ<span class=\"highlight\">ปลดอาวุธ</span>เป้าหมาย"
+		"PhantomStrikeDebuffDuration_label"		"ระยะเวลาดีบัฟ"
+		"PhantomStrikeDebuffDuration_postvalue_label"		"ระยะเวลาดีบัฟ"
+		"PhantomStrikeDebuffDuration_postfix"		"วิ"
+		"modifier_phantom_strike_bulletshield"		"โล่กันกระสุน"
+
+		//Soul Rebirth
+		"upgrade_rebirth_passive"				"เมื่อคุณตาย หลังจากผ่านไป {s:RespawnDelay}วิ คุณจะ<span class=\"highlight\">เกิดใหม่ในตำแหน่งที่คุณตาย​</span>โดยมี​พลังชีวิต​บางส่วน"
+
+		//Return Fire
+		"upgrade_return_fire_desc"					"<span class=\"highlight\">ยิงกระสุน</span>โดยอัตโนมัติใส่ผู้ที่โจมตีสร้างความเสียหายให้คุณด้วยสกิลหรืออาวุธ"
+		"ActiveFireRate_label"						"อัตรายิง"
+		"ActiveFireRate_postvalue_label"						"อัตรายิง"
+		"ActiveFireRate_postfix"						"%"
+
+		//Metal Skin
+		"upgrade_metal_skin_desc"						"ทำให้<span class=\"highlight\">ไม่ได้รับความเสียหายจากกระสุน</span>"
+		"AbilityApplyDelay_postfix"						"วิ"
+
+		//Battle Vest
+		"upgrade_regenerating_bullet_shield_desc"	"เมื่อคุณมี<span class=\"highlight\">พลังชีวิตมากกว่า {s:LifeThreshold}%</span> คุณจะสร้าง<span class=\"highlight\">{g:citadel_inline_attribute:'WeaponDamage'}</span>​และ​มี<span class=\"highlight\">{g:citadel_inline_attribute:'BonusFireRate'}</span>"
+
+		//Enchanter's Emblem
+		"upgrade_magic_shield_desc"		"เมื่อคุณมี<span class=\"highlight\">พลังชีวิตมากกว่า {s:LifeThreshold}%</span> คุณจะได้รับ<span class=\"highlight\">{g:citadel_inline_attribute:'Spirit'}</span>​เพิ่มเติม​และ​​<span class=\"highlight\">ลดคูลดาวน์</span>"
+		
+		// "upgrade_weapon_shielding"						"Weapon Shielding"
+		"upgrade_weapon_shielding_desc"			"ได้รับ<span class=\"highlight\">แบร์ริเออร์​</span>เมื่อคุณได้รับ {g:citadel_inline_attribute:'WeaponDamage'}อย่างรุนแรงจากฮีโร่ศัตรูในช่วงเวลาสั้น ๆ"
+		"DamageWindow_label"								"ช่วงเวลา"
+		"DamageWindow_postvalue_label"								"ช่วงเวลา"
+		"DamageWindow_postfix"								"วิ"
+		
+		// "upgrade_spirit_bubble"							"Spirit Bubble"
+		"upgrade_spirit_bubble_desc"			"ได้รับ<span class=\"highlight\">แบร์ริเออร์​</span>เมื่อคุณได้รับ {g:citadel_inline_attribute:'SpiritDamage'}อย่างรุนแรงจากฮีโร่ศัตรูในช่วงเวลาสั้น ๆ"
+
+		// "upgrade_grit"							"Grit"
+		"upgrade_grit_desc"			"สร้าง<span class=\"highlight\">แบร์ริเออร์​</span>ชั่วครู่"
+
+		//Unstoppable
+		"upgrade_unstoppable_desc"				"ยับยั้ง<span class=\"highlight\">เอฟเฟกต์สถานะด้านลบ</span>ชั่วคราวและ<span class=\"highlight\">​ไม่ได้​รับผล​​</span>จาก​สถานะ​​<span class=\"highlight\">สตัน ใบ้ หลับ ตรึง และปลดอาวุธ</span> <br>ไม่สามารถกดใช้ในขณะที่<span class=\"highlight\">ถูกสตัน</span>หรือ<span class=\"highlight\">ถูกทำให้หลับ</span>"
+
+		//Colossus
+		"upgrade_colossus_desc"			"<span class=\"highlight\">ตัวใหญ่ขึ้น</span> ได้รับ {g:citadel_inline_attribute:'BulletResist'} {g:citadel_inline_attribute:'SpiritResist'} และ {g:citadel_inline_attribute:'MeleeDamage'} <br><br>ศัตรูที่อยู่ใกล้เคียงถูก {g:citadel_inline_attribute:'Slow'}และมี<span class=\"highlight\">ความเร็วการพุ่งตัว</span>ลดลง"
+		"BuffBulletResist_label"		"ต้านทาน​กระสุน​"
+		"BuffBulletResist_postvalue_label"		"ต้านทาน​กระสุน​"
+		"BuffBulletResist_postfix"		"%"
+		"BuffTechResist_label"			"ต้านทาน​วิญญาณ​"
+		"BuffTechResist_postvalue_label"			"ต้านทาน​วิญญาณ​"
+		"BuffTechResist_postfix"		"%"
+
+		// Rebuttal - upgrade_melee_rebuttal
+		"upgrade_melee_rebuttal_desc"				"หาก<span class=\"highlight\">ปัดป้อง</span>ฮีโร่ศัตรูได้สำเร็จ จะ<span class=\"highlight\">รักษา</span>ตัวคุณเองเป็นจำนวนตามความเสียหายที่ปัดป้อง และสะท้อนความเสียหายนั้นกลับไปยังเป้าหมาย พร้อมกับสร้าง<span class=\"highlight\">ความเสียหาย​</span>เพิ่มขึ้นชั่วคราว"
+
+		// Counterspell
+		"upgrade_counterspell_desc"				"การปัดป้องครั้งต่อไปของคุณจะ<span class=\"highlight\">ปกป้องคุณจากความเสียหายและเอฟเฟกต์ของสกิลและไอเท็มศัตรู</span> หากปัดป้องสกิลได้สำเร็จ​จะ {g:citadel_inline_attribute:'Heal'} และได้รับ {g:citadel_inline_attribute:'MoveSpeed'} และ {g:citadel_inline_attribute:'Spirit'}"
+		
+		"ParrySuccessHealPercentage_label"					"รักษาจากความเสียหายที่ปัดป้อง"
+		"ParrySuccessHealPercentage_postvalue_label"					"รักษาจากความเสียหายที่ปัดป้อง"
+		"ParrySuccessHealPercentage_postfix"					"%"
+
+		// 
+		"upgrade_tech_purge_desc"	"เมื่อคุณมี<span class=\"highlight\">พลังชีวิตต่ำกว่า {s:HealthThreshold}%</span> คุณจะได้รับต้านทาน​วิญญาณเพิ่มเติม"
+		"upgrade_improved_bullet_armor_desc"	"เมื่อคุณมี<span class=\"highlight\">พลังชีวิตต่ำกว่า {s:HealthThreshold}%</span> คุณจะได้รับ<span class=\"highlight\">ต้านทานกระสุน</span>เพิ่มเติม"
+
+		// Spellbreaker
+		"upgrade_spellbreaker_desc"				"{g:citadel_inline_attribute:'SpiritDamage'} จำนวนมากครั้งถัดไปที่คุณได้รับจะมีความรุนแรงลดลงอย่างมาก"
+		"SpiritDamageReductionProc_label"		"ลดความเสียหายวิญญาณ"
+		"SpiritDamageReductionProc_postvalue_label"		"ลดความเสียหายวิญญาณ"
+		"SpiritDamageReductionProc_postfix"		"%"
+
+		"upgrade_juggernaut_slow_desc"			"ศัตรูที่ยิงคุณจะมี<span class=\"highlight\">อัตรายิง</span>ช้าลง"
+		"FireRateSlowDuration_label"			"ระยะเวลา"
+		"FireRateSlowDuration_postvalue_label"			"ระยะเวลา"
+		"FireRateSlowDuration_postfix"			"วิ"
+
+		"upgrade_trophy_collector_desc"			"เมื่อคุณได้รับแต้ม<span class=\"highlight\">การสังหารหรือช่วยสังหาร</span>จะได้รับ<span class=\"highlight\">​การวิ่ง</span> <span class=\"highlight\">ระยะสกิล</span> และ<span class=\"highlight\">อัตราสร้างโซลส์ติดตัว</span>เพิ่มขึ้น เอฟเฟกต์นี้ซ้อนทับได้และจะคงอยู่หลังตาย"
+		"StackingGoldPerMinute_label"			"โซลส์ต่อนาที"
+		"StackingGoldPerMinute_postvalue_label"			"โซลส์ต่อนาที"
+		
+		// Indomitable
+		"upgrade_upgrade_auto_cleanse_desc"		"ลบล้างสถานะ<span class=\"highlight\">สตัน ล่าม ตรึง หลับ ใบ้ หรือหวาดกลัว</span>ครั้งถัดไปโดยอัตโนมัติ เมื่อลบล้างแล้ว คุณจะได้รับ<span class=\"highlight\">แบร์ริเออร์​</span> และ<span class=\"highlight\">คูลดาวน์สกิล</span>ทั้งหมดของคุณจะลดลง {s:CooldownReductionOnProc}%"
+		
+		//-----------------------------------------------------------------------------
+		// Upgrades: Utility
+		//----------------------------------------------------------------------------- 
+		
+		//Superior Stamina
+		"upgrade_superior_stamina_passive"			"ทำให้สามารถ<span class=\"highlight\">กระโดดกลาง​อากาศ​</span>หรือ​<span class=\"highlight\">พุ่ง​กลาง​อากาศ​</span>เพิ่มได้อีกครั้งก่อนลงถึงพื้น"
+
+		//Enduring Speed
+		"upgrade_cardio_calibrator_desc"			"ลดทอนประสิทธิภาพการลด<span class=\"highlight\">ความเร็วการเคลื่อนที่</span>​โดยฝ่ายศัตรู"
+
+		//Health Nova
+		"upgrade_health_nova_desc"					"<span class=\"highlight\">รักษา</span>ตนเองและเพื่อนร่วมทีมใน​บริเวณ​ใกล้เคียง​"
+
+		//Shadow Weave
+		"upgrade_cloaking_device_active_desc"		"เข้าสู่สถานะ<span class=\"highlight\">พรางตัว</span> หากคุณได้รับความเสียหายขณะอยู่ใน​สถานะพรางตัว​คุณจะถูก​เปิดเผยตัว​ชั่วคราว"
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>การโจมตีหรือใช้สกิลจะทำให้การพรางตัวของคุณสิ้นสุดลง​และเริ่มการ<span class=\"highlight\">ลอบโจมตี</span> มอบ<span class=\"highlight\">อัตรายิง</span>, <span class=\"highlight\">พลังวิญญาณ</span> และ<span class=\"highlight\">ความเสียหาย​ประชิด</span>เพิ่มเติมชั่วคราว"
+		"modifier_cloaking_device_active_stealth"		"​แชโดว์​วีฟ​ - พรางตัว"
+		"modifier_cloaking_device_active_ambush"		"​แชโดว์​วีฟ​ - ลอบโจมตี"
+		"AmbushBonusTechPower_prefix"					"+"
+		"AmbushBonusTechPower_label"					"พลังวิญญาณลอบโจมตี"
+		"AmbushBonusTechPower_postvalue_label"					"พลังวิญญาณลอบโจมตี"
+		"AmbushBonusFireRate_prefix"					"+"
+		"AmbushBonusFireRate_label"					"อัตรายิงลอบโจมตี"
+		"AmbushBonusFireRate_postvalue_label"					"อัตรายิงลอบโจมตี"
+		"AmbushBonusFireRate_postfix"					"%"
+		"AmbushBonusMeleeDamage_label"					"ความเสียหาย​ประชิดจากการลอบโจมตี"
+		"AmbushBonusMeleeDamage_postvalue_label"		"ความเสียหาย​ประชิดจากการลอบโจมตี"
+		"AmbushBonusMeleeDamage_postfix"				"%"
+		"AmbushDuration_label"						"ระยะเวลาลอบโจมตี"
+		"AmbushDuration_postvalue_label"						"ระยะเวลาลอบโจมตี"
+		"AmbushDuration_postfix"						"วิ"
+		"StealthDuration_label"						"ระยะเวลาพรางตัว"
+		"StealthDuration_postvalue_label"						"ระยะเวลาพรางตัว"
+		"StealthDuration_postfix"						"วิ"
+		"SpottedRadius_label"						"รัศมีมองเห็น"
+		"SpottedRadius_postvalue_label"						"รัศมีมองเห็น"
+		"SpottedRadius_postfix"						"ม"
+
+		//Majestic Leap
+		"upgrade_rocket_booster_desc"				"<span class=\"highlight\">ส่งตัวคุณเองพุ่ง</span>ขึ้นไปในอากาศ และมอบ<span class=\"highlight\">แบร์ริเออร์​</span>ให้แก่ตัวเอง ขณะอยู่กลางอากาศ คุณสามารถกดใช้อีกครั้งเพื่อดิ่งลงพื้นเร็วขึ้น<br><br><span class=\"diminish\">หากถูกโจมตีโดยฮีโร่ฝ่ายศัตรูจะไม่สามารถกดใช้ได้เป็นเวลา {s:InterruptCooldown}วิ</span>"
+		"upgrade_rocket_booster_drop_down"			"ดิ่งลงพื้น"
+		
+		//Drain Will
+		"SpiritStealDuration_postfix"	"วิ"
+
+		//Reactive Barrier
+		"upgrade_vex_barrier_desc"		"สร้าง<span class=\"highlight\">แบร์ริเออร์​​</span>​​เมื่อคุณ<span class=\"highlight\">ถูกสตัน ถูกล่าม ถูกตรึง ถูกทำให้หลับ หรือถูกใบ้</span>"
+
+		//Spell Shield
+		"upgrade_spellshield_desc"		"บล็อก {g:citadel_inline_attribute:'SpiritDamage'} หรือ<span class=\"highlight\">ดีบัฟ</span>ครั้งถัดไป ทำให้ไม่ได้ผลจากเอฟเฟกต์นั้น โดยจะฟื้นฟูนอกการต่อสู้เท่านั้น"
+		"upgrade_spellshield_shield"	"Anti-Spirit Sigil"
+		"upgrade_spellshield/modifier_spellshield_linger_buff"  "Hexafoil Ward ถูกทำลาย!"
+		"SpellShieldFlavorText_label"	"ป้ายกำกับ!"
+
+		"SpellShieldFlavorText_postvalue_label"	"ป้ายกำกับ!"
+
+		//Heal On Level
+		"upgrade_heal_on_level_desc"	"<span class=\"highlight\">รักษาพลังชีวิต</span>โดยอัตโนมัติเมื่อคุณได้รับ<span class=\"highlight\">พร</span>จากเพทรอน"
+		"upgrade_heal_on_level_buff"	"รักษาเมื่อเพิ่มเลเวล"
+		"HealOnlevelHealAmount_label"	"จำนวนการรักษา"
+		"HealOnlevelHealAmount_postvalue_label"	"จำนวนการรักษา"
+		"upgrade_heal_on_level/heal_on_level_buff"			"รักษาเมื่อเพิ่มเลเวล"
+
+		//Absorbing armor / witchmail
+		"upgrade_absorbing_armor_desc" "เมื่อได้รับ {g:citadel_inline_attribute:'SpiritDamage'}อย่างรุนแรงจากศัตรูจะลด<span class=\"highlight\">คูลดาวน์ของสกิลสุ่ม</span>"
+
+		//Healing Buff
+		"upgrade_healbuff_desc" "การ {g:citadel_inline_attribute:'Heal'}ตนเองหรือเพื่อนร่วมทีมจะมอบ {g:citadel_inline_attribute:'BonusFireRate'}และ {g:citadel_inline_attribute:'BonusMoveSpeed'}ให้แก่เป้าหมาย<br><br><span class=\"diminish\">ไม่มีผลจากอัตรา​ฟื้นฟู​ประจำตัวหรือกระสุน/วิญญาณ​ดูดพลังชีวิตติดตัว</span>"
+
+		//Infinite Magazine
+		"upgrade_infinitemagazine_desc" "ได้รับ<span class=\"highlight\">กระสุนไม่จำกัด</span>และ {g:citadel_inline_attribute:'BonusFireRate'}"
+
+		//APRounds
+		"upgrade_aprounds_desc" "กระสุนของคุณมีโอกาสที่จะไม่สามารถหลบได้ ซึ่งจะ<span class=\"highlight\">ทะลุผ่าน</span>ศัตรู​และ​<span class=\"highlight\">ไม่สนค่า​ต้านทาน​กระสุน​</span>ของศัตรู"
+
+		//Deflecting Armor
+		"upgrade_deflecting_armor_desc" "ได้รับโอกาสเบี่ยงเบนกระสุนที่พุ่งเข้ามา ซึ่งจะป้องกัน {g:citadel_inline_attribute:'WeaponDamage'}ทั้งหมด หรือป้องกัน<span class=\"highlight\">เอฟเฟกต์การโจมตี</span>ทั้งหมดจากกระสุน"
+		"DeflectionPercent_label" "เปอร์เซ็นต์เบี่ยงเบน"
+		"DeflectionPercent_postvalue_label" "เปอร์เซ็นต์เบี่ยงเบน"
+		"DeflectionPercent_postfix" "%"	
+		
+		"BulletProcDeflectionPercent_label" "เปอร์เซ็นต์ป้องกันเอฟเฟกต์การโจมตี"
+		"BulletProcDeflectionPercent_postvalue_label" "เปอร์เซ็นต์ป้องกันเอฟเฟกต์การโจมตี"
+		"BulletProcDeflectionPercent_postfix" "%"
+
+		// Shadow Step Active
+		"upgrade_shadow_step_desc"	"<span class=\"highlight\">เทเลพอร์ต</span>ไปข้างหน้า"
+
+		//Shadow Step Passive
+		"upgrade_shadow_step_passive_desc"	"สร้าง {g:citadel_inline_attribute:'SpiritDamage'} เป็นระยะแก่ศัตรูทั้งหมดในบริเวณใกล้เคียง"
+
+		"upgrade_haunting_scream_desc"	"ปล่อยโพรเจกไทล์ที่ขยายออกไป ซึ่ง<span class=\"highlight\">สาป</span>ศัตรูเป็นระยะเวลาสั้น ๆ"
+		
+		"upgrade_apex_combat_desc"		"กระสุนของคุณจะ<span class=\"highlight\">กระดอน​</span>ไปโจมตี​ศัตรู​ที่อยู่ใกล้​กับเป้าหมาย​ของคุณ <span class=\"highlight\">ส่งผล​เอฟเฟกต์​ของ​กระสุน​ทั้งหมด​</span>และ<span class=\"highlight\">สร้างความเสียหาย​เป็น​เปอร์เซ็นต์​​ของ​​ความเสียหายเดิม</span>"
+
+		"upgrade_aerial_supremacy_passive"			"ทำให้สามารถ<span class=\"highlight\">กระโดดกลาง​อากาศ​</span>หรือ​<span class=\"highlight\">พุ่ง​กลาง​อากาศ​</span>ได้<span class=\"highlight\">ไม่จำกัดจำนวนครั้ง</span>ก่อนลงถึงพื้น"
+
+		"upgrade_infinite_rounds_desc" "คุณมีกระสุน<span class=\"highlight\">ไม่จำกัด</span>"
+
+		// BulletShredImbue Ballistic Enchantment
+		"upgrade_bulletshredimbue_desc" "ผสานสกิลให้มี<span class=\"highlight\">ระยะ</span>เพิ่มขึ้น เมื่อใช้สกิลดังกล่าวสร้างความเสียหาย จะเพิ่ม<span class=\"highlight\">ความเสียหายอาวุธ</span>ของคุณตาม<span class=\"highlight\">จำนวนฮีโร่แตกต่างกันที่โดน</span> ส่งผลลดลงแก่ยูนิตที่ไม่ใช่ฮีโร่"
+
+		// Recharging Bullets
+		"upgrade_rechargingbullets_desc" "เมื่อสร้าง {g:citadel_inline_attribute:'WeaponDamage'} รุนแรงจะเติมชาร์จให้กับ<span class=\"highlight\">สกิลที่เป็นชาร์จของคุณแต่ละสกิล</span>"
+		"CooldownReductionOnProc_postvalue_label" "ลดคูลดาวน์"
+		"CooldownReductionOnProc_label" "ลดคูลดาวน์"
+		"CooldownReductionOnProc_postfix" "วิ"
+		"CooldownReductionOnProc_prefix" "{s:sign}"
+
+
+		//-----------------------------------------------------------------------------
+		// Street Brawl Tier5
+		//----------------------------------------------------------------------------- 
+		"upgrade_icarus_wings_desc"		"ขณะลอย​อยู่กลางอากาศ คุณจะสร้างความเสียหายเพิ่มขึ้น และได้รับความเสียหายลดลง สามารถพุ่งกลางอากาศและกระโดดได้อย่าง<span class=\"highlight\">ไม่จำกัด</span>"
+		"upgrade_mystical_piano_desc"	"หลังจากดีเลย์สั้น ๆ ศัตรูในพื้นที่เป้าหมายจะถูกสตันและสแตมินาจะลดลง หลังจากสตันศัตรูจะมึนงงชั่วคราว"
+		"upgrade_nullification_aura_desc"	"ลบล้างบัฟเชิงบวกทั้งหมดและป้องกันไม่ให้ศัตรูใช้สแตมินาและเอฟเฟกต์การรักษา"
+		"upgrade_nullification_aura_deathdamage_desc"	"สร้างความ​เสียหาย​วิญญาณอย่างรุนแรงเมื่อคุณตาย"
+		"upgrade_celestial_guidance_desc"	"ใช้พลังชำระล้างอันทรงพลังเพื่อรักษาเพื่อนร่วมทีมของคุณทั้งหมดในเกม"
+		"upgrade_eternal_gift_desc"			"ได้รับบัฟเพิ่มค่าสถานะสุ่มถาวรเป็นระยะ"
+		"upgrade_eternal_gift_respawn_desc"		"ลดระยะเวลาการเกิดใหม่หลังการตายครั้งต่อไปของคุณ"
+		"upgrade_patrons_blessing_desc"			"มอบพลังวิญญาณออร่าอันทรงพลังให้กับตัวคุณเอง​และ​เพื่อนร่วมทีม โดยผลกระทบต่อเพื่อนร่วมทีมจะลดลง"
+		"upgrade_patrons_blessing_proc_desc"	"การสร้าง<span class=\"highlight\">ความเสียหาย</span>รุนแรงต่อฮีโร่ศัตรูภายใน {s:DamageThresholdDuration} วินาทีทำให้คุณรักษาตัวคุณและเพื่อนร่วมทีมใน​บริเวณ​ใกล้เคียง​"
+
+		"AllyPercentage_postvalue_label" "เปอร์เซ็นต์​เพื่อนร่วมทีม"
+		"AllyPercentage_label" "เปอร์เซ็นต์​เพื่อนร่วมทีม"
+		"AllyPercentage_postfix" "%"
+		"AllyPercentage_prefix" "{s:sign}"
+		"RespawnTime_postvalue_label" "เวลาเกิดใหม่"
+		"RespawnTime_label" "เวลาเกิดใหม่"
+		"RespawnTime_postfix" "%"
+		"RespawnTime_prefix" "{s:sign}"
+
+		"upgrade_eldritch_shot_desc"			"กระสุนนัดถัดไปของคุณจะส่งผลดีบัฟที่ทรงพลัง ซึ่งจะลดเอาต์พุตความเสียหาย การรักษา และความเร็วในการเคลื่อนที่ของศัตรู นอกจากนี้ยังสร้าง {g:citadel_inline_attribute:'BonusSpiritDamage'} ตามพลังชีวิตที่เหลืออยู่ของเป้าหมาย <br><br>กระสุนดังกล่าวใหญ่กว่าเดิมและเจาะผ่านเป้าหมายต่าง ๆ"
+		"upgrade_cloak_of_opportunity_desc"		"บล็อกดีบัฟครั้งถัดไปที่จะ <span class=\"highlight\">ล็อกการเคลื่อนที่ สตัน ล่าม ตรึง หรือทำให้หลับ</span> และกลายเป็น<span class=\"highlight\">​อันสต็อป​เอเบิล​</span> นอกจากนี้ยังได้รับ<span class=\"highlight\">แบร์ริเออร์​</span> และเพิ่ม {g:citadel_inline_attribute:'MoveSpeed'}"
+		"upgrade_runed_gauntlets_desc"			"ทุกครั้งที่คุณโจมตีประชิดรุนแรงโดนศัตรู จะลดคูลดาวน์ที่มีอยู่ของคุณ"
+		"upgrade_runed_gauntlets_parry_desc"		"ทะลุผ่านการปัดป้อง"
+		"upgrade_electric_slippers_desc"		"เมื่อสไลด์ จะหลบกระสุน เพิ่มอัตรายิง และสร้างความเสียหายแก่ศัตรูรอบตัวคุณ <span class=\"diminish\"><br><br>คูลดาวน์แยกแต่ละเป้าหมาย</span>"
+		"upgrade_prism_blast_desc"				"คุณเข้าสู่สภาวะว่างเปล่า และ<span class=\"highlight\">ไม่สามารถถูกเลือกเป็นเป้าหมายการโจมตีได้​และกลายเป็นอมตะ</span>เป็นช่วงระยะเวลาสั้น ๆ ในระหว่างนั้นเลเซอร์จะพุ่งออกมาและหมุนรอบตัวคุณ"
+		"upgrade_unstable_concoction_desc"		"ดื่มน้ำยาที่ทำให้คุณได้รับสถานะ<span class=\"highlight\">อันสต็อป​เอเบิล​</span> และช่วยเพิ่ม<span class=\"highlight\">ความเร็ว พลังชีวิต ความเสียหายอาวุธและวิญญาณ</span>หลังจากผ่านช่วงเวลาสั้น ๆ <span class=\"highlight\">คุณจะตายและระเบิด</span> สตันศัตรูที่อยู่ใกล้เคียงและสร้างความเสียหายตามพลังชีวิตสูงสุดของคุณ หากตายด้วยวิธีนี้จะลดเวลาเกิดใหม่ของคุณ <span class=\"highlight\">{s:RespawnTimeMod}%</span>"
+		"upgrade_shivas_bracelet_desc"			"สกิลที่ได้รับการผสานจะมี<span class=\"highlight\">คูลดาวน์ลดลง</span>และได้รับ<span class=\"highlight\">พลังวิญญาณ</span>เพิ่มขึ้น เมื่อสกิลสร้างความเสียหายจะ<span class=\"highlight\">แช่แข็ง</span>เป้าหมายและสร้าง<span class=\"highlight\">ความเสียหายเพิ่มเติม</span> <span class=\"diminish\"><br><br>นับคูลดาวน์แยกตามเป้าหมาย</span>"
+		"upgrade_shadow_strike_desc"			"เข้าสู่สถานะ<span class=\"highlight\">ล่องหน</span> โดย<span class=\"highlight\">ใช้สแตมินา</span>ที่ไม่มีระยะการตรวจหา <span class=\"highlight\">การโจมตีประชิด</span>ขณะล่องหนจะทำให้คุณ<span class=\"highlight\">ขโมย​กระสุน​และต้านทาน​วิญญาณ​</span>จากศัตรูและสร้าง<span class=\"highlight\">ความเสียหาย​ต่อ​เนื่อง​</span>"
+		"upgrade_omnicharge_pendant_desc"		"ผสานสกิลที่ไม่ใช่อัลติเมทให้มี<span class=\"highlight\">ชาร์จสกิลเพิ่มขึ้น</span> สกิลที่มีชาร์จอยู่แล้วจะได้รับชาร์จเพิ่มเติม"
+		"upgrade_omnicharge_pendant_charges"	"เพิ่มชาร์จ"
+
+		//-----------------------------------------------------------------------------
+		// Cosmetic
+		//----------------------------------------------------------------------------- 
+		"cosmetic_ability_snowball"		"บอลหิมะ"
+		"cosmetic_ability_snowball_desc"		"ปาบอลหิมะใส่เพื่อนและศัตรูของคุณ ระยะทางและคุณสมบัติอื่น ๆ จะดีขึ้นเมื่อคุณสร้างความคืบหน้าใน<span class=\"highlight\">การท้าทายฉลองวันหยุดปลายปี 2025</span><br><br><span class=\"diminish\">การปาบอลหิมะใส่เพื่อนร่วมทีมจะไม่สร้างความเสียหายและจะรีเซ็ตคูลดาวน์</span>"
+		"SnowballSpeed_label"			"ความเร็วการขว้าง"
+		"SnowballSpeed_postvalue_label"		"ความเร็ว"
+		"SnowballSpeed_postfix"			"ม/วิ"
+		"SnowballCount_label"			"บอลหิมะที่ขว้างไป"
+		"SnowballCount_postvalue_label"		"โพรเจกไทล์"
+
+		"cosmetic_item_voting_poster"		"แปะโปสเตอร์"
+	}
+}

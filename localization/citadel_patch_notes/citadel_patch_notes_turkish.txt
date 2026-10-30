@@ -1,0 +1,244 @@
+﻿"lang"
+{
+	"Language"		"turkish"
+	"Tokens"
+	{
+
+		//-----------------------------------------------------------------------------
+		// hero_astro
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_astro_1" "<b>24 Ekim 2024</b><br>
+			<li>Kahraman Laboratuvarı'na kahraman eklendi.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_astro_2" "<b>29 Ekim 2024</b><br>
+			<li><i>Trambolin:</i> Artık bir alana iniş yapıldığında düzgün bir şekilde hasar verecek.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_astro_3" "<b>7 Kasım 2024</b><br>
+			<li><i>Trambolin</i>: Trambolinler, tek bir ezmeye izin verecek şekilde güncellendi.</li>
+			<li><i>Trambolin</i>: Trambolin kullanan dostlar artık parçacık efekti almayacak.</li>
+			<li><i>Silah</i>: Silah kiti görsel efektleri güncellendi.</li>
+			<li><i>Barut Fıçısı</i>: Nişangâh yakınındaki görsel efektlerin yoğunluğu azaltıldı.</li>
+			<li><i>Usta Nişancı</i>: Kurbanın bakış açısından görsel efektlerin yoğunluğu azaltıldı.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_nano
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_nano_1" "<b>24 Ekim 2024</b><br>
+			<li>Kahraman Laboratuvarı'na kahraman eklendi.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_nano_2" "<b>29 Ekim 2024</b><br>
+			<li><i>Silah</i>: Şarjör değiştirme süresi 3,5 saniyeden 3 saniyeye düşürüldü.</li>
+			<li><i>Silah</i>: Şarjör kapasitesi 18'den 16'ya düşürüldü.</li>
+			<li><i>Silah</i>: Alternatif atışın mermi hasarı 6'dan 7'ye yükseltildi.</li>
+			<li><i>Sekhmet'in Ruhu</i>: Artık kullanıldıktan hemen sonra patlatılabiliyor.</li>
+			<li><i>Sekhmet'in Ruhu</i>: Artık yalnızca hareket eden kedinin vurduğu/sürüklediği hedefler havaya fırlatılacak.</li>
+			<li><i>Gardiyan Nekomata</i>: Artık şarjı yok.</li>
+			<li><i>Gardiyan Nekomata</i>: Artık kendine ait 30 metrelik saldırı menzili var.</li>
+			<li><i>Gardiyan Nekomata</i>: Süresi 120 saniye yerine 60 saniye olarak değiştirildi.</li>
+			<li><i>Gardiyan Nekomata</i>: SBH büyü ölçeklendirmesi 0,4 yerine 0,3 olarak değiştirildi.</li>
+			<li><i>Gardiyan Nekomata</i>: Sağlık büyü ölçeklendirmesi 3'ten 2'ye düşürüldü.</li>
+			<li><i>Gardiyan Nekomata</i>: 2. kademenin verdiği şarjlar kaldırıldı ve +30 saniye yetenek süresi bonusu eklendi.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_wrecker
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_1" "<b>24 Ekim 2024</b><br>
+			<li>Kahraman Laboratuvarı'na kahraman eklendi.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_2" "<b>7 Kasım 2024</b><br>
+			<li><i>Silah</i>: Şarjör kapasitesi 10'dan 15'e yükseltildi.</li>
+			<li><i>Silah</i>: Saniye başına mermi sayısı 2,86'dan 4'e yükseltildi.</li>
+			<li><i>Silah</i>: Mermi hasarı 25'ten 21'e düşürüldü.</li>
+			<li><i>Yıkım Topu</i>: Artık çarptığında patlayacak.</li>
+			<li><i>Yıkım Topu</i>: Temel hasarı 80'den 150'ye yükseltildi.</li>
+			<li><i>Yıkım Topu</i>: Topun hızı 1500'den 2000'e yükseltildi.</li>
+			<li><i>Yıkım Topu</i>: Topun kuvveti 280'den 1500'e yükseltildi.</li>
+			<li><i>Yıkım Topu</i>: Topun kullanma süresi 1,2 saniyeden 1,4 saniyeye yükseltildi.</li>
+			<li><i>Yıkım Topu</i>: Büyü gücü ölçeklendirmesi 1'den 1,4'e yükseltildi.</li>
+			<li><i>Yıkım Topu</i>: Temel dolum süresi 21 saniyeden 31 saniyeye yükseltildi.</li>
+			<li><i>Tüketme</i>: Artık tüm düşmanlarda kullanılabilecek şekilde güncellendi.</li>
+			<li><i>Tüketme</i>: Artık hedefleri sersemletmeyecek veya havaya kaldırmayacak.</li>
+			<li><i>Tüketme</i>: Temel SBH'si 80'den 40'a düşürüldü.</li>
+			<li><i>Tüketme</i>: 1. kademesi, yapılan hasarın %75'ini iyileştirme olarak verecek şekilde değiştirildi.</li>
+			<li><i>Tüketme</i>: 2. kademesi +80 SBH yerine +40 SBH verecek şekilde düşürüldü.</li>
+			<li><i>Tüketme</i>: 3. kademesi +2 ek hedef verecek şekilde değiştirildi.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_3" "<b>11/21/2024</b><br>
+			<li><i>Yıkım Topu</i>: Artık topu tutarken düşük yükseklikte zıplayabilir.</li>
+			<li><i>Yıkım Topu</i>: Tetiklenme menzili 92'den 65'e düşürüldü</li>
+			<li><i>Tüketme</i>: Yeni görsel güncellemeleri</li>
+			<li><i>Tüketme</i>: Temel SBH 40'tan 60'a artırıldı</li>
+			<li><i>Tüketme</i>: Kullanma menzili 12 m'den 15 m'ye artırıldı</li>
+			<li><i>Tüketme</i>: Artık maksimum 20 m menzile sahiptir</li>
+			<li><i>Tüketme</i>: Bağlı kalmak için artık görüş açısında olması gerekli</li>
+			<li><i>Tüketme</i>: Artık düşman hareketini bozmaz</li>
+			<li><i>Tüketme</i>: Atış hızı güçlendirmesi kaldırıldı</li>
+			<li><i>Tüketme</i>: %50 temel iyileştirme yüzdesi eklendi </li>
+			<li><i>Tüketme</i>: S1 güçlendirmesi +%75'ten +%25 iyileştirme yüzdesi olarak değiştirildi</li>
+			<li><i>Biyolojik Patlamat</i>: Menzil 5m'den 10m'ye artırıldı</li>
+			<li><i>Biyolojik Patlama</i>: Hedefleme konisi hafif güncellendi</li>
+			<li><i>Biyolojik Patlama</i>: Kullanımda ekranı karartma efekti kaldırıldı</li>
+			<li><i>Astral Yürüyüş</i>: Kaldırıldı. Yeni son yetenek olarak <i>Aşırı Yük</i></li> eklendi.
+			<li><i>Aşırı Yük</i>: Yeni görsel güncellemeler</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_4" "<b>6 Aralık 2024</b><br>
+			<li><i>Yıkım Topu</i>: Yeteneğin davranışı yenilendi.</li>
+			<li><i>Yıkım Topu</i>: Yeni görsel güncellemeler yapıldı.</li>
+			<li><i>Aşırı Yük</i>: Kamera uzaklaştırması artırıldı.</li>
+			<li><i>Aşırı Yük</i>: K2 yükseltmesi dolum süresini 35 saniye azaltacak.</li>
+			<li><i>Aşırı Yük</i>: Açıklama ve arayüze hareket hızı yavaşlatma eklendi.</li>"
+		//-----------------------------------------------------------------------------
+		// hero_trapper
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_1" "<b>7 Kasım 2024</b><br>
+			<li>Kahraman Laboratuvarı'na kahraman eklendi.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_2" "<b>8 Kasım 2024</b><br>
+			<li><i>İpek Tuzağı:</i> İplik efektinin bazen görünmez olduğu bir sorun düzeltildi.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_3" "<b>11/21/2024</b><br>
+			<li><i>Şişelenmiş Zehir:</i> Başlangıç yarıçapı 5 m'den 3 m'ye düşürüldü</li>
+			<li><i>Şişelenmiş Zehir:</i> Süresi 9 saniyeden 8 saniyeye düşürüldü</li>
+			<li><i>Şişelenmiş Zehir:</i> Temel dolum süresi 20 saniyeden 25 saniyeye çıkarıldı</li>
+			<li><i>Şişelenmiş Zehir:</i> K1 güçlendirmesi zehirlenmiş hedeflere -%25 Büyü Hasarı olarak değiştirildi</li>
+			<li><i>Şişelenmiş Zehir:</i> K2 güçlendirmesi +4sn. Süre olarak değiştirildi</li>
+			<li><i>İpek Tuzağı:</i> Artık yaratıkları ve askerleri hedefleyebilir</li>
+			<li><i>İpek Tuzağı:</i> Tuzağın duvarın diğer tarafına hasar verdiği bir sorun düzeltildi</li>
+			<li><i>İpek Tuzağı:</i> Tuzağın bazen oluşmaması sorunu düzeltildi</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_4" "<b>11/24/2024</b><br>
+			<li><i>Şişelenmiş Zehir:</i> Büyüme hesaplaması saniye başına artan, yetenek menzili ile artan sabit bir yarıçap olarak değştirildi</li>
+			<li><i>İpek Tuzağı:</i> Ön izleme efektleri geliştirildi</li>
+			<li><i>İpek Tuzağı:</i> Tuzağın bazı durumlarda oluşmaması hatası düzeltildi</li>
+			<li><i>İpek Tuzağı:</i> Artık minimum tuzak uzunluğu şartı var</li>
+			<li><i>İpek Tuzağı:</i> K3 güçlendirmesi artık 4 sn Etkisizleştirmek yerine 2,5 sn Susturur</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_5" "<b>6 Aralık 2024</b><br>
+			<li><i>Hayalitist:</i> Başlangıç yarıçapı 3 metreden 4,5 metreye çıkarıldı.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_6" "<b>20 Şubat 2025</b><br>
+			<li><i>Hayalitist:</i> Başlangıç yarıçapı 4,5 metreden 6 metreye çıkarıldı.</li>
+			<li><i>Hayalitist:</i> Artık hasar vermiyor, ancak bölgedeki tüm düşmanları susturuyor.</li>
+			<li><i>Hayalitist:</i> Dolum süresi 25 saniyeden 30 saniyeye çıkarıldı.</li>
+			<li><i>Hayalitist:</i> K3 yükseltmesi artık büyü direncini %25 azaltıyor.</li>
+			<li><i>Hayalitist:</i> Yavaşlatma miktarını artırmak için büyü ölçeklemesi güncellendi.</li>
+			<li><i>İpek Tuzağı:</i> Artık zamanla hasar veriyor.</li>
+			<li><i>İpek Tuzağı:</i> Artık İpek Tuzağı'ndan etkilenen düşmanları ortaya çıkarıyor.</li>
+			<li><i>İpek Tuzağı:</i> Başlangıç süresi 60 saniyeden 120 saniyeye çıkarıldı.</li>
+			<li><i>İpek Tuzağı:</i> Zayıflatma süresi 2 saniyeden 3 saniyeye çıkarıldı.</li>
+			<li><i>İpek Tuzağı:</i> K3 yükseltmesi artık ayrıca zayıflatma süresini 2 saniye artıracak.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_slork
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_slork_1" "<b>24 Ekim 2024</b><br>
+			<li>Kahraman Laboratuvarı'na kahraman eklendi.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_slork_2" "<b>29 Ekim 2024</b><br>
+			<li><i>Silah</i>: Saçma tanesi başına hasar 5'ten 4,5'e düşürüldü.</li>
+			<li><i>Silah</i>: Saçmaların yayılması artırıldı ve hasarının azalmaya başladığı mesafe 20 metreden 18 metreye düşürüldü.</li>
+			<li><i>Haşlama Spreyi</i>: Parçacıklar Fathom'ın görüşünü engellemeyecek şekilde güncellendi ve bir vuruş efekti eklendi.</li>
+			<li><i>Dağılın</i>: Dağılın boyunca artık diğer yetenekleri kullanabilirsiniz.</li>
+			<li><i>Dağılın</i>: Parçacık efektleri güncellendi.</li>
+			<li><i>Resif Sakini Zıpkını</i>: Duvara bağlıyken artık istediğiniz eylemi yapabilirsiniz; yaptığınız anda bağınız kopar.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_3" "<b>1 Kasım 2024</b><br>
+			<li>Lütüf başına sağlık 41'den 36'ya düşürüldü.</li>
+			<li>Pompalı tüfek hasarı saçma başına 4,5'tan 4'e düşürüldü.</li>
+			<li>Pompalı tüfeğin hasarının azalmaya başlama mesafesi 18 metreden 16 metreye düşürüldü.</li>
+			<li>Haşlama Spreyi saniye başına hasar kazanımı %8'den %7'ye düşürüldü.</li>
+			<li>Fathom'ın Kan Akıtma yeteneği, Shiv'in Kan Akıtma yeteneğinin son sürümüyle aynı değerlere sahip olacak şekilde güncellendi.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_4" "<b>8 Kasım 2024</b><br>
+			<li><b>Yeni Yetenek</b>: <i>Avcının Pususu</i></li>
+			<li><i>Fathom'ın Kan Akıtma<i> yeteneği <i>Resif Sakininin Zıpkını</i> ile değiştirildi.</li>
+			<li><i>Resif Sakininin Zıpkını</i>: Bir yüzeye tutunduktan sonra 2 şarj kazanır.</li>
+			<li><i>Resif Sakininin Zıpkını</i>: Artık yere atılamaz.</li>
+			<li><i>Resif Sakininin Zıpkını</i>: Hedef yüzey çok uzaktaysa kullanılamayacak.</li>
+			<li><i>Resif Sakininin Zıpkını</i>: Kullanıldığında görünmezliği artık bozmayacak.</li>
+			<li><i>Resif Sakininin Zıpkını</i>: Kullanıldığında Avcınının Pususu'nun görünmezliğini tetikler.</li>
+			<li><i>Resif Sakininin Zıpkını</i>: Artık yüzeyden ayrıldığında dolum süresi başlayacak.</li>
+			<li><i>Resif Sakininin Zıpkını</i>: Artık pasif yenilenmeye sahip değil.</li>
+			<li><i>Resif Sakininin Zıpkını</i>: Artık pasif görünmezliğe sahip değil.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_5" "<b>11/21/2024</b><br>
+			<li><i>Silah</i>: Lütuf başına mermi hasarı 0.57'den 0.35'e düşürüldü</li>
+			<li><i>Gizlinin Pususu</i>: Parçacık efektleri güncellendi</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_6" "<b>6 Aralık 2024</b><br>
+			<li><i>Haşlama Spreyi</i>: Parçacıklar güncellendi.</li>
+			<li><i>Gizlinin Pususu</i>: Hareketsizleştirilen düşmanlar için su katmanı efekti eklendi.</li>
+			<li><i>Gizlinin Pususu</i>: Etkin atışın artık 2,5 m yarıçapı var.</li>"
+
+		"Citadel_PatchNotes_HeroLabs_hero_slork_7" "<b>17 Aralık 2024</b><br>
+			<li>Varsayılan eşya planları eklendi.</li>
+			<li>Tüm yeteneklerin ses efektleri daha iyi olacak şekilde güncellendi.</li>"
+
+
+		//-----------------------------------------------------------------------------
+		// hero_viper
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_viper_1" "<b>24 Ekim 2024</b><br>
+			<li>Kahraman Laboratuvarı'na kahraman eklendi.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_2" "<b>29 Ekim 2024</b><br>
+			<li><i>Kanca Bıçağı</i>, <i>Mahmurlaştırma Hançeri</i> ile değiştirildi.</li>
+			<li><i>Ölümcül Zehir</i>: Artık sadece düşman kahramanları hedef alınabilir.</li>
+			<li><i>Ölümcül Zehir</i>: Görsel efektleri iyileştirildi.</li>
+			<li><i>Sürünme</i>: 1. seviyede artık varsayılan olarak yükseltilecek.</li>
+			<li><i>Sürünme</i>: 1. kademe yükseltmesi +%25 sürünme mesafesi; 2. kademe yükseltmesi +2 kuvvet; 3. kademe yükseltmesi de +%30 mermi/büyü direnci olarak değiştirildi.</li>
+			<li><i>Taşa Çevirme</i>: Patlama gecikme süresi 0,6 saniyeden 1 saniyeye yükseltildi. </li>
+			<li><i>Taşa Çevirme</i>: Taşa Çevirme sırasında görsel ve ses efektlerinin yanı sıra kamera kontrolleri iyileştirildi.</li>
+			<li><i>Taşa Çevirme</i>: Engelleme miktarı artık büyü gücüyle ölçeklenecek.</li>
+			<li><i>Taşa Çevirme</i>: Havadayken artık kullanılamayacak.</li>
+			<li><i>Taşa Çevirme</i>: Durdurulamaz tarafından artık düzgün bir şekilde engelleniyor.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_3" "<b>11/21/2024</b><br>
+			<li><i>Taşa Çevirme</i> yeteneği <i>Taşlaştıran Kelepçe</i></li> ile değiştirildi
+			<li><i>Taşlaştıran Kelepçe</i>: Mermiye görsel revizyonla yapıldı</li>
+			<li><i>Mahmurlaştırma Hançeri</i>: Artık kaymayı engellemez</li>
+			<li><i>Mahmurlaştırma Hançeri</i>: Mermiye ve merminin çarpmasına görününürlüğü geliştirmek adına revizyonlar yapıldı</li>
+			<li><i>Ölümcül Zehir</i>: Artık bir ekran efekti uygular</li>
+			<li><i>Silah:</i> Hasar 12'den 11'e düşürüldü</li>
+			<li><i>Silah:</i> Yüksek atış hızı nedeniyle görününürlüğü artırmak adına mermi izinde revizyonlar yapıldı</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_4" "<b>26 Kasım 2024</b><br>
+			<li><i>Silah:</i> Hasar 11'den 9'a düşürüldü.</li>
+			<li><i>Silah:</i> Mermi hızı 81 m/sn'den 411 m/sn'ye artırıldı.</li>
+			<li><i>Silah:</i> Şarjör büyüklüğü 18'den 24'e artırıldı.</li>
+			<li><i>Taşlaştıran Kelepçe</i>: Mermi yarıçapı 30'dan 45'e artırıldı.</li>
+			<li>Lütuf başına sağlık 35'ten 30'a düşürüldü.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_5" "<b>6 Aralık 2024</b><br>
+			<li>Model boyutu %15 artırıldı.</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_magician
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_magician_1" "<b>24 Ekim 2024</b><br>
+			<li>Kahraman Laboratuvarı'na kahraman eklendi.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_2" "<b>29 Ekim 2024</b><br>
+			<li><i>Silah:</i> Aradaki mesafe arttıkça verdiği hasar düzgün bir şekilde azalacak.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_3" "<b>7 Kasım 2024</b><br>
+			<li>Artık bir son yeteneğe sahip: <i>Büyük Final</i></li>
+			<li><i>Silah</i>: Mermi kapasitesi 20'den 22'ye çıkarıldı./</li>
+			<li><i>Büyülü Şimşek</i>: Artık hareket yavaşlatma yerine %20 atış hızı yavaşlatma uygular.</li>
+			<li><i>Büyülü Şimşek</i>: Hasar 100'den 120'ye, ruh ölçeklemesi 1,2'den 1,4'e çıkarıldı.</li>
+			<li><i>Büyülü Şimşek</i>: Zayıflatma süresi 2 saniyeden 5 saniyeye çıkarıldı.</li>
+			<li><i>Büyülü Şimşek</i>: 2. kademe ruh parçalama -%15'ten -%20'ye çıkarıldı.</li>
+			<li><i>Büyülü Şimşek</i>: 3. kademe yükseltmesi artık hız artırımı sağlıyor.</li>
+			<li><i>Büyülü Şimşek</i>: Artık yönlendirme yapılabildiğinde bir arayüz ipucu gösterecek.</li>
+			<li><i>Hayalet Asistan</i>: Artık havada kullanılabilir.</li>
+			<li><i>Tavşan Büyüsü</i>: Artık dostlar üzerinde kullanılamaz.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_4" "<b>11/21/2024</b><br>
+			<li><i>Büyülü Şimşek</i>: Düşürülmüş hasar ile artık her zaman Asistanınız ile birlikte atılır</li>
+			<li><i>Büyülü Şimşek</i>: Yeni davranışa göre güçlendirmeler güncellendi</li>
+			<li><i>Büyülü Şimşek</i>: Büyü Ölçeklenmesi 1,4'ten 1,2'ye düşürüldü</li>
+			<li><i>Tavşan Büyüsü</i>: Magician artık tavşanlar ve kurbağalar arasındaki farkı biliyor ve hedefleri düzgün bir şekilde tavşana çeviriyor</li>
+			<li><i>Tavşan Büyüsü</i>: Artık kendi üzerin kullanılmaz</li>
+			<li><i>Tavşan Büyüsü</i>: Artık artan hız yerine maksimum bir hız sınırı uygular.</li>
+			<li><i>Tavşan Büyüsü</i>: S3 güçlendirmesi artık yarıçap içerisindeki bütün hedeflere büyüyü uygular</li>
+			<li><i>Hayalet Asistan</i>: Artık kullanımda silahınızı yeniden doldurur</li>
+			<li><i>Hayalet Asistan</i>: Artık ikili mermi atıyor.</li>
+			<li><i>Hayalet Asistan</i>: Büyü Hasarı 0,5 ölçek ile 1x60'dan 0,3 ölçek ile 2x30'a düşürüldü</li>
+			<li><i>Hayalet Asistan</i>: Mermi izleri artık silah izleri ile eş</li>
+			<li><i>Hayalet Asistan</i>: Hedef bulma geliştirildi</li>
+			<li><i>Hayalet Asistan</i>: Asistan'ın şimşek atmasından sonra oyuncunun şimşeği yönlendirememe hatası düzeltildi</li>
+			<li><i>Hayalet Asistan</i>: Işınlanırken daha yumuşak kamera geçişleri</li>
+			<li><i>Hayalet Asistan</i>: Kullanım menzili 20 m'den 15 m'ye düşürüldü</li>
+			<li><i>Hayalet Asistan</i>: Yeni davranışa göre güçlendirmeler güncellendi</li>"
+
+		//-----------------------------------------------------------------------------
+		// hero_operative
+		//-----------------------------------------------------------------------------
+		"Citadel_PatchNotes_HeroLabs_hero_operative_1" "<b>6 Aralık 2024</b><br>
+			<li>Kahraman Laboratuvarı'na kahraman eklendi.</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_operative_2" "<b>17 Aralık 2024</b><br>
+			<li>Varsayılan eşya planları eklendi.</li>"
+
+		}
+}
