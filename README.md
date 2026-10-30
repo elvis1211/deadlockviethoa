@@ -2,13 +2,6 @@
 
 > **Bản Việt hóa cộng đồng dành cho Deadlock trên PC.** Tập trung vào giao diện, mô tả kỹ năng và vật phẩm, cảnh báo trong trận, phím tắt, chế độ thử nghiệm và thống kê. Cách dịch ưu tiên **tự nhiên, ngắn gọn, dễ đọc khi chơi**, đồng thời giữ lại các tên riêng quan trọng.
 
-**Trạng thái:** Đang phát triển (chưa hoàn thiện 100%)  
-**Cập nhật tài liệu:** 30/10/2026  
-**Cài đặt:** Copy & Paste — không cần chạy file `.bat`  
-**Ngôn ngữ chọn trong game:** English (bản dịch ghi đè các file ngôn ngữ tiếng Anh)
-
-> [!IMPORTANT]
-> Đây là dự án do cộng đồng thực hiện, **không phải bản dịch chính thức** và không liên kết với Valve. Deadlock đang tiếp tục cập nhật, vì vậy nội dung mới có thể chưa được dịch hoặc một số mục có thể thay đổi sau bản vá game.
 
 ## 📷 Hình ảnh trong game
 
@@ -89,23 +82,6 @@ resource/
 - Xóa `-language vietnamese` khỏi **Steam → Deadlock → Properties → General → Launch Options**; không cần tham số khởi động đặc biệt.
 - Mở lại game và kiểm tra menu, hướng dẫn hotkey hoặc phần mô tả item.
 
-> [!NOTE]
-> Phím hiện trên màn hình có thể thay đổi theo keybind của người chơi. Bản dịch cố gắng giữ các biến hiển thị phím động thay vì gõ cứng `E`, `W`, `Tab` cho mọi người.
-
-## 🔤 Font Radiance (tùy chọn)
-
-Nếu chữ tiếng Việt khó đọc, có thể sử dụng bản chỉnh `fonts.conf` để ưu tiên **Radiance** cho một số thành phần giao diện.
-
-1. Thoát game và sao lưu `fonts.conf` gốc.
-2. Chép `fonts.conf` của gói font tùy chọn vào:
-
-   ```text
-   <SteamLibrary>/steamapps/common/Deadlock/game/citadel/panorama/fonts/
-   ```
-
-3. Mở lại game. Nếu có lỗi dấu, lỗi chữ hoặc không ưng ý, khôi phục file đã sao lưu.
-
-**Font chỉ cải thiện cách hiển thị chữ; không tự sửa mọi lỗi tràn khung, kích thước HUD hoặc câu dịch quá dài.** Không cần cài thêm hoặc phát hành lại các tệp font của game.
 
 ## 🧰 Khắc phục sự cố
 
