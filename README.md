@@ -3,7 +3,7 @@
 > **Bản Việt hóa cộng đồng dành cho Deadlock tại Việt Nam.** Tập trung vào giao diện, mô tả kỹ năng và vật phẩm, cảnh báo trong trận, phím tắt, chế độ thử nghiệm và thống kê. Cách dịch ưu tiên **tự nhiên, ngắn gọn, dễ đọc khi chơi**, đồng thời giữ lại các tên riêng quan trọng.
 
 
-## 📷 Hình ảnh trong game
+## Hình ảnh trong game
 
 | Màn hình khởi động | Sảnh Hideout |
 |:--:|:--:|
@@ -19,7 +19,7 @@
 
 *Ảnh chụp từ bản game đang được Việt hóa. Một số nhãn vẫn còn tiếng Anh do là tên riêng hoặc chưa được rà soát xong.*
 
-## ✨ Nội dung Việt hóa
+## Nội dung Việt hóa
 
 - **Sảnh và menu:** tìm trận, chọn chế độ chơi, chọn tướng, một phần thông báo hệ thống và giao diện cài đặt.
 - **Trong trận:** cảnh báo, hướng dẫn thao tác và hotkey (nâng kỹ năng, di chuyển, Zipline, tương tác, ping, v.v.).
@@ -34,7 +34,7 @@
 
 Ví dụ: `Souls thu được`, `Bảo vệ Guardian`, `Unstable Rift xuất hiện`. Không đổi Souls thành “Linh hồn” hay đổi tên item sang tiếng Việt.
 
-## 📥 Cài đặt bản Việt hóa
+## Cài đặt bản Việt hóa
 
 
 Tải gói bản Việt hóa của dự án, giải nén và sao chép **thư mục `localization`** vào:
@@ -53,7 +53,7 @@ Chọn **Replace the files in the destination** khi Windows hỏi có ghi đè h
 
 
 
-## 🤝 Đóng góp / Báo lỗi
+## Đóng góp / Báo lỗi
 
 Bạn có thể tạo **GitHub Issue** khi thấy lỗi dịch, sai ngữ cảnh, tràn chữ hoặc một câu còn tiếng Anh. Nên đính kèm:
 
