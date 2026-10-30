@@ -1,4 +1,4 @@
-# Deadlock Việt Hóa 🇻🇳
+# Deadlock Việt Hóa
 
 > **Bản Việt hóa cộng đồng dành cho Deadlock tại Việt Nam.** Tập trung vào giao diện, mô tả kỹ năng và vật phẩm, cảnh báo trong trận, phím tắt, chế độ thử nghiệm và thống kê. Cách dịch ưu tiên **tự nhiên, ngắn gọn, dễ đọc khi chơi**, đồng thời giữ lại các tên riêng quan trọng.
 
