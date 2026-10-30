@@ -15,7 +15,7 @@
 
 | Cửa hàng và mô tả vật phẩm | Sandbox và công cụ thử nghiệm |
 |:--:|:--:|
-| ![Cửa hàng với mô tả vật phẩm tiếng Việt và tên item giữ nguyên](assets/screenshots/05-cua-hang.webp) | ![Sandbox và bảng công cụ thử nghiệm](assets/screenshots/06-sandbox.webp) |
+| ![Cửa hàng với mô tả vật phẩm tiếng Việt và tên item giữ nguyên](assets/screenshots/05-cua-hang.webp) | ![Skill tướng và bảng công cụ thử nghiệm](assets/screenshots/06-sandbox.webp) |
 
 *Ảnh chụp từ bản game đang được Việt hóa. Một số nhãn vẫn còn tiếng Anh do là tên riêng hoặc chưa được rà soát xong.*
 
