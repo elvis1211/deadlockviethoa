@@ -34,7 +34,7 @@
 
 Ví dụ: `Souls thu được`, `Bảo vệ Guardian`, `Unstable Rift xuất hiện`. Không đổi Souls thành “Linh hồn” hay đổi tên item sang tiếng Việt.
 
-## Cài đặt bản Việt hóa
+## Cài đặt bản Việt hóa và Font chữ
 
 
 Tải gói bản Việt hóa của dự án, giải nén và sao chép **thư mục `localization`** vào:
@@ -47,6 +47,10 @@ Ví dụ với Steam cài ở ổ C:
 
 ```text
 C:\SteamLibrary\steamapps\common\Deadlock\game\citadel\resource\
+```
+Còn với font chữ, giải nén và sao chép **file `fonts.conf`** vào:
+```text
+<SteamLibrary>/steamapps/common/Deadlock/game/citadel/panorama/fonts
 ```
 
 Chọn **Replace the files in the destination** khi Windows hỏi có ghi đè hay không.
