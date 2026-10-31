@@ -1351,20 +1351,6 @@
 		"Citadel_Hud_KillFeedVehicle"								"차량"
 		"Citadel_Hud_KillFeedWorld"									"환경"
 
-		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"			"{g:citadel_persona:account_id} 님이 {s:hero_name} 영웅의 크리스마스 보상을 받았습니다!"
-		"Citadel_Showcase_SeasonalAchievement2024"					"2024년 12월"
-
-		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"			"{g:citadel_persona:account_id} 님이 {s:hero_name} 장식을 잠금 해제했습니다!"
-		"Citadel_Showcase_SeasonalAchievement2025"					"2025년 12월"
-
-		"Citadel_Hud_Toast_SeasonalKill"							"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span> 님이"
-		"Citadel_Hud_Toast_SeasonalKill2"							"눈덩이로 처치!"
-
-		"Citadel_Event_Holiday_Challenge2025_Title"					"2025 크리스마스 챌린지"
-		"Citadel_Event_Holiday_Challenge2025_Desc"					"각 영웅으로 매치에서 승리하면 은신처 트리에 사용할 수 있는 고유한 장식을 획득할 수 있습니다."
-		"Citadel_Event_Holiday_Challenge2025_Snowball"				"트리에 더 많은 장식을 추가하면 던질 수 있는 <span class=\"Emphasis\">눈덩이</span> 활성 아이템을 업그레이드할 수 있습니다."
-		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"레벨 {i:item_level} / {i:item_max_level}"
-
 		"Citadel_Hud_Voting_Poster_Tooltip_Header"					"포스터 선택"
 		"Citadel_Hud_Voting_Poster_Tooltip_Selected"				"선택 완료"
 
@@ -2851,6 +2837,9 @@
 		"citadel_hint_activate_wall" "{g:citadel_binding:'Attack'} 키를 눌러 원하는 시점에 장벽을 구축하세요."
 		"citadel_hint_guided_arrow_boost" "{g:citadel_binding:'Attack'} 길게 눌러 화살 속도 부스트"
 		"citadel_hint_flying_strike_early_activate" "{g:citadel_binding:'Attack'} 키를 눌러 목표물로 미리 날아가세요."
+
+		// Hud Hints 
+		"citadel_rejuvenator_hud_hint" "활성화된 소생의 보석의 남은 시간을 표시합니다. 활성화된 소생의 보석이 없으면 중앙 보스의 재등장까지 남은 시간을 표시합니다."
 
 		//-----------------------------------------------------------------------------
 		// Breakable Prop modifiers
@@ -4434,7 +4423,6 @@
 		"menu_tphideout"							"은신처로 순간이동"
 		"menu_shoparea"							    "아트리움"
 		"menu_shoparea_sub"							"연습 공간"
-		"menu_seasonal_2025"						"크리스마스 챌린지"
 		"menu_new_violator"							"신규"
 		
 		
@@ -5843,10 +5831,8 @@
 		"Citadel_Hideout_News"		"모든 뉴스 읽기"
 		"Citadel_Hideout_News_Button"		"새 소식을 보려면 {g:citadel_binding:'Interact'} 키를 누르세요"
 		"Citadel_Hideout_VoiceLines"		"{g:citadel_binding:'Interact'} 키를 눌러 캐릭터 음성 대사를 재생하세요"
-		"Citadel_Hideout_XmasGlobeEarned_Temp"		"겨울 업데이트 기간 동안 {s:hideout_owner} 님이 획득한 기념품"
 		"Citadel_Hideout_VaultHint01"				"{g:citadel_binding:'AbilityMelee'}: 근거리 공격으로 영혼 수집"
 		"Citadel_Hideout_VaultHint02"				"{g:citadel_binding:'AbilityMelee'} 빛이 점멸하는 중 근거리 공격으로 보너스 획득, 강한 근거리 공격으로 더 많은 보너스 획득"
-		"Citadel_Hideout_HolidayChallenge" 		"크리스마스 챌린지 진척도를 보려면 {g:citadel_binding:'Interact'} 키를 누르세요"
 		"Citadel_Hideout_HeavyCrate"		"{g:citadel_binding:'AbilityMelee'} 키를 길게 눌러 강한 근거리 공격으로 부수기"
 
 		"citadel_keybind_hideout_use"					"은신처 오브젝트와 상호작용"
@@ -5935,7 +5921,6 @@
 		"Citadel_Subtitles_Message_IconAndName"		"<child id='SpeakerIcon' /><b>{s:subtitle_actor}</b>: {s:subtitle_text}"
 		"Citadel_Subtitles_Message_Icon"			"<child id='SpeakerIcon' />: {s:subtitle_text}"
 		"npc_newscaster"							"뉴스 진행자"
-		"npc_seasonal"								"뉴스 진행자"
 		"npc_shopkeeper"							"상인"
 		"npc_broker"								"브로커"
 		"npc_spirit_jar"							"영혼 단지"
@@ -6103,7 +6088,9 @@
 		"map_district_building_campus"			"캠퍼스"
 		"map_district_building_belltower"		"종탑"
 
-
+		// Halloween
+		"AbilityButtonHint_HalloweenTroll"		"트롤에게 사탕 주기 - 강한 근거리 공격"
+		"AbilityButtonHint_HalloweenCauldron"		"강한 근거리 공격으로 사탕 획득"
 	}
 }
 

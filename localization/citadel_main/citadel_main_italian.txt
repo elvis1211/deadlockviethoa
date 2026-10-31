@@ -1351,20 +1351,6 @@
 		"Citadel_Hud_KillFeedVehicle"								"Veicolo"
 		"Citadel_Hud_KillFeedWorld"									"Mondo"
 
-		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"			"{g:citadel_persona:account_id} ha ottenuto il tocco festivo per {s:hero_name}!"
-		"Citadel_Showcase_SeasonalAchievement2024"					"Dicembre 2024"
-
-		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"			"Decorazione di {s:hero_name} sbloccata da {g:citadel_persona:account_id}!"
-		"Citadel_Showcase_SeasonalAchievement2025"					"Dicembre 2025"
-
-		"Citadel_Hud_Toast_SeasonalKill"							"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span> ha effettuato"
-		"Citadel_Hud_Toast_SeasonalKill2"							"un'uccisione con la palla di neve!"
-
-		"Citadel_Event_Holiday_Challenge2025_Title"					"Sfida natalizia 2025"
-		"Citadel_Event_Holiday_Challenge2025_Desc"					"Vinci una partita con ogni eroe per ricevere una decorazione esclusiva per l'albero del tuo nascondiglio."
-		"Citadel_Event_Holiday_Challenge2025_Snowball"				"Potenzia il tuo oggetto attivo <span class=\"Emphasis\">Palla di neve</span> aggiungendo altre decorazioni al tuo albero."
-		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"Livello {i:item_level}/{i:item_max_level}"
-
 		"Citadel_Hud_Voting_Poster_Tooltip_Header"					"Scegli il tuo poster"
 		"Citadel_Hud_Voting_Poster_Tooltip_Selected"				"Selezionato"
 
@@ -2851,6 +2837,9 @@
 		"citadel_hint_activate_wall" "Premi {g:citadel_binding:'Attack'} per creare il muro in anticipo."
 		"citadel_hint_guided_arrow_boost" "Tieni premuto {g:citadel_binding:'Attack'} per aumentare la velocità delle frecce."
 		"citadel_hint_flying_strike_early_activate" "Premi {g:citadel_binding:'Attack'} per volare sul bersaglio in anticipo."
+
+		// Hud Hints 
+		"citadel_rejuvenator_hud_hint" "Tempo rimanente dei rianimatori attivi o alla ricomparsa del boss centrale se non ci sono rianimatori attivi."
 
 		//-----------------------------------------------------------------------------
 		// Breakable Prop modifiers
@@ -4434,7 +4423,6 @@
 		"menu_tphideout"							"Teletrasporto al nascondiglio"
 		"menu_shoparea"							    "L'atrio"
 		"menu_shoparea_sub"							"Campo d'addestramento"
-		"menu_seasonal_2025"						"Sfida natalizia"
 		"menu_new_violator"							"Novità"
 		
 		
@@ -5475,7 +5463,7 @@
 		"citadel_chatwheel_label_enemy_low_health"				"Critica"
 		"citadel_chatwheel_message_enemy_low_health"			"sta per morire"
 		"citadel_chatwheel_label_door_here"						"Porta"
-		"citadel_chatwheel_message_door_here"					"La porta è pronta"
+		"citadel_chatwheel_message_door_here"					"La porta è qui"
 		"citadel_chatwheel_label_sinners_here"					"Il Sinner's Sacrifice è qui."
 		"citadel_chatwheel_message_sinners_here"				"Il Sinner's Sacrifice è qui"
 		"citadel_chatwheel_label_loose_souls"					"Borsa di anime"
@@ -5842,10 +5830,8 @@
 		"Citadel_Hideout_News"		"Leggi tutto"
 		"Citadel_Hideout_News_Button"		"Premi {g:citadel_binding:'Interact'} per vedere le notizie"
 		"Citadel_Hideout_VoiceLines"		"Premi {g:citadel_binding:'Interact'} per ascoltare i dialoghi"
-		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Souvenir ottenuto da {s:hideout_owner} durante l'aggiornamento invernale"
 		"Citadel_Hideout_VaultHint01"				"{g:citadel_binding:'AbilityMelee'} attacco corpo a corpo per raccogliere anime"
 		"Citadel_Hideout_VaultHint02"				"{g:citadel_binding:'AbilityMelee'} attacco corpo a corpo mentre le luci lampeggiano per ottenere anime extra,<br>e gli attacchi pesanti ne conferiscono ancora di più"
-		"Citadel_Hideout_HolidayChallenge" 		"Premi {g:citadel_binding:'Interact'} per vedere i progressi della Sfida natalizia"
 		"Citadel_Hideout_HeavyCrate"		"Tieni premuto {g:citadel_binding:'AbilityMelee'} per rompere con un attacco corpo a corpo pesante"
 
 		"citadel_keybind_hideout_use"					"Interagisci con un oggetto nel nascondiglio"
@@ -5934,7 +5920,6 @@
 		"Citadel_Subtitles_Message_IconAndName"		"<child id='SpeakerIcon' /><b>{s:subtitle_actor}</b>: {s:subtitle_text}"
 		"Citadel_Subtitles_Message_Icon"			"<child id='SpeakerIcon' />: {s:subtitle_text}"
 		"npc_newscaster"							"Giornalista"
-		"npc_seasonal"								"Giornalista"
 		"npc_shopkeeper"							"Mercante delle curiosità"
 		"npc_broker"								"Rigattiere"
 		"npc_spirit_jar"							"Urna delle anime"
@@ -6102,7 +6087,9 @@
 		"map_district_building_campus"			"Campus"
 		"map_district_building_belltower"		"Campanile"
 
-
+		// Halloween
+		"AbilityButtonHint_HalloweenTroll"		"Dolcetto o scherzetto di troll: corpo a corpo pesante per distribuire dolci"
+		"AbilityButtonHint_HalloweenCauldron"		"Corpo a corpo pesante per ottenere caramelle"
 	}
 }
 

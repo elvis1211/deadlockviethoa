@@ -625,10 +625,7 @@
 
 		//Quicksilver Reload
 		"upgrade_quick_silver_desc"				"Skill terisimu akan terisi dayanya dari waktu ke waktu dengan {g:citadel_inline_attribute:'BonusSpiritDamage'}, {g:citadel_inline_attribute:'BonusFireRate'}, dan <span class=\"highlight\">isi ulang peluru</span> saat digunakan."
-
-		//Resonant Healing
-		"upgrade_resonant_healing_desc"			"<span class=\"highlight\">Menyembuhkan</span> dan mendapatkan bonus <span class=\"highlight\">Kecepatan Gerakan</span> untuk waktu singkat saat kamu menggunakan skill."
-		"HealingPerCast_Label"					"Penyembuhan saat Menggunakan Skill"
+"HealingPerCast_Label"					"Penyembuhan saat Menggunakan Skill"
 
 		"HealingPerCast_postvalue_label"					"Penyembuhan saat Menggunakan Skill"
 
@@ -744,9 +741,6 @@
 
 		//Debuff Remover | Dispel Magic
 		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Menghapus semua efek negatif non-ultimate</span> yang sedang diterapkan padamu. Jika ada efek yang dihapus, <span class=\"highlight\">sembuhkan diri sendiri</span> dan mendapatkan <span class=\"highlight\">bonus kecepatan gerakan</span>. <br><span class=\"diminish\">Tidak dapat digunakan saat terkena efek Stun atau Tidur.</span>"
-		"HealOnActivate_label"		"HP Dipulihkan Saat Aktif"
-		"HealOnActivate_postvalue_label"		"HP Dipulihkan Saat Aktif"
-
 		"damage_reduction_postfix"						"%"
 
 		//Decay
@@ -877,16 +871,11 @@
 
 		//Shadow Weave
 		"upgrade_cloaking_device_active_desc"		"Menjadi <span class=\"highlight\">Tersembunyi</span>. Kamu akan terlihat dengan cepat setiap kali menerima damage saat Tersembunyi."
-		"upgrade_cloaking_device_active_ambush_desc"	"<br>Menyerang atau menggunakan skill akan mengakhiri efek sembunyi dan memulai <span class=\"highlight\">penyergapan</span>, yang memberimu bonus <span class=\"highlight\">Tingkat Tembakan</span>, <span class=\"highlight\">Kekuatan Spirit</span> dan <span class=\"highlight\">Damage Jarak Dekat</span> untuk sementara."
 		"modifier_cloaking_device_active_stealth"		"Tenunan Bayangan - Sembunyi"
 		"modifier_cloaking_device_active_ambush"		"Tenunan Bayangan - Penyergapan"
 		"AmbushBonusTechPower_prefix"					"+"
 		"AmbushBonusTechPower_label"					"Kekuatan Spirit Penyergapan"
 		"AmbushBonusTechPower_postvalue_label"					"Kekuatan Spirit Penyergapan"
-		"AmbushBonusFireRate_prefix"					"+"
-		"AmbushBonusFireRate_label"					"Tingkat Tembakan Penyergapan"
-		"AmbushBonusFireRate_postvalue_label"					"Tingkat Tembakan Penyergapan"
-		"AmbushBonusFireRate_postfix"					"%"
 		"AmbushBonusMeleeDamage_label"					"Damage Jarak Dekat Penyergapan"
 		"AmbushBonusMeleeDamage_postvalue_label"		"Damage Jarak Dekat Penyergapan"
 		"AmbushBonusMeleeDamage_postfix"				"%"
@@ -1005,18 +994,6 @@
 		"upgrade_shadow_strike_desc"			"<span class=\"highlight\">Menggunakan Stamina</span> akan membuatmu <span class=\"highlight\">Tak Terlihat</span> tanpa jangkauan deteksi. Saat tak terlihat, <span class=\"highlight\">serangan jarak dekat</span> akan mencuri <span class=\"highlight\">pertahanan peluru dan pertahanan spirit</span> dari target dan menimbulkan <span class=\"highlight\">damage seiring waktu</span>."
 		"upgrade_omnicharge_pendant_desc"		"Mengisi skill non-ultimate aktif apa pun dengan <span class=\"highlight\">Pengisian Bonus Skill</span>. Skill yang sudah terisi menerima bonus pengisian."
 		"upgrade_omnicharge_pendant_charges"	"Bonus Pengisian Daya"
-
-		//-----------------------------------------------------------------------------
-		// Cosmetic
-		//----------------------------------------------------------------------------- 
-		"cosmetic_ability_snowball"		"Bola Salju"
-		"cosmetic_ability_snowball_desc"		"Lemparkan bola salju ke arah rekan dan musuhmu. Jarak dan properti lainnya meningkat seiring progres <span class=\"highlight\">Tantangan Musim Liburan 2025</span> milikmu. <br><br><span class=\"diminish\">Melemparkan bola salju ke rekan tidak akan menyebabkan damage dan cooldown bola salju akan tereset.</span>"
-		"SnowballSpeed_label"			"Kecepatan Lemparan"
-		"SnowballSpeed_postvalue_label"		"Kecepatan"
-		"SnowballSpeed_postfix"			" m/dtk."
-		"SnowballCount_label"			"Bola Salju Dilempar"
-		"SnowballCount_postvalue_label"		"Proyektil"
-
-		"cosmetic_item_voting_poster"		"Memasang Poster"
+"cosmetic_item_voting_poster"		"Memasang Poster"
 	}
 }

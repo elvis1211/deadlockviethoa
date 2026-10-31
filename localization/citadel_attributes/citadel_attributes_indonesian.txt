@@ -45,7 +45,7 @@
 		"Citadel_StatusEffectInvisible"			"Tak Terlihat"
 		"Citadel_StatusEffectPetrify"			"Membatu"
 		"Citadel_StatusEffectCustomDebuff"		"Debuff"
-		//"Citadel_StatusEffectStacks"			"Stacks "
+		//"Citadel_StatusEffectStacks"			"Stacks"
 		"Citadel_StatusEffectInfiniteClip"		"Amunisi Tanpa Batas"
 		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
 		//"Citadel_StatusEffectBuff"				"Buff"
@@ -75,12 +75,7 @@
 		//"modifier_pullaura" 					"Pulled"
 		//"modifier_healaura" 					"Healing"
 		"modifier_citadel_root"					"Lumpuh"
-		//"modifier_citadel_charging" 			"Charging"
-		//"modifier_invis" 						"Stealthed"
-		//"modifier_invis_start_delay" 			"Entering Stealth"
-		//"modifier_invis_fading"					"Fading"
-		//"modifier_camouflage_invis"				"Camouflaged"
-		"modifier_citadel_silenced"				"Dibungkam"
+"modifier_citadel_silenced"				"Dibungkam"
 		"silencer_immune"						"Kebal Peredam"
 		//"modifier_citadel_muted"				"Muted"
 		"modifier_citadel_disarmed"				"Senjata Dilucuti"
@@ -1845,7 +1840,6 @@
 		"CurrentBonus_label"							"Bonus Saat Ini:"
 		"CurrentBonus_postvalue_label"					"Bonus Saat Ini:"
 
-
 		//"TimeToMaxStacks_label"							"Time To Max Stacks"
 		"TimeToMaxStacks_postfix"						" dtk."
 
@@ -3078,7 +3072,6 @@
 		"GravityScale_label"					"Skala Gravitasi"
 		"GravityScale_postvalue_label"			"Skala Gravitasi"
 		"GravityScale_postfix"					"%"
-
 		"AirBonusDamageGiven_label"					"Damage di Udara"
 		"AirBonusDamageGiven_postvalue_label"		"Damage di Udara"
 		"AirBonusDamageGiven_prefix"				"{s:sign}"

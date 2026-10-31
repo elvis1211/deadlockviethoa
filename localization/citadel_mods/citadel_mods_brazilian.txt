@@ -627,7 +627,7 @@
 		"upgrade_quick_silver_desc"				"Fortalece a habilidade infundida ao longo do tempo, concedendo {g:citadel_inline_attribute:'BonusSpiritDamage'}, {g:citadel_inline_attribute:'BonusFireRate'} e <span class=\"highlight\">recarregamento de balas</span> quando usada."
 
 		//Resonant Healing
-		"upgrade_resonant_healing_desc"			"<span class=\"highlight\">Cura</span> e concede <span class=\"highlight\">velocidade de movimento</span> adicional brevemente ao usar uma habilidade."
+		"upgrade_resonant_healing_desc"			"Enquanto estiver em combate, <span class=\"highlight\">cura</span> e concede <span class=\"highlight\">velocidade de movimento</span> adicional brevemente ao usar uma habilidade."
 		"HealingPerCast_Label"					"Cura ao usar hab."
 
 		"HealingPerCast_postvalue_label"					"de cura ao usar hab."
@@ -744,8 +744,8 @@
 
 		//Debuff Remover | Dispel Magic
 		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Remove todos os malefícios que não sejam de Supremas</span> atualmente aplicados a você. Caso algum efeito tenha sido removido, <span class=\"highlight\">cura você</span> e concede <span class=\"highlight\">aceleração de movimento</span>. <br><span class=\"diminish\">Não pode ser usado enquanto estiver atordoado ou adormecido.</span>"
-		"HealOnActivate_label"		"Vida curada ao ativar"
-		"HealOnActivate_postvalue_label"		"de vida curada ao ativar"
+		"HealOnActivate_label"		"Cura"
+		"HealOnActivate_postvalue_label"		"de cura"
 
 		"damage_reduction_postfix"						"%"
 
@@ -877,22 +877,25 @@
 
 		//Shadow Weave
 		"upgrade_cloaking_device_active_desc"		"Torna-se <span class=\"highlight\">furtivo</span>. Sempre que sofrer dano durante a furtividade, você é revelado brevemente."
-		"upgrade_cloaking_device_active_ambush_desc"	"<br>Atacar ou usar uma habilidade interromperá a furtividade e iniciará uma <span class=\"highlight\">emboscada</span>, aumentando temporariamente a sua <span class=\"highlight\">taxa de disparo</span>, bem como o seu <span class=\"highlight\">poder espiritual</span> e <span class=\"highlight\">dano de golpes</span>."
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>Atacar ou usar uma habilidade interromperá a furtividade e iniciará uma <span class=\"highlight\">emboscada</span>, aumentando temporariamente o seu <span class=\"highlight\">dano bélico</span> e o <span class=\"highlight\">poder espiritual</span>."
 		"modifier_cloaking_device_active_stealth"		"Trama Sombria — Furtivo"
 		"modifier_cloaking_device_active_ambush"		"Trama Sombria — Emboscada"
 		"AmbushBonusTechPower_prefix"					"+"
 		"AmbushBonusTechPower_label"					"Poder espiritual"
 		"AmbushBonusTechPower_postvalue_label"					"de poder espiritual"
-		"AmbushBonusFireRate_prefix"					"+"
-		"AmbushBonusFireRate_label"					"Taxa de disparo"
-		"AmbushBonusFireRate_postvalue_label"					"de taxa de disparo"
-		"AmbushBonusFireRate_postfix"					"%"
+		"AmbushBonusWeaponDamage_prefix"					"+"
+		"AmbushBonusWeaponDamage_label"					"Dano bélico"
+		"AmbushBonusWeaponDamage_postvalue_label"					"de dano bélico"
+		"AmbushBonusWeaponDamage_postfix"					"%"
 		"AmbushBonusMeleeDamage_label"					"Dano de golpes"
 		"AmbushBonusMeleeDamage_postvalue_label"		"de dano de golpes"
 		"AmbushBonusMeleeDamage_postfix"				"%"
 		"AmbushDuration_label"						"Emboscada"
 		"AmbushDuration_postvalue_label"						"de emboscada"
 		"AmbushDuration_postfix"						"s"
+		"AmbushBuildUpDuration_label"				"Tempo até emboscada máx."
+		"AmbushBuildUpDuration_postvalue_label"		"até emboscada máx."
+		"AmbushBuildUpDuration_postfix"				"s"
 		"StealthDuration_label"						"Furtividade"
 		"StealthDuration_postvalue_label"						"de furtividade"
 		"StealthDuration_postfix"						"s"
@@ -1009,13 +1012,10 @@
 		//-----------------------------------------------------------------------------
 		// Cosmetic
 		//----------------------------------------------------------------------------- 
-		"cosmetic_ability_snowball"		"Bola de Neve"
-		"cosmetic_ability_snowball_desc"		"Arremesse bolas de neve nos seus amigos e inimigos. A distância e outras propriedades melhoram à medida que você avança no <span class=\"highlight\">Desafio Festivo de 2025</span>.<br><br><span class=\"diminish\">Arremessar uma bola de neve em um aliado não causará dano e recarregará a habilidade imediatamente.</span>"
-		"SnowballSpeed_label"			"Veloc. do arremesso"
-		"SnowballSpeed_postvalue_label"		"de velocidade"
-		"SnowballSpeed_postfix"			" m/s"
-		"SnowballCount_label"			"Bolas arremessadas"
-		"SnowballCount_postvalue_label"		"projéteis"
+		"HealPerMinute_label"			"Aumento de cura por minuto"
+		"TechPowerPerMinute_label"		"Aumento de poder espiritual por minuto"
+		"BonusFireRatePerMinute_label"		"Aumento de taxa de disparo por minuto"
+		"BonusMoveSpeedPerMinute_label"		"Aumento de velocidade de movimento por minuto"
 
 		"cosmetic_item_voting_poster"		"Colar pôster"
 	}

@@ -1,0 +1,37 @@
+﻿"lang"
+{
+	"Language"		"russian"
+	"Tokens"
+	{
+		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"		"Игрок {g:citadel_persona:account_id} получил праздничный подарок для героя {s:hero_name}!"
+		"Citadel_Showcase_SeasonalAchievement2024"		"Декабрь 2024 года"
+		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"		"Игрок {g:citadel_persona:account_id} разблокировал ёлочное украшение для героя {s:hero_name}!"
+		"Citadel_Showcase_SeasonalAchievement2025"		"Декабрь 2025 года"
+		"Citadel_Hud_Toast_SeasonalKill"		"Игрок <span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span> совершает"
+		"Citadel_Hud_Toast_SeasonalKill2"		"убийство снежком!"
+		"Citadel_Event_Holiday_Challenge2025_Title"		"Праздничное испытание 2025 года"
+		"Citadel_Event_Holiday_Challenge2025_Desc"		"Побеждайте в матчах, играя за разных героев, чтобы получать уникальные украшения для ёлки в убежище."
+		"Citadel_Event_Holiday_Challenge2025_Snowball"		"Улучшайте активный предмет <span class=\"Emphasis\">«Снежок»</span>, добавляя больше украшений на ёлку."
+		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"Уровень {i:item_level}/{i:item_max_level}"
+		"menu_seasonal_2025"		"Праздничное испытание"
+		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Сувенир игрока {s:hideout_owner}, заработанный во время зимнего обновления"
+		"Citadel_Hideout_HolidayChallenge"		"Нажмите {g:citadel_binding:'Interact'}, чтобы посмотреть прогресс праздничного испытания"
+		"halloween_candy_pickup_label"		"Конфеты"
+		"modifier_halloween_candy_sugar_rush"		"Сахарная лихорадка"
+		"Citadel_Hideout_HalloweenCauldron"		"Котёл с конфетами: удерживайте {g:citadel_binding:'AbilityMelee'}, чтобы разбить его и получить конфеты"
+		"npc_seasonal"		"Газетчик"
+
+		"cosmetic_ability_snowball"		"Снежок"
+		"cosmetic_ability_snowball_desc"		"Забрасывайте снежками друзей и врагов. Дальность и другие параметры умения увеличиваются по мере продвижения в <span class=\"highlight\">праздничном испытании 2025 года</span>.<br><br><span class=\"diminish\">При попадании в союзников «Снежок» не наносит урон, а его перезарядка сбрасывается.</span>"
+		"SnowballSpeed_label"		"Скорость броска"
+		"SnowballSpeed_postvalue_label"		"Скорость"
+		"SnowballSpeed_postfix"		" м/с"
+		"SnowballCount_label"		"Брошено снежков"
+		"SnowballCount_postvalue_label"		"брошено"
+		"seasonal_ability_eat_halloween_candy"		"Поедание конфет"
+		"seasonal_ability_eat_halloween_candy_desc"		"Съешьте одну конфету, чтобы исцелиться, восстановить выносливость и получить положительный эффект <span class=\"highlight\">«Сахарная лихорадка»</span>.<br><br><span class=\"diminish\">Исцеление и бонусы «Сахарной лихорадки» усиливаются по ходу матча.</span>"
+
+		"HalloweenCandy_label"		"Эффекты:"
+		"HalloweenCandy_postvalue_label"		"Эффекты:"
+	}
+}

@@ -627,7 +627,7 @@
 		"upgrade_quick_silver_desc"				"Усиленное умение постепенно заряжается, благодаря чему при использовании наносит {g:citadel_inline_attribute:'BonusSpiritDamage'}, даёт повышенную {g:citadel_inline_attribute:'FireRate'} и <span class=\"highlight\">перезаряжает оружие</span>."
 
 		//Resonant Healing
-		"upgrade_resonant_healing_desc"			"Вы получаете <span class=\"highlight\">лечение</span> и кратковременный бонус к <span class=\"highlight\">скорости передвижения</span> при применении умения."
+		"upgrade_resonant_healing_desc"			"В бою вы при применении умения вы получаете <span class=\"highlight\">лечение</span> и кратковременный бонус к <span class=\"highlight\">скорости передвижения</span>."
 		"HealingPerCast_Label"					"Лечение при использовании умения"
 
 		"HealingPerCast_postvalue_label"					"Лечение при использовании умения"
@@ -744,8 +744,8 @@
 
 		//Debuff Remover | Dispel Magic
 		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Снимает с вас все отрицательные эффекты, кроме наложенных ультами.</span> Если был снят хоть один эффект, вы <span class=\"highlight\">лечите себя</span> и получаете <span class=\"highlight\">бонус к скорости передвижения</span>. <br><span class=\"diminish\">Нельзя применять в состоянии оглушения и сна.</span>"
-		"HealOnActivate_label"		"Восст. здоровья при активации"
-		"HealOnActivate_postvalue_label"		"Восст. здоровья при активации"
+		"HealOnActivate_label"		"Лечение"
+		"HealOnActivate_postvalue_label"		"лечения"
 
 		"damage_reduction_postfix"						"%"
 
@@ -807,13 +807,13 @@
 		"upgrade_magic_shield_desc"		"Если у вас <span class=\"highlight\">более {s:LifeThreshold}% здоровья</span>, вам даётся дополнительная <span class=\"highlight\">{g:citadel_inline_attribute:'Spirit'}</span> и <span class=\"highlight\">сокращённое время перезарядки умений</span>."
 		
 		// "upgrade_weapon_shielding"						"Weapon Shielding"
-		"upgrade_weapon_shielding_desc"			"Даёт вам <span class=\"highlight\">барьер</span> каждый раз, когда вражеские герои наносят вам значительный {g:citadel_inline_attribute:'WeaponDamage'} за короткий интервал времени."
+		"upgrade_weapon_shielding_desc"			"Даёт вам <span class=\"highlight\">барьер</span>, когда вражеские герои наносят вам значительный {g:citadel_inline_attribute:'WeaponDamage'} за короткий интервал времени."
 		"DamageWindow_label"								"Интервал"
 		"DamageWindow_postvalue_label"								"Интервал"
 		"DamageWindow_postfix"								" сек."
 		
 		// "upgrade_spirit_bubble"							"Spirit Bubble"
-		"upgrade_spirit_bubble_desc"			"Даёт вам <span class=\"highlight\">барьер</span> каждый раз, когда вражеские герои наносят вам значительный {g:citadel_inline_attribute:'SpiritDamage'} за короткий интервал времени."
+		"upgrade_spirit_bubble_desc"			"Даёт вам <span class=\"highlight\">барьер</span>, когда вражеские герои наносят вам значительный {g:citadel_inline_attribute:'SpiritDamage'} за короткий интервал времени."
 
 		// "upgrade_grit"							"Grit"
 		"upgrade_grit_desc"			"Вы ненадолго получаете <span class=\"highlight\">барьер</span>."
@@ -877,22 +877,25 @@
 
 		//Shadow Weave
 		"upgrade_cloaking_device_active_desc"		"Даёт <span class=\"highlight\">скрытность</span>. Получение урона ненадолго раскроет вас."
-		"upgrade_cloaking_device_active_ambush_desc"	"<br>Если вы атакуете или используете умение, ваша скрытность прекращается и начинается <span class=\"highlight\">засада</span>, которая временно увеличивает вашу <span class=\"highlight\">скорострельность</span>, <span class=\"highlight\">спиритическую мощь</span> и <span class=\"highlight\">урон в ближнем бою</span>."
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>Если вы атакуете или используете умение, ваша скрытность прекращается и начинается <span class=\"highlight\">засада</span>, которая временно увеличивает ваш <span class=\"highlight\">урон от оружия</span> и <span class=\"highlight\">спиритическую мощь</span>."
 		"modifier_cloaking_device_active_stealth"		"Сплетение теней: скрытность"
 		"modifier_cloaking_device_active_ambush"		"Сплетение теней: засада"
 		"AmbushBonusTechPower_prefix"					"+"
 		"AmbushBonusTechPower_label"					"Спиритическая мощь в засаде"
 		"AmbushBonusTechPower_postvalue_label"					"ед. к спиритической мощи в засаде"
-		"AmbushBonusFireRate_prefix"					"+"
-		"AmbushBonusFireRate_label"					"Скорострельность в засаде"
-		"AmbushBonusFireRate_postvalue_label"					"к скорострельности в засаде"
-		"AmbushBonusFireRate_postfix"					"%"
+		"AmbushBonusWeaponDamage_prefix"					"+"
+		"AmbushBonusWeaponDamage_label"					"Урон от оружия в засаде"
+		"AmbushBonusWeaponDamage_postvalue_label"					"к урону от оружия в засаде"
+		"AmbushBonusWeaponDamage_postfix"					"%"
 		"AmbushBonusMeleeDamage_label"					"Урон в ближнем бою от засады"
 		"AmbushBonusMeleeDamage_postvalue_label"		"к урону в ближнем бою от засады"
 		"AmbushBonusMeleeDamage_postfix"				"%"
 		"AmbushDuration_label"						"Длительность засады"
 		"AmbushDuration_postvalue_label"						"Длительность засады"
 		"AmbushDuration_postfix"						" сек."
+		"AmbushBuildUpDuration_label"				"Время до макс. бонуса засады"
+		"AmbushBuildUpDuration_postvalue_label"		"до макс. бонуса засады"
+		"AmbushBuildUpDuration_postfix"				" сек."
 		"StealthDuration_label"						"Длительность скрытности"
 		"StealthDuration_postvalue_label"						"Длительность скрытности"
 		"StealthDuration_postfix"						" сек."
@@ -938,13 +941,13 @@
 		"upgrade_aprounds_desc" "Ваши пули получают шанс стать неотвратимыми — такие <span class=\"highlight\">прошивают</span> врагов и <span class=\"highlight\">игнорируют их сопротивляемость пулям</span>."
 
 		//Deflecting Armor
-		"upgrade_deflecting_armor_desc" "Даёт шанс либо отразить летящие в вас пули, нейтрализовав весь {g:citadel_inline_attribute:'WeaponDamage'}, либо предотвратить все <span class=\"highlight\">эффекты, накладываемые на вас пулями при попадании</span>."
-		"DeflectionPercent_label" "Вероятность отражения"
-		"DeflectionPercent_postvalue_label" "Вероятность отражения"
+		"upgrade_deflecting_armor_desc" "Даёт шанс нейтрализовать либо наносимый пулями {g:citadel_inline_attribute:'WeaponDamage'}, либо <span class=\"highlight\">эффекты, накладываемые на вас пулями при попадании</span>."
+		"DeflectionPercent_label" "Шанс нейтрализации урона"
+		"DeflectionPercent_postvalue_label" "Шанс нейтрализации урона"
 		"DeflectionPercent_postfix" "%"	
 		
-		"BulletProcDeflectionPercent_label" "Вероятность предотвращения при попадании"
-		"BulletProcDeflectionPercent_postvalue_label" "Вероятность предотвращения при попадании"
+		"BulletProcDeflectionPercent_label" "Шанс нейтрализации эффектов"
+		"BulletProcDeflectionPercent_postvalue_label" "Шанс нейтрализации эффектов"
 		"BulletProcDeflectionPercent_postfix" "%"
 
 		// Shadow Step Active
@@ -965,7 +968,7 @@
 		"upgrade_bulletshredimbue_desc" "Выбранное умение получает повышенную <span class=\"highlight\">дальность</span>. Нанесение урона этим умением увеличивает <span class=\"highlight\">урон от оружия</span> за <span class=\"highlight\">каждого задетого героя</span>. Слабее действует на существ, не являющихся героями."
 
 		// Recharging Bullets
-		"upgrade_rechargingbullets_desc" "При нанесении значительного <panel class=\"InlineAttributeIcon WeaponDamage\" replacechar=\"_\"><span class=\"InlineAttributeName WeaponDamage\">урона от оружия</span> у вас восстанавливается заряд <span class=\"highlight\">у всех умений с зарядами</span>."
+		"upgrade_rechargingbullets_desc" "Нанеся значительный {g:citadel_inline_attribute:'WeaponDamage'}, вы восстанавливаете заряд <span class=\"highlight\">у каждого умения с зарядами</span>."
 		"CooldownReductionOnProc_postvalue_label" "Сокр. перезарядки умений"
 		"CooldownReductionOnProc_label" "Сокр. перезарядки умений"
 		"CooldownReductionOnProc_postfix" " сек."
@@ -1009,13 +1012,10 @@
 		//-----------------------------------------------------------------------------
 		// Cosmetic
 		//----------------------------------------------------------------------------- 
-		"cosmetic_ability_snowball"		"Снежок"
-		"cosmetic_ability_snowball_desc"		"Забрасывайте снежками друзей и врагов. Дальность и другие параметры умения увеличиваются по мере продвижения в <span class=\"highlight\">праздничном испытании 2025 года</span>.<br><br><span class=\"diminish\">При попадании в союзников «Снежок» не наносит урон, а его перезарядка сбрасывается.</span>"
-		"SnowballSpeed_label"			"Скорость броска"
-		"SnowballSpeed_postvalue_label"		"Скорость"
-		"SnowballSpeed_postfix"			" м/с"
-		"SnowballCount_label"			"Брошено снежков"
-		"SnowballCount_postvalue_label"		"Количество"
+		"HealPerMinute_label"			"Прирост лечения в минуту"
+		"TechPowerPerMinute_label"		"Прирост спиритической мощи в минуту"
+		"BonusFireRatePerMinute_label"		"Прирост скорострельности в минуту"
+		"BonusMoveSpeedPerMinute_label"		"Прирост скорости передвижения в минуту"
 
 		"cosmetic_item_voting_poster"		"Разместить плакат"
 	}

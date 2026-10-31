@@ -1356,20 +1356,6 @@
 		"Citadel_Hud_KillFeedVehicle"								"Транспорт"
 		"Citadel_Hud_KillFeedWorld"									"Світ"
 
-		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"			"Користувач {g:citadel_persona:account_id} отримав святковий подарунок для героя {s:hero_name}!"
-		"Citadel_Showcase_SeasonalAchievement2024"					"Грудень 2024 року"
-
-		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"			"Гравець {g:citadel_persona:account_id} розблокував прикрасу для {s:hero_name}!"
-		"Citadel_Showcase_SeasonalAchievement2025"					"Грудень 2025 року"
-
-		"Citadel_Hud_Toast_SeasonalKill"							"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span>: зараховано"
-		"Citadel_Hud_Toast_SeasonalKill2"							"убив сніжкою!"
-
-		"Citadel_Event_Holiday_Challenge2025_Title"					"Святкове випробування 2025 року"
-		"Citadel_Event_Holiday_Challenge2025_Desc"					"Виграйте матч з кожним героєм, щоб отримати унікальну прикрасу для своєї ялинки в сховку."
-		"Citadel_Event_Holiday_Challenge2025_Snowball"				"Покращуйте свою <span class=\"Emphasis\">сніжку</span>, вішаючи більше прикрас на ялинку."
-		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"Рівень {i:item_level} / {i:item_max_level}"
-
 		"Citadel_Hud_Voting_Poster_Tooltip_Header"					"Виберіть плакат"
 		"Citadel_Hud_Voting_Poster_Tooltip_Selected"				"Вибрано"
 
@@ -2861,8 +2847,7 @@
 		"citadel_hint_activate_wall" "Натисніть {g:citadel_binding:'Attack'}, щоби поставити стіну раніше."
 		"citadel_hint_guided_arrow_boost" "Утримуйте {g:citadel_binding:'Attack'}, щоби збільшити швидкість стріли."
 		"citadel_hint_flying_strike_early_activate" "Натисніть {g:citadel_binding:'Attack'}, щоби полетіти до цілі раніше."
-
-		//-----------------------------------------------------------------------------
+//-----------------------------------------------------------------------------
 		// Breakable Prop modifiers
 		//-----------------------------------------------------------------------------
 		"fire_rate_pickup/small_fire_rate"				"Збільшена швидкострільність"
@@ -4453,7 +4438,6 @@
 		"menu_tphideout"							"Телепортуватися до сховку"
 		"menu_shoparea"							    "Атрій"
 		"menu_shoparea_sub"							"Тренувальна зона"
-		"menu_seasonal_2025"						"Святкове випробування"
 		"menu_new_violator"							"Нове"
 		
 		
@@ -5866,10 +5850,8 @@
 		"Citadel_Hideout_News"		"Вся інформація"
 		"Citadel_Hideout_News_Button"		"Натисніть {g:citadel_binding:'Interact'}, щоби переглянути новини."
 		"Citadel_Hideout_VoiceLines"		"Натисніть {g:citadel_binding:'Interact'}, щоб прослухати репліки"
-		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Сувеніри, отримані {s:hideout_owner} під час зимового оновлення."
 		"Citadel_Hideout_VaultHint01"				"{g:citadel_binding:'AbilityMelee'} Ближній удар, щоби зібрати душі."
 		"Citadel_Hideout_VaultHint02"				"{g:citadel_binding:'AbilityMelee'} Ближній удар під час блимання для отримання посилень, важкий ближній удар — для ще більших посилень."
-		"Citadel_Hideout_HolidayChallenge" 		"Натисніть {g:citadel_binding:'Interact'}, щоби переглянути поступ у святковому випробуванні."
 		"Citadel_Hideout_HeavyCrate"		"Утримуйте {g:citadel_binding:'AbilityMelee'}, щоб зламати важким ближнім ударом"
 
 		"citadel_keybind_hideout_use"					"Взаємодія з об’єктом у сховку"
@@ -5958,7 +5940,6 @@
 		"Citadel_Subtitles_Message_IconAndName"		"<child id='SpeakerIcon' /><b>{s:subtitle_actor}</b>: {s:subtitle_text}"
 		"Citadel_Subtitles_Message_Icon"			"<child id='SpeakerIcon' />: {s:subtitle_text}"
 		"npc_newscaster"							"Газетяр"
-		"npc_seasonal"								"Газетяр"
 		"npc_shopkeeper"							"Торговець дивовижами"
 		"npc_broker"								"Ділок"
 		"npc_spirit_jar"							"Урна з душею"
@@ -6125,8 +6106,6 @@
 		"map_district_building_brownstones"		"Брунатні камʼяниці"
 		"map_district_building_campus"			"Кампус"
 		"map_district_building_belltower"		"Дзвіниця"
-
-
-	}
+}
 }
 

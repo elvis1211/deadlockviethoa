@@ -627,7 +627,7 @@
 		"upgrade_quick_silver_desc"				"สกิลที่ผสานของคุณจะสะสมพลังอย่างต่อเนื่องทำให้มี{g:citadel_inline_attribute:'BonusSpiritDamage'} {g:citadel_inline_attribute:'BonusFireRate'} และ<span class=\"highlight\">เติมกระสุน</span>เมื่อใช้"
 
 		//Resonant Healing
-		"upgrade_resonant_healing_desc"			"<span class=\"highlight\">รักษา</span>พลังชีวิตและเพิ่ม<span class=\"highlight\">ความเร็ว​การ​เคลื่อนที่</span>เป็นเวลาสั้น ๆ เมื่อคุณร่ายสกิล"
+		"upgrade_resonant_healing_desc"			"ขณะอยู่ในการต่อสู้ <span class=\"highlight\">รักษา</span>พลังชีวิตและเพิ่ม<span class=\"highlight\">ความเร็ว​การ​เคลื่อนที่</span>เป็นเวลาสั้น ๆ เมื่อคุณร่ายสกิล"
 		"HealingPerCast_Label"					"รักษาเมื่อร่ายสกิล"
 
 		"HealingPerCast_postvalue_label"					"รักษาเมื่อร่ายสกิล"
@@ -744,8 +744,8 @@
 
 		//Debuff Remover | Dispel Magic
 		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">ลบล้างดีบัฟที่ไม่ได้มาจากสกิลอัลติเมททั้งหมด</span>ที่กำลังส่งผลกับคุณ หากมีการลบล้างดีบัฟคุณจะ<span class=\"highlight\">รักษาตัวคุณ</span>และ<span class=\"highlight\">เพิ่มความเร็ว​การ​เคลื่อน​ที่</span>​<br><span class=\"diminish\">ไม่สามารถใช้ได้ขณะที่ถูกสตันหรือถูกทำให้หลับ</span>"
-		"HealOnActivate_label"		"รักษาพลังชีวิตเมื่อกดใช้"
-		"HealOnActivate_postvalue_label"		"รักษาพลังชีวิตเมื่อกดใช้"
+		"HealOnActivate_label"		"จำนวนการรักษา"
+		"HealOnActivate_postvalue_label"		"จำนวนการรักษา"
 
 		"damage_reduction_postfix"						"%"
 
@@ -877,22 +877,25 @@
 
 		//Shadow Weave
 		"upgrade_cloaking_device_active_desc"		"เข้าสู่สถานะ<span class=\"highlight\">พรางตัว</span> หากคุณได้รับความเสียหายขณะอยู่ใน​สถานะพรางตัว​คุณจะถูก​เปิดเผยตัว​ชั่วคราว"
-		"upgrade_cloaking_device_active_ambush_desc"	"<br>การโจมตีหรือใช้สกิลจะทำให้การพรางตัวของคุณสิ้นสุดลง​และเริ่มการ<span class=\"highlight\">ลอบโจมตี</span> มอบ<span class=\"highlight\">อัตรายิง</span>, <span class=\"highlight\">พลังวิญญาณ</span> และ<span class=\"highlight\">ความเสียหาย​ประชิด</span>เพิ่มเติมชั่วคราว"
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>การโจมตีหรือใช้สกิลจะทำให้การพรางตัวของคุณสิ้นสุดลงและเริ่มการ<span class=\"highlight\">ลอบโจมตี</span> มอบ<span class=\"highlight\">ความเสียหายอาวุธ</span>และ<span class=\"highlight\">พลังวิญญาณ</span>เพิ่มเติมชั่วคราว"
 		"modifier_cloaking_device_active_stealth"		"​แชโดว์​วีฟ​ - พรางตัว"
 		"modifier_cloaking_device_active_ambush"		"​แชโดว์​วีฟ​ - ลอบโจมตี"
 		"AmbushBonusTechPower_prefix"					"+"
 		"AmbushBonusTechPower_label"					"พลังวิญญาณลอบโจมตี"
 		"AmbushBonusTechPower_postvalue_label"					"พลังวิญญาณลอบโจมตี"
-		"AmbushBonusFireRate_prefix"					"+"
-		"AmbushBonusFireRate_label"					"อัตรายิงลอบโจมตี"
-		"AmbushBonusFireRate_postvalue_label"					"อัตรายิงลอบโจมตี"
-		"AmbushBonusFireRate_postfix"					"%"
+		"AmbushBonusWeaponDamage_prefix"					"+"
+		"AmbushBonusWeaponDamage_label"					"ความเสียหายอาวุธจากการลอบโจมตี"
+		"AmbushBonusWeaponDamage_postvalue_label"					"ความเสียหายอาวุธจากการลอบโจมตี"
+		"AmbushBonusWeaponDamage_postfix"					"%"
 		"AmbushBonusMeleeDamage_label"					"ความเสียหาย​ประชิดจากการลอบโจมตี"
 		"AmbushBonusMeleeDamage_postvalue_label"		"ความเสียหาย​ประชิดจากการลอบโจมตี"
 		"AmbushBonusMeleeDamage_postfix"				"%"
 		"AmbushDuration_label"						"ระยะเวลาลอบโจมตี"
 		"AmbushDuration_postvalue_label"						"ระยะเวลาลอบโจมตี"
 		"AmbushDuration_postfix"						"วิ"
+		"AmbushBuildUpDuration_label"				"เวลาสะสมลอบโจมตีจนเต็ม"
+		"AmbushBuildUpDuration_postvalue_label"		"เวลาสะสมลอบโจมตีจนเต็ม"
+		"AmbushBuildUpDuration_postfix"				"วิ"
 		"StealthDuration_label"						"ระยะเวลาพรางตัว"
 		"StealthDuration_postvalue_label"						"ระยะเวลาพรางตัว"
 		"StealthDuration_postfix"						"วิ"
@@ -965,7 +968,7 @@
 		"upgrade_bulletshredimbue_desc" "ผสานสกิลให้มี<span class=\"highlight\">ระยะ</span>เพิ่มขึ้น เมื่อใช้สกิลดังกล่าวสร้างความเสียหาย จะเพิ่ม<span class=\"highlight\">ความเสียหายอาวุธ</span>ของคุณตาม<span class=\"highlight\">จำนวนฮีโร่แตกต่างกันที่โดน</span> ส่งผลลดลงแก่ยูนิตที่ไม่ใช่ฮีโร่"
 
 		// Recharging Bullets
-		"upgrade_rechargingbullets_desc" "เมื่อสร้าง {g:citadel_inline_attribute:'WeaponDamage'} รุนแรงจะเติมชาร์จให้กับ<span class=\"highlight\">สกิลที่เป็นชาร์จของคุณแต่ละสกิล</span>"
+		"upgrade_rechargingbullets_desc" "เมื่อสร้าง {g:citadel_inline_attribute:'WeaponDamage'} รุนแรงจะเติมชาร์จให้กับ<span class=\"highlight\">สกิล​ที่มีชาร์จ​ของคุณทุกสกิล</span>"
 		"CooldownReductionOnProc_postvalue_label" "ลดคูลดาวน์"
 		"CooldownReductionOnProc_label" "ลดคูลดาวน์"
 		"CooldownReductionOnProc_postfix" "วิ"
@@ -983,7 +986,7 @@
 		"upgrade_eternal_gift_desc"			"ได้รับบัฟเพิ่มค่าสถานะสุ่มถาวรเป็นระยะ"
 		"upgrade_eternal_gift_respawn_desc"		"ลดระยะเวลาการเกิดใหม่หลังการตายครั้งต่อไปของคุณ"
 		"upgrade_patrons_blessing_desc"			"มอบพลังวิญญาณออร่าอันทรงพลังให้กับตัวคุณเอง​และ​เพื่อนร่วมทีม โดยผลกระทบต่อเพื่อนร่วมทีมจะลดลง"
-		"upgrade_patrons_blessing_proc_desc"	"การสร้าง<span class=\"highlight\">ความเสียหาย</span>รุนแรงต่อฮีโร่ศัตรูภายใน {s:DamageThresholdDuration} วินาทีทำให้คุณรักษาตัวคุณและเพื่อนร่วมทีมใน​บริเวณ​ใกล้เคียง​"
+		"upgrade_patrons_blessing_proc_desc"	"การสร้าง<span class=\"highlight\">ความเสียหาย</span>รุนแรงต่อฮีโร่ศัตรูภายใน {s:DamageThresholdDuration}วิ ทำให้คุณรักษาตัวคุณและเพื่อนร่วมทีมในบริเวณใกล้เคียง"
 
 		"AllyPercentage_postvalue_label" "เปอร์เซ็นต์​เพื่อนร่วมทีม"
 		"AllyPercentage_label" "เปอร์เซ็นต์​เพื่อนร่วมทีม"
@@ -994,7 +997,7 @@
 		"RespawnTime_postfix" "%"
 		"RespawnTime_prefix" "{s:sign}"
 
-		"upgrade_eldritch_shot_desc"			"กระสุนนัดถัดไปของคุณจะส่งผลดีบัฟที่ทรงพลัง ซึ่งจะลดเอาต์พุตความเสียหาย การรักษา และความเร็วในการเคลื่อนที่ของศัตรู นอกจากนี้ยังสร้าง {g:citadel_inline_attribute:'BonusSpiritDamage'} ตามพลังชีวิตที่เหลืออยู่ของเป้าหมาย <br><br>กระสุนดังกล่าวใหญ่กว่าเดิมและเจาะผ่านเป้าหมายต่าง ๆ"
+		"upgrade_eldritch_shot_desc"			"กระสุนนัดถัดไปของคุณจะส่งผลดีบัฟที่ทรงพลัง ซึ่งจะลดความเสียหายที่สร้าง การรักษา และความเร็วในการเคลื่อนที่ของศัตรู นอกจากนี้ยังสร้าง {g:citadel_inline_attribute:'BonusSpiritDamage'} ตามพลังชีวิตที่เหลืออยู่ของเป้าหมาย <br><br>กระสุนดังกล่าวใหญ่กว่าเดิมและเจาะผ่านเป้าหมายต่าง ๆ"
 		"upgrade_cloak_of_opportunity_desc"		"บล็อกดีบัฟครั้งถัดไปที่จะ <span class=\"highlight\">ล็อกการเคลื่อนที่ สตัน ล่าม ตรึง หรือทำให้หลับ</span> และกลายเป็น<span class=\"highlight\">​อันสต็อป​เอเบิล​</span> นอกจากนี้ยังได้รับ<span class=\"highlight\">แบร์ริเออร์​</span> และเพิ่ม {g:citadel_inline_attribute:'MoveSpeed'}"
 		"upgrade_runed_gauntlets_desc"			"ทุกครั้งที่คุณโจมตีประชิดรุนแรงโดนศัตรู จะลดคูลดาวน์ที่มีอยู่ของคุณ"
 		"upgrade_runed_gauntlets_parry_desc"		"ทะลุผ่านการปัดป้อง"
@@ -1009,13 +1012,10 @@
 		//-----------------------------------------------------------------------------
 		// Cosmetic
 		//----------------------------------------------------------------------------- 
-		"cosmetic_ability_snowball"		"บอลหิมะ"
-		"cosmetic_ability_snowball_desc"		"ปาบอลหิมะใส่เพื่อนและศัตรูของคุณ ระยะทางและคุณสมบัติอื่น ๆ จะดีขึ้นเมื่อคุณสร้างความคืบหน้าใน<span class=\"highlight\">การท้าทายฉลองวันหยุดปลายปี 2025</span><br><br><span class=\"diminish\">การปาบอลหิมะใส่เพื่อนร่วมทีมจะไม่สร้างความเสียหายและจะรีเซ็ตคูลดาวน์</span>"
-		"SnowballSpeed_label"			"ความเร็วการขว้าง"
-		"SnowballSpeed_postvalue_label"		"ความเร็ว"
-		"SnowballSpeed_postfix"			"ม/วิ"
-		"SnowballCount_label"			"บอลหิมะที่ขว้างไป"
-		"SnowballCount_postvalue_label"		"โพรเจกไทล์"
+		"HealPerMinute_label"			"การรักษาเพิ่มขึ้นต่อนาที"
+		"TechPowerPerMinute_label"		"เพิ่มพลังวิญญาณต่อนาที"
+		"BonusFireRatePerMinute_label"		"เพิ่มอัตรายิงต่อนาที"
+		"BonusMoveSpeedPerMinute_label"		"เพิ่มความเร็ว​การ​เคลื่อนที่ต่อนาที"
 
 		"cosmetic_item_voting_poster"		"แปะโปสเตอร์"
 	}

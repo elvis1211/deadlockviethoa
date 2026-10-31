@@ -627,7 +627,7 @@
 		"upgrade_quick_silver_desc"				"Umožňuje prodchnout schopnost, takže sesláním udělí {g:citadel_inline_attribute:'BonusSpiritDamage'}, vlastníkovi poskytne {g:citadel_inline_attribute:'BonusFireRate'} a také <span class=\"highlight\">přebije určité procento jeho nábojů</span>. Bonusy dosáhnou maxima po úplném obnovení této schopnosti."
 
 		//Resonant Healing
-		"upgrade_resonant_healing_desc"			"Když vlastník sešle schopnost, je <span class=\"highlight\">vyléčen</span> a na krátkou dobu získá bonus k <span class=\"highlight\">rychlosti pohybu</span>."
+		"upgrade_resonant_healing_desc"			"Když vlastník v boji sešle schopnost, je <span class=\"highlight\">vyléčen</span> a na krátkou dobu získá bonus k <span class=\"highlight\">rychlosti pohybu</span>."
 		"HealingPerCast_Label"					"Léčení po seslání schopnosti"
 
 		"HealingPerCast_postvalue_label"					"Léčení po seslání schopnosti"
@@ -744,8 +744,8 @@
 
 		//Debuff Remover | Dispel Magic
 		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Očistí všechny negativní efekty (s výjimkou ultimátních)</span>, které momentálně působí na vlastníka. Pokud dojde k odstranění nějakého efektu, vlastník <span class=\"highlight\">se vyléčí</span> a získá <span class=\"highlight\">bonus k rychlosti pohybu</span>.<br><span class=\"diminish\">Schopnost nelze seslat, zatímco je vlastník omráčen nebo uspán.</span>"
-		"HealOnActivate_label"		"Léčení po seslání"
-		"HealOnActivate_postvalue_label"		"Léčení po seslání"
+		"HealOnActivate_label"		"Hodnota léčení"
+		"HealOnActivate_postvalue_label"		"Hodnota léčení"
 
 		"damage_reduction_postfix"						" %"
 
@@ -877,22 +877,25 @@
 
 		//Shadow Weave
 		"upgrade_cloaking_device_active_desc"		"Vlastník se stane <span class=\"highlight\">neviditelným</span>. Kdykoli poté utrží poškození, je krátce odhalen."
-		"upgrade_cloaking_device_active_ambush_desc"	"<br>Útok nebo seslání schopnosti ukončí neviditelnost a zahájí <span class=\"highlight\">přepadení</span>, takže vlastník dočasně získá bonusy k <span class=\"highlight\">rychlosti střelby</span>, <span class=\"highlight\">spirituální síle</span> a <span class=\"highlight\">poškození úderů</span>."
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>Útok nebo seslání schopnosti ukončí neviditelnost a zahájí <span class=\"highlight\">přepadení</span>, takže vlastník dočasně získá bonusy k <span class=\"highlight\">fyzickému poškození</span> a <span class=\"highlight\">spirituální síle</span>."
 		"modifier_cloaking_device_active_stealth"		"Neviditelnost od Maskovacího zařízení"
 		"modifier_cloaking_device_active_ambush"		"Přepadení s Maskovacím zařízením"
 		"AmbushBonusTechPower_prefix"					"+"
 		"AmbushBonusTechPower_label"					"Spirituální síla při přepadení"
 		"AmbushBonusTechPower_postvalue_label"					"Spirituální síla při přepadení"
-		"AmbushBonusFireRate_prefix"					"+"
-		"AmbushBonusFireRate_label"					"Rychlost střelby při přepadení"
-		"AmbushBonusFireRate_postvalue_label"					"Rychlost střelby při přepadení"
-		"AmbushBonusFireRate_postfix"					" %"
+		"AmbushBonusWeaponDamage_prefix"					"+"
+		"AmbushBonusWeaponDamage_label"					"Fyzické poškození při přepadení"
+		"AmbushBonusWeaponDamage_postvalue_label"					"Fyzické poškození při přepadení"
+		"AmbushBonusWeaponDamage_postfix"					" %"
 		"AmbushBonusMeleeDamage_label"					"Poškození úderů při přepadení"
 		"AmbushBonusMeleeDamage_postvalue_label"		"Poškození úderů při přepadení"
 		"AmbushBonusMeleeDamage_postfix"				" %"
 		"AmbushDuration_label"						"Trvání přepadení"
 		"AmbushDuration_postvalue_label"						"Trvání přepadení"
 		"AmbushDuration_postfix"						" s"
+		"AmbushBuildUpDuration_label"				"Čas pro plné nabití přepadení"
+		"AmbushBuildUpDuration_postvalue_label"		"Čas pro plné nabití přepadení"
+		"AmbushBuildUpDuration_postfix"				" s"
 		"StealthDuration_label"						"Trvání neviditelnosti"
 		"StealthDuration_postvalue_label"						"Trvání neviditelnosti"
 		"StealthDuration_postfix"						" s"
@@ -1009,13 +1012,10 @@
 		//-----------------------------------------------------------------------------
 		// Cosmetic
 		//----------------------------------------------------------------------------- 
-		"cosmetic_ability_snowball"		"Sněhová koule"
-		"cosmetic_ability_snowball_desc"		"Vlastník hodí na spojence nebo nepřítele sněhovou kouli. Počet koulí a další vlastnosti se vylepšují podle postupu ve <span class=\"highlight\">Vánoční výzvě 2025</span>.<br><br><span class=\"diminish\">Když je koule hozena na spojence, neudělí mu poškození a dojde k okamžitému obnovení předmětu.</span>"
-		"SnowballSpeed_label"			"Rychlost hodu"
-		"SnowballSpeed_postvalue_label"		"Rychlost"
-		"SnowballSpeed_postfix"			" m/s"
-		"SnowballCount_label"			"Počet koulí"
-		"SnowballCount_postvalue_label"		"Projektily"
+		"HealPerMinute_label"			"Navýšení léčení za minutu"
+		"TechPowerPerMinute_label"		"Navýšení spirituální síly za minutu"
+		"BonusFireRatePerMinute_label"		"Navýšení rychlosti střelby za minutu"
+		"BonusMoveSpeedPerMinute_label"		"Navýšení rychlosti pohybu za minutu"
 
 		"cosmetic_item_voting_poster"		"Volební plakát"
 	}

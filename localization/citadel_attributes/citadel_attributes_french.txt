@@ -45,7 +45,7 @@
 		"Citadel_StatusEffectInvisible"			"Invisibilité"
 		"Citadel_StatusEffectPetrify"			"Pétrifier"
 		"Citadel_StatusEffectCustomDebuff"		"Effet négatif"
-		//"Citadel_StatusEffectStacks"			"Stacks "
+		//"Citadel_StatusEffectStacks"			"Stacks"
 		"Citadel_StatusEffectInfiniteClip"		"Munitions infinies"
 		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
 		//"Citadel_StatusEffectBuff"				"Buff"
@@ -80,6 +80,7 @@
 		//"modifier_invis_start_delay" 			"Entering Stealth"
 		//"modifier_invis_fading"					"Fading"
 		//"modifier_camouflage_invis"				"Camouflaged"
+		"modifier_citadel_sleep"				"Sommeil"
 		"modifier_citadel_silenced"				"Silence"
 		"silencer_immune"						"Immunité contre la sourdine"
 		//"modifier_citadel_muted"				"Muted"
@@ -1845,7 +1846,6 @@
 		"CurrentBonus_label"							"Bonus actuel :"
 		"CurrentBonus_postvalue_label"					"Bonus actuel :"
 
-
 		//"TimeToMaxStacks_label"							"Time To Max Stacks"
 		"TimeToMaxStacks_postfix"						" s"
 
@@ -3078,6 +3078,10 @@
 		"GravityScale_label"					"Échelle de gravité"
 		"GravityScale_postvalue_label"			"Échelle de gravité"
 		"GravityScale_postfix"					" %"
+		"GravityScaleIncrease_label"			"Échelle de gravité"
+		"GravityScaleIncrease_postvalue_label"	"Échelle de gravité"
+		"GravityScaleIncrease_prefix"			"+"
+		"GravityScaleIncrease_postfix"			" %"
 
 		"AirBonusDamageGiven_label"					"Dégâts dans les airs"
 		"AirBonusDamageGiven_postvalue_label"		"Dégâts dans les airs"

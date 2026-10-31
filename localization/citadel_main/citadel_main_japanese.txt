@@ -1351,20 +1351,6 @@
 		"Citadel_Hud_KillFeedVehicle"								"ビークル"
 		"Citadel_Hud_KillFeedWorld"									"ワールド"
 
-		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"			"{g:citadel_persona:account_id} が {s:hero_name} のホリデーチアを達成した！"
-		"Citadel_Showcase_SeasonalAchievement2024"					"2024年12月"
-
-		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"			"{s:hero_name}のオーナメントを{g:citadel_persona:account_id}がアンロックした！"
-		"Citadel_Showcase_SeasonalAchievement2025"					"2025年12月"
-
-		"Citadel_Hud_Toast_SeasonalKill"							"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span>の"
-		"Citadel_Hud_Toast_SeasonalKill2"							"スノーボールキル！"
-
-		"Citadel_Event_Holiday_Challenge2025_Title"					"2025 ホリデーチャレンジ"
-		"Citadel_Event_Holiday_Challenge2025_Desc"					"異なるヒーローでマッチに勝利すると、ハイドアウトのツリーを装飾するためのユニークなオーナメントをもらえます。"
-		"Citadel_Event_Holiday_Challenge2025_Snowball"				"ツリーにオーナメントを追加して、アクティブアイテム「<span class=\"Emphasis\">スノーボール</span>」を強化しましょう。"
-		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"レベル {i:item_level} / {i:item_max_level}"
-
 		"Citadel_Hud_Voting_Poster_Tooltip_Header"					"ポスターを選択"
 		"Citadel_Hud_Voting_Poster_Tooltip_Selected"				"選択済み"
 
@@ -2851,6 +2837,9 @@
 		"citadel_hint_activate_wall" "{g:citadel_binding:'Attack'}で早めに壁を生成できます。"
 		"citadel_hint_guided_arrow_boost" "{g:citadel_binding:'Attack'}長押しで矢の速度を加速できます。"
 		"citadel_hint_flying_strike_early_activate" "{g:citadel_binding:'Attack'}で対象への飛びつきを早めに発動できます。"
+
+		// Hud Hints 
+		"citadel_rejuvenator_hud_hint" "リジュベネーターの残り効果時間。有効なリジュベネーターがない場合はミッドボスのリスポーンまでの時間が表示される"
 
 		//-----------------------------------------------------------------------------
 		// Breakable Prop modifiers
@@ -4434,7 +4423,6 @@
 		"menu_tphideout"							"ハイドアウトに移動"
 		"menu_shoparea"							    "アトリウム"
 		"menu_shoparea_sub"							"プラクティスレンジ"
-		"menu_seasonal_2025"						"ホリデーチャレンジ"
 		"menu_new_violator"							"New"
 		
 		
@@ -5842,10 +5830,8 @@
 		"Citadel_Hideout_News"		"すべてを読む"
 		"Citadel_Hideout_News_Button"		"{g:citadel_binding:'Interact'} でニュースを表示"
 		"Citadel_Hideout_VoiceLines"		"{g:citadel_binding:'Interact'} で会話文を再生"
-		"Citadel_Hideout_XmasGlobeEarned_Temp"		"ウィンターアップデート中に{s:hideout_owner}が獲得した記念品"
 		"Citadel_Hideout_VaultHint01"				"{g:citadel_binding:'AbilityMelee'} 近接攻撃でソウルを集める"
 		"Citadel_Hideout_VaultHint02"				"点滅中に {g:citadel_binding:'AbilityMelee'} 近接攻撃でボーナスを獲得、近接強攻撃ならさらに追加で獲得できる"
-		"Citadel_Hideout_HolidayChallenge" 		"{g:citadel_binding:'Interact'} でホリデーチャレンジの進行状況を確認"
 		"Citadel_Hideout_HeavyCrate"		"{g:citadel_binding:'AbilityMelee'}を長押しして近接強攻撃で破壊"
 
 		"citadel_keybind_hideout_use"					"ハイドアウトのオブジェクトにインタラクト"
@@ -5934,7 +5920,6 @@
 		"Citadel_Subtitles_Message_IconAndName"		"<child id='SpeakerIcon' /><b>{s:subtitle_actor}</b>：{s:subtitle_text}"
 		"Citadel_Subtitles_Message_Icon"			"<child id='SpeakerIcon' />：{s:subtitle_text}"
 		"npc_newscaster"							"ニュースキャスター"
-		"npc_seasonal"								"ニュースキャスター"
 		"npc_shopkeeper"							"キュリオシティ・ディーラー"
 		"npc_broker"								"ブローカー"
 		"npc_spirit_jar"							"魂の壺"
@@ -6102,7 +6087,8 @@
 		"map_district_building_campus"			"キャンパス"
 		"map_district_building_belltower"		"鐘楼"
 
-
-	}
+		// Halloween
+		"AbilityButtonHint_HalloweenTroll"		"トロールのトリック・オア・トリート - 近接強攻撃でキャンディを渡す"
+		}
 }
 

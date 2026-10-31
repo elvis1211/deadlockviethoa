@@ -1,0 +1,37 @@
+﻿"lang"
+{
+	"Language"		"italian"
+	"Tokens"
+	{
+		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"		"{g:citadel_persona:account_id} ha ottenuto il tocco festivo per {s:hero_name}!"
+		"Citadel_Showcase_SeasonalAchievement2024"		"Dicembre 2024"
+		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"		"Decorazione di {s:hero_name} sbloccata da {g:citadel_persona:account_id}!"
+		"Citadel_Showcase_SeasonalAchievement2025"		"Dicembre 2025"
+		"Citadel_Hud_Toast_SeasonalKill"		"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span> ha effettuato"
+		"Citadel_Hud_Toast_SeasonalKill2"		"un'uccisione con la palla di neve!"
+		"Citadel_Event_Holiday_Challenge2025_Title"		"Sfida delle feste 2025"
+		"Citadel_Event_Holiday_Challenge2025_Desc"		"Vinci una partita con ogni eroe per ricevere una decorazione esclusiva per l'albero del tuo nascondiglio."
+		"Citadel_Event_Holiday_Challenge2025_Snowball"		"Potenzia il tuo oggetto attivo <span class=\"Emphasis\">Palla di neve</span> aggiungendo altre decorazioni al tuo albero."
+		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"Livello {i:item_level}/{i:item_max_level}"
+		"menu_seasonal_2025"		"Sfida delle feste"
+		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Souvenir ottenuto da {s:hideout_owner} durante l'aggiornamento invernale"
+		"Citadel_Hideout_HolidayChallenge"		"Premi {g:citadel_binding:'Interact'} per vedere i progressi della Sfida delle feste"
+		"halloween_candy_pickup_label"		"Caramella"
+		"modifier_halloween_candy_sugar_rush"		"Picco glicemico"
+		"Citadel_Hideout_HalloweenCauldron"		"Calderone di caramelle: tieni premuto {g:citadel_binding:'AbilityMelee'} per distruggerlo e ottenere caramelle"
+		"npc_seasonal"		"Giornalista"
+
+		"cosmetic_ability_snowball"		"Palla di neve"
+		"cosmetic_ability_snowball_desc"		"Lanci palle di neve ai tuoi amici e nemici. La distanza e le altre proprietà migliorano man mano che avanzi nella <span class=\"highlight\">Sfida delle feste 2025</span>.<br><br><span class=\"diminish\">Lanciare una palla di neve a un alleato non infligge danni e azzera il tempo di ricarica.</span>"
+		"SnowballSpeed_label"		"Velocità di lancio"
+		"SnowballSpeed_postvalue_label"		"di velocità"
+		"SnowballSpeed_postfix"		" m/s"
+		"SnowballCount_label"		"Palle di neve lanciate"
+		"SnowballCount_postvalue_label"		"proiettili"
+		"seasonal_ability_eat_halloween_candy"		"Mangia caramelle"
+		"seasonal_ability_eat_halloween_candy_desc"		"Mangi una caramella per curarti, ripristinare la stamina e ottenere il buff <span class=\"highlight\">Picco glicemico</span>.<br><br><span class=\"diminish\">Le statistiche di guarigione e Picco glicemico migliorano con il proseguire della partita.</span>"
+
+		"HalloweenCandy_label"		"Istanze:"
+		"HalloweenCandy_postvalue_label"		"istanze"
+	}
+}

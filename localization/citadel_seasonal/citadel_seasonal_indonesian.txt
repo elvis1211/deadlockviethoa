@@ -1,0 +1,37 @@
+﻿"lang"
+{
+	"Language"		"indonesian"
+	"Tokens"
+	{
+		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"		"{g:citadel_persona:account_id} mendapatkan sorakan liburan untuk {s:hero_name}!"
+		"Citadel_Showcase_SeasonalAchievement2024"		"Desember 2024"
+		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"		"Ornamen untuk {s:hero_name}} dibuka oleh {g:citadel_persona:account_id}!"
+		"Citadel_Showcase_SeasonalAchievement2025"		"Desember 2025"
+		"Citadel_Hud_Toast_SeasonalKill"		"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span> mendapatkan"
+		"Citadel_Hud_Toast_SeasonalKill2"		"Kill Bola Salju!"
+		"Citadel_Event_Holiday_Challenge2025_Title"		"Tantangan Musim Liburan 2025"
+		"Citadel_Event_Holiday_Challenge2025_Desc"		"Menangkan pertandingan dengan setiap hero untuk menerima ornamen unik untuk pohon di persembunyianmu."
+		"Citadel_Event_Holiday_Challenge2025_Snowball"		"Upgrade kemampuan melempar item <span class=\"Emphasis\">Bola Salju</span> yang aktif dengan menambahkan lebih banyak ornamen ke pohon."
+		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"Level {i:item_level}/{i:item_max_level}"
+		"menu_seasonal_2025"		"Tantangan Musim Liburan"
+		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Suvenir didapatkan dari {s:hideout_owner} selama Pembaruan Musim Dingin"
+		"Citadel_Hideout_HolidayChallenge"		"Tekan {g:citadel_binding:'Interact'} untuk melihat Progres Tantangan Musim Liburan"
+		"halloween_candy_pickup_label"		"Permen"
+		"modifier_halloween_candy_sugar_rush"		"Sugar Rush"
+		"Citadel_Hideout_HalloweenCauldron"		"Kuali Permen: Tahan {g:citadel_binding:'AbilityMelee'} untuk menghancurkannya dan mendapatkan permen"
+		"npc_seasonal"		"Pembawa Berita"
+
+		"cosmetic_ability_snowball"		"Bola Salju"
+		"cosmetic_ability_snowball_desc"		"Lemparkan bola salju ke arah rekan dan musuhmu. Jarak dan properti lainnya meningkat seiring progres <span class=\"highlight\">Tantangan Musim Liburan 2025</span> milikmu. <br><br><span class=\"diminish\">Melemparkan bola salju ke rekan tidak akan menyebabkan damage dan cooldown bola salju akan tereset.</span>"
+		"SnowballSpeed_label"		"Kecepatan Lemparan"
+		"SnowballSpeed_postvalue_label"		"Kecepatan"
+		"SnowballSpeed_postfix"		" m/dtk."
+		"SnowballCount_label"		"Bola Salju Dilempar"
+		"SnowballCount_postvalue_label"		"Proyektil"
+		"seasonal_ability_eat_halloween_candy"		"Makan Permen"
+		"seasonal_ability_eat_halloween_candy_desc"		"Makan satu permen untuk menyembuhkan diri, memulihkan stamina, dan mendapatkan buff <span class=\"highlight\">Sugar Rush</span>.<br><br><span class=\"diminish\">Statistik Penyembuhan dan Sugar Rush terus bertambah seiring berlangsungnya pertandingan.</span>"
+
+		"HalloweenCandy_label"		"Akumulasi:"
+		"HalloweenCandy_postvalue_label"		"Akumulasi:"
+	}
+}

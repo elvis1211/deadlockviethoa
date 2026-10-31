@@ -45,7 +45,7 @@
 		"Citadel_StatusEffectInvisible"			"Neviditelnost"
 		"Citadel_StatusEffectPetrify"			"Zkamenění"
 		"Citadel_StatusEffectCustomDebuff"		"Debuff"
-		//"Citadel_StatusEffectStacks"			"Stacks "
+		//"Citadel_StatusEffectStacks"			"Stacks"
 		"Citadel_StatusEffectInfiniteClip"		"Nekonečné náboje"
 		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
 		//"Citadel_StatusEffectBuff"				"Buff"
@@ -80,6 +80,7 @@
 		//"modifier_invis_start_delay" 			"Entering Stealth"
 		//"modifier_invis_fading"					"Fading"
 		//"modifier_camouflage_invis"				"Camouflaged"
+		"modifier_citadel_sleep"				"Spánek"
 		"modifier_citadel_silenced"				"Umlčení"
 		"silencer_immune"						"Imunita vůči Tlumiči"
 		//"modifier_citadel_muted"				"Muted"
@@ -1845,7 +1846,6 @@
 		"CurrentBonus_label"							"Aktuální bonus:"
 		"CurrentBonus_postvalue_label"					"Aktuální bonus:"
 
-
 		//"TimeToMaxStacks_label"							"Time To Max Stacks"
 		"TimeToMaxStacks_postfix"						" s"
 
@@ -3078,6 +3078,10 @@
 		"GravityScale_label"					"Působení gravitace"
 		"GravityScale_postvalue_label"			"Působení gravitace"
 		"GravityScale_postfix"					" %"
+		"GravityScaleIncrease_label"			"Působení gravitace"
+		"GravityScaleIncrease_postvalue_label"	"Působení gravitace"
+		"GravityScaleIncrease_prefix"			"+"
+		"GravityScaleIncrease_postfix"			" %"
 
 		"AirBonusDamageGiven_label"					"Poškození ve vzduchu"
 		"AirBonusDamageGiven_postvalue_label"		"Poškození ve vzduchu"

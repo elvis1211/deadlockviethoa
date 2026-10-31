@@ -562,7 +562,7 @@
 		"upgrade_target_stun_desc"			"Applichi <span class=\"highlight\">stordimento</span> dopo <span class=\"highlight\">{s:StunDelay} s</span>. La durata dello stordimento aumenta contro i bersagli <span class=\"highlight\">in aria</span>.<br><br><span class=\"diminish\">Aumenta la gravità del bersaglio per la durata dello stordimento.</span>"
 		
 		//Vortex Web
-		"upgrade_aoe_root_active"		"Lanci una granata <span class=\"highlight\">del vuoto</span>, attirando tutti i nemici in una piccola area e applicando una <span class=\"highlight\">Maledizione di rallentamento</span>. <span class=\"diminish\"><br><br>L'uso alternativo bersaglia direttamente l'unità.</span>"
+		"upgrade_aoe_root_active"		"Lanci una granata <span class=\"highlight\">del vuoto</span>, attirando tutti i nemici in una piccola area e applicando <span class=\"highlight\">Anatema rallentante</span>. <span class=\"diminish\"><br><br>L'uso alternativo bersaglia direttamente l'unità.</span>"
 
 		//Curse
 		"upgrade_glitch_desc"					"Maledice un nemico, <span class=\"highlight\">interrompendolo, silenziandolo, disarmandolo</span> e <span class=\"highlight\">impedendone l'uso degli oggetti</span>. <span class=\"highlight\">Rimuove tutti i buff non ultimate</span>.<br><br>I tuoi <span class=\"highlight\">danni inflitti</span> sono ridotti per tutta la durata dell'abilità."
@@ -627,7 +627,7 @@
 		"upgrade_quick_silver_desc"				"La tua abilità infusa si carica nel tempo con {g:citadel_inline_attribute:'BonusSpiritDamage'}, {g:citadel_inline_attribute:'BonusFireRate'} e <span class=\"highlight\">ricarica le pallottole</span> durante l'uso."
 
 		//Resonant Healing
-		"upgrade_resonant_healing_desc"			"<span class=\"highlight\">Guarisci</span> e ottieni un bonus di <span class=\"highlight\">velocità di movimento</span> per un breve periodo quando usi un'abilità."
+		"upgrade_resonant_healing_desc"			"Durante il combattimento, <span class=\"highlight\">guarisci</span> e ottieni <span class=\"highlight\">velocità di movimento</span> bonus per un breve periodo quando usi un'abilità."
 		"HealingPerCast_Label"					"Guarigione all'uso di abilità"
 
 		"HealingPerCast_postvalue_label"					"di guarigione all'uso di abilità"
@@ -744,8 +744,8 @@
 
 		//Debuff Remover | Dispel Magic
 		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Elimina tutti gli effetti negativi non della ultimate</span> attualmente applicati su di te. Se vengono rimossi degli effetti, <span class=\"highlight\">guarisci</span> e ottieni <span class=\"highlight\">velocità di movimento bonus</span>. <br>Non può essere usata mentre hai subito uno <span class=\"highlight\">stordimento</span> o stai <span class=\"highlight\">dormendo</span>."
-		"HealOnActivate_label"		"PS guariti all'attivazione"
-		"HealOnActivate_postvalue_label"		"PS guariti all'attivazione"
+		"HealOnActivate_label"		"Guarigione"
+		"HealOnActivate_postvalue_label"		"di guarigione"
 
 		"damage_reduction_postfix"						"%"
 
@@ -877,22 +877,25 @@
 
 		//Shadow Weave
 		"upgrade_cloaking_device_active_desc"		"Ottieni <span class=\"highlight\">Stealth</span>. Ogni volta che subisci danni mentre sei in modalità Stealth, la tua posizione sarà rivelata brevemente."
-		"upgrade_cloaking_device_active_ambush_desc"	"<br>Attaccare o usare un'abilità metterà fine alla modalità Stealth e darà inizio a un <span class=\"highlight\">agguato</span>, conferendoti temporaneamente <span class=\"highlight\">cadenza di fuoco</span>, <span class=\"highlight\">potere spirituale</span> e <span class=\"highlight\">danni corpo a corpo</span> bonus."
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>Attaccare o usare un'abilità metterà fine alla modalità Stealth e darà inizio a un'<span class=\"highlight\">imboscata</span>, conferendoti temporaneamente <span class=\"highlight\">danni da arma</span> e <span class=\"highlight\">potere spirituale</span> bonus."
 		"modifier_cloaking_device_active_stealth"		"Tessuto d'ombra - Stealth"
 		"modifier_cloaking_device_active_ambush"		"Tessuto d'ombra - Agguato"
 		"AmbushBonusTechPower_prefix"					"+"
 		"AmbushBonusTechPower_label"					"Potere spirituale dell'agguato"
 		"AmbushBonusTechPower_postvalue_label"					"di potere spirituale dell'agguato"
-		"AmbushBonusFireRate_prefix"					"+"
-		"AmbushBonusFireRate_label"					"Cadenza di fuoco dell'agguato"
-		"AmbushBonusFireRate_postvalue_label"					"di cadenza di fuoco dell'agguato"
-		"AmbushBonusFireRate_postfix"					"%"
+		"AmbushBonusWeaponDamage_prefix"					"+"
+		"AmbushBonusWeaponDamage_label"					"Danni da arma"
+		"AmbushBonusWeaponDamage_postvalue_label"					"di danni da arma"
+		"AmbushBonusWeaponDamage_postfix"					"%"
 		"AmbushBonusMeleeDamage_label"					"Danni da corpo a corpo per agguato"
 		"AmbushBonusMeleeDamage_postvalue_label"		"di danni da corpo a corpo per agguato"
 		"AmbushBonusMeleeDamage_postfix"				"%"
 		"AmbushDuration_label"						"Durata dell'agguato"
 		"AmbushDuration_postvalue_label"						"di durata dell'agguato"
 		"AmbushDuration_postfix"						" s"
+		"AmbushBuildUpDuration_label"				"Tempo per imboscata completa"
+		"AmbushBuildUpDuration_postvalue_label"		"di tempo per imboscata completa"
+		"AmbushBuildUpDuration_postfix"				" s"
 		"StealthDuration_label"						"Durata della modalità stealth"
 		"StealthDuration_postvalue_label"						"di durata della modalità stealth"
 		"StealthDuration_postfix"						" s"
@@ -1009,13 +1012,10 @@
 		//-----------------------------------------------------------------------------
 		// Cosmetic
 		//----------------------------------------------------------------------------- 
-		"cosmetic_ability_snowball"		"Palla di neve"
-		"cosmetic_ability_snowball_desc"		"Lanci palle di neve ai tuoi amici e nemici. La distanza e le altre proprietà migliorano man mano che avanzi nella <span class=\"highlight\">Sfida natalizia 2025</span>.<br><br><span class=\"diminish\">Lanciare una palla di neve a un alleato non infligge danni e azzera il tempo di ricarica.</span>"
-		"SnowballSpeed_label"			"Velocità di lancio"
-		"SnowballSpeed_postvalue_label"		"di velocità"
-		"SnowballSpeed_postfix"			" m/s"
-		"SnowballCount_label"			"Palle di neve lanciate"
-		"SnowballCount_postvalue_label"		"proiettili"
+		"HealPerMinute_label"			"Aumento della guarigione/min"
+		"TechPowerPerMinute_label"		"Aumento potere spirituale/min"
+		"BonusFireRatePerMinute_label"		"Aumento cadenza di fuoco/min"
+		"BonusMoveSpeedPerMinute_label"		"Aumento velocità di movimento/min"
 
 		"cosmetic_item_voting_poster"		"Affiggi poster"
 	}

@@ -45,7 +45,7 @@
 		"Citadel_StatusEffectInvisible"			"Невидимость"
 		"Citadel_StatusEffectPetrify"			"Окаменение"
 		"Citadel_StatusEffectCustomDebuff"		"Отрицательный эффект"
-		//"Citadel_StatusEffectStacks"			"Stacks "
+		//"Citadel_StatusEffectStacks"			"Stacks"
 		"Citadel_StatusEffectInfiniteClip"		"Бесконечный боезапас"
 		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
 		//"Citadel_StatusEffectBuff"				"Buff"
@@ -80,6 +80,7 @@
 		//"modifier_invis_start_delay" 			"Entering Stealth"
 		//"modifier_invis_fading"					"Fading"
 		//"modifier_camouflage_invis"				"Camouflaged"
+		"modifier_citadel_sleep"				"Спит"
 		"modifier_citadel_silenced"				"Безмолвие"
 		"silencer_immune"						"Иммунитет к ‭«Глушителю»"
 		//"modifier_citadel_muted"				"Muted"
@@ -530,7 +531,7 @@
 
 		"BonusHealthRegen_prefix"					"{s:sign}"
 		"BonusHealthRegen_label"					"Восстановление здоровья"
-		"BonusHealthRegen_postvalue_label"					"Восстановление здоровья"
+		"BonusHealthRegen_postvalue_label"					"ед. к восст. здоровья"
 
 		"MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND_prefix"					"{s:sign}"
 		"MODIFIER_VALUE_HEALTH_REGEN_PER_SECOND_label"					"Восстановление здоровья"
@@ -552,7 +553,7 @@
 		"HealthRegen_prefix"						"{s:sign}"
 		"HealthRegen_label"						"Восстановление здоровья"
 
-		"HealthRegen_postvalue_label"						"Восстановление здоровья"
+		"HealthRegen_postvalue_label"						"ед. к восст. здоровья"
 
 		"BonusRegenMaxHealthPercent_prefix"					"{s:sign}"
 		"BonusRegenMaxHealthPercent_postfix"					"%"
@@ -1845,7 +1846,6 @@
 		"CurrentBonus_label"							"Текущий бонус"
 		"CurrentBonus_postvalue_label"					"Текущий бонус"
 
-
 		//"TimeToMaxStacks_label"							"Time To Max Stacks"
 		"TimeToMaxStacks_postfix"						" с."
 
@@ -3078,6 +3078,10 @@
 		"GravityScale_label"					"Модификатор гравитации"
 		"GravityScale_postvalue_label"			"Модификатор гравитации"
 		"GravityScale_postfix"					"%"
+		"GravityScaleIncrease_label"			"Сила гравитации"
+		"GravityScaleIncrease_postvalue_label"	"к силе гравитации"
+		"GravityScaleIncrease_prefix"			"+"
+		"GravityScaleIncrease_postfix"			"%"
 
 		"AirBonusDamageGiven_label"					"Урон в воздухе"
 		"AirBonusDamageGiven_postvalue_label"		"Урон в воздухе"

@@ -37,7 +37,7 @@
 		"GameUI_Disconnect_ServerInfoOverflow"		"ข้อมูลเดต้าเกินขีดจำกัด"
 		"GameUI_Disconnect_TickMessage"				"ข้อผิดพลาดในการเขียนข้อความที่ทำเครื่องหมาย"
 		"GameUI_Disconnect_StringTableMessage"		"ข้อผิดพลาดในการเขียนข้อความอัปเดตตารางสตริง"
-		"GameUI_Disconnect_DeltaEntMessage"			"ข้อผิดพลาดในการเขียนข้อความเดลต้าเอนทิตี"
+		"GameUI_Disconnect_DeltaEntMessage"			"ข้อผิดพลาดในการเขียนข้อความเดลตาเอนทิตี"
 		"GameUI_Disconnect_TempEntMessage"			"ข้อผิดพลาดในการเขียนข้อความเอนทิตีชั่วคราว"
 		"GameUI_Disconnect_SoundsMessage"			"ข้อผิดพลาดในการเขียนข้อความเสียงของเกม"
 		"GameUI_Disconnect_SnapshotOverflow"		"ข้อผิดพลาด: สแนปช็อตที่เชื่อถือได้เกินขีดจำกัด"
@@ -86,7 +86,7 @@
 		"GameUI_Disconnect_ReplayIncompatible"		"รีเพลย์เข้ากันไม่ได้"
 		"GameUI_Disconnect_ConnectionTimedout"		"ไม่สามารถสร้างการเชื่อมต่อกับเซิร์ฟเวอร์เกมได้"
 		"GameUI_Disconnect_ServerIncompatible"		"เวอร์ชันเซิร์ฟเวอร์เข้ากันไม่ได้"
-		"Player_DisconnectReason_Idle"				"ตัดการเชื่อมต่อจากเซิร์ฟเวอร์เกมแล้ว คุณไม่อยู่หน้าหน้าจอนานเกินไป"
+		"Player_DisconnectReason_Idle"				"ตัดการเชื่อมต่อจากเซิร์ฟเวอร์เกมแล้ว คุณไม่อยู่ที่หน้าจอนานเกินไป"
 
 
 		"GameUI_Disconnect_LocalProblem_ManyRelays"	"ขาดการเชื่อมต่อ แม้หลังจากลองเซิร์ฟเวอร์ถ่ายทอดในหลายตำแหน่งทางภูมิศาสตร์แล้ว สาเหตุหลักอาจเป็นปัญหาเกี่ยวกับการเชื่อมต่ออินเทอร์เน็ตของคุณ"
@@ -128,7 +128,7 @@
 		"GameUI_ServerCDKeyInUse"			"CD Key ได้ถูกใช้งานไปแล้ว\n"
 		"GameUI_ClientRetryLimit"			"ไม่สามารถสร้างการเชื่อมต่อไปยังเซิร์ฟเวอร์ได้\n"
 		"GameUI_ClientBadServerAddress"		"ที่อยู่ของเซิร์ฟเวอร์ไม่ถูกต้อง\n"
-		"GameUI_ClientStringTableError"		"ข้อมูลตารางสายอักขระของคุณแตกต่างจากเซิร์ฟเวอร์ โปรดอัปเดตเกมของท่าน\n"
+		"GameUI_ClientStringTableError"		"ข้อมูลตารางสายอักขระของคุณแตกต่างจากเซิร์ฟเวอร์ โปรดอัปเดตเกมของคุณ\n"
 		"GameUI_ClientUnableToCRCMap"		"ไม่สามารถคำนวณ Checksum ของไฟล์แผนที่ได้\n"
 		"GameUI_ClientNoMap"				"ไม่สามารถโหลดแผนที่ที่กำหนดโดยเซิร์ฟเวอร์ได้\n"
 		"GameUI_ClientDifferentMap"			"แผนที่ของคุณต่างจากของเซิร์ฟเวอร์ โปรดอัปเดตเกมของคุณ\n"
@@ -1351,20 +1351,6 @@
 		"Citadel_Hud_KillFeedVehicle"								"ยานพาหนะ"
 		"Citadel_Hud_KillFeedWorld"									"สภาพแวดล้อม"
 
-		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"			"{g:citadel_persona:account_id} ได้รับของตกแต่งฉลองวันหยุดปลายปีสำหรับ {s:hero_name}!"
-		"Citadel_Showcase_SeasonalAchievement2024"					"ธันวาคม 2024"
-
-		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"			"เครื่องประดับของ {s:hero_name} ถูกปลดล็อกโดย {g:citadel_persona:account_id}!"
-		"Citadel_Showcase_SeasonalAchievement2025"					"ธันวาคม 2025"
-
-		"Citadel_Hud_Toast_SeasonalKill"							"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span>ได้รับ"
-		"Citadel_Hud_Toast_SeasonalKill2"							"สังหารด้วยบอลหิมะ!"
-
-		"Citadel_Event_Holiday_Challenge2025_Title"					"การท้าทายฉลองวันหยุดปลายปี 2025"
-		"Citadel_Event_Holiday_Challenge2025_Desc"					"ชนะแมตช์ด้วยฮีโร่แต่ละตัว เพื่อรับของประดับตกแต่งสุดพิเศษสำหรับต้นคริสต์มาสในที่กบดานของคุณ"
-		"Citadel_Event_Holiday_Challenge2025_Snowball"				"อัปเกรด<span class=\"Emphasis\">บอลหิมะ</span>ที่ขว้างได้ของคุณซึ่งเป็นไอเท็มกดใช้ โดยการเพิ่มเครื่องประดับให้กับต้นคริสต์มาสของคุณ"
-		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"เลเวล {i:item_level} / {i:item_max_level}"
-
 		"Citadel_Hud_Voting_Poster_Tooltip_Header"					"เลือกภาพโปสเตอร์ของคุณ"
 		"Citadel_Hud_Voting_Poster_Tooltip_Selected"				"เลือกอยู่"
 
@@ -2418,7 +2404,7 @@
 		"Citadel_HeroBuilds_NameLabel"					"ชื่อบิลด์"
 		"Citadel_HeroBuilds_DescriptionLabel"			"คำอธิบายบิลด์"
 		"Citadel_HeroBuilds_PublishDialogVersion"		"เวอร์ชัน: {i:selected_hero_build_new_publish_version}"
-		"Citadel_HeroBuilds_BrowseBuilds"				"เบราว์เซอร์​บิลด์"
+		"Citadel_HeroBuilds_BrowseBuilds"				"เปิดหา​บิลด์"
 		"Citadel_HeroBuilds_AddToQueue"					"การซื้อด่วน"
 		"Citadel_HeroBuilds_QueueFullBuild"				"เพิ่มไอเท็มทั้งหมดในบิลด์เข้าคิวซื้อด่วน"
 		"Citadel_HeroBuilds_ExitBuilds"					"ออกจากการเปิดหา"
@@ -2747,7 +2733,7 @@
 		"modifier_citadel_holding_golden_idol"  				"นำส่งโกศ"
 		"modifier_citadel_returning_golden_idol"  				"กำลังส่งโกศ"
 		"modifier_citadel_holding_golden_idol_visible"			"ศัตรูมองเห็น"
-		"modifier_citadel_idol_pickup_disabled"					"โกศหมดเวลา"
+		"modifier_citadel_idol_pickup_disabled"					"พักการหยิบโกศ"
 		"modifier_citadel_idol_pickup_disabled_desc"			"ไม่สามารถหยิบโกศได้"
 		"modifier_knocked_off_zipline_slow"						"ถูกกระแทกออกจากซิปไลน์"
 		"modifier_citadel_respawn_credit" 						"ฟื้นคืนชีพทันที"
@@ -2851,6 +2837,9 @@
 		"citadel_hint_activate_wall" "กด {g:citadel_binding:'Attack'} เพื่อสร้างกำแพงก่อนกำหนด"
 		"citadel_hint_guided_arrow_boost" "กด {g:citadel_binding:'Attack'} ค้างไว้เพื่อบูสต์ความเร็วลูกศร"
 		"citadel_hint_flying_strike_early_activate" "กด {g:citadel_binding:'Attack'} เพื่อบินไปยังเป้าหมายของคุณก่อนกำหนด"
+
+		// Hud Hints 
+		"citadel_rejuvenator_hud_hint" "เวลาที่เหลือของรีจูวีเนเตอร์ที่มีผลอยู่ หรือเวลาก่อนมิดบอสเกิดใหม่ หากไม่มีรีจูวีเนเตอร์ที่มีผลอยู่"
 
 		//-----------------------------------------------------------------------------
 		// Breakable Prop modifiers
@@ -3249,7 +3238,7 @@
 		"citadel_settings_damage_text_cumulative_running_tooltip"		"นอกจากตัวเลขความเสียหายแต่ละครั้งแล้ว ยังแสดงความเสียหายรวมล่าสุดที่สร้างต่อเป้าหมาย โดยอัปเดตไปเรื่อย ๆ ขณะที่คุณยังสร้างความเสียหายต่อเป้าหมายนั้น"
 		"citadel_settings_damage_text_cumulative_final_tooltip"		"นอกจากตัวเลขความเสียหายแต่ละครั้งแล้ว ยังแสดงความเสียหายรวมที่สร้างต่อเป้าหมายเมื่อคุณหยุดสร้างความเสียหายต่อเป้าหมายนั้น"
 		"citadel_settings_enable_console"				"คอนโซลคำสั่งผู้พัฒนา"
-		"citadel_settings_enable_console_tooltip"		"หากคุณมีตัวเลือกการเริ่มเช่น -dev หรือ -console ซึ่งเปิดการใช้งานคอนโซล มันจะถูกเรียกใช้งานทับการตั้งค่านี้"
+		"citadel_settings_enable_console_tooltip"		"หากคุณมีตัวเลือกการเริ่มเช่น -dev หรือ -console ที่เปิดใช้งานคอนโซล ตัวเลือกเหล่านั้นจะแทนที่การตั้งค่านี้"
 		"citadel_settings_wheel_delay_desc"				"ดีเลย์วงล้อ:"
 		"citadel_settings_quick_cast_desc"				"โหมดการร่าย:"
 		"citadel_settings_quick_cast_items_desc"		"การร่ายไอเท็มกดใช้"
@@ -3980,7 +3969,7 @@
 		"citadel_keybind_popup_no_mouse_buttons"	"ไม่สามารถกำหนดปุ่มเมาส์ให้กับคำสั่งนี้ได้"
 		"citadel_keybind_popup_cancel"				"ยกเลิก"
 		"citadel_keybind_popup_confirm"				"ยืนยัน"
-		"citadel_keybind_popup_ignore_conflict"		"กำหนดปุ่มต่อไป"
+		"citadel_keybind_popup_ignore_conflict"		"ยืนยันการกำหนดปุ่ม"
 		"citadel_keybind_popup_conflict_name"		"{s:first_command}"
 		"citadel_keybind_popup_conflict_list:f"		"{s:first_command} + เพิ่มเติมอีก {d:numAdditional}"
 
@@ -4434,7 +4423,6 @@
 		"menu_tphideout"							"เทเลพอร์ตไปยังที่ซ่อน"
 		"menu_shoparea"							    "ลานค้าขาย"
 		"menu_shoparea_sub"							"สนามฝึกซ้อม"
-		"menu_seasonal_2025"						"การท้าทายฉลองวันหยุดปลายปี"
 		"menu_new_violator"							"ใหม่"
 		
 		
@@ -4804,7 +4792,7 @@
 		"HeroTesting_FastMovespeed"					"เคลื่อนที่เร็ว"
 		"HeroTesting_GameRules"						"กฎ​ของ​เกม"
 		"HeroTesting_ExtraOptions"						"ตัวเลือกเพิ่มเติม"
-		"HeroTesting_SectionCorruptedItems"				"ทำให้ไอเท็มเป็นมลทิน"
+		"HeroTesting_SectionCorruptedItems"				"ไอเท็มมลทิน"
 		"HeroTesting_SectionStreetBrawl"				"ดวลเดือดข้างถนน"
 		"HeroTesting_NoDeath"						"อมตะ"
 		"HeroTesting_NoCooldown"					"ไม่มี​คูลดาวน์"
@@ -4826,7 +4814,7 @@
 		"HeroTesting_ToggleStreetBrawl_Desc"		"เปิด/ปิดการปรับสมดุลของสกิลและไอเท็มสำหรับดวลเดือดข้างถนน"
 		"HeroTesting_ToggleEnhancedItems"			"ไอเท็มเสริมพลัง"
 		"HeroTesting_LegendaryItems"				"ไอเท็มระดับตำนาน"
-		"HeroTesting_ToggleCorruptedItems"			"ทำให้ไอเท็มเป็นมลทิน"
+		"HeroTesting_ToggleCorruptedItems"			"ไอเท็มมลทิน"
 
 		"HeroTesting_SpeedDown"						"ความเร็ว-"
 		"HeroTesting_SpeedNormal"					"ความเร็ว="
@@ -5425,7 +5413,7 @@
 		"citadel_chatwheel_message_push_walker_green"		"ดันวอล์กเกอร์กรีนิช"
 		"citadel_chatwheel_message_push_walker_purple"		"ดันวอล์กเกอร์เลนม่วง"
 		"citadel_chatwheel_message_defend_walker_yellow"	"ป้องกันวอล์กเกอร์ยอร์ก"
-		"citadel_chatwheel_message_defend_walker_blue"		"ป้องกันวอล์กเกอร์เลนบรอดเวย์"
+		"citadel_chatwheel_message_defend_walker_blue"		"ป้องกันวอล์กเกอร์บรอดเวย์"
 		"citadel_chatwheel_message_defend_walker_green"		"ป้องกันวอล์กเกอร์กรีนิช"
 		"citadel_chatwheel_message_defend_walker_purple"	"ป้องกันวอล์กเกอร์เลนม่วง"
 		"citadel_chatwheel_message_heading_to_lane_generic"	"กำลังมุ่งหน้า​ไปเลน"
@@ -5588,7 +5576,7 @@
 		"citadel_chatwheel_label_steal_farm"							"ไปฟาร์มฝั่งโน้นกันเถอะ"
 		"citadel_chatwheel_label_going_rat"								"จะไปแอบดันเลน"
 		"citadel_chatwheel_label_split_push"							"แยกกันดัน"
-		"citadel_chatwheel_label_im_leaving"							"ข้าไปล่ะ"
+		"citadel_chatwheel_label_im_leaving"							"ฉันไปก่อนนะ"
 		"citadel_chatwheel_label_overextend"							"อย่าดันเลน"
 		"citadel_chatwheel_label_enemy_stealing_farm"					"พวกมันกำลังขโมยแคมป์ของเรา!"
 		"citadel_chatwheel_label_bridge_buff_here"						"บัฟสะพาน"
@@ -5606,7 +5594,7 @@
 		"citadel_chatwheel_message_steal_farm"							"ไปฟาร์มฝั่งโน้นกันเถอะ"
 		"citadel_chatwheel_message_going_rat"							"จะไปแอบดันเลน"
 		"citadel_chatwheel_message_split_push"							"แยกกันดันเลนเถอะ"
-		"citadel_chatwheel_message_im_leaving"							"ข้าไปล่ะ"
+		"citadel_chatwheel_message_im_leaving"							"ฉันไปก่อนนะ"
 		"citadel_chatwheel_message_overextend"							"อย่าบุกลึกเกินไป!"
 		"citadel_chatwheel_message_bridge_buff_here"					"บัฟ <span class=\"highlight\">{s:param_1}</span> อยู่ที่นี่"
 
@@ -5659,9 +5647,9 @@
 		"citadel_chatwheel_message_stick_with_me"						"เกาะกลุ่มกับฉันไว้"
 
 		"citadel_chatwheel_label_im_with_you"							"ฉันอยู่กับคุณ"
-		"citadel_chatwheel_message_im_with_you"							"ข้าอยู่กับเจ้า"
+		"citadel_chatwheel_message_im_with_you"							"ฉันอยู่กับคุณ"
 		"citadel_chatwheel_label_are_you_ready"							"พร้อม?"
-		"citadel_chatwheel_message_are_you_ready"						"เจ้าพร้อมหรือยัง?"
+		"citadel_chatwheel_message_are_you_ready"						"คุณพร้อมหรือยัง?"
 
 		"citadel_chatwheel_label_ultimate_ready"						"อัลติเมทพร้อมแล้ว"
 		"citadel_chatwheel_message_ultimate_ready"						"อัลติเมทของ <span class=\"highlight\">{s:param_1}</span> พร้อมแล้ว"
@@ -5843,10 +5831,8 @@
 		"Citadel_Hideout_News"		"อ่านเกี่ยวกับเรื่องนี้ทั้งหมด"
 		"Citadel_Hideout_News_Button"		"กด {g:citadel_binding:'Interact'} เพื่อดูข่าว"
 		"Citadel_Hideout_VoiceLines"		"กด {g:citadel_binding:'Interact'} เพื่อฟังบทพูด"
-		"Citadel_Hideout_XmasGlobeEarned_Temp"		"ของที่ระลึกที่ได้รับจาก {s:hideout_owner} ในช่วงอัปเดตฤดูหนาว"
 		"Citadel_Hideout_VaultHint01"				"โจมตี​ประชิด {g:citadel_binding:'AbilityMelee'} เพื่อเก็บโซลส์"
 		"Citadel_Hideout_VaultHint02"				"โจมตี​ประชิด {g:citadel_binding:'AbilityMelee'} ระหว่างที่ไฟกะพริบเพื่อรับโบนัส โจมตี​ประชิด​รุนแรงเพื่อรับโบนัสเพิ่มมากขึ้น"
-		"Citadel_Hideout_HolidayChallenge" 		"กด {g:citadel_binding:'Interact'} เพื่อดูความคืบหน้าการท้าทายฉลองวันหยุด"
 		"Citadel_Hideout_HeavyCrate"		"กด {g:citadel_binding:'AbilityMelee'} ค้างไว้เพื่อทุบให้แตกด้วยการโจมตี​ประชิด​รุนแรง"
 
 		"citadel_keybind_hideout_use"					"โต้ตอบกับวัตถุในที่กบดาน"
@@ -5935,7 +5921,6 @@
 		"Citadel_Subtitles_Message_IconAndName"		"<child id='SpeakerIcon' /><b>{s:subtitle_actor}</b>: {s:subtitle_text}"
 		"Citadel_Subtitles_Message_Icon"			"<child id='SpeakerIcon' />: {s:subtitle_text}"
 		"npc_newscaster"							"ผู้ประกาศข่าว"
-		"npc_seasonal"								"ผู้ประกาศข่าว"
 		"npc_shopkeeper"							"ตัวแทนจำหน่ายสินค้าน่าพิศวง"
 		"npc_broker"								"โบรกเกอร์"
 		"npc_spirit_jar"							"โกศเก็บวิญญาณ"
@@ -6103,7 +6088,9 @@
 		"map_district_building_campus"			"วิทยาเขต"
 		"map_district_building_belltower"		"หอระฆัง"
 
-
+		// Halloween
+		"AbilityButtonHint_HalloweenTroll"		"โทรลล์หลอกหรือเลี้ยง - โจมตีประชิดรุนแรงเพื่อแจกลูกกวาด"
+		"AbilityButtonHint_HalloweenCauldron"		"โจมตี​ประชิด​รุนแรงเพื่อรับลูกกวาด"
 	}
 }
 

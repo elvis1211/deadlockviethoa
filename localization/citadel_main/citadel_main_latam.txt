@@ -1351,20 +1351,6 @@
 		"Citadel_Hud_KillFeedVehicle"								"Vehículo"
 		"Citadel_Hud_KillFeedWorld"									"Global"
 
-		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"			"¡{g:citadel_persona:account_id} obtuvo alegría navideña para {s:hero_name}!"
-		"Citadel_Showcase_SeasonalAchievement2024"					"Diciembre de 2024"
-
-		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"			"¡{g:citadel_persona:account_id} desbloqueó un adorno de {s:hero_name}!"
-		"Citadel_Showcase_SeasonalAchievement2025"					"Diciembre de 2025"
-
-		"Citadel_Hud_Toast_SeasonalKill"							"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span> obtuvo una"
-		"Citadel_Hud_Toast_SeasonalKill2"							"víctima por bola de nieve!"
-
-		"Citadel_Event_Holiday_Challenge2025_Title"					"Desafío navideño 2025"
-		"Citadel_Event_Holiday_Challenge2025_Desc"					"Gana una partida con cada héroe para recibir un adorno exclusivo para tu árbol del Escondite."
-		"Citadel_Event_Holiday_Challenge2025_Snowball"				"Agrega más adornos al árbol para mejorar la <span class=\"Emphasis\">bola de nieve</span> que tengas lista para lanzar."
-		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"Nivel {i:item_level} / {i:item_max_level}"
-
 		"Citadel_Hud_Voting_Poster_Tooltip_Header"					"Elige tu póster"
 		"Citadel_Hud_Voting_Poster_Tooltip_Selected"				"Seleccionado"
 
@@ -2851,6 +2837,9 @@
 		"citadel_hint_activate_wall" "Presiona {g:citadel_binding:'Attack'} para crear el muro anticipadamente."
 		"citadel_hint_guided_arrow_boost" "Mantén presionado {g:citadel_binding:'Attack'} para acelerar la velocidad de la flecha."
 		"citadel_hint_flying_strike_early_activate" "Presiona {g:citadel_binding:'Attack'} para volar hasta tu objetivo anticipadamente."
+
+		// Hud Hints 
+		"citadel_rejuvenator_hud_hint" "El tiempo restante de los rejuvenecedores activos o, en el caso de que no haya ninguno activo, el restante para que aparezca el jefe central."
 
 		//-----------------------------------------------------------------------------
 		// Breakable Prop modifiers
@@ -4434,7 +4423,6 @@
 		"menu_tphideout"							"Teletransportar al Escondite"
 		"menu_shoparea"							    "El atrio"
 		"menu_shoparea_sub"							"Rango de práctica"
-		"menu_seasonal_2025"						"Desafío navideño "
 		"menu_new_violator"							"Nuevo"
 		
 		
@@ -5843,10 +5831,8 @@
 		"Citadel_Hideout_News"		"Conoce todos los detalles"
 		"Citadel_Hideout_News_Button"		"Presiona {g:citadel_binding:'Interact'} para ver las noticias"
 		"Citadel_Hideout_VoiceLines"		"Presiona {g:citadel_binding:'Interact'} para escuchar las líneas de voz"
-		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Recuerdo obtenido por {s:hideout_owner} durante la actualización de invierno"
 		"Citadel_Hideout_VaultHint01"				"{g:citadel_binding:'AbilityMelee'} Usa el ataque cuerpo a cuerpo para obtener almas"
 		"Citadel_Hideout_VaultHint02"				"{g:citadel_binding:'AbilityMelee'} Usa el ataque cuerpo a cuerpo mientras parpadeen las luces para obtener bonificaciones. Usa el ataque cuerpo a cuerpo pesado para obtener aún más"
-		"Citadel_Hideout_HolidayChallenge" 		"Presiona {g:citadel_binding:'Interact'} para ver el progreso del Desafío navideño"
 		"Citadel_Hideout_HeavyCrate"		"Mantener presionado {g:citadel_binding:'AbilityMelee'} para romper con un ataque cuerpo a cuerpo pesado"
 
 		"citadel_keybind_hideout_use"					"Interactuar con un objeto del Escondite"
@@ -5935,7 +5921,6 @@
 		"Citadel_Subtitles_Message_IconAndName"		"<child id='SpeakerIcon' /><b>{s:subtitle_actor}</b>: {s:subtitle_text}"
 		"Citadel_Subtitles_Message_Icon"			"<child id='SpeakerIcon' />: {s:subtitle_text}"
 		"npc_newscaster"							"Presentador de noticias"
-		"npc_seasonal"								"Presentador de noticias"
 		"npc_shopkeeper"							"Comerciante de curiosidades"
 		"npc_broker"								"Agente"
 		"npc_spirit_jar"							"Urna de almas"
@@ -6103,7 +6088,9 @@
 		"map_district_building_campus"			"Campus"
 		"map_district_building_belltower"		"Campanario"
 
-
+		// Halloween
+		"AbilityButtonHint_HalloweenTroll"		"Triqui triqui trol: Usa el ataque cuerpo a cuerpo pesado para dar dulces"
+		"AbilityButtonHint_HalloweenCauldron"		"Usa el ataque cuerpo a cuerpo pesado para obtener dulces"
 	}
 }
 

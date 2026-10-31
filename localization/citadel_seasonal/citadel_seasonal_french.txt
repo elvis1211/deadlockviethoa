@@ -1,0 +1,37 @@
+﻿"lang"
+{
+	"Language"		"french"
+	"Tokens"
+	{
+		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"		"{g:citadel_persona:account_id} a conjuré l'esprit des fêtes avec {s:hero_name} !"
+		"Citadel_Showcase_SeasonalAchievement2024"		"Décembre 2024"
+		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"		"Décoration de {s:hero_name} débloquée par {g:citadel_persona:account_id} !"
+		"Citadel_Showcase_SeasonalAchievement2025"		"Décembre 2025"
+		"Citadel_Hud_Toast_SeasonalKill"		"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span> a fait"
+		"Citadel_Hud_Toast_SeasonalKill2"		"une victime avec une boule de neige !"
+		"Citadel_Event_Holiday_Challenge2025_Title"		"Défi des fêtes de fin d'année 2025"
+		"Citadel_Event_Holiday_Challenge2025_Desc"		"Remportez une partie avec chaque occultiste pour recevoir une décoration unique pour le sapin de votre planque."
+		"Citadel_Event_Holiday_Challenge2025_Snowball"		"Améliorez votre <span class=\"Emphasis\">boule de neige</span> en ajoutant des décorations à votre sapin."
+		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"Niveau {i:item_level} / {i:item_max_level}"
+		"menu_seasonal_2025"		"Défi des fêtes"
+		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Souvenir gagné par {s:hideout_owner} lors de la mise à jour hivernale"
+		"Citadel_Hideout_HolidayChallenge"		"Appuyez sur {g:citadel_binding:'Interact'} pour voir la progression du Défi des fêtes"
+		"halloween_candy_pickup_label"		"Bonbon"
+		"modifier_halloween_candy_sugar_rush"		"Poussée de sucre"
+		"Citadel_Hideout_HalloweenCauldron"		"Chaudron à bonbons : maintenez {g:citadel_binding:'AbilityMelee'} enfoncé pour le fracasser et obtenir des bonbons"
+		"npc_seasonal"		"Présentateur"
+
+		"cosmetic_ability_snowball"		"Boule de neige"
+		"cosmetic_ability_snowball_desc"		"Lancez des boules de neige sur les occultistes de votre équipe et ceux de l'équipe adverse. Certaines propriétés, telles que votre portée, s'améliorent selon votre progression dans le <span class=\"highlight\">Défi des fêtes de 2025</span>.<br><br><span class=\"diminish\">Les boules de neige lancées sur vos partenaires n'infligent pas de dégâts et elles réinitialisent le temps de récupération.</span>"
+		"SnowballSpeed_label"		"Vitesse de lancer"
+		"SnowballSpeed_postvalue_label"		"Vélocité"
+		"SnowballSpeed_postfix"		" m/s"
+		"SnowballCount_label"		"Boules de neige lancées"
+		"SnowballCount_postvalue_label"		"Projectiles"
+		"seasonal_ability_eat_halloween_candy"		"Manger un bonbon"
+		"seasonal_ability_eat_halloween_candy_desc"		"Mangez un bonbon pour vous soigner, restaurer de l'endurance et obtenir l'effet positif <span class=\"highlight\">Poussée de sucre</span>.<br><br><span class=\"diminish\">Les statistiques de soin et de Poussée de sucre deviennent plus puissantes au fil de la partie.</span>"
+
+		"HalloweenCandy_label"		"Charges :"
+		"HalloweenCandy_postvalue_label"		"Charges :"
+	}
+}

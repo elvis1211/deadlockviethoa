@@ -1,0 +1,37 @@
+﻿"lang"
+{
+	"Language"		"english"
+	"Tokens"
+	{
+		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"		"{g:citadel_persona:account_id} đã nhận phần thưởng lễ hội cho {s:hero_name}!"
+		"Citadel_Showcase_SeasonalAchievement2024"		"Tháng 12/2024"
+		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"		"{g:citadel_persona:account_id} đã mở khóa vật trang trí của {s:hero_name}!"
+		"Citadel_Showcase_SeasonalAchievement2025"		"Tháng 12/2025"
+		"Citadel_Hud_Toast_SeasonalKill"		"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span> đã có một"
+		"Citadel_Hud_Toast_SeasonalKill2"		"Pha hạ gục bằng cầu tuyết!"
+		"Citadel_Event_Holiday_Challenge2025_Title"		"Thử thách lễ hội 2025"
+		"Citadel_Event_Holiday_Challenge2025_Desc"		"Thắng một trận với mỗi tướng để nhận vật trang trí riêng cho cây thông trong Hideout."
+		"Citadel_Event_Holiday_Challenge2025_Snowball"		"Nâng cấp vật phẩm kích hoạt <span class=\"Emphasis\">Snowball</span> bằng cách thêm đồ trang trí lên cây thông."
+		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"Cấp {i:item_level} / {i:item_max_level}"
+		"menu_seasonal_2025"		"Thử thách lễ hội"
+		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Quà lưu niệm do {s:hideout_owner} nhận trong bản cập nhật mùa đông"
+		"Citadel_Hideout_HolidayChallenge"		"Nhấn {g:citadel_binding:'Interact'} để xem tiến độ thử thách lễ hội"
+		"halloween_candy_pickup_label"		"Kẹo"
+		"modifier_halloween_candy_sugar_rush"		"Sugar Rush"
+		"Citadel_Hideout_HalloweenCauldron"		"Vạc kẹo: Giữ {g:citadel_binding:'AbilityMelee'} để đập vạc và nhận kẹo"
+		"npc_seasonal"		"Phát thanh viên"
+
+		"cosmetic_ability_snowball"		"Snowball"
+		"cosmetic_ability_snowball_desc"		"Ném Snowball vào bạn bè hoặc kẻ địch. Tầm ném và các chỉ số khác sẽ tăng khi bạn hoàn thành <span class=\"highlight\">Thử thách lễ hội 2025</span>.<br><br><span class=\"diminish\">Ném Snowball trúng đồng minh không gây sát thương và đặt lại hồi chiêu.</span>"
+		"SnowballSpeed_label"		"Tốc độ ném"
+		"SnowballSpeed_postvalue_label"		"Vận tốc"
+		"SnowballSpeed_postfix"		"m/s"
+		"SnowballCount_label"		"Số Snowball đã ném"
+		"SnowballCount_postvalue_label"		"Vật thể được phóng"
+		"seasonal_ability_eat_halloween_candy"		"Ăn kẹo"
+		"seasonal_ability_eat_halloween_candy_desc"		"Ăn một viên kẹo để hồi máu, hồi thể lực và nhận buff <span class=\"highlight\">Sugar Rush</span>.<br><br><span class=\"diminish\">Hiệu quả hồi máu và chỉ số Sugar Rush tăng dần theo thời gian trận đấu.<br><br>Bị đánh cận chiến mạnh sẽ làm rơi một ít kẹo.</span>"
+
+		"HalloweenCandy_label"		"Số cộng dồn:"
+		"HalloweenCandy_postvalue_label"		"Số cộng dồn:"
+	}
+}

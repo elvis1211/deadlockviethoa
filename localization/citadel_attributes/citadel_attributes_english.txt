@@ -45,7 +45,7 @@
 		"Citadel_StatusEffectInvisible"			"Tàng hình"
 		"Citadel_StatusEffectPetrify"			"Petrify"
 		"Citadel_StatusEffectCustomDebuff"		"Debuff"
-		//"Citadel_StatusEffectStacks"			"Stacks "
+		//"Citadel_StatusEffectStacks"			"Stacks"
 		"Citadel_StatusEffectInfiniteClip"		"Đạn vô hạn"
 		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
 		//"Citadel_StatusEffectBuff"				"Buff"
@@ -80,6 +80,7 @@
 		//"modifier_invis_start_delay" 			"Entering Stealth"
 		//"modifier_invis_fading"					"Fading"
 		//"modifier_camouflage_invis"				"Camouflaged"
+		"modifier_citadel_sleep"				"Đang ngủ"
 		"modifier_citadel_silenced"				"Silenced"
 		"silencer_immune"						"Silencer Immune"
 		//"modifier_citadel_muted"				"Muted"
@@ -218,8 +219,8 @@
 		"StatDesc_MaxChargesIncrease"					"Tối đa Lượt dùng Tăng"
 		"StatDesc_MaxChargesIncrease_postvalue_label"					"Tối đa Lượt dùng Tăng"
 		//"StatDesc_RechargeRate"							"Recharge Rate"
-		"StatDesc_TechDuration"							"Thời gian kỹ năng"
-		"StatDesc_TechDuration_postvalue_label"							"Thời gian kỹ năng"
+		"StatDesc_TechDuration"							"Thời lượng kỹ năng"
+		"StatDesc_TechDuration_postvalue_label"							"Thời lượng kỹ năng"
 		"StatDesc_TechDuration_postfix"					"%"
 		"StatDesc_WeaponPowerAttribute"					"Sát thương vũ khí"
 		"StatDesc_WeaponPowerAttribute_postvalue_label"					"Sát thương vũ khí"
@@ -267,8 +268,8 @@
 		"StatDesc_StaminaRegenIncrease"					"Hồi thể lực"
 		"StatDesc_StaminaRegenIncrease_postvalue_label"					"Hồi thể lực"
 		"StatDesc_StaminaRegenIncrease_postfix"			"%"
-		"StatDesc_DebuffResist"							"Kháng Debuff"
-		"StatDesc_DebuffResist_postvalue_label"							"Kháng Debuff"
+		"StatDesc_DebuffResist"							"Kháng hiệu ứng"
+		"StatDesc_DebuffResist_postvalue_label"							"Kháng hiệu ứng"
 		"StatDesc_DebuffResist_postfix"					"%"
 		"StatDesc_HealingOutput"						"Hồi máu gây ra"
 		"StatDesc_HealingOutput_postvalue_label"						"Hồi máu gây ra"
@@ -295,17 +296,17 @@
 		//"StatDesc_DefensePower"							"Defense Power"
 
 		"StatDesc_TechLifesteal_prefix"					"{s:sign}"
-		"StatDesc_TechLifesteal"						"Spirit Lifesteal"
-		"StatDesc_TechLifesteal_postvalue_label"						"Spirit Lifesteal"
+		"StatDesc_TechLifesteal"						"Hút máu phép thuật"
+		"StatDesc_TechLifesteal_postvalue_label"						"Hút máu phép thuật"
 		"StatDesc_TechLifesteal_postfix"				"%"
 
 		"StatDesc_TechLifestealNonHero_prefix"			"{s:sign}"
-		"StatDesc_TechLifestealNonHero"					"Hút máu phép lên mục tiêu không phải tướng"
-		"StatDesc_TechLifestealNonHero_postvalue_label"					"Hút máu phép lên mục tiêu không phải tướng"
+		"StatDesc_TechLifestealNonHero"					"Hút máu phép thuật lên mục tiêu không phải tướng"
+		"StatDesc_TechLifestealNonHero_postvalue_label"					"Hút máu phép thuật lên mục tiêu không phải tướng"
 
 		"StatDesc_BulletLifesteal_prefix"					"{s:sign}"
-		"StatDesc_BulletLifesteal"						"Bullet Lifesteal"
-		"StatDesc_BulletLifesteal_postvalue_label"						"Bullet Lifesteal"
+		"StatDesc_BulletLifesteal"						"Hút máu đạn"
+		"StatDesc_BulletLifesteal_postvalue_label"						"Hút máu đạn"
 		"StatDesc_BulletLifesteal_postfix"				"%"
 
 		"StatDesc_StaminaRegenPercent"						"Hồi thể lực"
@@ -499,12 +500,12 @@
 		"MODIFIER_VALUE_BASEATTACK_DAMAGE_postvalue_label"						"Sát thương cơ bản"
 
 		"BonusHealth_prefix"							"{s:sign}"
-		"BonusHealth_label"							"Cộng thêm Máu"
-		"BonusHealth_postvalue_label"							"Cộng thêm Máu"
+		"BonusHealth_label"							"Máu cộng thêm"
+		"BonusHealth_postvalue_label"							"Máu cộng thêm"
 
 		"MODIFIER_VALUE_HEALTH_MAX_prefix"							"{s:sign}"
-		"MODIFIER_VALUE_HEALTH_MAX_label"							"Cộng thêm Máu"
-		"MODIFIER_VALUE_HEALTH_MAX_postvalue_label"							"Cộng thêm Máu"
+		"MODIFIER_VALUE_HEALTH_MAX_label"							"Máu cộng thêm"
+		"MODIFIER_VALUE_HEALTH_MAX_postvalue_label"							"Máu cộng thêm"
 
 		"SpiritPowerInnate_prefix"							"{s:sign}"
 		"SpiritPowerInnate_label"							"Sức mạnh phép thuật"
@@ -807,8 +808,8 @@
 		"MODIFIER_VALUE_MOVEMENT_SPEED_MAX_PERCENT_postvalue_label"					"Tốc độ di chuyển"
 
 		"SlowResistancePercent_prefix"					"{s:sign}"
-		"SlowResistancePercent_label"					"Slow Kháng"
-		"SlowResistancePercent_postvalue_label"					"Slow Kháng"
+		"SlowResistancePercent_label"					"Kháng làm chậm"
+		"SlowResistancePercent_postvalue_label"					"Kháng làm chậm"
 		"SlowResistancePercent_postfix"					"%"
 
 		"AirSpeedBonus_label"						"Tốc độ trên không cộng thêm"
@@ -982,10 +983,10 @@
 		"PoisonDuration_postfix"							"s"
 
 
-		"DebuffDuration_label"						"Thời gian Debuff"
+		"DebuffDuration_label"						"Thời gian hiệu ứng"
 
 
-		"DebuffDuration_postvalue_label"						"Thời gian Debuff"
+		"DebuffDuration_postvalue_label"						"Thời gian hiệu ứng"
 		"DebuffDuration_postfix"						"s"
 
 		"DotHealthPercent_label"						"Sát thương Bleed"
@@ -1120,28 +1121,28 @@
 		"TotalHealthRegen_postvalue_label"						"Tổng Máu Hồi phục"
 
 		"StatusResistancePercent_prefix"				"{s:sign}"
-		"StatusResistancePercent_label"				"Kháng Debuff"
-		"StatusResistancePercent_postvalue_label"				"Kháng Debuff"
+		"StatusResistancePercent_label"				"Kháng hiệu ứng"
+		"StatusResistancePercent_postvalue_label"				"Kháng hiệu ứng"
 		"StatusResistancePercent_postfix"				"%"
 
 		"InnateStatusResistancePercent_prefix"				"{s:sign}"
-		"InnateStatusResistancePercent_label"				"Kháng Debuff"
-		"InnateStatusResistancePercent_postvalue_label"				"Kháng Debuff"
+		"InnateStatusResistancePercent_label"				"Kháng hiệu ứng"
+		"InnateStatusResistancePercent_postvalue_label"				"Kháng hiệu ứng"
 		"InnateStatusResistancePercent_postfix"				"%"
 
 		"FervorStatusResistancePercent_prefix"				"{s:sign}"
-		"FervorStatusResistancePercent_label"				"Kháng Debuff"
-		"FervorStatusResistancePercent_postvalue_label"				"Kháng Debuff"
+		"FervorStatusResistancePercent_label"				"Kháng hiệu ứng"
+		"FervorStatusResistancePercent_postvalue_label"				"Kháng hiệu ứng"
 		"FervorStatusResistancePercent_postfix"				"%"
 
 		"MODIFIER_VALUE_STATUS_RESISTANCE_prefix"				"{s:sign}"
-		"MODIFIER_VALUE_STATUS_RESISTANCE_label"				"Kháng Debuff"
-		"MODIFIER_VALUE_STATUS_RESISTANCE_postvalue_label"				"Kháng Debuff"
+		"MODIFIER_VALUE_STATUS_RESISTANCE_label"				"Kháng hiệu ứng"
+		"MODIFIER_VALUE_STATUS_RESISTANCE_postvalue_label"				"Kháng hiệu ứng"
 		"MODIFIER_VALUE_STATUS_RESISTANCE_postfix"				"%"
 
-		"StatusResistanceDuration_label"				"Thời gian"
+		"StatusResistanceDuration_label"				"Thời gian hiệu lực"
 
-		"StatusResistanceDuration_postvalue_label"				"Thời gian"
+		"StatusResistanceDuration_postvalue_label"				"Thời gian hiệu lực"
 		"StatusResistanceDuration_postfix"				"s"
 
 		"CleavePercentage_prefix"						"{s:sign}"
@@ -1182,23 +1183,23 @@
 		"LifestealPercentNonHero_postvalue_label"					"Hút máu lên mục tiêu không phải tướng"
 		"LifestealPercentNonHero_postfix"				"%"
 
-		"AbilityLifestealDuration_label"				"Kỹ năng Hút máu Thời gian"
-		"AbilityLifestealDuration_postvalue_label"		"Kỹ năng Hút máu Thời gian"
+		"AbilityLifestealDuration_label"				"Thời gian hút máu phép thuật"
+		"AbilityLifestealDuration_postvalue_label"		"Thời gian hút máu phép thuật"
 		"AbilityLifestealDuration_postfix"				"s"
 
 		"BulletLifestealPercent_prefix"						"{s:sign}"
-		"BulletLifestealPercent_label"					"Bullet Lifesteal"
-		"BulletLifestealPercent_postvalue_label"					"Bullet Lifesteal"
+		"BulletLifestealPercent_label"					"Hút máu đạn"
+		"BulletLifestealPercent_postvalue_label"					"Hút máu đạn"
 		"BulletLifestealPercent_postfix"				"%"
 
 		"MODIFIER_VALUE_BULLET_LIFESTEAL_prefix"						"{s:sign}"
-		"MODIFIER_VALUE_BULLET_LIFESTEAL_label"					"Bullet Lifesteal"
-		"MODIFIER_VALUE_BULLET_LIFESTEAL_postvalue_label"					"Bullet Lifesteal"
+		"MODIFIER_VALUE_BULLET_LIFESTEAL_label"					"Hút máu đạn"
+		"MODIFIER_VALUE_BULLET_LIFESTEAL_postvalue_label"					"Hút máu đạn"
 		"MODIFIER_VALUE_BULLET_LIFESTEAL_postfix"				"%"
 
 		"TechLifestealPercent_prefix"					"{s:sign}"
-		"TechLifestealPercent_label"						"Spirit Lifesteal"
-		"TechLifestealPercent_postvalue_label"						"Spirit Lifesteal"
+		"TechLifestealPercent_label"						"Hút máu phép thuật"
+		"TechLifestealPercent_postvalue_label"						"Hút máu phép thuật"
 		"TechLifestealPercent_postfix"					"%"
 
 		"MeleeLifestealPercent_prefix"						"{s:sign}"
@@ -1218,15 +1219,15 @@
 
 		"MinStunDuration_prefix"						""
 		"MinStunDuration_postfix"						"s"
-		"MinStunDuration_label"							"Tối thiểu Stun Thời gian"
+		"MinStunDuration_label"							"Thời gian choáng tối thiểu"
 
-		"MinStunDuration_postvalue_label"							"Tối thiểu Stun Thời gian"
+		"MinStunDuration_postvalue_label"							"Thời gian choáng tối thiểu"
 
 		"MaxStunDuration_prefix"						""
 		"MaxStunDuration_postfix"						"s"
-		"MaxStunDuration_label"							"Tối đa Stun Thời gian"
+		"MaxStunDuration_label"							"Thời gian choáng tối đa"
 
-		"MaxStunDuration_postvalue_label"				"Tối đa Stun Thời gian"
+		"MaxStunDuration_postvalue_label"				"Thời gian choáng tối đa"
 
 		"DazeDuration_label"							"Thời gian Daze"
 		"DazeDuration_postvalue_label"					"Thời gian Daze"
@@ -1419,23 +1420,23 @@
 		"BulletDamagePercent_postfix"					"%"
 
 		"AbilityLifestealPercent_prefix"					"{s:sign}"
-		"AbilityLifestealPercent_label"				"Spirit Lifesteal"
-		"AbilityLifestealPercent_postvalue_label"				"Spirit Lifesteal"
+		"AbilityLifestealPercent_label"				"Hút máu phép thuật"
+		"AbilityLifestealPercent_postvalue_label"				"Hút máu phép thuật"
 		"AbilityLifestealPercent_postfix"				"%"
 		
 		"AbilityLifestealPercentHero_prefix"					"{s:sign}"
-		"AbilityLifestealPercentHero_label"				"Spirit Lifesteal"
-		"AbilityLifestealPercentHero_postvalue_label"				"Spirit Lifesteal"
+		"AbilityLifestealPercentHero_label"				"Hút máu phép thuật"
+		"AbilityLifestealPercentHero_postvalue_label"				"Hút máu phép thuật"
 		"AbilityLifestealPercentHero_postfix"			"%"
 
 		"MODIFIER_VALUE_TECH_LIFESTEAL_prefix"					"{s:sign}"
-		"MODIFIER_VALUE_TECH_LIFESTEAL_label"				"Spirit Lifesteal"
-		"MODIFIER_VALUE_TECH_LIFESTEAL_postvalue_label"				"Spirit Lifesteal"
+		"MODIFIER_VALUE_TECH_LIFESTEAL_label"				"Hút máu phép thuật"
+		"MODIFIER_VALUE_TECH_LIFESTEAL_postvalue_label"				"Hút máu phép thuật"
 		"MODIFIER_VALUE_TECH_LIFESTEAL_postfix"			"%"
 		
 		"AbilityLifestealPercentHeroPassive_prefix"					"{s:sign}"
-		"AbilityLifestealPercentHeroPassive_label"				"Spirit Lifesteal"
-		"AbilityLifestealPercentHeroPassive_postvalue_label"				"Spirit Lifesteal"
+		"AbilityLifestealPercentHeroPassive_label"				"Hút máu phép thuật"
+		"AbilityLifestealPercentHeroPassive_postvalue_label"				"Hút máu phép thuật"
 		"AbilityLifestealPercentHeroPassive_postfix"			"%"
 
 		"AbilityLifestealPercentNonHero_prefix"					"{s:sign}"
@@ -1443,9 +1444,9 @@
 		"AbilityLifestealPercentNonHero_postvalue_label"			"Hút máu phép lên mục tiêu không phải tướng"
 		"AbilityLifestealPercentNonHero_postfix"		"%"
 
-		"RegenDuration_label"							"Hồi phục Thời gian"
+		"RegenDuration_label"							"Thời gian hồi phục"
 
-		"RegenDuration_postvalue_label"							"Hồi phục Thời gian"
+		"RegenDuration_postvalue_label"							"Thời gian hồi phục"
 		"RegenDuration_postfix"							"s"
 
 		//"SpreadDuration_label"						"Spread Duration: "
@@ -1800,9 +1801,9 @@
 		"HealthDrainedPerSecond_postvalue_label"				"Hút máu dần"
 		"HealthDrainedPerSecond_postfix"				"/s"
 
-		"DebuffDurationReductionPercentage_label"		"Debuff Thời gian Giảm"
+		"DebuffDurationReductionPercentage_label"		"Giảm thời gian hiệu ứng"
 
-		"DebuffDurationReductionPercentage_postvalue_label"		"Debuff Thời gian Giảm"
+		"DebuffDurationReductionPercentage_postvalue_label"		"Giảm thời gian hiệu ứng"
 		"DebuffDurationReductionPercentage_postfix"		"%"
 
 		//"HealthCost_label"							"Health Cost"
@@ -1866,7 +1867,6 @@
 
 		"CurrentBonus_label"							"Cộng thêm hiện tại:"
 		"CurrentBonus_postvalue_label"					"Cộng thêm hiện tại:"
-
 
 		//"TimeToMaxStacks_label"							"Time To Max Stacks"
 		"TimeToMaxStacks_postfix"						"s"
@@ -1951,9 +1951,9 @@
 		"AbilityChargeUpTime_postfix"	"s"
 
 		"AbilityDuration_postfix"						"s"
-		"AbilityDuration_label"						"Thời gian"
+		"AbilityDuration_label"						"Thời gian hiệu lực"
 
-		"AbilityDuration_postvalue_label"						"Thời gian"
+		"AbilityDuration_postvalue_label"						"Thời gian hiệu lực"
 
 		"TetherDuration_postfix"					"s"
 		"TetherDuration_label"						"Thời gian Tether"
@@ -1992,28 +1992,28 @@
 		
 		
 		"BonusAbilityDurationPercent_prefix"			"{s:sign}"
-		"BonusAbilityDurationPercent_label"				"Thời gian kỹ năng"
-		"BonusAbilityDurationPercent_postvalue_label"				"Thời gian kỹ năng"
+		"BonusAbilityDurationPercent_label"				"Thời lượng kỹ năng"
+		"BonusAbilityDurationPercent_postvalue_label"				"Thời lượng kỹ năng"
 		"BonusAbilityDurationPercent_postfix"			"%"		
 				
 		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_prefix"			"{s:sign}"
-		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_label"				"Thời gian kỹ năng"
-		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_postvalue_label"				"Thời gian kỹ năng"
+		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_label"				"Thời lượng kỹ năng"
+		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_postvalue_label"				"Thời lượng kỹ năng"
 		"MODIFIER_VALUE_BONUS_ABILITY_DURATION_PERCENTAGE_postfix"			"%"		
 		
 		"NonImbuedBonusDuration_prefix"				"{s:sign}"
-		"NonImbuedBonusDuration_label"				"Chưa cường hóa Kỹ năng Thời gian"
-		"NonImbuedBonusDuration_postvalue_label"				"Chưa cường hóa Kỹ năng Thời gian"
+		"NonImbuedBonusDuration_label"				"Thời lượng kỹ năng chưa cường hóa"
+		"NonImbuedBonusDuration_postvalue_label"				"Thời lượng kỹ năng chưa cường hóa"
 		"NonImbuedBonusDuration_postfix"			"%"		
 		
 		"ImbuedBonusDuration_prefix"					"{s:sign}"
-		"ImbuedBonusDuration_label"						"Đã cường hóa Kỹ năng Thời gian"
-		"ImbuedBonusDuration_postvalue_label"						"Đã cường hóa Kỹ năng Thời gian"
+		"ImbuedBonusDuration_label"						"Thời lượng kỹ năng cường hóa"
+		"ImbuedBonusDuration_postvalue_label"						"Thời lượng kỹ năng cường hóa"
 		"ImbuedBonusDuration_postfix"					"%"
 
 		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_prefix"					"{s:sign}"
-		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_label"						"Đã cường hóa Kỹ năng Thời gian"
-		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_postvalue_label"						"Đã cường hóa Kỹ năng Thời gian"
+		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_label"						"Thời lượng kỹ năng cường hóa"
+		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_postvalue_label"						"Thời lượng kỹ năng cường hóa"
 		"MODIFIER_VALUE_IMBUED_BONUS_DURATION_postfix"					"%"
 
 		"MissCooldown_postfix"							"s"
@@ -2309,9 +2309,9 @@
 		//"ShieldPercentage_label"						"Shield Max Health %"
 		"ShieldPercentage_postfix"						"% máu tối đa"
 
-		"ShieldDuration_label"							"Lá chắn Thời gian"
+		"ShieldDuration_label"							"Thời gian lá chắn"
 
-		"ShieldDuration_postvalue_label"							"Lá chắn Thời gian"
+		"ShieldDuration_postvalue_label"							"Thời gian lá chắn"
 		"ShieldDuration_postfix"						"s"
 
 		"SlowRadius_label"								"Slow Bán kính"
@@ -2531,14 +2531,14 @@
 		"MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER_postvalue_label"	"Sát thương"
 		"MODIFIER_VALUE_TECH_DAMAGE_MULTIPLIER_Postfix"	"%"
 		
-		"DelayDuration_Label"	"Độ trễ Thời gian"
-		"DelayDuration_postvalue_label"	"Độ trễ Thời gian"
+		"DelayDuration_Label"	"Thời gian trễ"
+		"DelayDuration_postvalue_label"	"Thời gian trễ"
 		"DelayDuration_Postfix"	"s"
 		//"MinimumDamage_Label"	"Minimum Damage"
 
-		"EMPDuration_label"				"Thời gian Debuff"
+		"EMPDuration_label"				"Thời gian hiệu ứng"
 
-		"EMPDuration_postvalue_label"				"Thời gian Debuff"
+		"EMPDuration_postvalue_label"				"Thời gian hiệu ứng"
 		"EMPDuration_postfix"			"s"
 
 		//"BonusBulletDamageToEMPTargets_label" "Bullet Damage to Silenced targets"
@@ -2608,9 +2608,9 @@
 		//"SiphonRadius_label"					"Activate Radius"
 		"SiphonRadius_postfix"				"m"
 
-		"TechResistDuration_label"			"Thời gian"
+		"TechResistDuration_label"			"Thời gian hiệu lực"
 
-		"TechResistDuration_postvalue_label"			"Thời gian"
+		"TechResistDuration_postvalue_label"			"Thời gian hiệu lực"
 		"TechResistDuration_postfix"			"s"
 
 		"BleedTechResist_label"				"Kháng phép"
@@ -2620,8 +2620,8 @@
 		"BleedTechResist_postfix"				"%"
 
 		//"StackProcDamage_label"			"Burst Damage"
-		"StackDuration_label"				"cộng dồn Thời gian"
-		"StackDuration_postvalue_label"				"cộng dồn Thời gian"
+		"StackDuration_label"				"Thời gian cộng dồn"
+		"StackDuration_postvalue_label"				"Thời gian cộng dồn"
 		"StackDuration_postfix"			"s"
 
 		"HeadShotBonusDamage_prefix"		"{s:sign}"
@@ -2728,8 +2728,8 @@
 		"BonusSpirit_label"				"Sức mạnh phép thuật"
 		"BonusSpirit_postvalue_label"				"Sức mạnh phép thuật"
 		"BonusSpiritLifesteal_prefix"				"{s:sign}"
-		"BonusSpiritLifesteal_label"				"Spirit Lifesteal"
-		"BonusSpiritLifesteal_postvalue_label"				"Spirit Lifesteal"
+		"BonusSpiritLifesteal_label"				"Hút máu phép thuật"
+		"BonusSpiritLifesteal_postvalue_label"				"Hút máu phép thuật"
 		"BonusSpiritLifesteal_postfix"			"%"
 		//"modifier_power_shard_bonus"		"Echo Boost"
 
@@ -2776,9 +2776,9 @@
 
 		"ImbuedTechPower_postvalue_label"						"Đã cường hóa Kỹ năng Sức mạnh phép"
 
-		"MovementSpeedBonusDuration_label"			"Tốc độ di chuyển Thời gian"
+		"MovementSpeedBonusDuration_label"			"Thời gian tăng tốc độ di chuyển"
 
-		"MovementSpeedBonusDuration_postvalue_label"			"Tốc độ di chuyển Thời gian"
+		"MovementSpeedBonusDuration_postvalue_label"			"Thời gian tăng tốc độ di chuyển"
 		"MovementSpeedBonusDuration_postfix"		"s"
 
 		//"EnemyLifeThreshold_label"					"Threshold"
@@ -3124,6 +3124,10 @@
 		"GravityScale_label"					"Hệ số trọng lực"
 		"GravityScale_postvalue_label"			"Hệ số trọng lực"
 		"GravityScale_postfix"					"%"
+		"GravityScaleIncrease_label"			"Trọng lực"
+		"GravityScaleIncrease_postvalue_label"	"Trọng lực"
+		"GravityScaleIncrease_prefix"			"+"
+		"GravityScaleIncrease_postfix"			"%"
 
 		"AirBonusDamageGiven_label"					"Sát thương khi trên không"
 		"AirBonusDamageGiven_postvalue_label"		"Sát thương khi trên không"

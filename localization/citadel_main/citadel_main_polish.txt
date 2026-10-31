@@ -663,7 +663,7 @@
 
 		"Citadel_ModBonus_WeaponInvestment"							"Wkład w broń"
 		"Citadel_ModBonus_ArmorInvestment"							"Wkład w witalność"
-		"Citadel_ModBonus_TechInvestment"							"Inwestycja w Duchowość"
+		"Citadel_ModBonus_TechInvestment"							"Wkład w duchowość"
 
 		"Citadel_ModBonus_WeaponInvestmentDesc"						"Premie do obrażeń od broni"
 		"Citadel_ModBonus_ArmorInvestmentDesc"						"Premie do zdrowia"
@@ -1350,20 +1350,6 @@
 		"Citadel_Hud_KillFeedEnemyShield"							"Kapliczka"
 		"Citadel_Hud_KillFeedVehicle"								"Pojazd"
 		"Citadel_Hud_KillFeedWorld"									"Świat"
-
-		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"			"Gracz {g:citadel_persona:account_id} sprawia, że jego bohater czuje magię tych Świąt!"
-		"Citadel_Showcase_SeasonalAchievement2024"					"Grudzień 2024"
-
-		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"			"{g:citadel_persona:account_id} odblokowuje ozdobę dla swojego bohatera!"
-		"Citadel_Showcase_SeasonalAchievement2025"					"Grudzień 2025"
-
-		"Citadel_Hud_Toast_SeasonalKill"							"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span>"
-		"Citadel_Hud_Toast_SeasonalKill2"							"zabija śnieżką!"
-
-		"Citadel_Event_Holiday_Challenge2025_Title"					"Świąteczne wyzwanie 2025"
-		"Citadel_Event_Holiday_Challenge2025_Desc"					"Wygraj mecz jako każdy bohater, by otrzymać unikalną ozdobę dla twojej choinki."
-		"Citadel_Event_Holiday_Challenge2025_Snowball"				"Ulepsz swoją <span class=\"Emphasis\">śnieżkę</span> poprzez przyozdabianie twojej choinki."
-		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"Poziom {i:item_level} / {i:item_max_level}"
 
 		"Citadel_Hud_Voting_Poster_Tooltip_Header"					"Wybierz swój plakat."
 		"Citadel_Hud_Voting_Poster_Tooltip_Selected"				"Wybrano"
@@ -2851,6 +2837,9 @@
 		"citadel_hint_activate_wall" "Wciśnij {g:citadel_binding:'Attack'}, by postawić mur wcześniej."
 		"citadel_hint_guided_arrow_boost" "Wciśnij {g:citadel_binding:'Attack'}, by przyspieszyć strzałę."
 		"citadel_hint_flying_strike_early_activate" "Wciśnij {g:citadel_binding:'Attack'}, by podlecieć do swojego celu wcześniej."
+
+		// Hud Hints 
+		"citadel_rejuvenator_hud_hint" "Pozostały czas działania aktywnych Odnowicieli lub czas do odrodzenia bossa na środku, jeśli żaden Odnowiciel nie jest aktywny."
 
 		//-----------------------------------------------------------------------------
 		// Breakable Prop modifiers
@@ -4434,7 +4423,6 @@
 		"menu_tphideout"							"Teleport do kryjówki"
 		"menu_shoparea"							    "Atrium"
 		"menu_shoparea_sub"							"Obszar treningowy"
-		"menu_seasonal_2025"						"Świąteczne wyzwanie"
 		"menu_new_violator"							"Nowość"
 		
 		
@@ -4933,7 +4921,7 @@
 		"HeroTesting_HotkeyHint"						"Skrót"
 		"HeroTesting_BotHeal"							"Ulecz bota"
 		"HeroTesting_SetBotHealth"						"Zdrowie bota"
-		"HeroTesting_DealBotDamage"						"Zadaj obrażenia botowi"
+		"HeroTesting_DealBotDamage"						"Zrań bota"
 		"HeroTesting_KillBot"							"Zabij bota"
 		"HeroTesting_StartRecord"						"Zacznij nagrywać"
 		"HeroTesting_StopRecord"						"Przestań nagrywać"
@@ -5842,10 +5830,8 @@
 		"Citadel_Hideout_News"		"Otwórz aktualności"
 		"Citadel_Hideout_News_Button"		"Wciśnij {g:citadel_binding:'Interact'}, by wyświetlić aktualności."
 		"Citadel_Hideout_VoiceLines"		"Naciśnij {g:citadel_binding:'Interact'}, aby wysłuchać kwestii dialogowych"
-		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Pamiątka gracza {s:hideout_owner} zdobyta podczas zimowej aktualizacji."
 		"Citadel_Hideout_VaultHint01"				"{g:citadel_binding:'AbilityMelee'} Zaatakuj wręcz, by zebrać dusze."
 		"Citadel_Hideout_VaultHint02"				"{g:citadel_binding:'AbilityMelee'} Zaatakuj wręcz, gdy światła migają, by zdobyć premie. Użyj mocnego ataku wręcz, by zdobyć jeszcze więcej."
-		"Citadel_Hideout_HolidayChallenge" 		"Wciśnij {g:citadel_binding:'Interact'}, by wyświetlić postępy wyzwania świątecznego."
 		"Citadel_Hideout_HeavyCrate"		"Przytrzymaj {g:citadel_binding:'AbilityMelee'}, by zniszczyć skrzynię mocnym atakiem wręcz"
 
 		"citadel_keybind_hideout_use"					"Interakcja z obiektem w kryjówce"
@@ -5934,7 +5920,6 @@
 		"Citadel_Subtitles_Message_IconAndName"		"<child id='SpeakerIcon' /><b>{s:subtitle_actor}</b>: {s:subtitle_text}"
 		"Citadel_Subtitles_Message_Icon"			"<child id='SpeakerIcon' />: {s:subtitle_text}"
 		"npc_newscaster"							"Spiker"
-		"npc_seasonal"								"Spiker"
 		"npc_shopkeeper"							"Handlarz osobliwości"
 		"npc_broker"								"Pośrednik"
 		"npc_spirit_jar"							"Urna Dusz"
@@ -6102,7 +6087,9 @@
 		"map_district_building_campus"			"Kampus"
 		"map_district_building_belltower"		"Dzwonnica"
 
-
+		// Halloween
+		"AbilityButtonHint_HalloweenTroll"		"Troll: cukierek albo psikus – mocnym atakiem wręcz dajesz cukierek"
+		"AbilityButtonHint_HalloweenCauldron"		"Wykonaj mocny atak wręcz, by zdobyć cukierka"
 	}
 }
 

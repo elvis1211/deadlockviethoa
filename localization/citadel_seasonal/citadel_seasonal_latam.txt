@@ -1,0 +1,37 @@
+﻿"lang"
+{
+	"Language"		"latam"
+	"Tokens"
+	{
+		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"		"¡{g:citadel_persona:account_id} consiguió alegría navideña para {s:hero_name}!"
+		"Citadel_Showcase_SeasonalAchievement2024"		"Diciembre de 2024"
+		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"		"¡{g:citadel_persona:account_id} desbloqueó un adorno de {s:hero_name}!"
+		"Citadel_Showcase_SeasonalAchievement2025"		"Diciembre de 2025"
+		"Citadel_Hud_Toast_SeasonalKill"		"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span> mató a"
+		"Citadel_Hud_Toast_SeasonalKill2"		"alguien con una bola de nieve!"
+		"Citadel_Event_Holiday_Challenge2025_Title"		"Desafío navideño 2025"
+		"Citadel_Event_Holiday_Challenge2025_Desc"		"Gana una partida con cada héroe para recibir un adorno exclusivo para tu árbol del Escondite."
+		"Citadel_Event_Holiday_Challenge2025_Snowball"		"Agrega más adornos al árbol para mejorar la <span class=\"Emphasis\">bola de nieve</span> que tengas lista para lanzar."
+		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"Nivel {i:item_level} / {i:item_max_level}"
+		"menu_seasonal_2025"		"Desafío navideño "
+		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Recuerdo obtenido por {s:hideout_owner} durante la actualización de invierno"
+		"Citadel_Hideout_HolidayChallenge"		"Presiona {g:citadel_binding:'Interact'} para ver el progreso del Desafío navideño"
+		"halloween_candy_pickup_label"		"Dulce"
+		"modifier_halloween_candy_sugar_rush"		"Subidón de azúcar"
+		"Citadel_Hideout_HalloweenCauldron"		"Caldero de dulces: mantén presionado {g:citadel_binding:'AbilityMelee'} para romperlo y obtener dulces"
+		"npc_seasonal"		"Presentador de noticias"
+
+		"cosmetic_ability_snowball"		"Bola de nieve"
+		"cosmetic_ability_snowball_desc"		"Lanza bolas de nieve a tus amigos y enemigos. La distancia y otras propiedades mejoran a medida que avanzas en el <span class=\"highlight\">Desafío navideño 2025</span>.<br><br><span class=\"diminish\">Lanzar una bola de nieve a un aliado no infligirá daño y restablecerá su tiempo de recarga.</span>"
+		"SnowballSpeed_label"		"Velocidad de lanzamiento"
+		"SnowballSpeed_postvalue_label"		"de velocidad"
+		"SnowballSpeed_postfix"		" m/s"
+		"SnowballCount_label"		"Bolas de nieve lanzadas"
+		"SnowballCount_postvalue_label"		"proyectiles"
+		"seasonal_ability_eat_halloween_candy"		"Comer dulce"
+		"seasonal_ability_eat_halloween_candy_desc"		"Come un dulce para curarte, recuperar resistencia y obtener la mejora <span class=\"highlight\">Subidón de azúcar</span>.<br><br><span class=\"diminish\">Los atributos de curación y Subidón de azúcar se incrementan a medida que avanza la partida.</span>"
+
+		"HalloweenCandy_label"		"Acumulaciones:"
+		"HalloweenCandy_postvalue_label"		"Acumulaciones:"
+	}
+}

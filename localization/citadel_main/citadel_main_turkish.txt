@@ -1351,20 +1351,6 @@
 		"Citadel_Hud_KillFeedVehicle"								"Araç"
 		"Citadel_Hud_KillFeedWorld"									"Dünya"
 
-		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"			"{g:citadel_persona:account_id}, {s:hero_name} için yılbaşı eğlencesi kazandı!"
-		"Citadel_Showcase_SeasonalAchievement2024"					"Aralık 2024"
-
-		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"			"{g:citadel_persona:account_id}, {s:hero_name} yılbaşı süsünü açtı!"
-		"Citadel_Showcase_SeasonalAchievement2025"					"Aralık 2025"
-
-		"Citadel_Hud_Toast_SeasonalKill"							"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span>:"
-		"Citadel_Hud_Toast_SeasonalKill2"							"kar topu ile leş aldı!"
-
-		"Citadel_Event_Holiday_Challenge2025_Title"					"2025 Yılbaşı Mücadelesi"
-		"Citadel_Event_Holiday_Challenge2025_Desc"					"Her kahramanla bir maç kazanarak sığınağınızdaki ağaç için eşsiz bir yılbaşı süsü kazanın."
-		"Citadel_Event_Holiday_Challenge2025_Snowball"				"Yılbaşı ağacınıza daha fazla süs ekleyerek aktif eşya olan fırlatılabilir <span class=\"Emphasis\">kar topunuzu</span> geliştirin."
-		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"Seviye {i:item_level} / {i:item_max_level}"
-
 		"Citadel_Hud_Voting_Poster_Tooltip_Header"					"Posterinizi Seçin"
 		"Citadel_Hud_Voting_Poster_Tooltip_Selected"				"Seçili"
 
@@ -2851,6 +2837,9 @@
 		"citadel_hint_activate_wall" "Duvarı erken oluşturmak için {g:citadel_binding:'Attack'} tuşuna basın."
 		"citadel_hint_guided_arrow_boost" "Ok hızını artırmak için {g:citadel_binding:'Attack'} tuşunu basılı tutun."
 		"citadel_hint_flying_strike_early_activate" "Hedefe erken uçmak için {g:citadel_binding:'Attack'} tuşuna basın."
+
+		// Hud Hints 
+		"citadel_rejuvenator_hud_hint" "Etkin canlandırıcıların kalan süresi veya etkin canlandırıcı yoksa Orta Başdüşman'ın yeniden doğmasına kalan süre."
 
 		//-----------------------------------------------------------------------------
 		// Breakable Prop modifiers
@@ -4434,7 +4423,6 @@
 		"menu_tphideout"							"Sığınağa Işınlan"
 		"menu_shoparea"							    "Avlu"
 		"menu_shoparea_sub"							"Alıştırma Alanı"
-		"menu_seasonal_2025"						"Yılbaşı Mücadelesi"
 		"menu_new_violator"							"Yeni"
 		
 		
@@ -5841,12 +5829,10 @@
 		"Citadel_Hideout_ToggleFastCooldowns" "Hızlı dolum süreleri ve kuvvet için {g:citadel_binding:'AbilityMelee'} ile yakın dövüş saldırısı yapın."
 		"Citadel_Hideout_Intro"		"Başlamak için herhangi bir tuşa basın"
 		"Citadel_Hideout_News"		"Haberler Burada"
-		"Citadel_Hideout_News_Button"		"Haberleri görmek için {g:citadel_binding:'Interact'} düğmesine basın"
+		"Citadel_Hideout_News_Button"		"Haberleri görmek için {g:citadel_binding:'Interact'} tuşuna basın"
 		"Citadel_Hideout_VoiceLines"		"Diyalogları dinlemek için {g:citadel_binding:'Interact'} tuşuna basın"
-		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Kış güncellemesi sırasında {s:hideout_owner} tarafından kazanılan hatıra."
-		"Citadel_Hideout_VaultHint01"				"Ruh toplamak için {g:citadel_binding:'AbilityMelee'} ile yakın dövüş saldırısı yapın."
+		"Citadel_Hideout_VaultHint01"				"Ruh toplamak için {g:citadel_binding:'AbilityMelee'} ile yakın dövüş saldırısı yapın"
 		"Citadel_Hideout_VaultHint02"				"Işıklar yanıp sönerken bonusları almak için {g:citadel_binding:'AbilityMelee'} ile yakın dövüş saldırısı yapın. Ağır yakın dövüş saldırısı daha fazla bonus verir."
-		"Citadel_Hideout_HolidayChallenge" 		"Yılbaşı Mücadelesi İlerlemesini görmek için {g:citadel_binding:'Interact'} düğmesine basın"
 		"Citadel_Hideout_HeavyCrate"		"Ağır yakın dövüşle kırmak için {g:citadel_binding:'AbilityMelee'} tuşunu basılı tutun"
 
 		"citadel_keybind_hideout_use"					"Sığınak eşyası ile etkileşim kur"
@@ -5935,7 +5921,6 @@
 		"Citadel_Subtitles_Message_IconAndName"		"<child id='SpeakerIcon' /><b>{s:subtitle_actor}</b>: {s:subtitle_text}"
 		"Citadel_Subtitles_Message_Icon"			"<child id='SpeakerIcon' />: {s:subtitle_text}"
 		"npc_newscaster"							"Haber Sunucusu"
-		"npc_seasonal"								"Haber Sunucusu"
 		"npc_shopkeeper"							"Tuhaflıklar Satıcısı"
 		"npc_broker"								"Simsar"
 		"npc_spirit_jar"							"Ruh Vazosu"
@@ -6103,7 +6088,9 @@
 		"map_district_building_campus"			"Kampüs"
 		"map_district_building_belltower"		"Çan Kulesi"
 
-
+		// Halloween
+		"AbilityButtonHint_HalloweenTroll"		"Trol Şeker mi Şaka mı - Şeker Vermek için Ağır Yakın Dövüş Yapın"
+		"AbilityButtonHint_HalloweenCauldron"		"Şeker Almak için Ağır Yakın Dövüş Yapın"
 	}
 }
 

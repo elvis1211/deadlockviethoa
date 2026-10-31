@@ -1,0 +1,37 @@
+﻿"lang"
+{
+	"Language"		"czech"
+	"Tokens"
+	{
+		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"		"{g:citadel_persona:account_id} dostal okultistu {s:hero_name} do sváteční nálady!"
+		"Citadel_Showcase_SeasonalAchievement2024"		"Prosinec 2024"
+		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"		"{g:citadel_persona:account_id} získal ozdobu okultisty {s:hero_name}!"
+		"Citadel_Showcase_SeasonalAchievement2025"		"Prosinec 2025"
+		"Citadel_Hud_Toast_SeasonalKill"		"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span> provedl"
+		"Citadel_Hud_Toast_SeasonalKill2"		"zabití sněhovou koulí!"
+		"Citadel_Event_Holiday_Challenge2025_Title"		"Vánoční výzva 2025"
+		"Citadel_Event_Holiday_Challenge2025_Desc"		"Vyhraj zápas za každého okultistu a získej unikátní ozdoby pro svůj stromeček v úkrytu."
+		"Citadel_Event_Holiday_Challenge2025_Snowball"		"Přidávej na svůj stromeček další ozdoby a vylepšuj speciální předmět <span class=\"Emphasis\">Sněhová koule</span>."
+		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"Úroveň {i:item_level}/{i:item_max_level}"
+		"menu_seasonal_2025"		"Vánoční výzva"
+		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Suvenýr, který hráč {s:hideout_owner} získal při Sváteční události"
+		"Citadel_Hideout_HolidayChallenge"		"Stiskem {g:citadel_binding:'Interact'} si prohlédneš svůj postup ve Vánoční výzvě"
+		"halloween_candy_pickup_label"		"Bonbón"
+		"modifier_halloween_candy_sugar_rush"		"Cukrový rauš"
+		"Citadel_Hideout_HalloweenCauldron"		"Podržením {g:citadel_binding:'AbilityMelee'} rozbiješ kotlík a získáš bonbón"
+		"npc_seasonal"		"Newyorský věštec"
+
+		"cosmetic_ability_snowball"		"Sněhová koule"
+		"cosmetic_ability_snowball_desc"		"Vlastník hodí na spojence nebo nepřítele sněhovou kouli. Počet koulí a další vlastnosti se vylepšují podle postupu ve <span class=\"highlight\">Vánoční výzvě 2025</span>.<br><br><span class=\"diminish\">Když je koule hozena na spojence, neudělí mu poškození a dojde k okamžitému obnovení předmětu.</span>"
+		"SnowballSpeed_label"		"Rychlost hodu"
+		"SnowballSpeed_postvalue_label"		"Rychlost"
+		"SnowballSpeed_postfix"		" m/s"
+		"SnowballCount_label"		"Počet koulí"
+		"SnowballCount_postvalue_label"		"Projektily"
+		"seasonal_ability_eat_halloween_candy"		"Sladká svačinka"
+		"seasonal_ability_eat_halloween_candy_desc"		"Vlastník sní jeden bonbón pro vyléčení, obnovení výdrže a získání buffu <span class=\"highlight\">Cukrový rauš</span>.<br><br><span class=\"diminish\">Hodnoty léčení a buffu rostou s postupem zápasu.</span>"
+
+		"HalloweenCandy_label"		"Bonbóny:"
+		"HalloweenCandy_postvalue_label"		"Bonbóny:"
+	}
+}

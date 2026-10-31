@@ -45,7 +45,7 @@
 		"Citadel_StatusEffectInvisible"			"ล่องหน"
 		"Citadel_StatusEffectPetrify"			"กลายเป็นหิน"
 		"Citadel_StatusEffectCustomDebuff"		"ดีบัฟ"
-		//"Citadel_StatusEffectStacks"			"Stacks "
+		//"Citadel_StatusEffectStacks"			"Stacks"
 		"Citadel_StatusEffectInfiniteClip"		"กระสุนไม่จำกัด"
 		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
 		//"Citadel_StatusEffectBuff"				"Buff"
@@ -80,6 +80,7 @@
 		//"modifier_invis_start_delay" 			"Entering Stealth"
 		//"modifier_invis_fading"					"Fading"
 		//"modifier_camouflage_invis"				"Camouflaged"
+		"modifier_citadel_sleep"				"กำลังหลับ"
 		"modifier_citadel_silenced"				"ถูกใบ้"
 		"silencer_immune"						"ไม่ได้รับผลจาก ​ไซเลนเซอร์​"
 		//"modifier_citadel_muted"				"Muted"
@@ -1845,7 +1846,6 @@
 		"CurrentBonus_label"							"โบนัสปัจจุบัน:"
 		"CurrentBonus_postvalue_label"					"โบนัสปัจจุบัน:"
 
-
 		//"TimeToMaxStacks_label"							"Time To Max Stacks"
 		"TimeToMaxStacks_postfix"						"วิ"
 
@@ -2899,9 +2899,9 @@
 		//"DamageOnApply_label"							"Damage On Apply"
 
 		"citadel_modifier_teleport"						"กำลังเทเลพอร์ต"
-		"citadel_modifier_hideout_teleport"				"กำลังออกจากที่ซ่อน"
+		"citadel_modifier_hideout_teleport"				"กำลังออกจากที่กบดาน"
 		"citadel_trigger_teleport_sandbox"				"กำลังเทเลพอร์ตไปยัง​แซนด์บ็อกซ์"
-		"citadel_trigger_teleport_hideout"				"กำลังเทเลพอร์ตไปยังที่ซ่อน"
+		"citadel_trigger_teleport_hideout"				"กำลังเทเลพอร์ตไปยังที่กบดาน"
 
 		"MaxHealthLossPercent_label"				"พลังชีวิตสูงสุด"
 
@@ -3019,8 +3019,8 @@
 		"BarrierDuration_postvalue_label"	"ระยะเวลาแบร์ริเออร์​"
 		"BarrierDuration_postfix" "วิ"
 
-		"InterruptCooldown_label"	"ขัดจังหวะคูลดาวน์"
-		"InterruptCooldown_postvalue_label"	"ขัดจังหวะคูลดาวน์"
+		"InterruptCooldown_label"	"คูลดาวน์เมื่อถูกขัดจังหวะ"
+		"InterruptCooldown_postvalue_label"	"คูลดาวน์เมื่อถูกขัดจังหวะ"
 		"InterruptCooldown_postfix"	"วิ"
 
 		"BonusSoulsPct_label"	"โบนัสโซลส์"
@@ -3078,6 +3078,10 @@
 		"GravityScale_label"					"สเกลแรงโน้มถ่วง"
 		"GravityScale_postvalue_label"			"สเกลแรงโน้มถ่วง"
 		"GravityScale_postfix"					"%"
+		"GravityScaleIncrease_label"			"สเกลแรงโน้มถ่วง"
+		"GravityScaleIncrease_postvalue_label"	"สเกลแรงโน้มถ่วง"
+		"GravityScaleIncrease_prefix"			"+"
+		"GravityScaleIncrease_postfix"			"%"
 
 		"AirBonusDamageGiven_label"					"ความเสียหายกลางอากาศ"
 		"AirBonusDamageGiven_postvalue_label"		"ความเสียหายกลางอากาศ"
@@ -3192,7 +3196,7 @@
 		"StatDesc_FireRateDesc"					"<b>อัตรายิง</b> - เปอร์เซ็นต์​​การเปลี่ยนแปลง​​อัตราการ​ยิงของปืน​คุณ"
 		"StatDesc_SpiritLifestealDesc"			"<b>วิญญาณ​ดูดพลังชีวิต</b> - จำนวนพลังชีวิต​ที่คุณ​จะได้รับ​จากการ​สร้าง​ความ​เสียหาย​วิญญาณ"
 		"StatDesc_WeaponLifestealDesc"			"<b>​อาวุธดูดพลังชีวิต</b> - จำนวนพลังชีวิต​ที่คุณ​จะได้รับ​จากการ​สร้าง​ความ​เสียหาย​อาวุธ"
-		"StatDesc_BulletEvationDesc"			"<b>หลบหลีกกระสุน</b> - เปอร์เซ็นต์​โอกาส​หลบ​กระสุน​ที่โดน"
+		"StatDesc_BulletEvationDesc"			"<b>หลบหลีกกระสุน</b> - เปอร์เซ็นต์โอกาสหลบกระสุนที่พุ่งเข้ามา"
 		"StatDesc_RegenDesc"					"<b>​อัตรา​ฟื้นฟู​พลังชีวิต</b> - จำนวนพลังชีวิต​ที่คุณ​ฟื้นฟูต่อวินาที"
 		"StatDesc_DamageAmpDesc"					"<b>เพิ่ม​ความเสียหาย</b> - เปอร์เซ็นต์​​การเปลี่ยนแปลง​​ต่อความเสียหายที่สร้าง"
 

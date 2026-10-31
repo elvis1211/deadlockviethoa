@@ -1356,20 +1356,6 @@
 		"Citadel_Hud_KillFeedVehicle"								"Fahrzeug"
 		"Citadel_Hud_KillFeedWorld"									"Welt"
 
-		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"			"{g:citadel_persona:account_id} hat {s:hero_name} in Weihnachtsstimmung versetzt!"
-		"Citadel_Showcase_SeasonalAchievement2024"					"Dezember 2024"
-
-		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"			"{g:citadel_persona:account_id} hat die Christbaumkugel für {s:hero_name} freigeschaltet!"
-		"Citadel_Showcase_SeasonalAchievement2025"					"Dezember 2025"
-
-		"Citadel_Hud_Toast_SeasonalKill"							"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span> erzielte einen"
-		"Citadel_Hud_Toast_SeasonalKill2"							"Schneeball-Kill!"
-
-		"Citadel_Event_Holiday_Challenge2025_Title"					"Weihnachtsherausforderung 2025"
-		"Citadel_Event_Holiday_Challenge2025_Desc"					"Gewinne mit jedem Helden eine Partie, um eine einzigartige Christbaumkugel für den Tannenbaum im Versteck zu erhalten."
-		"Citadel_Event_Holiday_Challenge2025_Snowball"				"Verbessere Deinen werfbaren <span class=\"Emphasis\">Schneeball</span>-Aktivgegenstand, indem Du mehr Christbaumkugeln für den Tannenbaum verdienst."
-		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"Level {i:item_level} / {i:item_max_level}"
-
 		"Citadel_Hud_Voting_Poster_Tooltip_Header"					"Plakat auswählen"
 		"Citadel_Hud_Voting_Poster_Tooltip_Selected"				"Ausgewählt"
 
@@ -2861,6 +2847,9 @@
 		"citadel_hint_activate_wall" "Drücke{g:citadel_binding:'Attack'}, um die Wand frühzeitig hochzuziehen."
 		"citadel_hint_guided_arrow_boost" "Halte {g:citadel_binding:'Attack'} gedrückt, um das Tempo der Geistereule zu beschleunigen."
 		"citadel_hint_flying_strike_early_activate" "Drücke{g:citadel_binding:'Attack'}, um frühzeitig zu Deinem Ziel zu fliegen."
+
+		// Hud Hints 
+		"citadel_rejuvenator_hud_hint" "Verbleibende Zeit der aktiven Reinkarnatoren oder des erneuten Erscheinens des Mitte-Bosses, wenn keine Reinkarnatoren aktiv sind."
 
 		//-----------------------------------------------------------------------------
 		// Breakable Prop modifiers
@@ -4453,7 +4442,6 @@
 		"menu_tphideout"							"Zum Versteck teleportieren"
 		"menu_shoparea"							    "Atrium"
 		"menu_shoparea_sub"							"Trainingsbereich"
-		"menu_seasonal_2025"						"Weihnachts-Herausforderung"
 		"menu_new_violator"							"Neu"
 		
 		
@@ -5871,10 +5859,8 @@
 		"Citadel_Hideout_News"		"Neuigkeiten anzeigen"
 		"Citadel_Hideout_News_Button"		"Drücke {g:citadel_binding:'Interact'}, um Neuigkeiten anzuzeigen"
 		"Citadel_Hideout_VoiceLines"		"Drücke {g:citadel_binding:'Interact'}, um Sprüche der Charaktere anzuhören"
-		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Souvenir, das sich {s:hideout_owner} während<br>des Weihnachts-Updates verdient hat"
 		"Citadel_Hideout_VaultHint01"				"Nahkampfangriff mit {g:citadel_binding:'AbilityMelee'}, um Seelen zu sammeln"
 		"Citadel_Hideout_VaultHint02"				"Nahkampfangriff mit {g:citadel_binding:'AbilityMelee'} während die Lichter blinken gewährt Boni. Schwerer Nahkampfangriff gewährt mehr Boni."
-		"Citadel_Hideout_HolidayChallenge" 		"Drücke {g:citadel_binding:'Interact'}, um den Fortschritt der Weihnachtsherausforderung anzuzeigen"
 		"Citadel_Hideout_HeavyCrate"		"Halte {g:citadel_binding:'AbilityMelee'} gedrückt, um die Kiste mit einem schweren Nahkampfangriff aufzubrechen."
 
 		"citadel_keybind_hideout_use"					"Mit Objekt im Versteck interagieren"
@@ -5963,7 +5949,6 @@
 		"Citadel_Subtitles_Message_IconAndName"		"<child id='SpeakerIcon' /><b>{s:subtitle_actor}</b>: {s:subtitle_text}"
 		"Citadel_Subtitles_Message_Icon"			"<child id='SpeakerIcon' />: {s:subtitle_text}"
 		"npc_newscaster"							"Nachrichten­sprecher"
-		"npc_seasonal"								"Nachrichten­sprecher"
 		"npc_shopkeeper"							"Kuriositäten­händler"
 		"npc_broker"								"Schattenhändler"
 		"npc_spirit_jar"							"Seelenurne"
@@ -6131,7 +6116,9 @@
 		"map_district_building_campus"			"Campus"
 		"map_district_building_belltower"		"Glockenturm"
 
-
+		// Halloween
+		"AbilityButtonHint_HalloweenTroll"		"Troll-Süßes-oder-Saures – Schwerer Nahkampf, um Süßigkeiten zu verteilen"
+		"AbilityButtonHint_HalloweenCauldron"		"Schwerer Nahkampf, um Süßigkeiten zu erhalten"
 	}
 }
 

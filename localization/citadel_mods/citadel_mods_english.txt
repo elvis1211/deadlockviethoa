@@ -19,16 +19,18 @@
 		"AmmoScavengerDuration_label"		"Thời gian"
 		"AmmoScavengerDuration_postvalue_label"		"Thời gian"
 		"AmmoScavengerDuration_postfix"		"s"
+
 		//Melee Lifesteal
 		"upgrade_lifestrike_gauntlets_desc"	"Đòn đánh <span class=\"highlight\">cận chiến</span> tiếp theo của bạn sẽ <span class=\"highlight\">hồi máu cho bạn</span>. <span class=\"diminish\"><br><br>Lượng hồi máu này chỉ có hiệu quả {s:NonHeroHealPct}% khi đánh trúng mục tiêu không phải tướng. <br>Thời gian hồi chiêu dài gấp {s:LightMeleeCooldownMult} lần đối với đòn cận chiến nhẹ.</span>"
 		"LifestrikeHeal_label"				"Hồi máu khi đánh cận chiến trúng"
 		"LifestrikeHeal_postvalue_label"				"Hồi máu khi đánh cận chiến trúng"
+
 		//Tesla Bullets
-"upgrade_chain_lightning_desc"	"Đạn của bạn có khả năng <span class=\"highlight\">giật điện</span> mục tiêu. Hiệu ứng <span class=\"highlight\">giật điện</span> sẽ lan sang một kẻ địch gần đó."
+		"upgrade_chain_lightning_desc"	"Đạn của bạn có khả năng <span class=\"highlight\">giật điện</span> mục tiêu. Hiệu ứng <span class=\"highlight\">giật điện</span> sẽ lan sang một kẻ địch gần đó."
 
 		//Galvanic Storm
 		"GalvanicBuffDuration_label"						"Thời gian"
-		"GalvanicBuffDuration_postvalue_label"						"Thời gian"		
+		"GalvanicBuffDuration_postvalue_label"						"Thời gian"
 		"GalvanicBuffDuration_postfix"					"s"
 
 		//Silence Glyph
@@ -36,28 +38,35 @@
 		"ResistReductionDuration_label"	"Thời gian giảm kháng"
 		"ResistReductionDuration_postvalue_label"	"Thời gian giảm kháng"
 		"ResistReductionDuration_postfix"	"s"
+
 		//EMP Bullets
 		"upgrade_proc_silence_desc"		"Đạn của bạn tích lũy dần để gây <span class=\"highlight\">Câm lặng</span>. Mục tiêu bị câm lặng sẽ miễn nhiễm với việc tích lũy trong <span class=\"highlight\">{s:ImmunityDuration}s</span> sau khi Câm lặng kết thúc."
 		"upgrade_proc_silence_debuff_desc"		"Đạn của bạn làm giảm <span class=\"highlight\">sát thương phép thuật gây ra</span> của mục tiêu."
 		"proc_silence_buildup"			"Đang tích lũy Câm lặng..."
 		"modifier_citadel_silence_proc_tech_damage_reduction"	"-Sát thương phép thuật"
+
 		//Silencer
 		"upgrade_silencer_active"		"Trong {s:AbilityDuration}s tiếp theo, <span class=\"highlight\">toàn bộ đạn của bạn lập tức gây Câm lặng</span>. Câm lặng ngăn mục tiêu sử dụng kỹ năng."
+
 		//Slowing Bullets
 		"upgrade_slowing_bullets_desc"	"Đạn của bạn tích lũy hiệu ứng <span class=\"highlight\">Giảm tốc độ di chuyển</span> lên kẻ địch."
 		"upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base"					"Bị làm chậm"
+
 		//Inhibitor
 		"upgrade_inhibitor_desc"	"Đạn của bạn tích lũy dần để làm giảm <span class=\"highlight\">sát thương gây ra</span> của mục tiêu và gây <span class=\"highlight\">giảm hồi máu</span>."
 		"OutgoingDamagePenaltyPercent_label"	"Giảm sát thương"
 		"OutgoingDamagePenaltyPercent_postvalue_label"	"Giảm sát thương"
 		"OutgoingDamagePenaltyPercent_postfix"	"%"
+
 		//Hunter's Aura
 		"upgrade_bullet_armor_reduction_aura_desc"		"Giảm <span class=\"highlight\">Kháng đạn và Tốc độ bắn</span> của kẻ địch ở gần. Nếu chỉ có một tướng địch ở gần, <span class=\"highlight\">hiệu ứng này được nhân đôi</span>."
+
 		//Heroic Aura
 		"upgrade_dps_aura_active_desc"	"Cung cấp <span class=\"highlight\">{g:citadel_inline_attribute:'MoveSpeed'}</span> và <span class=\"highlight\">{g:citadel_inline_attribute:'FireRate'}</span> cho bạn và đồng minh ở gần. <span class=\"highlight\">Lính</span> nhận giá trị gấp đôi."
 		"upgrade_dps_aura_desc"			"Cung cấp <span class=\"highlight\">Kháng đạn</span> cho các đơn vị đồng minh ở gần."		
 		"modifier_dps_aura_active"		"Kích hoạt anh hùng"
 		"modifier_dps_aura_player"		"Tốc độ bắn anh hùng"
+
 		//"BonusBaseDamage_label"			"Base Bullet and Melee Damage"
 		"BonusBaseDamage_postfix"		"%"
 
@@ -70,37 +79,45 @@
 		"CasterBuffDuration_postvalue_label"	"Thời gian hiệu ứng tích cực"
 		"CasterBuffDuration_postfix"	"s"
 		"CasterSlowPercent_postfix"	"%"
+
 		//Torment Pulse
 		"upgrade_tech_damage_pulse_desc"	"Định kỳ gây {g:citadel_inline_attribute:'SpiritDamage'} cho hai kẻ địch gần nhất ở xung quanh."
+
 		//Mystic Burst
 		"upgrade_magic_burst_desc"	"Tích năng lượng theo thời gian với {g:citadel_inline_attribute:'BonusSpiritDamage'}, khiến các kỹ năng gây hơn <span class=\"highlight\">{s:MinimumDamage}</span> sát thương sẽ gây thêm sát thương."
 		"MagicBurstDamage_label"		"Sát thương cộng thêm"
 
 		"MagicBurstDamage_postvalue_label"		"Sát thương cộng thêm"
+
 		//Improved Burst Tankbuster
 		"upgrade_magic_shock_desc"	"Tích năng lượng theo thời gian với {g:citadel_inline_attribute:'BonusSpiritDamage'}, khiến các kỹ năng gây hơn <span class=\"highlight\">{s:MinimumDamage}</span> sát thương sẽ gây thêm sát thương. <span class=\"highlight\">Bỏ qua Kháng phép thuật.</span>"
 		"MagicShockDamage_label"		"Sát thương cộng thêm theo máu hiện tại"
 		"MagicShockDamage_postvalue_label"		"Sát thương cộng thêm theo máu hiện tại"
 		"MagicShockDamage_postfix"	"%"
+
 		//Mystic Reverb
-		"upgrade_tech_bleed_desc" "Cường hóa một kỹ năng với <span class=\"highlight\">Hút máu</span> và gây <span class=\"highlight\">làm chậm</span> lên mục tiêu bị trúng, đồng thời gây <span class=\"highlight\">thêm một phần trăm sát thương đã gây ra</span> cho kẻ địch xung quanh mục tiêu sau một khoảng trễ ngắn."	
+		"upgrade_tech_bleed_desc" "Cường hóa một kỹ năng với <span class=\"highlight\">Hút máu</span> và gây <span class=\"highlight\">làm chậm</span> lên mục tiêu bị trúng, đồng thời gây <span class=\"highlight\">thêm một phần trăm sát thương đã gây ra</span> cho kẻ địch xung quanh mục tiêu sau một khoảng trễ ngắn."
+	
 		//Toxic Bullets
 		"upgrade_toxic_bullets_desc"	"Đạn của bạn tích lũy hiệu ứng <span class=\"highlight\">Chảy máu</span> lên kẻ địch, khiến chúng mất một <span class=\"highlight\">phần trăm</span> <span class=\"highlight\">Máu tối đa</span> theo thời gian. Đồng thời giảm <span class=\"highlight\">Lượng hồi máu nhận vào</span> của mục tiêu đang chảy máu."
 		"upgrade_toxic_bullets_buildup"					"Đang tích lũy Độc..."
 		"upgrade_bleeding_bullets_buildup"				"Đang tích lũy Răng cưa..."
 		"modifier_item_burning_bullets_damageovertime" 	"Chảy máu"
 		"upgrade_hemorrhage/modifier_item_hemorrhage/modifier_hemorrhage" "Chảy máu"
+
 		// Weighted Shots
-		"upgrade_weighted_shots_desc"	"Đạn của bạn tích lũy hiệu ứng <span class=\"highlight\">Giảm tốc độ di chuyển</span> lên kẻ địch."		//"upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base"					"Bị làm chậm"
+		"upgrade_weighted_shots_desc"	"Đạn của bạn tích lũy hiệu ứng <span class=\"highlight\">Giảm tốc độ di chuyển</span> lên kẻ địch."
+		//"upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base"					"Slowed"
 
 		//Spiritual Overflow
-		"upgrade_tech_overflow_desc"	"Nhận thêm <span class=\"highlight\">Tốc độ bắn</span>, <span class=\"highlight\">Sức mạnh phép thuật</span> và <span class=\"highlight\">Hút máu phép thuật</span> bằng cách <span class=\"highlight\">tích năng lượng</span> khi bắn trúng tướng địch."
+		"upgrade_tech_overflow_desc"	"Khi bắn trúng tướng địch, bạn tích tụ năng lượng để nhận thêm <span class=\"highlight\">Tốc độ bắn</span>, <span class=\"highlight\">Sức mạnh phép thuật</span> và <span class=\"highlight\">Hút máu phép thuật</span>."
 		"modifier_tech_overflow_building" "Đang tích lũy Tràn phép thuật..."
 
 		"OverflowTechPower_label"		"Sức mạnh phép thuật"
 
 		"OverflowTechPower_postvalue_label"		"Sức mạnh phép thuật"
 		"OverflowBonusDamage_postfix"	"%"
+
 		//Ricochet
 		"upgrade_ricochet_desc"		"Đạn của bạn sẽ <span class=\"highlight\">nảy</span> sang kẻ địch gần mục tiêu, <span class=\"highlight\">áp dụng mọi hiệu ứng kích hoạt của đạn</span> và <span class=\"highlight\">gây một phần trăm sát thương gốc.</span>"
 		"RicochetTargetsTooltipOnly_label"			"Số mục tiêu nảy"
@@ -124,23 +141,28 @@
 		"BonusBaseHealth_label"					"Máu cơ bản"
 		"BonusBaseHealth_postvalue_label"					"Máu cơ bản"
 		"BonusBaseHealth_postfix"					"%"
+
 		//Close Quarters
 		"upgrade_close_range_desc"	"Gây thêm <span class=\"highlight\">Sát thương vũ khí</span> khi ở <span class=\"highlight\">tầm gần</span> với mục tiêu."
 		"upgrade_close_quarter_combat/modifier_cqc_proc/modifier_slow_base"			"Bị làm chậm"
+
 		//Long Range
 		"upgrade_long_range_desc"	"Gây thêm <span class=\"highlight\">Sát thương vũ khí</span> khi ở <span class=\"highlight\">xa hơn một khoảng cách tối thiểu</span> so với mục tiêu."
+
 		//Mystic Shot
 		"upgrade_crackshot_desc"	"Viên đạn tiếp theo của bạn gây thêm {g:citadel_inline_attribute:'SpiritDamage'}."
 		"ProcBonusMagicDamage_prefix"	"{s:sign}"
 		"ProcBonusMagicDamage_label"	"Sát thương phép thuật"
 
 		"ProcBonusMagicDamage_postvalue_label"	"Sát thương phép thuật"
+
 		//Ethereal Bullets
 		"upgrade_ethereal_bullets_desc"	"Kỹ năng được cường hóa của bạn tích năng lượng theo thời gian với {g:citadel_inline_attribute:'BonusSpiritDamage'}, {g:citadel_inline_attribute:'BonusFireRate'}, và <span class=\"highlight\">nạp lại đạn</span> khi sử dụng. Cho đến lần nạp đạn tiếp theo, <span class=\"highlight\">đạn của bạn gây {g:citadel_inline_attribute:'BonusSpiritDamage'}</span> dựa trên Sức mạnh phép thuật của bạn."
 		"BulletsBonusMagicDamage_label"	"Sát thương đạn cơ bản"
 		"BulletsBonusMagicDamage_postvalue_label"	"Sát thương đạn cơ bản"
 		"BulletsBonusMagicDamage_prefix"	"+"
 		"BulletsBonusMagicDamage_postfix"	"%"
+
 		//Restorative Shot
 		"upgrade_medic_bullets_desc"	"Viên đạn tiếp theo của bạn sẽ <span class=\"highlight\">hồi máu</span> cho bạn tùy theo mục tiêu mà bạn bắn trúng."
 		"HealFromHero_label"	"Hồi máu từ tướng"
@@ -148,14 +170,19 @@
 		"HealFromNPC_label"	 "Hồi máu từ NPC / Orb"
 
 		"HealFromNPC_postvalue_label"	 "Hồi máu từ NPC / Orb"
+
 		//Point Blank
 		"upgrade_close_quarter_combat_desc"	"Khi ở <span class=\"highlight\">tầm gần</span> với mục tiêu, nhận thêm <span class=\"highlight\">Sát thương vũ khí</span> và đạn của bạn gây <span class=\"highlight\">Giảm tốc độ di chuyển</span>."
+
 		//Headshot Booster
 		"upgrade_headshot_booster_desc"		"Cú <span class=\"highlight\">bắn trúng đầu</span> tiếp theo của bạn vào một tướng địch gây {g:citadel_inline_attribute:'BonusWeaponDamage'}."
+
 		//Weakening Headshot
 		"upgrade_headshot_booster2_desc"		"Bắn trúng <span class=\"highlight\">đầu</span> sẽ làm giảm <span class=\"highlight\">Kháng đạn</span> của mục tiêu."
+
 		//Sharpshooter
 		"upgrade_sharpshooter_desc"				"Gây thêm <span class=\"highlight\">Sát thương vũ khí</span> khi ở <span class=\"highlight\">xa hơn một khoảng cách tối thiểu</span> so với mục tiêu."
+
 		//Headhunter
 		"upgrade_headhunter_desc"	"Cú <span class=\"highlight\">bắn trúng đầu</span> tiếp theo của bạn vào một tướng địch gây {g:citadel_inline_attribute:'BonusWeaponDamage'}, {g:citadel_inline_attribute:'Heal'} cho bạn, và tạm thời nhận {g:citadel_inline_attribute:'BonusMoveSpeed'}."
 		"HealPercentPerHeadshot_label"		"Hồi máu mỗi cú bắn trúng đầu"
@@ -163,6 +190,7 @@
 		"HealPercentPerHeadshot_postfix"	"%"
 		"BaseHealOnHeadshot_label"			"Hồi máu mỗi cú bắn trúng đầu"
 		"BaseHealOnHeadshot_postvalue_label"			"Hồi máu mỗi cú bắn trúng đầu"
+
 		//Spellslinger Headshots
 		"upgrade_spellslinger_headshots_part1_desc"	"Đạn của bạn gây một hiệu ứng tiêu cực làm giảm <span class=\"highlight\">Kháng phép thuật</span> của mục tiêu và giúp bạn cùng đồng minh nhận <span class=\"highlight\">Hút máu phép thuật</span> khi đánh chúng."
 		"upgrade_spellslinger_headshots_part2_desc"	"Bắn trúng <span class=\"highlight\">đầu</span> mục tiêu sẽ làm giảm thêm <span class=\"highlight\">Kháng phép thuật</span> của chúng."
@@ -172,31 +200,38 @@
 		"SpellSlingerHeadshots_SpiritShredPerStack_label"		"Kháng phép thuật khi bắn trúng đầu"
 		"SpellSlingerHeadshots_SpiritShredPerStack_postvalue_label"		"Kháng phép thuật khi bắn trúng đầu"
 		"SpellSlingerHeadshots_SpiritShredPerStack_postfix"	"%"
+
 		//Crippling Headshot
 		"upgrade_banshee_slugs_headshots_desc"	"Bắn trúng <span class=\"highlight\">đầu</span> sẽ làm giảm <span class=\"highlight\">Kháng đạn, Kháng phép thuật và Lượng hồi máu nhận vào</span> của mục tiêu."
+
 		//Berserker
 		"upgrade_berserker_desc"		"<span class=\"highlight\">Sát thương vũ khí</span> của bạn tăng lên khi bạn chịu sát thương liên tục."
+
 		//Frenzy
-		"upgrade_fervor_passive"	"Khi bạn <span class=\"highlight\">dưới {s:LowHealthThreshold}% máu</span>, bạn nhận thêm chỉ số trong một khoảng thời gian và các hiệu ứng tiêu cực đang chịu được giảm bớt."
+		"upgrade_fervor_passive"	"Khi <span class=\"highlight\">máu xuống dưới {s:LowHealthThreshold}%</span>, bạn nhận thêm chỉ số trong một khoảng thời gian và giảm tác động của các hiệu ứng bất lợi đang chịu."
 		"FervorTechResist_postfix"  "%"
 		"modifier_fervor_aura_active"		"Cuồng nộ"
 		"FervorBulletResist_label"		"Kháng đạn"
 		"FervorBulletResist_postvalue_label"		"Kháng đạn"
 		"FervorBulletResist_prefix"		"+"
 		"FervorBulletResist_postfix"	"%"
+
 		//Soul Shredder Bullets
 		"upgrade_tech_defense_shredders_desc"	"Đạn của bạn gây một hiệu ứng tiêu cực làm giảm <span class=\"highlight\">Kháng phép thuật</span> của mục tiêu và giúp bạn cùng đồng minh nhận <span class=\"highlight\">Hút máu phép thuật</span> khi đánh chúng."
 		"ShreddersTechAmp_label"				"Khuếch đại phép thuật"
 		"ShreddersTechAmp_postvalue_label"				"Khuếch đại phép thuật"
 		"ShreddersTechAmp_postfix"			"%"
+
 		//Hollow Point Ward
 		"upgrade_hollow_point_rounds_desc"				"Khi bạn <span class=\"highlight\">trên {s:LifeThreshold}% máu</span>, gây thêm <span class=\"highlight\">Sát thương vũ khí</span> và đạn của bạn làm giảm <span class=\"highlight\">Kháng đạn</span> của kẻ địch."
+
 		// Pristine Emblem
 		"upgrade_pristine_emblem_desc"	"Các đòn tấn công của bạn gây thêm <span class=\"highlight\">Sát thương vũ khí</span> lên <span class=\"highlight\">kẻ địch trên {s:EnemyLifeThreshold}% máu</span>."
 		"BaseAttackDamagePercentBonus_label"	"Sát thương vũ khí"
 		"BaseAttackDamagePercentBonus_postvalue_label"	"Sát thương vũ khí"
 		"BaseAttackDamagePercentBonus_prefix"	"+"
 		"BaseAttackDamagePercentBonus_postfix"	"%"
+
 		//Disarming Bullets
 
 		//Glass Cannon
@@ -206,7 +241,8 @@
 		"GlassCannon_SlowPercent_postfix"	"%"
 		"GlassCannon_SlowPercent_prefix"	"+"
 		"upgrade_glass_cannon_plus1"		"Pháo kính +1"
-				//Fury Trance
+
+		//Fury Trance
 		"upgrade_fury_trance_active"	"Cung cấp <span class=\"highlight\">Tốc độ bắn</span>, <span class=\"highlight\">Kháng phép thuật</span> và <span class=\"highlight\">Tốc độ di chuyển</span>, đồng thời loại bỏ hình phạt <span class=\"highlight\">Tốc độ di chuyển</span> khi bắn, nhưng <span class=\"highlight\">Câm lặng</span> bạn và <span class=\"highlight\">vô hiệu hóa việc dùng và hồi phục thể lực</span>."
 
 		//Vampiric Burst
@@ -568,7 +604,7 @@
 		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_postfix"	"%"
 
 		//Infuser
-		"upgrade_infuser_desc"			"Nhận <span class=\"highlight\">Hút máu phép thuật</span> và <span class=\"highlight\">Sức mạnh phép thuật</span>."
+		"upgrade_infuser_desc"			"Kích hoạt để nhận thêm <span class=\"highlight\">Hút máu phép thuật</span> và <span class=\"highlight\">Sức mạnh phép thuật</span>."
 
 		//Spirit Strike
 		"upgrade_acolytes_glove_desc"			"Khi bạn thực hiện đòn <span class=\"highlight\">Cận chiến nhẹ hoặc nặng</span> vào một tướng, gây thêm {g:citadel_inline_attribute:'SpiritDamage'} cùng đòn đánh và giảm <span class=\"highlight\">Kháng phép thuật</span> của mục tiêu.<span class=\"diminish\"><br><br>Thời gian hồi chiêu dài gấp {s:LightMeleeCooldownMult} lần đối với đòn cận chiến nhẹ.</span>"
@@ -821,9 +857,9 @@
 		"SpiritDamageReductionProc_postvalue_label"		"Giảm sát thương phép thuật"
 		"SpiritDamageReductionProc_postfix"		"%"
 
-		"upgrade_juggernaut_slow_desc"			"Kẻ địch bắn bạn bị làm chậm <span class=\"highlight\">Tốc độ bắn</span>."
-		"FireRateSlowDuration_label"			"Thời gian"
-		"FireRateSlowDuration_postvalue_label"			"Thời gian"
+		"upgrade_juggernaut_slow_desc"			"Kẻ địch bắn trúng bạn sẽ bị giảm <span class=\"highlight\">Tốc độ bắn</span>."
+		"FireRateSlowDuration_label"			"Thời gian giảm tốc bắn"
+		"FireRateSlowDuration_postvalue_label"			"Thời gian giảm tốc bắn"
 		"FireRateSlowDuration_postfix"			"s"
 
 		"upgrade_trophy_collector_desc"			"Mỗi khi <span class=\"highlight\">hỗ trợ hoặc hạ gục</span>, bạn được cộng dồn <span class=\"highlight\">tốc độ chạy nước rút</span>, <span class=\"highlight\">tầm kỹ năng</span> và <span class=\"highlight\">Souls nhận thụ động</span>. Bạn vẫn giữ các cộng dồn sau khi bị hạ gục."
@@ -854,16 +890,19 @@
 		"AmbushBonusTechPower_prefix"					"+"
 		"AmbushBonusTechPower_label"					"Sức mạnh phép thuật khi phục kích"
 		"AmbushBonusTechPower_postvalue_label"					"Sức mạnh phép thuật khi phục kích"
-		"AmbushBonusFireRate_prefix"					"+"
-		"AmbushBonusFireRate_label"					"Tốc độ bắn khi phục kích"
-		"AmbushBonusFireRate_postvalue_label"					"Tốc độ bắn khi phục kích"
-		"AmbushBonusFireRate_postfix"					"%"
+		"AmbushBonusWeaponDamage_prefix"					"+"
+		"AmbushBonusWeaponDamage_label"					"Sát thương vũ khí khi phục kích"
+		"AmbushBonusWeaponDamage_postvalue_label"					"Sát thương vũ khí khi phục kích"
+		"AmbushBonusWeaponDamage_postfix"					"%"
 		"AmbushBonusMeleeDamage_label"					"Sát thương cận chiến khi phục kích"
 		"AmbushBonusMeleeDamage_postvalue_label"		"Sát thương cận chiến khi phục kích"
 		"AmbushBonusMeleeDamage_postfix"				"%"
 		"AmbushDuration_label"						"Thời gian phục kích"
 		"AmbushDuration_postvalue_label"						"Thời gian phục kích"
 		"AmbushDuration_postfix"						"s"
+		"AmbushBuildUpDuration_label"				"Thời gian đạt Ambush tối đa"
+		"AmbushBuildUpDuration_postvalue_label"		"Thời gian đạt Ambush tối đa"
+		"AmbushBuildUpDuration_postfix"				"s"
 		"StealthDuration_label"						"Thời gian tàng hình"
 		"StealthDuration_postvalue_label"						"Thời gian tàng hình"
 		"StealthDuration_postfix"						"s"
@@ -980,13 +1019,11 @@
 		//-----------------------------------------------------------------------------
 		// Cosmetic
 		//----------------------------------------------------------------------------- 
-		"cosmetic_ability_snowball"		"Quả cầu tuyết"
-		"cosmetic_ability_snowball_desc"		"Ném quả cầu tuyết vào bạn bè và kẻ địch. Tầm ném và các thuộc tính khác được cải thiện khi bạn tiến triển trong <span class=\"highlight\">Thử thách Lễ hội 2025</span>.<br><br><span class=\"diminish\">Ném quả cầu tuyết vào đồng minh sẽ không gây sát thương và sẽ đặt lại thời gian hồi chiêu của nó.</span>"
-		"SnowballSpeed_label"			"Tốc độ ném"
-		"SnowballSpeed_postvalue_label"		"Vận tốc"
-		"SnowballSpeed_postfix"			"m/s"
-		"SnowballCount_label"			"Số quả cầu tuyết đã ném"
-		"SnowballCount_postvalue_label"		"Số đạn"
+		"HealPerMinute_label"			"Lượng hồi máu tăng mỗi phút"
+		"TechPowerPerMinute_label"		"Spirit Power tăng mỗi phút"
+		"BonusFireRatePerMinute_label"		"Tốc độ bắn tăng mỗi phút"
+		"BonusMoveSpeedPerMinute_label"		"Tốc độ di chuyển tăng mỗi phút"
 
-		"cosmetic_item_voting_poster"		"Dán áp phích"		}
+		"cosmetic_item_voting_poster"		"Dán áp phích"
+	}
 }

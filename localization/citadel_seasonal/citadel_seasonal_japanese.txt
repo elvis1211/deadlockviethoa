@@ -1,0 +1,37 @@
+﻿"lang"
+{
+	"Language"		"japanese"
+	"Tokens"
+	{
+		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"		"{g:citadel_persona:account_id}が{s:hero_name}のホリデーチアを達成した！"
+		"Citadel_Showcase_SeasonalAchievement2024"		"2024年12月"
+		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"		"{g:citadel_persona:account_id}が{s:hero_name}のオーナメントをアンロックした！"
+		"Citadel_Showcase_SeasonalAchievement2025"		"2025年12月"
+		"Citadel_Hud_Toast_SeasonalKill"		"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span> が獲得："
+		"Citadel_Hud_Toast_SeasonalKill2"		"スノーボールキル！"
+		"Citadel_Event_Holiday_Challenge2025_Title"		"2025 ホリデーチャレンジ"
+		"Citadel_Event_Holiday_Challenge2025_Desc"		"マッチに勝利すると、プレイしたヒーローに応じたオーナメントをもらえます。オーナメントはハイドアウトのツリーの飾り付けに使用できます。"
+		"Citadel_Event_Holiday_Challenge2025_Snowball"		"ツリーにオーナメントを追加して、アクティブアイテム「<span class=\"Emphasis\">スノーボール</span>」を強化しましょう。"
+		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"レベル {i:item_level} / {i:item_max_level}"
+		"menu_seasonal_2025"		"ホリデーチャレンジ"
+		"Citadel_Hideout_XmasGlobeEarned_Temp"		"ウィンターアップデート中に{s:hideout_owner}が獲得した記念品"
+		"Citadel_Hideout_HolidayChallenge"		"{g:citadel_binding:'Interact'}でホリデーチャレンジの進行状況を確認"
+		"halloween_candy_pickup_label"		"キャンディ"
+		"modifier_halloween_candy_sugar_rush"		"シュガーラッシュ"
+		"Citadel_Hideout_HalloweenCauldron"		"キャンディの大釜：{g:citadel_binding:'AbilityMelee'}長押しで破壊してキャンディを獲得"
+		"npc_seasonal"		"ニュースキャスター"
+
+		"cosmetic_ability_snowball"		"スノーボール"
+		"cosmetic_ability_snowball_desc"		"味方や敵に雪玉を投げる。飛距離などの性能は「<span class=\"highlight\">2025 ホリデーチャレンジ</span>」の進行度に応じて向上する<br><br><span class=\"diminish\">味方に雪玉を当ててもダメージは与えず、クールダウンがリセットされる</span>"
+		"SnowballSpeed_label"		"雪玉の速度"
+		"SnowballSpeed_postvalue_label"		"速度"
+		"SnowballSpeed_postfix"		"m／秒"
+		"SnowballCount_label"		"雪玉を投げた数"
+		"SnowballCount_postvalue_label"		"発射物"
+		"seasonal_ability_eat_halloween_candy"		"キャンディを食べる"
+		"seasonal_ability_eat_halloween_candy_desc"		"キャンディを1つ食べてHPとスタミナを回復し、<span class=\"highlight\">シュガーラッシュ</span>バフを獲得する<br><br><span class=\"diminish\">回復量とシュガーラッシュの効果量は、マッチが進むにつれて強化される</span>"
+
+		"HalloweenCandy_label"		"スタック："
+		"HalloweenCandy_postvalue_label"		"スタック："
+	}
+}

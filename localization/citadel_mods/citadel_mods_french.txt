@@ -627,7 +627,7 @@
 		"upgrade_quick_silver_desc"				"Votre capacité imprégnée gagne en puissance au fil du temps. Elle inflige des {g:citadel_inline_attribute:'BonusSpiritDamage'}, bénéficie d'un {g:citadel_inline_attribute:'BonusFireRate'}, et <span class=\"highlight\">recharge votre arme</span> à son lancement."
 
 		//Resonant Healing
-		"upgrade_resonant_healing_desc"			"<span class=\"highlight\">Soigne</span> et accorde un bonus de <span class=\"highlight\">vitesse de déplacement</span> pendant un court lorsque vous lancez une capacité."
+		"upgrade_resonant_healing_desc"			"Pendant le combat, <span class=\"highlight\">soigne</span> et accorde brièvement un bonus de <span class=\"highlight\">vitesse de déplacement</span> au lancement d'une capacité."
 		"HealingPerCast_Label"					"Soins par capacité lancée"
 
 		"HealingPerCast_postvalue_label"					"Soins par capacité lancée"
@@ -744,8 +744,8 @@
 
 		//Debuff Remover | Dispel Magic
 		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Supprime tous les effets négatifs non ultimes</span> qui vous affectent. Lors d'une suppression, vous <span class=\"highlight\">récupérez des PV</span> et obtenez un <span class=\"highlight\">bonus de vitesse de déplacement</span>. <br><span class=\"diminish\">N'est pas utilisable en cas d'étourdissement ou d'endormissement.</span>"
-		"HealOnActivate_label"		"Soins à l'activation"
-		"HealOnActivate_postvalue_label"		"Soins à l'activation"
+		"HealOnActivate_label"		"Soins"
+		"HealOnActivate_postvalue_label"		"Soins"
 
 		"damage_reduction_postfix"						" %"
 
@@ -878,22 +878,25 @@
 
 		//Shadow Weave
 		"upgrade_cloaking_device_active_desc"		"Vous devenez <span class=\"highlight\">invisible</span>. Quand vous subissez des dégâts pendant l'effet, votre position est brièvement révélée."
-		"upgrade_cloaking_device_active_ambush_desc"	"<br>L'invisibilité se termine quand vous attaquez ou que vous utilisez une capacité, ce qui déclenche une <span class=\"highlight\">embuscade</span>. Vous obtenez alors un bonus temporaire de <span class=\"highlight\">cadence de tir</span>, de <span class=\"highlight\">pouvoir spirituel</span> et de <span class=\"highlight\">dégâts de mêlée</span>."
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>L'invisibilité se termine quand vous attaquez ou que vous utilisez une capacité, ce qui déclenche une <span class=\"highlight\">embuscade</span>. Vous obtenez alors un bonus temporaire de <span class=\"highlight\">dégâts des armes</span> et de <span class=\"highlight\">pouvoir spirituel</span>."
 		"modifier_cloaking_device_active_stealth"		"Tissu d'ombres : invisibilité"
 		"modifier_cloaking_device_active_ambush"		"Tissu d'ombres : embuscade"
 		"AmbushBonusTechPower_prefix"					"+"
 		"AmbushBonusTechPower_label"					"Pouvoir spirituel lors de l'embuscade"
 		"AmbushBonusTechPower_postvalue_label"					"Pouvoir spirituel lors de l'embuscade"
-		"AmbushBonusFireRate_prefix"					"+"
-		"AmbushBonusFireRate_label"					"Cadence de tir lors de l'embuscade"
-		"AmbushBonusFireRate_postvalue_label"					"Cadence de tir lors de l'embuscade"
-		"AmbushBonusFireRate_postfix"					" %"
+		"AmbushBonusWeaponDamage_prefix"					"+"
+		"AmbushBonusWeaponDamage_label"					"Dégâts des armes de l'embuscade"
+		"AmbushBonusWeaponDamage_postvalue_label"					"Dégâts des armes de l'embuscade"
+		"AmbushBonusWeaponDamage_postfix"					" %"
 		"AmbushBonusMeleeDamage_label"					"Dégâts de mêlée de l'embuscade"
 		"AmbushBonusMeleeDamage_postvalue_label"		"Dégâts de mêlée de l'embuscade"
 		"AmbushBonusMeleeDamage_postfix"				" %"
 		"AmbushDuration_label"						"Durée de l'embuscade"
 		"AmbushDuration_postvalue_label"						"Durée de l'embuscade"
 		"AmbushDuration_postfix"						" s"
+		"AmbushBuildUpDuration_label"				"Délai avant l'embuscade complète"
+		"AmbushBuildUpDuration_postvalue_label"		"Délai avant l'embuscade complète"
+		"AmbushBuildUpDuration_postfix"				" s"
 		"StealthDuration_label"						"Durée de l'invisibilité"
 		"StealthDuration_postvalue_label"						"Durée de l'invisibilité"
 		"StealthDuration_postfix"						" s"
@@ -1010,13 +1013,10 @@
 		//-----------------------------------------------------------------------------
 		// Cosmetic
 		//----------------------------------------------------------------------------- 
-		"cosmetic_ability_snowball"		"Boule de neige"
-		"cosmetic_ability_snowball_desc"		"Lancez des boules de neige sur les occultistes de votre équipe et ceux de l'équipe adverse. Certaines propriétés, telles que votre portée, s'améliorent selon vote progression dans le <span class=\"highlight\">Défi des fêtes de 2025</span>.<br><br><span class=\"diminish\">Lancer une boule de neige sur un occultiste allié n'inflige pas de dégât et réinitialise le temps de récupération.</span>"
-		"SnowballSpeed_label"			"Vitesse de lancer"
-		"SnowballSpeed_postvalue_label"		"Vélocité"
-		"SnowballSpeed_postfix"			" m/s"
-		"SnowballCount_label"			"Boules de neige lancées"
-		"SnowballCount_postvalue_label"		"Projectiles"
+		"HealPerMinute_label"			"Augmentation des soins par minute"
+		"TechPowerPerMinute_label"		"Augmentation du pouvoir spirituel par minute"
+		"BonusFireRatePerMinute_label"		"Augmentation de la cadence de tir par minute"
+		"BonusMoveSpeedPerMinute_label"		"Augmentation de la vitesse de déplacement par minute"
 
 		"cosmetic_item_voting_poster"		"Placer une affiche"
 	}

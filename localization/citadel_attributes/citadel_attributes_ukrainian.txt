@@ -45,7 +45,7 @@
 		"Citadel_StatusEffectInvisible"			"Невидимість"
 		"Citadel_StatusEffectPetrify"			"Скам’яніння"
 		"Citadel_StatusEffectCustomDebuff"		"Ослаблення"
-		//"Citadel_StatusEffectStacks"			"Stacks "
+		//"Citadel_StatusEffectStacks"			"Stacks"
 		"Citadel_StatusEffectInfiniteClip"		"Нескінченні набої"
 		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
 		//"Citadel_StatusEffectBuff"				"Buff"
@@ -75,12 +75,7 @@
 		//"modifier_pullaura" 					"Pulled"
 		//"modifier_healaura" 					"Healing"
 		"modifier_citadel_root"					"Знерухомлення"
-		//"modifier_citadel_charging" 			"Charging"
-		//"modifier_invis" 						"Stealthed"
-		//"modifier_invis_start_delay" 			"Entering Stealth"
-		//"modifier_invis_fading"					"Fading"
-		//"modifier_camouflage_invis"				"Camouflaged"
-		"modifier_citadel_silenced"				"Знемовлення"
+"modifier_citadel_silenced"				"Знемовлення"
 		"silencer_immune"						"Імунітет до знемовлення"
 		//"modifier_citadel_muted"				"Muted"
 		"modifier_citadel_disarmed"				"Роззброєння"
@@ -1867,7 +1862,6 @@
 		"CurrentBonus_label"							"Поточне посилення"
 		"CurrentBonus_postvalue_label"					"поточному посиленню"
 
-
 		//"TimeToMaxStacks_label"							"Time To Max Stacks"
 		"TimeToMaxStacks_postfix"						" с"
 
@@ -3122,7 +3116,6 @@
 		"GravityScale_label"					"Переміна ласо"
 		"GravityScale_postvalue_label"			"переміні ласо"
 		"GravityScale_postfix"					"%"
-
 		"AirBonusDamageGiven_label"					"Шкода в повітрі"
 		"AirBonusDamageGiven_postvalue_label"		"шкоді в повітрі"
 		"AirBonusDamageGiven_prefix"				"{s:sign}"

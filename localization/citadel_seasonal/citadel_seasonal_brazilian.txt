@@ -1,0 +1,37 @@
+﻿"lang"
+{
+	"Language"		"brazilian"
+	"Tokens"
+	{
+		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"		"{g:citadel_persona:account_id} conquistou a fantasia festiva de {s:hero_name}!"
+		"Citadel_Showcase_SeasonalAchievement2024"		"Dezembro de 2024"
+		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"		"Enfeite de {s:hero_name} destravado por {g:citadel_persona:account_id}!"
+		"Citadel_Showcase_SeasonalAchievement2025"		"Dezembro de 2025"
+		"Citadel_Hud_Toast_SeasonalKill"		"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span> matou"
+		"Citadel_Hud_Toast_SeasonalKill2"		"alguém com uma bola de neve!"
+		"Citadel_Event_Holiday_Challenge2025_Title"		"Desafio Festivo de 2025"
+		"Citadel_Event_Holiday_Challenge2025_Desc"		"Vença uma partida jogando como cada herói para receber um enfeite exclusivo para a árvore do seu esconderijo."
+		"Citadel_Event_Holiday_Challenge2025_Snowball"		"Aprimore a sua <span class=\"Emphasis\">Bola de Neve</span> arremessável ao adicionar mais enfeites à sua árvore."
+		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"Nível {i:item_level} / {i:item_max_level}"
+		"menu_seasonal_2025"		"Desafio Festivo"
+		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Lembrança obtida por {s:hideout_owner} durante a Atualização de Fim de Ano"
+		"Citadel_Hideout_HolidayChallenge"		"Pressione {g:citadel_binding:'Interact'} para ver o progresso no Desafio Festivo"
+		"halloween_candy_pickup_label"		"Doce"
+		"modifier_halloween_candy_sugar_rush"		"Descarga de Açúcar"
+		"Citadel_Hideout_HalloweenCauldron"		"Caldeirão de Doces: segure {g:citadel_binding:'AbilityMelee'} para quebrá-lo e pegar um doce"
+		"npc_seasonal"		"Âncora do Noticiário"
+
+		"cosmetic_ability_snowball"		"Bola de Neve"
+		"cosmetic_ability_snowball_desc"		"Arremesse bolas de neve nos seus amigos e inimigos. A distância e outras propriedades melhoram à medida que você avança no <span class=\"highlight\">Desafio Festivo de 2025</span>.<br><br><span class=\"diminish\">Arremessar uma bola de neve em um aliado não causará dano e recarregará a habilidade imediatamente.</span>"
+		"SnowballSpeed_label"		"Veloc. do arremesso"
+		"SnowballSpeed_postvalue_label"		"de velocidade"
+		"SnowballSpeed_postfix"		" m/s"
+		"SnowballCount_label"		"Bolas arremessadas"
+		"SnowballCount_postvalue_label"		"projéteis"
+		"seasonal_ability_eat_halloween_candy"		"Comer Doce"
+		"seasonal_ability_eat_halloween_candy_desc"		"Come um doce para se curar, restaurar vigor e receber o benefício <span class=\"highlight\">Descarga de Açúcar</span>.<br><br><span class=\"diminish\">A cura e os atributos da Descarga de Açúcar aumentam conforme a partida avança.</span>"
+
+		"HalloweenCandy_label"		"Acúmulos:"
+		"HalloweenCandy_postvalue_label"		"acúmulos"
+	}
+}

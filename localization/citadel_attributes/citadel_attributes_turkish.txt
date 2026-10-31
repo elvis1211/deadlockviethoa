@@ -45,7 +45,7 @@
 		"Citadel_StatusEffectInvisible"			"Görünmez"
 		"Citadel_StatusEffectPetrify"			"Taşa Çevirme"
 		"Citadel_StatusEffectCustomDebuff"		"Zayıflatma"
-		//"Citadel_StatusEffectStacks"			"Stacks "
+		//"Citadel_StatusEffectStacks"			"Stacks"
 		"Citadel_StatusEffectInfiniteClip"		"Sınırsız Mermi"
 		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
 		//"Citadel_StatusEffectBuff"				"Buff"
@@ -80,6 +80,7 @@
 		//"modifier_invis_start_delay" 			"Entering Stealth"
 		//"modifier_invis_fading"					"Fading"
 		//"modifier_camouflage_invis"				"Camouflaged"
+		"modifier_citadel_sleep"				"Uyuyor"
 		"modifier_citadel_silenced"				"Susturuldu"
 		"silencer_immune"						"Susturucuya Dayanıklı"
 		//"modifier_citadel_muted"				"Muted"
@@ -1845,7 +1846,6 @@
 		"CurrentBonus_label"							"Mevcut Bonus:"
 		"CurrentBonus_postvalue_label"					"Mevcut Bonus:"
 
-
 		//"TimeToMaxStacks_label"							"Time To Max Stacks"
 		"TimeToMaxStacks_postfix"						" sn."
 
@@ -3078,6 +3078,10 @@
 		"GravityScale_label"					"Yer Çekimi Ölçeği"
 		"GravityScale_postvalue_label"			"Yer Çekimi Ölçeği"
 		"GravityScale_postfix"					"%"
+		"GravityScaleIncrease_label"			"Yer Çekimi Ölçeği"
+		"GravityScaleIncrease_postvalue_label"	"Yer Çekimi Ölçeği"
+		"GravityScaleIncrease_prefix"			"+"
+		"GravityScaleIncrease_postfix"			"%"
 
 		"AirBonusDamageGiven_label"					"Havadaki Hasar"
 		"AirBonusDamageGiven_postvalue_label"		"Havadaki Hasar"

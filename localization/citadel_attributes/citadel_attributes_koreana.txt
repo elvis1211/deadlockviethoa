@@ -45,7 +45,7 @@
 		"Citadel_StatusEffectInvisible"			"투명"
 		"Citadel_StatusEffectPetrify"			"석화"
 		"Citadel_StatusEffectCustomDebuff"		"약화"
-		//"Citadel_StatusEffectStacks"			"Stacks "
+		//"Citadel_StatusEffectStacks"			"Stacks"
 		"Citadel_StatusEffectInfiniteClip"		"무한 탄약"
 		//"Citadel_StatusEffectBulletDebuff"		"Bullet Debuff"
 		//"Citadel_StatusEffectBuff"				"Buff"
@@ -80,6 +80,7 @@
 		//"modifier_invis_start_delay" 			"Entering Stealth"
 		//"modifier_invis_fading"					"Fading"
 		//"modifier_camouflage_invis"				"Camouflaged"
+		"modifier_citadel_sleep"				"수면 상태"
 		"modifier_citadel_silenced"				"침묵"
 		"silencer_immune"						"침묵 면역"
 		//"modifier_citadel_muted"				"Muted"
@@ -1845,7 +1846,6 @@
 		"CurrentBonus_label"							"현재 보너스:"
 		"CurrentBonus_postvalue_label"					"현재 보너스:"
 
-
 		//"TimeToMaxStacks_label"							"Time To Max Stacks"
 		"TimeToMaxStacks_postfix"						"초"
 
@@ -3078,6 +3078,10 @@
 		"GravityScale_label"					"중력 비율"
 		"GravityScale_postvalue_label"			"중력 비율"
 		"GravityScale_postfix"					"%"
+		"GravityScaleIncrease_label"			"중력 비율"
+		"GravityScaleIncrease_postvalue_label"	"중력 비율"
+		"GravityScaleIncrease_prefix"			"+"
+		"GravityScaleIncrease_postfix"			"%"
 
 		"AirBonusDamageGiven_label"					"공중 피해"
 		"AirBonusDamageGiven_postvalue_label"		"공중 피해"

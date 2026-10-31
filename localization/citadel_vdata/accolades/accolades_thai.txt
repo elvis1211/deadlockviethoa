@@ -34,7 +34,7 @@
 	"Citadel_VData_accolades_kills_FlavorName"		"สัญชาตญาณนักฆ่า"
 	"Citadel_VData_accolades_killstreak_kills_Description:f"		"<span class=\"StatValue\">{g:citadel_thousands:stat_value}</span> สังหารขณะสังหารต่อเนื่อง"
 	"Citadel_VData_accolades_killstreak_kills_FlavorName"		"ไล่ล่าฆ่าไม่ยั้ง"
-	"Citadel_VData_accolades_last_hits_Description:f"		"<span class=\"StatValue\">{g:citadel_thousands:stat_value}</span> จำนวนลาสต์ฮิต"
+	"Citadel_VData_accolades_last_hits_Description:f"		"<span class=\"StatValue\">{g:citadel_thousands:stat_value}</span> ลาสต์ฮิต"
 	"Citadel_VData_accolades_last_hits_FlavorName"		"หนักหน่วง"
 	"Citadel_VData_accolades_long_distance_damage_Description:f"		"<span class=\"StatValue\">{g:citadel_thousands:stat_value}</span> ความเสียหายระยะไกล"
 	"Citadel_VData_accolades_long_distance_damage_FlavorName"		"ห่างกันเถอะนะ"

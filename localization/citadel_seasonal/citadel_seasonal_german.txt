@@ -1,0 +1,37 @@
+﻿"lang"
+{
+	"Language"		"german"
+	"Tokens"
+	{
+		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"		"{g:citadel_persona:account_id} hat {s:hero_name} in Weihnachtsstimmung versetzt!"
+		"Citadel_Showcase_SeasonalAchievement2024"		"Dezember 2024"
+		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"		"{g:citadel_persona:account_id} hat die Christbaumkugel für {s:hero_name} freigeschaltet!"
+		"Citadel_Showcase_SeasonalAchievement2025"		"Dezember 2025"
+		"Citadel_Hud_Toast_SeasonalKill"		"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span> erzielte einen"
+		"Citadel_Hud_Toast_SeasonalKill2"		"Schneeball-Kill!"
+		"Citadel_Event_Holiday_Challenge2025_Title"		"Weihnachtsherausforderung 2025"
+		"Citadel_Event_Holiday_Challenge2025_Desc"		"Gewinne mit jedem Helden eine Partie, um eine einzigartige Christbaumkugel für den Tannenbaum im Versteck zu erhalten."
+		"Citadel_Event_Holiday_Challenge2025_Snowball"		"Verbessere Deinen werfbaren <span class=\"Emphasis\">Schneeball</span>-Aktivgegenstand, indem Du mehr Christbaumkugeln für den Tannenbaum verdienst."
+		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"Level {i:item_level} / {i:item_max_level}"
+		"menu_seasonal_2025"		"Weihnachtsherausforderung"
+		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Souvenir, das sich {s:hideout_owner} während des Weihnachts-Updates verdient hat"
+		"Citadel_Hideout_HolidayChallenge"		"Drücke {g:citadel_binding:'Interact'}, um den Fortschritt der Weihnachtsherausforderung anzuzeigen"
+		"halloween_candy_pickup_label"		"Süßigkeiten"
+		"modifier_halloween_candy_sugar_rush"		"Zuckerrausch"
+		"Citadel_Hideout_HalloweenCauldron"		"Süßigkeitenkessel: Halte {g:citadel_binding:'AbilityMelee'} gedrückt, um ihn zu zerschlagen und Süßigkeiten zu erhalten"
+		"npc_seasonal"		"Nachrichten­sprecher"
+
+		"cosmetic_ability_snowball"		"Schneeball"
+		"cosmetic_ability_snowball_desc"		"Wirf Schneebälle auf Deine Freunde und Feinde. Die Reichweite und andere Eigenschaften verbessern sich, wenn Du in der <span class=\"highlight\">Weihnachtsherausforderung 2025</span> Fortschritte erzielst.<br><br><span class=\"diminish\">Wenn Du einen Schneeball auf einen Verbündeten wirfst, verursacht dies keinen Schaden und die Abklingzeit wird zurückgesetzt.</span>"
+		"SnowballSpeed_label"		"Wurftempo"
+		"SnowballSpeed_postvalue_label"		"Tempo"
+		"SnowballSpeed_postfix"		" m/s"
+		"SnowballCount_label"		"Schneeballwürfe"
+		"SnowballCount_postvalue_label"		"Projektil(e)"
+		"seasonal_ability_eat_halloween_candy"		"Süßigkeit essen"
+		"seasonal_ability_eat_halloween_candy_desc"		"Iss ein Stück Süßigkeit, um Dich zu heilen, Ausdauer wiederherzustellen und den Stärkungseffekt <span class=\"highlight\">Zuckerrausch</span> zu erhalten.<br><br><span class=\"diminish\">Die Werte der Heilung und des Zuckerrausch-Stärkungseffekts erhöhen sich im Verlauf der Partie.</span>"
+
+		"HalloweenCandy_label"		"Instanzen:"
+		"HalloweenCandy_postvalue_label"		"Instanzen:"
+	}
+}

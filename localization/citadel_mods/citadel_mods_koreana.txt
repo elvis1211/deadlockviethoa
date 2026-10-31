@@ -627,7 +627,7 @@
 		"upgrade_quick_silver_desc"				"보강된 능력이 시간이 지남에 따라 충전되며 {g:citadel_inline_attribute:'BonusSpiritDamage'}, {g:citadel_inline_attribute:'BonusFireRate'} 효과를 얻고, 사용 시 <span class=\"highlight\">총탄을 재장전</span>합니다."
 
 		//Resonant Healing
-		"upgrade_resonant_healing_desc"			"능력을 시전할 때 자신을 <span class=\"highlight\">치유</span>하고 짧은 시간 동안 보너스 <span class=\"highlight\">이동 속도</span>를 얻습니다."
+		"upgrade_resonant_healing_desc"			"전투 중 능력을 시전할 때 자신을 <span class=\"highlight\">치유</span>하고 짧은 시간 동안 보너스 <span class=\"highlight\">이동 속도</span>를 얻습니다."
 		"HealingPerCast_Label"					"능력 시전 시 치유"
 
 		"HealingPerCast_postvalue_label"					"능력 시전 시 치유"
@@ -744,8 +744,8 @@
 
 		//Debuff Remover | Dispel Magic
 		"upgrade_reduce_debuff_duration_active_desc"	"궁극기를 제외하고 현재 자신에게 적용된 <span class=\"highlight\">모든 부정적인 효과를 정화</span>합니다. 부정적인 효과가 제거되면 <span class=\"highlight\">자신을 치유</span>하고 <span class=\"highlight\">이동 속도 보너스</span>를 얻습니다.<br><span class=\"diminish\">기절 또는 수면 상태에서는 사용할 수 없습니다.</span>"
-		"HealOnActivate_label"		"시전 시 체력 치유"
-		"HealOnActivate_postvalue_label"		"시전 시 체력 치유"
+		"HealOnActivate_label"		"치유량"
+		"HealOnActivate_postvalue_label"		"치유량"
 
 		"damage_reduction_postfix"						"%"
 
@@ -877,22 +877,25 @@
 
 		//Shadow Weave
 		"upgrade_cloaking_device_active_desc"		"<span class=\"highlight\">은신</span> 상태가 됩니다. 은신 상태에서 피해를 입으면 짧은 시간 동안 모습이 노출됩니다."
-		"upgrade_cloaking_device_active_ambush_desc"	"<br>공격하거나 능력을 시전하여 은신 상태가 해제되면 <span class=\"highlight\">기습</span>이 시작됩니다. 일시적으로 보너스 <span class=\"highlight\">연사 속도</span>, <span class=\"highlight\">마력</span>, <span class=\"highlight\">근거리 피해</span>를 얻습니다."
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>공격하거나 능력을 시전하여 은신 상태가 해제되면 <span class=\"highlight\">기습</span>이 시작됩니다. 일시적으로 보너스 <span class=\"highlight\">무기 피해</span>와 <span class=\"highlight\">마력</span>이 부여됩니다."
 		"modifier_cloaking_device_active_stealth"		"그림자 장막 - 은신"
 		"modifier_cloaking_device_active_ambush"		"그림자 장막 - 기습"
 		"AmbushBonusTechPower_prefix"					"+"
 		"AmbushBonusTechPower_label"					"기습 시 마력"
 		"AmbushBonusTechPower_postvalue_label"					"기습 시 마력"
-		"AmbushBonusFireRate_prefix"					"+"
-		"AmbushBonusFireRate_label"					"기습 시 연사 속도"
-		"AmbushBonusFireRate_postvalue_label"					"기습 시 연사 속도"
-		"AmbushBonusFireRate_postfix"					"%"
+		"AmbushBonusWeaponDamage_prefix"					"+"
+		"AmbushBonusWeaponDamage_label"					"기습 무기 피해"
+		"AmbushBonusWeaponDamage_postvalue_label"					"기습 무기 피해"
+		"AmbushBonusWeaponDamage_postfix"					"%"
 		"AmbushBonusMeleeDamage_label"					"기습 근거리 피해"
 		"AmbushBonusMeleeDamage_postvalue_label"		"기습 근거리 피해"
 		"AmbushBonusMeleeDamage_postfix"				"%"
 		"AmbushDuration_label"						"기습 지속 시간"
 		"AmbushDuration_postvalue_label"						"기습 지속 시간"
 		"AmbushDuration_postfix"						"초"
+		"AmbushBuildUpDuration_label"				"기습 최대 효과 도달 시간"
+		"AmbushBuildUpDuration_postvalue_label"		"기습 최대 효과 도달 시간"
+		"AmbushBuildUpDuration_postfix"				"초"
 		"StealthDuration_label"						"은신 지속 시간"
 		"StealthDuration_postvalue_label"						"은신 지속 시간"
 		"StealthDuration_postfix"						"초"
@@ -1009,13 +1012,10 @@
 		//-----------------------------------------------------------------------------
 		// Cosmetic
 		//----------------------------------------------------------------------------- 
-		"cosmetic_ability_snowball"		"눈덩이"
-		"cosmetic_ability_snowball_desc"		"친구와 적에게 눈덩이를 던져보세요. <span class=\"highlight\">2025 크리스마스 챌린지</span> 진척도에 따라 사거리 및 다른 속성이 향상됩니다.<br><br><span class=\"diminish\">아군에게는 눈덩이를 던져도 피해를 입히지 않으며 쿨다운이 초기화됩니다.</span>"
-		"SnowballSpeed_label"			"던지기 속도"
-		"SnowballSpeed_postvalue_label"		"속도"
-		"SnowballSpeed_postfix"			"m(초당)"
-		"SnowballCount_label"			"던진 눈덩이"
-		"SnowballCount_postvalue_label"		"투사체"
+		"HealPerMinute_label"			"분당 치유량 증가"
+		"TechPowerPerMinute_label"		"분당 마력 증가"
+		"BonusFireRatePerMinute_label"		"분당 연사 속도 증가"
+		"BonusMoveSpeedPerMinute_label"		"분당 이동 속도 증가"
 
 		"cosmetic_item_voting_poster"		"포스터 배치"
 	}

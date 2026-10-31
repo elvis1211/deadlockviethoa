@@ -1,0 +1,37 @@
+﻿"lang"
+{
+	"Language"		"schinese"
+	"Tokens"
+	{
+		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"		"{g:citadel_persona:account_id}获得了{s:hero_name}的节日奖励！"
+		"Citadel_Showcase_SeasonalAchievement2024"		"2024年12月"
+		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"		"{g:citadel_persona:account_id}解锁的{s:hero_name}装饰品！"
+		"Citadel_Showcase_SeasonalAchievement2025"		"2025年12月"
+		"Citadel_Hud_Toast_SeasonalKill"		"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span>获得了"
+		"Citadel_Hud_Toast_SeasonalKill2"		"雪球击倒！"
+		"Citadel_Event_Holiday_Challenge2025_Title"		"2025年假日挑战"
+		"Citadel_Event_Holiday_Challenge2025_Desc"		"使用每位英雄赢下一场比赛就能获得大本营的树上一件独特的装饰品。"
+		"Citadel_Event_Holiday_Challenge2025_Snowball"		"向圣诞树上添加更多装饰品可以升级你的投掷<span class=\"Emphasis\">雪球</span>主动道具。"
+		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"等级 {i:item_level} / {i:item_max_level}"
+		"menu_seasonal_2025"		"假日挑战"
+		"Citadel_Hideout_XmasGlobeEarned_Temp"		"冬季更新期间{s:hideout_owner}获得的纪念品"
+		"Citadel_Hideout_HolidayChallenge"		"按下{g:citadel_binding:'Interact'}查看假日挑战进度"
+		"halloween_candy_pickup_label"		"糖果"
+		"modifier_halloween_candy_sugar_rush"		"糖分爆发"
+		"Citadel_Hideout_HalloweenCauldron"		"糖果坩埚：按住{g:citadel_binding:'AbilityMelee'}将其砸碎并获得糖果"
+		"npc_seasonal"		"新闻播报员"
+
+		"cosmetic_ability_snowball"		"雪球"
+		"cosmetic_ability_snowball_desc"		"向你的朋友和敌人投掷雪球。随着你在<span class=\"highlight\">2025年假日挑战</span>获得进度，距离和其他属性都会得到提升。<br><br><span class=\"diminish\">向盟友投掷雪球不会造成伤害，并且会重置其冷却时间。</span>"
+		"SnowballSpeed_label"		"投掷速度"
+		"SnowballSpeed_postvalue_label"		"速度"
+		"SnowballSpeed_postfix"		"米/秒"
+		"SnowballCount_label"		"扔雪球次数"
+		"SnowballCount_postvalue_label"		"投射物数量"
+		"seasonal_ability_eat_halloween_candy"		"吃糖果"
+		"seasonal_ability_eat_halloween_candy_desc"		"吃一块糖可以治疗自己，恢复耐力并获得<span class=\"highlight\">糖分爆发</span>的增益。<br><br><span class=\"diminish\">治疗和糖分爆发的数值随着比赛进行会不断增强。</span>"
+
+		"HalloweenCandy_label"		"叠加层数："
+		"HalloweenCandy_postvalue_label"		"叠加层数："
+	}
+}

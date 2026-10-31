@@ -627,7 +627,7 @@
 		"upgrade_quick_silver_desc"				"Güçlendirilmiş yeteneğiniz zamanla {g:citadel_inline_attribute:'BonusSpiritDamage'} ve {g:citadel_inline_attribute:'BonusFireRate'} ile dolar ve kullanıldığında <span class=\"highlight\">mermileri yeniler</span>."
 
 		//Resonant Healing
-		"upgrade_resonant_healing_desc"			"Yetenek kullandığınızda kısa süreliğine <span class=\"highlight\">iyileşir</span> ve bonus <span class=\"highlight\">hareket hızı</span> kazanırsınız."
+		"upgrade_resonant_healing_desc"			"Savaştayken yetenek kullandığınızda kısa süreliğine <span class=\"highlight\">iyileşir</span> ve bonus <span class=\"highlight\">Hareket Hızı</span> kazanırsınız."
 		"HealingPerCast_Label"					"Yetenek Kullanımından Gelen İyileşme"
 
 		"HealingPerCast_postvalue_label"					"Yetenek Kullanımından Gelen İyileşme"
@@ -744,8 +744,8 @@
 
 		//Debuff Remover | Dispel Magic
 		"upgrade_reduce_debuff_duration_active_desc"	"Kendinizi üzerinizdeki <span class=\"highlight\">son yetenek hariç diğer tüm olumsuz etkilerden arındırın</span>. Bir etkiden arındığınızda <span class=\"highlight\">kendinizi iyileştirip</span> <span class=\"highlight\">bonus hareket hızı</span> kazanırsınız.<br><span class=\"diminish\">Sersemletilmiş veya uyutulmuşken</span> kullanılamaz."
-		"HealOnActivate_label"		"Etkinleştirildiğinde Gelen SP"
-		"HealOnActivate_postvalue_label"		"Etkinleştirildiğinde Gelen SP"
+		"HealOnActivate_label"		"İyileştirme Miktarı"
+		"HealOnActivate_postvalue_label"		"İyileştirme Miktarı"
 
 		"damage_reduction_postfix"						"%"
 
@@ -877,22 +877,25 @@
 
 		//Shadow Weave
 		"upgrade_cloaking_device_active_desc"		"<span class=\"highlight\">Gizlenin</span>. Gizliyken hasar aldığınızda kısa süreliğine açığa çıkarsınız."
-		"upgrade_cloaking_device_active_ambush_desc"	"<br>Saldırmak veya bir yetenek kullanmak gizliliğinizi sonlandırır ve bir <span class=\"highlight\">pusu</span> başlatıp geçici olarak size bonus <span class=\"highlight\">atış hızı</span>, <span class=\"highlight\">büyü gücü</span> ve <span class=\"highlight\">yakın dövüş hasarı</span> sağlar."
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>Saldırmak veya yetenek kullanmak gizliliğinizi sonlandırır ve bir <span class=\"highlight\">pusu başlatarak</span> geçici olarak size bonus <span class=\"highlight\">Silah Hasarı</span> ve <span class=\"highlight\">Büyü Gücü</span> sağlar."
 		"modifier_cloaking_device_active_stealth"		"Gölge Pelerin - Gizlilik"
 		"modifier_cloaking_device_active_ambush"		"Gölge Pelerin - Pusu"
 		"AmbushBonusTechPower_prefix"					"+"
 		"AmbushBonusTechPower_label"					"Pusu Büyü Gücü"
 		"AmbushBonusTechPower_postvalue_label"					"Pusu Büyü Gücü"
-		"AmbushBonusFireRate_prefix"					"+"
-		"AmbushBonusFireRate_label"					"Pusu Atış Hızı"
-		"AmbushBonusFireRate_postvalue_label"					"Pusu Atış Hızı"
-		"AmbushBonusFireRate_postfix"					"%"
+		"AmbushBonusWeaponDamage_prefix"					"+"
+		"AmbushBonusWeaponDamage_label"					"Pusu Silah Hasarı"
+		"AmbushBonusWeaponDamage_postvalue_label"					"Pusu Silah Hasarı"
+		"AmbushBonusWeaponDamage_postfix"					"%"
 		"AmbushBonusMeleeDamage_label"					"Pusu Yakın Dövüş Hasarı"
 		"AmbushBonusMeleeDamage_postvalue_label"		"Pusu Yakın Dövüş Hasarı"
 		"AmbushBonusMeleeDamage_postfix"				"%"
 		"AmbushDuration_label"						"Pusu Süresi"
 		"AmbushDuration_postvalue_label"						"Pusu Süresi"
 		"AmbushDuration_postfix"						" sn."
+		"AmbushBuildUpDuration_label"				"Pusuya Yatma Süresi"
+		"AmbushBuildUpDuration_postvalue_label"		"Pusuya Yatma Süresi"
+		"AmbushBuildUpDuration_postfix"				" sn."
 		"StealthDuration_label"						"Gizlenme Süresi"
 		"StealthDuration_postvalue_label"						"Gizlenme Süresi"
 		"StealthDuration_postfix"						" sn."
@@ -1009,13 +1012,10 @@
 		//-----------------------------------------------------------------------------
 		// Cosmetic
 		//----------------------------------------------------------------------------- 
-		"cosmetic_ability_snowball"		"Kar topu"
-		"cosmetic_ability_snowball_desc"		"Dostlarınıza ve düşmanlarınıza kar topu fırlatın. <span class=\"highlight\">2025 Yılbaşı Mücadelesi</span>'nde ilerledikçe mesafe ve diğer özellikler gelişir.<br><br><span class=\"diminish\">Dostlara atılan kar topları hasar vermez ve dolum süreleri sıfırlanır.</span>"
-		"SnowballSpeed_label"			"Fırlatma Hızı"
-		"SnowballSpeed_postvalue_label"		"Hız"
-		"SnowballSpeed_postfix"			" m/sn"
-		"SnowballCount_label"			"Fırlatılan Kar topu"
-		"SnowballCount_postvalue_label"		"Atış"
+		"HealPerMinute_label"			"Dakika Başına İyileştirme Artışı"
+		"TechPowerPerMinute_label"		"Dakika Başına Büyü Gücü Artışı"
+		"BonusFireRatePerMinute_label"		"Dakika Başına Atış Hızı Artışı"
+		"BonusMoveSpeedPerMinute_label"		"Dakika Başına Hareket Hızı Artışı"
 
 		"cosmetic_item_voting_poster"		"Posteri As"
 	}

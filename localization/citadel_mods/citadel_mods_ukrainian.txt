@@ -629,10 +629,7 @@
 
 		//Quicksilver Reload
 		"upgrade_quick_silver_desc"				"Насичене вміння під час застосування поступово накопичує заряд {g:citadel_inline_attribute:'BonusSpiritDamage'}, {g:citadel_inline_attribute:'BonusFireRate'} і <span class=\"highlight\">перезаряджання куль</span>."
-
-		//Resonant Healing
-		"upgrade_resonant_healing_desc"			"<span class=\"highlight\">Лікує</span> й ненадовго дає додаткову <span class=\"highlight\">швидкість руху</span> під час застосування вміння."
-		"HealingPerCast_Label"					"Лікування від застосування вміння"
+"HealingPerCast_Label"					"Лікування від застосування вміння"
 
 		"HealingPerCast_postvalue_label"					"лікуванню від застосування вміння"
 
@@ -748,9 +745,6 @@
 
 		//Debuff Remover | Dispel Magic
 		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Очищує всі неультимативні негативні ефекти</span>, що накладені на власника. Коли ефект вилучається, власник <span class=\"highlight\">лікується</span> та здобуває <span class=\"highlight\">додаткову швидкість руху</span>. <br><span class=\"diminish\">Не можна використовувати під час приголомшення чи сну</span>."
-		"HealOnActivate_label"		"Лікування від задіяння"
-		"HealOnActivate_postvalue_label"		"лікуванню від задіяння"
-
 		"damage_reduction_postfix"						"%"
 
 		//Decay
@@ -881,16 +875,11 @@
 
 		//Shadow Weave
 		"upgrade_cloaking_device_active_desc"		"Надає <span class=\"highlight\">непомітність</span>. Щоразу, коли власник зазнає шкоди в непомітності, він ненадовго розкривається перед ворогами."
-		"upgrade_cloaking_device_active_ambush_desc"	"<br>Атака чи використання вміння припинить непомітність власника й почне <span class=\"highlight\">напад із засідки</span>, що тимчасово надасть йому додаткову <span class=\"highlight\">швидкострільність</span>, <span class=\"highlight\">духовну силу</span> та <span class=\"highlight\">шкоду в ближньому бою</span>."
 		"modifier_cloaking_device_active_stealth"		"Тіньове плетиво — непомітність"
 		"modifier_cloaking_device_active_ambush"		"Тіньове плетиво — напад із засідки"
 		"AmbushBonusTechPower_prefix"					"+"
 		"AmbushBonusTechPower_label"					"Духовна сила із засідки"
 		"AmbushBonusTechPower_postvalue_label"					"духовній силі із засідки"
-		"AmbushBonusFireRate_prefix"					"+"
-		"AmbushBonusFireRate_label"					"Швидкострільність із засідки"
-		"AmbushBonusFireRate_postvalue_label"					"швидкострільності із засідки"
-		"AmbushBonusFireRate_postfix"					"%"
 		"AmbushBonusMeleeDamage_label"					"Ближня шкода із засідки"
 		"AmbushBonusMeleeDamage_postvalue_label"		"ближній шкоді із засідки"
 		"AmbushBonusMeleeDamage_postfix"				"%"
@@ -1009,18 +998,6 @@
 		"upgrade_shadow_strike_desc"			"Здобуває <span class=\"highlight\">невидимість</span> під час <span class=\"highlight\">використання витривалості</span> без дальності виявлення. Завдавання <span class=\"highlight\">ближнього удару</span> під час невидимості дозволяє <span class=\"highlight\">викрасти опір кулям і духовний опір</span> у цілі й завдати їй <span class=\"highlight\">періодичної шкоди</span>."
 		"upgrade_omnicharge_pendant_desc"		"Насичує будь-яке дієве неультимативне вміння <span class=\"highlight\">додатковими зарядами вміння</span>. Уже заряджені здобувають додаткові заряди."
 		"upgrade_omnicharge_pendant_charges"	"Додаткові заряди"
-
-		//-----------------------------------------------------------------------------
-		// Cosmetic
-		//----------------------------------------------------------------------------- 
-		"cosmetic_ability_snowball"		"Сніжка"
-		"cosmetic_ability_snowball_desc"		"Кидайте сніжки у своїх друзів та ворогів. Відстань та інші властивості покращуватимуться з прогресом у <span class=\"highlight\">святковому випробуванні 2025 року</span>.<br><br><span class=\"diminish\">Кинута в союзника сніжка не завдасть шкоди, а зарядка буде миттєвою."
-		"SnowballSpeed_label"			"Швидкість кидка"
-		"SnowballSpeed_postvalue_label"		"швидкості"
-		"SnowballSpeed_postfix"			" м/с"
-		"SnowballCount_label"			"Кинуті сніжки"
-		"SnowballCount_postvalue_label"		"кількості"
-
-		"cosmetic_item_voting_poster"		"Розмістити плакат"
+"cosmetic_item_voting_poster"		"Розмістити плакат"
 	}
 }

@@ -627,7 +627,7 @@
 		"upgrade_quick_silver_desc"				"得到加强的技能会逐渐充能，在使用时会拥有{g:citadel_inline_attribute:'BonusSpiritDamage'}、{g:citadel_inline_attribute:'BonusFireRate'}并<span class=\"highlight\">装填子弹</span>。"
 
 		//Resonant Healing
-		"upgrade_resonant_healing_desc"			"施放技能时会在一小段时间内获得<span class=\"highlight\">治疗</span>和额外<span class=\"highlight\">移动速度</span>。"
+		"upgrade_resonant_healing_desc"			"在战斗中，施放技能时会在一小段时间内获得<span class=\"highlight\">治疗</span>和额外<span class=\"highlight\">移动速度</span>。"
 		"HealingPerCast_Label"					"技能施放时治疗"
 
 		"HealingPerCast_postvalue_label"					"技能施放时治疗"
@@ -744,8 +744,8 @@
 
 		//Debuff Remover | Dispel Magic
 		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">清除当前对自身施加的所有非终极技能减益效果</span>。如果有效果被移除，那么<span class=\"highlight\">会得到治疗</span>并获得<span class=\"highlight\">移动速度加成</span>。<br>在<span class=\"diminish\">眩晕或睡眠</span>状态下无法使用。"
-		"HealOnActivate_label"		"激活时治疗量"
-		"HealOnActivate_postvalue_label"		"激活时治疗量"
+		"HealOnActivate_label"		"治疗量"
+		"HealOnActivate_postvalue_label"		"治疗量"
 
 		"damage_reduction_postfix"						"%"
 
@@ -877,22 +877,25 @@
 
 		//Shadow Weave
 		"upgrade_cloaking_device_active_desc"		"进入<span class=\"highlight\">隐身</span>状态。在隐身状态下受到伤害时会短暂现形。"
-		"upgrade_cloaking_device_active_ambush_desc"	"<br>攻击或使用技能将结束隐身状态，并发动一次<span class=\"highlight\">伏击</span>，暂时提供额外的<span class=\"highlight\">射速</span>、<span class=\"highlight\">元灵力量</span>和<span class=\"highlight\">近战伤害</span>。"
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>攻击或使用技能将结束隐身状态，并开始<span class=\"highlight\">伏击</span>，暂时为你提供额外的<span class=\"highlight\">武器伤害</span>和<span class=\"highlight\">元灵力量</span>。"
 		"modifier_cloaking_device_active_stealth"		"来去无踪 - 潜行"
 		"modifier_cloaking_device_active_ambush"		"来去无踪 - 伏击"
 		"AmbushBonusTechPower_prefix"					"+"
 		"AmbushBonusTechPower_label"					"伏击元灵力量"
 		"AmbushBonusTechPower_postvalue_label"					"伏击元灵力量"
-		"AmbushBonusFireRate_prefix"					"+"
-		"AmbushBonusFireRate_label"					"伏击射速"
-		"AmbushBonusFireRate_postvalue_label"					"伏击射速"
-		"AmbushBonusFireRate_postfix"					"%"
+		"AmbushBonusWeaponDamage_prefix"					"+"
+		"AmbushBonusWeaponDamage_label"					"伏击武器伤害"
+		"AmbushBonusWeaponDamage_postvalue_label"					"伏击武器伤害"
+		"AmbushBonusWeaponDamage_postfix"					"%"
 		"AmbushBonusMeleeDamage_label"					"伏击近战伤害"
 		"AmbushBonusMeleeDamage_postvalue_label"		"伏击近战伤害"
 		"AmbushBonusMeleeDamage_postfix"				"%"
 		"AmbushDuration_label"						"伏击持续时间"
 		"AmbushDuration_postvalue_label"						"伏击持续时间"
 		"AmbushDuration_postfix"						"秒"
+		"AmbushBuildUpDuration_label"				"全额伏击所需时间"
+		"AmbushBuildUpDuration_postvalue_label"		"全额伏击所需时间"
+		"AmbushBuildUpDuration_postfix"				"秒"
 		"StealthDuration_label"						"潜行持续时间"
 		"StealthDuration_postvalue_label"						"潜行持续时间"
 		"StealthDuration_postfix"						"秒"
@@ -1009,13 +1012,10 @@
 		//-----------------------------------------------------------------------------
 		// Cosmetic
 		//----------------------------------------------------------------------------- 
-		"cosmetic_ability_snowball"		"雪球"
-		"cosmetic_ability_snowball_desc"		"向你的朋友和敌人投掷雪球。随着你在<span class=\"highlight\">2025年假日挑战</span>获得进度，距离和其他属性都会得到提升。<br><br><span class=\"diminish\">向盟友投掷雪球不会造成伤害，并且会重置其冷却时间。</span>"
-		"SnowballSpeed_label"			"投掷速度"
-		"SnowballSpeed_postvalue_label"		"速度"
-		"SnowballSpeed_postfix"			"米/秒"
-		"SnowballCount_label"			"扔雪球次数"
-		"SnowballCount_postvalue_label"		"投射物数量"
+		"HealPerMinute_label"			"每分钟治疗量提升"
+		"TechPowerPerMinute_label"		"每分钟元灵力量提升"
+		"BonusFireRatePerMinute_label"		"每分钟射速提升"
+		"BonusMoveSpeedPerMinute_label"		"每分钟移动速度提升"
 
 		"cosmetic_item_voting_poster"		"地点海报"
 	}

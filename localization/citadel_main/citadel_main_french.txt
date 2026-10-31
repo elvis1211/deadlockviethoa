@@ -1351,20 +1351,6 @@
 		"Citadel_Hud_KillFeedVehicle"								"Véhicule"
 		"Citadel_Hud_KillFeedWorld"									"Environnement"
 
-		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"			"{g:citadel_persona:account_id} a conjuré l'esprit des fêtes avec {s:hero_name} !"
-		"Citadel_Showcase_SeasonalAchievement2024"					"Décembre 2024"
-
-		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"			"Décoration de {s:hero_name} débloquée par {g:citadel_persona:account_id} !"
-		"Citadel_Showcase_SeasonalAchievement2025"					"Décembre 2025"
-
-		"Citadel_Hud_Toast_SeasonalKill"							"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span> a fait"
-		"Citadel_Hud_Toast_SeasonalKill2"							"une victime avec une boule de neige !"
-
-		"Citadel_Event_Holiday_Challenge2025_Title"					"Défi des fêtes de fin d'année 2025"
-		"Citadel_Event_Holiday_Challenge2025_Desc"					"Remportez un match avec chaque occultiste pour recevoir une décoration unique pour le sapin de votre planque."
-		"Citadel_Event_Holiday_Challenge2025_Snowball"				"Améliorez votre <span class=\"Emphasis\">boule de neige</span> en ajoutant des décorations à votre sapin."
-		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"Niveau {i:item_level} / {i:item_max_level}"
-
 		"Citadel_Hud_Voting_Poster_Tooltip_Header"					"Choisissez votre affiche"
 		"Citadel_Hud_Voting_Poster_Tooltip_Selected"				"Sélectionnée"
 
@@ -2851,6 +2837,9 @@
 		"citadel_hint_activate_wall" "Appuyez sur {g:citadel_binding:'Attack'} pour ériger le mur prématurément."
 		"citadel_hint_guided_arrow_boost" "Maintenez {g:citadel_binding:'Attack'} pour augmenter la vitesse des flèches."
 		"citadel_hint_flying_strike_early_activate" "Appuyez sur {g:citadel_binding:'Attack'} pour voler vers votre cible prématurément."
+
+		// Hud Hints 
+		"citadel_rejuvenator_hud_hint" "Temps restant des réanimateurs actifs, ou réapparition du boss du milieu si aucun réanimateur n'est actif."
 
 		//-----------------------------------------------------------------------------
 		// Breakable Prop modifiers
@@ -4434,7 +4423,6 @@
 		"menu_tphideout"							"Se téléporter vers la planque"
 		"menu_shoparea"							    "L'atrium"
 		"menu_shoparea_sub"							"Gymnase"
-		"menu_seasonal_2025"						"Défi des fêtes"
 		"menu_new_violator"							"Nouveau"
 		
 		
@@ -5843,10 +5831,8 @@
 		"Citadel_Hideout_News"		"Tout en détail"
 		"Citadel_Hideout_News_Button"		"Appuyez sur {g:citadel_binding:'Interact'} pour afficher les actualités"
 		"Citadel_Hideout_VoiceLines"		"Appuyez sur {g:citadel_binding:'Interact'} pour écouter les répliques des dialogues."
-		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Souvenir gagné par {s:hideout_owner} lors de la mise à jour hivernale"
 		"Citadel_Hideout_VaultHint01"				"{g:citadel_binding:'AbilityMelee'} attaque de mêlée pour récupérer des âmes"
 		"Citadel_Hideout_VaultHint02"				"{g:citadel_binding:'AbilityMelee'} attaque de mêlée lors du clignotement pour obtenir des bonus, attaque de mêlée lourde pour le jackpot"
-		"Citadel_Hideout_HolidayChallenge" 		"Appuyez sur {g:citadel_binding:'Interact'} pour voir la progression du Défi des fêtes"
 		"Citadel_Hideout_HeavyCrate"		"Maintenez {g:citadel_binding:'AbilityMelee'} pour briser avec une attaque de mêlée lourde."
 
 		"citadel_keybind_hideout_use"					"Interagir avec un objet de la planque"
@@ -5935,7 +5921,6 @@
 		"Citadel_Subtitles_Message_IconAndName"		"<child id='SpeakerIcon' /><b>{s:subtitle_actor}</b> : {s:subtitle_text}"
 		"Citadel_Subtitles_Message_Icon"			"<child id='SpeakerIcon' /> : {s:subtitle_text}"
 		"npc_newscaster"							"Présentateur"
-		"npc_seasonal"								"Présentateur"
 		"npc_shopkeeper"							"Marchand de curiosités"
 		"npc_broker"								"Courtier"
 		"npc_spirit_jar"							"Urne d'âmes"
@@ -6103,7 +6088,9 @@
 		"map_district_building_campus"			"Campus"
 		"map_district_building_belltower"		"Le beffroi"
 
-
+		// Halloween
+		"AbilityButtonHint_HalloweenTroll"		"Des bonbons ou un sort du troll – Attaque de mêlée lourde pour donner un bonbon"
+		"AbilityButtonHint_HalloweenCauldron"		"Attaque de mêlée lourde pour obtenir un bonbon"
 	}
 }
 

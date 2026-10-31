@@ -1,0 +1,37 @@
+﻿"lang"
+{
+	"Language"		"turkish"
+	"Tokens"
+	{
+		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"		"{g:citadel_persona:account_id}, {s:hero_name} için yılbaşı neşesi kazandı!"
+		"Citadel_Showcase_SeasonalAchievement2024"		"Aralık 2024"
+		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"		"{g:citadel_persona:account_id}, {s:hero_name} süsünü açtı!"
+		"Citadel_Showcase_SeasonalAchievement2025"		"Aralık 2025"
+		"Citadel_Hud_Toast_SeasonalKill"		"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span>:"
+		"Citadel_Hud_Toast_SeasonalKill2"		"Kar Topuyla Leş Aldı!"
+		"Citadel_Event_Holiday_Challenge2025_Title"		"2025 Yılbaşı Mücadelesi"
+		"Citadel_Event_Holiday_Challenge2025_Desc"		"Her kahramanla bir maç kazanarak sığınağınızdaki ağaç için eşsiz bir yılbaşı süsü kazanın."
+		"Citadel_Event_Holiday_Challenge2025_Snowball"		"Yılbaşı ağacınıza süs eklemeye devam ederek fırlatılabilir aktif eşya <span class=\"Emphasis\">Kar Topunuzu</span> geliştirin."
+		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"Seviye {i:item_level} / {i:item_max_level}"
+		"menu_seasonal_2025"		"Yılbaşı Mücadelesi"
+		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Kış Güncellemesi sırasında {s:hideout_owner} tarafından kazanılan hediyelik eşya."
+		"Citadel_Hideout_HolidayChallenge"		"Yılbaşı Mücadelesi İlerlemesini görmek için {g:citadel_binding:'Interact'} tuşuna basın"
+		"halloween_candy_pickup_label"		"Şeker"
+		"modifier_halloween_candy_sugar_rush"		"Şeker Çılgınlığı"
+		"Citadel_Hideout_HalloweenCauldron"		"Şeker Kazanı: Kırıp şeker almak için {g:citadel_binding:'AbilityMelee'} tuşunu basılı tutun"
+		"npc_seasonal"		"Haber Sunucusu"
+
+		"cosmetic_ability_snowball"		"Kar Topu"
+		"cosmetic_ability_snowball_desc"		"Dostlarınıza ve düşmanlarınıza kar topu fırlatın. <span class=\"highlight\">2025 Yılbaşı Mücadelesi</span>'nde ilerledikçe atış mesafesi artar, diğer özellikler de gelişir.<br><br><span class=\"diminish\">Dostlara atılan kar topları hasar vermez ve dolum süreleri sıfırlanır.</span>"
+		"SnowballSpeed_label"		"Fırlatma Hızı"
+		"SnowballSpeed_postvalue_label"		"Hız"
+		"SnowballSpeed_postfix"		" m/sn"
+		"SnowballCount_label"		"Fırlatılan Kar Topu"
+		"SnowballCount_postvalue_label"		"Atış"
+		"seasonal_ability_eat_halloween_candy"		"Şeker Ye"
+		"seasonal_ability_eat_halloween_candy_desc"		"İyileşmek, kuvvet yenilemek ve <span class=\"highlight\">Şeker Çılgınlığı</span> güçlendirmesini almak için bir parça şeker yiyin.<br><br><span class=\"diminish\">İyileştirme ve Şeker Çılgınlığı değerleri, maç ilerledikçe yükselir.</span>"
+
+		"HalloweenCandy_label"		"İstif:"
+		"HalloweenCandy_postvalue_label"		"İstif:"
+	}
+}

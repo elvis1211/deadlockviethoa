@@ -340,7 +340,7 @@
 		"upgrade_metal_skin"							"​เมทัล​สกิน​"
 		"upgrade_metal_skin_search"						"เมทัลสกิน Metal Skin MS"
 		"modifier_citadel_metal_skin"					"​เมทัล​สกิน​"
-		"upgrade_regenerating_bullet_shield"			"​แบตเทิล​เวส​"
+		"upgrade_regenerating_bullet_shield"			"​แบตเทิล​เวสต์​"
 		"upgrade_regenerating_bullet_shield_search"		"แบตเทิลเวสต์ Battle Vest BV"
 		"upgrade_magic_shield"							"​เอนแชนเตอร์​เอมเบลม​"
 		"upgrade_magic_shield_search"					"เอนแชนเตอร์เอมเบลม Enchanter's Emblem EE"

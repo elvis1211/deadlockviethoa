@@ -1351,20 +1351,6 @@
 		"Citadel_Hud_KillFeedVehicle"								"载具"
 		"Citadel_Hud_KillFeedWorld"									"世界"
 
-		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"			"{g:citadel_persona:account_id}获得了{s:hero_name}的节日奖励！"
-		"Citadel_Showcase_SeasonalAchievement2024"					"2024年12月"
-
-		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"			"{g:citadel_persona:account_id}解锁的{s:hero_name}装饰品！"
-		"Citadel_Showcase_SeasonalAchievement2025"					"2025年12月"
-
-		"Citadel_Hud_Toast_SeasonalKill"							"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span>获得了"
-		"Citadel_Hud_Toast_SeasonalKill2"							"雪球击倒！"
-
-		"Citadel_Event_Holiday_Challenge2025_Title"					"2025年假日挑战"
-		"Citadel_Event_Holiday_Challenge2025_Desc"					"使用每位英雄赢下一场比赛就能获得大本营的树上一件独特的装饰品。"
-		"Citadel_Event_Holiday_Challenge2025_Snowball"				"向圣诞树上添加更多装饰品可以升级你的投掷<span class=\"Emphasis\">雪球</span>主动道具。"
-		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"等级 {i:item_level} / {i:item_max_level}"
-
 		"Citadel_Hud_Voting_Poster_Tooltip_Header"					"选择你的海报"
 		"Citadel_Hud_Voting_Poster_Tooltip_Selected"				"已选择"
 
@@ -2851,6 +2837,9 @@
 		"citadel_hint_activate_wall" "按下{g:citadel_binding:'Attack'}提前创建墙壁。"
 		"citadel_hint_guided_arrow_boost" "按住{g:citadel_binding:'Attack'}提升箭速。"
 		"citadel_hint_flying_strike_early_activate" "按下{g:citadel_binding:'Attack'}提前飞向目标。"
+
+		// Hud Hints 
+		"citadel_rejuvenator_hud_hint" "生效的复生石的剩余时间，或者没有复活石处于生效时中区头目的复活时间。"
 
 		//-----------------------------------------------------------------------------
 		// Breakable Prop modifiers
@@ -4434,7 +4423,6 @@
 		"menu_tphideout"							"传送到大本营"
 		"menu_shoparea"							    "中庭"
 		"menu_shoparea_sub"							"练习场"
-		"menu_seasonal_2025"						"假日挑战"
 		"menu_new_violator"							"全新"
 		
 		
@@ -5842,10 +5830,8 @@
 		"Citadel_Hideout_News"		"阅读所有相关信息"
 		"Citadel_Hideout_News_Button"		"按下{g:citadel_binding:'Interact'}查看新闻"
 		"Citadel_Hideout_VoiceLines"		"按下{g:citadel_binding:'Interact'}聆听对话台词"
-		"Citadel_Hideout_XmasGlobeEarned_Temp"		"冬季更新期间{s:hideout_owner}获得的纪念品"
 		"Citadel_Hideout_VaultHint01"				"{g:citadel_binding:'AbilityMelee'}近战攻击后收集魂魄"
 		"Citadel_Hideout_VaultHint02"				"闪光期间进行{g:citadel_binding:'AbilityMelee'}近战攻击可获得加成，近战重击可获得更多加成"
-		"Citadel_Hideout_HolidayChallenge" 		"按下{g:citadel_binding:'Interact'}查看假日挑战进度"
 		"Citadel_Hideout_HeavyCrate"		"按住{g:citadel_binding:'AbilityMelee'}使用近战重击进行破坏"
 
 		"citadel_keybind_hideout_use"					"与大本营物体互动"
@@ -5934,7 +5920,6 @@
 		"Citadel_Subtitles_Message_IconAndName"		"<child id='SpeakerIcon' /><b>{s:subtitle_actor}</b>：{s:subtitle_text}"
 		"Citadel_Subtitles_Message_Icon"			"<child id='SpeakerIcon' />：{s:subtitle_text}"
 		"npc_newscaster"							"新闻播报员"
-		"npc_seasonal"								"新闻播报员"
 		"npc_shopkeeper"							"奇物商人"
 		"npc_broker"								"经纪商"
 		"npc_spirit_jar"							"灵瓮"
@@ -6102,7 +6087,9 @@
 		"map_district_building_campus"			"校园"
 		"map_district_building_belltower"		"钟楼"
 
-
+		// Halloween
+		"AbilityButtonHint_HalloweenTroll"		"捣蛋就给糖 - 近战重击可给出糖果"
+		"AbilityButtonHint_HalloweenCauldron"		"近战重击后获得糖果"
 	}
 }
 

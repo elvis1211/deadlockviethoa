@@ -442,7 +442,7 @@
 		"Citadel_Hud_Quickbuy_Index"								"{i:index}"
 		"Citadel_Hud_Quickbuy_ModName"								"{s:mod_name}"
 		"Citadel_Hud_Quickbuy_ModCost"								"{i:mod_cost}"
-		"Citadel_Hud_Quickbuy_Empty"								"Добавляйте предметы в очередь быстрой покупки<br>правой кнопки мыши или перетаскиванием"
+		"Citadel_Hud_Quickbuy_Empty"								"Добавляйте предметы в очередь быстрой<br>покупки правой кнопкой мыши<br>или перетаскиванием"
 		"Citadel_Hud_Quickbuy_Instructional"						"Добавить/удалить из очереди быстрой покупки: <Panel class=\"rightClick\"></Panel>"
 		"Citadel_Hud_Quickbuy_Instructional_Ready"					"Нажмите{g:citadel_binding:'PurchaseQuickbuy'}, чтобы купить"
 		"Citadel_Hud_Quickbuy_QueueSize"							"{i:queue_size}"
@@ -548,7 +548,7 @@
 		"Citadel_Player_Level_ToNext"								"{i:gold_to_next} ДО СЛЕД."
 		"Citadel_Player_Level_TotalGold"							"ВСЕГО ДУШ: {i:total_gold}"
 		"Citadel_Player_Level_MaxRewards"							"Достигнут максимум"
-		"Citadel_Player_Level_HeroLevel"							"{g:citadel_hero_name:hero_id} Уровень {i:hero_level}"
+		"Citadel_Player_Level_HeroLevel"							"{g:citadel_hero_name:hero_id}: ур. {i:hero_level}"
 
 		"Citadel_Player_Level_APShort"								"ОУ"
 		"Citadel_Player_Level_AbilityUnlocksShort"					"Разблок. умения"
@@ -1312,7 +1312,7 @@
 		"Citadel_HUD_CorruptedItemShopRestock"						"Делец пополнил запасы..."
 		"Citadel_HUD_CorruptedItemShopRestock_Desc"					"Вы можете исказить ещё один предмет."
 		"Citadel_HUD_DamageSummary_Title"							"<i>Полученный</i> урон"
-		"Citadel_HUD_DamageSummary_Hint"							"Удерживайте {g:citadel_binding:'ExtraInfo'}, чтобы посмотреть изменённые характеристики"
+		"Citadel_HUD_DamageSummary_Hint"							"Удерживать {g:citadel_binding:'ExtraInfo'}: просмотр изменённых характеристик"
 		"Citadel_HUD_AdjustedBy"									"ИЗМЕНЕНИЯ:"
 
 		"Citadel_HUD_NextReward_PowerIncrease"						"Дар"
@@ -1350,20 +1350,6 @@
 		"Citadel_Hud_KillFeedEnemyShield"							"Святилище"
 		"Citadel_Hud_KillFeedVehicle"								"Транспорт"
 		"Citadel_Hud_KillFeedWorld"									"Окружение"
-
-		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"			"Игрок {g:citadel_persona:account_id} получил праздничный подарок для героя: {s:hero_name}!"
-		"Citadel_Showcase_SeasonalAchievement2024"					"Декабрь 2024 года"
-
-		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"			"Игрок {g:citadel_persona:account_id} разблокировал ёлочное украшение для героя: {s:hero_name}!"
-		"Citadel_Showcase_SeasonalAchievement2025"					"Декабрь 2025 года"
-
-		"Citadel_Hud_Toast_SeasonalKill"							"Игрок <span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span> совершает"
-		"Citadel_Hud_Toast_SeasonalKill2"							"убийство снежком!"
-
-		"Citadel_Event_Holiday_Challenge2025_Title"					"Праздничное испытание 2025 года"
-		"Citadel_Event_Holiday_Challenge2025_Desc"					"Побеждайте в матчах, играя за разных героев, чтобы получать уникальные украшения для ёлки в убежище."
-		"Citadel_Event_Holiday_Challenge2025_Snowball"				"Улучшайте активный предмет <span class=\"Emphasis\">«Снежок»</span>, добавляя больше украшений на ёлку."
-		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"Уровень {i:item_level} / {i:item_max_level}"
 
 		"Citadel_Hud_Voting_Poster_Tooltip_Header"					"Выберите свой плакат"
 		"Citadel_Hud_Voting_Poster_Tooltip_Selected"				"Выбрано"
@@ -1411,7 +1397,7 @@
 
 		"Objective_Message_Patron_Transforming" 		"Покровитель трансформируется..."
 		"Objective_Message_MidBoss_OutOfRange"			"Вне досягаемости"
-		"Objective_Message_Protected"					"Защищён"
+		"Objective_Message_Protected"					"Под защитой"
 
 		"Citadel_Team1_Name"							"Тайный Король"
 		"Citadel_Team2_Name"							"Архиматерь"
@@ -2852,6 +2838,9 @@
 		"citadel_hint_guided_arrow_boost" "Удерживайте {g:citadel_binding:'Attack'}, чтобы ускорить стрелу."
 		"citadel_hint_flying_strike_early_activate" "Нажмите {g:citadel_binding:'Attack'}, чтобы подлететь к цели раньше."
 
+		// Hud Hints 
+		"citadel_rejuvenator_hud_hint" "Время до окончания действия активных Воодушевителей, а при их отсутствии — до возрождения центрального босса."
+
 		//-----------------------------------------------------------------------------
 		// Breakable Prop modifiers
 		//-----------------------------------------------------------------------------
@@ -2928,7 +2917,7 @@
 		"Citadel_AcquireTicket_InternalError"					"Не удаётся связаться с сетью и получить доступ к серверу. Повторите попытку позже."
 
 		"citadel_next_attack_delay_reason_reload"		"Перезарядка"
-		"citadel_next_attack_delay_reason_weapon_swap" "Смена\nпатронов"
+		"citadel_next_attack_delay_reason_weapon_swap" "Смена\nшприцов"
 		"citadel_next_attack_delay_reason_disarmed"		"Обезоруживание"
 		"citadel_next_attack_delay_reason_stunned"		"Оглушение"
 
@@ -4434,7 +4423,6 @@
 		"menu_tphideout"							"Телепортироваться в убежище"
 		"menu_shoparea"							    "Атриум"
 		"menu_shoparea_sub"							"Тренировочная область"
-		"menu_seasonal_2025"						"Праздничное испытание"
 		"menu_new_violator"							"Новое"
 		
 		
@@ -5469,7 +5457,7 @@
 		"citadel_chatwheel_label_missing_hero"					"Ушёл враг"
 		"citadel_chatwheel_message_missing_hero"				"не на ветке"					
 		"citadel_chatwheel_label_hero_is_dead"					"Труп"
-		"citadel_chatwheel_message_hero_is_dead"				"труп"
+		"citadel_chatwheel_message_hero_is_dead"				"— труп"
 		"citadel_chatwheel_label_hero_almost_respawned"			"Вот-вот вернётся"
 		"citadel_chatwheel_message_hero_almost_respawned"		"вот-вот вернётся"
 		"citadel_chatwheel_label_enemy_low_health"				"Низкое здоровье"
@@ -5843,10 +5831,8 @@
 		"Citadel_Hideout_News"		"Читать новости"
 		"Citadel_Hideout_News_Button"		"Нажмите {g:citadel_binding:'Interact'}, чтобы открыть новости"
 		"Citadel_Hideout_VoiceLines"		"Нажмите {g:citadel_binding:'Interact'}, чтобы прослушать диалоги"
-		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Сувенир игрока {s:hideout_owner}, заработанный во время зимнего обновления"
 		"Citadel_Hideout_VaultHint01"				"{g:citadel_binding:'AbilityMelee'} Лёгкий удар для сбора душ"
 		"Citadel_Hideout_VaultHint02"				"{g:citadel_binding:'AbilityMelee'} Лёгкий удар во время мигания огней даёт бонусы, тяжёлый — ещё бóльшие бонусы"
-		"Citadel_Hideout_HolidayChallenge" 		"Нажмите {g:citadel_binding:'Interact'}, чтобы просмотреть прогресс праздничного испытания"
 		"Citadel_Hideout_HeavyCrate"		"Удерживайте {g:citadel_binding:'AbilityMelee'}, чтобы разбить тяжёлым ударом"
 
 		"citadel_keybind_hideout_use"					"Взаимодействовать с объектом в убежище"
@@ -5935,7 +5921,6 @@
 		"Citadel_Subtitles_Message_IconAndName"		"<child id='SpeakerIcon' /><b>{s:subtitle_actor}</b>: {s:subtitle_text}"
 		"Citadel_Subtitles_Message_Icon"			"<child id='SpeakerIcon' />: {s:subtitle_text}"
 		"npc_newscaster"							"Газетчик"
-		"npc_seasonal"								"Газетчик"
 		"npc_shopkeeper"							"Продавец диковинок"
 		"npc_broker"								"Делец"
 		"npc_spirit_jar"							"Урна душ"
@@ -6103,7 +6088,9 @@
 		"map_district_building_campus"			"Кампус"
 		"map_district_building_belltower"		"Колокольня"
 
-
+		// Halloween
+		"AbilityButtonHint_HalloweenTroll"		"«Сладость или гадость» по-тролльи: тяжёлый удар для выдачи конфеты"
+		"AbilityButtonHint_HalloweenCauldron"		"Тяжёлый удар, чтобы получить конфету"
 	}
 }
 

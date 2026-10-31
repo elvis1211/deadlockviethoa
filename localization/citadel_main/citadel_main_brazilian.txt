@@ -1317,20 +1317,6 @@
 		"Citadel_Hud_KillFeedVehicle"								"Veículo"
 		"Citadel_Hud_KillFeedWorld"									"Mundo"
 
-		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"			"{g:citadel_persona:account_id} conquistou a fantasia festiva de {s:hero_name}!"
-		"Citadel_Showcase_SeasonalAchievement2024"					"Dezembro de 2024"
-
-		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"			"Enfeite de {s:hero_name} destravado por {g:citadel_persona:account_id}!"
-		"Citadel_Showcase_SeasonalAchievement2025"					"Dezembro de 2025"
-
-		"Citadel_Hud_Toast_SeasonalKill"							"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span> matou"
-		"Citadel_Hud_Toast_SeasonalKill2"							"alguém com uma bola de neve!"
-
-		"Citadel_Event_Holiday_Challenge2025_Title"					"Desafio Festivo de 2025"
-		"Citadel_Event_Holiday_Challenge2025_Desc"					"Vença uma partida jogando como cada herói para receber um enfeite exclusivo para a árvore do seu esconderijo."
-		"Citadel_Event_Holiday_Challenge2025_Snowball"				"Aprimore a sua <span class=\"Emphasis\">Bola de Neve</span> arremessável ao adicionar mais enfeites à sua árvore."
-		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"Nível {i:item_level} / {i:item_max_level}"
-
 		"Citadel_Hud_Voting_Poster_Tooltip_Header"					"Escolha o seu pôster"
 		"Citadel_Hud_Voting_Poster_Tooltip_Selected"				"Selecionado"
 
@@ -2813,6 +2799,9 @@
 		"citadel_hint_activate_wall" "Pressione {g:citadel_binding:'Attack'} para criar a parede antecipadamente."
 		"citadel_hint_guided_arrow_boost" "Segure {g:citadel_binding:'Attack'} para aumentar a velocidade da flecha."
 		"citadel_hint_flying_strike_early_activate" "Pressione {g:citadel_binding:'Attack'} para voar até o seu alvo antecipadamente."
+
+		// Hud Hints 
+		"citadel_rejuvenator_hud_hint" "O tempo restante dos rejuvenescedores ativos ou o tempo até o Chefe do Meio renascer se não houver nenhum rejuvenescedor ativo."
 
 		//-----------------------------------------------------------------------------
 		// Breakable Prop modifiers
@@ -4415,7 +4404,6 @@
 		"menu_tphideout"							"Teletransporte para o Esconderijo"
 		"menu_shoparea"							    "Saguão"
 		"menu_shoparea_sub"							"Área de treino"
-		"menu_seasonal_2025"						"Desafio Festivo"
 		"menu_new_violator"							"Novidade"
 		
 		
@@ -5821,10 +5809,8 @@
 		"Citadel_Hideout_News"		"Saiba os detalhes"
 		"Citadel_Hideout_News_Button"		"Pressione {g:citadel_binding:'Interact'} para ver as notícias"
 		"Citadel_Hideout_VoiceLines"		"Pressione {g:citadel_binding:'Interact'} para ouvir falas de diálogo"
-		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Lembrança obtida por {s:hideout_owner} durante a Atualização de Fim de Ano"
 		"Citadel_Hideout_VaultHint01"				"{g:citadel_binding:'AbilityMelee'} Golpeie para colher almas"
 		"Citadel_Hideout_VaultHint02"				"{g:citadel_binding:'AbilityMelee'} Golpeie enquanto as luzes estiverem piscando para obter almas adicionais. Golpes pesados concedem ainda mais!"
-		"Citadel_Hideout_HolidayChallenge" 		"Pressione {g:citadel_binding:'Interact'} para ver o progresso no Desafio Festivo"
 		"Citadel_Hideout_HeavyCrate"		"Segure {g:citadel_binding:'AbilityMelee'} para quebrar com golpe pesado"
 
 		"citadel_keybind_hideout_use"					"Interagir com um objeto no Esconderijo"
@@ -5913,7 +5899,6 @@
 		"Citadel_Subtitles_Message_IconAndName"		"<child id='SpeakerIcon' /><i><b>{s:subtitle_actor}</b></i><br>{s:subtitle_text}"
 		"Citadel_Subtitles_Message_Icon"			"<child id='SpeakerIcon' /> {s:subtitle_text}"
 		"npc_newscaster"							"Âncora do Noticiário"
-		"npc_seasonal"								"Âncora do Noticiário"
 		"npc_shopkeeper"							"Comerciante de Curiosidades"
 		"npc_broker"								"Intermediário"
 		"npc_spirit_jar"							"Urna de Almas"
@@ -6081,7 +6066,9 @@
 		"map_district_building_campus"			"Campus"
 		"map_district_building_belltower"		"Campanário"
 
-
+		// Halloween
+		"AbilityButtonHint_HalloweenTroll"		"Gostosuras ou Travessuras do Troll — Golpe pesado para dar um doce"
+		"AbilityButtonHint_HalloweenCauldron"		"Use o golpe pesado para pegar um doce"
 	}
 }
 

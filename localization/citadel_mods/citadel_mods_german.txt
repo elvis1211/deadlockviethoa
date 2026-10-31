@@ -634,7 +634,7 @@
 		"upgrade_quick_silver_desc"				"Deine veredelte Fähigkeit erhält {g:citadel_inline_attribute:'BonusSpiritDamage'}, {g:citadel_inline_attribute:'BonusFireRate'} und <span class=\"highlight\">lädt beim Einsatz Kugeln nach</span>. Die max. Boni werden erreicht, wenn die Wartezeit verstrichen ist."
 
 		//Resonant Healing
-		"upgrade_resonant_healing_desc"			"Wenn Du eine Fähigkeit einsetzt, wirst Du <span class=\"highlight\">geheilt</span> und erhältst für kurze Zeit zusätzliches <span class=\"highlight\">Bewegungstempo</span>."
+		"upgrade_resonant_healing_desc"			"Wenn Du während eines Kampfes eine Fähigkeit einsetzt, wirst Du <span class=\"highlight\">geheilt</span> und erhältst für kurze Zeit zusätzliches <span class=\"highlight\">Bewegungstempo</span>."
 		"HealingPerCast_Label"					"Heilung bei Fähigkeitseinsatz"
 
 		"HealingPerCast_postvalue_label"					"Heilung bei Fähigkeitseinsatz"
@@ -751,8 +751,8 @@
 
 		//Debuff Remover | Dispel Magic
 		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Entfernt alle Schwächungseffekte von nicht-ultimativen Fähigkeiten</span>, die aktuell auf Dich wirken. Falls ein Schwächungseffekt entfernt wurde, <span class=\"highlight\">heilst Du Dich</span> und erhältst zusätzliches <span class=\"highlight\">Bewegungstempo</span>.<br><span class=\"diminish\">Kann nicht eingesetzt werden, wenn Du betäubt oder in Schlaf versetzt wurdest.</span>"
-		"HealOnActivate_label"		"geheilte LP bei Aktivierung"
-		"HealOnActivate_postvalue_label"		"geheilte LP bei Aktivierung"
+		"HealOnActivate_label"		"Heilung"
+		"HealOnActivate_postvalue_label"		"Heilung"
 
 		"damage_reduction_postfix"						" %"
 
@@ -884,22 +884,25 @@
 
 		//Shadow Weave
 		"upgrade_cloaking_device_active_desc"		"Du wirst <span class=\"highlight\">getarnt</span>. Immer wenn Du im getarnten Zustand Schaden erleidest, wirst Du für kurze Zeit enttarnt."
-		"upgrade_cloaking_device_active_ambush_desc"	"<br>Wenn Du angreifst oder eine Fähigkeit einsetzt, wirst Du enttarnt und der <span class=\"highlight\">Hinterhalt</span> schnappt zu, wodurch Du für kurze Zeit einen Bonus auf <span class=\"highlight\">Feuerrate</span>, <span class=\"highlight\">Magiekraft</span> und <span class=\"highlight\">Nahkampfschaden</span> erhältst."
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>Wenn Du angreifst oder eine Fähigkeit einsetzt, wirst Du enttarnt und gehst in den <span class=\"highlight\">Hinterhalt</span> über, wodurch Du für kurze Zeit zusätzlichen <span class=\"highlight\">Waffenschaden</span> und <span class=\"highlight\">Magiekraft</span> erhältst."
 		"modifier_cloaking_device_active_stealth"		"Schattenwandel – Tarnung"
 		"modifier_cloaking_device_active_ambush"		"Schattenwandel – Hinterhalt"
 		"AmbushBonusTechPower_prefix"					"+"
 		"AmbushBonusTechPower_label"					"Magiekraft während Hinterhalt"
 		"AmbushBonusTechPower_postvalue_label"					"Magiekraft während Hinterhalt"
-		"AmbushBonusFireRate_prefix"					"+"
-		"AmbushBonusFireRate_label"					"Feuerrate während Hinterhalt"
-		"AmbushBonusFireRate_postvalue_label"					"Feuerrate während Hinterhalt"
-		"AmbushBonusFireRate_postfix"					" %"
+		"AmbushBonusWeaponDamage_prefix"					"+"
+		"AmbushBonusWeaponDamage_label"					"Waffenschaden (Hinterhalt)"
+		"AmbushBonusWeaponDamage_postvalue_label"					"Waffenschaden (Hinterhalt)"
+		"AmbushBonusWeaponDamage_postfix"					" %"
 		"AmbushBonusMeleeDamage_label"					"Nahkampfschaden (Hinterhalt)"
 		"AmbushBonusMeleeDamage_postvalue_label"		"Nahkampfschaden (Hinterhalt)"
 		"AmbushBonusMeleeDamage_postfix"				" %"
 		"AmbushDuration_label"						"Dauer für Hinterhalt"
 		"AmbushDuration_postvalue_label"						"Dauer für Hinterhalt"
 		"AmbushDuration_postfix"						" s"
+		"AmbushBuildUpDuration_label"				"Zeit bis max. Effekt (Hinterhalt)"
+		"AmbushBuildUpDuration_postvalue_label"		"Zeit bis max. Effekt (Hinterhalt)"
+		"AmbushBuildUpDuration_postfix"				" s"
 		"StealthDuration_label"						"Tarnungsdauer"
 		"StealthDuration_postvalue_label"						"Tarnungsdauer"
 		"StealthDuration_postfix"						" s"
@@ -1016,13 +1019,10 @@
 		//-----------------------------------------------------------------------------
 		// Cosmetic
 		//----------------------------------------------------------------------------- 
-		"cosmetic_ability_snowball"		"Schneeball"
-		"cosmetic_ability_snowball_desc"		"Wirf Schneebälle auf Deine Freunde und Feinde. Die Reichweite und andere Eigenschaften verbessern sich, wenn Du in der <span class=\"highlight\">Weihnachtsherausforderung 2025</span> Fortschritte erzielst.<br><br><span class=\"diminish\">Wenn Du einen Schneeball auf einen Verbündeten wirfst, verursacht dies keinen Schaden und die Abklingzeit wird zurückgesetzt.</span>"
-		"SnowballSpeed_label"			"Wurftempo"
-		"SnowballSpeed_postvalue_label"		"Tempo"
-		"SnowballSpeed_postfix"			" m/s"
-		"SnowballCount_label"			"Schneeballwürfe"
-		"SnowballCount_postvalue_label"		"Projektil(e)"
+		"HealPerMinute_label"			"Heilung pro Minute"
+		"TechPowerPerMinute_label"		"Magiekraftzunahme pro Minute"
+		"BonusFireRatePerMinute_label"		"Feuerratenzunahme pro Minute"
+		"BonusMoveSpeedPerMinute_label"		"Bewegungstempozunahme pro Minute"
 
 		"cosmetic_item_voting_poster"		"Plakat aufhängen"
 	}

@@ -627,7 +627,7 @@
 		"upgrade_quick_silver_desc"				"エンチャントしたアビリティを時間経過でチャージする。チャージ状態のアビリティは使用時に{g:citadel_inline_attribute:'BonusSpiritDamage'}を与え、{g:citadel_inline_attribute:'BonusFireRate'}を獲得して<span class=\"highlight\">弾数をリロード</span>する"
 
 		//Resonant Healing
-		"upgrade_resonant_healing_desc"			"アビリティを発動するとHPを回復し、ボーナス<span class=\"highlight\">移動速度</span>を短時間獲得する"
+		"upgrade_resonant_healing_desc"			"戦闘中にアビリティを発動するとHPが回復し、<span class=\"highlight\">移動速度</span>が短時間上昇する"
 		"HealingPerCast_Label"					"アビリティ発動時の回復量"
 
 		"HealingPerCast_postvalue_label"					"アビリティ発動時の回復量"
@@ -744,8 +744,8 @@
 
 		//Debuff Remover | Dispel Magic
 		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">アルティメット以外で付与されたすべての状態異常を解除する</span>。何らかの状態異常を解除すると<span class=\"highlight\">HPを回復</span>し、<span class=\"highlight\">移動速度が上昇</span>する<br><span class=\"diminish\">スタン状態や睡眠状態の間は使用できない</span>"
-		"HealOnActivate_label"		"発動時のHP回復量"
-		"HealOnActivate_postvalue_label"		"発動時のHP回復量"
+		"HealOnActivate_label"		"回復量"
+		"HealOnActivate_postvalue_label"		"回復量"
 
 		"damage_reduction_postfix"						"%"
 
@@ -877,22 +877,25 @@
 
 		//Shadow Weave
 		"upgrade_cloaking_device_active_desc"		"<span class=\"highlight\">ステルス状態</span>になる。ダメージを受けるとステルス状態が一時的に解除される"
-		"upgrade_cloaking_device_active_ambush_desc"	"<br>攻撃するかアビリティを使用するとステルス状態が解け、<span class=\"highlight\">奇襲</span>状態となる。奇襲状態では<span class=\"highlight\">発射速度</span>と<span class=\"highlight\">スピリットパワー</span>、<span class=\"highlight\">近接ダメージ</span>が一時的に上昇する"
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>攻撃するかアビリティを使用するとステルス状態が解け、<span class=\"highlight\">奇襲</span>状態となる。奇襲状態では<span class=\"highlight\">武器ダメージ</span>と<span class=\"highlight\">スピリットパワー</span>が一時的に上昇する"
 		"modifier_cloaking_device_active_stealth"		"シャドウウィーブ - ステルス"
 		"modifier_cloaking_device_active_ambush"		"シャドウウィーブ - 奇襲"
 		"AmbushBonusTechPower_prefix"					"+"
 		"AmbushBonusTechPower_label"					"奇襲状態のスピリットパワー"
 		"AmbushBonusTechPower_postvalue_label"					"奇襲状態のスピリットパワー"
-		"AmbushBonusFireRate_prefix"					"+"
-		"AmbushBonusFireRate_label"					"奇襲状態の発射速度"
-		"AmbushBonusFireRate_postvalue_label"					"奇襲状態の発射速度"
-		"AmbushBonusFireRate_postfix"					"%"
+		"AmbushBonusWeaponDamage_prefix"					"+"
+		"AmbushBonusWeaponDamage_label"					"奇襲状態の武器ダメージ"
+		"AmbushBonusWeaponDamage_postvalue_label"					"奇襲状態の武器ダメージ"
+		"AmbushBonusWeaponDamage_postfix"					"%"
 		"AmbushBonusMeleeDamage_label"					"奇襲状態の近接ダメージ"
 		"AmbushBonusMeleeDamage_postvalue_label"		"奇襲状態の近接ダメージ"
 		"AmbushBonusMeleeDamage_postfix"				"%"
 		"AmbushDuration_label"						"奇襲状態継続時間"
 		"AmbushDuration_postvalue_label"						"奇襲状態継続時間"
 		"AmbushDuration_postfix"						"秒"
+		"AmbushBuildUpDuration_label"				"完全な奇襲状態になるまでの時間"
+		"AmbushBuildUpDuration_postvalue_label"		"完全な奇襲状態になるまでの時間"
+		"AmbushBuildUpDuration_postfix"				"秒"
 		"StealthDuration_label"						"ステルス継続時間"
 		"StealthDuration_postvalue_label"						"ステルス継続時間"
 		"StealthDuration_postfix"						"秒"
@@ -1009,13 +1012,10 @@
 		//-----------------------------------------------------------------------------
 		// Cosmetic
 		//----------------------------------------------------------------------------- 
-		"cosmetic_ability_snowball"		"スノーボール"
-		"cosmetic_ability_snowball_desc"		"味方や敵に雪玉を投げる。投てき距離などの性能は「<span class=\"highlight\">2025 ホリデーチャレンジ</span>」の進行度に応じて向上する<br><br><span class=\"diminish\">味方に雪玉を当ててもダメージは与えず、クールダウンがリセットされる</span>"
-		"SnowballSpeed_label"			"投球速度"
-		"SnowballSpeed_postvalue_label"		"速度"
-		"SnowballSpeed_postfix"			"m／秒"
-		"SnowballCount_label"			"雪玉を投げた数"
-		"SnowballCount_postvalue_label"		"発射物"
+		"HealPerMinute_label"			"回復増加量／分"
+		"TechPowerPerMinute_label"		"スピリットパワー上昇量／分"
+		"BonusFireRatePerMinute_label"		"発射速度上昇量／分"
+		"BonusMoveSpeedPerMinute_label"		"移動速度上昇量／分"
 
 		"cosmetic_item_voting_poster"		"ポスター設置"
 	}

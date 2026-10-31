@@ -1,0 +1,37 @@
+﻿"lang"
+{
+	"Language"		"koreana"
+	"Tokens"
+	{
+		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"		"{g:citadel_persona:account_id} 님이 {s:hero_name}의 크리스마스 보상을 받았습니다!"
+		"Citadel_Showcase_SeasonalAchievement2024"		"2024년 12월"
+		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"		"{g:citadel_persona:account_id} 님이 {s:hero_name}의 장식을 잠금 해제했습니다!"
+		"Citadel_Showcase_SeasonalAchievement2025"		"2025년 12월"
+		"Citadel_Hud_Toast_SeasonalKill"		"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span>님이"
+		"Citadel_Hud_Toast_SeasonalKill2"		"눈덩이로 처치!"
+		"Citadel_Event_Holiday_Challenge2025_Title"		"2025 크리스마스 챌린지"
+		"Citadel_Event_Holiday_Challenge2025_Desc"		"각 영웅으로 매치에서 승리하면 은신처 트리에 사용할 수 있는 고유한 장식을 획득할 수 있습니다."
+		"Citadel_Event_Holiday_Challenge2025_Snowball"		"트리에 더 많은 장식을 추가하면 던질 수 있는 <span class=\"Emphasis\">눈덩이</span> 활성 아이템을 업그레이드할 수 있습니다."
+		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"레벨 {i:item_level} / {i:item_max_level}"
+		"menu_seasonal_2025"		"크리스마스 챌린지"
+		"Citadel_Hideout_XmasGlobeEarned_Temp"		"겨울 업데이트 기간 동안 {s:hideout_owner} 님이 획득한 기념품"
+		"Citadel_Hideout_HolidayChallenge"		"크리스마스 챌린지 진척도를 보려면 {g:citadel_binding:'Interact'} 키를 누르세요"
+		"halloween_candy_pickup_label"		"사탕"
+		"modifier_halloween_candy_sugar_rush"		"슈거 러시"
+		"Citadel_Hideout_HalloweenCauldron"		"사탕 가마솥: {g:citadel_binding:'AbilityMelee'} 키를 길게 눌러 가마솥을 부수고 사탕을 획득하세요"
+		"npc_seasonal"		"뉴스 진행자"
+
+		"cosmetic_ability_snowball"		"눈덩이"
+		"cosmetic_ability_snowball_desc"		"친구와 적에게 눈덩이를 던져보세요. <span class=\"highlight\">2025 크리스마스 챌린지</span> 진척도에 따라 사거리 및 다른 속성이 향상됩니다.<br><br><span class=\"diminish\">아군에게는 눈덩이를 던져도 피해를 입히지 않으며 쿨다운이 초기화됩니다.</span>"
+		"SnowballSpeed_label"		"투척 속도"
+		"SnowballSpeed_postvalue_label"		"속도"
+		"SnowballSpeed_postfix"		"m(초당)"
+		"SnowballCount_label"		"던진 눈덩이 수"
+		"SnowballCount_postvalue_label"		"투사체"
+		"seasonal_ability_eat_halloween_candy"		"사탕 먹기"
+		"seasonal_ability_eat_halloween_candy_desc"		"사탕 1개를 먹어 자신을 치유하고, 활력을 회복하며 <span class=\"highlight\">슈거 러시</span> 강화 효과를 얻습니다.<br><br><span class=\"diminish\">매치가 진행될수록 치유량과 슈거 러시 효과가 강해집니다.</span>"
+
+		"HalloweenCandy_label"		"중첩:"
+		"HalloweenCandy_postvalue_label"		"중첩:"
+	}
+}

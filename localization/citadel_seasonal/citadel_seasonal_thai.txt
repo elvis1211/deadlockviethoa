@@ -1,0 +1,37 @@
+﻿"lang"
+{
+	"Language"		"thai"
+	"Tokens"
+	{
+		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"		"{g:citadel_persona:account_id} ได้รับของตกแต่งฉลองวันหยุดปลายปีสำหรับ {s:hero_name}!"
+		"Citadel_Showcase_SeasonalAchievement2024"		"ธันวาคม 2024"
+		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"		"{g:citadel_persona:account_id} ปลดล็อกเครื่องประดับของ {s:hero_name} แล้ว!"
+		"Citadel_Showcase_SeasonalAchievement2025"		"ธันวาคม 2025"
+		"Citadel_Hud_Toast_SeasonalKill"		"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span> ได้"
+		"Citadel_Hud_Toast_SeasonalKill2"		"สังหารด้วยบอลหิมะ!"
+		"Citadel_Event_Holiday_Challenge2025_Title"		"การท้าทายฉลองวันหยุดปลายปี 2025"
+		"Citadel_Event_Holiday_Challenge2025_Desc"		"ชนะแมตช์ด้วยฮีโร่แต่ละตัว เพื่อรับของประดับตกแต่งสุดพิเศษสำหรับต้นคริสต์มาสในที่กบดานของคุณ"
+		"Citadel_Event_Holiday_Challenge2025_Snowball"		"อัปเกรด<span class=\"Emphasis\">บอลหิมะ</span>ที่ขว้างได้ของคุณซึ่งเป็นไอเท็มกดใช้ โดยการเพิ่มเครื่องประดับให้กับต้นคริสต์มาสของคุณ"
+		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"เลเวล {i:item_level} / {i:item_max_level}"
+		"menu_seasonal_2025"		"การท้าทายฉลองวันหยุดปลายปี"
+		"Citadel_Hideout_XmasGlobeEarned_Temp"		"ของที่ระลึกที่ {s:hideout_owner} ได้รับในช่วงอัปเดตฤดูหนาว"
+		"Citadel_Hideout_HolidayChallenge"		"กด {g:citadel_binding:'Interact'} เพื่อดูความคืบหน้าการท้าทายฉลองวันหยุด"
+		"halloween_candy_pickup_label"		"ลูกกวาด"
+		"modifier_halloween_candy_sugar_rush"		"พลังน้ำตาล"
+		"Citadel_Hideout_HalloweenCauldron"		"หม้อลูกกวาด: กด {g:citadel_binding:'AbilityMelee'} ค้างไว้เพื่อทุบให้แตกและรับลูกกวาด"
+		"npc_seasonal"		"ผู้ประกาศข่าว"
+
+		"cosmetic_ability_snowball"		"บอลหิมะ"
+		"cosmetic_ability_snowball_desc"		"ปาบอลหิมะใส่เพื่อนและศัตรูของคุณ ระยะทางและคุณสมบัติอื่น ๆ จะดีขึ้นเมื่อคุณสร้างความคืบหน้าใน<span class=\"highlight\">การท้าทายฉลองวันหยุดปลายปี 2025</span><br><br><span class=\"diminish\">การปาบอลหิมะใส่เพื่อนร่วมทีมจะไม่สร้างความเสียหายและจะรีเซ็ตคูลดาวน์</span>"
+		"SnowballSpeed_label"		"ความเร็วการขว้าง"
+		"SnowballSpeed_postvalue_label"		"ความเร็ว"
+		"SnowballSpeed_postfix"		"ม/วิ"
+		"SnowballCount_label"		"บอลหิมะที่ขว้างไป"
+		"SnowballCount_postvalue_label"		"โพรเจกไทล์"
+		"seasonal_ability_eat_halloween_candy"		"กินลูกกวาด"
+		"seasonal_ability_eat_halloween_candy_desc"		"กินลูกกวาดหนึ่งเม็ดเพื่อรักษาตัว ฟื้นฟูสแตมินา และได้รับบัฟ<span class=\"highlight\">พลังน้ำตาล</span><br><br><span class=\"diminish\">สถิติการรักษาและพลังน้ำตาลจะแข็งแกร่งขึ้นเรื่อย ๆ เมื่อแมตช์ดำเนินต่อไป</span>"
+
+		"HalloweenCandy_label"		"ซ้อนทับ:"
+		"HalloweenCandy_postvalue_label"		"ซ้อนทับ:"
+	}
+}

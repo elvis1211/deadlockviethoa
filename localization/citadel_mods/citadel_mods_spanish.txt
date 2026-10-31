@@ -627,7 +627,7 @@
 		"upgrade_quick_silver_desc"				"Tu habilidad imbuida se carga de {g:citadel_inline_attribute:'BonusSpiritDamage'} y {g:citadel_inline_attribute:'BonusFireRate'} con el tiempo, y <span class=\"highlight\">recarga balas</span> al usarla."
 
 		//Resonant Healing
-		"upgrade_resonant_healing_desc"			"<span class=\"highlight\">Cura</span> y otorga <span class=\"highlight\">velocidad de movimiento</span> adicional durante un breve período de tiempo cuando lanzas una habilidad."
+		"upgrade_resonant_healing_desc"			"Mientras estás en combate, <span class=\"highlight\">cura</span> y otorga <span class=\"highlight\">velocidad de movimiento</span> adicional durante un breve período de tiempo cuando lanzas una habilidad."
 		"HealingPerCast_Label"					"Curación al lanzar una habilidad"
 
 		"HealingPerCast_postvalue_label"					"de curación al lanzar una hab."
@@ -744,8 +744,8 @@
 
 		//Debuff Remover | Dispel Magic
 		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Purga todos los efectos negativos de las habilidades básicas</span> que tengas aplicados. Si se elimina algún efecto, <span class=\"highlight\">te curas</span> y obtienes una <span class=\"highlight\">bonificación de velocidad de movimiento</span>. <br><span class=\"diminish\">No se puede usar mientras se está aturdido⁠/⁠a o dormido⁠/⁠a.</span>"
-		"HealOnActivate_label"		"Vida curada al activarse"
-		"HealOnActivate_postvalue_label"		"de vida curada al activarse"
+		"HealOnActivate_label"		"Curación"
+		"HealOnActivate_postvalue_label"		"de curación"
 
 		"damage_reduction_postfix"						" %"
 
@@ -877,22 +877,25 @@
 
 		//Shadow Weave
 		"upgrade_cloaking_device_active_desc"		"Vuélvete <span class=\"highlight\">sigiloso⁠/⁠a</span>. Cada vez que recibas daño en este estado, te volverás visible brevemente."
-		"upgrade_cloaking_device_active_ambush_desc"	"<br>Atacar o usar una habilidad pondrá fin a tu sigilo e iniciará una <span class=\"highlight\">emboscada</span>, lo que te otorgará <span class=\"highlight\">cadencia de tiro</span>, <span class=\"highlight\">poder espiritual</span> y <span class=\"highlight\">daño cuerpo a cuerpo</span> adicionales de forma temporal."
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>Atacar o usar una habilidad pondrá fin a tu sigilo e iniciará una <span class=\"highlight\">emboscada</span>, lo que te otorgará <span class=\"highlight\">daño del arma</span> y <span class=\"highlight\">poder espiritual</span> adicionales de forma temporal."
 		"modifier_cloaking_device_active_stealth"		"Tejido de Sombras - Sigilo"
 		"modifier_cloaking_device_active_ambush"		"Tejido de Sombras - Emboscada"
 		"AmbushBonusTechPower_prefix"					"+"
 		"AmbushBonusTechPower_label"					"Poder espiritual por emboscada"
 		"AmbushBonusTechPower_postvalue_label"					"de poder esp. por emboscada"
-		"AmbushBonusFireRate_prefix"					"+"
-		"AmbushBonusFireRate_label"					"Cadencia de tiro por emboscada"
-		"AmbushBonusFireRate_postvalue_label"					"de cad. de tiro por emboscada"
-		"AmbushBonusFireRate_postfix"					" %"
+		"AmbushBonusWeaponDamage_prefix"					"+"
+		"AmbushBonusWeaponDamage_label"					"Daño del arma"
+		"AmbushBonusWeaponDamage_postvalue_label"					"de daño del arma"
+		"AmbushBonusWeaponDamage_postfix"					" %"
 		"AmbushBonusMeleeDamage_label"					"Daño cuerpo a cuerpo por emboscada"
 		"AmbushBonusMeleeDamage_postvalue_label"		"de daño cuerpo a cuerpo por emboscada"
 		"AmbushBonusMeleeDamage_postfix"				" %"
 		"AmbushDuration_label"						"Duración de la emboscada"
 		"AmbushDuration_postvalue_label"						"de duración de la emboscada"
 		"AmbushDuration_postfix"						" s"
+		"AmbushBuildUpDuration_label"				"Tiempo para la emboscada completa"
+		"AmbushBuildUpDuration_postvalue_label"		"para la emboscada completa"
+		"AmbushBuildUpDuration_postfix"				" s"
 		"StealthDuration_label"						"Duración del sigilo"
 		"StealthDuration_postvalue_label"						"de sigilo"
 		"StealthDuration_postfix"						" s"
@@ -1009,13 +1012,10 @@
 		//-----------------------------------------------------------------------------
 		// Cosmetic
 		//----------------------------------------------------------------------------- 
-		"cosmetic_ability_snowball"		"Bola de Nieve"
-		"cosmetic_ability_snowball_desc"		"Lanza bolas de nieve a tus amigos y enemigos. La distancia y otras propiedades mejoran a medida que avanzas en el <span class=\"highlight\">Desafío navideño 2025</span>.<br><br><span class=\"diminish\">Lanzar una bola de nieve a un aliado no infligirá daño y restablecerá su tiempo de recarga.</span>"
-		"SnowballSpeed_label"			"Velocidad de lanzamiento"
-		"SnowballSpeed_postvalue_label"		"de velocidad"
-		"SnowballSpeed_postfix"			" m⁠⁠/⁠⁠s"
-		"SnowballCount_label"			"Bolas de nieve lanzadas"
-		"SnowballCount_postvalue_label"		"proyectiles"
+		"HealPerMinute_label"			"Aumento de curación por minuto"
+		"TechPowerPerMinute_label"		"Aumento del poder espiritual por minuto"
+		"BonusFireRatePerMinute_label"		"Aumento de la cad. de tiro por minuto"
+		"BonusMoveSpeedPerMinute_label"		"Aumento de la vel. de movimiento por minuto"
 
 		"cosmetic_item_voting_poster"		"Colocar póster"
 	}

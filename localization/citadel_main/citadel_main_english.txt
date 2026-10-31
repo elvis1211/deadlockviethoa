@@ -1,6 +1,6 @@
 ﻿"lang"
 {
-	"Language" "english"
+	"Language" "English"
 	"Tokens"
 	{
 		"Citadel_Dashboard_BuildVersion"	"#{d:buildNumber}"
@@ -475,7 +475,7 @@
 		"CitadelComponentGroup_EMoreHealth"					"Tăng máu"
 		"CitadelComponentGroup_EHealing"						"Hồi máu"
 		"CitadelComponentGroup_ERevitalization"				"Hồi phục"
-		"CitadelComponentGroup_EDebuffs"						"Debuffs"
+		"CitadelComponentGroup_EDebuffs"						"Hiệu ứng xấu"
 		"CitadelComponentGroup_ESpiritProtection"				"Phòng thủ phép"
 		"CitadelComponentGroup_EBulletProtection"				"Phòng thủ đạn"
 		"CitadelComponentGroup_ELifesteal"					"Lifestealing"
@@ -767,7 +767,7 @@
 		"Citadel_RankedSeason_SeasonRank"			"Bậc hạng mùa giải"
 		"Citadel_RankedSeason_HighestRank"			"Bậc hạng cao nhất"
 
-		"Citadel_RankedSeason_ProtectionRemaining"			"Còn {d:demotion_protection_remaining}/{d:demotion_protection_total} lượt bảo vệ hạng"
+		"Citadel_RankedSeason_ProtectionRemaining:f"			"{d:demotion_protection_remaining}/{d:demotion_protection_total} {demotion_protection_total, plural, one{lượt bảo vệ} other{lượt bảo vệ}} còn lại"
 		"Citadel_RankedSeason_ProtectionUsed"			"Đã sử dụng bảo vệ tụt hạng"
 		"Citadel_RankedSeason_ResultingRank"			"Bậc hạng kết quả"
 		"Citadel_RankedSeason_HeroWins:f"	"{d:hero_wins} trận thắng"
@@ -1355,20 +1355,6 @@
 		"Citadel_Hud_KillFeedEnemyShield"							"Shrine"
 		"Citadel_Hud_KillFeedVehicle"								"Phương tiện"
 		"Citadel_Hud_KillFeedWorld"									"Môi trường"
-
-		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"			"{g:citadel_persona:account_id} đã mang không khí lễ hội tới {s:hero_name}!"
-		"Citadel_Showcase_SeasonalAchievement2024"					"December 2024"
-
-		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"			"{g:citadel_persona:account_id} đã mở khóa vật trang trí của {s:hero_name}!"
-		"Citadel_Showcase_SeasonalAchievement2025"					"December 2025"
-
-		"Citadel_Hud_Toast_SeasonalKill"							"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span> got a"
-		"Citadel_Hud_Toast_SeasonalKill2"							"Snowball Kill!"
-
-		"Citadel_Event_Holiday_Challenge2025_Title"					"2025 Holiday Challenge"
-		"Citadel_Event_Holiday_Challenge2025_Desc"					"Thắng một trận với từng tướng để nhận vật trang trí riêng cho cây trong Hideout của bạn."
-		"Citadel_Event_Holiday_Challenge2025_Snowball"				"Trang trí thêm cây trong Hideout để nâng cấp item kích hoạt <span class=\"Emphasis\">Snowball</span>."
-		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"Cấp {i:item_level}/{i:item_max_level}"
 
 		"Citadel_Hud_Voting_Poster_Tooltip_Header"					"Chọn áp phích của bạn"
 		"Citadel_Hud_Voting_Poster_Tooltip_Selected"				"Đã chọn"
@@ -2486,7 +2472,7 @@
 		"citadel_build_tag_mobility"					"Cơ động"
 		"citadel_build_tag_melee"						"Cận chiến"
 		"citadel_build_tag_headshots"					"Headshots"
-		"citadel_build_tag_debuff"						"Debuff"
+		"citadel_build_tag_debuff"						"Hiệu ứng xấu"
 		
 		
 		"Citadel_HeroBuilds_AP_Next_Indicator"			"Đề xuất"
@@ -2653,7 +2639,7 @@
 		"EShopFilterPhysicalResist"				"Kháng sát thương vật lý"
 		"EShopFilterSpiritResist"				"Kháng Spirit"
 		"EShopFilterMeleeResist"				"Kháng cận chiến"
-		"EShopFilterDebuffResist"				"Kháng Debuff"
+		"EShopFilterDebuffResist"				"Kháng hiệu ứng"
 		"EShopFilterSlowResist"					"Kháng Slow"
 		
 		"EShopFilterAntiCC"						"Chống khống chế"
@@ -2862,6 +2848,9 @@
 		"citadel_hint_guided_arrow_boost" "Giữ {g:citadel_binding:'Attack'} để mũi tên bay nhanh hơn."
 		"citadel_hint_flying_strike_early_activate" "Nhấn {g:citadel_binding:'Attack'} để lao tới mục tiêu ngay."
 
+		// Hud Hints 
+		"citadel_rejuvenator_hud_hint" "Thời gian còn lại của Rejuvenator đang hoạt động; nếu không có, hiển thị thời gian Mid-Boss hồi sinh."
+
 		//-----------------------------------------------------------------------------
 		// Breakable Prop modifiers
 		//-----------------------------------------------------------------------------
@@ -2974,7 +2963,7 @@
 		"citadel_settings_hero"							"Tướng"
 		"citadel_settings_hotkeys"						"Phím tắt"
 		"citadel_settings_steaminput"					"Tay cầm"
-		"citadel_settings_steaminput_connected"			"Đã kết nối"
+		"citadel_settings_steaminput_connected:f"			"{controller_count, plural, one{Đã kết nối} other{Đã kết nối}}"
 		"citadel_ability_upgrade_tab_desc"				"Nhấn {g:citadel_binding:'Scoreboard'} + [{g:citadel_binding:'Ability1'}/{g:citadel_binding:'Ability2'}/{g:citadel_binding:'Ability3'}/{g:citadel_binding:'Ability4'}] để nâng kỹ năng. Đây là các phím tắt bổ sung."
 		"citadel_settings_per_unit_hotkeys"				"Cài đặt riêng cho tướng"
 		"citadel_settings_advanced"						"Nâng cao"
@@ -4453,11 +4442,10 @@
 		"menu_tphideout"							"Dịch chuyển đến nơi ẩn náu"
 		"menu_shoparea"							    "Đại sảnh"
 		"menu_shoparea_sub"							"Khu tập luyện"
-		"menu_seasonal_2025"						"Holiday Challenge"
 		"menu_new_violator"							"Mới"
 		
 		
-		"Citadel_Exit_Game_Confirm"					"Are you sure?"
+		"Citadel_Exit_Game_Confirm"					"Bạn chắc chắn muốn thoát Deadlock chứ?"
 		"menu_exit"									"Thoát Deadlock"
 		"menu_exit_deadlock"						"THOÁT GAME"
 		"Citadel_Confirm_Discord"					"Bạn muốn tạo lời mời Discord chứ? Lời mời này chỉ dùng được trong 2 giờ và bạn không thể tạo lời mời khác."
@@ -4531,8 +4519,8 @@
 		"citadel_voicelines_line_count"					"{d:voice_line_count} Voice Lines"
 		"citadel_voicelines_play_random"				"Play Random Line"
 		"citadel_voicelines_search_placeholder"			"Search voice lines or heroes..."
-		"citadel_voicelines_empty"						"No voice lines are available for this character yet."
-		"citadel_voicelines_empty_search"				"No voice lines match your search."
+		"citadel_voicelines_empty"						"Tướng này hiện chưa có lời thoại để xem."
+		"citadel_voicelines_empty_search"				"Không tìm thấy lời thoại phù hợp."
 		"citadel_voicelines_roster_show_conversations"		"Shift+Click to hear only their conversations"
 		"citadel_voicelines_roster_show_all_conversations"	"Shift+Click to show all conversations"
 		"citadel_voicelines_category_all"				"Tất cả"
@@ -4731,8 +4719,8 @@
 		"LeaveMatchPrompt_Confirm"					"Rời đi"
 		"LeaveMatchPrompt_Cancel"					"Stay"
 
-		"Unranked_AbandonTriggerEarly"				"This game will not be scored. The match will end in {d:end_game_countdown} seconds."
-		"Ranked_AbandonTriggerEarly"				"This game will not be scored. The match will end in {d:end_game_countdown} seconds. Your rank will not be adjusted."
+		"Unranked_AbandonTriggerEarly:f"				"Trận này sẽ không được tính kết quả. Trận đấu kết thúc sau {d:end_game_countdown} {end_game_countdown, plural, one{giây} other{giây}}."
+		"Ranked_AbandonTriggerEarly:f"				"Trận này sẽ không được tính kết quả. Trận đấu kết thúc sau {d:end_game_countdown} {end_game_countdown, plural, one{giây} other{giây}}. Thứ hạng của bạn sẽ không thay đổi."
 
 		"AbandonTriggerTeam_Title"					"Player has Left Match"
 		"Unranked_AbandonTriggerTeam"				"It is now safe to leave; if you do, the match will not be scored. If you stay and win, it will count as a win."
@@ -4953,7 +4941,7 @@
 		"HeroTesting_ResetDPSMeter_Desc"				"Xóa dữ liệu đồng hồ DPS"
 		"HeroTesting_DummyBulletResist_Desc"			"Kháng đạn cộng thêm cho mọi Target Dummy"
 		"HeroTesting_DummySpiritResist_Desc"			"Kháng spirit cộng thêm cho mọi Target Dummy"
-		"HeroTesting_DummyDebuffResist_Desc"			"Kháng debuff cộng thêm cho mọi Target Dummy"
+		"HeroTesting_DummyDebuffResist_Desc"			"Kháng hiệu ứng cộng thêm cho mọi Target Dummy"
 		"HeroTesting_DummyHealthRegen_Desc"				"Hồi máu mỗi giây cộng thêm cho mọi Target Dummy"
 		"HeroTesting_GeneralControls"					"Điều khiển chung"
 		"HeroTesting_Heal"								"Hồi máu"
@@ -5015,11 +5003,11 @@
 		"HeroTesting_BotParry_Desc"						"Tất cả bot liên tục đỡ đòn."
 		"HeroTesting_BotLightMelee_Desc"				"Tất cả bot liên tục đánh cận chiến nhẹ."
 		"HeroTesting_BotHeavyMelee_Desc"				"Tất cả bot liên tục đánh cận chiến mạnh."
-		"HeroTesting_BotAbility_Desc"					"Tất cả bot dùng kỹ năng này mỗi vài giây, bỏ qua hồi chiêu."
+		"HeroTesting_BotAbility_Desc"					"Tất cả bot dùng kỹ năng này, bỏ qua thời gian hồi chiêu."
 		"HeroTesting_BotAbilityStop_Desc"				"Tất cả bot ngừng dùng kỹ năng."
-		"HeroTesting_BotItem_Desc"						"Tất cả bot dùng vật phẩm kích hoạt ở ô này mỗi vài giây, bỏ qua hồi chiêu."
+		"HeroTesting_BotItem_Desc"						"Tất cả bot dùng vật phẩm kích hoạt ở ô này, bỏ qua thời gian hồi chiêu."
 		"HeroTesting_BotItemStop_Desc"					"Tất cả bot ngừng dùng vật phẩm."
-		"HeroTesting_BotUseAbilityRepeated_Desc"		"Khi tắt, bot chỉ dùng kỹ năng một lần rồi dừng."
+		"HeroTesting_BotUseAbilityRepeated_Desc"		"Khi bật, bot lặp lại việc dùng kỹ năng sau mỗi vài giây."
 		"HeroTesting_InfiniteMoney_Desc"				"Mua vật phẩm mà không mất Souls."
 		"HeroTesting_HideUI_Desc"					"Ẩn HUD và đường viền, nhưng vẫn giữ thanh máu của bạn. Giữ TAB để hiện lại."
 		"HeroTesting_HideHealthBars_Desc"			"Ẩn thanh máu phía trên tướng và đơn vị."
@@ -5071,7 +5059,7 @@
 		"HeroTesting_DummyStats_Desc"				"Đặt kháng đạn, kháng Spirit, kháng debuff và hồi máu cho mọi bù nhìn."
 		"HeroTesting_DummyBulletResist"				"Kháng đạn bù nhìn (%)"
 		"HeroTesting_DummySpiritResist"				"Kháng Spirit bù nhìn (%)"
-		"HeroTesting_DummyDebuffResist"				"Kháng debuff bù nhìn (%)"
+		"HeroTesting_DummyDebuffResist"				"Kháng hiệu ứng bù nhìn (%)"
 		"HeroTesting_DummyHealthRegen"				"Hồi máu bù nhìn / giây"
 		"HeroTesting_KillTarget"					"Hạ gục mục tiêu"
 		"HeroTesting_KillTarget_Desc"				"Hạ gục đơn vị đang nằm dưới tâm ngắm."
@@ -5874,10 +5862,8 @@
 		"Citadel_Hideout_News"		"Tin tức mới nhất"
 		"Citadel_Hideout_News_Button"		"Nhấn {g:citadel_binding:'Interact'} để xem tin tức"
 		"Citadel_Hideout_VoiceLines"		"Nhấn {g:citadel_binding:'Interact'} để nghe lời thoại"
-		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Souvenir earned by {s:hideout_owner} during the Winter Update"
 		"Citadel_Hideout_VaultHint01"				"Dùng {g:citadel_binding:'AbilityMelee'} để lấy Souls"
 		"Citadel_Hideout_VaultHint02"				"Dùng {g:citadel_binding:'AbilityMelee'} khi đèn nhấp nháy để nhận thưởng. Đòn cận chiến mạnh sẽ nhận thêm thưởng."
-		"Citadel_Hideout_HolidayChallenge" 		"Nhấn {g:citadel_binding:'Interact'} để xem tiến độ thử thách"
 		"Citadel_Hideout_HeavyCrate"		"Giữ {g:citadel_binding:'AbilityMelee'} để phá thùng bằng đòn mạnh"
 
 		"citadel_keybind_hideout_use"					"Tương tác với đồ vật trong nơi ẩn náu"
@@ -5966,7 +5952,6 @@
 		"Citadel_Subtitles_Message_IconAndName"		"<child id='SpeakerIcon' /><b>{s:subtitle_actor}</b>: {s:subtitle_text}"
 		"Citadel_Subtitles_Message_Icon"			"<child id='SpeakerIcon' />: {s:subtitle_text}"
 		"npc_newscaster"							"Phát thanh viên"
-		"npc_seasonal"								"Phát thanh viên"
 		"npc_shopkeeper"							"Curiosity Dealer"
 		"npc_broker"								"Broker"
 		"npc_spirit_jar"							"Soul Urn"
@@ -6134,7 +6119,9 @@
 		"map_district_building_campus"			"Campus"
 		"map_district_building_belltower"		"Bell Tower"
 
-
+		// Halloween
+		"AbilityButtonHint_HalloweenTroll"		"Trêu hay cho kẹo – đánh cận chiến mạnh để tặng kẹo"
+		"AbilityButtonHint_HalloweenCauldron"		"Đánh cận chiến mạnh để nhận kẹo"
 	}
 }
 

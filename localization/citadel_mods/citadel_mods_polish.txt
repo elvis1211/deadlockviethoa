@@ -627,7 +627,7 @@
 		"upgrade_quick_silver_desc"				"Po użyciu twoja nasycona zdolność zadaje {g:citadel_inline_attribute:'BonusSpiritDamage'}, przyznaje ci {g:citadel_inline_attribute:'BonusFireRate'} oraz <span class=\"highlight\">przeładowuje magazynek</span>. Premie skalują się wraz z upływem czasu i osiągają maksymalny efekt po zakończeniu czasu odnowienia."
 
 		//Resonant Healing
-		"upgrade_resonant_healing_desc"			"<span class=\"highlight\">Ulecz się</span> i zyskaj dodatkową <span class=\"highlight\">szybkość ruchu</span> na krótki czas, gdy rzucisz zdolność."
+		"upgrade_resonant_healing_desc"			"Podczas walki użycie zdolności <span class=\"highlight\">leczy cię</span> i na krótko zapewnia dodatkową <span class=\"highlight\">szybkość ruchu</span>."
 		"HealingPerCast_Label"					"Leczenie po rzucie zdolności"
 
 		"HealingPerCast_postvalue_label"					"pkt. leczenia po rzucie zdolności"
@@ -744,8 +744,8 @@
 
 		//Debuff Remover | Dispel Magic
 		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Oczyść się ze wszystkich negatywnych efektów z zdolności innych niż ostateczne</span>, które są obecnie na ciebie nałożone. Jeśli zostały usunięte jakiekolwiek efekty, <span class=\"highlight\">ulecz się</span> i zyskaj <span class=\"highlight\">premię do szybkości ruchu</span>. <br><span class=\"diminish\">Nie można użyć w stanie ogłuszenia ani uśpienia</span>."
-		"HealOnActivate_label"		"Leczone zdrowie po aktywacji"
-		"HealOnActivate_postvalue_label"		"pkt. leczenia po aktywacji"
+		"HealOnActivate_label"		"Leczenie"
+		"HealOnActivate_postvalue_label"		"pkt. leczenia"
 
 		"damage_reduction_postfix"						"%"
 
@@ -877,22 +877,25 @@
 
 		//Shadow Weave
 		"upgrade_cloaking_device_active_desc"		"Przyznaj sobie <span class=\"highlight\">niewidzialność</span>. Za każdym razem, gdy otrzymasz obrażenia w stanie niewidzialności, zostaniesz na krótko ujawniony."
-		"upgrade_cloaking_device_active_ambush_desc"	"<br>Wykonanie ataku lub użycie zdolności zakończy twoją niewidzialność i rozpocznie <span class=\"highlight\">zasadzkę</span>, tymczasowo przyznając ci dodatkową <span class=\"highlight\">szybkostrzelność</span>, <span class=\"highlight\">moc duchową</span> oraz <span class=\"highlight\">obrażenia wręcz</span>."
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>Wykonanie ataku lub użycie zdolności zakończy twoją niewidzialność i rozpocznie <span class=\"highlight\">zasadzkę</span>, tymczasowo przyznając ci dodatkowe <span class=\"highlight\">obrażenia od broni</span> oraz <span class=\"highlight\">moc duchową</span>."
 		"modifier_cloaking_device_active_stealth"		"Cienisty Splot – niewidzialność"
 		"modifier_cloaking_device_active_ambush"		"Cienisty Splot – zasadzka"
 		"AmbushBonusTechPower_prefix"					"+"
 		"AmbushBonusTechPower_label"					"Moc duchowa z zasadzki"
 		"AmbushBonusTechPower_postvalue_label"					"pkt. mocy duchowej z zasadzki"
-		"AmbushBonusFireRate_prefix"					"+"
-		"AmbushBonusFireRate_label"					"Szybkostrzelność z zasadzki"
-		"AmbushBonusFireRate_postvalue_label"					"szybkostrzelności z zasadzki"
-		"AmbushBonusFireRate_postfix"					"%"
+		"AmbushBonusWeaponDamage_prefix"					"+"
+		"AmbushBonusWeaponDamage_label"					"Obrażenia od broni z zasadzki"
+		"AmbushBonusWeaponDamage_postvalue_label"					"obrażeń od broni z zasadzki"
+		"AmbushBonusWeaponDamage_postfix"					"%"
 		"AmbushBonusMeleeDamage_label"					"Obrażenia wręcz (zasadzka)"
 		"AmbushBonusMeleeDamage_postvalue_label"		"pkt. obrażeń wręcz z zasadzki"
 		"AmbushBonusMeleeDamage_postfix"				"%"
 		"AmbushDuration_label"						"Czas trwania zasadzki"
 		"AmbushDuration_postvalue_label"						"czasu trwania zasadzki"
 		"AmbushDuration_postfix"						" s"
+		"AmbushBuildUpDuration_label"				"Czas do pełnej mocy zasadzki"
+		"AmbushBuildUpDuration_postvalue_label"		"do pełnej mocy zasadzki"
+		"AmbushBuildUpDuration_postfix"				" s"
 		"StealthDuration_label"						"Czas trwania niewidzialności"
 		"StealthDuration_postvalue_label"						"niewidzialności"
 		"StealthDuration_postfix"						" s"
@@ -1009,13 +1012,10 @@
 		//-----------------------------------------------------------------------------
 		// Cosmetic
 		//----------------------------------------------------------------------------- 
-		"cosmetic_ability_snowball"		"Śnieżka"
-		"cosmetic_ability_snowball_desc"		"Rzucaj śnieżkami w swoich znajomych i wrogów. Dystans i inne właściwości ulepszają się wraz z czynieniem postępów w <span class=\"highlight\">świątecznym wyzwaniu 2025</span>.<br><br><span class=\"diminish\">Rzucenie śnieżki w sojusznika nie zada obrażeń i zresetuje jej czas odnowienia.</span>"
-		"SnowballSpeed_label"			"Szybkość rzutu"
-		"SnowballSpeed_postvalue_label"		"prędkości"
-		"SnowballSpeed_postfix"			" m/s"
-		"SnowballCount_label"			"Rzucane śnieżki"
-		"SnowballCount_postvalue_label"		"pociski"
+		"HealPerMinute_label"			"Wzrost leczenia na minutę"
+		"TechPowerPerMinute_label"		"Wzrost mocy duchowej na minutę"
+		"BonusFireRatePerMinute_label"		"Wzrost szybkostrzelności na minutę"
+		"BonusMoveSpeedPerMinute_label"		"Wzrost szybkości ruchu na minutę"
 
 		"cosmetic_item_voting_poster"		"Umieść plakat"
 	}
