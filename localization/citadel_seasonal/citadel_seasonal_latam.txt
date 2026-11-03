@@ -29,7 +29,7 @@
 		"SnowballCount_label"		"Bolas de nieve lanzadas"
 		"SnowballCount_postvalue_label"		"proyectiles"
 		"seasonal_ability_eat_halloween_candy"		"Comer dulce"
-		"seasonal_ability_eat_halloween_candy_desc"		"Come un dulce para curarte, recuperar resistencia y obtener la mejora <span class=\"highlight\">Subidón de azúcar</span>.<br><br><span class=\"diminish\">Los atributos de curación y Subidón de azúcar se incrementan a medida que avanza la partida.</span>"
+		"seasonal_ability_eat_halloween_candy_desc"		"Come un dulce para curarte, recuperar resistencia y obtener la mejora <span class=\"highlight\">Subidón de azúcar</span>.<br><br><span class=\"diminish\">Los atributos de curación y Subidón de azúcar se incrementan a medida que avanza la partida.<br><br>Recibir impactos de cuerpo a cuerpo pesados te hará soltar algunos dulces.</span>"
 
 		"HalloweenCandy_label"		"Acumulaciones:"
 		"HalloweenCandy_postvalue_label"		"Acumulaciones:"

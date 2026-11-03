@@ -77,7 +77,7 @@
 		"BonusFireRatePerHero_postfix"	"%"
 		"LandingBonusesDuration_label" "Thời gian hiệu ứng tích cực"
 		"LandingBonusesDuration_postvalue_label" "Thời gian hiệu ứng tích cực"
-		"LandingBonusesDuration_postfix" "s"		
+		"LandingBonusesDuration_postfix" "s"
 		//-----------------------------------------------------------------------------
 		// Hero Seven // Gigawatt
 		//-----------------------------------------------------------------------------
@@ -149,6 +149,7 @@
 		"LightningStrikeRadius_label"			"Bán kính sét đánh"
 		"LightningStrikeRadius_postvalue_label"			"Bán kính sét đánh"
 		"LightningStrikeRadius_postfix"			"m"
+
 		//-----------------------------------------------------------------------------
 		// Hero Cadence
 		//-----------------------------------------------------------------------------
@@ -220,6 +221,7 @@
 		"CharmDamage_label" "Sát thương mê hoặc"
 
 		"CharmDamage_postvalue_label" "Sát thương mê hoặc"
+
 		//-----------------------------------------------------------------------------
 		// Hero McGinnis (previous names: // Engineer // Forge )
 		//-----------------------------------------------------------------------------
@@ -315,7 +317,8 @@
 		"MinDistance_label"						"Tầm tối thiểu"
 		"MinDistance_postvalue_label"						"Tầm tối thiểu"
 		"MinDistance_postfix"					"m"
-		"citadel_ability_rocket_barrage/modifier_forge_heavy_barrage_stacking_slow" "Làm chậm từ Pháo kích hạng nặng"
+		"citadel_ability_rocket_barrage/modifier_forge_heavy_barrage_stacking_slow" "Làm chậm từ Pháo kích hạng nặng"	 
+
 		//-----------------------------------------------------------------------------
 		// Wraith
 		//-----------------------------------------------------------------------------
@@ -401,7 +404,8 @@
 		"DiamondResistShred_postfix"				"%"		
 
 		"JokerExtraCards_label"				"Bài tách đôi"
-		"JokerExtraCards_postvalue_label"		"Bài tách đôi"			
+		"JokerExtraCards_postvalue_label"		"Bài tách đôi"
+			
 
 		//"citadel_ability_psychic_pulse" "Psychic Pulse"
 		//"citadel_ability_psychic_pulse_quip" "Reveal enemies through walls"
@@ -496,6 +500,7 @@
 		"UberChargeTime_postfix"					"s"
 		//"UberDuration_label"						"Uber Duration"
 		"UberDuration_postfix"					"s"
+
 		//-----------------------------------------------------------------------------
 		// Paradox (previous name: // Chrono)
 		//-----------------------------------------------------------------------------
@@ -635,7 +640,7 @@
 		"CarbineHeadshotBonus_prefix"				"+"
 		"CarbineHeadshotBonus_label"				"Thưởng bắn trúng đầu"
 		"CarbineHeadshotBonus_postvalue_label"				"Thưởng bắn trúng đầu"
-		"CarbineHeadshotBonus_postfix"				"%"		
+		"CarbineHeadshotBonus_postfix"				"%"
 		//-----------------------------------------------------------------------------
 		// Revenant
 		//-----------------------------------------------------------------------------
@@ -788,6 +793,7 @@
 
 
 		"BurnDPS_postvalue_label"					"DPS thiêu đốt"
+
 		//-----------------------------------------------------------------------------
 		// Tempest
 		//-----------------------------------------------------------------------------
@@ -839,9 +845,9 @@
 		//"SwordSlow_label" "Movement Penalty"
 		"SwordSlow_suffix" "%"
 
-		"MeleeDamageBonusPct_label" "Bonus Damage"
+		"MeleeDamageBonusPct_label" "Sát thương cộng thêm"
 
-		"MeleeDamageBonusPct_postvalue_label" "Bonus Damage"
+		"MeleeDamageBonusPct_postvalue_label" "Sát thương cộng thêm"
 		"MeleeDamageBonusPct_suffix" "%"
 
 		//"MeleeDistanceBonusPct_label" "Bonus Distance"
@@ -1088,8 +1094,8 @@
 		//"citadel_ability_zealot_spirit_echo"		"Spirit Echo"
 		//"citadel_ability_zealot_spirit_echo_desc"		"Shoots a echo spirit at a targeted enemy, slowing and dealing damage. Bounces to nearby enemy units, hitting each unit once."
 		//"SpiritShotSlowPct_label"						"Slow Percentage"
-		"SpiritShotSlowDuration_label"				"Slow Duration"
-		"SpiritShotSlowDuration_postvalue_label"				"Slow Duration"
+		"SpiritShotSlowDuration_label"				"Thời gian Slow"
+		"SpiritShotSlowDuration_postvalue_label"				"Thời gian Slow"
 		//"citadel_ability_zealot_spirit_echo_t1_desc" "<span class=\"highlight\">+{s:SpiritShotSlowDuration}</span> second Slow Duration"
 		//"citadel_ability_zealot_spirit_echo_t2_desc" "<span class=\"highlight\">+{s:MaxBounces}</span> Max Bounces"
 		//"citadel_ability_zealot_spirit_echo_t3_desc" "Echo slow now reduces Fire Rate <span class=\"highlight\">{s:FireRateReduction}</span>"
@@ -1308,7 +1314,7 @@
 		"citadel_ability_lash_desc"				"<span class=\"highlight\">Kéo bản thân bay trên không</span> về phía mục tiêu. Dùng Móc quăng cũng đặt lại giới hạn <span class=\"highlight\">nhảy và lướt trên không</span> của bạn."
 
 		"citadel_ability_lash_t2_desc"			"<span class=\"highlight\">+{s:AbilityCastRange}m</span> Tầm thi triển và nhận <span class=\"highlight\">+{s:WeaponDamageBonus}</span> Sát thương vũ khí trong {s:WeaponDamageBonusDuration}s"
-		"citadel_ability_lash_t3_desc"			"<span class=\"highlight\">+{s:AbilityCharges}</span> Lượt dùng<br>Khi thi triển : <span class=\"highlight\">+{s:RestoreStaminaOnUse}</span> Thể lực và <span class=\"highlight\">+{s:AirControlPercent}%</span> Kiểm soát trên không"
+		"citadel_ability_lash_t3_desc"			"<span class=\"highlight\">+{s:AbilityCharges}</span> Lượt dùng<br>Khi thi triển : <span class=\"highlight\">+{s:RestoreStaminaOnUse}</span> Thể lực và <span class=\"highlight\">+{s:AirControlPercent}%</span> Kiểm soát trên không<br><span class=\"highlight\">+{s:JumpVelocity}m</span> Tốc độ bật nhảy"
 		"LashDamage_label"						"Sát thương Móc quăng"
 		"LashDamage_postvalue_label"						"Sát thương Móc quăng"
 		"WeaponFireRateBonus_label"				"Tốc độ bắn"
@@ -1479,6 +1485,7 @@
 		"ability_ice_dome_trigger"		"Mái che băng giá"
 		"ability_ice_dome_quip"			"Tạo một mái vòm hồi máu bất khả xâm phạm"
 		"ability_ice_dome_desc"			"Chọn bản thân hoặc một tướng để đóng băng không khí và tạo một <span class=\"highlight\">mái vòm không thể xuyên thủng</span> quanh họ. Khi ở trong mái vòm, đồng minh nhận {g:citadel_inline_attribute:'Regen'} nhanh và kẻ địch bị <span class=\"highlight\">làm chậm</span>. <br><br><span class=\"diminish\">Công trình mục tiêu trở nên Bất khả xâm phạm và Bị đóng băng dưới Mái che băng giá</span>"
+		"ability_ice_dome_t2_desc"		"<span class=\"highlight\">+{s:AbilityDuration}s</span> thời gian hiệu lực<br>Gây <span class=\"highlight\">-{s:FireRateSlow}%</span> tốc độ bắn"
 		"ability_ice_dome_t3_desc"		"<span class=\"highlight\">Thanh tẩy</span> các hiệu ứng tiêu cực không phải tuyệt chiêu cho bạn và đồng minh. <br><span class=\"highlight\">+{s:BonusHealthRegen}</span> Hồi phục máu và hệ số tăng theo phép thuật được tăng lên"
 		"ability_ice_dome/modifier_ice_dome/modifier_debuff"						"Mái che băng giá"
 		"frozen_shelter_modifier_buff"		"Mái che băng giá"
@@ -1572,7 +1579,7 @@
 		//"TargetReloadSpeedPenalty_label"	"Target Reload Speed Penalty"
 		"TargetReloadSpeedPenalty_postfix"	"%"
 
-		"akimbo_bulletshield"		"Bullet Shield"
+		"akimbo_bulletshield"		"Lá chắn đạn"
 		//"akimbo_bulletshield_desc"	"Creates a shield that protects {s:hero_name} from bullets and prevents bullet based procs. Bullet shield explodes when it expires.  <br>Prevents "
 		//"akimbo_bulletshield/modifier_duration"		"{s:hero_name}'s Bullet Shield"
 
@@ -1628,7 +1635,7 @@
 		"StompRadius_postfix"						"m"
 		//"MinAirTimeForStomp_label"					"Min Air Time for Stomp"
 		//"MinAirTimeForStomp_postfix"				"s"
-		"ability_bounce_pad/speed_on_land" "Tốc độ di chuyển"
+		"ability_bounce_pad/speed_on_land""Tốc độ di chuyển"
 
 		"ability_crackshot"						"Xạ thủ thiện xạ"
 		"ability_crackshot_quip"				"Gây sát thương cộng thêm khi bắn trúng đầu"
@@ -1885,8 +1892,8 @@
 		"ability_charged_shot"		"Phát bắn tích lực"
 		"ability_charged_shot_quip"	"Tích lực cho một phát bắn tầm xa"
 		"ability_charged_shot_desc"	"<span class=\"highlight\">Tích lực cho một phát bắn mạnh</span> xuyên qua kẻ địch. Giữ {g:citadel_binding:'Ability1'} hoặc {g:citadel_binding:'Attack'} để giữ phát bắn."
-		"ability_charged_shot_t2_desc"	"<span class=\"highlight\">+{s:Damage} Sát thương</span>"
-		"ability_charged_shot_t3_desc"	"<span class=\"highlight\">Hệ số tăng sát thương được cải thiện</span> và <span class=\"highlight\">{s:AbilityCooldownBetweenCharge}s</span> Trễ giữa các lượt"
+		"ability_charged_shot_t2_desc"	"<span class=\"highlight\">+{s:Damage} Sát thương</span> và <span class=\"highlight\">{s:AbilityCooldownBetweenCharge}s</span> Giãn cách tích lực"
+		"ability_charged_shot_t3_desc"	"<span class=\"highlight\">Tăng hệ số sát thương</span><br><span class=\"highlight\">Nảy một lần khi chạm tường, sàn hoặc trần</span>"
 
 		//"PowerJumpChannelTime_label"			"In Power Jump Channel"
 		"PowerJumpChannelTime_postfix"		"s"
@@ -2372,8 +2379,8 @@
 		"MovementSlow_label"		"Movement Slow"
 		"MovementSlow_postvalue_label"		"Movement Slow"
 		"MovementSlow_postfix"	"%"
-		"FullRageCurrentHealthDamagePct_label"		"Current Health Damage"
-		"FullRageCurrentHealthDamagePct_postvalue_label"		"Current Health Damage"
+		"FullRageCurrentHealthDamagePct_label"		"Sát thương theo máu hiện tại"
+		"FullRageCurrentHealthDamagePct_postvalue_label"		"Sát thương theo máu hiện tại"
 		"FullRageCurrentHealthDamagePct_postfix"	"%"
 
 		//-----------------------------------------------------------------------------
@@ -2382,7 +2389,7 @@
 		"Citadel_Synth_HeroTag_1" "Kẻ lừa lọc"
 		"Citadel_Synth_HeroTag_2" "Sát thương dồn"
 		"Citadel_Synth_HeroTag_3" "Ếch"
-
+		
 		"synth_plasma_flux"			"Áo choàng bay"
 		"synth_plasma_flux_quip"		"Phóng ra một chiếc áo choàng gây sát thương mà bạn có thể dịch chuyển đến"
 		"synth_plasma_flux_desc"		"Phóng ra một chiếc áo choàng có tri giác, <span class=\"highlight\">di chuyển về phía trước</span> và <span class=\"highlight\">gây sát thương lên kẻ địch</span>. Bạn có thể nhấn <span class=\"highlight\">{g:citadel_binding:'Ability2'}</span> để <span class=\"highlight\">dịch chuyển</span> đến vị trí của nó."
@@ -2433,7 +2440,7 @@
 		"Citadel_Mirage_HeroTag_1" "Hộ vệ"
 		"Citadel_Mirage_HeroTag_2" "Lữ hành"
 		"Citadel_Mirage_HeroTag_3" "Tập trung"
-
+		
 		"mirage_tornado"					"Lốc bụi"
 		"mirage_tornado_quip"				"Biến thành cơn lốc xoáy hất tung kẻ địch"
 		"mirage_tornado_desc"				"Biến thành cơn lốc xoáy di chuyển về phía trước, <span class=\"highlight\">gây sát thương lên kẻ địch</span>, làm chậm <span class=\"highlight\">tốc độ di chuyển</span> và <span class=\"highlight\">hất chúng lên không trung</span>. Sau khi thoát khỏi lốc xoáy, bạn nhận được <span class=\"highlight\">khả năng né đạn</span>."
@@ -2450,11 +2457,11 @@
 
 		"HoldInPlaceDuration_label"			"Thời gian bị giữ trên không"
 		"HoldInPlaceDuration_postvalue_label"			"Thời gian bị giữ trên không"
-		"HoldInPlaceDuration_postfix"		"s"
-		"EnemyLiftDuration_label"			"Thời gian hất tung"
-		"EnemyLiftDuration_postvalue_label"			"Thời gian hất tung"
+		"HoldInPlaceDuration_postfix"		"s" 
+		"EnemyLiftDuration_label"			"Thời gian hất tung" 
+		"EnemyLiftDuration_postvalue_label"			"Thời gian hất tung" 
 		"EnemyLiftDuration_postfix"		"s"
-
+		
 		"modifier_mirage_tornado_lift"	"Lốc bụi"
 		"modifier_mirage_tornado_slow"	"Lốc bụi - Làm chậm"
 		"modifier_mirage_tornado_hold_in_place"	"Bị cố định"
@@ -2462,14 +2469,14 @@
 		"mirage_fire_beetles"			"Bọ hung lửa"
 		"mirage_fire_beetles_quip"		"Phóng bọ hung hút sinh lực của kẻ địch"
 		"mirage_fire_beetles_desc"		"Khiến bọ hung lửa xâm nhập vào kẻ địch, hút sinh lực của chúng và làm giảm sát thương chúng gây ra."
-
+		
 		"mirage_fire_beetles_t2_desc"	"+{s:AbilityCharges} Lần tích trữ<br>+{s:StealDuration}s Thời gian hiệu lực"
 		"mirage_fire_beetles_t3_desc"	"Giảm {s:OutgoingDamagePenaltyPercent}% sát thương gây ra<br>Tăng khả năng cộng hưởng với sức mạnh phép thuật"
 
 		"StatStealDuration_label"		"Thời gian hút máu"
 		"StatStealDuration_postvalue_label"		"Thời gian hút máu"
 		"StatStealDuration_postfix"		"s"
-		//"AbilityButtonHint_MirageLaunchFireBeetle"	"Phóng bọ hung lửa"
+		//"AbilityButtonHint_MirageLaunchFireBeetle"	"Launch Fire Beetle"
 		"modifier_mirage_fire_scarabs_health_gain"	"Bọ hung lửa"
 		"modifier_mirage_fire_scarabs_health_loss"	"Bọ hung lửa"
 		"MirageFireScarabsHealthSteal_label"	"Lượng máu hút mỗi giây"
@@ -2481,8 +2488,8 @@
 		"mirage_teleport_desc"	"Chọn một vị trí trên bản đồ nhỏ. Sau một khoảng chờ ngắn, <span class=\"highlight\">dịch chuyển</span> đến vị trí đó. Nếu chịu sát thương trong thời gian chờ, quá trình dịch chuyển sẽ bị gián đoạn."
 		"MirageTeleportMoveSpeed_conditional"	"Sau khi dịch chuyển"
 		"mirage_teleport_movespeed"		"Lữ hành - Tăng tốc độ di chuyển"
-		"mirage_teleport_t1_desc"	"+{s:BonusMoveSpeed}m Tốc độ di chuyển và +{s:BonusFireRate}% Tốc độ bắn trong {s:MovementSpeedBonusDuration}s"
-		"mirage_teleport_t2_desc"	"{s:CombatBarrier} Khiên hấp thụ sát thương tăng theo sức mạnh phép thuật"
+		"mirage_teleport_t1_desc"	"+{s:BonusMoveSpeed}m Tốc độ di chuyển và +{s:BonusFireRate}% Tốc độ bắn"
+		"mirage_teleport_t3_desc"	"Không bị ngắt bởi sát thương<br>Barrier được tăng theo Spirit Power"
 		"TeleportCompletedTime_label"	"Thời gian chờ"
 		"TeleportCompletedTime_postvalue_label"	"Thời gian chờ"
 		"TeleportCompletedTime_postfix"	"s"
@@ -2539,10 +2546,10 @@
 		//-----------------------------------------------------------------------------
 		// TENGU // IVY
 		//-----------------------------------------------------------------------------
-				"Citadel_Tengu_HeroTag_1" "Phối hợp đồng đội"
+		"Citadel_Tengu_HeroTag_1" "Phối hợp đồng đội"
 		"Citadel_Tengu_HeroTag_2" "Gây rối"
 		"Citadel_Tengu_HeroTag_3" "Vững như đá"
-
+		
 		"citadel_ability_tengu_urn"			"Gai trói chân"
 		"citadel_ability_tengu_urn_quip"	"Gây sát thương và làm chậm kẻ địch trong khu vực"
 		"citadel_ability_tengu_urn_desc"	"Triệu hồi một vùng gai nhọn dày đặc <span class=\"highlight\">gây sát thương</span> và <span class=\"highlight\">làm chậm</span> kẻ địch trong phạm vi."
@@ -2564,12 +2571,12 @@
 		"citadel_ability_tangotether_t2_desc" "<span class=\"highlight\">+{s:BonusFireRate}%</span> Tốc độ bắn và <span class=\"highlight\">+{s:BulletLifestealPercent}%</span> Hút máu từ đạn"
 		"citadel_ability_tangotether_t3_desc" "Kỹ năng luôn có hiệu lực"
 
-		//"tether_disconnecting"				"Covenant - Đang ngắt kết nối..."
-		//"tether_disconnected"				"Covenant - Đã ngắt kết nối"
-		//"SelfMovementBonus_label"			"Thưởng tốc độ của Ivy"
+		//"tether_disconnecting"				"Covenant - Disconnecting..."
+		//"tether_disconnected"				"Covenant - Disconnected"
+		//"SelfMovementBonus_label"			"Ivy Speed Bonus"
 		"SelfMovementBonus_prefix"			"+"
 		"SelfMovementBonus_postfix"			"m"
-		//"TetherDistance_label"				"Phạm vi kết nối"
+		//"TetherDistance_label"				"Connection Range"
 		"TetherDistance_postfix"			"m"
 		"TotalTetherTargets_label"			"Số mục tiêu được kết nối"
 		"TotalTetherTargets_postvalue_label"			"Số mục tiêu được kết nối"
@@ -2650,8 +2657,8 @@
 		//"slork_scald_desc"		"Spray out an arc of superheated water that <span class=\"highlight\">damages enemies over time</span>."
 		//"slork_scald_t1_desc"	"Spray in a wide arc"
 		//"slork_scald_t3_desc"	"+{s:DPS} DPS and +{s:ImpactDamage} Impact damage"
-		"DOTDuration_Label"		"Duration"
-		"DOTDuration_postvalue_label"		"Duration"
+		"DOTDuration_Label"		"Thời lượng"
+		"DOTDuration_postvalue_label"		"Thời lượng"
 		"DOTDuration_postfix"		"s"
 
 		//"slork_riptide"				"Riptide"
@@ -2678,36 +2685,36 @@
 		//"modifier_slork_chomp_hobbled" "Getting Chomped"
 
 		"fathom_scalding_spray"			"Scalding Spray"
-		"fathom_scalding_spray_quip"	"Spray scalding water in a cone ahead of you."
-		"fathom_scalding_spray_desc"	"Spray scalding water in a cone ahead of you. You build up bonus weapon damage as the spray damages an enemy hero."
-		"WeaponDamageBonusPerSec_label"		"Weapon Damage Gain Per Sec"
-		"WeaponDamageBonusPerSec_postvalue_label"		"Weapon Damage Gain Per Sec"
+		"fathom_scalding_spray_quip"	"Phun nước nóng bỏng theo hình nón trước mặt."
+		"fathom_scalding_spray_desc"	"Phun nước nóng bỏng theo hình nón trước mặt. Sát thương lên tướng địch từ luồng nước giúp bạn tích lũy sát thương vũ khí cộng thêm."
+		"WeaponDamageBonusPerSec_label"		"Tăng sát thương vũ khí mỗi giây"
+		"WeaponDamageBonusPerSec_postvalue_label"		"Tăng sát thương vũ khí mỗi giây"
 		"WeaponDamageBonusPerSec_postfix"	"%"
 
 		"fathom_breach"				"Breach"
-		"fathom_breach_quip"		"Launch forward into enemies"
-		"fathom_breach_desc"		"Launch forward, damaging all enemies near where you land and knocking them into the air."
+		"fathom_breach_quip"		"Lao tới phía trước, xuyên vào đội hình địch."
+		"fathom_breach_desc"		"Lao về phía trước, gây sát thương cho mọi kẻ địch gần vị trí tiếp đất và hất chúng lên không."
 
 		"fathom_reefdweller_harpoon"		"Reefdweller Harpoon"
-		"fathom_reefdweller_harpoon_quip"	"Throw a harpoon to pull yourself towards a surface."
-		"fathom_reefdweller_harpoon_desc"	"Throw a harpoon that latches to a wall or ceiling, and <span class=\"highlight\">pulls you in</span>. Activates <span class=\"highlight\">Lurker's Ambush's invisibility</span> while being pulled in. Once hanging attached to the harpoon surface, <span class=\"highlight\">gain additional charges</span>.<br><br><span class=\"diminish\">Casting Reefdweller Harpoon does not break invisibility.</span>"
-		"fathom_reefdweller_harpoon_passive_desc" "Passive: While out of combat and hidden on the minimap, <span class=\"highlight\">heal a portion of your max health</span> every second."
-		"fathom_reefdweller_harpoon_t3_desc" "After detaching, gain {s:BonusFireRate}% Fire Rate for {s:DetachBuffDuration}s or until you reload"
+		"fathom_reefdweller_harpoon_quip"	"Ném lao móc để kéo bản thân tới một bề mặt."
+		"fathom_reefdweller_harpoon_desc"	"Ném lao móc bám vào tường hoặc trần rồi <span class=\"highlight\">kéo bạn tới đó</span>. Khi bị kéo, kích hoạt <span class=\"highlight\">tàng hình của Lurker's Ambush</span>. Sau khi treo mình vào bề mặt, bạn <span class=\"highlight\">nhận thêm lượt dùng</span>.<br><br><span class=\"diminish\">Dùng Reefdweller Harpoon không làm mất tàng hình.</span>"
+		"fathom_reefdweller_harpoon_passive_desc" "Bị động: Khi ngoài giao tranh và không hiện trên bản đồ nhỏ, bạn <span class=\"highlight\">hồi một phần máu tối đa</span> mỗi giây."
+		"fathom_reefdweller_harpoon_t3_desc" "Sau khi rời điểm bám, nhận {s:BonusFireRate}% tốc độ bắn trong {s:DetachBuffDuration}s hoặc cho đến khi nạp đạn."
 		"fathom_reefdweller_harpoon/regen"	"Reefdweller Harpoon Regen"
-		"fathom_reefdweller_harpoon/detach_buff"	"Fire Rate"
+		"fathom_reefdweller_harpoon/detach_buff"	"Tốc độ bắn"
 
 		"fathom_lurkers_ambush"		"Lurker's Ambush"
-		"fathom_lurkers_ambush_quip"	"Become invisible and launch an immobilizing spit."
-		"fathom_lurkers_ambush_passive_desc"	"Passive: While out of combat and not seen by enemies, <span class=\"highlight\">heal a portion of your max health</span> every second. <span class=\"highlight\">If you stand still, you also become invisible</span>, so long as you stay still or crouched and don't perform any actions. While completely invisible, you are <span class=\"highlight\">invulnerable</span>."
-		"fathom_lurkers_ambush_active_desc"		"Hold [{s:ability_key}] to <span class=\"highlight\">charge up</span> a mouthful of sticky spit that <span class=\"highlight\">damages and slows enemies</span>. Damage and slow duration increase the longer you hold the spit.<br>Duration is halved if you are not latched to a wall."
+		"fathom_lurkers_ambush_quip"	"Tàng hình và phun đạn nhầy để giữ chân kẻ địch."
+		"fathom_lurkers_ambush_passive_desc"	"Bị động: Khi ngoài giao tranh và không bị địch nhìn thấy, bạn <span class=\"highlight\">hồi một phần máu tối đa</span> mỗi giây. <span class=\"highlight\">Nếu đứng yên, bạn cũng tàng hình</span> chừng nào còn đứng yên hoặc ngồi thấp và không làm hành động nào khác. Khi tàng hình hoàn toàn, bạn <span class=\"highlight\">bất khả xâm phạm</span>."
+		"fathom_lurkers_ambush_active_desc"		"Giữ [{s:ability_key}] để <span class=\"highlight\">tích lực</span> một ngụm chất nhầy rồi phun ra, <span class=\"highlight\">gây sát thương và Slow kẻ địch</span>. Giữ càng lâu, sát thương và thời gian Slow càng tăng.<br>Thời gian tác dụng giảm một nửa nếu bạn không bám tường."
 		"fathom_lurkers_ambush/invis"	"Invisible"
-		"fathom_lurkers_ambush/regen"	"Health Regen"
+		"fathom_lurkers_ambush/regen"	"Hồi máu"
 		"fathom_lurkers_ambush/immobilize"	"Immobilized"
-		"DebuffMaxDuration_label"	"Max Slow Duration"
-		"DebuffMaxDuration_postvalue_label"	"Max Slow Duration"
+		"DebuffMaxDuration_label"	"Thời gian Slow tối đa"
+		"DebuffMaxDuration_postvalue_label"	"Thời gian Slow tối đa"
 		"DebuffMaxDuration_postfix"	"s"
-		"NotSeenByEnemiesRegen_label"		"Max Health Regen"
-		"NotSeenByEnemiesRegen_postvalue_label"		"Max Health Regen"
+		"NotSeenByEnemiesRegen_label"		"Hồi máu theo máu tối đa"
+		"NotSeenByEnemiesRegen_postvalue_label"		"Hồi máu theo máu tối đa"
 		"NotSeenByEnemiesRegen_postfix"		"%"
 		"MaxDamage_label"				"Max Damage"
 
@@ -2742,7 +2749,7 @@
 		//-----------------------------------------------------------------------------
 		// Operative
 		//-----------------------------------------------------------------------------
-				"operative_umbrella_maneuver"		"Điệu múa ô"
+		"operative_umbrella_maneuver"		"Điệu múa ô"
 		"operative_umbrella_maneuver_desc"	"Dùng chiếc ô để đón luồng gió, đẩy bạn lùi về phía sau. Sau đó, tích lực cho chiếc ô để bắn ra một viên đạn phát nổ khi va chạm."
 		"operative_umbrella_maneuver_t3_desc"	"[Chưa được triển khai]"
 		"modifier_operative_umbrella_maneuver_watcher"	"Điệu múa ô"
@@ -2757,7 +2764,7 @@
 		"TurnRateSlowDuration_label"		"Thời gian giảm tốc độ xoay người"
 		"TurnRateSlowDuration_postvalue_label"		"Thời gian giảm tốc độ xoay người"
 		"TurnRateSlowDuration_postfix"		"s"
-		//"EnemyTurnRateMax_label"			"Tốc độ xoay người tối đa của kẻ địch"
+		//"EnemyTurnRateMax_label"			"Enemy Turn Rate Max"
 		//"EnemyTurnRateMax_postfix"			"%"
 
 		"operative_scattercharge"		"Loạt bom phân tán"
@@ -2786,16 +2793,16 @@
 
 		//"CooldownReductionOnCatch_label"				"Cooldown on Catch"
 		//"CooldownReductionOnCatch_postfix"				"s"
-		"CooldownReductionOnHit_label"					"Cooldown Reduced on Hero Hit"
-		"CooldownReductionOnHit_postvalue_label"					"Cooldown Reduced on Hero Hit"
+		"CooldownReductionOnHit_label"					"Giảm hồi chiêu khi trúng tướng"
+		"CooldownReductionOnHit_postvalue_label"					"Giảm hồi chiêu khi trúng tướng"
 		"CooldownReductionOnHit_postfix"					"s"
 
-		"CooldownReductionOnHitNonHero_label"					"Cooldown Reduced on Non-Hero Hit"
-		"CooldownReductionOnHitNonHero_postvalue_label"					"Cooldown Reduced on Non-Hero Hit"
+		"CooldownReductionOnHitNonHero_label"					"Giảm hồi chiêu khi trúng mục tiêu không phải tướng"
+		"CooldownReductionOnHitNonHero_postvalue_label"					"Giảm hồi chiêu khi trúng mục tiêu không phải tướng"
 		"CooldownReductionOnHitNonHero_postfix"					"s"
 
-		"MaxCooldownReductionsFromHits_label"					"Max Cooldown Reduction"
-		"MaxCooldownReductionsFromHits_postvalue_label"					"Max Cooldown Reduction"
+		"MaxCooldownReductionsFromHits_label"					"Mức giảm hồi chiêu tối đa"
+		"MaxCooldownReductionsFromHits_postvalue_label"					"Mức giảm hồi chiêu tối đa"
 
 
 		//"ability_kali_dust_storm"							"Dust Storm"
@@ -3039,7 +3046,7 @@
 		//-----------------------------------------------------------------------------
 		// Yamato
 		//-----------------------------------------------------------------------------
-				"Citadel_Yamato_HeroTag_1"			"Bất khuất"
+		"Citadel_Yamato_HeroTag_1"			"Bất khuất"
 		"Citadel_Yamato_HeroTag_2"			"Nhào lộn"
 		"Citadel_Yamato_HeroTag_3"			"Kẻ truy đuổi"
 		
@@ -3184,7 +3191,7 @@
 		//-----------------------------------------------------------------------------
 		// Viscous
 		//-----------------------------------------------------------------------------
-				"Citadel_Viscous_HeroTag_1" "Khó bắt"
+		"Citadel_Viscous_HeroTag_1" "Khó bắt"
 		"Citadel_Viscous_HeroTag_2" "Phá rối"
 		"Citadel_Viscous_HeroTag_3" "Nhầy nhụa"
 		
@@ -3196,8 +3203,8 @@
 		"viscous_goo_grenade/modifier_viscous_goo_grenade_debuff"		"Bị làm chậm"
 		"viscous_goo_grenade_t1_desc"					"+{s:Damage} sát thương và +{s:Radius}m bán kính"
 		"viscous_goo_grenade_t3_desc"					"+{s:MaxBounces} Lần nảy và hệ số tăng theo phép thuật được cải thiện"
-		"MaxBounces_label" "Số lần nảy"
-		"MaxBounces_postvalue_label" "Số lần nảy"
+		"MaxBounces_label""Số lần nảy"
+		"MaxBounces_postvalue_label""Số lần nảy"
 		"PuddleRadius_label"							"Bán kính vũng chất nhầy"
 		"PuddleRadius_postvalue_label"							"Bán kính vũng chất nhầy"
 		"PuddleRadius_postfix"							"m"
@@ -3245,13 +3252,13 @@
 
 		"DamageHeavyMelee_postvalue_label"						"Sát thương"
 
-		"viscous_gootapult" "Bệ Phóng Nhầy"
+		"viscous_gootapult""Bệ Phóng Nhầy"
 		//"viscous_gootapult_desc"						"Charge up and launch yourself, dealing damage and leaving a slowing area on impact."
 
 		//"GooSlowPercent_label"							"Puddle Slow Percent"
 		"GooSlowPercent_postfix"						"%"
-		"GooDuration_label" "Thời gian tồn tại của vũng chất nhầy"
-		"GooDuration_postvalue_label" "Thời gian tồn tại của vũng chất nhầy"
+		"GooDuration_label""Thời gian tồn tại của vũng chất nhầy"
+		"GooDuration_postvalue_label""Thời gian tồn tại của vũng chất nhầy"
 		"GooDuration_postfix"							"s"
 		//"citadel_ability_viscous_ball_boost"			"Slam Ball"
 		"RollingTime_label"								"Thời gian lăn"
@@ -3293,43 +3300,43 @@
 
 
 		"ability_empowerbullet" "Sleight of Hand"
-		"ability_empowerbullet_desc" "Performing a <span class=\"highlight\">Dash or Slide</span> loads your weapon with an <span class=\"highlight\">empowered bullet</span> that deals bonus <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Damage</span>, equal to a percentage of your <Panel class=\"AbilityPropertyIcon prop_bullet_damage\"> <span class=\"highlight_weapon\">Weapon Damage</span>.<br><br><span class=\"diminish\">If you're out of bullets, you'll find an extra one. How lucky.</span>"
+		"ability_empowerbullet_desc" "Sau khi <span class=\"highlight\">lướt hoặc trượt</span>, vũ khí được nạp một <span class=\"highlight\">viên đạn cường hóa</span>, gây thêm <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">sát thương phép</span> theo phần trăm <Panel class=\"AbilityPropertyIcon prop_bullet_damage\"> <span class=\"highlight_weapon\">sát thương vũ khí</span>.<br><br><span class=\"diminish\">Nếu đã hết đạn, bạn vẫn có thêm một viên. Quá may mắn!</span>"
 		"ability_empowerbullet/empowerbullet_watcher" "Empowered Round"
-		"ProcDamagePercentage_label" "Bonus Bullet Damage"
-		"ProcDamagePercentage_postvalue_label" "Bonus Bullet Damage"
+		"ProcDamagePercentage_label" "Sát thương đạn cộng thêm"
+		"ProcDamagePercentage_postvalue_label" "Sát thương đạn cộng thêm"
 		"ProcDamagePercentage_prefix" "+"
 		"ProcDamagePercentage_postfix" "%"
-		"ability_empowerbullet_t1_desc" "Gain <span class=\"highlight\">+{s:BonusMoveSpeed} m/s</span> Move Speed while empowered"
-		"ability_empowerbullet_t2_desc" "Deal an additional <span class=\"highlight\">+{s:BulletArmorReduction}%</span> weapon damage for {s:DebuffDuration}s against the victim"
+		"ability_empowerbullet_t1_desc" "Nhận <span class=\"highlight\">+{s:BonusMoveSpeed} m/s</span> tốc độ di chuyển khi được cường hóa."
+		"ability_empowerbullet_t2_desc" "Gây thêm <span class=\"highlight\">+{s:BulletArmorReduction}%</span> sát thương vũ khí lên mục tiêu trong {s:DebuffDuration}s."
 
 		"ability_gunslinger_spreadingfire" "Flame Imp"
-		"ability_gunslinger_spreadingfire_desc" "Throw a projectile, infused with an imp's spirit. It posseses the enemy, dealing <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Damage</span> over time. <br><br>If the target dies while possessed, the imp <span class=\"highlight\">jumps to another nearby enemy</span>, refreshing its duration."
+		"ability_gunslinger_spreadingfire_desc" "Ném một đạn bay chứa linh hồn quỷ nhỏ. Nó bám vào kẻ địch, gây <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">sát thương phép</span> theo thời gian. <br><br>Nếu mục tiêu bị hạ gục khi đang bị ám, con quỷ <span class=\"highlight\">nhảy sang kẻ địch khác ở gần</span> và làm mới thời gian hiệu lực."
 		"ability_gunslinger_spreadingfire/modifier_spreadingfire_dot" "Spreading Flames"
-		"ability_gunslinger_spreadingfire_t3_desc" "+{s:DPS} DPS. Spreads to +{s:SpreadTargets} targets after death."
-		"SpreadRadius_label" "Jump Radius"
-		"SpreadRadius_postvalue_label" "Jump Radius"
+		"ability_gunslinger_spreadingfire_t3_desc" "+{s:DPS} DPS. Khi mục tiêu bị hạ gục, lan sang +{s:SpreadTargets} mục tiêu."
+		"SpreadRadius_label" "Bán kính khi nhảy"
+		"SpreadRadius_postvalue_label" "Bán kính khi nhảy"
 		"SpreadRadius_postfix" "m"
-		"SpreadTargets_label" "Jump Targets"
+		"SpreadTargets_label" "Số mục tiêu lan truyền"
 
-		"SpreadTargets_postvalue_label" "Jump Targets"
+		"SpreadTargets_postvalue_label" "Số mục tiêu lan truyền"
 
 		"ability_gunslinger_demon_carbine" "Hellfire Salvo"
-		"ability_gunslinger_demon_carbine_desc" "Load your weapon with demonic rounds. After a delay, you empower your next shots to deal bonus damage and penetrate enemies."
-		"DemonShotCount_label" "Demon Rounds"
+		"ability_gunslinger_demon_carbine_desc" "Nạp đạn quỷ vào vũ khí. Sau một khoảng trễ, những phát bắn tiếp theo được cường hóa, gây sát thương cộng thêm và xuyên qua kẻ địch."
+		"DemonShotCount_label" "Đạn quỷ"
 
-		"DemonShotCount_postvalue_label" "Demon Rounds"
+		"DemonShotCount_postvalue_label" "Đạn quỷ"
 
 		"gunslinger_rapid_fire/modifier_citadel_rapid_fire" "Rapid Fire"
 		
 		"ability_gunslinger_salvo" "Demontrigger Blitz"
-		"ability_gunslinger_salvo_desc" "Load your weapon with <span class=\"highlight\">demonic rounds</span>. After a delay, release a <span class=\"highlight\">blitz of bullets</span> at the target enemy, dealing bonus <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Damage</span>. <br><br>Enemies can intercept the bullets."
+		"ability_gunslinger_salvo_desc" "Nạp <span class=\"highlight\">đạn quỷ</span> vào vũ khí. Sau một khoảng trễ, bắn <span class=\"highlight\">loạt đạn dồn dập</span> vào kẻ địch được chọn, gây thêm <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">sát thương phép</span>. <br><br>Địch khác có thể chặn đường đạn."
 		"ability_gunslinger_salvo/gunslinger_salvo_warning_modifier" "Take Cover..!"
-		"TotalShots_label" "Total Shots Fired"
+		"TotalShots_label" "Tổng số phát bắn"
 
-		"TotalShots_postvalue_label" "Total Shots Fired"
+		"TotalShots_postvalue_label" "Tổng số phát bắn"
 
 		"gunslinger_demonMark" "Infernal Brand"
-		"gunslinger_demonMark_desc" "Passively mark nearby enemies with a <span class=\"highlight\">Brand</span>. Shooting an enemy with a <span class=\"highlight\">Brand</span> consumes the effect, dealing bonus <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">Damage</span> and granting <Panel class=\"AbilityPropertyIcon prop_fire_rate\"> <span class=\"highlight\">Fire Rate</span> and <Panel class=\"AbilityPropertyIcon prop_move_speed\"> <span class=\"highlight\">Movement Speed</span>."
+		"gunslinger_demonMark_desc" "Tự động đánh dấu kẻ địch ở gần bằng <span class=\"highlight\">Brand</span>. Bắn trúng kẻ địch có <span class=\"highlight\">Brand</span> sẽ tiêu thụ hiệu ứng này, gây thêm <Panel class=\"AbilityPropertyIcon prop_tech_damage\"> <span class=\"highlight_spirit\">sát thương phép</span> và nhận <Panel class=\"AbilityPropertyIcon prop_fire_rate\"> <span class=\"highlight\">tốc độ bắn</span> cùng <Panel class=\"AbilityPropertyIcon prop_move_speed\"> <span class=\"highlight\">tốc độ di chuyển</span>."
 		"gunslinger_demonMark/demonmark" "Demon Mark"
 		"gunslinger_demonMark/demonmark/demonmark_buff" "Mark Claimed"
 
@@ -3346,8 +3353,8 @@
 		//"StackDamage_label"					"Stack Damage"
 				//"citadel_ability_spade_sleeve_toss"		"Sleeve toss"
 		//"citadel_ability_spade_sleeve_toss_desc" "Spade pulls dove from her sleeve and throws it into the air. It will follow Spade's crosshair until detonation."
-		"EffectDuration_label"					"Debuff Duration"
-		"EffectDuration_postvalue_label"					"Debuff Duration"
+		"EffectDuration_label"					"Thời gian Debuff"
+		"EffectDuration_postvalue_label"					"Thời gian Debuff"
 		"EffectDuration_postfix"					"s"
 		//"Projectiles_label"					" Projectiles"
 
@@ -3426,8 +3433,8 @@
 		//"yakuza_shakedown_target_t2_desc"	"Ignore Channel Slowdown"
 		//"ShareDamagePercent_label"			"Increased Damage Share"
 		"ShareDamagePercent_postfix"		"%"
-		"AbilityChannelTimeDisplay_label"	"Channel Duration"
-		"AbilityChannelTimeDisplay_postvalue_label"	"Channel Duration"
+		"AbilityChannelTimeDisplay_label"	"Thời gian vận kỹ năng"
+		"AbilityChannelTimeDisplay_postvalue_label"	"Thời gian vận kỹ năng"
 		"AbilityChannelTimeDisplay_postfix"	"s"
 
 
@@ -3772,7 +3779,7 @@
 		"BatPerSecond_postvalue_label" "Số dơi mỗi giây"
 
 		"ability_vampirebat_steallife" "Cào Xé"
-		"ability_vampirebat_steallife_desc" "<span class=\"diminish\">Kích hoạt:</span> Chém bằng ô, gây {g:citadel_inline_attribute:'SpiritDamage'}, tăng theo lượng máu đã mất của mục tiêu. Nhận {g:citadel_inline_attribute:'Heal'} cho mỗi mục tiêu bị tiêu diệt.<br><br><span class=\"diminish\">Nội tại: </span>Giữ {g:citadel_binding:'ADS'} khiến bạn lơ lửng trong chốc lát.<br><span class=\"diminish\">Cào Xé kết liễu các đơn vị không phải tướng khi chúng còn dưới {s:TrooperExecuteThreshold} máu.</span>"
+		"ability_vampirebat_steallife_desc""<span class=\"diminish\">Kích hoạt:</span> Chém bằng ô, gây {g:citadel_inline_attribute:'SpiritDamage'}, tăng theo lượng máu đã mất của mục tiêu. Nhận {g:citadel_inline_attribute:'Heal'} cho mỗi mục tiêu bị tiêu diệt.<br><br><span class=\"diminish\">Nội tại: </span>Giữ {g:citadel_binding:'ADS'} khiến bạn lơ lửng trong chốc lát.<br><span class=\"diminish\">Cào Xé kết liễu các đơn vị không phải tướng khi chúng còn dưới {s:TrooperExecuteThreshold} máu.</span>"
 		"ability_vampirebat_steallife_t2_desc" "<span class=\"highlight\">+{s:RakeHealPerKill}</span> Hồi máu mỗi lần hạ gục <br>Thời gian hồi <span class=\"highlight\">{s:AbilityCooldown}s</span>"
 		"ability_vampirebat_steallife_t3_desc" "<span class=\"highlight\">+{s:MissingHealthDamagePercentage}%</span> Sát thương theo lượng máu đã mất và tăng hệ số sức mạnh phép thuật cho lượng hồi máu mỗi lần hạ gục"
 		"MissingHealthDamagePercentage_postvalue_label" "Máu đã mất chuyển thành sát thương"
@@ -3794,7 +3801,7 @@
 		"BlastAOERadius_postvalue_label" "Bán kính vụ nổ"
 
 		"ability_punkgoat_tether" "Băng Xích"
-		"ability_punkgoat_tether_desc" "Xích các kẻ địch ở gần vào người bạn. Kẻ địch bị xích <span class=\"highlight\">không thể sử dụng kỹ năng di chuyển</span> và bị <span class=\"highlight\">Làm chậm</span> mạnh khi kéo căng sợi xích.<br><br>Sau một khoảng trễ, <span class=\"highlight\">giật tất cả về phía Billy</span> và gây {g:citadel_inline_attribute:'SpiritDamage'}.<br><br><span class=\"diminish\">Sợi xích sẽ đứt nếu bạn mất tầm nhìn trong một khoảng thời gian ngắn.</span>" 
+		"ability_punkgoat_tether_desc" "Xích các kẻ địch ở gần vào người bạn. Kẻ địch bị xích <span class=\"highlight\">không thể sử dụng kỹ năng di chuyển</span> và bị {g:citadel_inline_attribute:'Slow'} mạnh khi kéo căng sợi xích.<br><br>Sau một khoảng trễ, <span class=\"highlight\">giật tất cả về phía Billy</span> và gây {g:citadel_inline_attribute:'SpiritDamage'}.<br><br><span class=\"diminish\">Sợi xích sẽ đứt nếu bạn mất tầm nhìn trong một khoảng thời gian ngắn.</span>" 
 		"ability_punkgoat_tether_t1_desc" "+{s:TechResist}% {g:citadel_inline_attribute:'SpiritResist'} & {g:citadel_inline_attribute:'BulletResist'}"
 		"ability_punkgoat_tether_t3_desc" "<span class=\"highlight\">+{s:AbilityCastRange}m</span> Tầm sử dụng <br><span class=\"highlight\">+{s:UnstoppablePerHero}s</span> hiệu ứng <span class=\"highlight\">Không Thể Ngăn Cản</span> cho mỗi tướng bị kéo vào"
 		"RopeLength_postvalue_label" "Độ dài xích"
@@ -3870,7 +3877,7 @@
 		"ability_punkgoat_goatflip" "Húc Vọt"
 		"ability_punkgoat_goatflip_desc" "Lao đầu vào kẻ địch và <span class=\"highlight\">hất cả chúng lẫn Billy lên không trung.<br><br><span class=\"diminish\">Thời gian hồi giảm 50% khi va chạm.</span></span>"
 		"ability_punkgoat_goatflip_t1_desc" "Khi va chạm: +{s:WeaponDamageBurst}% {g:citadel_inline_attribute:'WeaponDamage'} trong {s:WeaponDamageBurstDuration}s"
-		"ability_punkgoat_goatflip_t2_desc" "Thời gian lấy đà {s:AbilityDuration}s<br>"		"ability_punkgoat_goatflip_t3_desc" "Thời gian hồi {s:AbilityCooldown}s<br>Khi trúng tướng: +{s:MaxHealthBuffPct}% Máu tối đa trong {s:MaxHealthBuffDuration}s"
+		"ability_punkgoat_goatflip_t2_desc" "{s:AbilityDuration}s Charge Duration<br>"		"ability_punkgoat_goatflip_t3_desc" "{s:AbilityCooldown}s Cooldown<br>On hero hit: +{s:MaxHealthBuffPct}% Max Health for {s:MaxHealthBuffDuration}s"
 		"ChargeMultiHitRadius_postvalue_label" "Phạm vi va chạm"
 		"ChargeMultiHitRadius_postfix" "m"
 		"ability_punkgoat_goatflip_on_hero_collide_header" "Khi va chạm:"
@@ -3971,7 +3978,7 @@
 		"ability_swan_leap" "Bật Nhảy"
 		"ability_swan_leap_desc" "Nhảy theo hướng chỉ định. Nếu không chọn hướng, bạn sẽ nhảy thẳng lên trên."
 		"ability_swan_leap/leapmodifier" "Bật Nhảy"
-
+		
 		"ability_swan_acrobat" "Nhào Lộn"
 		"ability_swan_acrobat_desc" "Nhận các cộng dồn hiệu ứng tăng cường mỗi khi bạn <span class=\"highlight\">lướt</span>, <span class=\"highlight\">nhảy kép</span>, <span class=\"highlight\">nhảy tường</span> hoặc <span class=\"highlight\">dịch chuyển</span>.<br><br>Khi nhận cộng dồn mới, thời gian hiệu lực sẽ được làm mới."
 		"ability_swan_acrobat/stack" "Nhào Lộn"
@@ -4000,7 +4007,7 @@
 		"ability_frank_shocktarget2_t3_desc" "Khi đánh trúng tướng: Hồi phục <span class=\"highlight\">{s:MissingHealthPercentHeal}%</span> lượng Máu đã mất và tăng khả năng tăng tiến sức mạnh phép thuật"
 		"BonusShocks_postvalue_label" "Tia Điện Bổ Sung"
 		"StoredDamageRequired_postvalue_label" "Sát Thương Cần Để Nạp Pin"
-
+		
 		"MissingHealthPercentHeal_postvalue_label" "Máu Đã Mất Chuyển Thành Hồi Phục"
 		"MissingHealthPercentHeal_label" "Máu Đã Mất Chuyển Thành Hồi Phục"
 		"MissingHealthPercentHeal_postfix" "%"
@@ -4080,7 +4087,7 @@
 		"Citadel_Drifter_HeroTag_3" "Tàn Nhẫn"
 
 		"ability_melee_drifter" "Cận Chiến" 
-
+		
 		"drifter_blood_blast" 		"Xé Xác"
 		"drifter_blood_blast_desc"	"Vung đòn quét vào kẻ địch trong vùng hình nón phía trước, gây {g:citadel_inline_attribute:'SpiritDamage'}. Nếu kẻ địch ở <span class=\"highlight\">cự ly gần</span>, gây thêm {g:citadel_inline_attribute:'MeleeDamage'}."
 		"drifter_blood_blast_t2_desc" "Hồi Chiêu {s:AbilityCooldown}s"
@@ -4111,7 +4118,7 @@
 		"ability_drifter_hunger" "Mùi Máu"
 		"ability_drifter_hunger_passive_desc" "Các tướng <span class=\"highlight\">bị cô lập</span> để lại dấu vết khi di chuyển và có thể nghe thấy nhịp tim của chúng từ xa. <br><br>Bạn gây <span class=\"highlight\">sát thương khuếch đại</span> lên các tướng <span class=\"highlight\">bị cô lập</span>. Khi tướng bị cô lập chết ở gần, bạn nhận vĩnh viễn {g:citadel_inline_attribute:'WeaponDamage'}."
 		"ability_drifter_hunger_active_desc" "Kích hoạt: Tăng cường các giác quan, làm lộ dấu vết dẫn đến những tướng ở gần."
-		//"ability_drifter_hunger_desc" "Khi tướng địch <span class=\"highlight\">còn ít máu</span>, bạn gây <span class=\"highlight\">sát thương khuếch đại</span> lên chúng. Những kẻ địch này để lại <span class=\"highlight\">vệt máu kéo dài</span> khi di chuyển."
+		//"ability_drifter_hunger_desc" "When enemy heroes are <span class=\"highlight\">low on health</span> you deal <span class=\"highlight\">amplified damage</span> against them. These enemies leave a <span class=\"highlight\">lingering blood trail</span> as they move."
 		"ability_drifter_hunger_on_kill_desc"	"Khi Tướng Bị Cô Lập Chết:"
 		"ability_drifter_hunger_t1_desc"	"+{s:BonusMoveSpeed}m/s Tốc Độ Di Chuyển khi ở gần tướng địch bị cô lập"
 		"ability_drifter_hunger_t2_desc"	"Khi tướng bị cô lập chết: Hồi phục {s:HealOnKillPct}% lượng máu đã mất và khôi phục {s:StaminaToRestore} Thể Lực"
@@ -4198,7 +4205,7 @@
 		// BookWorm
 		//-----------------------------------------------------------------------------
 		"hero_bookworm_lore"			"Là con gái của một người buôn sách quý hiếm, Paige lớn lên trong một gia đình tràn ngập tình yêu thương, luôn đề cao lòng tốt, phép thuật và nghệ thuật kể chuyện. Nhưng trong khi Paige dễ dàng tiếp thu những giá trị của cha mẹ, cậu em trai Bryce lại không như vậy.\n\nLà một thiếu niên nổi loạn, Bryce không chỉ bất mãn với thái độ ngọt ngào quá mức của gia đình mà còn tức giận vì họ không cho cậu nghiên cứu những phép thuật mà họ cho là quá nguy hiểm. Paige đã thử mọi cách mình nghĩ ra để ngăn em trai gặp rắc rối, nhưng cũng như hầu hết thanh thiếu niên khác, chị gái càng cố bảo ban điều gì tốt nhất cho cậu, cậu càng quay lưng lại.\n\nPaige không biết Bryce đã làm gì khiến cậu bị đuổi khỏi nhà... cô chỉ biết rằng khi trở về từ thư viện, cô thấy em trai đã biến mất và cha mẹ đang khóc.\n\nNgày nối tiếp tuần, tuần nối tiếp tháng, tháng nối tiếp năm. Paige dần trở thành một pháp sư thư tịch tài năng, kiếm sống bằng nghề kể chuyện tại các thư viện khắp năm quận. Dù cha mẹ vẫn im lặng về chuyện đã xảy ra với Bryce, nỗi ám ảnh tìm kiếm em trai của Paige ngày càng lớn. Cô sẽ tìm ra chuyện gì đã xảy đến với em mình... và không một người phàm hay vị thần nào có thể cản đường cô."
-
+		
 		"Citadel_Bookworm_HeroTag_1" "Hay Giúp Đỡ"
 		"Citadel_Bookworm_HeroTag_2" "Người Bảo Vệ"
 		"Citadel_Bookworm_HeroTag_3" "Thông Thạo Sách Vở"
@@ -4255,7 +4262,7 @@
 		"ability_familiar_primary_weapon_bubblegun" "Sát Thương Súng"
 		"ability_familiar_primary_weapon_bubblegun_crit" "Sát Thương Súng - Chí Mạng"
 		"ability_melee_familiar" "Cận Chiến"
-
+		
 		"ability_familiar_ability01" "Giờ Ngủ Trưa"
 		"ability_familiar_ability01_desc" "Nhìn thẳng về phía trước, xuyên qua tường và sàn nhà. Kẻ địch trong tầm nhìn bị <span class=\"highlight\">làm chậm, giảm tầm lướt và không thể sử dụng kỹ năng di chuyển.</span><br><br>Khi kết thúc niệm phép, <span class=\"highlight\">chúng sẽ chìm vào giấc ngủ</span>, rồi tỉnh dậy với cơn đau đầu dữ dội gây {g:citadel_inline_attribute:'SpiritDamage'} lớn."
 		"ability_familiar_ability01_t1_desc" "-{s:ConsumeStaminaOnWake} Thể Lực khi tỉnh dậy và không hồi Thể Lực khi đang ngủ"
@@ -4283,7 +4290,7 @@
 		"ability_familiar_ability02_t3_desc" "+{s:Damage} Sát Thương và +1 Lần Tích Trữ"
 	 	"BonusRadius_postvalue_label" "Bán Kính Bổ Sung"
 	 	"BonusRadius_postfix" "m"
-
+		
 		"ability_familiar_attach" "Bám Theo"
 		"ability_familiar_attach_desc" "Nhảy đến bên cạnh một đồng minh và chợp mắt cùng họ. Cả bạn và đồng minh đều nhận được một đợt {g:citadel_inline_attribute:'Heal'} dựa trên lượng máu đã mất, sau đó là hiệu ứng {g:citadel_inline_attribute:'Regen'} kéo dài.<br><br>Nhảy giữa các đồng minh bằng {g:citadel_binding:'Ability2'} để áp dụng hiệu ứng hồi máu, mỗi đồng minh một lần.<br><br><span class=\"diminish\">Bạn sẽ bị hất văng nếu trúng kỹ năng tối thượng gây choáng.<br>Bạn có thể sử dụng vật phẩm, nhưng mọi kỹ năng tự sử dụng sẽ nhắm vào đồng minh mà bạn đang bám theo.</span>"
 		"ability_familiar_attach_t3_desc" "+{s:TechPowerPercent}% Sức Mạnh Phép Thuật và +{s:BonusSpiritPower} Sức Mạnh Phép Thuật khi đang chợp mắt và trong {s:HopOffEffecDuration}s sau khi tỉnh dậy<br>Tăng khả năng tăng tiến sức mạnh phép thuật"
@@ -4334,10 +4341,10 @@
 		"NPCInfestDuration_postvalue_label" "Thời Gian Hiệu Lực"
 		"NPCInfestDuration_postfix" "s"
 		"AbilityButtonHint_CastOnHost" "Sử Dụng Lên Vật Chủ"
-
+		
 		"ability_familiar_attach_trigger" "Nhảy Đến Đồng Minh"
 		"ability_familiar_attach_trigger_desc" "Nhảy đến một đồng minh khác và làm mới thời gian hiệu lực của {g:citadel_inline_attribute:'Regen'}, mỗi đồng minh một lần."
-
+		
 		"ability_familiar_helpinghands" "Các Trợ Thủ Nhỏ"
 		"ability_familiar_helpinghands_desc" "Ra hiệu cho một Trợ Thủ đến giúp đỡ. Chúng có thể thu thập các thùng hàng, thực hiện nghi thức Hiến Tế Tội Nhân hoặc được cử đi hỗ trợ đồng minh và lính.<br><br><span class=\"diminish\">Đi theo tướng:</span> Cung cấp một đợt ngắn {g:citadel_inline_attribute:'SpiritResist'} và {g:citadel_inline_attribute:'MoveSpeed'} giảm dần.<br><br><span class=\"diminish\">Đi theo lính:</span> Cung cấp <span class=\"highlight\">hồi máu, sát thương, kháng hiệu ứng và cho phép bám theo.</span> Khi không có tướng nào ở gần, linh hồn từ lính bị hạ gục sẽ được chia đều cho cả đội.<br><br><span class=\"diminish\">Có thể sử dụng khi đang Bám Theo. Các Trợ Thủ sẽ chợp mắt trong {s:HelperDowntimeDuration}s sau khi đi theo ai đó.</span>"
 		"ability_familiar_helpinghands_t1_desc" "+{s:HelperCount} Trợ Thủ<br>+{s:BonusMoveSpeed}m/s Tốc Độ Di Chuyển"
@@ -4372,7 +4379,7 @@
 		"ability_necro_hauntingskull_t1_desc" "Thu thập cái chết hồi <span class=\"highlight\">{s:HealPerPickup}</span> máu mỗi lần nhặt"
 		"ability_necro_hauntingskull_t2_desc" "Khi trúng đòn: Gây hiệu ứng <span class=\"highlight\">Làm chậm {s:SlowPercent}%</span> trong {s:SlowDuration}s"
 		"ability_necro_hauntingskull_t3_desc" "<span class=\"highlight\">+{s:SkullCount}</span> Đầu Lâu Tử Vong<br><span class=\"highlight\">+{s:SkullLifetime}s</span> Thời gian tồn tại của Đầu Lâu Tử Vong"
-
+		
 		"PartCollectionRadius_postvalue_label" "Phạm Vi Thu Thập"
 		"PartCollectionRadius_label" "Phạm Vi Thu Thập"
 		"PartCollectionRadius_postfix" "m"
@@ -4411,7 +4418,7 @@
 		"OutgoingDamagePercentPerStack_prefix" "{s:sign}"
 		"HealPerPickup_postvalue_label" "Lượng Hồi Máu Khi Nhặt"
 		"HealPerPickup_label" "Lượng Hồi Máu Khi Nhặt"
-
+		
 		//Ability 2 - Wall
 		"ability_necro_zombiewall" "Bàn Tay Níu Kéo"
 		"ability_necro_zombiewall_desc" "Khai quật một hàng bàn tay đang vươn lên, triệu hồi một <span class=\"highlight\">Quỷ Ghoul</span> và để lại một khe nứt. Kẻ địch đi qua sẽ chịu {g:citadel_inline_attribute:'SpiritDamage'} và bị {g:citadel_inline_attribute:'Immobilize'}.  <br><br><span class=\"diminish\">Dùng {g:citadel_binding:'AltCast'} để xoay hướng bức tường.</span>"
@@ -4455,8 +4462,8 @@
 		"ability_necro_gravestone_desc_1" "<span class=\"diminish\">Bẩm sinh: </span>Các kỹ năng có thể triệu hồi <span class=\"highlight\">Quỷ Ghoul</span> bò về phía căn cứ địch, gây {g:citadel_inline_attribute:'MeleeDamage'}. Chúng phát nổ khi đến gần một tướng hoặc mục tiêu, gây {g:citadel_inline_attribute:'SpiritDamage'} trong một vùng và áp dụng hiệu ứng {g:citadel_inline_attribute:'Slow'} trong thời gian ngắn"
 		"ability_necro_gravestone_desc_2" "<span class=\"diminish\">Kích hoạt: </span>Tạo một bia mộ tại vị trí chỉ định, liên tục triệu hồi <span class=\"highlight\">Quỷ Ghoul</span> theo thời gian. Kẻ địch có thể phá hủy bia mộ bằng hai đòn đánh cận chiến mạnh."
 		"ability_necro_gravestone_t1_desc" "<span class=\"highlight\">+{s:MoveSpeedPercent}%</span> Tốc độ di chuyển của Quỷ Ghoul<br><span class=\"highlight\">{s:AbilityCooldown}s</span> Hồi chiêu"
-		"ability_necro_gravestone_t2_desc" "<span class=\"highlight\">+{s:AbilityDuration}s</span> Thời gian tồn tại<br><span class=\"highlight\">{s:SummonFrequency}s</span> Thời gian giữa các lần triệu hồi"
-		"ability_necro_gravestone_t3_desc" "Khi chết: Gây sát thương bằng <span class=\"highlight\">+{s:CurrentHealthDamagePercentage}%</span> máu hiện tại"
+		"ability_necro_gravestone_t2_desc" "<span class=\"highlight\">+{s:AbilityDuration}s</span> Thời gian tồn tại"
+		"ability_necro_gravestone_t3_desc" "Khi chết: Gây sát thương bằng <span class=\"highlight\">+{s:CurrentHealthDamagePercentage}%</span> máu hiện tại<br><span class=\"highlight\">{s:SummonFrequency}s</span> Thời gian triệu hồi"
 		"ability_necro_gravestone/gravestone/buff" "Sắc Lệnh Vay Mượn"
 		"BonusSpiritDamagePercentage_postvalue_label" "Sát Thương Phép Thuật Cộng Thêm"
 		"BonusSpiritDamagePercentage_label" "Sát Thương Phép Thuật Cộng Thêm"
@@ -4508,11 +4515,11 @@
 		"SummonHealth_label" "Máu Đơn Vị Triệu Hồi"
 		"SummonHealth_postvalue_label" "Máu Đơn Vị Triệu Hồi"
 
-
+		
 
 		"ability_necro_killsummon" "Mượn Sinh Mệnh"
 		"ability_necro_killsummon_desc" "Giết một Quỷ Ghoul hoặc đồng minh có ít máu để hấp thụ sinh lực của họ. <br><br><span class=\"highlight\">{g:citadel_binding:'Attack'}</span>: Ném sinh lực dưới dạng bom, gây {g:citadel_inline_attribute:'SpiritDamage'}.<br><span class=\"highlight\">{g:citadel_binding:'AltCast'}</span>: Hấp thụ sinh lực để nhận {g:citadel_inline_attribute:'Healing'}."
-
+	
 		"ability_necro_coffin" "Lùi Lại!"
 		"ability_necro_coffin_desc" "Nhận {g:citadel_inline_attribute:'CombatBarrier'} và {g:citadel_inline_attribute:'BonusMoveSpeed'}. <br><br>Khi lá chắn hết thời gian, bạn giải phóng một vòng năng lượng tử khí, gây {g:citadel_inline_attribute:'SpiritDamage'} và áp dụng hiệu ứng {g:citadel_inline_attribute:'Slow'}."
 		"ability_necro_coffin/buff" "Lùi Lại!"
@@ -4554,7 +4561,7 @@
 		"ability_header_werewolf" "Dạng Người Sói:"
 		"ability_header_while_transformed" "Khi Biến Hình:"
 
-
+		
 		"ability_werewolf_transformation" "Lời Nguyền Ma Sói"
 		"ability_werewolf_transformation_desc" "<span class=\"diminish\">Nội tại: </span>Gây sát thương sẽ tích lũy cơn khát máu, tăng nhanh hơn khi máu thấp. Khi cơn khát máu đạt tối đa, bạn tự động thi triển Lời Nguyền Ma Sói.<br><br><span class=\"diminish\">Kích hoạt:</span> Lập tức biến hình, tăng {g:citadel_inline_attribute:'MaxHealth'} và cộng dồn {g:citadel_inline_attribute:'FireRate'} lên các tướng địch, đồng thời <span class=\"highlight\">thay thế các kỹ năng và vũ khí</span> bằng phiên bản hung bạo hơn."
 		"ability_werewolf_transformation/werewolf" "Lời Nguyền Ma Sói"
@@ -4581,7 +4588,7 @@
 		"ability_werewolf_netshot/debuff" "Thòng Lọng Trói Buộc"
 		"ability_werewolf_netshot_t3_desc" "<span class=\"highlight\">+{s:DebuffDuration}s</span> Thời Gian Hiệu Ứng Tiêu Cực.<br>Thòng lọng nảy sang <span class=\"highlight\">{s:RicochetCount}</span> mục tiêu bổ sung"
 
-
+		
 		"ability_werewolf_kickflip" "Cú Đá Bằng Ủng"
 		"ability_werewolf_kickflip_desc_1" "Lướt về phía trước và đá kẻ địch đầu tiên trúng phải, gây {g:citadel_inline_attribute:'MeleeDamage'}, đồng thời đẩy bản thân bật ngược lại và <span class=\"highlight\">đánh dấu</span> mục tiêu."
 		"ability_werewolf_kickflip_desc_2" "Bắn vào mục tiêu đã bị <span class=\"highlight\">đánh dấu</span> sẽ gây {g:citadel_inline_attribute:'SpiritDamage'} và xóa dấu đánh dấu."
@@ -4633,7 +4640,7 @@
 
 		"ability_werewolf_onthehunt" "Săn Đuổi"
 		"ability_werewolf_onthehunt_desc" "Nhận {g:citadel_inline_attribute:'BonusFireRate'} và {g:citadel_inline_attribute:'BonusMoveSpeed'}, đồng thời chia một nửa hiệu ứng cho đồng minh ở gần. Hạ gục kẻ địch trong thời gian này sẽ kích hoạt lại Săn Đuổi. "
-
+		
 		"ability_werewolf_leap" "Cú Nhảy Nghiền Nát"
 		"ability_werewolf_leap_desc" "Nhảy vút lên không trung rồi đáp xuống, gây {g:citadel_inline_attribute:'MeleeDamage'} và áp dụng {g:citadel_inline_attribute:'Slow'} lên kẻ địch ở gần, đồng thời đẩy chúng ra xa."
 		"ability_werewolf_leap_t1_desc" "Khi Tiếp Đất: Nhận <span class=\"highlight\">+{s:BonusMoveSpeed} m/s</span> Tốc Độ Di Chuyển trong {s:LandingBonusesDuration}s"
@@ -4724,7 +4731,7 @@
 		// Unicorn
 		//-----------------------------------------------------------------------------
 		"ability_melee_unicorn"		"Cận chiến" 
-
+		
 		"ability_unicorn_radiantblast"				"Kẻ nuốt ánh sáng"
 		"ability_unicorn_radiantblast_desc"			"Phóng một luồng ánh sáng hình nón về phía trước, tấn công kẻ địch. Kẻ địch trúng đòn sẽ chịu {g:citadel_inline_attribute:'SpiritDamage'} khi bị {s:hero_name} tấn công, đồng thời giúp cô ấy nhận được <span class=\"highlight\">hút máu phép thuật</span>."
 		"ability_unicorn_radiantblast_on_bullet_hit_desc" "Khi đạn trúng đích"
@@ -4759,10 +4766,10 @@
 		"BounceRadius_label"						"Phạm vi nảy"
 		"BounceRadius_postvalue_label"				"Phạm vi nảy"
 		"BounceRadius_postfix"						"m"
-
+		
 		"ability_unicorn_luminousstrike"				"Dao Găm Rực Sáng"
 		"ability_unicorn_luminousstrike_desc"			"Gọi một luồng sáng từ bầu trời xuống. Sau một khoảng thời gian ngắn, luồng sáng sẽ hình thành hoàn chỉnh và phát nổ, gây {g:citadel_inline_attribute:'SpiritDamage'} lên tất cả mục tiêu trong khu vực.<br><br> Celeste nhận một hiệu ứng tăng sức mạnh theo tầng, giúp tăng sát thương phép thuật mỗi khi kỹ năng này trúng tướng địch."
-		"ability_unicorn_luminousstrike_t2_desc"		"Hồi chiêu {s:AbilityCooldown}s và +{s:ImpactDamage} sát thương va chạm"						"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack}% khuếch đại phép thuật và +{s:FireRatePerStack}% tốc độ bắn mỗi tầng"
+		"ability_unicorn_luminousstrike_t2_desc"		"{s:AbilityCooldown}s Cooldown and +{s:ImpactDamage} Impact Damage"						"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack}% Spirit Amp and +{s:FireRatePerStack}% Fire Rate Per Stack"
 		"ability_unicorn_luminousstrike/luminous_strike_dot_enemy"				"Thiêu đốt từ Đòn Đánh Rực Sáng"
 		"ability_unicorn_luminousstrike/luminous_strike_buff"				"Dao Găm Rực Sáng"
 
@@ -4784,7 +4791,7 @@
 		// Fencer
 		//-----------------------------------------------------------------------------
 		"ability_melee_fencer"		"Cận chiến" 
-
+		
 		"ability_fencer_throwblade" "Ấn Phù Thoái Lui"
 		"ability_fencer_throwblade_desc" "Tạo một quả cầu ấn phù trước mặt rồi <span class=\"highlight\">nhảy lùi về sau</span> khi nó phát nổ, <span class=\"highlight\">gây sát thương và làm chậm</span> kẻ địch trúng phải."
 		"ability_fencer_throwblade_t1_desc" "Nhận +{s:BonusFireRate}% tốc độ bắn và +{s:BonusBulletSpeedPercent}% tốc độ đạn trong {s:BuffDuration}s"
@@ -4797,7 +4804,7 @@
 		"SigilRadius_label"				"Bán kính"
 		"SigilRadius_postvalue_label"	"Bán kính"
 		"SigilRadius_postfix"			"m"
-
+		
 		"ability_fencer_lunge"		"Tiến Công Hoàn Hảo"
 		"ability_fencer_lunge_desc"	"Thực hiện một loạt cú lao theo bất kỳ hướng nào, tung ra những nhát đâm xuyên về phía trước. Giữ phím kỹ năng để căn thời điểm tấn công; giữ càng lâu, sát thương gây ra càng lớn. Thả phím tấn công trong <span class=\"highlight\">khoảng thời gian hoàn hảo</span> để gây <span class=\"highlight\">sát thương tối đa</span>.<br><br><span class=\"diminish\">Nhấn {g:citadel_binding:'Ability3'} để thi triển lại.</span>"
 		"ability_fencer_lunge_t1_desc" "Đánh trúng tướng hoàn hảo: Hồi {s:HealFixedHealth} máu"
@@ -4861,7 +4868,7 @@
 		"MeleeResistReductionDuration_label"			"Thời gian giảm Kháng cận chiến"
 		"MeleeResistReductionDuration_postvalue_label"	"Thời gian hiệu ứng tiêu cực"
 		"MeleeResistReductionDuration_postfix"			"s"
-		"ability_fencer_riposte_t2_desc"	"<span class=\"highlight\">{s:MeleeResistReduction}%</span> Kháng cận chiến và <span class=\"highlight\">+{s:StunDuration}s</span> thời gian làm choáng"
+		"ability_fencer_riposte_t2_desc"	"<span class=\"highlight\">{s:MeleeResistReduction}%</span> Kháng cận chiến và <span class=\"highlight\">+{s:ImmobilizeDuration}s</span> thời gian bất động"
 		"ability_fencer_riposte_t3_desc"	"Nhận <span class=\"highlight\">{s:TargetLifesteal}%</span> hút máu từ đạn, phép thuật và cận chiến khi tấn công mục tiêu Phản Đòn trong {s:TargetLifestealDuration}s"
 		"modifier_fencer_riposte_target_lifesteal"		"Đánh dấu để hút máu"
 		"TargetLifesteal_label"				"Hút máu từ đạn và phép thuật khi đánh mục tiêu"
@@ -5197,7 +5204,6 @@
 		"ability_chessmaster_knightbuff_t3_desc" "Có thể chọn hai đồng minh trong bán kính.<br>Khi tự dùng: <span class=\"highlight\">Xóa toàn bộ hiệu ứng tiêu cực</span> sau khi di chuyển"
 		"ability_chessmaster_knightbuff/rookbuff" "Mã cánh vua"
 
-
 		//--------------Ability 3 
 		"ability_chessmaster_forkpiece" "Pin quân Xe"
 		"ability_chessmaster_forkpiece_trigger" "Pin quân Xe"
@@ -5365,6 +5371,7 @@
 		"GrabRange_postvalue_label"						"Tầm tóm"
 		"GrabRange_label"								"Tầm tóm"
 
+
 		//-----------------------------------------------------------------------------
 		// Artist
 		//-----------------------------------------------------------------------------
@@ -5419,6 +5426,8 @@
 		"ability_artist_tether/buildup/buff" "Tĩnh vật"
 		"ability_artist_tether/self" "Tĩnh vật"
 		"ability_artist_tether/stun" "Tĩnh vật"
+		"modifier_artist_still_life"			"Tĩnh vật"
+
 		"BuildUpPerAbility_postvalue_label" "Tích lũy mỗi kỹ năng"
 		"BuildUpPerAbility_label" "Tích lũy mỗi kỹ năng"
 		"BuildUpPerAbility_postfix" "%"
@@ -5435,11 +5444,13 @@
 		"Citadel_Graph_PermanentBuff_ArtistBrawler" "Bản phác thảo Đấu sĩ"
 		"Citadel_Graph_PermanentBuff_ArtistAssassin" "Bản phác thảo Sát thủ"
 		"Citadel_Graph_PermanentBuff_ArtistMarksman" "Bản phác thảo Xạ thủ"
+		"Citadel_Graph_PermanentBuff_ArtistHealer" "Phác họa người chữa trị"
 
 		"artist_drawing_mystic" "Bản phác thảo Huyền bí"
 		"artist_drawing_marksman" "Bản phác thảo Xạ thủ"
 		"artist_drawing_brawler" "Bản phác thảo Đấu sĩ"
 		"artist_drawing_assassin" "Bản phác thảo Sát thủ"
+		"artist_drawing_healer" "Phác họa người chữa trị"
 
 
 		//----Ability 4
@@ -5507,7 +5518,7 @@
 		"ability_nurse_fear"			"Nỗi kinh hoàng ẩn nấp"
 		"ability_nurse_fear_desc"		"Mở chiếc túi của bạn và phơi bày những nỗi kinh hoàng bạn mang bên trong, gây {g:citadel_inline_attribute:'SpiritDPS'} cho kẻ địch phía trước. Kẻ địch <span class=\"highlight\">đang nhìn bạn</span> tích tụ nỗi sợ và <span class=\"highlight\">không thể dùng thể lực hay kỹ năng di chuyển</span>. Khi sợ hãi đạt tối đa, chúng <span class=\"highlight\">hoảng sợ bỏ chạy khỏi bạn</span>.<br><br>Mỗi con đỉa bạn đã thu thập cộng thêm <span class=\"highlight\">thời gian sợ hãi</span>.<br><span class=\"diminish\"><br>Kẻ địch quay lưng về phía bạn chịu {s:FacingAwayDamagePercent}% sát thương trừ khi đang sợ hãi.</span>"
 		"ability_nurse_fear_t2_desc"	"-{s:SlowPercent}% Tốc độ di chuyển và Tốc độ bắn<br>+{s:DPS} DPS"
-		"ability_nurse_fear_t3_desc"	"+{s:AbilityChannelTime}s Thời gian niệm<br>+{s:DPS_scale} Hệ số tăng theo phép thuật<br>Miễn nhiễm sát thương khi đang niệm"
+		"ability_nurse_fear_t3_desc"	"+{s:AbilityChannelTime}s Thời gian niệm<br>+{s:DPS_scale} Hệ số tăng theo phép thuật<br>Giảm {s:DamageResistPctWhileChanneling}% sát thương nhận vào khi đang niệm"
 		"FearDurationPerLeechStack_prefix"				"+"
 		"FearDurationPerLeechStack_label"				"Thời gian sợ hãi mỗi con đỉa"
 		"FearDurationPerLeechStack_postvalue_label"		"Thời gian sợ hãi mỗi con đỉa"
@@ -5638,35 +5649,35 @@
 		// END HERO ABILITIES
 		//-----------------------------------------------------------------------------
 		//Ability headers
-		"ability_header_on_hit" "On Hit:"
-		"ability_header_on_kill" "On Kill:"
-		"ability_header_on_hero_hit" "On Hero Hit:"
-		"ability_header_on_hero_kill" "On Hero Kill:"
-		"ability_header_on_enemy_hit" "On Enemy Hit:"
-		"ability_header_on_friendly_hit" "On Friendly Hit:"
-		"ability_header_on_headshot" "On Headshot:"
-		"ability_header_on_buff" "On Buff:"
-		"ability_header_on_debuff" "On Debuff:"
-		"ability_header_on_landing" "On Landing:"
-		"ability_header_passive" "Passive:"
-		"ability_header_on_proc" "On Proc:"
-		"ability_header_on_stack" "On Stack:"
-		"ability_header_on_max_stacks" "On Max Stacks:"
-		"ability_header_on_wall_hit" 			"On Wall Hit:"
-		"ability_header_when_inactive" "When Inactive:"
-		"ability_header_when_active" "When Active:"
-		"ability_header_on_melee" 			"On Melee:"
-		"ability_header_on_barrier" "On Barrier:"
-		"ability_header_on_revive" "On Revive:"
-		"ability_header_on_empowered_cast" "On Empowered Cast:"
-		"ability_header_on_barrier_expire" "On Barrier Expire:"
-		"ability_header_on_cast" "On Cast:"
-		"ability_header_on_slide" "On Slide:"
-		"ability_header_on_death" "On Death:"
+		"ability_header_on_hit" "Khi đánh trúng:"
+		"ability_header_on_kill" "Khi hạ gục:"
+		"ability_header_on_hero_hit" "Khi trúng tướng:"
+		"ability_header_on_hero_kill" "Khi hạ gục tướng:"
+		"ability_header_on_enemy_hit" "Khi trúng địch:"
+		"ability_header_on_friendly_hit" "Khi trúng đồng minh:"
+		"ability_header_on_headshot" "Khi bắn trúng đầu:"
+		"ability_header_on_buff" "Khi có Buff:"
+		"ability_header_on_debuff" "Khi chịu Debuff:"
+		"ability_header_on_landing" "Khi tiếp đất:"
+		"ability_header_passive" "Bị động:"
+		"ability_header_on_proc" "Khi kích hoạt hiệu ứng:"
+		"ability_header_on_stack" "Khi cộng dồn:"
+		"ability_header_on_max_stacks" "Khi đạt cộng dồn tối đa:"
+		"ability_header_on_wall_hit" 			"Khi va vào tường:"
+		"ability_header_when_inactive" "Khi không kích hoạt:"
+		"ability_header_when_active" "Khi kích hoạt:"
+		"ability_header_on_melee" 			"Khi đánh cận chiến:"
+		"ability_header_on_barrier" "Khi có Barrier:"
+		"ability_header_on_revive" "Khi hồi sinh:"
+		"ability_header_on_empowered_cast" "Khi dùng kỹ năng cường hóa:"
+		"ability_header_on_barrier_expire" "Khi Barrier hết hiệu lực:"
+		"ability_header_on_cast" "Khi dùng kỹ năng:"
+		"ability_header_on_slide" "Khi trượt:"
+		"ability_header_on_death" "Khi bị hạ gục:"
 
 		// Weapon names
-		"citadel_gun_damage"						"Gun Damage"
-		"citadel_gun_damage_alt"					"Alt Gun Damage"
+		"citadel_gun_damage"						"Sát thương súng"
+		"citadel_gun_damage_alt"					"Sát thương súng phụ"
 		//"citadel_weapon_combo_melee"				"Melee Combo"
 	
 		"citadel_weapon_yamato_set"			"Sister's Lament"
@@ -5677,15 +5688,15 @@
 		"citadel_weapon_ghost_set"				"Johann's Gift"
 		
 		"citadel_weapon_atlas_set"				"Case Closed"
-		"citadel_weapon_atlas_set_desc"		"Reloads single shells at a time. Can be interrupted"
+		"citadel_weapon_atlas_set_desc"		"Nạp từng viên đạn một. Có thể ngắt giữa chừng."
 		
 		"citadel_weapon_wraith_set"			"The Rake"
 
 		"citadel_weapon_forge_set"				"Services Rendered"
-		"citadel_weapon_forge_set_desc"		"Increases fire rate as the gun spins up"
+		"citadel_weapon_forge_set_desc"		"Tốc độ bắn tăng dần khi súng quay nhanh lên."
 		
 		"citadel_weapon_bebop_set"				"Humble Pie"
-		"citadel_weapon_bebop_set_desc"		"Fires a continuous beam with no bullet travel"
+		"citadel_weapon_bebop_set_desc"		"Bắn tia liên tục, không có thời gian đạn bay."
 
 		"citadel_weapon_nano_set"				"Lời dối ngọt ngào nhất"
 		"citadel_weapon_dynamo_set"			"The Vonnegun"
@@ -5747,57 +5758,57 @@
 		
 
 		// Melee names
-		"ability_melee_ghost"	"Melee"
-		"citadel_ability_melee_bull"			"Melee"
-		"citadel_ability_melee_gigawatt"		"Melee"
-		"citadel_ability_melee_engineer"		"Melee"
-		"ability_melee_heavy"					"Melee"
-		"citadel_ability_melee_hornet"			"Melee"
-		"ability_melee_archer"					"Melee"
-		"citadel_ability_melee_chrono"			"Melee"
-		"ability_melee_inferno"					"Melee"
-		"citadel_ability_melee_wraith"			"Melee"
-		"citadel_ability_melee_sumo"			"Melee"
-		"ability_melee_kelvin"					"Melee"
-		"ability_melee_viscous"					"Melee"
-		"ability_melee_astro"					"Melee"
-		"ability_melee_haze"					"Melee"
-		"citadel_ability_melee_bebop"			"Melee"
+		"ability_melee_ghost"	"Cận chiến"
+		"citadel_ability_melee_bull"			"Cận chiến"
+		"citadel_ability_melee_gigawatt"		"Cận chiến"
+		"citadel_ability_melee_engineer"		"Cận chiến"
+		"ability_melee_heavy"					"Cận chiến"
+		"citadel_ability_melee_hornet"			"Cận chiến"
+		"ability_melee_archer"					"Cận chiến"
+		"citadel_ability_melee_chrono"			"Cận chiến"
+		"ability_melee_inferno"					"Cận chiến"
+		"citadel_ability_melee_wraith"			"Cận chiến"
+		"citadel_ability_melee_sumo"			"Cận chiến"
+		"ability_melee_kelvin"					"Cận chiến"
+		"ability_melee_viscous"					"Cận chiến"
+		"ability_melee_astro"					"Cận chiến"
+		"ability_melee_haze"					"Cận chiến"
+		"citadel_ability_melee_bebop"			"Cận chiến"
 		"ability_melee_nano"					"Cận chiến"
-		"citadel_ability_melee_shiv"			"Melee"
-		"citadel_ability_melee_tengu"			"Melee"
-		"ability_melee_digger"					"Melee"
-		"citadel_ability_melee_kali"			"Melee"
-		"citadel_ability_melee_revenant"		"Melee"
-		"citadel_ability_melee_phalanx"			"Melee"
-		"citadel_ability_melee_demoman"			"Melee"
-		"ability_melee_zealot"					"Melee"
-		"ability_melee_lash"					"Melee"
-		"citadel_ability_melee_warden"			"Melee"
-		"citadel_ability_melee_apocalypse"		"Melee"
-		"citadel_ability_melee_clawdril"		"Melee"
-		"citadel_ability_melee_coldmetal"		"Melee"
-		"citadel_ability_melee_ballista"		"Melee"
-		"citadel_ability_melee_spade"			"Melee"
-		"citadel_ability_melee_tokamak"			"Melee"
-		"ability_melee_yamato"					"Melee"
-		"ability_melee_wrecker"					"Melee"
-		"ability_melee_viper"					"Melee"
-		"ability_melee_magician"				"Melee"
-		"ability_melee_bookworm"				"Melee"
-		"ability_melee_vampirebat"				"Melee"
-		"ability_melee_doorman"					"Melee"
-		"ability_melee_frank"					"Melee"
-		"ability_melee_mirage"					"Melee"
-		"ability_melee_opera"					"Melee"
-		"ability_melee_necro"					"Melee"
-		"ability_melee_ratking"					"Melee"
+		"citadel_ability_melee_shiv"			"Cận chiến"
+		"citadel_ability_melee_tengu"			"Cận chiến"
+		"ability_melee_digger"					"Cận chiến"
+		"citadel_ability_melee_kali"			"Cận chiến"
+		"citadel_ability_melee_revenant"		"Cận chiến"
+		"citadel_ability_melee_phalanx"			"Cận chiến"
+		"citadel_ability_melee_demoman"			"Cận chiến"
+		"ability_melee_zealot"					"Cận chiến"
+		"ability_melee_lash"					"Cận chiến"
+		"citadel_ability_melee_warden"			"Cận chiến"
+		"citadel_ability_melee_apocalypse"		"Cận chiến"
+		"citadel_ability_melee_clawdril"		"Cận chiến"
+		"citadel_ability_melee_coldmetal"		"Cận chiến"
+		"citadel_ability_melee_ballista"		"Cận chiến"
+		"citadel_ability_melee_spade"			"Cận chiến"
+		"citadel_ability_melee_tokamak"			"Cận chiến"
+		"ability_melee_yamato"					"Cận chiến"
+		"ability_melee_wrecker"					"Cận chiến"
+		"ability_melee_viper"					"Cận chiến"
+		"ability_melee_magician"				"Cận chiến"
+		"ability_melee_bookworm"				"Cận chiến"
+		"ability_melee_vampirebat"				"Cận chiến"
+		"ability_melee_doorman"					"Cận chiến"
+		"ability_melee_frank"					"Cận chiến"
+		"ability_melee_mirage"					"Cận chiến"
+		"ability_melee_opera"					"Cận chiến"
+		"ability_melee_necro"					"Cận chiến"
+		"ability_melee_ratking"					"Cận chiến"
 		"ability_melee_baba"					"Cận chiến"
 		"ability_baba_bench_melee"				"Cận chiến"
-		"ability_melee_chessmaster"				"Melee"
-		"ability_melee_deadpack"				"Melee"
-		"ability_melee_artist"					"Melee"
-		"ability_melee_nurse"					"Melee"
+		"ability_melee_chessmaster"				"Cận chiến"
+		"ability_melee_deadpack"				"Cận chiến"
+		"ability_melee_artist"					"Cận chiến"
+		"ability_melee_nurse"					"Cận chiến"
 
 		"Citadel_Familiar_HeroTag_1" "Hay giúp đỡ"
 		"Citadel_Familiar_HeroTag_2" "Nhỏ nhắn"
@@ -5847,76 +5858,76 @@
 		"Citadel_Ratking_HeroTag_2" "Vương giả"
 		"Citadel_Ratking_HeroTag_3" "Kiên cường"
 
-		"hero_astro_role"				"Bounces about dispensing trick shots"
-		"hero_atlas_role"				"Charges into close combat"
+		"hero_astro_role"				"Linh hoạt di chuyển, tung những cú bắn khó lường"
+		"hero_atlas_role"				"Lao thẳng vào giao tranh cận chiến"
 		//"hero_ballista_role"			"Shields up to drop the bomb"
-		"hero_bebop_role"				"Hooks an enemy for a knockout combo"
-		"hero_wrecker_role"				"Salvages scrap to create weapons"
-		"hero_chrono_role"				"Manipulates Space and Time"
-		"hero_dynamo_role"				"Locks down the enemy team"
-		"hero_forge_role"				"Controls the battle with combat turrets"
+		"hero_bebop_role"				"Kéo địch vào tầm rồi tung combo hạ gục"
+		"hero_wrecker_role"				"Nhặt phế liệu để chế tạo vũ khí"
+		"hero_chrono_role"				"Điều khiển không gian và thời gian"
+		"hero_dynamo_role"				"Khống chế cả đội hình địch"
+		"hero_forge_role"				"Kiểm soát giao tranh bằng tháp súng"
 		//"hero_heavy_role"				"Heavy Weapon Expert"
-		"hero_ghost_role"				"Sacrifices health then drains it back"
-		"hero_gigawatt_role"			"Electrocutes crowds of enemies"
-		"hero_haze_role"				"Sneaks in and sprays bullets"
-		"hero_hornet_role"				"Snipes the unsuspecting"
-		"hero_inferno_role"				"Lights up enemies and watches them burn"
-		"hero_kelvin_role"				"Freezes enemies in their tracks"
-		"hero_lash_role"				"Dives down to stomp his foes"
-		"hero_krill_role"				"Burrows underneath his enemies"
+		"hero_ghost_role"				"Đổi máu lấy sức mạnh rồi hút máu trở lại"
+		"hero_gigawatt_role"			"Giật điện cả nhóm kẻ địch"
+		"hero_haze_role"				"Lén áp sát và xả đạn"
+		"hero_hornet_role"				"Bắn tỉa mục tiêu mất cảnh giác"
+		"hero_inferno_role"				"Thiêu đốt kẻ địch đến cùng"
+		"hero_kelvin_role"				"Đóng băng, chặn đường rút của địch"
+		"hero_lash_role"				"Lao từ trên cao xuống nghiền nát kẻ địch"
+		"hero_krill_role"				"Đào đất để đánh úp đối thủ"
 		"hero_nano_role"				"Quấy rối địch từ bên sườn"
-		"hero_orion_role"				"Delivers long range skill-shots"
-		"hero_shiv_role"				"Bleeds out foes, then goes in for a kill"
-		"hero_viscous_role"				"Rolls around deflecting bullets"
-		"hero_warden_role"				"Weakens his enemies and chases them down"
-		"hero_wraith_role"				"Melts isolated targets"
-		"hero_yamato_role"				"Delivers charged attacks with finesse"
-		"hero_tengu_role"				"Sets up a power duo with a lucky ally"
-		"hero_mirage_role"				"Times his shots and catches fleeing targets"
-		"hero_slork_role"				"Slips into combat and then hides to recover"
-		"hero_synth_role"				"Infiltrates and disrupts the backline"
-		"hero_viper_role"				"Slither in and assassinate enemies"
-		"hero_magician_role"			"Misdirect and hex enemies"
-		"hero_trapper_role"				"Entrap enemies and control space"
-		"hero_operative_role"			"Uses cunning to maximize damage"
+		"hero_orion_role"				"Tung kỹ năng chuẩn xác từ tầm xa"
+		"hero_shiv_role"				"Làm địch mất máu rồi lao vào kết liễu"
+		"hero_viscous_role"				"Lăn lộn né và bật ngược đạn"
+		"hero_warden_role"				"Làm suy yếu rồi truy đuổi con mồi"
+		"hero_wraith_role"				"Hạ gục nhanh những mục tiêu đơn lẻ"
+		"hero_yamato_role"				"Ra đòn tích lực đầy chuẩn xác"
+		"hero_tengu_role"				"Kết hợp ăn ý với một đồng đội"
+		"hero_mirage_role"				"Canh thời điểm ra đòn, bắt kẻ địch bỏ chạy"
+		"hero_slork_role"				"Ra vào giao tranh rồi ẩn mình hồi phục"
+		"hero_synth_role"				"Đột nhập và phá rối tuyến sau"
+		"hero_viper_role"				"Luồn lách, ám sát những mục tiêu chủ chốt"
+		"hero_magician_role"			"Đánh lạc hướng và nguyền rủa kẻ địch"
+		"hero_trapper_role"				"Giăng bẫy, khóa đường di chuyển của địch"
+		"hero_operative_role"			"Dùng mưu mẹo để gây sát thương tối đa"
 
         //"hero_akimbo_playstyle"         "Akimbo excels at close range combat, where he relies on speed, cone attacks, and a whole lot of bullets to hit as many targets as possible." 
-        "hero_astro_playstyle"          "Holliday depends on her skills as a crack shot, shooting things she's bounced into the air. With good aim she can lay out heavy damage. Her movement skills let her isolate her enemies or beat a hasty retreat."
-        "hero_atlas_playstyle"          "Abrams has the bulk and sustain to lead from the front, often running into the middle of his foes and watching them scatter. If his enemies waste their fire on him, his backline teammates can lay out damage with impunity."
+        "hero_astro_playstyle"          "Holliday là tay súng cừ khôi, giỏi bắn trúng mục tiêu khi chúng bị hất lên không. Ngắm chuẩn sẽ giúp cô gây sát thương cực lớn. Nhờ khả năng di chuyển linh hoạt, cô có thể tách lẻ đối thủ hoặc rút lui nhanh khi gặp nguy."
+        "hero_atlas_playstyle"          "Abrams trâu bò và hồi phục tốt, thích hợp lao lên mở giao tranh. Anh thường xông thẳng vào giữa đội hình địch khiến chúng tán loạn. Nếu địch dồn hỏa lực vào Abrams, đồng đội tuyến sau sẽ thoải mái xả sát thương."
         //"hero_ballista_playstyle"       "You know what people hate?  Being knocked back by a shotgun.  You know what they hate even more?  Being knocked back into a mine field.  Do you know what they hate even more than that?  Being atomized by a fusion bomb.  Ballista turns the battlefield into an explosive Rube Goldberg device."
-        "hero_bebop_playstyle"          "Bebop can string together his abilities in many different ways. Disrupting enemy positions, saving an ally or dealing bursts of damage. When the situation doesn't require subtlety his giant laser still solves many problems."
-		"hero_wrecker_playstyle"		"Salvaging and scrapping for parts, Wrecker can disassemble troopers, crush foes with his Wrecking Ball, and capture all enemies in his Stasis Trap."
-        "hero_chrono_playstyle"         "Manipulating time lets Paradox outpace an enemy in one on one combat. She thrives by subjecting her enemies to timely swaps into a waiting pulse grenade, her wall, or into the middle of her teammates."
-        "hero_dynamo_playstyle"         "Dynamo keeps himself and his allies healthy while waiting for his moment. Few things can warp a team fight more than a well-coordinated use of Singularity."
-        "hero_forge_playstyle"			"Precise placement is everything for McGinnis, whether she's creating a killzone or splitting the enemy team. She can help keep her team running making them hard to dislodge when entrenched."
-        "hero_ghost_playstyle"          "Expending health to achieve devastating effects is the source of Lady Geist's power. When running low, she can drain the life out of her rivals."
-        "hero_gigawatt_playstyle"       "Seven thrives in a skirmish waiting for the time to strike. Then he rolls into the fight like a storm and batters his enemies with a cascade of lightning."
-        "hero_haze_playstyle"           "When Haze fixates on a target she can hold her own in a firefight. She prefers to create one sided exchanges, avoiding damage then picking off unsuspecting targets up close."
-        "hero_hornet_playstyle"         "Vindicta has the mobility to engage at her leisure, picking at her prey and bleeding them out slowly. Injured enemies at any distance should fear being picked off when she is on the map."
-        "hero_inferno_playstyle"        "Infernus has many ways to deal damage over time, burning foes before swooping in for the kill. Due to Infernus' blazing speed, his enemies won't be able to escape the flames."
+        "hero_bebop_playstyle"          "Bebop có thể ghép kỹ năng thành nhiều combo khác nhau: phá đội hình địch, cứu đồng đội hoặc dồn sát thương. Khi không cần tinh tế, tia laser khổng lồ của hắn vẫn giải quyết được vấn đề."
+		"hero_wrecker_playstyle"		"Wrecker gom nhặt phế liệu để tháo rời lính, nghiền nát đối thủ bằng Wrecking Ball và nhốt cả nhóm kẻ địch trong Stasis Trap."
+        "hero_chrono_playstyle"         "Điều khiển thời gian giúp Paradox chiếm ưu thế trong đấu tay đôi. Cô đặc biệt nguy hiểm khi hoán đổi đối thủ đúng lúc, đẩy chúng vào lựu đạn xung, bức tường của mình hoặc ngay giữa đội hình đồng đội."
+        "hero_dynamo_playstyle"         "Dynamo duy trì máu cho bản thân và đồng đội, kiên nhẫn chờ thời cơ. Một pha Singularity phối hợp tốt có thể đảo chiều cả giao tranh tổng."
+        "hero_forge_playstyle"			"Với McGinnis, vị trí đặt công trình là tất cả: dựng vùng hỏa lực hoặc chia cắt đội hình địch. Cô còn hỗ trợ đồng đội trụ vững, khiến đối thủ khó lòng đánh bật cả đội khỏi vị trí phòng thủ."
+        "hero_ghost_playstyle"          "Lady Geist dùng chính máu của mình để tạo ra hiệu ứng mạnh mẽ. Khi máu xuống thấp, cô có thể hút sinh lực từ đối thủ để hồi lại."
+        "hero_gigawatt_playstyle"       "Seven giỏi giao tranh nhỏ, luôn chờ đúng lúc mới ra tay. Khi nhập cuộc, hắn cuốn vào như cơn bão và dội sấm sét liên tiếp xuống kẻ địch."
+        "hero_haze_playstyle"           "Haze đủ sức đấu súng trực diện với mục tiêu mà cô đang săn đuổi. Nhưng sở trường của cô là tránh nhận sát thương, lén áp sát rồi hạ gục những kẻ không đề phòng."
+        "hero_hornet_playstyle"         "Vindicta cơ động, có thể chọn lúc giao tranh và từ từ bào máu đối thủ. Khi cô có mặt trên bản đồ, tướng địch đang thấp máu dù ở xa cũng khó được yên ổn."
+        "hero_inferno_playstyle"        "Infernus gây sát thương liên tục bằng nhiều cách, thiêu đốt đối thủ trước khi lao vào kết liễu. Với tốc độ của anh ta, rất ít kẻ địch chạy thoát khỏi biển lửa."
         //"hero_kali_playstyle"           "Kali is positively lethal with his boomerang, however if he misses catching the blade on it's return path his effectiveness reduces dramatically."
-        "hero_kelvin_playstyle"         "Timely heals and splitting a teamfight properly is the difference between an easy victory or a ruinous defeat. Gliding around slowing enemies gives Kelvin's team the maneuvering advantage to make this happen."
-        "hero_lash_playstyle"           "Lash gives his enemies little room to breathe, either by flying in from long distances to initiate combat with unsuspecting enemies, or pursuing said enemies when they try to run."
-        "hero_krill_playstyle"			"By burrowing through the ground, Mo and Krill can get the drop on almost anyone; and once they get in close the results can be devastating."
+        "hero_kelvin_playstyle"         "Hồi máu đúng lúc và khéo léo chia cắt giao tranh có thể quyết định thắng bại. Kelvin lướt quanh, làm chậm kẻ địch, tạo lợi thế di chuyển để cả đội triển khai chiến thuật."
+        "hero_lash_playstyle"           "Lash không cho kẻ địch kịp thở: hắn có thể lao tới từ rất xa để mở giao tranh bất ngờ, rồi bám đuổi đến cùng nếu chúng cố bỏ chạy."
+        "hero_krill_playstyle"			"Mo và Krill đào đất luồn xuống dưới đối thủ, dễ dàng đánh úp cả những kẻ cảnh giác. Một khi áp sát được, cặp đôi này cực kỳ nguy hiểm."
         "hero_nano_playstyle"           "Calico tận dụng bóng tối để liên tục ra vào giao tranh, lần lượt săn từng mục tiêu một."
-        "hero_orion_playstyle"    		"A cunning predator, Grey Talon uses a combination of deadly accuracy, traps, and clever positioning to bring down the toughest of opponents."
-        "hero_shiv_playstyle"           "Shiv has zero interest in playing fair, which is why he relies on hit and run tactics to weaken enemies before he dives in for the kill."
+        "hero_orion_playstyle"    		"Grey Talon là thợ săn mưu trí: kết hợp khả năng ngắm bắn chuẩn xác, bẫy và chọn vị trí thông minh để hạ cả những đối thủ cứng cựa nhất."
+        "hero_shiv_playstyle"           "Shiv chẳng quan tâm đến chơi đẹp. Hắn đánh rồi rút, bào máu kẻ địch trước khi chớp thời cơ lao vào kết liễu."
         //"hero_tempest_playstyle"        "Much like how a child has no idea how a TV works, no one knows exactly HOW Tempest kills you.  Was it a tesla coil?  You didn't see a tesla coil.  Either way, you're dead and Tempest is laughing."
-        "hero_viscous_playstyle"        "Viscous vexes his opponents through clever evasion and strategic uses of healing, enabling him to withstand the most brutal of enemy attacks."
-        "hero_warden_playstyle"         "Warden leads from the front, jumping into the fray and hindering his opponents' ability to fight effectively. But what Warden considers brave, others consider reckless, and if he's not careful he can easily find himself in over his head."
-        "hero_wraith_playstyle"         "Excelling at one-on-one combat, Wraith isolates targets, eliminating them with ruthless efficiency. Then teleporting away before anyone can retaliate."
-        "hero_yamato_playstyle"         "Yamato uses precise strikes to decimate her rivals. However, such damaging attacks often will leave her exposed, so she needs to make every shot count."
+        "hero_viscous_playstyle"        "Viscous khiến đối thủ đau đầu nhờ né tránh khéo léo và hồi máu đúng lúc, có thể chịu đựng cả những đợt tấn công cực mạnh."
+        "hero_warden_playstyle"         "Warden xông lên tuyến đầu, lao vào giao tranh và hạn chế khả năng chiến đấu của đối thủ. Dũng cảm hay liều lĩnh chỉ cách nhau một bước; bất cẩn là anh ta sẽ tự đẩy mình vào thế khó."
+        "hero_wraith_playstyle"         "Wraith giỏi bắt lẻ: tách mục tiêu khỏi đồng đội, xử lý thật nhanh rồi dịch chuyển đi trước khi đối thủ kịp phản công."
+        "hero_yamato_playstyle"         "Yamato tung những đòn đánh chính xác và cực kỳ nguy hiểm. Đổi lại, mỗi lần ra đòn mạnh thường khiến cô sơ hở, nên không được phí bất cứ cơ hội nào."
         //"hero_spade_playstyle"          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 		//"hero_tokamak_playstyle"	"Shooting Tokamak's weapon builds heat which bleeds off whenever the gun isn't shooting. High heat levels can be used to increase the power of some abilities."
 		//"hero_rutger_playstyle"		"Rocket Launcher gives him some rocket-jumping capabilities, Force Field allows him to close off movement options, Cheat Death lets him turn bad fights around, and a Pulse released in the middle of a teamfight can dictate the outcome."
-		"hero_synth_playstyle"		"With a powerful shotgun and a thin frame, Pocket relies on their ability to briefly escape into a mystic suitcase and teleport via a flying cloak in order to survive close encounters."
-		"hero_mirage_playstyle"		"Mirage can envelop himself in a violent tornado to catch up to enemies and lift them up. His scarabs help him sustain against multiple enemies, and he's always ready to help an ally or punish an enemy anywhere."
-		"hero_slork_playstyle"		"A short-ranged assassin, Fathom can slip in and out of combat and win long engagements."
-		"hero_tengu_playstyle"		"Ivy has disruptive combat tricks that slow and stun enemies. She's most effective when linking up with an ally, empowering her and her ally's guns as well as sharing heals."
-		"hero_viper_playstyle"		"With a powerful weapon (and deadly venom to match), Vyper can slither into the back of teams and assassinate high-priority targets in a storm of bullets."
-		"hero_magician_playstyle"	"With the help of their unwilling assistant, <i>The Magnificent Sinclair</i> can confuse enemies with curving hexes and rapid bolts."
-		"hero_trapper_playstyle"	"The Trapper can infest the battlefield with their haunted spiders, leaving latent curses in key areas. If you let the Trapper have their way, you won't be able to navigate the map without springing some sort of trap."
-		"hero_operative_playstyle"	"By impeding enemy movement and punishing those who look in his direction, Raven creates opportunites to stab his enemies in the back."
+		"hero_synth_playstyle"		"Pocket mang súng săn cực mạnh nhưng thân hình mỏng manh. Để sống sót khi áp sát, họ phải khéo dùng chiếc vali ma thuật để tránh đòn và áo choàng bay để dịch chuyển."
+		"hero_mirage_playstyle"		"Mirage có thể hóa thành lốc xoáy để đuổi kịp và hất tung kẻ địch. Bọ hung giúp anh trụ lâu khi bị nhiều người vây đánh; anh cũng luôn sẵn sàng tiếp viện đồng đội hoặc trừng phạt địch ở bất cứ đâu."
+		"hero_slork_playstyle"		"Fathom là sát thủ tầm gần, biết ra vào giao tranh đúng lúc và có thể thắng cả những cuộc đối đầu kéo dài."
+		"hero_tengu_playstyle"		"Ivy giỏi phá rối bằng hiệu ứng làm chậm và Stun. Cô mạnh nhất khi liên kết với đồng đội, tăng sức mạnh súng cho cả hai và chia sẻ khả năng hồi máu."
+		"hero_viper_playstyle"		"Vyper sở hữu vũ khí uy lực cùng nọc độc chết người. Cô có thể luồn ra phía sau đội hình và dùng cơn mưa đạn để hạ gục mục tiêu quan trọng."
+		"hero_magician_playstyle"	"Với sự giúp đỡ bất đắc dĩ của trợ lý, <i>The Magnificent Sinclair</i> có thể khiến kẻ địch rối loạn bằng các đòn nguyền rủa đổi hướng và loạt đạn phép nhanh."
+		"hero_trapper_playstyle"	"Trapper gieo rắc nhện ma ám khắp chiến trường, để lại lời nguyền tiềm ẩn ở các điểm trọng yếu. Cứ để Trapper tự do bày trận, bạn sẽ không thể đi đâu mà không giẫm phải bẫy."
+		"hero_operative_playstyle"	"Raven hạn chế khả năng di chuyển và trừng phạt kẻ địch dám quay mặt nhìn hắn, từ đó tạo thời cơ lẻn ra sau và đâm lén."
 
 		//"hero_akimbo_lore"				"Though he was built by a lonely gunslinger, Akimbo was taught that he couldn't use a gun to solve all his problems.  This frustrated the robot outlaw immensely, but as time passed Akimbo realized that his human father was right.  A gun only solved about 75% of his problems.  To solve ALL his problems, he would need at least 2 guns." 
 		"hero_astro_lore"				"There are people who spent their whole lives dreaming about moving to New York.  Holliday isn't one of those people.  Content with being a Sheriff in a small town, Holliday enjoyed a career where the only time she had to use her gun was when trick shooting at the county fair...then the murders started.<br><br>Grisly and inhumane; the bodies were found with their ribcages ripped open... their innards picked apart as if by birds.  Holliday tracked down the killer, a travelling folk musician that the media dubbed \"The Troubadour\", but when she confronted him he exploded into a murder of crows and flew away.<br><br>That was 6 months ago, and while the murders in central Illinois have stopped, Holliday's investigation has not.  She believes that The Troubadour is travelling to New York, and when she finds him she's going to kill that evil son of a bitch."
@@ -5964,6 +5975,9 @@
 		"hero_deadpack_lore"			"\"Ladies and Gentlemen, I'm going to tell you a shocking secret: at Fairfax Industries we know nothing about safety. Now let me tell you something even MORE shocking... that's a good thing! Now in my tenure here I have been shot, stabbed, impaled, defenestrated, blown up, atomized, and decapitated-not once. not twice. not thrice. but quice. That's right, my head has been cut off enough times that I had to use a made up word to quantify it.<br><br>But I put myself through figurative and sometimes literal hell because it's not enough to THINK about how things go wrong, we need to KNOW how things go wrong.<br><br>Now the demonstration you are about to witness is extremely dangerous. So sit back. Put on your safety googles. And bear witness to the miracle of flight courtesy of Fairfax Industries, and the Chimera Mark 1.\"<br><br><span class=\"italics\">- This transcription of Danny's opening remarks at The Military Technology Expo has been provided by Fairfax Industries</span>"
 		"hero_artist_lore"			"Violet immigrated to The Cursed Apple when she was 12, and while there was a certain amount of culture shock to adapting to New York, she quickly fell in love with the vibrance of the city.   Dedicating herself to the pursuit of the arts, Violet's passion lead her to successes far beyond most of her peers.<br><br>First, a full ride to art school.<br><br>Then in her junior year, inclusion in MOMA'S prestigious celebration of student artists: \"The Upstart Gallery\".<br><br>By any measure she's doing phenomenal for her age, however Violet has not been able shake her existential dread of dying a failure. She knows that commercial success as a fine artist isn't about being good enough. It's not even about being great. It's about being seen by the right person at the right time.  And so she has set her sights on The Ritual... not to embellish on her own talent, but just to have a chance to show the world what she can do."
 		"hero_nurse_lore"			"A respected pillar at the Marble Hill Possession Ward, Nurse Harrow has dedicated her life to combating the horrors of supernatural possession. A blend of care, severity, and detached pragmatism; Harrow has been called a saint by some of her patients, and a cruel governess by others. Both are probably true.<br><br>But while any sane person would question how and why Harrow keeps the pain of her patients stored in her medical bag,  none can question the results of her treatment program... cruel though it may be."
+
+		// Maintained additional Vietnamese-only localization keys
+		"mirage_teleport_t2_desc"		"{s:CombatBarrier} Khiên hấp thụ sát thương tăng theo sức mạnh phép thuật"
 
 	}
 }

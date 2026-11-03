@@ -2837,7 +2837,11 @@
 		"citadel_hint_activate_wall" "Tekan {g:citadel_binding:'Attack'} untuk membuat dinding lebih awal."
 		"citadel_hint_guided_arrow_boost" "Tahan {g:citadel_binding:'Attack'} untuk meningkatkan kecepatan panah."
 		"citadel_hint_flying_strike_early_activate" "Tekan {g:citadel_binding:'Attack'} untuk terbang ke targetmu lebih awal."
-//-----------------------------------------------------------------------------
+
+		// Hud Hints 
+		"citadel_rejuvenator_hud_hint" "Waktu tersisa pada rejuvenator aktif, atau respawn Bos Mid jika tidak ada rejuvenator aktif."
+
+		//-----------------------------------------------------------------------------
 		// Breakable Prop modifiers
 		//-----------------------------------------------------------------------------
 		"fire_rate_pickup/small_fire_rate"				"Tingkat tembakan ditingkatkan"
@@ -6082,6 +6086,10 @@
 		"map_district_building_brownstones"		"Gedung Klasik"
 		"map_district_building_campus"			"Kampus"
 		"map_district_building_belltower"		"Menara Lonceng"
-}
+
+		// Halloween
+		"AbilityButtonHint_HalloweenTroll"		"Troll Trick or Treat - Jarak Dekat Berat untuk Memberikan Permen"
+		"AbilityButtonHint_HalloweenCauldron"		"Jarak Dekat Berat untuk mendapatkan Permen"
+	}
 }
 

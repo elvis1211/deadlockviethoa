@@ -9,10 +9,10 @@
 		//-----------------------------------------------------------------------------
 
 		//Ammo Scavenger
-		"upgrade_ammo_scavenger_desc"		"Mỗi lần thu thập hoặc cướp Souls từ một đơn vị, bạn <span class=\"highlight\">hồi lại đạn</span> và nhận thêm <span class=\"highlight\">Spirit Power</span> cộng dồn.<br>Đủ số cộng dồn tối đa sẽ nhận thêm tốc độ chạy nước rút."
+		"upgrade_ammo_scavenger_desc"		"Mỗi khi bạn thu thập hoặc phá hủy Linh hồn từ một thực thể, bạn <span class=\"highlight\">nhận lại đạn</span> và nhận <span class=\"highlight\">Sức mạnh phép thuật</span> cộng dồn.<br>Khi đạt số tầng tối đa, nhận thêm tốc độ chạy nước rút"
 		"AmmoPerSoul_prefix"				"+"
-		"AmmoPerSoul_label"					"Đạn hồi khi nhận Souls"
-		"AmmoPerSoul_postvalue_label"					"Đạn hồi khi nhận Souls"
+		"AmmoPerSoul_label"					"Đạn mỗi Linh hồn"
+		"AmmoPerSoul_postvalue_label"					"Đạn mỗi Linh hồn"
 		"SpiritPowerPerSoul_prefix"			"+"
 		"SpiritPowerPerSoul_label"			"Sức mạnh phép thuật mỗi Linh hồn"
 		"SpiritPowerPerSoul_postvalue_label"			"Sức mạnh phép thuật mỗi Linh hồn"
@@ -110,7 +110,7 @@
 		//"upgrade_slowing_bullets/modifier_slowing_bullets_proc/modifier_slow_base"					"Slowed"
 
 		//Spiritual Overflow
-		"upgrade_tech_overflow_desc"	"Khi bắn trúng tướng địch, bạn tích tụ năng lượng để nhận thêm <span class=\"highlight\">Tốc độ bắn</span>, <span class=\"highlight\">Sức mạnh phép thuật</span> và <span class=\"highlight\">Hút máu phép thuật</span>."
+		"upgrade_tech_overflow_desc"	"Nhận thêm <span class=\"highlight\">Tốc độ bắn</span>, <span class=\"highlight\">Sức mạnh phép thuật</span> và <span class=\"highlight\">Hút máu phép thuật</span> bằng cách <span class=\"highlight\">tích năng lượng</span> khi bắn trúng tướng địch."
 		"modifier_tech_overflow_building" "Đang tích lũy Tràn phép thuật..."
 
 		"OverflowTechPower_label"		"Sức mạnh phép thuật"
@@ -208,7 +208,7 @@
 		"upgrade_berserker_desc"		"<span class=\"highlight\">Sát thương vũ khí</span> của bạn tăng lên khi bạn chịu sát thương liên tục."
 
 		//Frenzy
-		"upgrade_fervor_passive"	"Khi <span class=\"highlight\">máu xuống dưới {s:LowHealthThreshold}%</span>, bạn nhận thêm chỉ số trong một khoảng thời gian và giảm tác động của các hiệu ứng bất lợi đang chịu."
+		"upgrade_fervor_passive"	"Khi bạn <span class=\"highlight\">dưới {s:LowHealthThreshold}% máu</span>, bạn nhận thêm chỉ số trong một khoảng thời gian và các hiệu ứng tiêu cực đang chịu được giảm bớt."
 		"FervorTechResist_postfix"  "%"
 		"modifier_fervor_aura_active"		"Cuồng nộ"
 		"FervorBulletResist_label"		"Kháng đạn"
@@ -363,7 +363,7 @@
 		"upgrade_blood_tribute_desc"		"Bật/tắt: Liên tục hy sinh máu để cải thiện {g:citadel_inline_attribute:'FireRate'}, <span class=\"highlight\">Kháng hiệu ứng tiêu cực</span> và <span class=\"highlight\">Tốc độ di chuyển</span>. "
 
 		//"upgrade_non_player_bonus_sacrifice"	"Cultlist Sacrifice"
-		"upgrade_non_player_bonus_sacrifice_desc"	"Chọn một NPC địch để hiến tế, nhận <span class=\"highlight\">{s:BonusSoulsPct}% Souls cộng thêm</span> và một buff mạnh trong thời gian ngắn."
+		"upgrade_non_player_bonus_sacrifice_desc"	"Chọn một NPC địch và tiêu thụ nó để nhận <span class=\"highlight\">{s:BonusSoulsPct}% Linh hồn thưởng</span> và một hiệu ứng tích cực mạnh kéo dài."
 
 		//"upgrade_capacitor"						"Capacitor"
 		"upgrade_capacitor_desc"					"Phóng ra một đạn phép gây <span class=\"highlight\">{g:citadel_inline_attribute:'SpiritIcon'}sát thương</span>, gây làm chậm mạnh sẽ hồi phục dần theo thời gian, <span class=\"highlight\">ngăn dùng thể lực</span> và <span class=\"highlight\">Câm lặng</span> các <span class=\"highlight\">vật phẩm và kỹ năng di chuyển</span> của chúng."
@@ -604,7 +604,7 @@
 		"MODIFIER_VALUE_BONUS_CHANNEL_TIME_PERCENTAGE_postfix"	"%"
 
 		//Infuser
-		"upgrade_infuser_desc"			"Kích hoạt để nhận thêm <span class=\"highlight\">Hút máu phép thuật</span> và <span class=\"highlight\">Sức mạnh phép thuật</span>."
+		"upgrade_infuser_desc"			"Nhận <span class=\"highlight\">Hút máu phép thuật</span> và <span class=\"highlight\">Sức mạnh phép thuật</span>."
 
 		//Spirit Strike
 		"upgrade_acolytes_glove_desc"			"Khi bạn thực hiện đòn <span class=\"highlight\">Cận chiến nhẹ hoặc nặng</span> vào một tướng, gây thêm {g:citadel_inline_attribute:'SpiritDamage'} cùng đòn đánh và giảm <span class=\"highlight\">Kháng phép thuật</span> của mục tiêu.<span class=\"diminish\"><br><br>Thời gian hồi chiêu dài gấp {s:LightMeleeCooldownMult} lần đối với đòn cận chiến nhẹ.</span>"
@@ -695,14 +695,14 @@
 		"HeroMultiplier_postfix" "%"
 
 		//Golden Goose Egg
-		"upgrade_goose_egg_desc"	"Bạn nhận thêm <span class=\"highlight\">Souls theo thời gian</span> khi còn sống."
-		"upgrade_goose_egg_active_desc"	"Ấp trứng, nhận <span class=\"highlight\">Souls</span> và <span class=\"highlight\">hiệu ứng tích cực vĩnh viễn</span>.<br><br>Giá trị của quả trứng tăng dần càng lâu bạn giữ nó.<br><br><span class=\"diminish\">Nhận một hiệu ứng tích cực vĩnh viễn cho mỗi {s:BonusBuffsPerGold} Souls tích lũy khi ấp.</span>"
-		"upgrade_goose_egg_stacklabel" "Souls có thể nhận"
-		"GoldPerMinute_postvalue_label" "Souls mỗi phút"
+		"upgrade_goose_egg_desc"	"Nhận <span class=\"highlight\">Linh hồn theo thời gian</span>, miễn là bạn còn sống."
+		"upgrade_goose_egg_active_desc"	"Ấp trứng, nhận <span class=\"highlight\">Linh hồn</span> và <span class=\"highlight\">hiệu ứng tích cực vĩnh viễn</span>.<br><br>Giá trị của quả trứng tăng dần càng lâu bạn giữ nó.<br><br><span class=\"diminish\">Nhận một hiệu ứng tích cực vĩnh viễn cho mỗi {s:BonusBuffsPerGold} Linh hồn tích lũy khi ấp.</span>"
+		"upgrade_goose_egg_stacklabel" "Linh hồn sẽ nhận"
+		"GoldPerMinute_postvalue_label" "Linh hồn mỗi phút"
 		"GoldPerMinute_prefix" "{s:sign}"
-		"BonusGoldPerMinute_postvalue_label" "Souls nhận mỗi phút"
+		"BonusGoldPerMinute_postvalue_label" "Giá trị Linh hồn mỗi phút"
 
-		"SellBonusSouls_label"	"Souls cộng thêm khi bán:"
+		"SellBonusSouls_label"	"Linh hồn thưởng khi bán:"
 
 		//"SellBonusSouls_postvalue_label"	"Sell Bonus Souls:"
 		//"SellBonusSouls_postvalue_prefix"	"{g:citadel_inline_attribute:'SoulsIcon'}"
@@ -857,14 +857,14 @@
 		"SpiritDamageReductionProc_postvalue_label"		"Giảm sát thương phép thuật"
 		"SpiritDamageReductionProc_postfix"		"%"
 
-		"upgrade_juggernaut_slow_desc"			"Kẻ địch bắn trúng bạn sẽ bị giảm <span class=\"highlight\">Tốc độ bắn</span>."
-		"FireRateSlowDuration_label"			"Thời gian giảm tốc bắn"
-		"FireRateSlowDuration_postvalue_label"			"Thời gian giảm tốc bắn"
+		"upgrade_juggernaut_slow_desc"			"Kẻ địch bắn bạn bị làm chậm <span class=\"highlight\">Tốc độ bắn</span>."
+		"FireRateSlowDuration_label"			"Thời gian"
+		"FireRateSlowDuration_postvalue_label"			"Thời gian"
 		"FireRateSlowDuration_postfix"			"s"
 
-		"upgrade_trophy_collector_desc"			"Mỗi khi <span class=\"highlight\">hỗ trợ hoặc hạ gục</span>, bạn được cộng dồn <span class=\"highlight\">tốc độ chạy nước rút</span>, <span class=\"highlight\">tầm kỹ năng</span> và <span class=\"highlight\">Souls nhận thụ động</span>. Bạn vẫn giữ các cộng dồn sau khi bị hạ gục."
-		"StackingGoldPerMinute_label"			"Souls mỗi phút"
-		"StackingGoldPerMinute_postvalue_label"			"Souls mỗi phút"
+		"upgrade_trophy_collector_desc"			"Mỗi khi bạn ghi một <span class=\"highlight\">hỗ trợ hoặc hạ gục</span>, nhận thêm <span class=\"highlight\">chạy nước rút</span>, <span class=\"highlight\">tầm kỹ năng</span> và <span class=\"highlight\">tạo Linh hồn thụ động</span>. Hiệu ứng này cộng dồn và được giữ nguyên khi chết."
+		"StackingGoldPerMinute_label"			"Linh hồn mỗi phút"
+		"StackingGoldPerMinute_postvalue_label"			"Linh hồn mỗi phút"
 		
 		// Indomitable
 		"upgrade_upgrade_auto_cleanse_desc"		"<span class=\"highlight\">Choáng, Xích, Bất động, Ngủ, Câm lặng hoặc Sợ hãi</span> tiếp theo sẽ tự động được tẩy trừ. Khi đó, bạn nhận một <span class=\"highlight\">lá chắn</span> và toàn bộ <span class=\"highlight\">thời gian hồi chiêu kỹ năng</span> của bạn được giảm {s:CooldownReductionOnProc}%."

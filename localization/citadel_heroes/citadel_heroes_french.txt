@@ -1885,7 +1885,7 @@
 		"ability_charged_shot_quip"	"Charger un tir à longue portée"
 		"ability_charged_shot_desc"	"{s:hero_name} <span class=\"highlight\">charge un tir puissant</span> qui transperce les unités ennemies. Maintenez {g:citadel_binding:'Ability1'} ou {g:citadel_binding:'Attack'} pour retenir le tir."
 		"ability_charged_shot_t2_desc"	"<span class=\"highlight\">+{s:Damage} de dégâts</span> et <span class=\"highlight\">{s:AbilityCooldownBetweenCharge} s</span> entre les charges"
-		"ability_charged_shot_t3_desc"	"<span class=\"highlight\">Échelle des dégâts améliorée</span> <br><span class=\"highlight\">Ricoche une fois sur les murs</span>"
+		"ability_charged_shot_t3_desc"	"<span class=\"highlight\">Échelle des dégâts améliorée</span> <br><span class=\"highlight\">Ricoche une fois sur les murs, le sol ou le plafond</span>"
 
 		//"PowerJumpChannelTime_label"			"In Power Jump Channel"
 		"PowerJumpChannelTime_postfix"		" s"
@@ -3075,6 +3075,7 @@
 		"citadel_ability_flying_strike/slow" "Accroche tranchante : ralentissement"
 		//"citadel_ability_flying_strike/weapon_buff" "+Weapon Damage"				
 		"citadel_ability_flying_strike_t2_desc" "<span class=\"highlight\">+{s:SpiritBonus}</span> de pouvoir spirituel pendant <span class=\"highlight\">{s:BuffDuration} s</span>"
+		"citadel_ability_flying_strike_t3_desc" "En mode alternatif, s'accroche aux unités alliées<br><span class=\"highlight\">+{s:AbilityCastRange} m</span> de portée d'incantation<br>Accorde <span class=\"highlight\">1 charge supplémentaire</span>"
 		"yamato_flying_strike_t3_header"			"À l'impact :"
 
 		"citadel_ability_infinity_slash"		"Transformation sépulcrale"

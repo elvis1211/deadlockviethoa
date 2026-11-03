@@ -6088,7 +6088,7 @@
 		"map_district_building_belltower"		"Campanile"
 
 		// Halloween
-		"AbilityButtonHint_HalloweenTroll"		"Dolcetto o scherzetto di troll: corpo a corpo pesante per distribuire dolci"
+		"AbilityButtonHint_HalloweenTroll"		"Dolcetto o scherzetto di troll: corpo a corpo pesante per dare caramelle"
 		"AbilityButtonHint_HalloweenCauldron"		"Corpo a corpo pesante per ottenere caramelle"
 	}
 }

@@ -29,7 +29,7 @@
 		"SnowballCount_label"		"Bolas arremessadas"
 		"SnowballCount_postvalue_label"		"projéteis"
 		"seasonal_ability_eat_halloween_candy"		"Comer Doce"
-		"seasonal_ability_eat_halloween_candy_desc"		"Come um doce para se curar, restaurar vigor e receber o benefício <span class=\"highlight\">Descarga de Açúcar</span>.<br><br><span class=\"diminish\">A cura e os atributos da Descarga de Açúcar aumentam conforme a partida avança.</span>"
+		"seasonal_ability_eat_halloween_candy_desc"		"Come um doce para se curar, restaurar vigor e receber o benefício <span class=\"highlight\">Descarga de Açúcar</span>.<br><br><span class=\"diminish\">A cura e os atributos da Descarga de Açúcar aumentam conforme a partida avança.<br><br>Sofrer um golpe pesado faz você derrubar alguns doces.</span>"
 
 		"HalloweenCandy_label"		"Acúmulos:"
 		"HalloweenCandy_postvalue_label"		"acúmulos"

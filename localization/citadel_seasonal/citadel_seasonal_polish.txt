@@ -29,7 +29,7 @@
 		"SnowballCount_label"		"Rzucane śnieżki"
 		"SnowballCount_postvalue_label"		"pociski"
 		"seasonal_ability_eat_halloween_candy"		"Zjedz cukierka"
-		"seasonal_ability_eat_halloween_candy_desc"		"Zjedz jednego cukierka, aby się uleczyć, odzyskać wytrzymałość i otrzymać wzmocnienie <span class=\"highlight\">Krzepiącego Cukru</span>.<br><br><span class=\"diminish\">Leczenie i statystyki Krzepiącego Cukru rosną w miarę trwania meczu.</span>"
+		"seasonal_ability_eat_halloween_candy_desc"		"Zjedz jednego cukierka, aby się uleczyć, odzyskać wytrzymałość i otrzymać wzmocnienie <span class=\"highlight\">Krzepiącego Cukru</span>.<br><br><span class=\"diminish\">Leczenie i statystyki Krzepiącego Cukru rosną w miarę trwania meczu.<br><br>Gdy otrzymasz mocny atak wręcz, upuścisz część cukierków.</span>"
 
 		"HalloweenCandy_label"		"Kumulacje:"
 		"HalloweenCandy_postvalue_label"		"Kumulacje:"

@@ -245,5 +245,6 @@
 		"Steam_Citadel_Hideout_Chess"		"Membuat Rencana di Persembunyian"
 		"Steam_Citadel_Hideout_FairfaxTesting"	"Menguji Produk Fairfax Berkualitas di Persembunyian"
 		"Steam_Citadel_Hideout_Painting"	"Melukis di Persembunyian"
-		}
+		"Steam_Citadel_Hideout_Rounds" 		"Berpatroli di Persembunyian"
+	}
 }

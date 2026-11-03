@@ -5216,6 +5216,8 @@
 		//---------Ability 4
 		"ability_chessmaster_queen" "Strategi Ratu"
 		"ability_chessmaster_queen_trigger" "Strategi Ratu"
+		"ability_chessmaster_queen_desc_active" "Memanggil <span class=\"highlight\">ratu</span> yang menghantam maju, memberikan {g:citadel_inline_attribute:'SpiritDamage'} di suatu area. Setelah penundaan, ratu melepaskan kotak dalam garis lurus yang memberikan {g:citadel_inline_attribute:'SpiritDamage'} lagi dan menerapkan {g:citadel_inline_attribute:'Stun'}. <br><br>Hero dengan health rendah yang terkena menerima <span class=\"highlight\">skakmat</span> dan dieksekusi. <br><br><span class=\"diminish\">Gerakan({g:citadel_binding:'ADS'}):</span> Ratu melompat ke lokasi target dan memberikan efek yang sama sekali lagi. <span class=\"diminish\"><br><br>Aktikan ulang untuk menghentikan ratu lebih awal, mengakhiri skill.</span>"
+		"ability_chessmaster_queen_t2_desc" "+{s:SlowPercent}% Perlambatan<br>+{s:CheckmateThreshold} Batas Skakmat"
 		"ability_chessmaster_queen_t3_desc" "+{s:QueenBonusMoves} Gerakan<br>+{s:TileSteps} Jangkauan Kotak"
 		"ability_chessmaster_queen/active" "Strategi Ratu"
 		"ability_chessmaster_queen/lift" "Skak..."
@@ -5399,12 +5401,16 @@
 		//------Ability 3
 		"ability_artist_tether" "Alam Benda"
 		"ability_artist_tether_desc" "Pilih hero untuk dijadikan <span class=\"highlight\">model</span> dan memberikan {g:citadel_inline_attribute:'SpiritDPS'} selama kamu menatapnya. <br><br>Jika sketsa selesai, mereka akan menerima {g:citadel_inline_attribute:'SpiritDamage'} tambahan, terkena {g:citadel_inline_attribute:'Stun'}, dan menjatuhkan <span class=\"highlight\">sketsa</span> yang dapat diambil.<br><br> Untuk setiap <span class=\"highlight\">sketsa</span> yang dikumpulkan, kamu akan secara permanen mendapatkan statistik berdasarkan hero-nya."
+		"ability_artist_tether_t1_desc" "Saat Menggambar: Mendapatkan {s:HealthRegen} Regenerasi Health, direset selama {s:BuffDuration} saat diambil"
 		"ability_artist_tether_t2_desc" "Saat Menggambar: Model memberikan {s:OutgoingDamagePercent}% Damage"
 		"ability_artist_tether_t3_desc" "+{s:BonusMoveSpeedPercent}% Kecepatan Gerakan<br>{s:AbilityCooldown} dtk. Cooldown<br>+{s:StunDuration} dtk. Durasi Stun"
+		"ability_artist_tether/buildup" "Alam Benda"
 		"ability_artist_tether/buildup/stun" "Alam Benda"
 		"ability_artist_tether/buildup/buff" "Alam Benda"
 		"ability_artist_tether/self" "Alam Benda"
 		"ability_artist_tether/stun" "Alam Benda"
+		"modifier_artist_still_life"			"Alam Benda"
+
 		"BuildUpPerAbility_postvalue_label" "Peningkatan per Skill"
 		"BuildUpPerAbility_label" "Peningkatan per Skill"
 		"BuildUpPerAbility_postfix" "%"
@@ -5421,15 +5427,22 @@
 		"Citadel_Graph_PermanentBuff_ArtistBrawler" "Sketsa Petarung"
 		"Citadel_Graph_PermanentBuff_ArtistAssassin" "Sketsa Assassin"
 		"Citadel_Graph_PermanentBuff_ArtistMarksman" "Sketsa Penembak Jitu"
+		"Citadel_Graph_PermanentBuff_ArtistHealer" "Sketsa Penyembuh"
+
 		"artist_drawing_mystic" "Sketsa Mistik"
 		"artist_drawing_marksman" "Sketsa Penembak Jitu"
 		"artist_drawing_brawler" "Sketsa Petarung"
 		"artist_drawing_assassin" "Sketsa Assassin"
+		"artist_drawing_healer" "Sketsa Penyembuh"
+
+
 		//----Ability 4
 		"ability_artist_bamboogrove" "Lanskap Abstrak"
 		"ability_artist_bamboogrove_desc" "Melukis sebuah lingkaran yang menghalangi pandangan dan memberikan {g:citadel_inline_attribute:'Spirit'} kepada rekan tim.<br><br>Unit musuh di dalam area tersebut akan terungkap. Saat keluar dari area itu, mereka akan menerima {g:citadel_inline_attribute:'SpiritDamage'}, serta terkena efek {g:citadel_inline_attribute:'Silence'} dan {g:citadel_inline_attribute:'Slow'}. Tinta tersebut akan hancur saat mereka melewatinya."
 		"ability_artist_bamboogrove/center/buff" "Lanskap Abstrak"
 		"ability_artist_bamboogrove_t2_desc" "Dari Buff: +{s:AbilityLifestealPercentHero}% Curi HP Spirit<br>+{s:TechPower} Kekuatan Spirit"
+		"ability_artist_bamboogrove_t3_desc" "+{s:SilenceDuration} dtk. Durasi Bungkam<br>+{s:AbilityDuration} dtk. Durasi Skill"
+
 		"ability_artist_bamboogrove/groundaura/silence" "Lanskap Abstrak"
 		"ability_artist_bamboogrove/groveally/buff" "Lanskap Abstrak"
 		"AttackFrequency_postvalue_label" "Frekuensi Serangan"
@@ -5488,6 +5501,7 @@
 		"ability_nurse_fear"			"Teror Mengintai"
 		"ability_nurse_fear_desc"		"Buka tasmu, ungkapkan kengerian yang kamu bawa di dalamnya, dan berikan {g:citadel_inline_attribute:'SpiritDPS'} kepada musuh di depanmu. Musuh <span class=\"highlight\">yang menatapmu</span> akan mengumpulkan teror dan <span class=\"highlight\">tidak dapat menggunakan stamina atau skill gerakan</span>. Pada teror maksimum, mereka <span class=\"highlight\">akan melarikan diri darimu karena ketakutan</span>.<br><br>Setiap lintah yang kamu kumpulkan menambah <span class=\"highlight\">durasi takut</span>.<br><span class=\"diminish\"><br>Musuh yang membelakangimu akan menerima {s:FacingAwayDamagePercent}% damage kecuali jika sedang dalam efek takut.</span>"
 		"ability_nurse_fear_t2_desc"	"-{s:SlowPercent}% Kecepatan Gerakan dan Tingkat Tembakan<br>+{s:DPS} DPS"
+		"ability_nurse_fear_t3_desc"	"+{s:AbilityChannelTime} dtk. Waktu Penggunaan<br>+{s:DPS_scale} Penskalaan Spirit<br> Menerima {s:DamageResistPctWhileChanneling}% Damage yang dikurangi saat menggunakan skill"
 		"FearDurationPerLeechStack_prefix"				"+"
 		"FearDurationPerLeechStack_label"				"Durasi Takut per Lintah"
 		"FearDurationPerLeechStack_postvalue_label"		"Durasi Takut per Lintah"
@@ -5582,6 +5596,7 @@
 		"ability_nurse_adrenaline_rush_desc"	"Memecahkan botol ramuan untuk menyelimuti diri sendiri atau rekan satu tim dengan uap roh, yang memicu efek Euforia yang kemudian diikuti oleh efek Sakau.<br><br><span class=\"diminish\">Euforia:</span> Selama efek ini aktif, kecepatan semua tindakan akan meningkat dan muncul roh-roh menyeramkan yang <span class=\"highlight\">menunda semua damage yang diterima</span>.<br><br><span class=\"diminish\">Sakau:</span> Saat uap menghilang, semua tindakan menjadi lebih lambat dan roh-roh yang tersisa akan <span class=\"highlight\">memberikan damage yang sempat tertunda, ditambah dengan damage tambahan</span>.<br><br><span class=\"small_diminish\">Penyembuhan yang diterima akan digunakan terlebih dahulu untuk melenyapkan roh-roh tersebut, sehingga mencegah mereka memberikan damage.</span>"
 		"ability_nurse_adrenaline_rush_desc_old"	"Menyelimuti dirimu atau rekan satu tim dengan uap. Selama efek berlangsung, target <span class=\"highlight\">bertindak lebih cepat</span> dan setiap damage yang diterima akan melepaskan sesosok roh dari tubuh mereka, yang berfungsi untuk <span class=\"highlight\">menunda damage</span>. Penyembuhan akan mengusir roh-roh tersebut dan menghilangkannya.<br><br>Saat uap menghilang, target akan <span class=\"highlight\">bertindak lebih lambat</span> dan roh yang tersisa akan memberikan damage yang tertunda tadi ditambah dengan <span class=\"highlight\">damage tambahan</span> selama {s:CrashDuration} dtk."
 		"ability_nurse_adrenaline_rush_t1_desc"	"{s:AbilityCooldown} dtk. Cooldown<br>+{s:AbilityCastRange} m Jangkauan Skill"
+		"ability_nurse_adrenaline_rush_t2_desc"	"+{s:AbilityDuration} dtk. Durasi<br>+{s:HealingEffectivenessPercent}% Penyembuhan Diterima"
 		"ability_nurse_adrenaline_rush_t3_desc"	"+{s:RushTimeScaleBonusPercent}% Kecepatan Euforia <br>Menghilangkan debuff non-ultimate"
 		"modifier_nurse_adrenaline_rush_buff"		"Euforia"
 		"modifier_nurse_adrenaline_rush_crash"		"Sakau"
@@ -5600,6 +5615,8 @@
 		"CrashDuration_postvalue_label"				"Durasi Crash"
 		"CrashDuration_label"				"Durasi Crash"
 		"CrashDuration_postfix"				" dtk."
+		"HealingEffectivenessPercent_label"			"Penyembuhan Diterima"
+		"HealingEffectivenessPercent_postvalue_label"	"Penyembuhan Diterima"
 		"HealingEffectivenessPercent_prefix"			"+"
 		"HealingEffectivenessPercent_postfix"			"%"
 		"CrashTimeScalePenaltyPercent_postvalue_label"		"Perlambatan Crash"

@@ -1,7 +1,7 @@
 ﻿"lang"
 {
 	"Language"		"English"
-	"Language_search"		"English"
+	"Language_search"		"vietnamese"
 	"Tokens"
 	{
 		//-----------------------------------------------------------------------------

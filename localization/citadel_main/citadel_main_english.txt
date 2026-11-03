@@ -458,8 +458,8 @@
 		"Citadel_Hud_Quickbuy_Delete_Tooltip"						"Xóa khỏi hàng chờ"
 		"Citadel_Hud_Quickbuy_Exceeds_Slots"						"Đã hết ô chứa"
 		"Citadel_Hud_Quickbuy_Sell_Slot"							"Đã đánh dấu để bán"
-		"Citadel_Hud_Quickbuy_ShopSummaryItemsReady:f"				"{i:items_ready} vật phẩm sẵn sàng"
-		"Citadel_Hud_Quickbuy_ShopSummaryItemsInQueue:f"			"{i:queue_size} vật phẩm đang chờ"
+		"Citadel_Hud_Quickbuy_ShopSummaryItemsReady:f"				"{i:items_ready} {items_ready, plural, one{vật phẩm} other{vật phẩm}} đã sẵn sàng"
+		"Citadel_Hud_Quickbuy_ShopSummaryItemsInQueue:f"			"{i:queue_size} {queue_size, plural, one{vật phẩm} other{vật phẩm}} đang chờ"
 		
 		"CitadelComponentGroup_EBulletVelocity"				"Vận tốc đạn"
 		"CitadelComponentGroup_EMagazines"					"Băng đạn"
@@ -523,7 +523,7 @@
 		"Citadel_MatchInfo_LowPriorityMatch"						"Trận hàng chờ ưu tiên thấp"
 
 		"Citadel_Reconnect_IncompatibleVersionTitle"				"Incompatible Version"
-		"Citadel_Reconnect_IncompatibleVersionBody"					"Your client is no longer a valid version to connect to this server"
+		"Citadel_Reconnect_IncompatibleVersionBody"					"Phiên bản trò chơi của bạn không còn tương thích với máy chủ này."
 
 		//"Citadel_Shop_Upgrade_Locked_Label"							"Lvl <span class=\"blueAP\">{i:unlockLevelRequired}</span>"
 		//"Citadel_Shop_Player_Level_Label"							"Player Level: <span class=\"playerLevelNum\">{i:total_player_level}</span>"
@@ -702,7 +702,7 @@
 		"Citadel_Friends_Playing"							"<span class=\"OnlineNumber\">{d:friends_in_game}</span> đang chơi"
 
 		"Citadel_InviteFrient_FailedToGetFriends_Title"		"Lỗi"
-		"Citadel_InviteFrient_FailedToGetFriends_Body"		"Unable to talk to the Deadlock Network to see which friends are available to be invited. Please try again later."
+		"Citadel_InviteFrient_FailedToGetFriends_Body"		"Không thể kết nối tới mạng Deadlock để xem bạn bè có thể được mời. Vui lòng thử lại sau."
 
 		"Citadel_MatchSurvey_NotFun"						"Không vui"
 		"Citadel_MatchSurvey_KindOfFun"						"Tạm ổn"
@@ -770,8 +770,8 @@
 		"Citadel_RankedSeason_ProtectionRemaining:f"			"{d:demotion_protection_remaining}/{d:demotion_protection_total} {demotion_protection_total, plural, one{lượt bảo vệ} other{lượt bảo vệ}} còn lại"
 		"Citadel_RankedSeason_ProtectionUsed"			"Đã sử dụng bảo vệ tụt hạng"
 		"Citadel_RankedSeason_ResultingRank"			"Bậc hạng kết quả"
-		"Citadel_RankedSeason_HeroWins:f"	"{d:hero_wins} trận thắng"
-		"Citadel_RankedSeason_HeroWinsRequired:f"	"Cần thắng <b>{d:wins_required_per_hero} trận</b> bằng tướng này để đủ điều kiện đấu xếp hạng"
+		"Citadel_RankedSeason_HeroWins:f"	"{d:hero_wins} {hero_wins, plural, one{trận thắng} other{trận thắng}}"
+		"Citadel_RankedSeason_HeroWinsRequired:f"	"Cần <b>{d:wins_required_per_hero} {wins_required_per_hero, plural, one{trận thắng} other{trận thắng}}</b> với tướng này để đủ điều kiện đấu xếp hạng"
 		"Citadel_Ranked_ViewSeasonHistory"		"Xem lịch sử mùa giải"
 		"Citadel_Ranked_ViewLeaderboards"		"Xem bảng xếp hạng"
 
@@ -823,7 +823,7 @@
 
 
 		"Citadel_Ranked_Overview_Eligibility"			"Điều kiện tham gia"
-		"Citadel_Ranked_Overview_Eligibility_Bullet1:f"	"You must have at least {d:required_account_wins} total {d:required_account_wins, plural, one {win} other {wins}} on your account. You must also have at least {d:required_hero_unlocks} {d:required_hero_unlocks, plural, one {hero} other {heroes}} with {d:required_hero_wins} {d:required_hero_wins, plural, one {win} other {wins}} on each in Standard Mode."
+		"Citadel_Ranked_Overview_Eligibility_Bullet1:f"	"Bạn cần ít nhất {d:required_account_wins} {required_account_wins, plural, one {trận thắng} other {trận thắng}} trên tài khoản. Đồng thời cần ít nhất {d:required_hero_unlocks} {required_hero_unlocks, plural, one {tướng} other {tướng}}, mỗi tướng có {d:required_hero_wins} {required_hero_wins, plural, one {trận thắng} other {trận thắng}} trong chế độ Thường."
 		"Citadel_Ranked_Overview_Eligibility_Bullet2"				"Players are only allowed to queue up for ranked as a Solo or Duo. Duo parties must be within 1 Rank up or down from each other. Eternus players can only queue with other Eternus players who are within 3 subranks of each other."
 		"Citadel_Ranked_Overview_Eligibility_Bullet3"				"You must complete {d:required_solo_calibration_games} solo calibration games. The max rank you can exit calibration with is {g:citadel_packed_rank_name:max_calibration_rank}."
 
@@ -881,7 +881,7 @@
 		"Citadel_Shop_PickCorruptItem_Title"	"Biến chất một vật phẩm"
 		"Citadel_Shop_PickCorruptItem_Desc"		"Select a high-tier item you own to corrupt it. Corrupted items are powerful, but buyer beware - every item also carries a <span class=\"negative_label\">randomized downside</span>. Each game, The Broker will decide where the stats will land."
 		"Citadel_Shop_PickCorruptItem_None"		"Không có vật phẩm nào của bạn có thể chuyển thành bản Corrupted."
-		"Citadel_Shop_CorruptItem_Countdown"	"The Broker sẽ rời đi sau <b>{t:d:t:countdown_time}</b>..."
+		"Citadel_Shop_CorruptItem_Countdown"	"Người Môi Giới sẽ rời đi sau <b>{t:d:t:countdown_time}</b>..."
 		"Citadel_Shop_PickCorruptItem_StreetBrawlDesc"	"Chuyển miễn phí một vật phẩm chưa nâng cấp thành bản Corrupted. Bản này mạnh hơn vĩnh viễn nhưng cũng có bất lợi."
 		"Citadel_Shop_PickCorruptItem_Skip"		"Bỏ qua"
 		"Citadel_ItemDraft_Bonus"					"Phần thưởng!"
@@ -896,7 +896,7 @@
 		"Citadel_MatchmakingSchedule"							"Cập nhật:"
 		"Citadel_MatchmakingSchedule_Desc"						"Có thể tìm trận 24/7!"
 
-		"Citadel_UnstickFailure_GameAnnouncement"				"Unstick cannot be used if you have recently taken damage."
+		"Citadel_UnstickFailure_GameAnnouncement"				"Không thể dùng lệnh thoát kẹt nếu bạn vừa chịu sát thương."
 
 		//Survey
 		"Citadel_Survey_Skip"									"Bỏ qua"
@@ -1312,9 +1312,9 @@
 		"Citadel_HUD_ToxicChatMute_Desc:f"							"Người chơi này bị cấm giao tiếp lâu hơn vì hành vi lăng mạ và sẽ bị tắt tiếng đến hết trận."
 		"Citadel_HUD_Koth_Warning"									"Unstable Rift đang mở..."
 		"Citadel_HUD_Koth_Warning_Desc"								"Đến Rift để giành lấy sức mạnh"		
-		"Citadel_HUD_CorruptedItemShopSpawn"						"The Broker đã mở cửa hàng..."
+		"Citadel_HUD_CorruptedItemShopSpawn"						"Người Môi Giới đã mở cửa hàng..."
 		"Citadel_HUD_CorruptedItemShopSpawn_Desc"					"Cường hóa item của bạn... nếu bạn dám"
-		"Citadel_HUD_CorruptedItemShopRestock"						"The Broker đã nhập thêm hàng..."
+		"Citadel_HUD_CorruptedItemShopRestock"						"Người Môi Giới đã nhập thêm hàng..."
 		"Citadel_HUD_CorruptedItemShopRestock_Desc"					"Bạn có thể biến đổi thêm một item"
 		"Citadel_HUD_DamageSummary_Title"							"Sát thương <i>phải chịu</i>"
 		"Citadel_HUD_DamageSummary_Hint"							"Giữ {g:citadel_binding:'ExtraInfo'} để xem chỉ số đã điều chỉnh"
@@ -1709,8 +1709,8 @@
 		"Citadel_Roster_Random"										"Ngẫu nhiên"
 		"Citadel_GC_NoSteam"										"Unable to matchmake. No connection to Steam."
 		"Citadel_GC_steamupdating"									"Unable to matchmake. No connection to Steam."
-		"Citadel_GC_updating"										"Unable to matchmake. The Deadlock Network is updating."
-		"Citadel_GC_noconnection"									"Unable to matchmake. No connection to the Deadlock Network."
+		"Citadel_GC_updating"										"Không thể tìm trận. Mạng Deadlock đang cập nhật."
+		"Citadel_GC_noconnection"									"Không thể tìm trận. Không có kết nối tới mạng Deadlock."
 		"Citadel_Dashboard_Status_ConnectingToServer"				"Đang kết nối máy chủ"
 		"Citadel_Dashboard_Status_ConnectingToServer_Detail"		"Trận đấu sắp bắt đầu"
 		"Citadel_Dashboard_Status_GCOffline"						"Mạng Deadlock đang ngoại tuyến"
@@ -1750,10 +1750,10 @@
 		"Citadel_OrbClaimTime_postfix"								"ms"
 
 		"Citadel_ReconnectPopup_Title"								"Trận đấu đang diễn ra"
-		"Citadel_ReconnectPopup_Message"							"Would you like to reconnect?"
+		"Citadel_ReconnectPopup_Message"							"Bạn có muốn kết nối lại không?"
 		"Citadel_ReconnectPopup_Reconnect"							"Kết nối lại"
 		"Citadel_ReconnectPopup_Abandon"							"Bỏ trận"
-		"Citadel_ReconnectPopup_AbandonConfirm"						"Are you sure you want to Abandon?"
+		"Citadel_ReconnectPopup_AbandonConfirm"						"Bạn có chắc muốn bỏ trận không?"
 		
 		"Citadel_Connection_GCUpdating"								"Network Updating"
 		"Citadel_Connection_GCUpdating_Desc"						"Waiting to reconnect"
@@ -1772,7 +1772,7 @@
 
 		"Citadel_Watch_Page_NetWorthTeam0"							"{d:net_worth_team_0}k"
 		"Citadel_Watch_Page_NetWorthTeam1"							"{d:net_worth_team_1}k"
-		"Citadel_Watch_Page_Spectators:f"							"{d:spectators} người xem"
+		"Citadel_Watch_Page_Spectators:f"							"{d:spectators} {spectators, plural, one{người xem} other{người xem}}"
 		"Citadel_Watch_Page_FriendInMatch"							"Bạn Steam đang chơi"
 		"Citadel_Watch_Page_MatchID"								"ID: {s:match_id}"
 		"Citadel_Watch_FriendsCheckbox"								"Chỉ hiện trận của bạn bè"
@@ -1796,17 +1796,17 @@
 		"Citadel_PartyFindMatch_OtherNotReady"					"Có thành viên trong nhóm chưa sẵn sàng."
 
 		"Citadel_CreateParty_ErrorTitle"						"Failed To Create Party"
-		"Citadel_CreateParty_FailedToGetResponse"				"Unable to talk to the Deadlock Network right now and create a party. Please try again in a few minutes."
-		"Citadel_CreateParty_InternalError"						"An internal error has occurred while trying to create the party"
-		"Citadel_CreateParty_AlreadyInParty"					"You are already part of a party and cannot create another one until you leave the current party."
-		"Citadel_CreateParty_Disabled"							"The party system is temporarily disabled for maintenance. Please try again in a few minutes."
-		"Citadel_CreateParty_DisabledMode"						"Parties are not currently allowed in this mode"
-		"Citadel_CreateParty_InvalidVersion"					"Your client is not a current version. Please update your client and try again."
+		"Citadel_CreateParty_FailedToGetResponse"				"Hiện không thể liên lạc với mạng Deadlock để tạo tổ đội. Vui lòng thử lại sau ít phút."
+		"Citadel_CreateParty_InternalError"						"Đã xảy ra lỗi nội bộ khi tạo tổ đội."
+		"Citadel_CreateParty_AlreadyInParty"					"Bạn đang ở trong một tổ đội. Hãy rời tổ đội hiện tại trước khi tạo tổ đội mới."
+		"Citadel_CreateParty_Disabled"							"Tính năng tổ đội đang tạm ngừng để bảo trì. Vui lòng thử lại sau ít phút."
+		"Citadel_CreateParty_DisabledMode"						"Chế độ này hiện không cho phép lập tổ đội."
+		"Citadel_CreateParty_InvalidVersion"					"Phiên bản game của bạn đã cũ. Vui lòng cập nhật rồi thử lại."
 		"Citadel_CreateParty_NoRegionPings"						"Unable to communicate with any Steam Datagram Relay. If you are connected to the Internet, this usually is caused by a problem with your firewall or the MTU of your Internet connection."
-		"Citadel_CreateParty_TooBusy"							"The Deadlock Network is too busy to process this action right now. Please try again in a few minutes."
-		"Citadel_CreateParty_RateLimited"						"You have performed too many operations in a short period of time. Please wait a little while and try again."
-		"Citadel_CreateParty_NotFriends"						"You must be friends with people that you send party invites to."
-		"Citadel_CreateParty_InMatchmaking"						"Can't create a party while in matchmaking."
+		"Citadel_CreateParty_TooBusy"							"Mạng Deadlock đang quá tải, chưa thể thực hiện thao tác này. Vui lòng thử lại sau ít phút."
+		"Citadel_CreateParty_RateLimited"						"Bạn đã thao tác quá nhiều lần trong thời gian ngắn. Vui lòng thử lại sau ít phút."
+		"Citadel_CreateParty_NotFriends"						"Bạn phải kết bạn trước khi gửi lời mời vào tổ đội."
+		"Citadel_CreateParty_InMatchmaking"						"Không thể tạo tổ đội trong khi đang tìm trận."
 		"Citadel_CreateParty_UnableToGetRegionPings"			"You are not currently signed in to Steam or the Deadlock Network is unable to determine your current connectivity to our servers"
 
 		"Citadel_JoinOrCreateParty_Title"						"Party Settings"
@@ -1816,9 +1816,9 @@
 		"Citadel_JoinOrCreateParty_JoinorCreatePartyWithCode"	"Party Settings"
 		"Citadel_JoinOrCreateParty_JoinParty"					"Tham gia"
 		"Citadel_JoinOrCreateParty_CreateNewParty"				"Tạo nhóm"
-		"Citadel_JoinOrCreateParty_CreateNewParty_Desc"			"Create a new party with a code to share"
+		"Citadel_JoinOrCreateParty_CreateNewParty_Desc"			"Tạo tổ đội mới và nhận mã để chia sẻ."
 		"Citadel_JoinOrCreateParty_YourPartyCode"				"Your Party Code"
-		"Citadel_JoinOrCreateParty_YourPartyCode_Desc"			"Share this code to let others join your party"
+		"Citadel_JoinOrCreateParty_YourPartyCode_Desc"			"Chia sẻ mã này để người khác tham gia tổ đội."
 		"Citadel_JoinOrCreateParty_CreateParty"					"Create Code"
 		"Citadel_JoinOrCreateParty_CopyPartyCode"				"Sao chép mã"
 		"Citadel_JoinOrCreateParty_SelectAddFriend"				"Invite a friend"
@@ -1879,7 +1879,7 @@
 		"Citadel_MatchmakingStopped_Reason_HeroLabsClosed"		"Đã đóng tìm trận Hero Labs."
 
 		"Citadel_Popup_AlreadySearching_Header"					"Matchmaking Already in Progress"
-		"Citadel_Popup_AlreadySearching_Body"					"Do you want to cancel your current matchmaking to start a new one?"
+		"Citadel_Popup_AlreadySearching_Body"					"Bạn có muốn hủy tìm trận hiện tại để bắt đầu tìm trận mới không?"
 
 		"Citadel_PartySetMode_ErrorTitle"						"Lỗi"
 		"Citadel_PartySetMode_FailedToGetResponse"				"Hệ thống Deadlock hiện chưa phản hồi. Hãy thử lại sau ít phút."
@@ -1948,24 +1948,24 @@
 		"Citadel_PartyInvite_AcceptInParty_Body"				"Để vào nhóm mới, bạn cần rời nhóm hiện tại. Bạn có muốn rời nhóm không?"
 
 		"Citadel_LeaveParty_ErrorTitle"							"Lỗi"
-		"Citadel_LeaveParty_FailedToGetResponse"				"Unable to talk to the Deadlock Network right now and leave your party. Please try again in a few minutes."
-		"Citadel_LeaveParty_InternalError"						"An internal error has occurred while trying to leave the party"
-		"Citadel_LeaveParty_NotInParty"							"Unable to leave the requested party. You are not currently a member."
-		"Citadel_LeaveParty_InMatchMaking"						"Your party is currently in matchmaking and this must be stopped before you can leave your party."
+		"Citadel_LeaveParty_FailedToGetResponse"				"Hiện không thể liên lạc với mạng Deadlock để rời tổ đội. Vui lòng thử lại sau ít phút."
+		"Citadel_LeaveParty_InternalError"						"Đã xảy ra lỗi nội bộ khi rời tổ đội."
+		"Citadel_LeaveParty_NotInParty"							"Không thể rời tổ đội được yêu cầu vì hiện bạn không phải thành viên."
+		"Citadel_LeaveParty_InMatchMaking"						"Tổ đội đang tìm trận. Hãy dừng tìm trận trước khi rời tổ đội."
 
 		"Citadel_SpectateUser_BusyTitle"						"Spectating User"
 		"Citadel_SpectateUser_BusyText"							"Vui lòng chờ"
 		"Citadel_SpectateUser_ErrorTitle"						"Unable to Spectate"
-		"Citadel_SpectateUser_FailedToGetResponse"				"Unable to talk to the Deadlock Network right now and spectate this player. Please try again in a few minutes."
-		"Citadel_SpectateUser_InternalError"					"An internal error has occurred while trying to spectate this player"
-		"Citadel_SpectateUser_Disabled"							"Spectating users is temporarily disabled. Please try again later."
-		"Citadel_SpectateUser_TooBusy"							"The Deadlock Network right now is too busy to process this request to spectate. Please try again in a few minutes."
-		"Citadel_SpectateUser_RateLimited"						"You have requested to spectate too many users recently. Please wait a minute and try again."
-		"Citadel_SpectateUser_NotInGame"						"The player you are trying to spectate is no longer in a game."
-		"Citadel_SpectateUser_DisabledForGame"					"The game that the player is currently in doesn't allow for people to spectate."
-		"Citadel_SpectateUser_ServerFull"						"The server currently has the maximum number of spectators allowed. Please try again later."
-		"Citadel_SpectateUser_NotFriends"						"The player you requested to spectate is not a friend. You must be friends with the people you wish to spectate."
-		"Citadel_SpectateUser_InParty"							"You are in a party, and spectating while in a party is currently not allowed. Please leave your party if you wish to spectate."
+		"Citadel_SpectateUser_FailedToGetResponse"				"Hiện không thể liên lạc với mạng Deadlock để xem trận của người chơi này. Vui lòng thử lại sau ít phút."
+		"Citadel_SpectateUser_InternalError"					"Đã xảy ra lỗi nội bộ khi xem trận của người chơi này."
+		"Citadel_SpectateUser_Disabled"							"Tính năng xem trận của người chơi đang tạm ngừng. Vui lòng thử lại sau."
+		"Citadel_SpectateUser_TooBusy"							"Mạng Deadlock đang quá tải, chưa thể xử lý yêu cầu xem trận. Vui lòng thử lại sau ít phút."
+		"Citadel_SpectateUser_RateLimited"						"Bạn đã gửi quá nhiều yêu cầu xem trận. Vui lòng đợi một phút rồi thử lại."
+		"Citadel_SpectateUser_NotInGame"						"Người chơi bạn muốn theo dõi không còn trong trận."
+		"Citadel_SpectateUser_DisabledForGame"					"Trận này không cho phép người xem."
+		"Citadel_SpectateUser_ServerFull"						"Máy chủ đã đạt giới hạn người xem. Vui lòng thử lại sau."
+		"Citadel_SpectateUser_NotFriends"						"Người chơi bạn muốn theo dõi chưa phải bạn bè. Bạn chỉ có thể xem trận của bạn bè."
+		"Citadel_SpectateUser_InParty"							"Hiện không thể xem trận khi đang ở trong tổ đội. Hãy rời tổ đội trước khi xem."
 		"Citadel_SpectateUser_InvalidRegion"					"This match is being played in a different region and currently cannot be spectated."
 
 		"Citadel_Profile_Title"									"Hồ sơ"
@@ -2676,9 +2676,9 @@
 
 		"ShopFilter_HintSecondary"				"Nhấn {g:citadel_key:'MOUSE1'} để chọn một bộ lọc.<br>Nhấn {g:citadel_key:'MOUSE2'} để chọn nhiều bộ lọc"
 
-		"Minimap_HintControls_MinimapPing"	"{g:citadel_key:'MOUSE1'} Ping/giữ mở menu · {g:citadel_key:'MOUSE2'} Vẽ"
-		"Minimap_HintControls_MinimapRadialMenu"	""
-		"Minimap_HintControls_MinimapDrawing"		""
+		"Minimap_HintControls_MinimapPing"	"{g:citadel_key:'MOUSE1'} / {g:citadel_binding:'Ping'}: Đánh dấu"
+		"Minimap_HintControls_MinimapRadialMenu"	"Giữ {g:citadel_key:'MOUSE1'} / {g:citadel_binding:'Ping'}: Mở menu tròn"
+		"Minimap_HintControls_MinimapDrawing"		"{g:citadel_key:'MOUSE2'}: Vẽ trên bản đồ nhỏ"
 
 		"EShopFilterItemWeapon"					"Vật phẩm vũ khí"
 		"EShopFilterItemSpirit"					"Vật phẩm phép thuật"
@@ -4557,7 +4557,7 @@
 
 		"Citadel_RankedNotAllowed_MissingData"		"Chưa thể xác định bạn có đủ điều kiện đấu xếp hạng hay không. Vui lòng thử lại."
 		"Citadel_RankedNotAllowed_NotEnoughMatches:f"	"Bạn cần chơi thêm trận thường để mở xếp hạng: {d:matches_played}/{d:matches_required} trận."
-		"Citadel_RankedNotAllowed_LowPri:f"			"Không thể đấu xếp hạng khi đang ở hàng chờ ưu tiên thấp. Còn {d:low_pri_matches} trận."
+		"Citadel_RankedNotAllowed_LowPri:f"			"Không thể chơi khi đang ở hàng chờ ưu tiên thấp. Còn {d:low_pri_matches} {low_pri_matches, plural, one{trận} other{trận}}."
 		"Citadel_RankedNotAllowed_CommsBan"			"Không thể đấu xếp hạng khi đang bị cấm giao tiếp. Hết hạn lúc {t:ban_expire_time}"
 		"Citadel_RankedNotAllowed_ReportBan"		"Không thể đấu xếp hạng khi đang bị khóa do báo cáo vi phạm. Hết hạn lúc {t:ban_expire_time}"
 		"Citadel_RankedNotAllowed_PartyMemberMissingData" "Chưa xác định được điều kiện xếp hạng của {g:citadel_persona:member_account_id}."
@@ -4885,12 +4885,9 @@
 		"HeroTesting_BotGiveAllAbilities"			"Max kỹ năng bot"
 		"HeroTesting_BotGiveAllAbilities_Desc"			"Cho bot toàn bộ kỹ năng và nâng cấp"
 		"HeroTesting_BotRecording"					"Ghi hành động bot"
-		"HeroTesting_BotRecordTarget_Desc"			"Điều khiển bot đang nằm dưới tâm ngắm của bạn và ghi lại hành động của nó cho đến khi bạn nhấn Dừng ghi
-(Khuyên gán vào phím tắt)"
-		"HeroTesting_BotRecordStop_Desc"			"Dừng ghi hoặc phát lại hành động của bot
-(Khuyên gán vào phím tắt)"
-		"HeroTesting_BotPlayback_Desc"				"Phát lại những lệnh đã ghi
-(Khuyên gán vào phím tắt)"
+		"HeroTesting_BotRecordTarget_Desc"			"Điều khiển bot dưới tâm ngắm và ghi lại hành động của nó đến khi nhấn Dừng ghi\n(Nên gán vào một phím)"
+		"HeroTesting_BotRecordStop_Desc"			"Dừng ghi hoặc phát lại hành động của bot\n(Nên gán vào một phím)"
+		"HeroTesting_BotPlayback_Desc"				"Phát lại chuỗi lệnh đã ghi\n(Nên gán vào một phím)"
 		"HeroTesting_BotRecordLoop"					"Lặp phát lại"
 		"HeroTesting_BotRecordLoop_Desc"			"Tự động phát lại từ đầu khi kết thúc"
 		"HeroTesting_BotRecordCopy"					"Chia sẻ bản ghi"
@@ -5924,7 +5921,7 @@
 		"Citadel_HeroReleaseVote_Countdown" "Còn <b>{t:d:t:countdown_time}</b> đến khi mở khóa tướng tiếp theo"
 		"Citadel_HeroReleaseVote_HowToGet" "Chơi trận thường hoặc Đấu phố để kiếm phiếu."
 		"Citadel_HeroReleaseVote_HowToGetBonus" "Trận thắng đầu tiên mỗi ngày cho bạn thêm 4 phiếu."
-		"Citadel_HeroReleaseVote_RemainingVotes:f" "Bạn còn <b>{d:remaining_votes}</b> <b>phiếu</b> để bỏ"
+		"Citadel_HeroReleaseVote_RemainingVotes:f" "Bạn còn <b>{d:remaining_votes}</b> <b>{remaining_votes, plural, one{PHIẾU} other{PHIẾU}}</b> để bỏ"
 		"Citadel_HeroReleaseVote_VoteInstructions" "Dùng máy bỏ phiếu trước trận để chọn tướng tiếp theo."
 		"Citadel_HeroReleaseVote_VoteAction" "Bỏ phiếu ngay!"
 		"Citadel_HeroReleaseVote_VoteSubmitted" "Đã gửi phiếu"
@@ -5939,7 +5936,7 @@
 		"Citadel_HeroReleaseVote_World_HasVotes" "Bỏ phiếu"
 		"Citadel_HeroReleaseVote_World_RemainingVotes:f" "{d:remaining_votes} {remaining_votes, plural, one{vote} other{votes}} to cast"
 
-		"Citadel_HeroReleaseVote_Toast_HasVotes:f" "Bạn có {d:remaining_votes} phiếu mở khóa tướng.<br />Hãy đến máy bỏ phiếu ở nơi ẩn náu để sử dụng."
+		"Citadel_HeroReleaseVote_Toast_HasVotes:f" "Bạn có {d:remaining_votes} {remaining_votes, plural, one{phiếu} other{phiếu}} mở khóa tướng.<br />Hãy {remaining_votes, plural, one{sử dụng} other{sử dụng}} tại hòm phiếu ở nơi ẩn náu."
 	
 		"Citadel_HeroReleaseVote_Reveal_Title" "KẾT QUẢ BỎ PHIẾU..."
 		"Citadel_HeroReleaseVote_Reveal_Introducting" "Giới thiệu"

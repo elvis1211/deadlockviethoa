@@ -29,7 +29,7 @@
 		"SnowballCount_label"		"Počet koulí"
 		"SnowballCount_postvalue_label"		"Projektily"
 		"seasonal_ability_eat_halloween_candy"		"Sladká svačinka"
-		"seasonal_ability_eat_halloween_candy_desc"		"Vlastník sní jeden bonbón pro vyléčení, obnovení výdrže a získání buffu <span class=\"highlight\">Cukrový rauš</span>.<br><br><span class=\"diminish\">Hodnoty léčení a buffu rostou s postupem zápasu.</span>"
+		"seasonal_ability_eat_halloween_candy_desc"		"Vlastník sní jeden bonbón pro vyléčení, obnovení výdrže a získání buffu <span class=\"highlight\">Cukrový rauš</span>.<br><br><span class=\"diminish\">Hodnoty léčení a buffu rostou s postupem zápasu.<br><br>Když vlastník utrží silný úder, několik bonbónů upustí.</span>"
 
 		"HalloweenCandy_label"		"Bonbóny:"
 		"HalloweenCandy_postvalue_label"		"Bonbóny:"

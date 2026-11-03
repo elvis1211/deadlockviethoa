@@ -1886,7 +1886,7 @@
 		"ability_charged_shot_quip"	"蓄力射出远击一箭"
 		"ability_charged_shot_desc"	"<span class=\"highlight\">蓄力射出一支高伤害箭矢</span>，可穿透敌人。按住{g:citadel_binding:'Ability1'}或{g:citadel_binding:'Attack'}暂时保留箭矢。"
 		"ability_charged_shot_t2_desc"	"<span class=\"highlight\">+{s:Damage}伤害</span><br><span class=\"highlight\">{s:AbilityCooldownBetweenCharge}秒</span>充能延迟"
-		"ability_charged_shot_t3_desc"	"<span class=\"highlight\">提升伤害系数</span> <br><span class=\"highlight\">在墙上反弹一次</span>"
+		"ability_charged_shot_t3_desc"	"<span class=\"highlight\">提升伤害系数</span> <br><span class=\"highlight\">在墙上、地面和天花板反弹一次</span>"
 
 		//"PowerJumpChannelTime_label"			"In Power Jump Channel"
 		"PowerJumpChannelTime_postfix"		"秒"
@@ -2328,7 +2328,7 @@
 		"citadel_ability_shiv_killing_blow_quip"	"来到一个低生命值英雄前，立即将其击倒"
 		"citadel_ability_shiv_killing_blow_active_desc"	"<span class=\"diminish\">主动：</span>向前跳跃，对第一个敌方英雄造成{g:citadel_inline_attribute:'SpiritDamage'}。如果对方生命值低于<span class=\"highlight\">击败临界值</span>，则<span class=\"highlight\">将其击倒</span>。<br><br>达成乘胜追击后<span class=\"highlight\">{s:RecastWindow}秒</span>内可以再次施放。"
 		"citadel_ability_shiv_killing_blow_passive_desc" "<span class=\"diminish\">被动：</span>对敌人造成伤害会累积怒气值。怒气值满时，{s:hero_name}获得伤害增加，其他技能也会获得<span class=\"highlight\">特殊效果</span>。"
-		"citadel_ability_shiv_killing_blow_passive_desc_footer" "<br><span class=\"diminish\">如果未命中英雄，冷却时间增 {s:FailedExecuteCooldownPenalty}%。</span>"
+		"citadel_ability_shiv_killing_blow_passive_desc_footer" "<br><span class=\"diminish\">如果未命中英雄，冷却时间增加+{s:FailedExecuteCooldownPenalty}%。</span>"
 		
 		"citadel_ability_shiv_killing_blow/active_buff"		"怒气冲天"
 		"citadel_ability_shiv_killing_blow_while_full_rage" "怒气值满时"
@@ -5171,7 +5171,7 @@
 		"ability_chessmaster_throwbishop_t2_desc" "<span class=\"highlight\">+{s:MaxPieces}</span>最大棋子数<br>{s:RecastWindow}秒内可以重新施放"
 		"ability_chessmaster_throwbishop_t3_desc" "+{s:TileSteps}方格范围<br>撞击降低{s:TechArmorDamageReductionPerStack}%元灵抗性，可叠加{s:MaxStacks}次"
 		"ability_chessmaster_throwbishop_dot" "摆放象 - 方格"
-		"ability_header_on_square" "在方块上："
+		"ability_header_on_square" "在方格上："
 		"MoveCooldown_postvalue_label" "移动冷却时间"
 		"MoveCooldown_label" "移动冷却时间"
 		"MoveCooldown_postfix" "秒"

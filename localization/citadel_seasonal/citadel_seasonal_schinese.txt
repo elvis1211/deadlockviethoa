@@ -29,7 +29,7 @@
 		"SnowballCount_label"		"扔雪球次数"
 		"SnowballCount_postvalue_label"		"投射物数量"
 		"seasonal_ability_eat_halloween_candy"		"吃糖果"
-		"seasonal_ability_eat_halloween_candy_desc"		"吃一块糖可以治疗自己，恢复耐力并获得<span class=\"highlight\">糖分爆发</span>的增益。<br><br><span class=\"diminish\">治疗和糖分爆发的数值随着比赛进行会不断增强。</span>"
+		"seasonal_ability_eat_halloween_candy_desc"		"吃一块糖可以治疗自己，恢复耐力并获得<span class=\"highlight\">糖分爆发</span>的增益。<br><br><span class=\"diminish\">治疗和糖分爆发的数值随着比赛进行会不断增强。<br><br>被近战重击命中后会使你掉落一些糖果。</span>"
 
 		"HalloweenCandy_label"		"叠加层数："
 		"HalloweenCandy_postvalue_label"		"叠加层数："
