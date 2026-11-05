@@ -762,6 +762,7 @@
 
 		"Citadel_RankedSeason_SeasonEnded"			"Mùa giải đã kết thúc"
 		"Citadel_RankedSeason_TimeRemaining"		"Còn {t:d:t:T:time_remaining}"
+		"Citadel_RankedSeason_LastDay"		"Ngày cuối"
 
 		"Citadel_RankedSeason_CurrentRank"			"Bậc hạng hiện tại"
 		"Citadel_RankedSeason_SeasonRank"			"Bậc hạng mùa giải"
