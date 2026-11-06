@@ -786,6 +786,7 @@
 		"ability_fire_bomb_quip"		"Приголомшує всіх ворогів поблизу після короткої затримки."
 		"ability_fire_bomb_desc"		"Стає живою бомбою, завдає {g:citadel_inline_attribute:'SpiritDamage'} і застосовує {g:citadel_inline_attribute:'Stun'} на всіх ворогів поблизу після затримки.<br><br><span class=\"diminish\">Після чаклування вогняний вибух не можна перервати.</span>"
 		"ability_fire_bomb_t2_desc"		"<span class=\"highlight\">{s:AbilityCooldown} с</span> зарядці та <span class=\"highlight\">+{s:LifeStealPercentOnHit}%</span> вампіризму від вибуху."
+		"ability_fire_bomb_t3_desc"		"<span class=\"highlight\">+{s:StunDuration} с</span> часу приголомшення та <span class=\"highlight\">+{s:Radius} м</span> радіусу.<br>Збільшено духовне зростання."
 		//"ability_fire_bomb/modifier_progressbar"		"Harnessing Power"
 
 		"BurnDPS_label"					"Вогняна ШЗС"
@@ -1313,6 +1314,7 @@
 		"citadel_ability_lash_desc"				"<span class=\"highlight\">Підтягує себе через повітря</span> до цілі. Використання захвату скине обмеження на <span class=\"highlight\">стрибки й ривки в повітрі</span>."
 
 		"citadel_ability_lash_t2_desc"			"<span class=\"highlight\">+{s:AbilityCastRange} м</span> дальності застосування та <span class=\"highlight\">+{s:WeaponDamageBonus}</span> збройовій шкоді на {s:WeaponDamageBonusDuration} с."
+		"citadel_ability_lash_t3_desc"			"<span class=\"highlight\">+{s:AbilityCharges}</span> до кількості зарядів.<br>Після застосування: <span class=\"highlight\">+{s:RestoreStaminaOnUse}</span> витривалості та <span class=\"highlight\">+{s:AirControlPercent}%</span> керуванню в повітрі.<br><span class=\"highlight\">+{s:JumpVelocity} м/с</span> швидкості стрибка."
 		"LashDamage_label"						"Шкода захвату"
 		"LashDamage_postvalue_label"						"шкоді захвату"
 		"WeaponFireRateBonus_label"				"Швидкострільність"
@@ -1483,6 +1485,7 @@
 		"ability_ice_dome_trigger"		"Льодяний сховок"
 		"ability_ice_dome_quip"			"Створює непроникний лікувальний купол."
 		"ability_ice_dome_desc"			"Заморожує повітря навколо себе або іншого героя і створює <span class=\"highlight\">непроникний купол</span>. Союзники у ньому отримують миттєве {g:citadel_inline_attribute:'Regen'}, а вороги <span class=\"highlight\">сповільнюються</span>. <br><br><span class=\"diminish\">Ключові цілі в льодяному сховку стають невразливими й заморожуються</span>."
+		"ability_ice_dome_t2_desc"		"<span class=\"highlight\">+{s:AbilityDuration} c</span> часу дії.<br>Накладає <span class=\"highlight\">-{s:FireRateSlow}%</span> швидкострільності."
 		"ability_ice_dome_t3_desc"		"<span class=\"highlight\">Знімає</span> з вас і союзників ослаблення від неультимативних вмінь.<br><span class=\"highlight\">+{s:BonusHealthRegen}</span> до відновлення здоровʼя та посилене духовне зростання"
 		"ability_ice_dome/modifier_ice_dome/modifier_debuff"						"Льодяний сховок"
 		"frozen_shelter_modifier_buff"		"Льодяний сховок"
@@ -1889,6 +1892,9 @@
 		"ability_charged_shot"		"Заряджений постріл"
 		"ability_charged_shot_quip"	"Накопичує заряд, щоби вистрілити на далеку відстань."
 		"ability_charged_shot_desc"	"<span class=\"highlight\">Накопичує заряд для пострілу</span>, який потужно пробиває ворогів. Утримуйте {g:citadel_binding:'Ability1'} чи {g:citadel_binding:'Attack'}, щоби затримати постріл."
+		"ability_charged_shot_t2_desc"	"+{s:Damage} шкоді</span> та <span class=\"highlight\">{s:AbilityCooldownBetweenCharge} с</span> затримці заряду."
+		"ability_charged_shot_t3_desc"	"<span class=\"highlight\">Покращене зростання шкоди.</span> <br><span class=\"highlight\">Один раз рикошетить від стін, підлоги та стелі.</span>"
+
 		//"PowerJumpChannelTime_label"			"In Power Jump Channel"
 		"PowerJumpChannelTime_postfix"		" с"
 
@@ -2479,8 +2485,11 @@
 
 		"mirage_teleport"		"Мандрівник"
 		"mirage_teleport_quip"	"Телепортується до союзного чи ворожого героя."
+		"mirage_teleport_desc"	"Виберіть точку на мінімапі. Після короткої затримки Міраж <span class=\"highlight\">телепортується</span> в це місце. Зазнавання шкоди, приголомшення, знерухомлення, сну або знемовлення руху під час очікування перериває телепортацію.<br><br>Після телепортації отримує <span class=\"highlight\">бар’єр</span>."
 		"MirageTeleportMoveSpeed_conditional"	"після телепортації"
 		"mirage_teleport_movespeed"		"Мандрівник — пришвидшення руху"
+		"mirage_teleport_t1_desc"	"+{s:BonusMoveSpeed} м/с швидкості руху та +{s:BonusFireRate}% швидкострільності."
+		"mirage_teleport_t3_desc"	"Не можна перервати шкодою.<br>Бар’єр отримує духовне зростання."
 		"TeleportCompletedTime_label"	"Час очікування"
 		"TeleportCompletedTime_postvalue_label"	"часу очікування"
 		"TeleportCompletedTime_postfix"	" с"
@@ -3074,6 +3083,7 @@
 		"citadel_ability_flying_strike/slow" "Сповільнення від розрізу в повітрі"
 		//"citadel_ability_flying_strike/weapon_buff" "+Weapon Damage"				
 		"citadel_ability_flying_strike_t2_desc" "Здобуває <span class=\"highlight\">+{s:SpiritBonus}</span> духовній силі на <span class=\"highlight\">{s:BuffDuration} с</span>."
+		"citadel_ability_flying_strike_t3_desc" "Захват союзників кнопкою альтернативної стрільби.<br><span class=\"highlight\">+{s:AbilityCastRange} м</span> дальності застосування.<br>Отримує <span class=\"highlight\">1 додатковий заряд</span>."
 		"yamato_flying_strike_t3_header"			"Після досягнення цілі:"
 
 		"citadel_ability_infinity_slash"		"Тіньова трансформація"
@@ -4070,7 +4080,7 @@
 		//-----------------------------------------------------------------------------
 		// Drifter
 		//-----------------------------------------------------------------------------
-		"hero_drifter_lore"				"Стародавній вампір, що мандрує американською глибинкою, безіменне жахіття на прізвисько Блукач полює на живих упродовж багатьох поколінь.\n\nНа відміну від більшості вампірів Блукач не цінує прикраси чи титули, і йому чхати на вампірські закони чи традиції. Відмова дотримуватися правил перетворила його на ворога всіх північноамериканських баронств; та поки віконти і старійшини вимагають його страти, Блукач і далі робить, що забажає…"
+		"hero_drifter_lore"				"Стародавній вампір, що мандрує американською глибинкою, безіменне жахіття на прізвисько Блукач полює на живих упродовж багатьох поколінь.\n\nНа відміну від більшості вампірів Блукач не цінує прикраси чи ранги, і йому чхати на вампірські закони чи традиції. Відмова дотримуватися правил перетворила його на ворога всіх північноамериканських баронств; та поки віконти і старійшини вимагають його страти, Блукач і далі робить, що забажає…"
 
 		"Citadel_Drifter_HeroTag_1" "Переслідувач"
 		"Citadel_Drifter_HeroTag_2" "Кровопивець"
@@ -4452,6 +4462,8 @@
 		"ability_necro_gravestone_desc_1" "<span class=\"diminish\">Вроджено:</span> вміння можуть викликати <span class=\"highlight\">гулів</span>, які шкандибають до ворожого штабу та завдають {g:citadel_inline_attribute:'MeleeDamage'}. Вони вибухають, коли наближаються до героя чи ключової цілі, завдаючи {g:citadel_inline_attribute:'SpiritDamage'} в області й ненадовго накладаючи {g:citadel_inline_attribute:'Slow'}."
 		"ability_necro_gravestone_desc_2" "<span class=\"diminish\">Дія:</span> створює надгробок у цільовому місці, що періодично прикликає <span class=\"highlight\">гулів</span>. Вороги можуть знищити надгробок двома важкими ближніми ударами."
 		"ability_necro_gravestone_t1_desc" "<span class=\"highlight\">+{s:MoveSpeedPercent}%</span> швидкості гуля,<br><span class=\"highlight\">{s:AbilityCooldown} с</span> зарядці."
+		"ability_necro_gravestone_t2_desc" "<span class=\"highlight\">+{s:SlowDuration} с</span> часу дії вміння"
+		"ability_necro_gravestone_t3_desc" "Після смерті: <span class=\"highlight\">+{s:CurrentHealthDamagePercentage}%</span> поточному здоров’ю як шкоді.<br><span class=\"highlight\">{s:SummonFrequency} с</span> часу до прикликання."
 		"ability_necro_gravestone/gravestone/buff" "Посмертна угода"
 		"BonusSpiritDamagePercentage_postvalue_label" "додачі духовної шкоди"
 		"BonusSpiritDamagePercentage_label" "Додача духовної шкоди"
@@ -4757,7 +4769,7 @@
 		
 		"ability_unicorn_luminousstrike"				"Променисті кинджали"
 		"ability_unicorn_luminousstrike_desc"			"Прикликає з неба промінь світла. Через короткий проміжок часу промінь повністю формується і спричиняє вибух, що завдає {g:citadel_inline_attribute:'SpiritDamage'} всім цілям в області.<br><br>Щоразу, коли промінь влучає у ворожого героя, Селеста здобуває поєднуване посилення, яке збільшує її духовну шкоду."
-		"ability_unicorn_luminousstrike_t2_desc"		"{s:AbilityCooldown} с зарядці та +{s:ImpactDamage} шкоді від удару."						"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack}% духовному посиленню та +{s:FireRatePerStack}% швидкострільності за поєднання."
+		"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack}% духовному посиленню та +{s:FireRatePerStack}% швидкострільності за поєднання."
 		"ability_unicorn_luminousstrike/luminous_strike_dot_enemy"				"Опік від сліпучого удару"
 		"ability_unicorn_luminousstrike/luminous_strike_buff"				"Променисті кинджали"
 
@@ -4854,6 +4866,7 @@
 		"MeleeResistReductionDuration_label"			"Час зменшення опору ближньому бою"
 		"MeleeResistReductionDuration_postvalue_label"	"часу ослаблення"
 		"MeleeResistReductionDuration_postfix"			" с"
+		"ability_fencer_riposte_t2_desc"	"<span class=\"highlight\">{s:MeleeResistReduction}%</span> опору в ближньому бою та <span class=\"highlight\">+{s:StunDuration} с</span> часу знерухомлення."
 		"ability_fencer_riposte_t3_desc"	"Здобуває <span class=\"highlight\">{s:TargetLifesteal}%</span> вампіризму від куль, а також духовного та ближнього вампіризму проти цілі відсічі на {s:targetLifestealDuration} с."
 		"modifier_fencer_riposte_target_lifesteal"		"Мітка вампіризму"
 		"TargetLifesteal_label"				"Кульовий і духовний вампіризм проти цілі"
@@ -4964,7 +4977,6 @@
 		"AllyDamageReduction_postfix"	"%"
 		"AllyDamageReduction_label" "Зменшення шкоди"
 		"ability_ratking_standard_bearer_desc" "Накопичує заряд і прикликає штандарт Щуританії, надаючи всім союзникам поблизу більше {g:citadel_inline_attribute:'MoveSpeed'}, <span class=\"highlight\">імунітет до уповільнення</span> та <span class=\"highlight\">зменшену вхідну шкоду</span>, поки вони перебувають біля штандарта."
-		"ability_ratking_standard_bearer_t1_desc" "+{s:BonusMoveSpeed} м швидкості руху."
 		"ability_ratking_standard_bearer_t2_desc" "+{s:FlagDuration} с часу дії прапора.<br>+{s:Radius} м радіусу."
 		"ability_ratking_standard_bearer_t3_desc" "+{s:Damage} шкоді та +{s:AllyDamageReduction}% зменшенню шкоди."
 		
@@ -5069,6 +5081,7 @@
 
 		"ability_baba_hexing_brew"			"Вариво Баби"		
 		"ability_baba_hexing_brew_quip"		"Баба заварює особливий чай, а потім кидає чайник, щоб підпалити чи знемовити ворогів або захистити щитом союзників."
+		"ability_baba_hexing_brew_desc"		"Заварює чайник чаю, який після кидка накладає на область магічний ефект, що з часом циклічно змінюється у випадковому порядку — від заспокійливого {g:citadel_inline_attribute:'CombatBarrier'} і {g:citadel_inline_attribute:'Silence'} до пекучого опіку, що завдає {g:citadel_inline_attribute:'SpiritDPS'} та знижує {g:citadel_inline_attribute:'SpiritResist'}.<br><br>Натисніть {g:citadel_binding:'ADS'}, щоб призупинити або продовжити заварювання."
 		"ability_baba_hexing_brew_t3_desc"	"+{s:BrewEffectiveness}% ефективності варива"
 		"ability_header_baba_brew_barrier"	"Заспокійливе вариво:"
 		"ability_header_baba_brew_silence"	"Знемовлююче вариво:"
@@ -5135,7 +5148,7 @@
 		//-----------------------------------------------------------------------------
 		// ChessMaster
 		//-----------------------------------------------------------------------------
-		"citadel_weapon_chessmaster_set"	"Алехінська рушниця"
+		"citadel_weapon_chessmaster_set"	"Гармата Алехіна"
 
 		"ability_chessmaster_placepawn" "Виставлення пішака"
 
@@ -5163,6 +5176,7 @@
 		"ability_chessmaster_throwbishop_desc" "Створює <span class=\"highlight\">слона</span>, який залишається на місці на невизначений час.<br><br><span class=\"diminish\">Хід ({g:citadel_binding:'ADS'}):</span> робить хід слоном, накладаючи на ворогів, крізь яких той проходить, {g:citadel_inline_attribute:'Slow'}, що поступово слабшає, та завдаючи їм {g:citadel_inline_attribute:'SpiritDamage'}. Після затримки активує квадрати по діагоналі, завдаючи додаткової {g:citadel_inline_attribute:'SpiritDamage'}, якщо ворог ступає на них.<br><br><span class=\"diminish\">Повторна активація відкликає всіх слонів, завершуючи дію вміння.</span>"
 		"ability_chessmaster_throwbishop_t1_desc" "+{s:MoveDistance} м дальності ходу.<br>+{s:FadingSlowPercent}% зникаючому сповільненню."
 		"ability_chessmaster_throwbishop_t2_desc" "<span class=\"highlight\">+{s:MaxPieces}</span> максимуму фігур.<br>Можна застосувати повторно через {s:RecastWindow} с."
+		"ability_chessmaster_throwbishop_t3_desc" "+{s:TileSteps} дальності у квадратах.<br>Удари зменшують духовний опір на {s:TechArmorDamageReductionPerStack}%. Максимум зарядів: {s:MaxStacks}."
 		"ability_chessmaster_throwbishop_dot" "Виставлення слона з квадратами"
 		"ability_header_on_square" "На квадраті:"
 		"MoveCooldown_postvalue_label" "зарядці ходу"
@@ -5214,6 +5228,8 @@
 		//---------Ability 4
 		"ability_chessmaster_queen" "Розвиток ферзя"
 		"ability_chessmaster_queen_trigger" "Розвиток ферзя"
+		"ability_chessmaster_queen_desc_active" "Викликає <span class=\"highlight\">ферзя</span>, який стрімко приземляється, завдаючи {g:citadel_inline_attribute:'SpiritDamage'} навколо себе. Після затримки від ферзя прямими лініями розходяться квадрати, які знову завдають {g:citadel_inline_attribute:'SpiritDamage'} і накладають {g:citadel_inline_attribute:'Stun'}.<br><br>Уражені герої з низьким рівнем здоров’я отримують <span class=\"highlight\">шах і мат</span>та гинуть.<br><br><span class=\"diminish\">Хід ({g:citadel_binding:'ADS'}):</span> ферзь перестрибує у вибране місце, повторно накладаючи ті самі ефекти.<span class=\"diminish\"><br><br>Активуйте повторно, щоб достроково відкликати ферзя й завершити дію вміння.</span>"
+		"ability_chessmaster_queen_t2_desc" "+{s:SlowPercent}% уповільненню.<br>+{s:CheckmateThreshold} порогу шаху й мату."
 		"ability_chessmaster_queen_t3_desc" "+{s:QueenBonusMoves} ходам.<br>+{s:TileSteps} дальності у квадратах."
 		"ability_chessmaster_queen/active" "Розвиток ферзя"
 		"ability_chessmaster_queen/lift" "Шах…"
@@ -5397,12 +5413,16 @@
 		//------Ability 3
 		"ability_artist_tether" "Натюрморт"
 		"ability_artist_tether_desc" "Вибирає героя, який стане <span class=\"highlight\">моделлю</span>, завдаючи йому {g:citadel_inline_attribute:'SpiritDPS'}, доки дивиться на нього. <br><br>Якщо ескіз завершено, ціль зазнає додаткової {g:citadel_inline_attribute:'SpiritDamage'} і {g:citadel_inline_attribute:'Stun'}, і з неї випадає <span class=\"highlight\">ескіз</span>, який можна підібрати.<br><br> За кожен зібраний <span class=\"highlight\">ескіз</span> власник уміння назавжди отримує бонуси до характеристик залежно від зображеного героя."
+		"ability_artist_tether_t1_desc" "Під час малювання: +{s:HealthRegen} відновленню здоров’я, оновлюється на {s:BuffDuration} с після підняття."
 		"ability_artist_tether_t2_desc" "Під час малювання: моделі завдають {s:OutgoingDamagePercent}% шкоди."
 		"ability_artist_tether_t3_desc" "+{s:BonusMoveSpeedPercent}% швидкості руху.<br>{s:AbilityCooldown} с зарядці.<br>+{s:StunDuration} с часу приголомшення."
+		"ability_artist_tether/buildup" "Натюрморт"
 		"ability_artist_tether/buildup/stun" "Натюрморт"
 		"ability_artist_tether/buildup/buff" "Натюрморт"
 		"ability_artist_tether/self" "Натюрморт"
 		"ability_artist_tether/stun" "Натюрморт"
+		"modifier_artist_still_life"			"Натюрморт"
+
 		"BuildUpPerAbility_postvalue_label" "накопиченню за вміння"
 		"BuildUpPerAbility_label" "Накопичення за вміння"
 		"BuildUpPerAbility_postfix" "%"
@@ -5419,15 +5439,22 @@
 		"Citadel_Graph_PermanentBuff_ArtistBrawler" "Ескізи бійців"
 		"Citadel_Graph_PermanentBuff_ArtistAssassin" "Ескізи вбивць"
 		"Citadel_Graph_PermanentBuff_ArtistMarksman" "Ескізи стрільців"
+		"Citadel_Graph_PermanentBuff_ArtistHealer" "Ескізи цілителів"
+
 		"artist_drawing_mystic" "Ескіз містика"
 		"artist_drawing_marksman" "Ескіз стрільця"
 		"artist_drawing_brawler" "Ескіз бійця"
 		"artist_drawing_assassin" "Ескіз убивці"
+		"artist_drawing_healer" "Ескіз цілителя"
+
+
 		//----Ability 4
 		"ability_artist_bamboogrove" "Абстрактний пейзаж"
 		"ability_artist_bamboogrove_desc" "Створює з чорнила круглу композицію, яка блокує видимість і надає союзникам {g:citadel_inline_attribute:'Spirit'}.<br><br>Вона призводить до виявлення ворогів усередині, які, залишаючи круг, зазнають {g:citadel_inline_attribute:'SpiritDamage'}, а також ефектів {g:citadel_inline_attribute:'Silence'} та {g:citadel_inline_attribute:'Slow'}, і знищують чорнило."
 		"ability_artist_bamboogrove/center/buff" "Абстрактний пейзаж"
 		"ability_artist_bamboogrove_t2_desc" "Після ефекту: +{s:AbilityLifestealPercenthero}% духовному вампіризму.<br>+{s:TechPower} духовній силі."
+		"ability_artist_bamboogrove_t3_desc" "+{s:SilenceDuration} с часу знемовлення.<br>+{s:AbilityDuration} с часу дії вмінь."
+
 		"ability_artist_bamboogrove/groundaura/silence" "Абстрактний пейзаж"
 		"ability_artist_bamboogrove/groveally/buff" "Абстрактний пейзаж"
 		"AttackFrequency_postvalue_label" "частоті атаки"
@@ -5486,6 +5513,7 @@
 		"ability_nurse_fear"			"Притаєні жахіття"
 		"ability_nurse_fear_desc"		"Розкриває сумку з жахіттями, завдаючи {g:citadel_inline_attribute:'SpiritDPS'} ворогам перед собою. Ворогів, які <span class=\"highlight\">дивляться на Герроу</span>, поступово охоплює жах, і вони <span class=\"highlight\">не можуть використовувати витривалість або вміння пересування</span>. За максимального рівня жаху вони <span class=\"highlight\">в паніці тікають від неї.</span>.<br><br>Кожна зібрана пʼявка збільшує <span class=\"highlight\">тривалість страху</span>.<br><span class=\"diminish\"><br>Вороги, що відвернулися від Герроу, отримують на {s:FacingAwayDamagePercent}% більше шкоди, якщо не перебувають під дією страху.</span>"
 		"ability_nurse_fear_t2_desc"	"-{s:SlowPercent}% до швидкості руху та скорострільності<br>+{s:DPS} до шкоди за секунду"
+		"ability_nurse_fear_t3_desc"	"+{s:AbilityChannelTime} с часу заряджання.<br>+{s:DPS_scale} духовному зростанню.<br>Шкоду зменшено на {s:DamageResistPctWhileChanneling}% під час заряджання."
 		"FearDurationPerLeechStack_prefix"				"+"
 		"FearDurationPerLeechStack_label"				"Тривалість страху за пʼявку"
 		"FearDurationPerLeechStack_postvalue_label"		"тривалості страху за пʼявку"

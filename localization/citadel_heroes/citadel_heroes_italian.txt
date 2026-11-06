@@ -1978,7 +1978,7 @@
 		"ability_health_swap_quip"			"Scambi la tua salute attuale con quella di un eroe nemico"
 		"ability_health_swap_desc"			"<span class=\"highlight\">Scambi la salute</span> con quella di un eroe nemico. La salute dei nemici può essere portata fino a una percentuale minima e si può ricevere una quantità minima di salute basata sulla salute attuale della vittima."
 		"ability_health_swap_t2_desc"			"<span class=\"highlight\">Silenzi</span> i nemici entro {s:SilenceRadius} m per {s:SilenceDuration} s"
-		"ability_health_swap_t3_desc"			"All'uso conferisce <span class=\"highlight\">+{s:BonusSpirit}</span> di potere spirituale, <span class=\"highlight\">+{s:BonusFireRate}%</span> di cadenza di fuoco e <span class=\"highlight\">+{s:TechResist}%</span> di resistenza spirituale per {s:HealthSwapBuffDuration} s."
+		"ability_health_swap_t3_desc"			"All'uso conferisce <span class=\"highlight\">+{s:BonusSpirit}</span> di potere spirituale, <span class=\"highlight\">+{s:BonusFireRate}%</span> di cadenza di fuoco e <span class=\"highlight\">+{s:TechResist}%</span> di resistenza spirituale per {s:HealthSwapBuffDuration} s"
 
 		"MinHealthTakenPct_label"				"Salute min ricevuta"
 
@@ -2204,7 +2204,7 @@
 		"ability_throw_sand_t2_desc"	"Rallenta i bersagli di <span class=\"highlight\">-{s:SlowPercent}% e riduce la distanza dello scatto di {s:GroundDashReductionPercent}%</span>"
 		"ability_throw_sand_t3_desc"	"<span class=\"highlight\">+{s:AbilityDuration} s</span> di durata e <span class=\"highlight\">{s:AbilityCooldown}</span> di tempo di ricarica"
 
-		"modifier_citadel_throw_sand_debuff"	"Insabbiato"
+		"modifier_citadel_throw_sand_debuff"	"Insabbiamento"
 
 
 		"ability_ult_combo"				"Combo"
@@ -4758,7 +4758,7 @@
 		
 		"ability_unicorn_luminousstrike"				"Pugnali radianti"
 		"ability_unicorn_luminousstrike_desc"			"Evochi un raggio di luce dal cielo. Dopo un breve periodo, il raggio si formerà completamente, provocando un'esplosione che infligge {g:citadel_inline_attribute:'SpiritDamage'} a tutti i bersagli nell'area.<br><br> Celeste riceve un buff cumulabile che aumenta i suoi danni spirituali ogni volta che colpisce un eroe nemico."
-		"ability_unicorn_luminousstrike_t2_desc"		"{s:AbilityCooldown} s di tempo di ricarica e +{s:ImpactDamage} danni da impatto"						"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack}% di amplificazione spirituale e +{s:FireRatePerStack}% di cadenza di fuoco per istanza"
+		"ability_unicorn_luminousstrike_t2_desc"		"{s:AbilityCooldown} s di tempo di ricarica, +{s:ImpactDamage} di danni da impatto e +{s:AbilityCastRange} m di gittata d'uso"						"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack}% di amplificazione spirituale e +{s:FireRatePerStack}% di cadenza di fuoco per istanza"
 		"ability_unicorn_luminousstrike/luminous_strike_dot_enemy"				"Bruciatura di carica luminosa"
 		"ability_unicorn_luminousstrike/luminous_strike_buff"				"Pugnali radianti"
 
@@ -4833,7 +4833,6 @@
 		"ability_fencer_lunge_on_proc"		"Attivazione con istanze max"
 
 		"ability_fencer_riposte"	"Parata e risposta"
-		"ability_fencer_riposte_desc" "Ti prepari a <span class=\"highlight\">parare</span> il prossimo attacco in arrivo. Se la parata ha successo, diventi <span class=\"highlight\">invulnerabile</span> per un breve periodo e avanzi con uno scatto in avanti verso un eroe nemico, <span class=\"highlight\">immobilizzandolo</span>, impedendogli di <span class=\"highlight\">eseguire parate</span> e riducendone la <span class=\"highlight\">resistenza agli attacchi corpo a corpo</span>.<br><br><span class=\"diminish\">Premi {g:citadel_binding:'Ability2'} per selezionare un bersaglio.<br>Non si attiva contro i soldati o i danni neutrali.</span>"
 		"RiposteChannelTime_postvalue_label"	"di durata della parata"
 		"RiposteChannelTime_postfix"			" s"
 		"LungeCooldownReduction_prefix"			"-"
@@ -4853,7 +4852,7 @@
 		//"CounterTimeWindow_postfix"			"s"
 
 		"ability_fencer_riposte_attack"			"Parata e risposta"
-		"ability_fencer_riposte_attack_desc"	"Esegui un rapido scatto in avanti e immobilizzi un nemico con il pomo della tua arma, impedendogli di parare."
+		"ability_fencer_riposte_attack_desc"	"Esegui un rapido scatto in avanti, immobilizzando e disarmando un nemico con il pomo della tua arma, impedendogli di parare."
 		"MeleeResistReductionDuration_label"			"Durata riduzione resist. corpo a corpo"
 		"MeleeResistReductionDuration_postvalue_label"	"di durata debuff"
 		"MeleeResistReductionDuration_postfix"			" s"
@@ -4968,7 +4967,7 @@
 		"AllyDamageReduction_postfix"	"%"
 		"AllyDamageReduction_label" "Riduzione dei danni"
 		"ability_ratking_standard_bearer_desc" "Carichi in avanti e invochi lo stendardo di Ratannia, conferendo a tutti gli alleati vicini un aumento della {g:citadel_inline_attribute:'MoveSpeed'}, <span class=\"highlight\">immunità ai rallentamenti</span> e <span class=\"highlight\">danni subiti ridotti</span> quando sono vicini allo stendardo."
-		"ability_ratking_standard_bearer_t1_desc" "+{s:BonusMoveSpeed} m/s di velocità di movimento"
+		"ability_ratking_standard_bearer_t1_desc" "+{s:BonusMoveSpeed} m/s di velocità di movimento e {s:AbilityCooldown} s di tempo di ricarica"
 		"ability_ratking_standard_bearer_t2_desc" "+{s:FlagDuration} s di durata dello stendardo e +{s:Radius} m di raggio"
 		"ability_ratking_standard_bearer_t3_desc" "+{s:Damage} danni e +{s:AllyDamageReduction}% di riduzione dei danni"
 		

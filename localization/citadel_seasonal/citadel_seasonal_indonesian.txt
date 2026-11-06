@@ -29,7 +29,7 @@
 		"SnowballCount_label"		"Bola Salju Dilempar"
 		"SnowballCount_postvalue_label"		"Proyektil"
 		"seasonal_ability_eat_halloween_candy"		"Makan Permen"
-		"seasonal_ability_eat_halloween_candy_desc"		"Makan satu permen untuk menyembuhkan diri, memulihkan stamina, dan mendapatkan buff <span class=\"highlight\">Sugar Rush</span>.<br><br><span class=\"diminish\">Statistik Penyembuhan dan Sugar Rush terus bertambah seiring berlangsungnya pertandingan.</span>"
+		"seasonal_ability_eat_halloween_candy_desc"		"Makan satu permen untuk menyembuhkan diri, memulihkan stamina, dan mendapatkan buff <span class=\"highlight\">Sugar Rush</span>.<br><br><span class=\"diminish\">Statistik Penyembuhan dan Sugar Rush terus bertambah seiring berlangsungnya pertandingan.<br><br>Menerima serangan jarak dekat berat akan membuatmu menjatuhkan beberapa permen.</span>"
 
 		"HalloweenCandy_label"		"Akumulasi:"
 		"HalloweenCandy_postvalue_label"		"Akumulasi:"

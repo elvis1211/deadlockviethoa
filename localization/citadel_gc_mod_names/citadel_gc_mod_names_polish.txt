@@ -12,7 +12,7 @@
 		"upgrade_ammo_scavenger_search"			"Szabrownik Amunicji Ammo Scavenger"
 		"upgrade_rapid_rounds"					"Błyskawiczne Kule"
 		"upgrade_rapid_rounds_search"			"Błyskawiczne Kule BK Rapid Rounds RR"
-		"upgrade_high_velocity_mag"				"Kule o Dużej Szybkości"
+		"upgrade_high_velocity_mag"				"Szybkie Kule"
 		"upgrade_high_velocity_mag_search"		"Szybkie Kule SK High-Velocity Rounds HVR HV"
 		"upgrade_lifestrike_gauntlets"			"Wampiryczne Pięści"
 		"upgrade_lifestrike_gauntlets_search"	"Wampiryczne Pięści WP Melee Lifesteal ML"

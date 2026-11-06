@@ -761,16 +761,20 @@
 
 		"Citadel_RankedSeason_SeasonEnded"			"La stagione è terminata"
 		"Citadel_RankedSeason_TimeRemaining"		"Tempo rimanente: {t:d:t:T:time_remaining}"
+		"Citadel_RankedSeason_LastDay"				"Ultimo giorno"
 
 		"Citadel_RankedSeason_CurrentRank"			"Grado attuale"
 		"Citadel_RankedSeason_SeasonRank"			"Grado stagionale"
 		"Citadel_RankedSeason_HighestRank"			"Grado massimo"
+		"Citadel_RankedSeason_FinalRank"			"Grado più alto della stagione"
 
 		"Citadel_RankedSeason_ProtectionRemaining:f"			"{d:demotion_protection_remaining}/{d:demotion_protection_total} {demotion_protection_total, plural, one{protezione restante} other{protezioni restanti}}"
 		"Citadel_RankedSeason_ProtectionUsed"			"Protezione anti-retrocessione usata"
 		"Citadel_RankedSeason_ResultingRank"			"Grado risultante"
 		"Citadel_RankedSeason_HeroWins:f"	"{d:hero_wins} {hero_wins, plural, one{vittoria} other{vittorie}}"
-		"Citadel_RankedSeason_HeroWinsRequired:f"	"<b>{d:wins_required_per_hero} {wins_required_per_hero, plural, one{vittoria necessaria} other{vittorie necessarie}}</b> per sbloccare l'eroe in modalità competitiva"
+		"Citadel_RankedSeason_HeroWinsRequired:f"	"<b>{d:wins_required_per_hero} {wins_required_per_hero, plural, one{vittoria necessaria} other{vittorie necessarie}}</b> per sbloccare l'eroe in modalità competitiva."
+		"Citadel_RankedSeason_HeroPoints:f"	"{d:hero_points} {hero_points, plural, one{punto} other{punti}}"
+		"Citadel_RankedSeason_HeroPointsRequired:f"	"<b>{d:points_required_per_hero} {points_required_per_hero, plural, one{punto necessario} other{punti necessari}}</b> per sbloccare l'eroe in modalità competitiva.<br />Vittoria = 2 punti&nbsp;&nbsp;/&nbsp;&nbsp;Sconfitta = 1 punto"
 		"Citadel_Ranked_ViewSeasonHistory"		"Vedi cronologia delle stagioni"
 		"Citadel_Ranked_ViewLeaderboards"		"Vedi classifiche"
 
@@ -791,19 +795,25 @@
 
 		"Citadel_RankedSeason_EligibilityTitle"				"Requisiti per giocare in modalità competitiva:"
 		"Citadel_RankedSeason_Eligibility_AccountWins:f"	"{d:current_account_wins}/{d:required_account_wins} vittorie in modalità standard"
-		"Citadel_RankedSeason_Eligibility_HeroUnlocks:f"	"{d:current_unlocked_heroes}/{d:required_unlocked_heroes} eroi con {d:required_hero_win_count} o più vittorie"
+		"Citadel_RankedSeason_Eligibility_HeroUnlocks_Wins:f"	"{d:current_unlocked_heroes}/{d:required_unlocked_heroes} eroi con {d:required_hero_win_count} o più vittorie"
+		"Citadel_RankedSeason_Eligibility_HeroUnlocks_Points:f"	"{d:current_unlocked_heroes}/{d:required_unlocked_heroes} eroi con {d:required_hero_point_count} o più punti"
 		"Citadel_RankedSeason_Eligibility_NotEligible"		"Gioca partite standard per sbloccare la modalità competitiva"
 		"Citadel_RankedSeason_Eligibility_Eligible"			"La modalità competitiva è disponibile nel menu Gioca"
+
+		"Citadel_RankedSeason_JoinSeason"				"Unisciti alla stagione"
 
 		"Citadel_RankedMatchHistory_Calibrating"		"Calibrazione {d:calibrating_number}/{d:calibration_matches}"
 		"Citadel_RankedMatchHistory_Calibrated"			"Calibrazione completata"
 		"Citadel_RankedMatchHistory_PointsChange"		"{s:rank_points_change} punti"
 
-		"Citadel_RankedHistory_Title"					"Stagioni competitive"
+		"Citadel_RankedHistory_Title"					"Storico delle stagioni competitive"
 		"Citadel_RankedHistory_SeasonNotJoined"			"Non partecipa"
 		"Citadel_RankedHistory_SeasonNotCalibrated"		"Calibrazione mancante"
 		"Citadel_RankedHistory_SeasonCalibrating"		"Calibrazione"
 		"Citadel_RankedHistory_SeasonUpcoming"			"--"
+
+		
+		"Citadel_RankedSeasonCompleted_Title"			"è terminata"
 
 		"Citadel_Ranked_NoSeasonActive"			"Nessuna stagione attualmente attiva"
 
@@ -822,15 +832,17 @@
 
 
 		"Citadel_Ranked_Overview_Eligibility"			"Requisiti"
-		"Citadel_Ranked_Overview_Eligibility_Bullet1:f"	"Devi avere almeno {d:required_account_wins} {required_account_wins, plural, one {vittoria} other {vittorie}} sul tuo account. Devi anche avere almeno {d:required_hero_unlocks} {required_hero_unlocks, plural, one {eroe} other {eroi}} con {d:required_hero_wins} {required_hero_wins, plural, one {vittoria} other {vittorie}} ciascuno in modalità standard."
+		"Citadel_Ranked_Overview_Eligibility_Bullet1:f"	"Devi avere almeno {d:required_account_wins} {required_account_wins, plural, one {vittoria totale} other {vittorie totali}} sul tuo account."
+		"Citadel_Ranked_Overview_Eligibility_Bullet1_HeroWins:f"	"Devi avere almeno {d:required_hero_unlocks} {required_hero_unlocks, plural, one {eroe} other {eroi}} con {d:required_hero_wins} {required_hero_wins, plural, one {vittoria} other {vittorie}} ciascuno in modalità standard."
+		"Citadel_Ranked_Overview_Eligibility_Bullet1_HeroPoints:f"	"Devi avere almeno {d:required_hero_unlocks} {required_hero_unlocks, plural, one {eroe} other {eroi}} con {d:required_hero_points} {required_hero_points, plural, one {punto} other {punti}}. Ogni vittoria in modalità standard vale 2 punti, mentre una sconfitta in modalità standard vale 1 punto."
 		"Citadel_Ranked_Overview_Eligibility_Bullet2"				"Solo giocatori singoli e coppie possono mettersi alla ricerca di partite competitive. I membri di una coppia devono avere al massimo un grado di differenza l'uno dall'altro. I giocatori Eternus possono entrare in coda solo con giocatori dello stesso grado purché siano entro 3 sotto-gradi l'uno dall'altro."
-		"Citadel_Ranked_Overview_Eligibility_Bullet3"				"Devi completare {d:required_solo_calibration_games} partite di calibrazione come giocatore singolo. Il grado massimo raggiungibile al termine della calibrazione è {g:citadel_packed_rank_name:max_calibration_rank}."
+		"Citadel_Ranked_Overview_Eligibility_Bullet3"				"Se non hai partecipato alla precedente stagione competitiva, devi completare {d:required_solo_calibration_games} partite di calibrazione come giocatore singolo. Il grado massimo raggiungibile al termine della calibrazione è {g:citadel_packed_rank_name:max_calibration_rank}."
 
 
 		"Citadel_Ranked_Overview_PlayingMatches"		"Salire di livello"
 		"Citadel_Ranked_Overview_Playing_Bullet1"		"Ogni vittoria/sconfitta concede/rimuove +/- {d:ranked_point_gain} punti in media. Questi numeri possono variare leggermente in base alle aspettative che il matchmaking aveva per quella partita, o per le serie di vittorie. Vedrai i tuoi punti competitivi aggiornarsi con una barra di avanzamento visibile dopo ogni partita."
-		"Citadel_Ranked_Overview_Playing_Bullet2"		"Alla promozione a un nuovo grado o un sotto-grado, guadagni gettoni di protezione anti-retrocessione. Ogni volta che sali di grado guadagni cinque gettoni e ogni volta che sali di sotto-grado ne guadagni due. Se perdi con la protezione anti-retrocessione attiva e la perdita di punti ti farebbe retrocedere di grado, rimani allo stesso grado e viene consumato un gettone."
-		"Citadel_Ranked_Overview_Playing_Bullet3"		"Per passare da un sotto-grado al successivo, devi guadagnare 1.000 punti competitivi (es. {g:citadel_packed_rank_name:'62'} -> {g:citadel_packed_rank_name:'63'}). Per passare da un badge di grado pieno a quello successivo, devi guadagnare 2.000 punti competitivi (es. {g:citadel_packed_rank_name:'56'} -> {g:citadel_packed_rank_name:'61'})."
+		"Citadel_Ranked_Overview_Playing_Bullet2:f"		"Alla promozione a un nuovo grado o sotto-grado, ottieni delle protezioni anti-retrocessione. Per le promozioni a un badge di grado completo, ottieni {d:main_rank_demotion_protection} {main_rank_demotion_protection, plural, one {protezione} other {protezioni}} e per ogni sotto-grado ottieni {d:sub_rank_demotion_protection} {sub_rank_demotion_protection, plural, one {protezione} other {protezioni}}. Se perdi mentre la protezione anti-retrocessione è attiva e avresti perso un grado, rimani invece allo stesso grado e viene consumata una protezione. La protezione anti-retrocessione non viene assegnata per i gradi o i sotto-gradi superiori a {g:citadel_packed_rank_name:last_demotion_protection_packed_rank}."
+		"Citadel_Ranked_Overview_Playing_Bullet3"		"Per passare da un sotto-grado a quello superiore, devi ottenere {d:sub_rank_progress_required} punti competitivi (es. {g:citadel_packed_rank_name:'62'} -> {g:citadel_packed_rank_name:'63'}). Per passare da un badge di grado pieno a quello superiore, devi ottenere {d:main_rank_progress_required} punti competitivi (es. {g:citadel_packed_rank_name:'56'} -> {g:citadel_packed_rank_name:'61'})."
 		"Citadel_Ranked_Overview_Playing_Bullet4"		"Al grado più alto, le regole cambiano leggermente. Continui a guadagnare o perdere punti competitivi come prima, ma i sotto-gradi non sono più separati da quantità fisse di punti. Invece, una volta al giorno, i sotto-gradi vengono attribuiti in base ai percentili di ogni giocatore all'interno del grado {g:citadel_packed_rank_rank_name:'111'}."
 
 		"Citadel_Ranked_Overview_HeroSelection"			"Area d'attesa pre-partita"
@@ -839,10 +851,8 @@
 
 		"Citadel_LeaderboardRankDesc"				"A partire dal grado {g:citadel_packed_rank_name:leaderboard_packed_rank} e superiori, i badge non si ottengono più ricevendo un numero fisso di punti. Invece, tutti i giocatori idonei vengono piazzati in base ai punti competitivi e quindi ricevono i badge in base alla loro posizione percentile."
 
-
-
-
 		"Citadel_RankedSeasonName_BetaSeason1"		"Stagione beta 1"
+		"Citadel_RankedSeasonName_BetaSeason2"		"Stagione beta 2"
 
 		"Citadel_RankedProgress_CalibratedRank"		"Calibrazione completata"
 		"Citadel_RankedProgress_GainedRank"			"Promozione"
@@ -1238,7 +1248,6 @@
 
 		"Citadel_RankedMatchStatus_Counts"							"{d:count_current}/{d:count_required}"
 		"Citadel_RankedMatchStatus_Wins"							"Vittorie"
-
 		"Citadel_ViewMatchID_Title"									"ID partita"
 		"Citadel_ViewMatchID_Desc"									"Inserisci un ID partita per vedere i dettagli"
 		"Citadel_ViewMatchID_Prompt"								"ID della partita"
@@ -4606,12 +4615,16 @@
 		"Citadel_ranked_numGamesPlayed"				"Partite giocate: {s:games_played}"
 		"Citadel_ranked_match_history"				"Cronologia delle partite:"
 
-		"Citadel_Ranked_Validating"					"Elaborazione del matchmaking competitivo..."
-		"Citadel_Ranked_ErrorTitle"					"Errore nel matchmaking competitivo"
+		"Citadel_Ranked_PleaseWait"					"Attendi..."
+		"Citadel_Ranked_Validating"					"Unione alla stagione competitiva in corso"
+		"Citadel_Ranked_ErrorTitle"					"Impossibile avviare il matchmaking competitivo"
+		"Citadel_Ranked_Timeout"					"Tempo scaduto"
 		"Citadel_Ranked_NotEnoughMatchesPlayed"		"Partite giocate insufficienti."
 		"Citadel_Ranked_NotEnoughHeroesUnlocked"	"Eroi sbloccati insufficienti."
 		"Citadel_Ranked_InternalError"				"Errore interno."
 		"Citadel_RankedSeason_ViewNote"				"Visibile al termine della stagione"
+
+		"Citadel_RankedSeasonReward_Interact"		"{g:citadel_persona:nl:account_id} ha ottenuto il grado {g:citadel_packed_rank_name:packed_rank} durante {s:season_name}."
 
 		// Old Rank Names
 		"Citadel_ranks_rank0"						"Obscurus"
@@ -5719,8 +5732,8 @@
 		"ping_nevermind"										"Annulla"
 		"ping_see"												"In vista"
 		"ping_see_param_2"										"è qui con salute {s:param_2}"
-		"ping_enemy_count_small"									"Ce ne sono due."
-		"ping_enemy_count_big"									"Ce ne sono tanti."
+		"ping_enemy_count_small"									"Sono in due."
+		"ping_enemy_count_big"									"Sono in molti."
 		"ping_enemy_count_all"									"Sono tutti qui."
 		"Ping_Low_Health"										"scarsa"
 		"ping_they_are"											"Sono"

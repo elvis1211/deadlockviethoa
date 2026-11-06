@@ -1885,7 +1885,7 @@
 		"ability_charged_shot_quip"	"위력을 모아 담은 장거리 화살을 발사합니다."
 		"ability_charged_shot_desc"	"적군을 관통하는 <span class=\"highlight\">위력을 모아 담은 화살을 발사</span>합니다. {g:citadel_binding:'Ability1'} 키 또는 {g:citadel_binding:'Attack'} 키를 길게 누르면 발사 대기 상태가 유지됩니다."
 		"ability_charged_shot_t2_desc"	"피해 <span class=\"highlight\">+{s:Damage}</span> 증가 및 충전 지연 시간 <span class=\"highlight\">{s:AbilityCooldownBetweenCharge}초</span> 감소"
-		"ability_charged_shot_t3_desc"	"<span class=\"highlight\">피해 배수 증가</span><br><span class=\"highlight\">벽에 부딪히면 한 번 도탄</span>"
+		"ability_charged_shot_t3_desc"	"<span class=\"highlight\">피해 배수 증가</span><br><span class=\"highlight\">벽, 바닥, 천장에 부딪히면 한 번 도탄</span>"
 
 		//"PowerJumpChannelTime_label"			"In Power Jump Channel"
 		"PowerJumpChannelTime_postfix"		"초"
@@ -3075,6 +3075,7 @@
 		"citadel_ability_flying_strike/slow" "비상 검술 둔화"
 		//"citadel_ability_flying_strike/weapon_buff" "+Weapon Damage"				
 		"citadel_ability_flying_strike_t2_desc" "<span class=\"highlight\">{s:BuffDuration}초</span> 동안 마력 <span class=\"highlight\">+{s:SpiritBonus}</span> 획득"
+		"citadel_ability_flying_strike_t3_desc" "대체 능력 시전으로 아군에게 사용 가능<br>시전 범위 <span class=\"highlight\">+{s:AbilityCastRange}m</span> 증가<br><span class=\"highlight\">추가 충전 1회</span> 획득"
 		"yamato_flying_strike_t3_header"			"적군에게 도달 시:"
 
 		"citadel_ability_infinity_slash"		"그림자 변형"
@@ -4757,7 +4758,7 @@
 		
 		"ability_unicorn_luminousstrike"				"광휘의 단검"
 		"ability_unicorn_luminousstrike_desc"			"하늘에서 빛의 광선을 내려꽂습니다. 잠시 후, 광선이 완전히 형성되면 폭발을 일으키며 범위 내 모든 대상에게 {g:citadel_inline_attribute:'SpiritDamage'}를 입힙니다.<br><br>광선이 적군 영웅에게 적중할 때마다 셀레스트는 마법 피해가 증가하는 중첩 버프를 얻습니다."
-		"ability_unicorn_luminousstrike_t2_desc"		"쿨다운 {s:AbilityCooldown}초 감소 및 적중 시 피해 +{s:ImpactDamage} 증가"						"ability_unicorn_luminousstrike_t3_desc"		"마력 증폭 +{s:MagicIncreasePerStack}% 및 중첩당 연사 속도 +{s:FireRatePerStack}% 증가"
+		"ability_unicorn_luminousstrike_t2_desc"		"{s:AbilityCooldown}초 쿨다운, 충격 피해 +{s:ImpactDamage}, 시전 범위 +{s:AbilityCastRange}m"						"ability_unicorn_luminousstrike_t3_desc"		"마력 증폭 +{s:MagicIncreasePerStack}% 및 중첩당 연사 속도 +{s:FireRatePerStack}% 증가"
 		"ability_unicorn_luminousstrike/luminous_strike_dot_enemy"				"광휘의 일격 화상"
 		"ability_unicorn_luminousstrike/luminous_strike_buff"				"광휘의 단검"
 
@@ -4832,7 +4833,7 @@
 		"ability_fencer_lunge_on_proc"		"최대 중첩 시 발동"
 
 		"ability_fencer_riposte"	"반격"
-		"ability_fencer_riposte_desc" "다음 공격을 <span class=\"highlight\">튕겨낼</span> 준비를 합니다. 튕겨내기에 성공하면 잠시 동안 <span class=\"highlight\">무적</span> 상태가 되며, 적군 영웅을 지정해 대상에게 돌진합니다. 해당 적군 영웅은 <span class=\"highlight\">이동 불가</span> 상태가 되고 <span class=\"highlight\">방어</span>할 수 없으며 <span class=\"highlight\">근거리 공격 저항</span>이 감소합니다.<br><br><span class=\"diminish\">{g:citadel_binding:'Ability2'} 키를 눌러 대상을 선택합니다.<br>트루퍼 및 중립 유닛의 피해에는 발동하지 않습니다.</span>"
+		"ability_fencer_riposte_desc" "다음 공격을 <span class=\"highlight\">튕겨낼</span> 준비를 합니다. 튕겨내기에 성공하면 잠시 동안 <span class=\"highlight\">무적</span> 상태가 되며, 적군 영웅을 지정해 대상에게 돌진합니다. 해당 적군 영웅은 <span class=\"highlight\">이동 불가</span> 및 <span class=\"highlight\">무장 해제</span> 상태가 되고 <span class=\"highlight\">방어</span>할 수 없으며 <span class=\"highlight\">근거리 공격 저항</span>이 감소합니다.<br><br><span class=\"diminish\">{g:citadel_binding:'Ability2'} 키를 눌러 대상을 선택합니다.<br>트루퍼 및 중립 유닛의 피해에는 발동하지 않습니다.</span>"
 		"RiposteChannelTime_postvalue_label"	"튕겨내기 지속 시간"
 		"RiposteChannelTime_postfix"			"초"
 		"LungeCooldownReduction_prefix"			"-"
@@ -4852,7 +4853,7 @@
 		//"CounterTimeWindow_postfix"			"s"
 
 		"ability_fencer_riposte_attack"			"반격"
-		"ability_fencer_riposte_attack_desc"	"전방으로 빠르게 대시하여 무기 손잡이 끝으로 적군을 가격해 이동 불가 상태로 만들고, 방어하지 못하게 합니다."
+		"ability_fencer_riposte_attack_desc"	"전방으로 빠르게 대시하여 무기 손잡이 끝으로 적군을 가격해 이동 불가 및 무장 해제 상태로 만들고, 방어하지 못하게 합니다."
 		"MeleeResistReductionDuration_label"			"근거리 공격 저항 감소 지속 시간"
 		"MeleeResistReductionDuration_postvalue_label"	"약화 지속 시간"
 		"MeleeResistReductionDuration_postfix"			"초"
@@ -4967,7 +4968,7 @@
 		"AllyDamageReduction_postfix"	"%"
 		"AllyDamageReduction_label" "피해 감소"
 		"ability_ratking_standard_bearer_desc" "힘을 모아 랫타니아의 깃발을 소환합니다. 깃발 근처의 모든 아군은 깃발 가까이에 있는 동안 {g:citadel_inline_attribute:'MoveSpeed'}가 증가하고, <span class=\"highlight\">둔화에 면역</span>이 되며, <span class=\"highlight\">받는 피해가 감소</span>합니다."
-		"ability_ratking_standard_bearer_t1_desc" "이동 속도 +{s:BonusMoveSpeed}m 증가"
+		"ability_ratking_standard_bearer_t1_desc" "이동 속도 +{s:BonusMoveSpeed}m<br>쿨다운 {s:AbilityCooldown}초 감소"
 		"ability_ratking_standard_bearer_t2_desc" "깃발 지속 시간 +{s:FlagDuration}초 증가<br>반경 +{s:Radius}m 증가"
 		"ability_ratking_standard_bearer_t3_desc" "피해 +{s:Damage} 및 피해 감소 +{s:AllyDamageReduction}% 증가"
 		

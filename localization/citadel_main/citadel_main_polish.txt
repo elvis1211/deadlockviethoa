@@ -761,16 +761,20 @@
 
 		"Citadel_RankedSeason_SeasonEnded"			"Sezon się zakończył"
 		"Citadel_RankedSeason_TimeRemaining"		"{t:d:t:T:time_remaining} do końca"
+		"Citadel_RankedSeason_LastDay"				"Ostatni dzień"
 
 		"Citadel_RankedSeason_CurrentRank"			"Obecna ranga"
 		"Citadel_RankedSeason_SeasonRank"			"Ranga w sezonie"
 		"Citadel_RankedSeason_HighestRank"			"Najwyższa ranga"
+		"Citadel_RankedSeason_FinalRank"			"Najwyższa ranga w sezonie"
 
 		"Citadel_RankedSeason_ProtectionRemaining:f"			"{demotion_protection_total, plural, one{Pozostała {d:demotion_protection_remaining}/{d:demotion_protection_total} ochron} few{Pozostały {d:demotion_protection_remaining}/{d:demotion_protection_total} ochron} many{Pozostało {d:demotion_protection_remaining}/{d:demotion_protection_total} ochron} other{Pozostało {d:demotion_protection_remaining}/{d:demotion_protection_total} ochron}}"
 		"Citadel_RankedSeason_ProtectionUsed"			"Użyto ochrony przed degradacją"
 		"Citadel_RankedSeason_ResultingRank"			"Uzyskana ranga"
 		"Citadel_RankedSeason_HeroWins:f"	"{d:hero_wins} {hero_wins, plural, one{wygrana} few{wygrane} many{wygranych} other{wygranej}}"
 		"Citadel_RankedSeason_HeroWinsRequired:f"	"Potrzebujesz <b>{d:wins_required_per_hero} {wins_required_per_hero, plural, one{wygranej} few{wygranych} many{wygranych} other{wygranej}}</b>, by odblokować bohatera w trybie rankingowym."
+		"Citadel_RankedSeason_HeroPoints:f"	"{d:hero_points} {hero_points, plural, one{punkt} few{punkty} many{punktów} other{punktu}}"
+		"Citadel_RankedSeason_HeroPointsRequired:f"	"Potrzebujesz <b>{d:points_required_per_hero} {points_required_per_hero, plural, one{punktu} few{punktów} many{punktów} other{punktu}}</b>, by odblokować bohatera w trybie rankingowym.<br />Wygrana = 2 punkty&nbsp;&nbsp;/&nbsp;&nbsp;Przegrana = 1 punkt"
 		"Citadel_Ranked_ViewSeasonHistory"		"Zobacz historię sezonów"
 		"Citadel_Ranked_ViewLeaderboards"		"Wyświetl klasyfikację"
 
@@ -791,19 +795,23 @@
 
 		"Citadel_RankedSeason_EligibilityTitle"				"Wymagania do gry w trybie rankingowym:"
 		"Citadel_RankedSeason_Eligibility_AccountWins:f"	"{d:current_account_wins} / {d:required_account_wins} wygranych w trybie standardowym"
-		"Citadel_RankedSeason_Eligibility_HeroUnlocks:f"	"{d:current_unlocked_heroes} / {d:required_unlocked_heroes} bohaterów z przynajmniej {d:required_hero_win_count} wygranymi"
 		"Citadel_RankedSeason_Eligibility_NotEligible"		"Rozgrywaj mecze standardowe, by odblokować mecze rankingowe"
 		"Citadel_RankedSeason_Eligibility_Eligible"			"Tryb rankingowy jest dostępny w menu „Graj”"
+
+		"Citadel_RankedSeason_JoinSeason"				"Dołącz do sezonu"
 
 		"Citadel_RankedMatchHistory_Calibrating"		"Kalibracja {d:calibrating_number}/{d:calibration_matches}"
 		"Citadel_RankedMatchHistory_Calibrated"			"Kalibracja zakończona"
 		"Citadel_RankedMatchHistory_PointsChange"		"{s:rank_points_change} pkt."
 
-		"Citadel_RankedHistory_Title"					"Sezony rankingowe"
+		"Citadel_RankedHistory_Title"					"Historia sezonów rankingowych"
 		"Citadel_RankedHistory_SeasonNotJoined"			"Nie dołączono"
 		"Citadel_RankedHistory_SeasonNotCalibrated"		"Nie skalibrowano"
 		"Citadel_RankedHistory_SeasonCalibrating"		"Kalibracja"
 		"Citadel_RankedHistory_SeasonUpcoming"			"--"
+
+		
+		"Citadel_RankedSeasonCompleted_Title"			"dobiegł końca"
 
 		"Citadel_Ranked_NoSeasonActive"			"Brak obecnie aktywnego sezonu"
 
@@ -822,15 +830,11 @@
 
 
 		"Citadel_Ranked_Overview_Eligibility"			"Kryteria udziału"
-		"Citadel_Ranked_Overview_Eligibility_Bullet1:f"	"Musisz mieć na koncie łącznie co najmniej {d:required_account_wins} {required_account_wins, plural, one{wygraną} few{wygrane} many{wygranych} other{wygranej}}. Musisz również mieć co najmniej {d:required_hero_unlocks} {required_hero_unlocks, plural, one{bohatera} few{bohaterów} many{bohaterów} other{bohatera}}, z których każdy ma {d:required_hero_wins} {required_hero_wins, plural, one{wygraną} few{wygrane} many{wygranych} other{wygranej}} w trybie standardowym."
+		"Citadel_Ranked_Overview_Eligibility_Bullet1_HeroWins:f"	"Musisz mieć co najmniej {d:required_hero_unlocks} {required_hero_unlocks, plural, one{bohatera} few{bohaterów} many{bohaterów} other{bohatera}}, z których każdy ma co najmniej {d:required_hero_wins} {required_hero_wins, plural, one{wygraną} few{wygrane} many{wygranych} other{wygranej}} w trybie standardowym."
 		"Citadel_Ranked_Overview_Eligibility_Bullet2"				"Gracze mogą dołączać do kolejki rankingowej wyłącznie w pojedynkę lub w parach. Maksymalna różnica między członkami pary wynosi 1 rangę. Gracze o randze Eternusa mogą szukać gry tylko z innymi Eternusami, których dzielą maksymalnie 3 podrangi."
-		"Citadel_Ranked_Overview_Eligibility_Bullet3"				"Musisz ukończyć {d:required_solo_calibration_games} gier kalibracyjnych w pojedynkę. Maksymalna ranga, z jaką można zakończyć kalibrację, to {g:citadel_packed_rank_name:max_calibration_rank}."
-
-
 		"Citadel_Ranked_Overview_PlayingMatches"		"Awansowanie"
 		"Citadel_Ranked_Overview_Playing_Bullet1"		"Za każdą wygraną zyskasz średnio +/- {d:ranked_point_gain} pkt., a za przegraną stracisz taką samą wartość. Wartości te mogą się nieznacznie różnić w zależności od przewidywań systemu wyszukiwania gier lub od serii wygranych. Po każdym meczu zobaczysz, jak liczba punktów rankingowych aktualizuje się na widocznym pasku postępu."
-		"Citadel_Ranked_Overview_Playing_Bullet2"		"Za awans na nową rangę lub podrangę otrzymasz żetony ochrony przed degradacją. Za awans o pełną rangę otrzymujesz 5 żetonów, a za każdą podrangę 2 żetony. Jeśli przegrasz, mając aktywną ochronę przed degradacją, a przegrana ta skutkowałaby utratą rangi, zamiast tego ją zachowujesz, zużywając jeden żeton."
-		"Citadel_Ranked_Overview_Playing_Bullet3"		"Aby awansować z jednej podrangi na kolejną (np. {g:citadel_packed_rank_name:'62'} → {g:citadel_packed_rank_name:'63'}), potrzebujesz 1000 punktów rankingowych. Aby awansować z jednej rangi na kolejną (np. {g:citadel_packed_rank_name:'56'} → {g:citadel_packed_rank_name:'61'}), potrzebujesz 2000 punktów rankingowych."
+		"Citadel_Ranked_Overview_Playing_Bullet3"		"Aby awansować z jednej podrangi na kolejną (np. {g:citadel_packed_rank_name:'62'} → {g:citadel_packed_rank_name:'63'}), potrzebujesz {d:sub_rank_progress_required} punktów rankingowych. Aby awansować z jednej rangi na kolejną (np. {g:citadel_packed_rank_name:'56'} → {g:citadel_packed_rank_name:'61'}), potrzebujesz {d:main_rank_progress_required} punktów rankingowych."
 		"Citadel_Ranked_Overview_Playing_Bullet4"		"Na najwyższej randze zasady nieco się zmieniają. Wciąż zyskujesz lub tracisz punkty rankingowe w ten sam sposób, ale podrangi nie są już wyznaczane przez stałe wartości punktowe. Zamiast tego, raz dziennie podrangi są przyznawane na podstawie percentyla graczy z rangą {g:citadel_packed_rank_rank_name:'111'}."
 
 		"Citadel_Ranked_Overview_HeroSelection"			"Poczekalnia przedmeczowa"
@@ -839,11 +843,7 @@
 
 		"Citadel_LeaderboardRankDesc"				"Na poziomie {g:citadel_packed_rank_name:leaderboard_packed_rank} i wyżej podrangi nie są już zyskiwane przez zdobywanie stałej liczby punktów. Zamiast tego wszyscy kwalifikujący się gracze są rozmieszczani w kolejności wedle punktów rankingowych, a następnie przydziela im się odznakę zależną od ich pozycji centylowej."
 
-
-
-
 		"Citadel_RankedSeasonName_BetaSeason1"		"Sezon beta nr 1"
-
 		"Citadel_RankedProgress_CalibratedRank"		"Kalibracja zakończona"
 		"Citadel_RankedProgress_GainedRank"			"Awans"
 		"Citadel_RankedProgress_LostRank"			"Degradacja do:"
@@ -1238,7 +1238,6 @@
 
 		"Citadel_RankedMatchStatus_Counts"							"{d:count_current}/{d:count_required}"
 		"Citadel_RankedMatchStatus_Wins"							"Wygrane"
-
 		"Citadel_ViewMatchID_Title"									"Zobacz ID meczu"
 		"Citadel_ViewMatchID_Desc"									"Wprowadź ID meczu, by zobaczyć jego szczegóły."
 		"Citadel_ViewMatchID_Prompt"								"ID meczu"
@@ -4606,8 +4605,10 @@
 		"Citadel_ranked_numGamesPlayed"				"Rozegrane gry: {s:games_played}"
 		"Citadel_ranked_match_history"				"Historia meczów:"
 
-		"Citadel_Ranked_Validating"					"Przetwarzanie wyszukiwania meczów rankingowych…"
-		"Citadel_Ranked_ErrorTitle"					"Błąd wyszukiwania meczów rankingowych"
+		"Citadel_Ranked_PleaseWait"					"Proszę czekać…"
+		"Citadel_Ranked_Validating"					"Dołączanie do sezonu rankingowego"
+		"Citadel_Ranked_ErrorTitle"					"Nie można rozpocząć wyszukiwania meczu rankingowego"
+		"Citadel_Ranked_Timeout"					"Przekroczono limit czasu"
 		"Citadel_Ranked_NotEnoughMatchesPlayed"		"Nie rozegrano wystarczającej liczby meczów."
 		"Citadel_Ranked_NotEnoughHeroesUnlocked"	"Nie odblokowano wystarczającej liczby bohaterów."
 		"Citadel_Ranked_InternalError"				"Błąd wewnętrzny."
@@ -4632,7 +4633,7 @@
 		"Citadel_ranks_1"							"Nowicjusz"
 		"Citadel_ranks_2"							"Poszukiwacz"
 		"Citadel_ranks_3"							"Akolita"
-		"Citadel_ranks_4"							"Konstabl"
+		"Citadel_ranks_4"							"Wartownik"
 		"Citadel_ranks_5"							"Mistyk"
 		"Citadel_ranks_6"							"Rytualista"
 		"Citadel_ranks_7"							"Emisariusz"
@@ -6005,7 +6006,7 @@
 		"Citadel_PostGame_AwardKills"				"<span class=\"rank_demote\">Najwięcej</span><br/>zabójstw"
 		"Citadel_PostGame_AwardWeaponKills"			"<span class=\"rank_demote\">Najwięcej</span><br/>zabójstw z broni"
 		"Citadel_PostGame_AwardHeadshotKills"		"<span class=\"rank_demote\">Najwięcej</span><br/>zabójstw strzałem w głowę"
-		"Citadel_PostGame_AwardAbilityKills"		"<span class=\"rank_demote\">Najwięcej</span><br/>zabójstw z zdolności"
+		"Citadel_PostGame_AwardAbilityKills"		"<span class=\"rank_demote\">Najwięcej</span><br/>zabójstw ze zdolności"
 		"Citadel_PostGame_AwardMeleeKills"			"<span class=\"rank_demote\">Najwięcej</span><br/>zabójstw atakiem wręcz"
 		"Citadel_PostGame_AwardMaxKillstreak"		"<br/>Seria zabójstw"
 		"Citadel_PostGame_AwardAssists"				"<span class=\"rank_demote\">Najwięcej</span><br/>asyst"
@@ -6017,7 +6018,7 @@
 		"Citadel_PostGame_AwardKills_Rank2"			"<span class=\"rank_demote\">Drugie miejsce pod względem</span><br/>zabójstw"
 		"Citadel_PostGame_AwardWeaponKills_Rank2"	"<span class=\"rank_demote\">Drugie miejsce pod względem</span><br/>zabójstw z broni"
 		"Citadel_PostGame_AwardHeadshotKills_Rank2"	"<span class=\"rank_demote\">Drugie miejsce pod względem</span><br/>zabójstw strzałem w głowę"
-		"Citadel_PostGame_AwardAbilityKills_Rank2"	"<span class=\"rank_demote\">Drugie miejsce pod względem</span><br/>zabójstw z zdolności"
+		"Citadel_PostGame_AwardAbilityKills_Rank2"	"<span class=\"rank_demote\">Drugie miejsce pod względem</span><br/>zabójstw ze zdolności"
 		"Citadel_PostGame_AwardMeleeKills_Rank2"	"<span class=\"rank_demote\">Drugie miejsce pod względem</span><br/>zabójstw atakiem wręcz"
 		"Citadel_PostGame_AwardMaxKillstreak_Rank2"	"<br/>Seria zabójstw"
 		"Citadel_PostGame_AwardAssists_Rank2"		"<span class=\"rank_demote\">Drugie miejsce pod względem</span><br/>asyst"
@@ -6029,7 +6030,7 @@
 		"Citadel_PostGame_AwardKills_Rank3"			"<span class=\"rank_demote\">Trzecie miejsce pod względem</span><br/>zabójstw"
 		"Citadel_PostGame_AwardWeaponKills_Rank3"	"<span class=\"rank_demote\">Trzecie miejsce pod względem</span><br/>zabójstw z broni"
 		"Citadel_PostGame_AwardHeadshotKills_Rank3"	"<span class=\"rank_demote\">Trzecie miejsce pod względem</span><br/>zabójstw strzałem w głowę"
-		"Citadel_PostGame_AwardAbilityKills_Rank3"	"<span class=\"rank_demote\">Trzecie miejsce pod względem</span><br/>zabójstw z zdolności"
+		"Citadel_PostGame_AwardAbilityKills_Rank3"	"<span class=\"rank_demote\">Trzecie miejsce pod względem</span><br/>zabójstw ze zdolności"
 		"Citadel_PostGame_AwardMeleeKills_Rank3"	"<span class=\"rank_demote\">Trzecie miejsce pod względem</span><br/>zabójstw atakiem wręcz"
 		"Citadel_PostGame_AwardMaxKillstreak_Rank3"	"<br/>Seria zabójstw"
 		"Citadel_PostGame_AwardAssists_Rank3"		"<span class=\"rank_demote\">Trzecie miejsce pod względem</span><br/>asyst"
@@ -6041,7 +6042,7 @@
 		"Citadel_PostGame_AwardKills_RankOther"			"<br/>Zabójstwa"
 		"Citadel_PostGame_AwardWeaponKills_RankOther"	"<br/>Zabójstwa z broni"
 		"Citadel_PostGame_AwardHeadshotKills_RankOther"	"<br/>Zabójstwa strzałem w głowę"
-		"Citadel_PostGame_AwardAbilityKills_RankOther"	"<br/>Zabójstwa z zdolności"
+		"Citadel_PostGame_AwardAbilityKills_RankOther"	"<br/>Zabójstwa ze zdolności"
 		"Citadel_PostGame_AwardMeleeKills_RankOther"	"<br/>Zabójstwa atakiem wręcz"
 		"Citadel_PostGame_AwardMaxKillstreak_RankOther"	"<br/>Seria zabójstw"
 		"Citadel_PostGame_AwardAssists_RankOther"		"<br/>Asysty"

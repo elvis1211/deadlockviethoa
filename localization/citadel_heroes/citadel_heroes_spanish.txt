@@ -4758,7 +4758,7 @@
 		
 		"ability_unicorn_luminousstrike"				"Dagas Radiantes"
 		"ability_unicorn_luminousstrike_desc"			"Invoca un rayo de luz desde el cielo. Tras un breve intervalo, el rayo se forma por completo y provoca una explosión que inflige {g:citadel_inline_attribute:'SpiritDamage'} a todos los objetivos en el área.<br><br>Celeste recibirá una mejora acumulable que aumentará su daño espiritual cada vez que alcance a un héroe enemigo."
-		"ability_unicorn_luminousstrike_t2_desc"		"{s:AbilityCooldown} s de tiempo de recarga y +{s:ImpactDamage} de daño por impacto"						"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack} % de amplificación espiritual y +{s:FireRatePerStack} % de cadencia de tiro por acumulación"
+		"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack} % de amplificación espiritual y +{s:FireRatePerStack} % de cadencia de tiro por acumulación"
 		"ability_unicorn_luminousstrike/luminous_strike_dot_enemy"				"Quemadura por Ataque Luminoso"
 		"ability_unicorn_luminousstrike/luminous_strike_buff"				"Dagas Radiantes"
 
@@ -4833,7 +4833,6 @@
 		"ability_fencer_lunge_on_proc"		"Al activarse con el máximo de acumulaciones"
 
 		"ability_fencer_riposte"	"Contrataque"
-		"ability_fencer_riposte_desc" "Prepárate para <span class=\"highlight\">desviar</span> el siguiente ataque que recibas. Si consigues desviarlo, te vuelves <span class=\"highlight\">invulnerable</span> brevemente y seleccionas como objetivo a un héroe enemigo para impulsarte hacia él, <span class=\"highlight\">inmovilizándolo</span>, evitando que <span class=\"highlight\">contrataque</span> y reduciendo su <span class=\"highlight\">resistencia cuerpo a cuerpo</span>.<br><br><span class=\"diminish\">Pulsa {g:citadel_binding:'Ability2'} para seleccionar un objetivo.<br>No se activa con los ataques de soldados o unidades neutrales.</span>"
 		"RiposteChannelTime_postvalue_label"	"de duración de la desviación"
 		"RiposteChannelTime_postfix"			" s"
 		"LungeCooldownReduction_prefix"			"-"
@@ -4853,7 +4852,6 @@
 		//"CounterTimeWindow_postfix"			"s"
 
 		"ability_fencer_riposte_attack"			"Contrataque"
-		"ability_fencer_riposte_attack_desc"	"Impúlsate rápidamente hacia delante e inmoviliza a un enemigo con el pomo de tu arma, evitando que contrataque."
 		"MeleeResistReductionDuration_label"			"Reducción de la resistencia c. a cuerpo"
 		"MeleeResistReductionDuration_postvalue_label"	"de duración de la desventaja"
 		"MeleeResistReductionDuration_postfix"			" s"
@@ -4968,7 +4966,6 @@
 		"AllyDamageReduction_postfix"	" %"
 		"AllyDamageReduction_label" "Reducción del daño"
 		"ability_ratking_standard_bearer_desc" "Embiste e invoca la bandera de Ratannia para otorgar {g:citadel_inline_attribute:'MoveSpeed'} aumentada, <span class=\"highlight\">inmunidad a las ralentizaciones</span> y <span class=\"highlight\">reducción del daño recibido</span> a todos los aliados cercanos mientras estén cerca de la bandera."
-		"ability_ratking_standard_bearer_t1_desc" "+{s:BonusMoveSpeed} m⁠/⁠s de velocidad de movimiento"
 		"ability_ratking_standard_bearer_t2_desc" "+{s:FlagDuration} s de duración de la bandera y +{s:Radius} m de radio"
 		"ability_ratking_standard_bearer_t3_desc" "+{s:Damage} de daño y +{s:AllyDamageReduction} % de reducción del daño"
 		

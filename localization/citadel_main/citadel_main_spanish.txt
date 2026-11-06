@@ -761,16 +761,20 @@
 
 		"Citadel_RankedSeason_SeasonEnded"			"La temporada ha terminado"
 		"Citadel_RankedSeason_TimeRemaining"		"Queda(n) {t:d:t:T:time_remaining}"
+		"Citadel_RankedSeason_LastDay"				"Último día"
 
 		"Citadel_RankedSeason_CurrentRank"			"Rango actual"
 		"Citadel_RankedSeason_SeasonRank"			"Rango de la temporada"
 		"Citadel_RankedSeason_HighestRank"			"Rango más alto"
+		"Citadel_RankedSeason_FinalRank"			"Rango más alto de la temporada"
 
 		"Citadel_RankedSeason_ProtectionRemaining:f"			"{d:demotion_protection_remaining}/{d:demotion_protection_total} {demotion_protection_total, plural, one{protección restante} other{protecciones restantes}}"
 		"Citadel_RankedSeason_ProtectionUsed"			"Protección antidescensos utilizada"
 		"Citadel_RankedSeason_ResultingRank"			"Rango resultante"
 		"Citadel_RankedSeason_HeroWins:f"	"{d:hero_wins} {hero_wins, plural, one{victoria} other{victorias}}"
-		"Citadel_RankedSeason_HeroWinsRequired:f"	"<b>{d:wins_required_per_hero} {wins_required_per_hero, plural, one{victoria necesaria} other{victorias necesarias}}</b> para que el héroe esté disponible en las partidas clasificatorias"
+		"Citadel_RankedSeason_HeroWinsRequired:f"	"<b>{d:wins_required_per_hero} {wins_required_per_hero, plural, one{victoria necesaria} other{victorias necesarias}}</b> para que el héroe esté disponible en las partidas clasificatorias."
+		"Citadel_RankedSeason_HeroPoints:f"	"{d:hero_points} {hero_points, plural, one{punto} other{puntos}}"
+		"Citadel_RankedSeason_HeroPointsRequired:f"	"<b>{d:points_required_per_hero} {points_required_per_hero, plural, one{punto necesario} other{puntos necesarios}}</b> para que el héroe esté disponible en las partidas clasificatorias.<br />Victoria = 2 puntos&nbsp;&nbsp;/&nbsp;&nbsp;Derrota = 1 punto"
 		"Citadel_Ranked_ViewSeasonHistory"		"Ver historial de la temporada"
 		"Citadel_Ranked_ViewLeaderboards"		"Ver clasificaciones"
 
@@ -791,19 +795,25 @@
 
 		"Citadel_RankedSeason_EligibilityTitle"				"Requisitos para jugar partidas clasificatorias:"
 		"Citadel_RankedSeason_Eligibility_AccountWins:f"	"{d:current_account_wins} / {d:required_account_wins} victorias en el modo estándar"
-		"Citadel_RankedSeason_Eligibility_HeroUnlocks:f"	"{d:current_unlocked_heroes} / {d:required_unlocked_heroes} héroes con {d:required_hero_win_count} o más victorias"
+		"Citadel_RankedSeason_Eligibility_HeroUnlocks_Wins:f"	"{d:current_unlocked_heroes} / {d:required_unlocked_heroes} héroes con {d:required_hero_win_count} o más victorias"
+		"Citadel_RankedSeason_Eligibility_HeroUnlocks_Points:f"	"{d:current_unlocked_heroes} / {d:required_unlocked_heroes} héroes con {d:required_hero_point_count} o más puntos"
 		"Citadel_RankedSeason_Eligibility_NotEligible"		"Juega partidas estándar para desbloquear las partidas clasificatorias"
 		"Citadel_RankedSeason_Eligibility_Eligible"			"El modo clasificatorio está disponible en el menú «Jugar»"
+
+		"Citadel_RankedSeason_JoinSeason"				"Unirse a la temporada"
 
 		"Citadel_RankedMatchHistory_Calibrating"		"Calibrando {d:calibrating_number}/{d:calibration_matches}"
 		"Citadel_RankedMatchHistory_Calibrated"			"Calibración completada"
 		"Citadel_RankedMatchHistory_PointsChange"		"{s:rank_points_change} puntos"
 
-		"Citadel_RankedHistory_Title"					"Temporadas clasificatorias"
+		"Citadel_RankedHistory_Title"					"Historial de temporadas clasificatorias"
 		"Citadel_RankedHistory_SeasonNotJoined"			"No participaste"
 		"Citadel_RankedHistory_SeasonNotCalibrated"		"Sin calibrar"
 		"Citadel_RankedHistory_SeasonCalibrating"		"Calibrando"
 		"Citadel_RankedHistory_SeasonUpcoming"			"--"
+
+		
+		"Citadel_RankedSeasonCompleted_Title"			"ha finalizado"
 
 		"Citadel_Ranked_NoSeasonActive"			"No hay ninguna temporada activa actualmente"
 
@@ -822,15 +832,17 @@
 
 
 		"Citadel_Ranked_Overview_Eligibility"			"Requisitos"
-		"Citadel_Ranked_Overview_Eligibility_Bullet1:f"	"Debes haber ganado por lo menos {d:required_account_wins} {required_account_wins, plural, one {partida} other {partidas}} en total con tu cuenta. Además, debes tener por lo menos {d:required_hero_unlocks} {required_hero_unlocks, plural, one {héroe desbloqueado} other {héroes desbloqueados}} y haber ganado {d:required_hero_wins} {required_hero_wins, plural, one {partida estándar con él} other {partidas estándar con cada uno de ellos}}."
+		"Citadel_Ranked_Overview_Eligibility_Bullet1:f"	"Debes tener al menos {d:required_account_wins} {required_account_wins, plural, one {victoria} other {victorias}} en total en la cuenta."
+		"Citadel_Ranked_Overview_Eligibility_Bullet1_HeroWins:f"	"Debes tener al menos {d:required_hero_unlocks} {required_hero_unlocks, plural, one {héroe desbloqueado} other {héroes desbloqueados}} y haber ganado {d:required_hero_wins} {required_hero_wins, plural, one {partida estándar con él} other {partidas estándar con cada uno de ellos}}."
+		"Citadel_Ranked_Overview_Eligibility_Bullet1_HeroPoints:f"	"Debes tener al menos {d:required_hero_unlocks} {required_hero_unlocks, plural, one {héroe} other {héroes}} con {d:required_hero_points} {required_hero_points, plural, one {punto} other {puntos}}. Cada victoria en el modo estándar vale 2 puntos y una derrota en dicho modo vale 1 punto."
 		"Citadel_Ranked_Overview_Eligibility_Bullet2"				"Los jugadores solo pueden hacer cola para jugar partidas en solitario o por parejas. Para jugar en pareja, los jugadores solo pueden tener un rango de diferencia entre sí. Los jugadores Eternos solo pueden hacer cola con otros jugadores Eternos con los que no tengan más de 3 subrangos de diferencia."
-		"Citadel_Ranked_Overview_Eligibility_Bullet3"				"Debes completar {d:required_solo_calibration_games} partidas de calibración en solitario. El rango máximo con el que puedes salir de la calibración es {g:citadel_packed_rank_name:max_calibration_rank}."
+		"Citadel_Ranked_Overview_Eligibility_Bullet3"				"Si no participaste en la temporada clasificatoria anterior, debes completar {d:required_solo_calibration_games} partidas de calibración en solitario. El rango máximo con el que puedes salir de la calibración es {g:citadel_packed_rank_name:max_calibration_rank}."
 
 
 		"Citadel_Ranked_Overview_PlayingMatches"		"Nuevo nivel"
 		"Citadel_Ranked_Overview_Playing_Bullet1"		"Por cada victoria o derrota, consigues una media de +⁠/⁠- {d:ranked_point_gain} puntos. Esta cantidad puede variar ligeramente dependiendo de las expectativas que el sistema de emparejamiento tuviera para esa partida, o de las rachas de victorias. Los puntos de clasificación se actualizan con una barra de progreso visible después de cada partida."
-		"Citadel_Ranked_Overview_Playing_Bullet2"		"Cuando subes de rango o subrango, obtienes fichas de protección antidescensos. Por un aumento de rango completo, consigues 5 fichas y, por un aumento de subrango, 2 fichas. Si pierdes una partida mientras la protección antidescensos está activa y la derrota te haría descender un rango, se consume una ficha y conservas el mismo rango."
-		"Citadel_Ranked_Overview_Playing_Bullet3"		"Para ascender de un subrango al siguiente, necesitas ganar 1000 puntos de clasificación (por ejemplo, de {g:citadel_packed_rank_name:'62'} a {g:citadel_packed_rank_name:'63'}). Para ascender de un rango completo al siguiente, necesitas ganar 2000 puntos de clasificación (por ejemplo, de {g:citadel_packed_rank_name:'56'} a {g:citadel_packed_rank_name:'61'})."
+		"Citadel_Ranked_Overview_Playing_Bullet2:f"		"Cada vez que subes de rango o subrango, obtienes escudos de protección antidescensos. Por un aumento de rango completo, consigues {d:main_rank_demotion_protection} {main_rank_demotion_protection, plural, one {escudo} other {escudos}} y, por un aumento de subrango, {d:sub_rank_demotion_protection} {sub_rank_demotion_protection, plural, one {escudo} other {escudos}}. Si pierdes una partida mientras la protección antidescensos está activa y la derrota te haría descender un rango, se consume un escudo y conservas el mismo rango. No se otorga protección antidescensos en rangos o subrangos superiores a {g:citadel_packed_rank_name:last_demotion_protection_packed_rank}."
+		"Citadel_Ranked_Overview_Playing_Bullet3"		"Para ascender de un subrango al siguiente, necesitas ganar {d:sub_rank_progress_required} puntos de clasificación (por ejemplo, de {g:citadel_packed_rank_name:'62'} a {g:citadel_packed_rank_name:'63'}). Para ascender de un rango completo al siguiente, necesitas ganar {d:main_rank_progress_required} puntos de clasificación (por ejemplo, de {g:citadel_packed_rank_name:'56'} a {g:citadel_packed_rank_name:'61'})."
 		"Citadel_Ranked_Overview_Playing_Bullet4"		"En el rango más alto, las reglas son ligeramente diferentes. Sigues ganando o perdiendo puntos de clasificación como siempre, pero los subrangos no están ligados a una cantidad fija de puntos. En su lugar, una vez al día, se asignan subrangos según los percentiles de jugadores del rango {g:citadel_packed_rank_rank_name:'111'}."
 
 		"Citadel_Ranked_Overview_HeroSelection"			"Sala de espera previa a la partida"
@@ -839,10 +851,8 @@
 
 		"Citadel_LeaderboardRankDesc"				"A partir del rango {g:citadel_packed_rank_name:leaderboard_packed_rank}, no se consiguen subrangos por recibir una cantidad fija de puntos, sino que todos los jugadores que cumplen los requisitos se clasifican según los puntos de clasificación y luego se les asigna un subrango en función de su percentil."
 
-
-
-
 		"Citadel_RankedSeasonName_BetaSeason1"		"Temporada beta 1"
+		"Citadel_RankedSeasonName_BetaSeason2"		"Temporada beta 2"
 
 		"Citadel_RankedProgress_CalibratedRank"		"Calibración completada"
 		"Citadel_RankedProgress_GainedRank"			"Has subido de rango"
@@ -1238,7 +1248,6 @@
 
 		"Citadel_RankedMatchStatus_Counts"							"{d:count_current} / {d:count_required}"
 		"Citadel_RankedMatchStatus_Wins"							"Victorias"
-
 		"Citadel_ViewMatchID_Title"									"Ver el id. de la partida"
 		"Citadel_ViewMatchID_Desc"									"Introduce el id. de una partida para ver sus detalles"
 		"Citadel_ViewMatchID_Prompt"								"Id. de la partida"
@@ -4606,8 +4615,10 @@
 		"Citadel_ranked_numGamesPlayed"				"{s:games_played} partidas jugadas"
 		"Citadel_ranked_match_history"				"Historial de partidas:"
 
-		"Citadel_Ranked_Validating"					"Procesando emparejamiento clasificatorio..."
-		"Citadel_Ranked_ErrorTitle"					"Error en el emparejamiento clasificatorio"
+		"Citadel_Ranked_PleaseWait"					"Espera, por favor..."
+		"Citadel_Ranked_Validating"					"Uniéndose a la temporada clasificatoria"
+		"Citadel_Ranked_ErrorTitle"					"No ha sido posible iniciar el emparejamiento clasificatorio"
+		"Citadel_Ranked_Timeout"					"Se agotó el tiempo"
 		"Citadel_Ranked_NotEnoughMatchesPlayed"		"No has jugado suficientes partidas."
 		"Citadel_Ranked_NotEnoughHeroesUnlocked"	"No has desbloqueado suficientes héroes."
 		"Citadel_Ranked_InternalError"				"Error interno."

@@ -1635,7 +1635,7 @@
 		"StompRadius_postfix"						"m"
 		//"MinAirTimeForStomp_label"					"Min Air Time for Stomp"
 		//"MinAirTimeForStomp_postfix"				"s"
-		"ability_bounce_pad/speed_on_land""Tốc độ di chuyển"
+		"ability_bounce_pad/speed_on_land""Move Speed"
 
 		"ability_crackshot"						"Xạ thủ thiện xạ"
 		"ability_crackshot_quip"				"Gây sát thương cộng thêm khi bắn trúng đầu"
@@ -3203,8 +3203,8 @@
 		"viscous_goo_grenade/modifier_viscous_goo_grenade_debuff"		"Bị làm chậm"
 		"viscous_goo_grenade_t1_desc"					"+{s:Damage} sát thương và +{s:Radius}m bán kính"
 		"viscous_goo_grenade_t3_desc"					"+{s:MaxBounces} Lần nảy và hệ số tăng theo phép thuật được cải thiện"
-		"MaxBounces_label""Số lần nảy"
-		"MaxBounces_postvalue_label""Số lần nảy"
+		"MaxBounces_label""Bounces"
+		"MaxBounces_postvalue_label""Bounces"
 		"PuddleRadius_label"							"Bán kính vũng chất nhầy"
 		"PuddleRadius_postvalue_label"							"Bán kính vũng chất nhầy"
 		"PuddleRadius_postfix"							"m"
@@ -3252,13 +3252,13 @@
 
 		"DamageHeavyMelee_postvalue_label"						"Sát thương"
 
-		"viscous_gootapult""Bệ Phóng Nhầy"
+		"viscous_gootapult""Splatapult"
 		//"viscous_gootapult_desc"						"Charge up and launch yourself, dealing damage and leaving a slowing area on impact."
 
 		//"GooSlowPercent_label"							"Puddle Slow Percent"
 		"GooSlowPercent_postfix"						"%"
-		"GooDuration_label""Thời gian tồn tại của vũng chất nhầy"
-		"GooDuration_postvalue_label""Thời gian tồn tại của vũng chất nhầy"
+		"GooDuration_label""Puddle Duration"
+		"GooDuration_postvalue_label""Puddle Duration"
 		"GooDuration_postfix"							"s"
 		//"citadel_ability_viscous_ball_boost"			"Slam Ball"
 		"RollingTime_label"								"Thời gian lăn"
@@ -3779,7 +3779,7 @@
 		"BatPerSecond_postvalue_label" "Số dơi mỗi giây"
 
 		"ability_vampirebat_steallife" "Cào Xé"
-		"ability_vampirebat_steallife_desc""<span class=\"diminish\">Kích hoạt:</span> Chém bằng ô, gây {g:citadel_inline_attribute:'SpiritDamage'}, tăng theo lượng máu đã mất của mục tiêu. Nhận {g:citadel_inline_attribute:'Heal'} cho mỗi mục tiêu bị tiêu diệt.<br><br><span class=\"diminish\">Nội tại: </span>Giữ {g:citadel_binding:'ADS'} khiến bạn lơ lửng trong chốc lát.<br><span class=\"diminish\">Cào Xé kết liễu các đơn vị không phải tướng khi chúng còn dưới {s:TrooperExecuteThreshold} máu.</span>"
+		"ability_vampirebat_steallife_desc""<span class=\"diminish\">Active:</span> Slash with your umbrella, dealing {g:citadel_inline_attribute:'SpiritDamage'}, increasing with their missing health. Receive a {g:citadel_inline_attribute:'Heal'} for every target killed.<br><br><span class=\"diminish\">Passive: </span>Holding {g:citadel_binding:'ADS'} causes you to briefly float.<br><span class=\"diminish\">Rake executes non-heroes below {s:TrooperExecuteThreshold} health.</span>"
 		"ability_vampirebat_steallife_t2_desc" "<span class=\"highlight\">+{s:RakeHealPerKill}</span> Hồi máu mỗi lần hạ gục <br>Thời gian hồi <span class=\"highlight\">{s:AbilityCooldown}s</span>"
 		"ability_vampirebat_steallife_t3_desc" "<span class=\"highlight\">+{s:MissingHealthDamagePercentage}%</span> Sát thương theo lượng máu đã mất và tăng hệ số sức mạnh phép thuật cho lượng hồi máu mỗi lần hạ gục"
 		"MissingHealthDamagePercentage_postvalue_label" "Máu đã mất chuyển thành sát thương"

@@ -1885,7 +1885,7 @@
 		"ability_charged_shot_quip"	"長距離を貫通する矢をチャージする"
 		"ability_charged_shot_desc"	"敵を貫通する<span class=\"highlight\">強力なショットをチャージ</span>する。{g:citadel_binding:'Ability1'}か{g:citadel_binding:'Attack'}長押しでショットを溜めることができる"
 		"ability_charged_shot_t2_desc"	"ダメージ <span class=\"highlight\">+{s:Damage}</span>、チャージディレイ <span class=\"highlight\">{s:AbilityCooldownBetweenCharge}秒</span>"
-		"ability_charged_shot_t3_desc"	"<span class=\"highlight\">ダメージスケーリング上昇</span><br><span class=\"highlight\">壁に当たると一度だけ跳弾する</span>"
+		"ability_charged_shot_t3_desc"	"<span class=\"highlight\">ダメージスケーリング上昇</span><br><span class=\"highlight\">壁、床または天井に当たると一度だけ跳弾する</span>"
 
 		//"PowerJumpChannelTime_label"			"In Power Jump Channel"
 		"PowerJumpChannelTime_postfix"		"秒"
@@ -3075,6 +3075,7 @@
 		"citadel_ability_flying_strike/slow" "フライングスラッシュ スロウ"
 		//"citadel_ability_flying_strike/weapon_buff" "+Weapon Damage"				
 		"citadel_ability_flying_strike_t2_desc" "<span class=\"highlight\">+{s:SpiritBonus}</span>のスピリットパワーを<span class=\"highlight\">{s:BuffDuration}秒間</span>獲得する"
+		"citadel_ability_flying_strike_t3_desc" "オルトキャストで味方に飛びつける<br>キャスト範囲 <span class=\"highlight\">+{s:AbilityCastRange}m</span><br><span class=\"highlight\">追加チャージを1つ</span>獲得"
 		"yamato_flying_strike_t3_header"			"対象到達時："
 
 		"citadel_ability_infinity_slash"		"トランスシャドウ"
@@ -4757,7 +4758,7 @@
 		
 		"ability_unicorn_luminousstrike"				"レディアントダガー"
 		"ability_unicorn_luminousstrike_desc"			"空から降り注ぐ光のビームを呼び寄せる。短いディレイの後、ビームが完全に形成され、範囲内にいるすべての対象に{g:citadel_inline_attribute:'SpiritDamage'}を与える爆発を発生させる<br><br>このアビリティが敵ヒーローにヒットするたび、スピリットダメージを上昇させるバフのスタックをセレステが獲得する"
-		"ability_unicorn_luminousstrike_t2_desc"		"クールダウン {s:AbilityCooldown}秒、着弾ダメージ +{s:ImpactDamage}"						"ability_unicorn_luminousstrike_t3_desc"		"スタックごとのスピリット増幅 +{s:MagicIncreasePerStack}%、発射速度 +{s:FireRatePerStack}%"
+		"ability_unicorn_luminousstrike_t3_desc"		"スタックごとのスピリット増幅 +{s:MagicIncreasePerStack}%、発射速度 +{s:FireRatePerStack}%"
 		"ability_unicorn_luminousstrike/luminous_strike_dot_enemy"				"ルミナスストライク 燃焼"
 		"ability_unicorn_luminousstrike/luminous_strike_buff"				"レディアントダガー"
 
@@ -4832,7 +4833,6 @@
 		"ability_fencer_lunge_on_proc"		"最大スタックプロック時："
 
 		"ability_fencer_riposte"	"リポスト"
-		"ability_fencer_riposte_desc" "次の攻撃を<span class=\"highlight\">受け流す</span>準備をする。受け流しに成功すると、短時間<span class=\"highlight\">無敵状態</span>となる。その後、指定した敵ヒーローに向かって素早くダッシュして<span class=\"highlight\">パリィ</span>を封じながら<span class=\"highlight\">移動不能</span>にし、<span class=\"highlight\">近接攻撃耐性</span>を低下させる<br><br><span class=\"diminish\">{g:citadel_binding:'Ability2'}で対象を選択する<br>トルーパーや中立モンスターのダメージでは発動しない</span>"
 		"RiposteChannelTime_postvalue_label"	"受け流し 継続時間"
 		"RiposteChannelTime_postfix"			"秒"
 		"LungeCooldownReduction_prefix"			"-"
@@ -4852,7 +4852,6 @@
 		//"CounterTimeWindow_postfix"			"s"
 
 		"ability_fencer_riposte_attack"			"リポスト"
-		"ability_fencer_riposte_attack_desc"	"前方に素早くダッシュし、パリィを封じながら武器の柄頭で敵を移動不能にする"
 		"MeleeResistReductionDuration_label"			"近接攻撃耐性低下 継続時間"
 		"MeleeResistReductionDuration_postvalue_label"	"デバフ継続時間"
 		"MeleeResistReductionDuration_postfix"			"秒"
@@ -4967,7 +4966,6 @@
 		"AllyDamageReduction_postfix"	"%"
 		"AllyDamageReduction_label" "ダメージ軽減"
 		"ability_ratking_standard_bearer_desc" "詠唱してラッタニアの旗を召喚し、突進を開始する。旗は付近にいるすべての味方に増加{g:citadel_inline_attribute:'MoveSpeed'}と<span class=\"highlight\">スロウ無効</span>、<span class=\"highlight\">被ダメージ軽減</span>を付与する"
-		"ability_ratking_standard_bearer_t1_desc" "移動速度 +{s:BonusMoveSpeed}m／秒"
 		"ability_ratking_standard_bearer_t2_desc" "旗の継続時間 +{s:FlagDuration}秒<br>範囲 +{s:Radius}m"
 		"ability_ratking_standard_bearer_t3_desc" "ダメージ +{s:Damage}、ダメージ軽減 +{s:AllyDamageReduction}%"
 		
@@ -5024,13 +5022,13 @@
 		"KnockbackDuration_postvalue_label"	"ノックバック 継続時間"
 		"KnockbackDuration_postfix"			"秒"
 
-		"ability_baba_bench_run"			"おばあちゃんの長い脚"
-		"ability_baba_bench_run_quip"	"おばあちゃんの長い脚：高くジャンプし、スピリットをチャージした脚で付近の敵をキックする"
+		"ability_baba_bench_run"			"あしながおばあちゃん"
+		"ability_baba_bench_run_quip"	"あしながおばあちゃん：高くジャンプし、スピリットをチャージした脚で付近の敵をキックする"
 		"ability_baba_bench_run_desc"	"ベンチの脚が伸びてより高くジャンプできるようになり、{g:citadel_inline_attribute:'BonusMoveSpeed'}、<span class=\"highlight\">デバフ耐性</span>、<span class=\"highlight\">近接攻撃耐性</span>を獲得する<br><br><span class=\"diminish\">近接弱攻撃：</span>敵をノックバックする<span class=\"highlight\">キック</span>を繰り出す<br><span class=\"diminish\">近接強攻撃：</span>敵を{g:citadel_inline_attribute:'KnockUp'}して{g:citadel_inline_attribute:'Slow'}を付与し、{g:citadel_inline_attribute:'SpiritDamage'}を与える<span class=\"highlight\">叩きつけ攻撃</span>を繰り出す<br><br><span class=\"diminish\">{g:citadel_binding:'Crouch'}長押しでチャージしてから離すと、高くジャンプできる</span>"
 		"ability_baba_bench_run_t1_desc"	"移動速度 +{s:BonusMoveSpeed}m／秒"
 		"ability_baba_bench_run_t2_desc"	"クールダウン {s:AbilityCooldown}秒"
 		"ability_baba_bench_run_t3_desc"	"耐性 +{s:MeleeResist}%<br>近接ライフスティール +{s:MeleeLifesteal}%"
-		"modifier_baba_bench_run"			"おばあちゃんの長い脚"
+		"modifier_baba_bench_run"			"あしながおばあちゃん"
 		"BulletProcDamage_label"							"追加スピリットダメージ／弾薬"
 		"BulletProcDamage_postvalue_label"					"追加スピリットダメージ／弾薬"
 		"StolenSpiritBulletDamagePercent_prefix"			"+"

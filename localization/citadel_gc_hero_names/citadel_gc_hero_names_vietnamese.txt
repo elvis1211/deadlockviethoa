@@ -1,6 +1,6 @@
 ﻿"lang"
 {
-	"Language"		"vietnamese"
+	"Language"		"Vietnamese"
 	"Tokens"
 	{
 		// Hero names (tokens match the hero name directly)

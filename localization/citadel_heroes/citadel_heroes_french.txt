@@ -4758,7 +4758,7 @@
 		
 		"ability_unicorn_luminousstrike"				"Dagues rayonnantes"
 		"ability_unicorn_luminousstrike_desc"			"Un faisceau de lumière tombe du ciel. Après un court laps de temps, le faisceau se forme complètement et provoque une explosion qui inflige des {g:citadel_inline_attribute:'SpiritDamage'} à toutes les cibles de la zone.<br><br> {s:hero_name} reçoit un bonus cumulable de dégâts spirituels à chaque fois qu'une unité occultiste est touchée."
-		"ability_unicorn_luminousstrike_t2_desc"		"{s:AbilityCooldown} s de temps de récupération et +{s:ImpactDamage} de dégâts à l'impact"						"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack} % d'amplification spirituelle et +{s:FireRatePerStack} % de cadence de tir par charge"
+		"ability_unicorn_luminousstrike_t2_desc"		"{s:AbilityCooldown} s de temps de récupération, +{s:ImpactDamage} de dégâts à l'impact et +{s:AbilityCastRange} m de portée d'incantation"						"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack} % d'amplification spirituelle et +{s:FireRatePerStack} % de cadence de tir par charge"
 		"ability_unicorn_luminousstrike/luminous_strike_dot_enemy"				"Brulure de Charge lumineuse"
 		"ability_unicorn_luminousstrike/luminous_strike_buff"				"Dagues rayonnantes"
 
@@ -4833,7 +4833,7 @@
 		"ability_fencer_lunge_on_proc"		"Activation en cas de charges max."
 
 		"ability_fencer_riposte"	"Riposte"
-		"ability_fencer_riposte_desc" "{s:hero_name} se prépare à <span class=\"highlight\">dévier</span> la prochaine attaque dont il est la cible. Quand il y parvient, il devient brièvement <span class=\"highlight\">invulnérable</span> puis il bondit vers une cible occultiste ennemie pour <span class=\"highlight\">l'immobiliser</span>, l'empêcher de <span class=\"highlight\">parer</span> et réduire sa <span class=\"highlight\">résistance aux attaques de mêlée</span>.<br><br><span class=\"diminish\">Appuyez sur {g:citadel_binding:'Ability2'} pour choisir une cible.<br>Ne se déclenche pas contre les attaques des troupiers ou des créatures neutres.</span>"
+		"ability_fencer_riposte_desc" "{s:hero_name} se prépare à <span class=\"highlight\">dévier</span> la prochaine attaque dont il est la cible. Quand il y parvient, il devient brièvement <span class=\"highlight\">invulnérable</span> puis il bondit vers une cible occultiste ennemie pour <span class=\"highlight\">l'immobiliser</span>, <span class=\"highlight\">la désarmer</span>, l'empêcher de <span class=\"highlight\">parer</span> et réduire sa <span class=\"highlight\">résistance aux attaques de mêlée</span>.<br><br><span class=\"diminish\">Appuyez sur {g:citadel_binding:'Ability2'} pour choisir une cible.<br>Ne se déclenche pas contre les attaques des troupiers ou des créatures neutres.</span>"
 		"RiposteChannelTime_postvalue_label"	"Durée de parade"
 		"RiposteChannelTime_postfix"			" s"
 		"LungeCooldownReduction_prefix"			"–"
@@ -4853,7 +4853,7 @@
 		//"CounterTimeWindow_postfix"			"s"
 
 		"ability_fencer_riposte_attack"			"Riposte"
-		"ability_fencer_riposte_attack_desc"	"{s:hero_name} se précipite rapidement vers l'avant et étourdit une cible ennemie avec le pommeau de son arme, ce qui l'empêche de parer."
+		"ability_fencer_riposte_attack_desc"	"{s:hero_name} s'élance rapidement vers l'avant, puis immobilise et désarme une cible ennemie avec le pommeau de son arme, ce qui l'empêche de parer."
 		"MeleeResistReductionDuration_label"			"Durée de réduct. de résist. aux atq. de mêlée"
 		"MeleeResistReductionDuration_postvalue_label"	"Durée de l'effet négatif"
 		"MeleeResistReductionDuration_postfix"			" s"
@@ -4968,7 +4968,7 @@
 		"AllyDamageReduction_postfix"	" %"
 		"AllyDamageReduction_label" "Réduction des dégâts"
 		"ability_ratking_standard_bearer_desc" "{s:hero_name} charge au cœur de la bataille et invoque la bannière de la Ratannie. Les unités occultistes alliées à proximité bénéficient d'une {g:citadel_inline_attribute:'MoveSpeed'} accrue, sont <span class=\"highlight\">invulnérables aux ralentissements</span> et subissent des <span class=\"highlight\">dégâts réduits</span> tant qu'elles se trouvent près de la bannière."
-		"ability_ratking_standard_bearer_t1_desc" "+{s:BonusMoveSpeed} m de vitesse de déplacement"
+		"ability_ratking_standard_bearer_t1_desc" "+{s:BonusMoveSpeed} m/s de vitesse de déplacement<br>{s:AbilityCooldown} s de temps de récupération"
 		"ability_ratking_standard_bearer_t2_desc" "+{s:FlagDuration} s de durée pour la bannière<br>+{s:Radius} m de rayon"
 		"ability_ratking_standard_bearer_t3_desc" "+{s:Damage} de dégâts et +{s:AllyDamageReduction} % de réduction des dégâts"
 		

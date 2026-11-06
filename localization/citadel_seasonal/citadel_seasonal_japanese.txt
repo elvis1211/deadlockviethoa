@@ -29,7 +29,7 @@
 		"SnowballCount_label"		"雪玉を投げた数"
 		"SnowballCount_postvalue_label"		"発射物"
 		"seasonal_ability_eat_halloween_candy"		"キャンディを食べる"
-		"seasonal_ability_eat_halloween_candy_desc"		"キャンディを1つ食べてHPとスタミナを回復し、<span class=\"highlight\">シュガーラッシュ</span>バフを獲得する<br><br><span class=\"diminish\">回復量とシュガーラッシュの効果量は、マッチが進むにつれて強化される</span>"
+		"seasonal_ability_eat_halloween_candy_desc"		"キャンディを1つ食べてHPとスタミナを回復し、<span class=\"highlight\">シュガーラッシュ</span>バフを獲得する<br><br><span class=\"diminish\">回復量とシュガーラッシュの効果量は、マッチが進むにつれて強化される<br><br>近接強攻撃を受けると所持しているキャンディの一部を落とす。</span>"
 
 		"HalloweenCandy_label"		"スタック："
 		"HalloweenCandy_postvalue_label"		"スタック："

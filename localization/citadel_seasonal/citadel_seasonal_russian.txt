@@ -29,7 +29,7 @@
 		"SnowballCount_label"		"Брошено снежков"
 		"SnowballCount_postvalue_label"		"брошено"
 		"seasonal_ability_eat_halloween_candy"		"Поедание конфет"
-		"seasonal_ability_eat_halloween_candy_desc"		"Съешьте одну конфету, чтобы исцелиться, восстановить выносливость и получить положительный эффект <span class=\"highlight\">«Сахарная лихорадка»</span>.<br><br><span class=\"diminish\">Исцеление и бонусы «Сахарной лихорадки» усиливаются по ходу матча.</span>"
+		"seasonal_ability_eat_halloween_candy_desc"		"Съешьте одну конфету, чтобы исцелиться, восстановить выносливость и получить положительный эффект <span class=\"highlight\">«Сахарная лихорадка»</span>.<br><br><span class=\"diminish\">Исцеление и бонусы «Сахарной лихорадки» усиливаются по ходу матча.<br><br>При получении тяжёлого удара вы роняете несколько конфет.</span>"
 
 		"HalloweenCandy_label"		"Эффекты:"
 		"HalloweenCandy_postvalue_label"		"Эффекты:"

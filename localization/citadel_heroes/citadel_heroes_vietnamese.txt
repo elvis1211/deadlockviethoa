@@ -1,6 +1,6 @@
 ﻿"lang"
 {
-	"Language"		"vietnamese"
+	"Language"		"Vietnamese"
 	"Tokens"
 	{
 		//-----------------------------------------------------------------------------
@@ -1635,7 +1635,7 @@
 		"StompRadius_postfix"						"m"
 		//"MinAirTimeForStomp_label"					"Min Air Time for Stomp"
 		//"MinAirTimeForStomp_postfix"				"s"
-		"ability_bounce_pad/speed_on_land""Tốc độ di chuyển"
+		"ability_bounce_pad/speed_on_land""Move Speed"
 
 		"ability_crackshot"						"Xạ thủ thiện xạ"
 		"ability_crackshot_quip"				"Gây sát thương cộng thêm khi bắn trúng đầu"
@@ -3203,8 +3203,8 @@
 		"viscous_goo_grenade/modifier_viscous_goo_grenade_debuff"		"Bị làm chậm"
 		"viscous_goo_grenade_t1_desc"					"+{s:Damage} sát thương và +{s:Radius}m bán kính"
 		"viscous_goo_grenade_t3_desc"					"+{s:MaxBounces} Lần nảy và hệ số tăng theo phép thuật được cải thiện"
-		"MaxBounces_label""Số lần nảy"
-		"MaxBounces_postvalue_label""Số lần nảy"
+		"MaxBounces_label""Bounces"
+		"MaxBounces_postvalue_label""Bounces"
 		"PuddleRadius_label"							"Bán kính vũng chất nhầy"
 		"PuddleRadius_postvalue_label"							"Bán kính vũng chất nhầy"
 		"PuddleRadius_postfix"							"m"
@@ -3252,13 +3252,13 @@
 
 		"DamageHeavyMelee_postvalue_label"						"Sát thương"
 
-		"viscous_gootapult""Bệ Phóng Nhầy"
+		"viscous_gootapult""Splatapult"
 		//"viscous_gootapult_desc"						"Charge up and launch yourself, dealing damage and leaving a slowing area on impact."
 
 		//"GooSlowPercent_label"							"Puddle Slow Percent"
 		"GooSlowPercent_postfix"						"%"
-		"GooDuration_label""Thời gian tồn tại của vũng chất nhầy"
-		"GooDuration_postvalue_label""Thời gian tồn tại của vũng chất nhầy"
+		"GooDuration_label""Puddle Duration"
+		"GooDuration_postvalue_label""Puddle Duration"
 		"GooDuration_postfix"							"s"
 		//"citadel_ability_viscous_ball_boost"			"Slam Ball"
 		"RollingTime_label"								"Thời gian lăn"
@@ -3779,7 +3779,7 @@
 		"BatPerSecond_postvalue_label" "Số dơi mỗi giây"
 
 		"ability_vampirebat_steallife" "Cào Xé"
-		"ability_vampirebat_steallife_desc""<span class=\"diminish\">Kích hoạt:</span> Chém bằng ô, gây {g:citadel_inline_attribute:'SpiritDamage'}, tăng theo lượng máu đã mất của mục tiêu. Nhận {g:citadel_inline_attribute:'Heal'} cho mỗi mục tiêu bị tiêu diệt.<br><br><span class=\"diminish\">Nội tại: </span>Giữ {g:citadel_binding:'ADS'} khiến bạn lơ lửng trong chốc lát.<br><span class=\"diminish\">Cào Xé kết liễu các đơn vị không phải tướng khi chúng còn dưới {s:TrooperExecuteThreshold} máu.</span>"
+		"ability_vampirebat_steallife_desc""<span class=\"diminish\">Active:</span> Slash with your umbrella, dealing {g:citadel_inline_attribute:'SpiritDamage'}, increasing with their missing health. Receive a {g:citadel_inline_attribute:'Heal'} for every target killed.<br><br><span class=\"diminish\">Passive: </span>Holding {g:citadel_binding:'ADS'} causes you to briefly float.<br><span class=\"diminish\">Rake executes non-heroes below {s:TrooperExecuteThreshold} health.</span>"
 		"ability_vampirebat_steallife_t2_desc" "<span class=\"highlight\">+{s:RakeHealPerKill}</span> Hồi máu mỗi lần hạ gục <br>Thời gian hồi <span class=\"highlight\">{s:AbilityCooldown}s</span>"
 		"ability_vampirebat_steallife_t3_desc" "<span class=\"highlight\">+{s:MissingHealthDamagePercentage}%</span> Sát thương theo lượng máu đã mất và tăng hệ số sức mạnh phép thuật cho lượng hồi máu mỗi lần hạ gục"
 		"MissingHealthDamagePercentage_postvalue_label" "Máu đã mất chuyển thành sát thương"
@@ -5975,9 +5975,7 @@
 		"hero_deadpack_lore"			"\"Ladies and Gentlemen, I'm going to tell you a shocking secret: at Fairfax Industries we know nothing about safety. Now let me tell you something even MORE shocking... that's a good thing! Now in my tenure here I have been shot, stabbed, impaled, defenestrated, blown up, atomized, and decapitated-not once. not twice. not thrice. but quice. That's right, my head has been cut off enough times that I had to use a made up word to quantify it.<br><br>But I put myself through figurative and sometimes literal hell because it's not enough to THINK about how things go wrong, we need to KNOW how things go wrong.<br><br>Now the demonstration you are about to witness is extremely dangerous. So sit back. Put on your safety googles. And bear witness to the miracle of flight courtesy of Fairfax Industries, and the Chimera Mark 1.\"<br><br><span class=\"italics\">- This transcription of Danny's opening remarks at The Military Technology Expo has been provided by Fairfax Industries</span>"
 		"hero_artist_lore"			"Violet immigrated to The Cursed Apple when she was 12, and while there was a certain amount of culture shock to adapting to New York, she quickly fell in love with the vibrance of the city.   Dedicating herself to the pursuit of the arts, Violet's passion lead her to successes far beyond most of her peers.<br><br>First, a full ride to art school.<br><br>Then in her junior year, inclusion in MOMA'S prestigious celebration of student artists: \"The Upstart Gallery\".<br><br>By any measure she's doing phenomenal for her age, however Violet has not been able shake her existential dread of dying a failure. She knows that commercial success as a fine artist isn't about being good enough. It's not even about being great. It's about being seen by the right person at the right time.  And so she has set her sights on The Ritual... not to embellish on her own talent, but just to have a chance to show the world what she can do."
 		"hero_nurse_lore"			"A respected pillar at the Marble Hill Possession Ward, Nurse Harrow has dedicated her life to combating the horrors of supernatural possession. A blend of care, severity, and detached pragmatism; Harrow has been called a saint by some of her patients, and a cruel governess by others. Both are probably true.<br><br>But while any sane person would question how and why Harrow keeps the pain of her patients stored in her medical bag,  none can question the results of her treatment program... cruel though it may be."
-
-		// Maintained additional Vietnamese-only localization keys
+
 		"mirage_teleport_t2_desc"		"{s:CombatBarrier} Khiên hấp thụ sát thương tăng theo sức mạnh phép thuật"
-
 	}
 }

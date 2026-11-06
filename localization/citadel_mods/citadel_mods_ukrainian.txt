@@ -629,7 +629,10 @@
 
 		//Quicksilver Reload
 		"upgrade_quick_silver_desc"				"Насичене вміння під час застосування поступово накопичує заряд {g:citadel_inline_attribute:'BonusSpiritDamage'}, {g:citadel_inline_attribute:'BonusFireRate'} і <span class=\"highlight\">перезаряджання куль</span>."
-"HealingPerCast_Label"					"Лікування від застосування вміння"
+
+		//Resonant Healing
+		"upgrade_resonant_healing_desc"			"У бою <span class=\"highlight\">лікує</span> й ненадовго дає додаткову <span class=\"highlight\">швидкість руху</span> під час застосування вміння."
+		"HealingPerCast_Label"					"Лікування від застосування вміння"
 
 		"HealingPerCast_postvalue_label"					"лікуванню від застосування вміння"
 
@@ -745,6 +748,9 @@
 
 		//Debuff Remover | Dispel Magic
 		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Очищує всі неультимативні негативні ефекти</span>, що накладені на власника. Коли ефект вилучається, власник <span class=\"highlight\">лікується</span> та здобуває <span class=\"highlight\">додаткову швидкість руху</span>. <br><span class=\"diminish\">Не можна використовувати під час приголомшення чи сну</span>."
+		"HealOnActivate_label"		"Обсяг лікування"
+		"HealOnActivate_postvalue_label"		"обсягу лікування"
+
 		"damage_reduction_postfix"						"%"
 
 		//Decay
@@ -875,17 +881,25 @@
 
 		//Shadow Weave
 		"upgrade_cloaking_device_active_desc"		"Надає <span class=\"highlight\">непомітність</span>. Щоразу, коли власник зазнає шкоди в непомітності, він ненадовго розкривається перед ворогами."
+		"upgrade_cloaking_device_active_ambush_desc"	"<br>Атака чи використання вміння припиняє непомітність і починає <span class=\"highlight\">напад із засідки</span>, тимчасово надаючи додаткову <span class=\"highlight\">збройову шкоду</span> і <span class=\"highlight\">духовну силу</span>."
 		"modifier_cloaking_device_active_stealth"		"Тіньове плетиво — непомітність"
 		"modifier_cloaking_device_active_ambush"		"Тіньове плетиво — напад із засідки"
 		"AmbushBonusTechPower_prefix"					"+"
 		"AmbushBonusTechPower_label"					"Духовна сила із засідки"
 		"AmbushBonusTechPower_postvalue_label"					"духовній силі із засідки"
+		"AmbushBonusWeaponDamage_prefix"					"+"
+		"AmbushBonusWeaponDamage_label"					"Збройова шкода із засідки"
+		"AmbushBonusWeaponDamage_postvalue_label"					"збройовій шкоді із засідки"
+		"AmbushBonusWeaponDamage_postfix"					"%"
 		"AmbushBonusMeleeDamage_label"					"Ближня шкода із засідки"
 		"AmbushBonusMeleeDamage_postvalue_label"		"ближній шкоді із засідки"
 		"AmbushBonusMeleeDamage_postfix"				"%"
 		"AmbushDuration_label"						"Час дії засідки"
 		"AmbushDuration_postvalue_label"						"часу дії засідки"
 		"AmbushDuration_postfix"						" с"
+		"AmbushBuildUpDuration_label"				"Час до повної засідки"
+		"AmbushBuildUpDuration_postvalue_label"		"часу до повної засідки"
+		"AmbushBuildUpDuration_postfix"				" с"
 		"StealthDuration_label"						"Час дії непомітності"
 		"StealthDuration_postvalue_label"						"часу непомітності"
 		"StealthDuration_postfix"						" с"
@@ -998,6 +1012,15 @@
 		"upgrade_shadow_strike_desc"			"Здобуває <span class=\"highlight\">невидимість</span> під час <span class=\"highlight\">використання витривалості</span> без дальності виявлення. Завдавання <span class=\"highlight\">ближнього удару</span> під час невидимості дозволяє <span class=\"highlight\">викрасти опір кулям і духовний опір</span> у цілі й завдати їй <span class=\"highlight\">періодичної шкоди</span>."
 		"upgrade_omnicharge_pendant_desc"		"Насичує будь-яке дієве неультимативне вміння <span class=\"highlight\">додатковими зарядами вміння</span>. Уже заряджені здобувають додаткові заряди."
 		"upgrade_omnicharge_pendant_charges"	"Додаткові заряди"
-"cosmetic_item_voting_poster"		"Розмістити плакат"
+
+		//-----------------------------------------------------------------------------
+		// Cosmetic
+		//----------------------------------------------------------------------------- 
+		"HealPerMinute_label"			"Збільшення лікування за хвилину"
+		"TechPowerPerMinute_label"		"Збільшення духовної сили за хвилину"
+		"BonusFireRatePerMinute_label"		"Збільшення швидкострільності за хвилину"
+		"BonusMoveSpeedPerMinute_label"		"Збільшення швидкості руху за хвилину"
+
+		"cosmetic_item_voting_poster"		"Розмістити плакат"
 	}
 }

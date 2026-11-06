@@ -739,8 +739,8 @@
 		"Citadel_Play_NotConnectedToGCTitle"				"Nicht verbunden"
 		"Citadel_Play_NotConnectedToGCText"					"Du bist derzeit nicht mit dem Deadlock-Netzwerk verbunden. Möglicherweise gibt es Verbindungsprobleme mit Steam oder das Deadlock-Netzwerk ist vorübergehend offline."
 
-		"Citadel_Play_RankedMatchmakingOfflineTitle"		"Wettkampfmodus nicht verfügbar"
-		"Citadel_Play_RankedMatchmakingOfflineText"			"Der Wettkampfmodus ist derzeit nicht verfügbar. Bitte komm zu den Spieltestzeiten zurück, die Deinem ausgewählten Zeitplan entsprechen."
+		"Citadel_Play_RankedMatchmakingOfflineTitle"		"Wettkampfspielsuche nicht verfügbar"
+		"Citadel_Play_RankedMatchmakingOfflineText"			"Die Wettkampfspielsuche ist derzeit nicht verfügbar. Bitte komm zu den Spieltestzeiten zurück, die Deinem ausgewählten Zeitplan entsprechen."
 
 		"Citadel_Play_RankedNoSchedule"						"Kein Zeitplan ausgewählt"
 		"Citadel_Play_RankedNoScheduleDesc"					"Du musst einen Zeitplan auswählen, bevor Du den Wettkampfmodus spielen kannst."
@@ -762,16 +762,20 @@
 
 		"Citadel_RankedSeason_SeasonEnded"			"Saison ist beendet"
 		"Citadel_RankedSeason_TimeRemaining"		"{t:d:t:T:time_remaining} verbleibend"
+		"Citadel_RankedSeason_LastDay"				"Letzter Tag"
 
 		"Citadel_RankedSeason_CurrentRank"			"Aktueller Rang"
 		"Citadel_RankedSeason_SeasonRank"			"Saisonrang"
 		"Citadel_RankedSeason_HighestRank"			"Höchster Rang"
+		"Citadel_RankedSeason_FinalRank"			"Höchster Rang der Saison"
 
 		"Citadel_RankedSeason_ProtectionRemaining:f"			"{d:demotion_protection_remaining}/{d:demotion_protection_total} {demotion_protection_total, plural, one{Rangschutz} other{Rangschutz}} verbleibend"
 		"Citadel_RankedSeason_ProtectionUsed"			"Rangabstiegsschutz benutzt"
 		"Citadel_RankedSeason_ResultingRank"			"Endrang"
 		"Citadel_RankedSeason_HeroWins:f"	"{d:hero_wins} {hero_wins, plural, one{Sieg} other{Siege}}"
-		"Citadel_RankedSeason_HeroWinsRequired:f"	"<b>{d:wins_required_per_hero} {wins_required_per_hero, plural, one{Sieg} other{Siege}}</b> benötigt, um den Helden für den Wettkampfmodus freizuschalten"
+		"Citadel_RankedSeason_HeroWinsRequired:f"	"<b>{d:wins_required_per_hero} {wins_required_per_hero, plural, one{Sieg} other{Siege}}</b> benötigt, um den Helden für den Wettkampfmodus freizuschalten."
+		"Citadel_RankedSeason_HeroPoints:f"	"{d:hero_points} {hero_points, plural, one{Punkt} other{Punkte}}"
+		"Citadel_RankedSeason_HeroPointsRequired:f"	"<b>{d:points_required_per_hero} {points_required_per_hero, plural, one{Punkt} other{Punkte}}</b> benötigt, um den Helden für den Wettkampfmodus freizuschalten.<br />Sieg = 2 Punkte&nbsp;&nbsp;/&nbsp;&nbsp;Niederlage = 1 Punkt"
 		"Citadel_Ranked_ViewSeasonHistory"		"Verlauf der Saisons anzeigen"
 		"Citadel_Ranked_ViewLeaderboards"		"Bestenlisten anzeigen"
 
@@ -792,19 +796,25 @@
 
 		"Citadel_RankedSeason_EligibilityTitle"				"Teilnahmevoraussetzungen für den Wettkampfmodus:"
 		"Citadel_RankedSeason_Eligibility_AccountWins:f"	"{d:current_account_wins} / {d:required_account_wins} Siege im Standardmodus"
-		"Citadel_RankedSeason_Eligibility_HeroUnlocks:f"	"{d:current_unlocked_heroes} / {d:required_unlocked_heroes} Helden mit {d:required_hero_win_count} oder mehr Siegen"
+		"Citadel_RankedSeason_Eligibility_HeroUnlocks_Wins:f"	"{d:current_unlocked_heroes} / {d:required_unlocked_heroes} Helden mit {d:required_hero_win_count} oder mehr Siegen"
+		"Citadel_RankedSeason_Eligibility_HeroUnlocks_Points:f"	"{d:current_unlocked_heroes} / {d:required_unlocked_heroes} Helden mit {d:required_hero_point_count} oder mehr Punkten"
 		"Citadel_RankedSeason_Eligibility_NotEligible"		"Spiele Standardpartien, um den Wettkampfmodus freizuschalten"
 		"Citadel_RankedSeason_Eligibility_Eligible"			"Wettkampfmodus im Menü „Spielen“ verfügbar"
+
+		"Citadel_RankedSeason_JoinSeason"				"An der Saison teilnehmen"
 
 		"Citadel_RankedMatchHistory_Calibrating"		"Kalibrierung läuft ({d:calibrating_number}/{d:calibration_matches})"
 		"Citadel_RankedMatchHistory_Calibrated"			"Kalibrierung abgeschlossen"
 		"Citadel_RankedMatchHistory_PointsChange"		"{s:rank_points_change} Pkt."
 
-		"Citadel_RankedHistory_Title"					"Wettkampfsaisons"
+		"Citadel_RankedHistory_Title"					"Verlauf der Wettkampfsaisons"
 		"Citadel_RankedHistory_SeasonNotJoined"			"Nicht teilgenommen"
 		"Citadel_RankedHistory_SeasonNotCalibrated"		"Nicht kalibriert"
 		"Citadel_RankedHistory_SeasonCalibrating"		"Kalibrierung läuft"
 		"Citadel_RankedHistory_SeasonUpcoming"			"–"
+
+		
+		"Citadel_RankedSeasonCompleted_Title"			"ist beendet"
 
 		"Citadel_Ranked_NoSeasonActive"			"Derzeit ist keine Saison aktiv"
 
@@ -823,15 +833,17 @@
 
 
 		"Citadel_Ranked_Overview_Eligibility"			"Teilnahmeberechtigung"
-		"Citadel_Ranked_Overview_Eligibility_Bullet1:f"	"Du musst mindestens insgesamt {d:required_account_wins} {required_account_wins, plural, one {Sieg} other {Siege}} auf Deinem Account erzielt haben. Außerdem musst Du mindestens {d:required_hero_unlocks} {required_hero_unlocks, plural, one {Held} other {Helden}} mit jeweils {d:required_hero_wins} {required_hero_wins, plural, one {Sieg} other {Siegen}} im Standardmodus vorweisen können."
+		"Citadel_Ranked_Overview_Eligibility_Bullet1:f"	"Du musst insgesamt mindestens {d:required_account_wins} {required_account_wins, plural, one {Sieg} other {Siege}} auf Deinem Account vorweisen können."
+		"Citadel_Ranked_Overview_Eligibility_Bullet1_HeroWins:f"	"Du musst mindestens {d:required_hero_unlocks} {required_hero_unlocks, plural, one {Held} other {Helden}} mit jeweils {d:required_hero_wins} {required_hero_wins, plural, one {Sieg} other {Siegen}} im Standardmodus vorweisen können."
+		"Citadel_Ranked_Overview_Eligibility_Bullet1_HeroPoints:f"	"Du musst mindestens {d:required_hero_unlocks} {required_hero_unlocks, plural, one {Helden} other {Helden}} mit {d:required_hero_points} {required_hero_points, plural, one {Punkt} other {Punkten}} vorweisen können. Im Standardmodus ist jeder Sieg 2 Punkte und jede Niederlage 1 Punkt wert."
 		"Citadel_Ranked_Overview_Eligibility_Bullet2"				"Spieler dürfen nur als Solo oder Duo die Spielsuche für Wettkampfpartien starten. Duo-Teams dürfen sich maximal um 1 vollen Rang unterscheiden. Spieler des Rangs „Ewiger“ können nur mit Spielern desselben Rangs mit einem maximalen Unterschied von 3 Unterrängen an der Spielsuche teilnehmen."
-		"Citadel_Ranked_Overview_Eligibility_Bullet3"				"Du musst {d:required_solo_calibration_games} Solo-Kalibrierungspartien abschließen. Der maximale Rang, mit dem Du die Kalibrierung abschließen kannst, ist „{g:citadel_packed_rank_name:max_calibration_rank}“."
+		"Citadel_Ranked_Overview_Eligibility_Bullet3"				"Wenn Du nicht an der vergangenen Wettkampfsaison teilgenommen hast, musst Du {d:required_solo_calibration_games} Solo-Kalibrierungspartien abschließen. Der maximale Rang, mit dem Du die Kalibrierung abschließen kannst, ist „{g:citadel_packed_rank_name:max_calibration_rank}“."
 
 
 		"Citadel_Ranked_Overview_PlayingMatches"		"Rangaufstieg"
 		"Citadel_Ranked_Overview_Playing_Bullet1"		"Jeder Sieg/jede Niederlage bringt Dir im Durchschnitt +/− {d:ranked_point_gain} Rangpunkte. Dieser Wert kann je nach den Erwartungen des Spielkoordinators oder aufgrund von Siegesserien leicht variieren. Deine Rangpunkte werden nach jeder Partie in einem Fortschrittsbalken aktualisiert dargestellt."
-		"Citadel_Ranked_Overview_Playing_Bullet2"		"Wenn Du in einen neuen Rang oder Unterrang aufsteigst, erhältst Du Rangabstiegsschutzmarken. Für einen vollständigen Rangaufstieg erhältst Du 5 und für jeden Unterrang 2 Schutzmarken. Verlierst Du, während eine Rangabstiegsschutzmarke aktiv ist und Du dadurch einen Rang abgestiegen wärst, behältst Du stattdessen Deinen Rang und eine Schutzmarke wird verbraucht."
-		"Citadel_Ranked_Overview_Playing_Bullet3"		"Um von einem Unterrang zum nächsten aufzusteigen, benötigst Du 1000 Rangpunkte (z. B. {g:citadel_packed_rank_name:'62'} → {g:citadel_packed_rank_name:'63'}). Um von einem vollständigen Rang zum nächsten aufzusteigen, benötigst Du 2000 Rangpunkte (z. B. {g:citadel_packed_rank_name:'56'} → {g:citadel_packed_rank_name:'61'})."
+		"Citadel_Ranked_Overview_Playing_Bullet2:f"		"Wenn Du in einen neuen Rang oder Unterrang aufsteigst, erhältst Du Rangabstiegs-Schutzschilde. Für einen vollständigen Rangaufstieg erhältst Du {d:main_rank_demotion_protection} {main_rank_demotion_protection, plural, one {Schutzschild} other {Schutzschilde}} und für jeden Unterrang {d:sub_rank_demotion_protection} {sub_rank_demotion_protection, plural, one {Schutzschild} other {Schutzschilde}}. Verlierst Du, während ein Rangabstiegs-Schutzschild aktiv ist, behältst Du Deinen Rang und ein Schutzschild wird verbraucht, anstatt einen Rang abzusteigen. Für Ränge oder Unterränge über „{g:citadel_packed_rank_name:last_demotion_protection_packed_rank}“ werden keine Rangabstiegs-Schutzschilde gewährt."
+		"Citadel_Ranked_Overview_Playing_Bullet3"		"Um von einem Unterrang zum nächsten aufzusteigen, benötigst Du {d:sub_rank_progress_required} Rangpunkte (z. B. {g:citadel_packed_rank_name:'62'} → {g:citadel_packed_rank_name:'63'}). Um von einem vollständigen Rang zum nächsten aufzusteigen, benötigst Du {d:main_rank_progress_required} Rangpunkte (z. B. {g:citadel_packed_rank_name:'56'} → {g:citadel_packed_rank_name:'61'})."
 		"Citadel_Ranked_Overview_Playing_Bullet4"		"Auf dem höchsten Rang ändern sich die Regeln leicht. Du gewinnst und verlierst weiterhin Rangpunkte wie zuvor, aber die Unterränge haben keine festen Punktwerte mehr. Stattdessen werden die Unterränge einmal täglich anhand des Perzentils der Spieler im Rang „{g:citadel_packed_rank_rank_name:'111'}“ vergeben."
 
 		"Citadel_Ranked_Overview_HeroSelection"			"Wartebereich vor Partiebeginn"
@@ -840,10 +852,8 @@
 
 		"Citadel_LeaderboardRankDesc"				"Ab Rang „{g:citadel_packed_rank_name:leaderboard_packed_rank}“ werden Unterränge nicht mehr durch das Erreichen einer festen Anzahl an Rangpunkten vergeben. Stattdessen werden alle berechtigten Spieler nach ihren Rangpunkten geordnet und erhalten ihren Unterrang anschließend basierend auf ihrer prozentualen Platzierung."
 
-
-
-
 		"Citadel_RankedSeasonName_BetaSeason1"		"Beta-Saison 1"
+		"Citadel_RankedSeasonName_BetaSeason2"		"Beta-Saison 2"
 
 		"Citadel_RankedProgress_CalibratedRank"		"Kalibrierung abgeschlossen"
 		"Citadel_RankedProgress_GainedRank"			"Rangaufstieg"
@@ -1243,6 +1253,7 @@
 
 		"Citadel_RankedMatchStatus_Counts"							"{d:count_current} / {d:count_required}"
 		"Citadel_RankedMatchStatus_Wins"							"Siege"
+		"Citadel_RankedMatchStatus_Points"							"Punkte"
 
 		"Citadel_ViewMatchID_Title"									"Partie-ID suchen"
 		"Citadel_ViewMatchID_Desc"									"Partie-ID eingeben, um Partiedetails anzuzeigen:"
@@ -1641,18 +1652,18 @@
 		"Citadel_StartMatchmaking_TooManySpectators"				"Es befinden sich zu viele Zuschauer in der Gruppe, um in diesem Modus der Spielsuche beizutreten."
 		"Citadel_StartMatchmaking_TooFewPlayers"					"Es befinden sich nicht genug Spieler in der Gruppe, um in diesem Modus der Spielsuche beizutreten."
 		"Citadel_StartMatchmaking_InvalidPartyMatchMode"			"Dieser Spielmodus kann nicht mit einer Gruppe gespielt werden."
-		"Citadel_StartMatchmaking_NotAllPlayersCanPlayRanked"		"Da nicht alle Spieler in dieser Gruppe die Ranglistenspielsuche freigeschaltet haben, kann nicht in diesem Modus gespielt werden."
+		"Citadel_StartMatchmaking_NotAllPlayersCanPlayRanked"		"Da nicht alle Spieler in dieser Gruppe die Wettkampfspielsuche freigeschaltet haben, kann dieser Modus nicht gespielt werden."
 		"Citadel_StartMatchmaking_PlayerBannedFromMode"				"Ein Spieler in dieser Gruppe ist zurzeit von diesem Spielmodus ausgeschlossen."
 		"Citadel_StartMatchmaking_ModeLocked"						"Du hast diesen Modus noch nicht freigeschaltet."
 		"Citadel_StartMatchmaking_ModeBanned"						"Du bist bis zum {t:s:time_stamp} um {t:t:time_stamp} von diesem Spielmodus ausgeschlossen."
 		"Citadel_StartMatchmaking_PermanentBan"						"Du wurdest dauerhaft von diesem Modus ausgeschlossen."
-		"Citadel_StartMatchmaking_RankedMMNotOpen"					"Die Spielsuche für Wettkampfpartien ist für Deinen aktuell festgelegten Zeitplan nicht verfügbar."
-		"Citadel_StartMatchmaking_RankedNotUnlocked"				"Du hast die Spielsuche für Wettkampfpartien noch nicht freigeschaltet."
+		"Citadel_StartMatchmaking_RankedMMNotOpen"					"Die Wettkampfspielsuche ist für Deinen aktuell festgelegten Zeitplan nicht verfügbar."
+		"Citadel_StartMatchmaking_RankedNotUnlocked"				"Du hast die Wettkampfspielsuche noch nicht freigeschaltet."
 		"Citadel_PlayMenu_LowPriorityDisable"						"In Spielsuche mit niedriger Priorität nicht verfügbar"
-		"Citadel_StartMatchmaking_NoRankedWhileInLowPri"			"Die Spielsuche für Wettkampfpartien ist nicht verfügbar, solange Du Dich in der Spielsuche mit niedriger Priorität befindest."
+		"Citadel_StartMatchmaking_NoRankedWhileInLowPri"			"Die Wettkampfspielsuche ist nicht verfügbar, solange Du Dich in der Spielsuche mit niedriger Priorität befindest."
 		"Citadel_StartMatchmaking_NoBrawlWhileInLowPri"				"Der Spielmodus Straßenkampf ist in der Spielsuche mit niedriger Priorität nicht verfügbar."
-		"Citadel_StartMatchmaking_NoRankedWhileCommsBanned"			"Die Spielsuche für Wettkampfpartien ist nicht verfügbar, solange Du einem Kommunikationsausschluss unterliegst."
-		"Citadel_StartMatchmaking_NoRankedWhileReportBanned"		"Die Spielsuche für Wettkampfpartien ist nicht verfügbar, solange Du aufgrund von Meldungen ausgeschlossen bist."
+		"Citadel_StartMatchmaking_NoRankedWhileCommsBanned"			"Die Wettkampfspielsuche ist nicht verfügbar, solange Du einem Kommunikationsausschluss unterliegst."
+		"Citadel_StartMatchmaking_NoRankedWhileReportBanned"		"Die Wettkampfspielsuche ist nicht verfügbar, solange Du aufgrund von Meldungen ausgeschlossen bist."
 		"Citadel_StartMatchmaking_TooManyPlayersOnTeam"				"Es sind zu viele Spieler im selben Team."
 		"Citadel_StartMatchmaking_UnableToFillTeam"					"Es konnten keine gültigen Teams auf Basis der aktuellen Spielerteams erstellt werden."
 		"Citadel_StartMatchmaking_InvalidTeam"						"Ein Spieler hat für diesen Spielmodus ein ungültiges Team ausgewählt."
@@ -1875,7 +1886,7 @@
 		"Citadel_MatchmakingStopped_Header"						"Aus der Spielsuche entfernt"
 		"Citadel_MatchmakingStopped_Reason_Unspecified"			"Du wurdest aus der Spielsuche entfernt."
 		"Citadel_MatchmakingStopped_Reason_VersionUpdated"		"Deine Client-Version ist nicht länger kompatibel. Du wurdest aus der Spielsuche entfernt. Bitte aktualisiere Deinen Client und starte das Spiel neu."
-		"Citadel_MatchmakingStopped_Reason_RankedClosed"		"Wettkampfmodus ist jetzt geschlossen."
+		"Citadel_MatchmakingStopped_Reason_RankedClosed"		"Wettkampfspielsuche ist jetzt geschlossen."
 		"Citadel_MatchmakingStopped_Reason_HeroLabsClosed"		"Spielsuche für Partien des Helden-Labors ist jetzt geschlossen."
 
 		"Citadel_Popup_AlreadySearching_Header"					"Spielersuche läuft bereits"
@@ -2849,7 +2860,7 @@
 		"citadel_hint_flying_strike_early_activate" "Drücke{g:citadel_binding:'Attack'}, um frühzeitig zu Deinem Ziel zu fliegen."
 
 		// Hud Hints 
-		"citadel_rejuvenator_hud_hint" "Verbleibende Zeit der aktiven Reinkarnatoren oder des erneuten Erscheinens des Mitte-Bosses, wenn keine Reinkarnatoren aktiv sind."
+		"citadel_rejuvenator_hud_hint" "Verbleibende Zeit der aktiven Reinkarnatoren oder bis zum erneuten Erscheinen des Mitte-Bosses, wenn keine Reinkarnatoren aktiv sind."
 
 		//-----------------------------------------------------------------------------
 		// Breakable Prop modifiers
@@ -3253,7 +3264,7 @@
 		"citadel_settings_damage_text_cumulative_final_tooltip"		"Zusätzlich zu den einzelnen Schadenswerten wird auch der insgesamt zugefügte Schaden an einem Ziel angezeigt, sobald das Ziel keinen Schaden mehr erleidet."
 		"citadel_settings_enable_console"				"Entwicklerkonsole"
 		"citadel_settings_enable_console_tooltip"		"Die Startoptionen -dev und -console überschreiben diese Einstellung."
-		"citadel_settings_wheel_delay_desc"				"Chatradverzögerung:"
+		"citadel_settings_wheel_delay_desc"				"Verzögerung:"
 		"citadel_settings_quick_cast_desc"				"Einsatzmodus"
 		"citadel_settings_quick_cast_items_desc"		"Einsatzmodus"
 		"citadel_settings_quick_cast_items_tooltip"		"Legt den Einsatzmodus für Gegenstände mit Aktivfähigkeit fest.<br><br>Wenn der Einsatzmodus eines bestimmten Helden mit Deinen Grundeinstellungen übereinstimmt, gelten weitere Änderungen an den Grundeinstellungen ebenfalls für diesen Helden, bis sie überschrieben werden."
@@ -4597,7 +4608,7 @@
 		"Citadel_ranked_schedule_explainer"			"Der Wettkampfmodus ist nur während bestimmen Zeiten verfügbar. Bevor Du die Spielsuche starten kannst, musst Du einen Zeitplan auswählen, der am besten zu Deinen Spielzeiten passt."
 
 		"Citadel_ranked_explainer_button"			"Was ist eine Wettkampfpartie?"
-		"Citadel_ranked_explainer_title"			"Wettkampfmodus"
+		"Citadel_ranked_explainer_title"			"Wettkampfspielsuche "
 		"Citadel_core_skill_rating"					"Allgemeiner Rang"
 		"Citadel_ranked_explainer_desc"				"Der Wettkampfmodus bietet allen Spielern eine kompetitivere Deadlock-Erfahrung. In diesem herausfordernden Spielmodus treten Spieler mit ähnlichen Fähigkeiten gegeneinander an, um ihren Rang unter den weltweit aktiven Spielern zu ermitteln.<br><br>Jede Woche können alle Spieler an diesem Spielmodus teilnehmen, indem sie während der verfügbaren Zeiten ihrer Region Wettkampfpartien absolvieren, um ihre Fähigkeiten unter Beweis zu stellen."
 		"Citadel_Profile_Skill_Rating_Intro"		"Der Rang bewertet die aktuelle und frühere Leistung eines Spielers."
@@ -4625,12 +4636,16 @@
 		"Citadel_ranked_numGamesPlayed"				"{s:games_played} Partien gespielt"
 		"Citadel_ranked_match_history"				"Partieverlauf:"
 
-		"Citadel_Ranked_Validating"					"Wettkampfpartie wird erstellt …"
-		"Citadel_Ranked_ErrorTitle"					"Wettkampfpartie konnte nicht erstellt werden"
+		"Citadel_Ranked_PleaseWait"					"Bitte warten …"
+		"Citadel_Ranked_Validating"					"Wettkampfsaison beitreten"
+		"Citadel_Ranked_ErrorTitle"					"Wettkampfspielsuche konnte nicht gestartet werden"
+		"Citadel_Ranked_Timeout"					"Zeitüberschreitung"
 		"Citadel_Ranked_NotEnoughMatchesPlayed"		"Nicht genug Partien gespielt."
 		"Citadel_Ranked_NotEnoughHeroesUnlocked"	"Nicht genügend Helden freigeschaltet."
 		"Citadel_Ranked_InternalError"				"Interner Fehler."
 		"Citadel_RankedSeason_ViewNote"				"Wird nach Ende der Saison angezeigt"
+
+		"Citadel_RankedSeasonReward_Interact"		"{g:citadel_persona:nl:account_id} hat während {s:season_name} den Rang {g:citadel_packed_rank_name:packed_rank} erreicht."
 
 		// Old Rank Names
 		"Citadel_ranks_rank0"						"Unwissender"
@@ -5259,7 +5274,7 @@
 		"CreateBuilds_Desc"							"Wähle Gegenstände im Laden aus, um sie dem von Dir empfohlenen Build hinzuzufügen."
 		"Hideout_View_Builds"						"Builds"
 		"Hideout_Reset_Camera"						"Kamera zurücksetzen"
-		"Hideout_required_keybind_missing"			"Erforderliche Tastenbelegung fehlt"
+		"Hideout_required_keybind_missing"			"Erford. Tastenbelegung fehlt"
 		"Hideout_required_keybind_missing_tooltip"	"Ein oder mehrere grundlegende Befehle, die für das Gameplay erforderlich sind, sind derzeit ohne Tastenbelegung.<br><br>Bei Verwendung heldenspezifischer Einstellungen kann dies für einen oder mehrere Helden gelten. Eine rote Markierung bei einem Helden im Auswahlmenü zeigt an, dass eine erforderliche Tastenbelegung für diesen Helden fehlt.<br><br>Das leere Feld für jede fehlende erforderliche Tastenbelegung wird rot umrahmt."
 		"citadel_settings_missing_binds_caption"			"Diese Befehle sind für das Gameplay erforderlich, wurden jedoch noch keiner Taste zugewiesen:"
 		"citadel_settings_missing_binds_caption_scopes"	"Diese Befehle sind für das Gameplay erforderlich, wurden jedoch noch keiner Taste zugewiesen. Weise sie jetzt für die angezeigten Helden zu oder in Deinen Grundeinstellungen, wenn das Grundeinstellungssymbol ({g:citadel_icon:'BASE_SETTINGS'}) angezeigt wird:"

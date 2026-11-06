@@ -1885,6 +1885,8 @@
 		"ability_charged_shot_quip"	"Isi daya tembakan jarak jauh"
 		"ability_charged_shot_desc"	"<span class=\"highlight\">Mengisi daya tembakan kuat</span> yang menghancurkan musuh. Tahan {g:citadel_binding:'Ability1'} atau {g:citadel_binding:'Attack'} untuk menahan tembakan."
 		"ability_charged_shot_t2_desc"	"<span class=\"highlight\">+{s:Damage} Damage</span> dan mengurangi cooldown pengisian daya selama <span class=\"highlight\">{s:AbilityCooldownBetweenCharge} dtk.</span>"
+		"ability_charged_shot_t3_desc"	"<span class=\"highlight\">Penskalaan damage ditingkatkan</span> <br><span class=\"highlight\">Memantul sekali saat mengenai dinding, lantai, dan langit-langit</span>"
+
 		//"PowerJumpChannelTime_label"			"In Power Jump Channel"
 		"PowerJumpChannelTime_postfix"		" dtk."
 
@@ -2475,6 +2477,7 @@
 
 		"mirage_teleport"		"Penjelajah"
 		"mirage_teleport_quip"	"Berteleportasi ke rekan tim atau hero musuh"
+		"mirage_teleport_desc"	"Menarget lokasi di map mini. Setelah menunggu sebentar, <span class=\"highlight\">berteleportasi</span> ke lokasi tersebut. Menerima damage atau efek Stun, Lumpuh, Tidur, atau Pergerakan Dibatasi saat menunggu akan membatalkan teleportasi.<br><br>Setelah berteleportasi, mendapatkan <span class=\"highlight\">Pengaman</span>."
 		"MirageTeleportMoveSpeed_conditional"	"Setelah teleportasi"
 		"mirage_teleport_movespeed"		"Penjelajah - Bonus Gerakan"
 		"mirage_teleport_t1_desc"	"+{s:BonusMoveSpeed} m Kecepatan Gerakan dan +{s:BonusFireRate}% Tingkat Tembakan"
@@ -3073,6 +3076,7 @@
 		"citadel_ability_flying_strike/slow" "Perlambatan Tupai Terbang"
 		//"citadel_ability_flying_strike/weapon_buff" "+Weapon Damage"				
 		"citadel_ability_flying_strike_t2_desc" "Mendapatkan <span class=\"highlight\">+ {s:SpiritBonus}</span> Kekuatan Spirit selama <span class=\"highlight\">{s:buffDuration} dtk.</span>"
+		"citadel_ability_flying_strike_t3_desc" "Fungsi sekunder untuk menarik rekan tim ke udara <br><span class=\"highlight\">+ {s:AbilityCAStrange} m</span> Jangkauan Skill<br>Mendapatkan <span class=\"highlight\">1 daya ekstra</span>"
 		"yamato_flying_strike_t3_header"			"Saat mencapai target:"
 
 		"citadel_ability_infinity_slash"		"Transformasi Bayangan"
@@ -4755,7 +4759,7 @@
 		
 		"ability_unicorn_luminousstrike"				"Belati Kemilau"
 		"ability_unicorn_luminousstrike_desc"			"Memanggil seberkas cahaya dari langit. Setelah durasi singkat, sinar akan terbentuk sepenuhnya, menyebabkan ledakan yang memberikan {g:citadel_inline_attribute:'SpiritDamage'} terhadap semua target di area tersebut.<br><br> Celeste akan menerima buff yang terakumulasi yang meningkatkan kerusakan spirit setiap kali mengenai hero musuh."
-		"ability_unicorn_luminousstrike_t2_desc"		"{s:AbilityCooldown} dtk. Cooldown dan +{s:ImpactDamage} Damage Benturan"						"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack}% Pembesaran Spirit dan +{s:FireRatePerStack}% Tingkat Tembakan Per Akumulasi"
+		"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack}% Pembesaran Spirit dan +{s:FireRatePerStack}% Tingkat Tembakan Per Akumulasi"
 		"ability_unicorn_luminousstrike/luminous_strike_dot_enemy"				"Serangan Gemilang Terbakar"
 		"ability_unicorn_luminousstrike/luminous_strike_buff"				"Belati Kemilau"
 
@@ -4849,7 +4853,6 @@
 		//"CounterTimeWindow_postfix"			"s"
 
 		"ability_fencer_riposte_attack"			"Riposte"
-		"ability_fencer_riposte_attack_desc"	"Melakukan dash cepat ke depan dan melumpuhkan musuh dengan kenop senjata sehingga mereka tidak bisa melakukan tangkisan."
 		"MeleeResistReductionDuration_label"			"Durasi Pengurangan Pertahanan Jarak Dekat"
 		"MeleeResistReductionDuration_postvalue_label"	"Durasi Debuff"
 		"MeleeResistReductionDuration_postfix"			" dtk."
@@ -4964,7 +4967,6 @@
 		"AllyDamageReduction_postfix"	"%"
 		"AllyDamageReduction_label" "Pengurangan Damage"
 		"ability_ratking_standard_bearer_desc" "Mengisi daya dan memunculkan Banner Ratannia, memberikan {g:citadel_inline_attribute:'MoveSpeed'} yang ditingkatkan kepada semua rekan tim terdekat, <span class=\"highlight\">kekebalan terhadap perlambatan</span>, dan <span class=\"highlight\">mengurangi damage yang diterima</span> saat berada di dekat banner."
-		"ability_ratking_standard_bearer_t1_desc" "+ {s:bonusMoveSpeed} m Kecepatan Gerakan"
 		"ability_ratking_standard_bearer_t2_desc" "+{s:FlagDuration} Durasi Jejak <br>+{s:Radius} m Radius"
 		"ability_ratking_standard_bearer_t3_desc" "+{s:Damage} Damage dan +{s:AllyDamageReduction}% Pengurangan Damage"
 		
@@ -5166,7 +5168,7 @@
 		"ability_chessmaster_throwbishop_t2_desc" "<span class=\"highlight\">+{s:MaxPieces}</span> Bidak Maks.<br>Dapat digunakan ulang dalam {s:RecastWindow} dtk."
 		"ability_chessmaster_throwbishop_t3_desc" "+{s:TileSteps} Jangkauan Kotak<br>Benturan mengurangi Pertahanan Spirit sebesar {s:TechArmorDamageReductionPerStack}%, berakumulasi {s:MaxStacks} kali"
 		"ability_chessmaster_throwbishop_dot" "Gajah Bersiap - Kotak"
-		"ability_header_on_square" "Saat Kotak Digunakan:"
+		"ability_header_on_square" "Saat Petak Digunakan:"
 		"MoveCooldown_postvalue_label" "Cooldown Gerakan"
 		"MoveCooldown_label" "Cooldown Gerakan"
 		"MoveCooldown_postfix" " dtk."
@@ -5216,9 +5218,9 @@
 		//---------Ability 4
 		"ability_chessmaster_queen" "Strategi Ratu"
 		"ability_chessmaster_queen_trigger" "Strategi Ratu"
-		"ability_chessmaster_queen_desc_active" "Memanggil <span class=\"highlight\">ratu</span> yang menghantam maju, memberikan {g:citadel_inline_attribute:'SpiritDamage'} di suatu area. Setelah penundaan, ratu melepaskan kotak dalam garis lurus yang memberikan {g:citadel_inline_attribute:'SpiritDamage'} lagi dan menerapkan {g:citadel_inline_attribute:'Stun'}. <br><br>Hero dengan health rendah yang terkena menerima <span class=\"highlight\">skakmat</span> dan dieksekusi. <br><br><span class=\"diminish\">Gerakan({g:citadel_binding:'ADS'}):</span> Ratu melompat ke lokasi target dan memberikan efek yang sama sekali lagi. <span class=\"diminish\"><br><br>Aktikan ulang untuk menghentikan ratu lebih awal, mengakhiri skill.</span>"
+		"ability_chessmaster_queen_desc_active" "Memanggil <span class=\"highlight\">ratu</span> yang menghantam maju, memberikan {g:citadel_inline_attribute:'SpiritDamage'} di suatu area. Setelah penundaan, ratu melepaskan petak dalam garis lurus yang memberikan {g:citadel_inline_attribute:'SpiritDamage'} lagi dan menerapkan {g:citadel_inline_attribute:'Stun'}. <br><br>Hero dengan health rendah yang terkena menerima <span class=\"highlight\">skakmat</span> dan dieksekusi. <br><br><span class=\"diminish\">Gerakan({g:citadel_binding:'ADS'}):</span> Ratu melompat ke lokasi target dan memberikan efek yang sama sekali lagi. <span class=\"diminish\"><br><br>Aktikan ulang untuk menghentikan ratu lebih awal, mengakhiri skill.</span>"
 		"ability_chessmaster_queen_t2_desc" "+{s:SlowPercent}% Perlambatan<br>+{s:CheckmateThreshold} Batas Skakmat"
-		"ability_chessmaster_queen_t3_desc" "+{s:QueenBonusMoves} Gerakan<br>+{s:TileSteps} Jangkauan Kotak"
+		"ability_chessmaster_queen_t3_desc" "+{s:QueenBonusMoves} Gerakan<br>+{s:TileSteps} Jangkauan Petak"
 		"ability_chessmaster_queen/active" "Strategi Ratu"
 		"ability_chessmaster_queen/lift" "Skak..."
 
@@ -5232,8 +5234,8 @@
 		"VisionAuraRadius_postvalue_label" "Radius Pandang"
 		"VisionAuraRadius_label" "Radius Pandang"
 		"VisionAuraRadius_postfix" " m"
-		"SquareDuration_label" "Durasi Kotak"
-		"SquareDuration_postvalue_label" "Durasi Kotak"
+		"SquareDuration_label" "Durasi Petak"
+		"SquareDuration_postvalue_label" "Durasi Petak"
 		"SquareDuration_postfix" " dtk."
 
 		"SquareSize_label" "Jangkauan Kotak"

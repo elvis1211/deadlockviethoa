@@ -29,7 +29,7 @@
 		"SnowballCount_label"		"บอลหิมะที่ขว้างไป"
 		"SnowballCount_postvalue_label"		"โพรเจกไทล์"
 		"seasonal_ability_eat_halloween_candy"		"กินลูกกวาด"
-		"seasonal_ability_eat_halloween_candy_desc"		"กินลูกกวาดหนึ่งเม็ดเพื่อรักษาตัว ฟื้นฟูสแตมินา และได้รับบัฟ<span class=\"highlight\">พลังน้ำตาล</span><br><br><span class=\"diminish\">สถิติการรักษาและพลังน้ำตาลจะแข็งแกร่งขึ้นเรื่อย ๆ เมื่อแมตช์ดำเนินต่อไป</span>"
+		"seasonal_ability_eat_halloween_candy_desc"		"กินลูกกวาดหนึ่งเม็ดเพื่อรักษาตัว ฟื้นฟูสแตมินา และได้รับบัฟ<span class=\"highlight\">พลังน้ำตาล</span><br><br><span class=\"diminish\">สถิติการรักษาและพลังน้ำตาลจะแข็งแกร่งขึ้นเรื่อย ๆ เมื่อแมตช์ดำเนินต่อไป<br><br>เมื่อถูกโจมตีประชิดรุนแรง คุณจะทำลูกกวาดหล่นส่วนหนึ่ง</span>"
 
 		"HalloweenCandy_label"		"ซ้อนทับ:"
 		"HalloweenCandy_postvalue_label"		"ซ้อนทับ:"

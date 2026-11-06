@@ -1885,7 +1885,7 @@
 		"ability_charged_shot_quip"	"Заряд на дальний выстрел"
 		"ability_charged_shot_desc"	"{s:hero_name} <span class=\"highlight\">совершает мощный выстрел</span>, который пронзает врагов. Удерживайте {g:citadel_binding:'Ability1'} или {g:citadel_binding:'Attack'}, чтобы как следует прицелиться."
 		"ability_charged_shot_t2_desc"	"<span class=\"highlight\">+{s:Damage} ед. к урону</span> и <span class=\"highlight\">{s:AbilityCooldownBetweenCharge} сек.</span> от интервала зарядов"
-		"ability_charged_shot_t3_desc"	"<span class=\"highlight\">Увеличенный множитель урона</span> <br><span class=\"highlight\">Один раз рикошетит от стены</span>"
+		"ability_charged_shot_t3_desc"	"<span class=\"highlight\">Увеличенный множитель урона</span> <br><span class=\"highlight\">Один раз рикошетит от стены, пола или потолка</span>"
 
 		//"PowerJumpChannelTime_label"			"In Power Jump Channel"
 		"PowerJumpChannelTime_postfix"		" сек."
@@ -3075,6 +3075,7 @@
 		"citadel_ability_flying_strike/slow" "Замедление от рассечения в полёте"
 		//"citadel_ability_flying_strike/weapon_buff" "+Weapon Damage"				
 		"citadel_ability_flying_strike_t2_desc" "<span class=\"highlight\">+{s:SpiritBonus} ед.</span> к спиритической мощи на <span class=\"highlight\">{s:BuffDuration} сек.</span>"
+		"citadel_ability_flying_strike_t3_desc" "Альт. применение позволяет цепляться за союзников<br><span class=\"highlight\">+{s:AbilityCastRange} м</span> к дальности применения<br>Даёт <span class=\"highlight\">1 дополнительный заряд</span>"
 		"yamato_flying_strike_t3_header"			"При попадании по цели:"
 
 		"citadel_ability_infinity_slash"		"Превращение в тень"
@@ -4757,7 +4758,7 @@
 		
 		"ability_unicorn_luminousstrike"				"Лучезарные кинжалы"
 		"ability_unicorn_luminousstrike_desc"			"{s:hero_name} призывает луч света с небес. Спустя короткое время он обретает полную форму и вызывает взрыв, который наносит {g:citadel_inline_attribute:'SpiritDamage'} всем целям в области.<br><br> За каждое попадание лучом во вражеского героя {s:hero_name} получает накапливаемый эффект, увеличивающий её спиритический урон."
-		"ability_unicorn_luminousstrike_t2_desc"		"{s:AbilityCooldown} сек. от перезарядки и +{s:ImpactDamage} ед. к урону от взрыва"						"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack}% к увеличению спиритического урона и +{s:FireRatePerStack}% к скорострельности за накопление"
+		"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack}% к увеличению спиритического урона и +{s:FireRatePerStack}% к скорострельности за накопление"
 		"ability_unicorn_luminousstrike/luminous_strike_dot_enemy"				"Ожог от светоносного удара"
 		"ability_unicorn_luminousstrike/luminous_strike_buff"				"Лучезарные кинжалы"
 
@@ -4832,7 +4833,6 @@
 		"ability_fencer_lunge_on_proc"		"При максимуме накоплений"
 
 		"ability_fencer_riposte"	"Рипост"
-		"ability_fencer_riposte_desc" "{s:hero_name} готовится <span class=\"highlight\">отразить</span> следующую атаку. При успешном отражении {s:hero_name} ненадолго становится <span class=\"highlight\">неуязвимым</span> и нацеливается на вражеского героя, после чего делает рывок к цели, <span class=\"highlight\">обездвиживает</span> её, не давая <span class=\"highlight\">парировать</span>, и снижает её <span class=\"highlight\">сопротивляемость в ближнем бою</span>.<br><br><span class=\"diminish\">Нажмите {g:citadel_binding:'Ability2'}, чтобы выбрать цель.<br>Не срабатывает при атаках солдат и нейтралов.</span>"
 		"RiposteChannelTime_postvalue_label"	"Длительность отражения"
 		"RiposteChannelTime_postfix"			" сек."
 		"LungeCooldownReduction_prefix"			"-"
@@ -4852,7 +4852,6 @@
 		//"CounterTimeWindow_postfix"			"s"
 
 		"ability_fencer_riposte_attack"			"Рипост"
-		"ability_fencer_riposte_attack_desc"	"{s:hero_name} совершает быстрый рывок вперёд и обездвиживает врага эфесом шпаги, не позволяя ему парировать атаки."
 		"MeleeResistReductionDuration_label"			"Время снижения сопр. в ближнем бою"
 		"MeleeResistReductionDuration_postvalue_label"	"Длительность эффекта"
 		"MeleeResistReductionDuration_postfix"			" сек."
@@ -4967,7 +4966,6 @@
 		"AllyDamageReduction_postfix"	"%"
 		"AllyDamageReduction_label" "уменьшения урона"
 		"ability_ratking_standard_bearer_desc" "Зарядите и призовите знамя Крысании. Все союзники поблизости получают увеличенную {g:citadel_inline_attribute:'MoveSpeed'}, <span class=\"highlight\">становятся неуязвимы к замедлению</span>, а <span class=\"highlight\">получаемый ими урон снижается</span> в радиусе знамени."
-		"ability_ratking_standard_bearer_t1_desc" "+{s:BonusMoveSpeed} м/c к скорости передвижения"
 		"ability_ratking_standard_bearer_t2_desc" "+{s:FlagDuration} сек. к длительности знамени<br>+{s:Radius} м к радиусу"
 		"ability_ratking_standard_bearer_t3_desc" "+{s:Damage} ед. урона и +{s:AllyDamageReduction}% к уменьшению урона"
 		

@@ -2201,7 +2201,7 @@
 		"ability_throw_sand_desc"		"Mo a Krill před sebe vrhnou písek, který <span class=\"highlight\">odzbrojí</span> nepřátele a <span class=\"highlight\">udělí jim poškození</span>."
 		//"ability_throw_sand_t3_desc"	"Prevents Stamina Usage."
 		"ability_throw_sand_t1_desc"	"<span class=\"highlight\">+{s:Damage} bodů</span> k poškození a <span class=\"highlight\">+{s:AbilityCastRange} m</span> k dosahu"
-		"ability_throw_sand_t2_desc"	"Písek <span class=\"highlight\">zpomalí nepřátele o {s:SlowPercent} % a redukuje vzdálenost jejich výpadů o {s:GroundDashReductionPercent} %</span>"
+		"ability_throw_sand_t2_desc"	"Písek <span class=\"highlight\">zpomalí nepřátele o {s:SlowPercent} % a redukuje vzdálenost jejich výpadů o {s:GroundDashReductionPercent} %</span>"
 		"ability_throw_sand_t3_desc"	"<span class=\"highlight\">+{s:AbilityDuration} s</span> k trvání a <span class=\"highlight\">{s:AbilityCooldown} s</span> z doby obnovení"
 
 		"modifier_citadel_throw_sand_debuff"	"Nekalá praktika"
@@ -4758,7 +4758,7 @@
 		
 		"ability_unicorn_luminousstrike"				"Měsíční dýky"
 		"ability_unicorn_luminousstrike_desc"			"Celeste sešle do cílové oblasti několik měsíčních dýk, které jsou po krátké prodlevě následovány světelným sloupem, jehož exploze udělí všem nepřátelům v oblasti {g:citadel_inline_attribute:'SpiritDamage'}.<br><br>Za každého zasaženého nepřátelského okultistu získá Celeste sčitatelný buff navyšující její spirituální poškození."
-		"ability_unicorn_luminousstrike_t2_desc"		"{s:AbilityCooldown} s z doby obnovení a +{s:ImpactDamage} bodů k poškození"						"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack} % k navýšení spirituálního poškození a +{s:FireRatePerStack} % k rychlosti střelby za sečtení"
+		"ability_unicorn_luminousstrike_t2_desc"		"{s:AbilityCooldown} s z doby obnovení, +{s:ImpactDamage} bodů k poškození a +{s:AbilityCastRange} m k dosahu schopnosti"						"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack} % k navýšení spirituálního poškození a +{s:FireRatePerStack} % k rychlosti střelby za sečtení"
 		"ability_unicorn_luminousstrike/luminous_strike_dot_enemy"				"Měsíční dýky (hoření)"
 		"ability_unicorn_luminousstrike/luminous_strike_buff"				"Měsíční dýky"
 
@@ -4833,7 +4833,7 @@
 		"ability_fencer_lunge_on_proc"		"Při spuštění max. sečtení:"
 
 		"ability_fencer_riposte"	"Odveta"
-		"ability_fencer_riposte_desc" "Apollo se připraví <span class=\"highlight\">odrazit</span> příští příchozí útok. Pokud je odražení úspěšné, Apollo se krátce stane <span class=\"highlight\">nezranitelným</span>, načež provede odvetu – rychlý výpad vpřed následovaný <span class=\"highlight\">znehybněním nepřátelského okultisty</span> jílcem kordu, zamezením mu v provádění <span class=\"highlight\">vykrytí</span> a snížením jeho <span class=\"highlight\">odolnosti vůči úderům</span>.<br><br><span class=\"diminish\">Stiskem {g:citadel_binding:'Ability2'} je možné vybrat cíl výpadu.<br>Není možné odrazit útoky pěšáků nebo poškození od neutrálů.</span>"
+		"ability_fencer_riposte_desc" "Apollo se připraví <span class=\"highlight\">odrazit</span> příští příchozí útok. Pokud je odražení úspěšné, Apollo se krátce stane <span class=\"highlight\">nezranitelným</span>, načež provede odvetu – rychlý výpad vpřed následovaný <span class=\"highlight\">znehybněním a odzbrojením nepřátelského okultisty</span> jílcem kordu, zamezením mu v provádění <span class=\"highlight\">vykrytí</span> a snížením jeho <span class=\"highlight\">odolnosti vůči úderům</span>.<br><br><span class=\"diminish\">Stiskem {g:citadel_binding:'Ability2'} je možné vybrat cíl výpadu.<br>Není možné odrazit útoky pěšáků nebo poškození od neutrálů.</span>"
 		"RiposteChannelTime_postvalue_label"	"Trvání odrážení"
 		"RiposteChannelTime_postfix"			" s"
 		"LungeCooldownReduction_prefix"			"-"
@@ -4853,7 +4853,7 @@
 		//"CounterTimeWindow_postfix"			"s"
 
 		"ability_fencer_riposte_attack"			"Odveta"
-		"ability_fencer_riposte_attack_desc"	"Apollo provede rychlý výpad vpřed následovaný znehybněním nepřítele jílcem kordu a zamezením mu v provádění vykrytí."
+		"ability_fencer_riposte_attack_desc"	"Apollo provede rychlý výpad vpřed následovaný znehybněním a odzbrojením nepřítele jílcem kordu a zamezením mu v provádění vykrytí."
 		"MeleeResistReductionDuration_label"			"Trvání redukce odolnosti vůči úderům"
 		"MeleeResistReductionDuration_postvalue_label"	"Trvání debuffu"
 		"MeleeResistReductionDuration_postfix"			" s"
@@ -4968,7 +4968,7 @@
 		"AllyDamageReduction_postfix"	" %"
 		"AllyDamageReduction_label" "Redukce poškození"
 		"ability_ratking_standard_bearer_desc" "Rat King vytáhne prapor Krysánie a rozeběhne se do víru bitvy, zatímco všichni spojenečtí okultisté poblíž praporu získávají {g:citadel_inline_attribute:'BonusMoveSpeed'}, jsou <span class=\"highlight\">imunní vůči zpomalení</span> a dostávají <span class=\"highlight\">redukované poškození</span>."
-		"ability_ratking_standard_bearer_t1_desc" "+{s:BonusMoveSpeed} m/s k rychlosti pohybu"
+		"ability_ratking_standard_bearer_t1_desc" "+{s:BonusMoveSpeed} m/s k rychlosti pohybu<br>{s:AbilityCooldown} s z doby obnovení"
 		"ability_ratking_standard_bearer_t2_desc" "+{s:FlagDuration} s k trvání praporu<br>+{s:Radius} m k rozsahu"
 		"ability_ratking_standard_bearer_t3_desc" "+{s:Damage} bodů k poškození a +{s:AllyDamageReduction} % k redukci poškození"
 		

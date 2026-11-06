@@ -747,9 +747,9 @@
 
 		"Citadel_RankedGames_Played"						"Зіграно {i:ranked_games_played}/{i:ranked_games_required}"
 		"Citadel_RankedGame_Played_desc"					"Кількість зіграних ігор для розблокування рейтингових матчів."
-		"Citadel_RankedGames_PlayedQualified"				"Ваш титул буде визначено за результатами додаткових ігор."
-		"Citadel_RankedGames_Qualified1"						"Результати додаткових зіграних ігор вплинуть на ваш остаточний титул."
-		"Citadel_RankedGames_Qualified2"						"Остаточний титул буде присуджено {t:s:end_day}."
+		"Citadel_RankedGames_PlayedQualified"				"Ваш ранг буде визначено за результатами додаткових ігор"
+		"Citadel_RankedGames_Qualified1"						"Результати додаткових зіграних ігор вплинуть на ваш остаточний ранг"
+		"Citadel_RankedGames_Qualified2"						"Остаточний ранг буде присуджено {t:s:end_day}"
 
 		"Citadel_RankedTitle"						"Рейтинговий"
 		"Citadel_Ranked_CalibratingTitle"			"Калібрування"
@@ -762,16 +762,20 @@
 
 		"Citadel_RankedSeason_SeasonEnded"			"Сезон завершився"
 		"Citadel_RankedSeason_TimeRemaining"		"Залишилося {t:d:t:T:time_remaining}"
+		"Citadel_RankedSeason_LastDay"				"Останній день"
 
-		"Citadel_RankedSeason_CurrentRank"			"Поточний титул"
-		"Citadel_RankedSeason_SeasonRank"			"Сезонний титул"
-		"Citadel_RankedSeason_HighestRank"			"Найвищий титул"
+		"Citadel_RankedSeason_CurrentRank"			"Поточний ранг"
+		"Citadel_RankedSeason_SeasonRank"			"Сезонний ранг"
+		"Citadel_RankedSeason_HighestRank"			"Найвищий ранг"
+		"Citadel_RankedSeason_FinalRank"			"Найвищий ранг сезону"
 
 		"Citadel_RankedSeason_ProtectionRemaining:f"			"Залишилося {d:demotion_protection_remaining}/{d:demotion_protection_total} {demotion_protection_total, plural, one{жетон захисту} few{жетони захисту} many{жетонів захисту} other{жетона захисту}}"
 		"Citadel_RankedSeason_ProtectionUsed"			"Використано захист від пониження"
-		"Citadel_RankedSeason_ResultingRank"			"Отриманий титул"
+		"Citadel_RankedSeason_ResultingRank"			"Отриманий ранг"
 		"Citadel_RankedSeason_HeroWins:f"	"{d:hero_wins} {hero_wins, plural, one{перемога} few{перемоги} many{перемог} other{перемоги}}"
-		"Citadel_RankedSeason_HeroWinsRequired:f"	"Для права на участь у рейтинговому режимі герою потрібно здобути <b>{d:wins_required_per_hero} {wins_required_per_hero, plural, one{перемогу} few{перемоги} many{перемог} other{перемоги}}</b>"
+		"Citadel_RankedSeason_HeroWinsRequired:f"	"Для права на участь у рейтинговому режимі герою потрібно здобути <b>{d:wins_required_per_hero} {wins_required_per_hero, plural, one{перемогу} few{перемоги} many{перемог} other{перемоги}}</b>."
+		"Citadel_RankedSeason_HeroPoints:f"	"{d:hero_points} {hero_points, plural, one{очко} few{очки} many{очок} other{очка}}"
+		"Citadel_RankedSeason_HeroPointsRequired:f"	"Для права на участь у рейтинговому режимі герою потрібно здобути <b>{d:wins_required_per_hero} {points_required_per_hero, plural, one{очко} few{очки} many{очок} other{очка}}.<br />Перемога = 2 очки&nbsp;&nbsp;/&nbsp;&nbsp;поразка = 1 очко"
 		"Citadel_Ranked_ViewSeasonHistory"		"Переглянути історію сезону"
 		"Citadel_Ranked_ViewLeaderboards"		"Переглянути таблиці лідерів"
 
@@ -792,19 +796,22 @@
 
 		"Citadel_RankedSeason_EligibilityTitle"				"Право на участь у рейтинговому режимі:"
 		"Citadel_RankedSeason_Eligibility_AccountWins:f"	"Перемоги у звичайних матчах: {d:current_account_wins}/{d:required_account_wins}"
-		"Citadel_RankedSeason_Eligibility_HeroUnlocks:f"	"Герої з кількістю перемог від {d:required_hero_win_count} та більше: {d:current_unlocked_heroes}/{d:required_unlocked_heroes}"
 		"Citadel_RankedSeason_Eligibility_NotEligible"		"Грайте у звичайному режимі, щоби розблокувати рейтинговий."
 		"Citadel_RankedSeason_Eligibility_Eligible"			"Рейтингові матчі доступні в меню «Грати»."
+
+		"Citadel_RankedSeason_JoinSeason"				"Долучитися до сезону"
 
 		"Citadel_RankedMatchHistory_Calibrating"		"Калібрування: {d:calibrating_number}/{d:calibration_matches}"
 		"Citadel_RankedMatchHistory_Calibrated"			"Калібрування завершено"
 		"Citadel_RankedMatchHistory_PointsChange"		"{s:rank_points_change} оч."
 
-		"Citadel_RankedHistory_Title"					"Рейтингові сезони"
 		"Citadel_RankedHistory_SeasonNotJoined"			"Ви не брали участі"
 		"Citadel_RankedHistory_SeasonNotCalibrated"		"Ви не калібрувалися"
 		"Citadel_RankedHistory_SeasonCalibrating"		"Калібрування"
 		"Citadel_RankedHistory_SeasonUpcoming"			"—"
+
+		
+		"Citadel_RankedSeasonCompleted_Title"			"завершився"
 
 		"Citadel_Ranked_NoSeasonActive"			"Наразі немає активного сезону"
 
@@ -819,35 +826,32 @@
 		"Citadel_Ranked_Overview_Header"				"Що таке рейтинговий матч?"
 
 		"Citadel_Ranked_Overview_Bullet1"				"Рейтинговий матч — це більш змагальний спосіб грати в Deadlock із суворішими правилами."
-		"Citadel_Ranked_Overview_Bullet2"				"У грі є 11 титулів, кожен із яких поділено на 6 підтитулів (I—VI)."
+		"Citadel_Ranked_Overview_Bullet2"				"У грі є 11 рангів, кожен із яких поділено на 6 підрангів (I—VI)."
 
 
 		"Citadel_Ranked_Overview_Eligibility"			"Право на участь"
-		"Citadel_Ranked_Overview_Eligibility_Bullet1:f"	"У вашому обліковому записі має бути загалом щонайменше {d:required_account_wins} {required_account_wins, plural, one{перемога} few{перемоги} many{перемог} other{перемоги}}. Також потрібно мати щонайменше {d:required_hero_unlocks} {required_hero_unlocks, plural, one{героя} few{героїв} many{героїв} other{героя}}, за кожного з яких здобуто {d:required_hero_wins} {required_hero_wins, plural, one{перемогу} few{перемоги} many{перемог} other{перемоги}} у стандартному режимі."
-		"Citadel_Ranked_Overview_Eligibility_Bullet2"				"Гравцям можна ставати в чергу на рейтингові матчі лише самостійно або вдвох. Титули гравців у парі можуть відрізнятися щонайбільше на один. Гравці з титулом «етернус» можуть ставати в чергу лише з гравцями того самого титулу з різницею в не більш як 3 підтитули."
-		"Citadel_Ranked_Overview_Eligibility_Bullet3"				"Ви повинні завершити {d:required_solo_calibration_games} самітних матчів калібрування. Найвищий титул, який ви можете отримати в результаті калібрування — «{g:citadel_packed_rank_name:max_calibration_rank}»."
-
-
+		"Citadel_Ranked_Overview_Eligibility_Bullet1:f"	"Вам потрібно мати щонайменше {d:required_account_wins} {required_account_wins, plural, one{перемогу} few{перемоги} many{перемог} other{перемоги}} на своєму обліковому записі."
+		"Citadel_Ranked_Overview_Eligibility_Bullet1_HeroWins:f"	"Ви повинні мати щонайменше {d:required_hero_unlocks} {required_hero_unlocks, plural, one{героя} few{героїв} many{героїв} other{героя}} з {d:required_hero_wins} {required_hero_wins, plural, one{перемогою} few{перемогами} many{перемогами} other{перемоги}} у звичайному режимі."
+		"Citadel_Ranked_Overview_Eligibility_Bullet1_HeroPoints:f"	"Ви повинні мати щонайменше {d:required_hero_unlocks} {required_hero_unlocks, plural, one{героя} few{героїв} many{героїв} other{героя}} з {d:required_hero_points} {required_hero_wins, plural, one{очком} few{очками} many{очками} other{очка}}. Кожна перемога у звичайному режимі приносить 2 очки, а поразка у звичайному режимі — 1 очко."
+		"Citadel_Ranked_Overview_Eligibility_Bullet2"				"Гравцям можна ставати в чергу на рейтингові матчі лише самостійно або вдвох. Титули гравців у парі можуть відрізнятися щонайбільше на один. Гравці з рангом «етернус» можуть ставати в чергу лише з гравцями того самого рангу з різницею в не більш як 3 підранги."
 		"Citadel_Ranked_Overview_PlayingMatches"		"Підвищення рівня"
 		"Citadel_Ranked_Overview_Playing_Bullet1"		"За кожну перемогу або поразку ви в середньому отримуватимете або втрачатимете {d:ranked_point_gain} {ranked_point_gain, plural, one {очко} few {очки} =ends_with_000{очок} other {очок}}. Це значення може дещо змінюватися залежно від прогнозу системи пошуку матчів щодо результату гри, а також від серії перемог. Після кожного матчу ви бачитимете зміну своїх рейтингових очок на наочній шкалі поступу."
-		"Citadel_Ranked_Overview_Playing_Bullet2"		"У разі підвищення до нового титулу або підтитулу ви отримуватимете жетони захисту від пониження: за повний перехід до нового титулу — 5, а за перехід до наступного підтитулу — 2. Якщо ви програєте з акивним захистом, і ваш титул мав би понизитись, ви натомість залишитеся з поточним титулом, але втратите один жетон."
-		"Citadel_Ranked_Overview_Playing_Bullet3"		"Щоб перейти до наступного підрангу, потрібно набрати 1 000 очок рейтингу (наприклад, {g:citadel_packed_rank_name:'62'} → {g:citadel_packed_rank_name:'63'}). Щоб здобути наступний ранг із новим значком, потрібно набрати 2 000 очок рейтингу (наприклад, {g:citadel_packed_rank_name:'56'} → {g:citadel_packed_rank_name:'61'})."
-		"Citadel_Ranked_Overview_Playing_Bullet4"		"На найвищому титулі правила дещо змінюються. Рейтингові очки й надалі так само нараховуються та знімаються, але підтитули більше не прив’язані до фіксованої кількості очок. Натомість раз на добу вони призначаються відповідно до процентиля кожного гравця серед усіх гравців титулу «{g:citadel_packed_rank_rank_name:'111'}»."
+		"Citadel_Ranked_Overview_Playing_Bullet2:f"		"У разі підвищення до нового рангу або підрангу ви отримуєте щити захисту від пониження: за повний перехід до нового рангу — {d:main_rank_demotion_protection} {main_rank_demotion_protection, plural, one{щит} few{щита} many{щитів} other{щита}}, а за перехід до наступного підрангу — {d:sub_rank_demotion_protection} {sub_rank_demotion_protection, plural, one{щит} few{щита} many{щитів} other{щита}}. Якщо ви програєте, коли захист активний, і мали б понизитися в ранзі, то залишитеся на поточному ранзі, але витратите один щит. Захист від пониження не надається рангам або підрангам вище ранга «{g:citadel_packed_rank_name:last_demotion_protection_packed_rank}»."
+		"Citadel_Ranked_Overview_Playing_Bullet3"		"Щоб перейти до наступного підрангу, потрібно набрати {d:sub_rank_progress_required} рейтингових очок (наприклад, {g:citadel_packed_rank_name:'62'} → {g:citadel_packed_rank_name:'63'}). Щоб здобути наступний ранг із новим значком, потрібно набрати {d:main_rank_progress_required} рейтингових очок (наприклад, {g:citadel_packed_rank_name:'56'} → {g:citadel_packed_rank_name:'61'})."
+		"Citadel_Ranked_Overview_Playing_Bullet4"		"На найвищому ранзі правила дещо змінюються. Рейтингові очки й надалі нараховуються та знімаються так само, але підранги більше не прив’язані до фіксованої кількості очок. Натомість раз на добу їх визначають відповідно до процентиля кожного гравця серед усіх гравців рангу «{g:citadel_packed_rank_rank_name:'111'}»."
 
 		"Citadel_Ranked_Overview_HeroSelection"			"Передматчева зона очікування"
-		"Citadel_Ranked_Overview_Hero_Bullet1"			"Щойно ви розпочнете рейтинговий матч, побачите титули всіх гравців, а потім потрапите до передматчевої зони очікування."
+		"Citadel_Ranked_Overview_Hero_Bullet1"			"Щойно ви розпочнете рейтинговий матч, побачите ранги всіх гравців, а потім потрапите до передматчевої зони очікування."
 		"Citadel_Ranked_Overview_Hero_Bullet2"			"Ви можете змінити героя для покращення складу команди або помінятися лініями із союзниками."
 
 		"Citadel_LeaderboardRankDesc"				"Починаючи з рангу «{g:citadel_packed_rank_name:leaderboard_packed_rank}», значки більше не надаються за фіксовану кількість очок. Усіх гравців, які відповідають вимогам, упорядковують за кількістю очок рейтингу, а потім надають їм значки залежно від того, до якого відсотка найкращих гравців вони належать."
 
-
-
-
 		"Citadel_RankedSeasonName_BetaSeason1"		"Бета-сезон 1"
+		"Citadel_RankedSeasonName_BetaSeason2"		"Бета-сезон 2"
 
 		"Citadel_RankedProgress_CalibratedRank"		"Калібрування завершено"
-		"Citadel_RankedProgress_GainedRank"			"Підвищення титулу"
-		"Citadel_RankedProgress_LostRank"			"Зниження до титулу"
+		"Citadel_RankedProgress_GainedRank"			"Підвищення рангу"
+		"Citadel_RankedProgress_LostRank"			"Зниження до рангу"
 		"Citadel_RankedProgress_RankPoints"			"Очки"
 		"Citadel_RankedProgress_RankPointsChange"	"{s:rank_change_prefix}{d:rank_change} оч."
 
@@ -1243,7 +1247,6 @@
 
 		"Citadel_RankedMatchStatus_Counts"							"{d:count_current}/{d:count_required}"
 		"Citadel_RankedMatchStatus_Wins"							"Перемоги"
-
 		"Citadel_ViewMatchID_Title"									"Дивитися матч за його ідентифікатором"
 		"Citadel_ViewMatchID_Desc"									"Уведіть ідентифікатор матчу для перегляду його подробиць."
 		"Citadel_ViewMatchID_Prompt"								"Ідентифікатор матчу"
@@ -2847,7 +2850,11 @@
 		"citadel_hint_activate_wall" "Натисніть {g:citadel_binding:'Attack'}, щоби поставити стіну раніше."
 		"citadel_hint_guided_arrow_boost" "Утримуйте {g:citadel_binding:'Attack'}, щоби збільшити швидкість стріли."
 		"citadel_hint_flying_strike_early_activate" "Натисніть {g:citadel_binding:'Attack'}, щоби полетіти до цілі раніше."
-//-----------------------------------------------------------------------------
+
+		// Hud Hints 
+		"citadel_rejuvenator_hud_hint" "Час, що залишився до завершення дії активних омолоджувачів, або до відродження стража центру, якщо жодного омолоджувача не активовано."
+
+		//-----------------------------------------------------------------------------
 		// Breakable Prop modifiers
 		//-----------------------------------------------------------------------------
 		"fire_rate_pickup/small_fire_rate"				"Збільшена швидкострільність"
@@ -4559,7 +4566,7 @@
 		"Citadel_RankedNotAllowed_PartyMemberMissingData" "Не вдалося визначити право на участь для учасника групи {g:citadel_persona:member_account_id}."
 		"Citadel_RankedNotAllowed_PartyMemberInCalibration" "Учасник групи {g:citadel_persona:member_account_id} не завершив калібрування."
 		"Citadel_RankedNotAllowed_PartyInvalidSize" "Недійсний розмір групи: {d:party_size}"
-		"Citadel_RankedNotAllowed_PartySkillRange" "Різниця між титулами учасників групи надто велика."
+		"Citadel_RankedNotAllowed_PartySkillRange" "Різниця між рангами учасників групи надто велика."
 		
 		"menu_hero_labs_unavailable"				"Заблоковано"
 		"menu_hero_labs_schedule_title"				"Доступні години"
@@ -4599,7 +4606,7 @@
 		"Citadel_Profile_Skill_Rating_Intro"		"Рейтинг майстерності відображає результати гравця як за останні матчі, так і за попередні періоди."
 		"Citadel_Profile_Skill_Rating_Tooltip"		"Рейтинг навичок — клацніть для подробиць"
 		"Citadel_ranked_howitworks_title"			"Як це працює?"
-		"Citadel_ranked_howitworks_desc"			"Усі гравці починають на попередньому рейтингу навичок із титулом «Непосвячений», доки не зіграють достатньо матчів для калібрування.<br><br>Існує одинадцять різних ступенів рейтингу навичок, а в межах кожного ступеня гравці також отримують рівень від I до <Panel class=\"starIcon\"></Panel>, що точніше визначає їхнє місце на цьому ступені.<br><br>Кожному герою присвоюється вага відносно середнього рейтингу навичок гравця (позначається стрілками).<br><br>Герої, якими ви не грали, завжди будуть нижче відносно вашого середнього рейтингу навичок.<br><br>Рейтинг навичок оновлюється одразу після гри.<br><br>Ваш рейтинг можете бачити тільки ви."
+		"Citadel_ranked_howitworks_desc"			"Усі гравці починають на попередньому рейтингу навичок із рангом «Непосвячений», доки не зіграють достатньо матчів для калібрування.<br><br>Існує одинадцять різних ступенів рейтингу навичок, а в межах кожного ступеня гравці також отримують рівень від I до <Panel class=\"starIcon\"></Panel>, що точніше визначає їхнє місце на цьому ступені.<br><br>Кожному герою присвоюється вага відносно середнього рейтингу навичок гравця (позначається стрілками).<br><br>Герої, якими ви не грали, завжди будуть нижче відносно вашого середнього рейтингу навичок.<br><br>Рейтинг навичок оновлюється одразу після гри.<br><br>Ваш рейтинг можете бачити тільки ви."
 		"Citadel_ranked_rankedmedals"				"Рівні значка:"
 		"Citadel_ranked_subranks_explainer"			"Рівень: I, II, III, IV, V, <Panel class=\"starIcon\"></Panel>"
 
@@ -4613,20 +4620,24 @@
 		"Citadel_GlobalLeaderboard_Error"			"Помилка завантаження таблиці лідерів"
 		"Citadel_GlobalLeaderboard_Empty"			"Вибрана таблиця лідерів наразі порожня"
 
-		"Citadel_ranked_explainer_note"				"Дизайни значків буде оприлюднено після першого присудження титулів у вівторок, 22 жовтня."
+		"Citadel_ranked_explainer_note"				"Дизайни значків буде оприлюднено після першого присудження рангів у вівторок, 22 жовтня."
 
 		"Citadel_ranked_result_title"				"Рейтинг навичок"
 		"Citadel_ranked_result_rankup"				"Ваш рейтинг зріс"
-		"Citadel_ranked_result_adjustment"			"Зміна титулу"
+		"Citadel_ranked_result_adjustment"			"Зміна рангу"
 		"Citadel_ranked_numGamesPlayed"				"Зіграні ігри: {s:games_played}"
 		"Citadel_ranked_match_history"				"Історія матчів:"
 
-		"Citadel_Ranked_Validating"					"Пошук рейтингового матчу…"
-		"Citadel_Ranked_ErrorTitle"					"Помилка під час пошуку рейтингового матчу"
+		"Citadel_Ranked_PleaseWait"					"Зачекайте…"
+		"Citadel_Ranked_Validating"					"Долучення до рейтингового сезону"
+		"Citadel_Ranked_ErrorTitle"					"Не вдалося розпочати пошук рейтингового матчу"
+		"Citadel_Ranked_Timeout"					"Час очікування вичерпано"
 		"Citadel_Ranked_NotEnoughMatchesPlayed"		"Недостатньо матчів зіграно."
 		"Citadel_Ranked_NotEnoughHeroesUnlocked"	"Недостатньо героїв розблоковано."
 		"Citadel_Ranked_InternalError"				"Внутрішня помилка."
 		"Citadel_RankedSeason_ViewNote"				"Доступно після завершення сезону"
+
+		"Citadel_RankedSeasonReward_Interact"		"Гравець {g:citadel_persona:nl:account_id} здобув ранг {g:citadel_packed_rank_name:packed_rank} у сезоні «{s:season_name}»."
 
 		// Old Rank Names
 		"Citadel_ranks_rank0"						"Непосвячений"
@@ -4772,8 +4783,8 @@
 		"MyRosterRosterDesc_PartyInvalid"			"Не вдається сформувати команду з відібраних вашою групою героїв. Спробуйте додати більше героїв або замінити поточних."
 		"MyRosterRosterDesc_HeroLabs"				"Ваші відібрані мають налічувати щонайменше 3 героїв, 2 з яких повинні бути звичайними нетестовими героями."
 		"MyRosterRosterDesc_NeedsMoreNonNewOld"		"Серед відібраних героїв забагато нових. Додайте більше старих героїв."
-		"MyRosterRosterDesc_NotEnoughHighestPri"		"Оскільки у вас титул «Етернус 6», ви повинні вибрати принаймні {d:min_highest_priority} героїв з високим пріоритетом."
-		"MyRosterRosterDesc_NotEnoughHighestPriParty"	"Оскільки у вас титул «Етернус 6» в групі такого розміру, ви повинні вибрати принаймні {d:min_highest_priority} героїв з високим пріоритетом."
+		"MyRosterRosterDesc_NotEnoughHighestPri"		"Оскільки у вас ранг «Етернус 6», ви повинні вибрати принаймні {d:min_highest_priority} героїв з високим пріоритетом."
+		"MyRosterRosterDesc_NotEnoughHighestPriParty"	"Оскільки у вас ранг «Етернус 6» в групі такого розміру, ви повинні вибрати принаймні {d:min_highest_priority} героїв з високим пріоритетом."
 
 		"Citadel_PriorityToken"						"Новий жетон пріоритету героя"
 		"Citadel_PriorityToken_Desc"				"Заробляйте жетони пріоритету героя за зіграні матчі.<br><br>Коли ви розблокуєте жетон, зможете застосувати його, щоби мати вищі шанси на отримання конкретного героя. Жетон буде витрачено лише в тому разі, якщо ви отримаєте цього героя.<br><br>Коли більше нових героїв з’являться в системі пошуку матчів, ви зможете заробляти жетони швидше."
@@ -6106,6 +6117,10 @@
 		"map_district_building_brownstones"		"Брунатні камʼяниці"
 		"map_district_building_campus"			"Кампус"
 		"map_district_building_belltower"		"Дзвіниця"
-}
+
+		// Halloween
+		"AbilityButtonHint_HalloweenTroll"		"Троль: цукерки чи капості — важкий ближній удар, щоб дати цукерки"
+		"AbilityButtonHint_HalloweenCauldron"		"Важкий ближній удар, щоб отримати цукерки"
+	}
 }
 

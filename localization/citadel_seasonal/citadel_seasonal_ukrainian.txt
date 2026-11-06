@@ -29,6 +29,8 @@
 		"SnowballCount_label"		"Кинуті сніжки"
 		"SnowballCount_postvalue_label"		"до кількості снарядів"
 		"seasonal_ability_eat_halloween_candy"		"Зʼїсти цукерку"
+		"seasonal_ability_eat_halloween_candy_desc"		"Зʼїдає одну цукерку, відновлює здоровʼя й витривалість та отримує посилення <span class=\"highlight\">цукрового шалу</span>.<br><br><span class=\"diminish\">Показники лікування й цукрового шалу посилюються в ході матчу.<br><br>Після важкого ближнього удару з вас випадає трохи цукерок.</span>  "
+
 		"HalloweenCandy_label"		"Заряди:"
 		"HalloweenCandy_postvalue_label"		"До кількості зарядів:"
 	}

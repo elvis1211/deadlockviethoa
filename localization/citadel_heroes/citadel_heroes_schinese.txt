@@ -4759,7 +4759,7 @@
 		
 		"ability_unicorn_luminousstrike"				"明辉匕首"
 		"ability_unicorn_luminousstrike_desc"			"从上天召唤纯净的光束。短暂持续时间后，光束会完全成形，引发爆炸，对范围内所有目标造成{g:citadel_inline_attribute:'SpiritDamage'}。<br><br>每次击中一个敌方英雄，赛凌都会获得一个可叠加的增益效果，提升她的元灵伤害。"
-		"ability_unicorn_luminousstrike_t2_desc"		"{s:AbilityCooldown}秒冷却时间<br>+{s:ImpactDamage}冲击伤害"						"ability_unicorn_luminousstrike_t3_desc"		"每层叠加+{s:MagicIncreasePerStack}%元灵增强和+{s:FireRatePerStack}%射速"
+		"ability_unicorn_luminousstrike_t2_desc"		"{s:AbilityCooldown}秒冷却时间<br>+{s:ImpactDamage}撞击伤害<br>+{s:AbilityCastRange}米施法距离"						"ability_unicorn_luminousstrike_t3_desc"		"每层叠加+{s:MagicIncreasePerStack}%元灵增强和+{s:FireRatePerStack}%射速"
 		"ability_unicorn_luminousstrike/luminous_strike_dot_enemy"				"明光打击灼烧"
 		"ability_unicorn_luminousstrike/luminous_strike_buff"				"明辉匕首"
 
@@ -4834,7 +4834,7 @@
 		"ability_fencer_lunge_on_proc"		"最高叠加层数触发时"
 
 		"ability_fencer_riposte"	"还击"
-		"ability_fencer_riposte_desc" "准备好<span class=\"highlight\">偏转</span>即将到来的攻击。在成功偏转时，暂时变得<span class=\"highlight\">无敌</span>并选定一个敌方英雄冲向他们，造成<span class=\"highlight\">定身</span>，阻止他们<span class=\"highlight\">格挡</span>并降低他们的<span class=\"highlight\">近战抗性</span>。<br><br><span class=\"diminish\">按{g:citadel_binding:'Ability2'}选择目标。<br>不会对士兵或中立生物触发。</span>"
+		"ability_fencer_riposte_desc" "准备好<span class=\"highlight\">偏转</span>即将到来的攻击。在成功偏转时，暂时变得<span class=\"highlight\">无敌</span>并选定一个敌方英雄冲向他们，造成<span class=\"highlight\">定身</span>和<span class=\"highlight\">缴械</span>，阻止他们<span class=\"highlight\">格挡</span>并降低他们的<span class=\"highlight\">近战抗性</span>。<br><br><span class=\"diminish\">按{g:citadel_binding:'Ability2'}选择目标。<br>不会对士兵或中立生物触发。</span>"
 		"RiposteChannelTime_postvalue_label"	"偏转持续时间"
 		"RiposteChannelTime_postfix"			"秒"
 		"LungeCooldownReduction_prefix"			"-"
@@ -4854,7 +4854,7 @@
 		//"CounterTimeWindow_postfix"			"s"
 
 		"ability_fencer_riposte_attack"			"还击"
-		"ability_fencer_riposte_attack_desc"	"快速向前冲刺，用武器的剑柄击中敌人，阻止他们格挡。"
+		"ability_fencer_riposte_attack_desc"	"快速向前冲刺，用武器的剑柄击中敌人将其定身并缴械，阻止他们格挡。"
 		"MeleeResistReductionDuration_label"			"近战抗性降低持续时间"
 		"MeleeResistReductionDuration_postvalue_label"	"减益持续时间"
 		"MeleeResistReductionDuration_postfix"			"秒"
@@ -4969,7 +4969,7 @@
 		"AllyDamageReduction_postfix"	"%"
 		"AllyDamageReduction_label" "伤害降低"
 		"ability_ratking_standard_bearer_desc" "冲刺并召唤拉塔尼亚的旗帜，使附近友军获得{g:citadel_inline_attribute:'MoveSpeed'}，<span class=\"highlight\">免疫减速效果</span>，并且靠近旗帜时<span class=\"highlight\">减少受到的伤害</span>。"
-		"ability_ratking_standard_bearer_t1_desc" "+{s:BonusMoveSpeed}米移动速度"
+		"ability_ratking_standard_bearer_t1_desc" "+{s:BonusMoveSpeed}米移动速度<br>{s:AbilityCooldown}秒冷却时间"
 		"ability_ratking_standard_bearer_t2_desc" "+{s:FlagDuration}秒旗帜持续时间<br>+{s:Radius}米半径"
 		"ability_ratking_standard_bearer_t3_desc" "+{s:Damage}伤害<br>+{s:AllyDamageReduction}%伤害降低"
 		

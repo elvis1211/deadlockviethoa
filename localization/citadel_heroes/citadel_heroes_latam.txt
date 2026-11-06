@@ -4760,7 +4760,7 @@ Los espectros buscarán enemigos cercanos, infligiendo {g:citadel_inline_attribu
 		
 		"ability_unicorn_luminousstrike"				"Dagas radiantes"
 		"ability_unicorn_luminousstrike_desc"			"Invoca un rayo de luz desde el cielo. Después de un breve intervalo, el rayo se forma por completo y provoca una explosión que inflige {g:citadel_inline_attribute:'SpiritDamage'} a todos los objetivos en el área.<br><br>Celeste recibirá una mejora acumulable que aumentará su daño espiritual cada vez que alcance a un héroe enemigo."
-		"ability_unicorn_luminousstrike_t2_desc"		"{s:AbilityCooldown} s de tiempo de recarga y +{s:ImpactDamage} de daño por impacto"						"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack} % de amplificación espiritual y +{s:FireRatePerStack} % de cadencia de tiro por acumulación"
+		"ability_unicorn_luminousstrike_t2_desc"		"{s:AbilityCooldown} s de tiempo de recarga, +{s:ImpactDamage} de daño por impacto y +{s:AbilityCastRange} m de alcance de lanzamiento"						"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack} % de amplificación espiritual y +{s:FireRatePerStack} % de cadencia de tiro por acumulación"
 		"ability_unicorn_luminousstrike/luminous_strike_dot_enemy"				"Quemadura por Ataque luminoso"
 		"ability_unicorn_luminousstrike/luminous_strike_buff"				"Dagas radiantes"
 
@@ -4835,7 +4835,7 @@ Los espectros buscarán enemigos cercanos, infligiendo {g:citadel_inline_attribu
 		"ability_fencer_lunge_on_proc"		"Al activarse con el máx. de acumulaciones"
 
 		"ability_fencer_riposte"	"Contraataque"
-		"ability_fencer_riposte_desc" "Prepárate para <span class=\"highlight\">desviar</span> el siguiente ataque recibido. Si logras desviar con éxito, te vuelve temporalmente <span class=\"highlight\">invulnerable</span> y avanzas hacia un héroe enemigo, <span class=\"highlight\">inmovilizándolo</span>, impidiéndole <span class=\"highlight\">contraatacar</span> y <span class=\"highlight\">reduciendo su resistencia a los golpes</span>.<br><br><span class=\"diminish\">Presiona {g:citadel_binding:'Ability2'} para seleccionar un objetivo.<br>No tiene en cuenta el daño de soldados o enemigos neutrales.</span>"
+		"ability_fencer_riposte_desc" "Prepárate para <span class=\"highlight\">desviar</span> el siguiente ataque recibido. Si logras desviar con éxito, te vuelves temporalmente <span class=\"highlight\">invulnerable</span> y puedes elegir como objetivo a un héroe enemigo para avanzar hacia él, <span class=\"highlight\">inmovilizándolo</span> y <span class=\"highlight\">desarmándolo</span>, impidiéndole <span class=\"highlight\">contraatacar</span> y reduciendo su <span class=\"highlight\">resistencia cuerpo a cuerpo</span>.<br><br><span class=\"diminish\">Presiona {g:citadel_binding:'Ability2'} para seleccionar un objetivo.<br>No se tiene en cuenta el daño de soldados o enemigos neutrales.</span>"
 		"RiposteChannelTime_postvalue_label"	"de duración de la desviación"
 		"RiposteChannelTime_postfix"			" s"
 		"LungeCooldownReduction_prefix"			"-"
@@ -4855,7 +4855,7 @@ Los espectros buscarán enemigos cercanos, infligiendo {g:citadel_inline_attribu
 		//"CounterTimeWindow_postfix"			"s"
 
 		"ability_fencer_riposte_attack"			"Contraataque"
-		"ability_fencer_riposte_attack_desc"	"Impúlsate rápidamente hacia adelante e inmoviliza a un enemigo con la empuñadura de tu arma, impidiendo que pueda contraatacar."
+		"ability_fencer_riposte_attack_desc"	"Impúlsate rápidamente hacia adelante, inmoviliza y desarma a un enemigo con la empuñadura de tu arma, impidiendo que pueda contraatacar."
 		"MeleeResistReductionDuration_label"			"Reducción de resistencia cuerpo a cuerpo"
 		"MeleeResistReductionDuration_postvalue_label"	"de dur. del efecto negativo"
 		"MeleeResistReductionDuration_postfix"			" s"
@@ -4970,7 +4970,7 @@ Los espectros buscarán enemigos cercanos, infligiendo {g:citadel_inline_attribu
 		"AllyDamageReduction_postfix"	" %"
 		"AllyDamageReduction_label" "Reducción de daño"
 		"ability_ratking_standard_bearer_desc" "Embiste e invoca el estandarte de Ratannia, otorgando a todos los aliados cercanos {g:citadel_inline_attribute:'MoveSpeed'} aumentada, <span class=\"highlight\"></span>inmunidad a la ralentización</span> y <span class=\"highlight\">daño reducido</span> al estar cerca del estandarte."
-		"ability_ratking_standard_bearer_t1_desc" "+{s:BonusMoveSpeed} m de vel. de mov."
+		"ability_ratking_standard_bearer_t1_desc" "+{s:BonusMoveSpeed} m de velocidad de movimiento<br>{s:AbilityCooldown} s de tiempo de recarga"
 		"ability_ratking_standard_bearer_t2_desc" "+{s:StunDuration} s de duración de la bandera y <br>+{s:Radius} m de radio"
 		"ability_ratking_standard_bearer_t3_desc" "+{s:Damage} de daño y +{s:AllyDamageReduction} % de reducción del daño"
 		

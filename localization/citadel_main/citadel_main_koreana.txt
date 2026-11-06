@@ -451,7 +451,7 @@
 		"Citadel_Hud_Quickbuy_ToastLabel_Purchase"					"구매한 아이템"
 		"Citadel_Hud_Quickbuy_ToastLabel_Sell"						"아이템 판매함"
 		"Citadel_Hud_Quickbuy_Tooltip"								"이곳에서 아이템을 클릭하여 구매하거나 상점 범위 내에서 {g:citadel_binding:'PurchaseQuickbuy'} 키를 눌러 빠른 구매 아이템을 구매할 수 있습니다."
-		"Citadel_Hud_Quickbuy_Tooltip_Autobuy"						"상점 범위 내에 있으며 영혼이 충분할 경우 이 아이템을 구매할 수 있습니다. 이 기능은 영웅 체험 모드와 같이 무료 구매가 가능한 경우에는 사용할 수 없습니다."
+		"Citadel_Hud_Quickbuy_Tooltip_Autobuy"						"상점 범위 안에 있고 이 아이템을 구매할 만큼 충분한 영혼을 보유하고 있다면 아이템이 자동으로 구매됩니다. 영웅 체험 모드처럼 무료 구매가 활성화된 경우에는 이 기능이 적용되지 않습니다."
 		"Citadel_Hud_Quickbuy_Tooltip_Empty"						"[M2]를 눌러 빠른 구매 대기열에 아이템을 추가하거나 제거합니다."
 		"Citadel_Hud_Quickbuy_Reorder_Tooltip"						"아이템을 드래그하여 순서 변경"
 		"Citadel_Hud_Quickbuy_Delete_Tooltip"						"대기열에서 제거"
@@ -761,16 +761,20 @@
 
 		"Citadel_RankedSeason_SeasonEnded"			"시즌 종료"
 		"Citadel_RankedSeason_TimeRemaining"		"{t:d:t:T:time_remaining} 남음"
+		"Citadel_RankedSeason_LastDay"				"마지막 날"
 
 		"Citadel_RankedSeason_CurrentRank"			"현재 랭크"
 		"Citadel_RankedSeason_SeasonRank"			"시즌 랭크"
 		"Citadel_RankedSeason_HighestRank"			"최고 랭크"
+		"Citadel_RankedSeason_FinalRank"			"시즌 최고 랭크"
 
 		"Citadel_RankedSeason_ProtectionRemaining:f"			"보호 {d:demotion_protection_remaining}/{d:demotion_protection_total} 남음"
 		"Citadel_RankedSeason_ProtectionUsed"			"강등 보호 사용됨"
-		"Citadel_RankedSeason_ResultingRank"			"결과 순위"
+		"Citadel_RankedSeason_ResultingRank"			"결과 랭크"
 		"Citadel_RankedSeason_HeroWins:f"	"{d:hero_wins} 승리"
-		"Citadel_RankedSeason_HeroWinsRequired:f"	"랭크 매치를 위한 영웅 자격을 잠금 해제하려면 <b>{d:wins_required_per_hero}회 승리</b>해야 합니다."
+		"Citadel_RankedSeason_HeroWinsRequired:f"	"랭크 매치에서 해당 영웅을 사용하려면 <b>{d:wins_required_per_hero}승</b>을 달성해야 합니다."
+		"Citadel_RankedSeason_HeroPoints:f"	"{d:hero_points} 포인트"
+		"Citadel_RankedSeason_HeroPointsRequired:f"	"랭크 매치에서 해당 영웅을 사용하려면 <b>{d:points_required_per_hero} 포인트</b>를 획득해야 합니다.<br />승리 = 2 포인트&nbsp;&nbsp;/&nbsp;&nbsp;패배 = 1 포인트"
 		"Citadel_Ranked_ViewSeasonHistory"		"시즌 기록 보기"
 		"Citadel_Ranked_ViewLeaderboards"		"순위표 보기"
 
@@ -791,19 +795,23 @@
 
 		"Citadel_RankedSeason_EligibilityTitle"				"랭크 매치 참여 자격:"
 		"Citadel_RankedSeason_Eligibility_AccountWins:f"	"일반 매치에서 {d:current_account_wins} / {d:required_account_wins} 승리"
-		"Citadel_RankedSeason_Eligibility_HeroUnlocks:f"	"{d:required_hero_win_count} 승리 이상을 보유한 영웅 {d:current_unlocked_heroes} / {d:required_unlocked_heroes}"
 		"Citadel_RankedSeason_Eligibility_NotEligible"		"랭크 매치를 잠금 해제하려면 일반 매치를 플레이하세요."
 		"Citadel_RankedSeason_Eligibility_Eligible"			"랭크 매치는 플레이 메뉴에서 이용하실 수 있습니다."
+
+		"Citadel_RankedSeason_JoinSeason"				"시즌 참가"
 
 		"Citadel_RankedMatchHistory_Calibrating"		"측정 중 {d:calibrating_number}/{d:calibration_matches}"
 		"Citadel_RankedMatchHistory_Calibrated"			"측정 완료"
 		"Citadel_RankedMatchHistory_PointsChange"		"{s:rank_points_change} 포인트"
 
-		"Citadel_RankedHistory_Title"					"랭크 시즌"
+		"Citadel_RankedHistory_Title"					"랭크 시즌 기록"
 		"Citadel_RankedHistory_SeasonNotJoined"			"참여 안 함"
 		"Citadel_RankedHistory_SeasonNotCalibrated"		"측정 안 함"
 		"Citadel_RankedHistory_SeasonCalibrating"		"측정 중"
 		"Citadel_RankedHistory_SeasonUpcoming"			"--"
+
+		
+		"Citadel_RankedSeasonCompleted_Title"			"종료"
 
 		"Citadel_Ranked_NoSeasonActive"			"현재 활성화된 시즌 없음"
 
@@ -822,15 +830,14 @@
 
 
 		"Citadel_Ranked_Overview_Eligibility"			"참여 자격"
-		"Citadel_Ranked_Overview_Eligibility_Bullet1:f"	"계정에 총 {d:required_account_wins}회 이상 승리 기록이 있어야 합니다. 또한 일반 매치에서 각각 {d:required_hero_wins}회 이상 승리한 영웅이 {d:required_hero_unlocks}명 이상 있어야 합니다."
+		"Citadel_Ranked_Overview_Eligibility_Bullet1:f"	"계정 전체 누적 승리 횟수가 {d:required_account_wins}회 이상이어야 합니다."
+		"Citadel_Ranked_Overview_Eligibility_Bullet1_HeroWins:f"	"일반 매치에서 각각 {d:required_hero_wins}회 이상 승리한 영웅이 {d:required_hero_unlocks}명 이상 있어야 합니다."
+		"Citadel_Ranked_Overview_Eligibility_Bullet1_HeroPoints:f"	"각각 {d:required_hero_points}포인트 이상 획득한 영웅이 {d:required_hero_unlocks}명 이상 있어야 합니다. 일반 매치에서 승리하면 2 포인트, 패배하면 1 포인트를 획득합니다."
 		"Citadel_Ranked_Overview_Eligibility_Bullet2"				"랭크 매치에서 플레이어는 1인 또는 2인 파티로만 대기열에 들어갈 수 있습니다. 2인 파티의 두 플레이어는 서로 랭크 차이가 1단계 이내여야 합니다. 불멸자 플레이어는 서브랭크 차이가 3단계 이내인 다른 불멸자 플레이어와만 대기열에 들어갈 수 있습니다."
-		"Citadel_Ranked_Overview_Eligibility_Bullet3"				"1인 측정 게임을 {d:required_solo_calibration_games}회 완료해야 합니다. 측정 완료 시 받을 수 있는 최고 랭크는 {g:citadel_packed_rank_name:max_calibration_rank}입니다."
-
-
 		"Citadel_Ranked_Overview_PlayingMatches"		"레벨 상승"
 		"Citadel_Ranked_Overview_Playing_Bullet1"		"승리/패배는 각각 평균적으로 +/- {d:ranked_point_gain} 포인트를 제공합니다. 이 수치는 매치메이킹 시스템이 예측한 유불리에 따라 조금 달라질 수 있으며, 연승으로도 달라질 수 있습니다. 랭크 포인트 변동은 매치가 끝날 때마다 진척도 막대를 통해 눈으로 확인할 수 있습니다."
-		"Citadel_Ranked_Overview_Playing_Bullet2"		"새로운 랭크 또는 서브랭크로 승격되면 강등 보호 토큰을 얻습니다. 배지 랭크가 완전히 상승하면 5개를 얻고, 서브랭크가 상승하면 2개를 얻습니다. 강등 보호가 활성화되어 있을 때 랭크가 내려가는 패배를 당하면 강등되는 대신 토큰이 소모됩니다."
-		"Citadel_Ranked_Overview_Playing_Bullet3"		"서브랭크를 올리려면 1,000 랭크 포인트가 필요합니다(예: {g:citadel_packed_rank_name:'62'} -> {g:citadel_packed_rank_name:'63'}). 다음 배지 랭크로 완전히 승격하려면 2,000 랭크 포인트가 필요합니다(예: {g:citadel_packed_rank_name:'56'} -> {g:citadel_packed_rank_name:'61'})."
+		"Citadel_Ranked_Overview_Playing_Bullet2:f"		"새로운 랭크 또는 서브랭크로 승급하면 강등 보호 방패를 획득합니다. 랭크 승급 시에는 {d:main_rank_demotion_protection}개, 서브랭크 승급 시에는 {d:sub_rank_demotion_protection}개의 방패를 획득합니다. 매치에서 패배해 랭크가 내려갈 상황이 되었을 때 강등 보호가 활성화되어 있다면, 방패 1개를 소모하고 현재 랭크를 유지합니다. {g:citadel_packed_rank_name:last_demotion_protection_packed_rank}보다 높은 랭크 또는 서브랭크에서는 강등 보호 방패가 제공되지 않습니다."
+		"Citadel_Ranked_Overview_Playing_Bullet3"		"다음 서브랭크로 승급하려면 {d:sub_rank_progress_required} 랭크 포인트가 필요합니다(예: {g:citadel_packed_rank_name:'62'} -> {g:citadel_packed_rank_name:'63'}). 다음 배지 랭크로 승급하려면 {d:main_rank_progress_required} 랭크 포인트가 필요합니다(예: {g:citadel_packed_rank_name:'56'} -> {g:citadel_packed_rank_name:'61'})."
 		"Citadel_Ranked_Overview_Playing_Bullet4"		"최고 랭크에서는 규칙이 약간 바뀝니다. 랭크 포인트를 얻거나 잃는 건 다른 랭크와 같지만, 서브랭크가 일정한 포인트에 묶여 있지 않습니다. 그 대신 {g:citadel_packed_rank_rank_name:'111'} 랭크에 속한 플레이어의 백분위에 따라 하루에 한 번 다른 서브랭크가 배정됩니다."
 
 		"Citadel_Ranked_Overview_HeroSelection"			"게임 시작 전 대기 구역"
@@ -839,10 +846,8 @@
 
 		"Citadel_LeaderboardRankDesc"				"{g:citadel_packed_rank_name:leaderboard_packed_rank} 이상에서는 일정량의 포인트를 얻는 것으로 배지를 획득할 수 없습니다. 그 대신, 자격이 되는 모든 플레이어는 랭크 포인트에 따라 순서대로 배치되며, 그다음 각각 백분위에 따른 배지를 받습니다."
 
-
-
-
 		"Citadel_RankedSeasonName_BetaSeason1"		"베타 시즌 1"
+		"Citadel_RankedSeasonName_BetaSeason2"		"베타 시즌 2"
 
 		"Citadel_RankedProgress_CalibratedRank"		"측정 완료"
 		"Citadel_RankedProgress_GainedRank"			"랭크 업"
@@ -1209,7 +1214,7 @@
 		"Citadel_Roster_Instructions_Prefer"						"{g:citadel_binding:'ADS'}: <b>우선</b> 및 <b>최우선</b> 전환"
 
 		"Citadel_Roster_Instructions_Title_HeroLabs"				"영웅 실험실"
-		"Citadel_Roster_Instructions_Desc_HeroLabs"					"새로운 실험 영웅을 선택하거나 상대로 플레이합니다.<br><br>영웅을 3명 이상 선택합니다.<b>선택한 영웅 중 2명은 테스트 대상이 아닌 일반 영웅이어야 합니다.</b>플레이어가 실험 영웅을 마지막으로 플레이한 시기에 따라 실험 영웅이 명단에 포함될 가능성이 높아집니다."
+		"Citadel_Roster_Instructions_Desc_HeroLabs"					"새로운 실험 영웅으로 플레이하거나 실험 영웅을 상대로 플레이할 수 있습니다.<br><br>영웅을 최소 3명 선택해야 하며, <b>그중 2명은 테스트 대상이 아닌 일반 영웅이어야 합니다.</b> 실험 영웅으로 플레이한 지 오래될수록 명단에 있는 실험 영웅을 배정받을 가능성이 높아집니다."
 
 		"Citadel_RosterUpdate_FailedTitle"							"영웅 명단 업데이트 불가"
 		"Citadel_RosterUpdate_Timeout"								"Deadlock 네트워크에 연결할 수 없음"
@@ -1238,7 +1243,6 @@
 
 		"Citadel_RankedMatchStatus_Counts"							"{d:count_current} / {d:count_required}"
 		"Citadel_RankedMatchStatus_Wins"							"승리"
-
 		"Citadel_ViewMatchID_Title"									"매치 ID로 검색"
 		"Citadel_ViewMatchID_Desc"									"매치 세부 정보를 보려면 매치 ID를 입력하세요."
 		"Citadel_ViewMatchID_Prompt"								"매치 ID"
@@ -1782,7 +1786,7 @@
 		"Citadel_PartyFindMatch_OpenInvitesTitle"				"대기 중인 초대"
 		"Citadel_PartyFindMatch_OpenInvitesBody"				"아직 수락되지 않아 대기 중인 파티 초대가 있습니다. 초대를 취소하고 계속 진행할까요?"
 		"Citadel_PartyFindMatch_SoloPartyTitle"					"파티 비어 있음"
-		"Citadel_PartyFindMatch_SoloPartyBody"					"파티에 아무도 없습니다. 친구를 초대하여 함께 플레이하거나 파티에서 나간 다음 플레이하세요."
+		"Citadel_PartyFindMatch_SoloPartyBody"					"현재 파티에 혼자 있습니다. 친구를 초대하여 함께 플레이하거나 파티에서 나간 다음 플레이하세요."
 		"Citadel_PartyFindMatch_SoloParty_Leave"				"혼자 플레이하기"
 		"Citadel_PartyFindMatch_SoloParty_Wait"					"친구 기다리기"
 		"Citadel_PartyFindMatch_DevContinue"					"개발자용 - 무시하고 계속"
@@ -3917,7 +3921,7 @@
 		"Citadel_GraphicsSettingsWarning_Title"			"그래픽 설정 권장 사항"
 		"Citadel_VariableRefreshRateRecommendation_Nvidia"	"디스플레이에서 NVIDIA G-Sync를 지원하는 것으로 보이지만 현재 활성화되어 있지 않습니다. 최상의 게임플레이 경험을 위해서는 G-Sync를 활성화하는 것이 좋습니다. NVIDIA 제어판을 사용하여 게임 외부에서 활성화할 수 있습니다. 변경 사항을 적용하려면 게임을 다시 시작해야 할 수 있습니다."
 		"Citadel_RefreshRateRecommendation"					"디스플레이에서 {d:max_refresh_rate}Hz 모드를 지원하는 것으로 보이지만, 현재 {d:curr_refresh_rate}Hz를 사용하고 있습니다. 최상의 게임플레이 경험을 위해서는 일반적으로 디스플레이에서 지원하는 가장 높은 주사율을 사용하는 것이 좋습니다."
-		"Citadel_LowLatencyVSyncRecommendation_Nvidia"		"NVIDIA G-Sync가 활성화되어 있지만, V-Sync와 NVIDIA Reflex는 활성화되어 있지 않은 것 같습니다. 최상의 게임플레이 경험을 위해서는 3가지 설정을 모두 활성화하는 것이 좋습니다."
+		"Citadel_LowLatencyVSyncRecommendation_Nvidia"		"NVIDIA G-Sync가 활성화되어 있지만 V-Sync와 NVIDIA Reflex 중 적어도 하나는 비활성화되어 있는 것 같습니다. 최상의 게임플레이 경험을 위해서는 3가지 설정을 모두 활성화하는 것이 좋습니다."
 
 		"citadel_settings_gsync"						"NVIDIA G-Sync"
 		"citadel_settings_gsync_info"					"NVIDIA G-Sync는 가능한 경우 디스플레이의 새로 고침 빈도를 게임의 프레임 속도에 맞춰 동적으로 변경하여 보다 매끄러운 시각적 경험을 제공합니다. 이는 특정 디스플레이에서만 사용 가능하며 게임의 프레임 속도가 디스플레이 모드의 최대 새로 고침 빈도보다 낮을 때 가장 효과적입니다. 게임 외부에서 NVIDIA 제어판으로 활성화할 수 있습니다. 변경 사항을 적용하려면 게임을 다시 시작해야 할 수도 있습니다."
@@ -4241,7 +4245,7 @@
 		"guide_upgrades_yellow_orbs_desc"			"적군이 사망하면 추가 영혼이 나타납니다.<br><br>이러한 영혼이 담긴 파란색 구슬을 쏘거나 날아가도록 두면 영혼을 획득할 수 있습니다."
 
 		"guide_upgrades_deny_header"				"영혼 훔치기"
-		"guide_upgrades_deny_desc"					"적군의 영혼 구슬은 주황색이며, 적군이 영혼 구슬을 공중으로 날려 보내거나 쏘면 획득하게 됩니다.<br><br>이 주황색 구슬을 먼저 쏘면 영혼을 훔칠 수 있습니다."
+		"guide_upgrades_deny_desc"					"적군의 영혼 구슬은 주황색입니다. 구슬이 떠내려가거나 적군이 구슬을 쏘면 적군이 영혼을 획득합니다.<br><br>이 주황색 구슬을 먼저 쏘면 영혼을 훔칠 수 있습니다."
 
 		"guide_upgrades_killing_guardians_header"	"능력 포인트"
 		"guide_upgrades_killing_guardians_desc"		"영혼을 획득하면 능력 포인트를 받습니다.<br><br>{g:citadel_binding:'Scoreboard'} 키를 길게 누르면 이 포인트를 사용하여 능력을 업그레이드할 수 있습니다."
@@ -4467,7 +4471,7 @@
 
 		"menu_bots_lane_training"					"전선 훈련"
 		"menu_play_sandbox_desc"					"영웅의 능력, 움직임, 아이템을 자유롭게 체험하세요."
-		"menu_play_lane_training_desc"				"플레이하기 쉬운 영웅으로 게임 초반 플레이를 배워 보세요."
+		"menu_play_lane_training_desc"				"친근한 영웅의 안내를 받으며 게임 초반의 기본기를 익혀 보세요."
 		"menu_play_bots_easy_desc"					"봇을 상대로 비공개 매치를 플레이하세요."
 		"menu_play_custom_game_desc"				"맞춤 로비를 만들거나 로비에 참가하여 최대 12명의 플레이어와 함께 플레이하세요."
 		"menu_play_explore_map_desc"				"비어 있는 도시를 자유롭게 돌아다니며 길을 익혀 보세요."
@@ -4574,7 +4578,7 @@
 		"Citadel_ranked_scheduleModal_warning"		"참고: 일정을 선택하고 나면 7일 후에 다른 일정으로 변경할 수 있습니다."
 		"Citadel_ranked_open"						"지금 플레이 가능"
 		"Citadel_ranked_closed"						"랭크 매치 종료"
-		"Citadel_ranked_comingsoon"					"첫 랭크 매치는 10월 15일 화요일 오전 8시(그리니치 표준시)에 시작됩니다."
+		"Citadel_ranked_comingsoon"					"첫 랭크 매치는 10월 15일 화요일 오후 8시(그리니치 표준시)에 시작됩니다."
 		"Citadel_ranked_schedule_explainer"			"랭크 매치는 특정 시간대에만 플레이할 수 있습니다. 플레이하기 전에 본인에게 가장 적합한 플레이 시간대를 선택해야 합니다."
 
 		"Citadel_ranked_explainer_button"			"랭크 매치 더 알아보기"
@@ -4606,8 +4610,10 @@
 		"Citadel_ranked_numGamesPlayed"				"플레이한 매치: {s:games_played}번"
 		"Citadel_ranked_match_history"				"매치 기록:"
 
-		"Citadel_Ranked_Validating"					"랭크 매치메이킹 처리 중..."
-		"Citadel_Ranked_ErrorTitle"					"랭크 매치메이킹에 오류 발생"
+		"Citadel_Ranked_PleaseWait"					"잠시 기다려 주세요..."
+		"Citadel_Ranked_Validating"					"랭크 시즌 참가 중"
+		"Citadel_Ranked_ErrorTitle"					"랭크 매치메이킹을 시작할 수 없습니다"
+		"Citadel_Ranked_Timeout"					"시간 초과"
 		"Citadel_Ranked_NotEnoughMatchesPlayed"		"플레이한 매치 수가 부족합니다."
 		"Citadel_Ranked_NotEnoughHeroesUnlocked"	"잠금 해제된 영웅이 부족합니다."
 		"Citadel_Ranked_InternalError"				"내부 오류"
@@ -4733,7 +4739,7 @@
 		"MyRosterExit"								"영웅 명단 나가기"
 		"MyRosterExitRosterConfirm"					"영웅 명단에서 나갈까요? 파티 전체에 대한 영웅 명단에서 나가게 됩니다."
 		"MyRosterPartyHighSkillRangeTitle"			"실력 차이가 큰 파티"		
-		"MyRosterPartyHighSkillRangeNew"			"파티원 간의 실력 차이가 큽니다.<br><br>이에 따라, 실력이 부족한 플레이어는 매치에서 더 많은 어려움을 겪습니다."
+		"MyRosterPartyHighSkillRangeNew"			"파티원 간의 실력 차이가 큽니다.<br><br>따라서 매치에서 상대적으로 실력이 낮은 플레이어는 평소보다 더 어려움을 겪을 수 있습니다."
 		"PartyWarningPostGame"						"실력 차이가 큰 파티 매치"
 		"Citadel_Roster_ViewBackstory_Tooltip"		"영웅 배경 이야기 보기"
 		"Citadel_Roster_TestHero"					"테스트"

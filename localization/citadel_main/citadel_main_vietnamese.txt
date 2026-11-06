@@ -1,6 +1,6 @@
 ﻿"lang"
 {
-	"Language" "vietnamese"
+	"Language" "Vietnamese"
 	"Tokens"
 	{
 		"Citadel_Dashboard_BuildVersion"	"#{d:buildNumber}"
@@ -762,17 +762,20 @@
 
 		"Citadel_RankedSeason_SeasonEnded"			"Mùa giải đã kết thúc"
 		"Citadel_RankedSeason_TimeRemaining"		"Còn {t:d:t:T:time_remaining}"
-		"Citadel_RankedSeason_LastDay"		"Ngày cuối"
+		"Citadel_RankedSeason_LastDay"				"Ngày cuối"
 
 		"Citadel_RankedSeason_CurrentRank"			"Bậc hạng hiện tại"
 		"Citadel_RankedSeason_SeasonRank"			"Bậc hạng mùa giải"
 		"Citadel_RankedSeason_HighestRank"			"Bậc hạng cao nhất"
+		"Citadel_RankedSeason_FinalRank"			"Hạng cao nhất trong mùa"
 
 		"Citadel_RankedSeason_ProtectionRemaining:f"			"{d:demotion_protection_remaining}/{d:demotion_protection_total} {demotion_protection_total, plural, one{lượt bảo vệ} other{lượt bảo vệ}} còn lại"
 		"Citadel_RankedSeason_ProtectionUsed"			"Đã sử dụng bảo vệ tụt hạng"
 		"Citadel_RankedSeason_ResultingRank"			"Bậc hạng kết quả"
 		"Citadel_RankedSeason_HeroWins:f"	"{d:hero_wins} {hero_wins, plural, one{trận thắng} other{trận thắng}}"
-		"Citadel_RankedSeason_HeroWinsRequired:f"	"Cần <b>{d:wins_required_per_hero} {wins_required_per_hero, plural, one{trận thắng} other{trận thắng}}</b> với tướng này để đủ điều kiện đấu xếp hạng"
+		"Citadel_RankedSeason_HeroWinsRequired:f"	"Cần <b>{d:wins_required_per_hero} {wins_required_per_hero, plural, one{trận thắng} other{trận thắng}}</b> với tướng này để đủ điều kiện đấu xếp hạng."
+		"Citadel_RankedSeason_HeroPoints:f"	"{d:hero_points} {hero_points, plural, one{điểm} other{điểm}}"
+		"Citadel_RankedSeason_HeroPointsRequired:f"	"Cần <b>{d:points_required_per_hero} {points_required_per_hero, plural, one{điểm} other{điểm}}</b> để tướng đủ điều kiện đấu xếp hạng.<br />Thắng = 2 điểm&nbsp;&nbsp;/&nbsp;&nbsp;Thua = 1 điểm"
 		"Citadel_Ranked_ViewSeasonHistory"		"Xem lịch sử mùa giải"
 		"Citadel_Ranked_ViewLeaderboards"		"Xem bảng xếp hạng"
 
@@ -793,19 +796,25 @@
 
 		"Citadel_RankedSeason_EligibilityTitle"				"Điều kiện tham gia chế độ Xếp hạng:"
 		"Citadel_RankedSeason_Eligibility_AccountWins:f"	"{d:current_account_wins}/{d:required_account_wins} trận thắng ở chế độ Standard"
-		"Citadel_RankedSeason_Eligibility_HeroUnlocks:f"	"{d:current_unlocked_heroes}/{d:required_unlocked_heroes} tướng có ít nhất {d:required_hero_win_count} trận thắng"
+		"Citadel_RankedSeason_Eligibility_HeroUnlocks_Wins:f"	"{d:current_unlocked_heroes} / {d:required_unlocked_heroes} tướng có ít nhất {d:required_hero_win_count} trận thắng"
+		"Citadel_RankedSeason_Eligibility_HeroUnlocks_Points:f"	"{d:current_unlocked_heroes} / {d:required_unlocked_heroes} tướng đạt ít nhất {d:required_hero_point_count} điểm"
 		"Citadel_RankedSeason_Eligibility_NotEligible"		"Chơi trận thường để mở khóa Xếp hạng"
 		"Citadel_RankedSeason_Eligibility_Eligible"			"Có thể chọn Xếp hạng trong menu CHƠI"
+
+		"Citadel_RankedSeason_JoinSeason"				"Tham gia mùa giải"
 
 		"Citadel_RankedMatchHistory_Calibrating"		"Đang xếp hạng ban đầu {d:calibrating_number}/{d:calibration_matches}"
 		"Citadel_RankedMatchHistory_Calibrated"			"Đã hoàn tất xếp hạng tạm thời"
 		"Citadel_RankedMatchHistory_PointsChange"		"{s:rank_points_change}pts"
 
-		"Citadel_RankedHistory_Title"					"Các mùa xếp hạng"
+		"Citadel_RankedHistory_Title"					"Lịch sử mùa xếp hạng"
 		"Citadel_RankedHistory_SeasonNotJoined"			"Chưa tham gia"
 		"Citadel_RankedHistory_SeasonNotCalibrated"		"Chưa xếp hạng tạm thời"
 		"Citadel_RankedHistory_SeasonCalibrating"		"Đang xếp hạng tạm thời"
 		"Citadel_RankedHistory_SeasonUpcoming"			"--"
+
+		
+		"Citadel_RankedSeasonCompleted_Title"			"đã kết thúc"
 
 		"Citadel_Ranked_NoSeasonActive"			"Hiện không có mùa giải đang diễn ra"
 
@@ -824,16 +833,18 @@
 
 
 		"Citadel_Ranked_Overview_Eligibility"			"Điều kiện tham gia"
-		"Citadel_Ranked_Overview_Eligibility_Bullet1:f"	"Bạn cần ít nhất {d:required_account_wins} {required_account_wins, plural, one {trận thắng} other {trận thắng}} trên tài khoản. Đồng thời cần ít nhất {d:required_hero_unlocks} {required_hero_unlocks, plural, one {tướng} other {tướng}}, mỗi tướng có {d:required_hero_wins} {required_hero_wins, plural, one {trận thắng} other {trận thắng}} trong chế độ Thường."
-		"Citadel_Ranked_Overview_Eligibility_Bullet2"				"Players are only allowed to queue up for ranked as a Solo or Duo. Duo parties must be within 1 Rank up or down from each other. Eternus players can only queue with other Eternus players who are within 3 subranks of each other."
-		"Citadel_Ranked_Overview_Eligibility_Bullet3"				"You must complete {d:required_solo_calibration_games} solo calibration games. The max rank you can exit calibration with is {g:citadel_packed_rank_name:max_calibration_rank}."
+		"Citadel_Ranked_Overview_Eligibility_Bullet1:f"	"Tài khoản của bạn cần có ít nhất {d:required_account_wins} {required_account_wins, plural, one {trận thắng} other {trận thắng}}."
+		"Citadel_Ranked_Overview_Eligibility_Bullet1_HeroWins:f"	"Bạn cần ít nhất {d:required_hero_unlocks} {required_hero_unlocks, plural, one {tướng} other {tướng}}, mỗi tướng có {d:required_hero_wins} {required_hero_wins, plural, one {trận thắng} other {trận thắng}} trong chế độ Thường."
+		"Citadel_Ranked_Overview_Eligibility_Bullet1_HeroPoints:f"	"Bạn cần ít nhất {d:required_hero_unlocks} {required_hero_unlocks, plural, one {tướng} other {tướng}}, mỗi tướng có {d:required_hero_points} {required_hero_points, plural, one {điểm} other {điểm}}. Trong chế độ Thường, mỗi trận thắng được 2 điểm, mỗi trận thua được 1 điểm."
+		"Citadel_Ranked_Overview_Eligibility_Bullet2"				"Người chơi chỉ được tìm trận xếp hạng khi đấu đơn hoặc tổ đội hai người. Hai người trong đội phải có hạng chênh nhau không quá một bậc chính. Người chơi hạng Eternus chỉ được ghép cùng người chơi Eternus có bậc phụ cách nhau không quá ba bậc."
+		"Citadel_Ranked_Overview_Eligibility_Bullet3"				"Nếu bạn không tham gia mùa xếp hạng trước, bạn cần hoàn thành {d:required_solo_calibration_games} trận phân hạng đơn. Hạng cao nhất có thể đạt sau phân hạng là {g:citadel_packed_rank_name:max_calibration_rank}."
 
 
 		"Citadel_Ranked_Overview_PlayingMatches"		"Tăng cấp"
-		"Citadel_Ranked_Overview_Playing_Bullet1"		"Each win/loss will grant you +/- {d:ranked_point_gain} points on average. These numbers may vary slightly depending on the expectations the matchmaker had from that game, or from win streaks. You will see your Rank Points update with a visible progress bar after each match."
-		"Citadel_Ranked_Overview_Playing_Bullet2"		"When you are promoted to a new Rank or Subrank, you earn Demotion Protection tokens. For full badge Rank ups, you earn 5 tokens and for each Subrank you earn 2. If you lose while Demotion Protection is active, and you would have gone down a Rank, you instead stay the same Rank and a token is consumed."
-		"Citadel_Ranked_Overview_Playing_Bullet3"		"To advance from one Subrank to the next, you need to earn 1,000 Rank Points (ex. {g:citadel_packed_rank_name:'62'} -> {g:citadel_packed_rank_name:'63'}). To advance from one full badge Rank to the next, you will need to earn 2,000 Rank Points (ex. {g:citadel_packed_rank_name:'56'} -> {g:citadel_packed_rank_name:'61'})."
-		"Citadel_Ranked_Overview_Playing_Bullet4"		"At the highest Rank, the rules change slightly. You still gain or lose Rank points the same as before, but the Subranks are no longer fixed-point amounts. Instead, once a day, Subranks are assigned according to the percentiles of players within the {g:citadel_packed_rank_rank_name:'111'} Rank."
+		"Citadel_Ranked_Overview_Playing_Bullet1"		"Mỗi trận thắng/thua giúp bạn nhận hoặc mất trung bình {d:ranked_point_gain} Điểm Xếp Hạng. Con số này có thể thay đổi đôi chút tùy theo dự đoán của hệ thống ghép trận hoặc chuỗi thắng. Sau mỗi trận, điểm xếp hạng của bạn sẽ được cập nhật trên thanh tiến trình."
+		"Citadel_Ranked_Overview_Playing_Bullet2:f"		"Khi lên hạng hoặc bậc phụ mới, bạn nhận được lá chắn Chống Tụt Hạng. Lên hạng chính nhận {d:main_rank_demotion_protection} {main_rank_demotion_protection, plural, one {lá chắn} other {lá chắn}}, lên bậc phụ nhận {d:sub_rank_demotion_protection} {sub_rank_demotion_protection, plural, one {lá chắn} other {lá chắn}}. Nếu thua và lẽ ra bị tụt hạng khi đang được bảo vệ, bạn giữ nguyên hạng và tiêu hao một lá chắn. Không nhận thêm lá chắn ở các hạng hoặc bậc phụ cao hơn {g:citadel_packed_rank_name:last_demotion_protection_packed_rank}."
+		"Citadel_Ranked_Overview_Playing_Bullet3"		"Để lên bậc phụ tiếp theo, bạn cần đạt {d:sub_rank_progress_required} Điểm Xếp Hạng (ví dụ: {g:citadel_packed_rank_name:'62'} -> {g:citadel_packed_rank_name:'63'}). Để lên hạng chính tiếp theo, bạn cần đạt {d:main_rank_progress_required} Điểm Xếp Hạng (ví dụ: {g:citadel_packed_rank_name:'56'} -> {g:citadel_packed_rank_name:'61'})."
+		"Citadel_Ranked_Overview_Playing_Bullet4"		"Ở hạng cao nhất, luật có một chút thay đổi. Bạn vẫn nhận hoặc mất Điểm Xếp Hạng như bình thường, nhưng các bậc phụ không còn được xác định bằng mức điểm cố định. Thay vào đó, mỗi ngày, các bậc phụ được phân theo thứ hạng phần trăm của người chơi trong hạng {g:citadel_packed_rank_rank_name:'111'}."
 
 		"Citadel_Ranked_Overview_HeroSelection"			"Khu vực chờ trước trận"
 		"Citadel_Ranked_Overview_Hero_Bullet1"			"Khi vào trận xếp hạng, bạn sẽ thấy bậc hạng của toàn bộ người chơi trước khi chuyển đến khu chờ trước trận."
@@ -841,10 +852,8 @@
 
 		"Citadel_LeaderboardRankDesc"				"At {g:citadel_packed_rank_name:leaderboard_packed_rank} and higher, badges are no longer gained by receiving a fixed amount of points. Instead, all eligible players are placed in order according to rank points, and then assigned their badge based on their percentile position."
 
-
-
-
-		"Citadel_RankedSeasonName_BetaSeason1"		"Beta Season 1"
+		"Citadel_RankedSeasonName_BetaSeason1"		"Mùa Beta 1"
+		"Citadel_RankedSeasonName_BetaSeason2"		"Mùa Beta 2"
 
 		"Citadel_RankedProgress_CalibratedRank"		"Đã hoàn tất xếp hạng tạm thời"
 		"Citadel_RankedProgress_GainedRank"			"Thăng hạng"
@@ -1244,6 +1253,7 @@
 
 		"Citadel_RankedMatchStatus_Counts"							"{d:count_current} / {d:count_required}"
 		"Citadel_RankedMatchStatus_Wins"							"Trận thắng"
+		"Citadel_RankedMatchStatus_Points"							"Điểm"
 
 		"Citadel_ViewMatchID_Title"									"Xem mã trận đấu"
 		"Citadel_ViewMatchID_Desc"									"Nhập mã trận đấu để xem chi tiết"
@@ -4626,12 +4636,16 @@
 		"Citadel_ranked_numGamesPlayed"				"Đã chơi {s:games_played} trận"
 		"Citadel_ranked_match_history"				"Lịch sử trận đấu:"
 
-		"Citadel_Ranked_Validating"					"Đang xử lý tìm trận xếp hạng..."
-		"Citadel_Ranked_ErrorTitle"					"Lỗi tìm trận xếp hạng"
-		"Citadel_Ranked_NotEnoughMatchesPlayed"		"Not enough matches played."
-		"Citadel_Ranked_NotEnoughHeroesUnlocked"	"Not enough heroes unlocked."
-		"Citadel_Ranked_InternalError"				"Internal error."
-		"Citadel_RankedSeason_ViewNote"				"Viewable when season ends"
+		"Citadel_Ranked_PleaseWait"					"Vui lòng chờ..."
+		"Citadel_Ranked_Validating"					"Đang tham gia mùa xếp hạng..."
+		"Citadel_Ranked_ErrorTitle"					"Không thể bắt đầu tìm trận xếp hạng"
+		"Citadel_Ranked_Timeout"					"Đã hết thời gian chờ"
+		"Citadel_Ranked_NotEnoughMatchesPlayed"		"Chưa chơi đủ số trận yêu cầu."
+		"Citadel_Ranked_NotEnoughHeroesUnlocked"	"Chưa mở khóa đủ số tướng yêu cầu."
+		"Citadel_Ranked_InternalError"				"Lỗi nội bộ."
+		"Citadel_RankedSeason_ViewNote"				"Có thể xem khi mùa giải kết thúc"
+
+		"Citadel_RankedSeasonReward_Interact"		"{g:citadel_persona:nl:account_id} đã đạt hạng {g:citadel_packed_rank_name:packed_rank} trong {s:season_name}."
 
 		// Old Rank Names
 		"Citadel_ranks_rank0"						"Obscurus"
@@ -4725,7 +4739,7 @@
 
 		"AbandonTriggerTeam_Title"					"Player has Left Match"
 		"Unranked_AbandonTriggerTeam"				"It is now safe to leave; if you do, the match will not be scored. If you stay and win, it will count as a win."
-		"Ranked_AbandonTriggerTeam"					"You can no longer lose ranked points this match; it is now safe to leave. If you stay and win, it will count as a win."
+		"Ranked_AbandonTriggerTeam"					"Bạn sẽ không bị trừ Điểm Xếp Hạng ở trận này nữa, nên có thể rời trận. Nếu ở lại và giành chiến thắng, trận đấu vẫn được tính là một trận thắng."
 
 		"MyRosterTitle"								"MY ROSTER"
 		"Roster_Create_Title"						"Tạo danh sách tướng"
@@ -6119,27 +6133,27 @@
 
 		// Halloween
 		"AbilityButtonHint_HalloweenTroll"		"Trêu hay cho kẹo – đánh cận chiến mạnh để tặng kẹo"
-		"AbilityButtonHint_HalloweenCauldron"		"Đánh cận chiến mạnh để nhận kẹo"
-		// Maintained additional Vietnamese-only localization keys
-		"Citadel_RankedSeason_ProtectionRemaining"		"{d:demotion_protection_remaining}/{d:demotion_protection_total} Protections Remaining"
-		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"		"{g:citadel_persona:account_id} achieved holiday cheer for {s:hero_name}!"
-		"Citadel_Showcase_SeasonalAchievement2024"		"December 2024"
-		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"		"{s:hero_name} ornament unlocked by {g:citadel_persona:account_id}!"
-		"Citadel_Showcase_SeasonalAchievement2025"		"December 2025"
-		"Citadel_Hud_Toast_SeasonalKill"		"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span> got a"
-		"Citadel_Hud_Toast_SeasonalKill2"		"Snowball Kill!"
-		"Citadel_Event_Holiday_Challenge2025_Title"		"2025 Holiday Challenge"
+		"AbilityButtonHint_HalloweenCauldron"		"Đánh cận chiến mạnh để nhận kẹo"
 		"Citadel_Event_Holiday_Challenge2025_Desc"		"Win a match with each hero to receive a unique ornament for your hideout tree."
 		"Citadel_Event_Holiday_Challenge2025_Snowball"		"Upgrade your throwable <span class=\"Emphasis\">Snowball</span> active item by adding more ornaments to your tree."
 		"Citadel_Event_Holiday_Challenge2025_Snowball_Level"		"Level {i:item_level} / {i:item_max_level}"
+		"Citadel_Event_Holiday_Challenge2025_Title"		"2025 Holiday Challenge"
+		"Citadel_Hideout_HolidayChallenge"		"Press {g:citadel_binding:'Interact'} to view Holiday Challenge Progress"
+		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Souvenir earned by {s:hideout_owner} during the Winter Update"
+		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"		"{g:citadel_persona:account_id} achieved holiday cheer for {s:hero_name}!"
+		"Citadel_Hud_Toast_SeasonalAchievement2025Unlocked"		"{s:hero_name} ornament unlocked by {g:citadel_persona:account_id}!"
+		"Citadel_Hud_Toast_SeasonalKill"		"<span class=\"Emphasis\">{g:citadel_persona:killer_account_id}</span> got a"
+		"Citadel_Hud_Toast_SeasonalKill2"		"Snowball Kill!"
+		"Citadel_RankedSeason_Eligibility_HeroUnlocks:f"		"{d:current_unlocked_heroes}/{d:required_unlocked_heroes} tướng có ít nhất {d:required_hero_win_count} trận thắng"
+		"Citadel_RankedSeason_ProtectionRemaining"		"{d:demotion_protection_remaining}/{d:demotion_protection_total} Protections Remaining"
+		"Citadel_Ranked_Overview_Playing_Bullet2"		"When you are promoted to a new Rank or Subrank, you earn Demotion Protection tokens. For full badge Rank ups, you earn 5 tokens and for each Subrank you earn 2. If you lose while Demotion Protection is active, and you would have gone down a Rank, you instead stay the same Rank and a token is consumed."
+		"Citadel_Showcase_SeasonalAchievement2024"		"December 2024"
+		"Citadel_Showcase_SeasonalAchievement2025"		"December 2025"
+		"Ranked_AbandonTriggerEarly"		"This game will not be scored. The match will end in {d:end_game_countdown} seconds. Your rank will not be adjusted."
+		"Unranked_AbandonTriggerEarly"		"This game will not be scored. The match will end in {d:end_game_countdown} seconds."
 		"citadel_settings_steaminput_connected"		"Connected"
 		"menu_seasonal_2025"		"Holiday Challenge"
-		"Unranked_AbandonTriggerEarly"		"This game will not be scored. The match will end in {d:end_game_countdown} seconds."
-		"Ranked_AbandonTriggerEarly"		"This game will not be scored. The match will end in {d:end_game_countdown} seconds. Your rank will not be adjusted."
-		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Souvenir earned by {s:hideout_owner} during the Winter Update"
-		"Citadel_Hideout_HolidayChallenge"		"Press {g:citadel_binding:'Interact'} to view Holiday Challenge Progress"
 		"npc_seasonal"		"Newscaster"
-
 	}
 }
 

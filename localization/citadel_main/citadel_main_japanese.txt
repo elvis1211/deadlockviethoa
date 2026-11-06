@@ -761,16 +761,13 @@
 
 		"Citadel_RankedSeason_SeasonEnded"			"シーズン終了"
 		"Citadel_RankedSeason_TimeRemaining"		"残り {t:d:t:T:time_remaining}"
-
 		"Citadel_RankedSeason_CurrentRank"			"現在のランク"
 		"Citadel_RankedSeason_SeasonRank"			"シーズンランク"
 		"Citadel_RankedSeason_HighestRank"			"最高ランク"
-
 		"Citadel_RankedSeason_ProtectionRemaining:f"			"残り保護回数：{d:demotion_protection_remaining}／{d:demotion_protection_total}"
 		"Citadel_RankedSeason_ProtectionUsed"			"降格保護が使用されました"
 		"Citadel_RankedSeason_ResultingRank"			"最終ランク"
 		"Citadel_RankedSeason_HeroWins:f"	"{d:hero_wins} {hero_wins, plural, one{勝} other{勝}}"
-		"Citadel_RankedSeason_HeroWinsRequired:f"	"ランクマッチでヒーローが使用可能になるには、<b>{d:wins_required_per_hero}{wins_required_per_hero, plural, one{勝} other{勝}}</b>が必要です"
 		"Citadel_Ranked_ViewSeasonHistory"		"シーズン履歴を表示"
 		"Citadel_Ranked_ViewLeaderboards"		"リーダーボードを表示"
 
@@ -791,7 +788,6 @@
 
 		"Citadel_RankedSeason_EligibilityTitle"				"ランクマッチをプレイするための条件："
 		"Citadel_RankedSeason_Eligibility_AccountWins:f"	"スタンダードマッチでの勝利：{d:current_account_wins} / {d:required_account_wins}"
-		"Citadel_RankedSeason_Eligibility_HeroUnlocks:f"	"{d:required_hero_win_count}勝以上のヒーロー：{d:current_unlocked_heroes} / {d:required_unlocked_heroes}"
 		"Citadel_RankedSeason_Eligibility_NotEligible"		"スタンダードマッチをプレイして、ランクマッチをアンロックしましょう"
 		"Citadel_RankedSeason_Eligibility_Eligible"			"ランクマッチはプレイメニューから選択できます"
 
@@ -799,12 +795,12 @@
 		"Citadel_RankedMatchHistory_Calibrated"			"振り分け完了"
 		"Citadel_RankedMatchHistory_PointsChange"		"{s:rank_points_change}pts"
 
-		"Citadel_RankedHistory_Title"					"ランクシーズン"
 		"Citadel_RankedHistory_SeasonNotJoined"			"参加しませんでした"
 		"Citadel_RankedHistory_SeasonNotCalibrated"		"振り分けしませんでした"
 		"Citadel_RankedHistory_SeasonCalibrating"		"ランク振り分け中"
 		"Citadel_RankedHistory_SeasonUpcoming"			"--"
 
+		
 		"Citadel_Ranked_NoSeasonActive"			"有効なシーズンが現在ありません"
 
 		"Citadel_Ranked_Table_Header_Rank"				"ランク"
@@ -822,15 +818,9 @@
 
 
 		"Citadel_Ranked_Overview_Eligibility"			"プレイ資格について"
-		"Citadel_Ranked_Overview_Eligibility_Bullet1:f"	"アカウントの通算勝利数が{d:required_account_wins}回以上必要です。また、スタンダードモードで{d:required_hero_wins}勝を達成しているヒーローが{d:required_hero_unlocks}人以上いる必要があります。"
 		"Citadel_Ranked_Overview_Eligibility_Bullet2"				"ランクマッチには、ソロかデュオでのみキューできます。デュオの場合、プレイヤー同士の差は1ランク以内である必要があります。エターナスのプレイヤーは、サブランクの差が3以内の、同じエターナスのプレイヤーとパーティーを組んでマッチングに参加できます。"
-		"Citadel_Ranked_Overview_Eligibility_Bullet3"				"プレイヤーは最初に、ソロで振り分けマッチを{d:required_solo_calibration_games}戦プレイする必要があります。振り分けマッチでは、最高でも{g:citadel_packed_rank_name:max_calibration_rank}までしか到達できません。"
-
-
 		"Citadel_Ranked_Overview_PlayingMatches"		"レベルアップ"
 		"Citadel_Ranked_Overview_Playing_Bullet1"		"マッチに勝利・敗北すると、ランクポイントが平均で{d:ranked_point_gain}増加・減少します。この数値は、マッチメイカーによる勝敗の予想や、連続勝利といった要素によって若干変動することがあります。マッチ終了後には、ランクポイントの変動を進捗バーで視覚的に確認できます。"
-		"Citadel_Ranked_Overview_Playing_Bullet2"		"ランクまたはサブランクが昇格すると、降格保護トークンを獲得できます。バッジをまたぐランク昇格の場合は5つ、サブランクの場合は2つのトークンを獲得できます。降格保護が有効な状態で敗北し、それによってランクが降格する場合、トークンを消費することでそのランクに留まることができます。"
-		"Citadel_Ranked_Overview_Playing_Bullet3"		"1つ上のサブランクに昇格するには、1,000ランクポイントが必要になります（例：{g:citadel_packed_rank_name:'62'} -> {g:citadel_packed_rank_name:'63'}）。1つ上のランクに昇格するには、2,000ランクポイントが必要になります（例：{g:citadel_packed_rank_name:'56'} -> {g:citadel_packed_rank_name:'61'}）。"
 		"Citadel_Ranked_Overview_Playing_Bullet4"		"最高ランクに到達すると、サブランクに関するルールが少しだけ変更されます。ランクポイントの増減はそれまでと変わりませんが、サブランクはポイントの獲得値で昇格・降格するのではなく、1日に1度、ランク「{g:citadel_packed_rank_rank_name:'111'}」内に存在するプレイヤーのパーセンタイル順位によって割り振られます。"
 
 		"Citadel_Ranked_Overview_HeroSelection"			"マッチ開始前 待機エリア"
@@ -839,11 +829,7 @@
 
 		"Citadel_LeaderboardRankDesc"				"{g:citadel_packed_rank_name:leaderboard_packed_rank}以上のランクでは、一定量のポイント獲得によるバッジ付与がなくなりました。その代わりに、資格のあるプレイヤーはランクポイントによって順位付けされ、その相対的な位置に基づいてバッジが付与されます。"
 
-
-
-
 		"Citadel_RankedSeasonName_BetaSeason1"		"ベータシーズン1"
-
 		"Citadel_RankedProgress_CalibratedRank"		"振り分け完了"
 		"Citadel_RankedProgress_GainedRank"			"ランク昇格"
 		"Citadel_RankedProgress_LostRank"			"ランク下降"
@@ -1238,7 +1224,6 @@
 
 		"Citadel_RankedMatchStatus_Counts"							"{d:count_current} / {d:count_required}"
 		"Citadel_RankedMatchStatus_Wins"							"勝利"
-
 		"Citadel_ViewMatchID_Title"									"マッチIDを見る"
 		"Citadel_ViewMatchID_Desc"									"マッチIDを入力してマッチ詳細を確認する"
 		"Citadel_ViewMatchID_Prompt"								"マッチID"
@@ -4606,8 +4591,6 @@
 		"Citadel_ranked_numGamesPlayed"				"{s:games_played} 戦プレイ済"
 		"Citadel_ranked_match_history"				"マッチ履歴："
 
-		"Citadel_Ranked_Validating"					"ランクマッチメイキングを処理中…"
-		"Citadel_Ranked_ErrorTitle"					"ランクマッチメイキングのエラー"
 		"Citadel_Ranked_NotEnoughMatchesPlayed"		"プレイしたマッチ数が不足しています。"
 		"Citadel_Ranked_NotEnoughHeroesUnlocked"	"アンロックされているヒーロー数が不足しています。"
 		"Citadel_Ranked_InternalError"				"内部エラーが発生しました。"
@@ -6089,6 +6072,7 @@
 
 		// Halloween
 		"AbilityButtonHint_HalloweenTroll"		"トロールのトリック・オア・トリート - 近接強攻撃でキャンディを渡す"
-		}
+		"AbilityButtonHint_HalloweenCauldron"		"近接強攻撃でキャンディ獲得"
+	}
 }
 

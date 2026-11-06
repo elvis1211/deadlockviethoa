@@ -761,16 +761,20 @@
 
 		"Citadel_RankedSeason_SeasonEnded"			"赛季已经结束"
 		"Citadel_RankedSeason_TimeRemaining"		"还剩余{t:d:t:T:time_remaining}"
+		"Citadel_RankedSeason_LastDay"				"最后一天"
 
 		"Citadel_RankedSeason_CurrentRank"			"当前段位"
 		"Citadel_RankedSeason_SeasonRank"			"赛季段位"
 		"Citadel_RankedSeason_HighestRank"			"最高段位"
+		"Citadel_RankedSeason_FinalRank"			"本赛季最高段位"
 
 		"Citadel_RankedSeason_ProtectionRemaining:f"			"剩余{d:demotion_protection_remaining}/{d:demotion_protection_total}次{demotion_protection_total, plural, one{保护} other{保护}}"
 		"Citadel_RankedSeason_ProtectionUsed"			"已使用降级保护"
 		"Citadel_RankedSeason_ResultingRank"			"最终段位"
 		"Citadel_RankedSeason_HeroWins:f"	"{d:hero_wins}{hero_wins, plural, one{次胜利} other{次胜利}}"
-		"Citadel_RankedSeason_HeroWinsRequired:f"	"每名英雄都需要<b>{d:wins_required_per_hero}{wins_required_per_hero, plural, one{场胜利} other{场胜利}}</b>才能在天梯模式中游玩"
+		"Citadel_RankedSeason_HeroWinsRequired:f"	"每名英雄都需要<b>{d:wins_required_per_hero}{wins_required_per_hero, plural, one{场胜利} other{场胜利}}</b>才能在天梯模式中游玩."
+		"Citadel_RankedSeason_HeroPoints:f"	"{d:hero_points} {hero_points, plural, one{分} other{分}}"
+		"Citadel_RankedSeason_HeroPointsRequired:f"	"需要<b>{d:points_required_per_hero} {points_required_per_hero, plural, one{分} other{分}}</b>才能解锁对应英雄的天梯游玩资格。<br />胜利 = 2 分&nbsp;&nbsp;/&nbsp;&nbsp;失败 = 1 分"
 		"Citadel_Ranked_ViewSeasonHistory"		"查看赛季历史"
 		"Citadel_Ranked_ViewLeaderboards"		"查看排行榜"
 
@@ -791,19 +795,23 @@
 
 		"Citadel_RankedSeason_EligibilityTitle"				"游玩天梯模式的资格要求："
 		"Citadel_RankedSeason_Eligibility_AccountWins:f"	"{d:current_account_wins} / {d:required_account_wins}场标准模式胜利"
-		"Citadel_RankedSeason_Eligibility_HeroUnlocks:f"	"{d:current_unlocked_heroes} / {d:required_unlocked_heroes}名英雄超过{d:required_hero_win_count}场胜利"
 		"Citadel_RankedSeason_Eligibility_NotEligible"		"游玩标准比赛可以解锁天梯模式"
 		"Citadel_RankedSeason_Eligibility_Eligible"			"天梯模式在游玩菜单中可以找到"
+
+		"Citadel_RankedSeason_JoinSeason"				"加入赛季"
 
 		"Citadel_RankedMatchHistory_Calibrating"		"校准中 {d:calibrating_number}/{d:calibration_matches}"
 		"Citadel_RankedMatchHistory_Calibrated"			"校准完成"
 		"Citadel_RankedMatchHistory_PointsChange"		"{s:rank_points_change}点积分"
 
-		"Citadel_RankedHistory_Title"					"天梯赛季"
+		"Citadel_RankedHistory_Title"					"天梯赛季历史"
 		"Citadel_RankedHistory_SeasonNotJoined"			"未加入"
 		"Citadel_RankedHistory_SeasonNotCalibrated"		"未校准"
 		"Citadel_RankedHistory_SeasonCalibrating"		"校准中"
 		"Citadel_RankedHistory_SeasonUpcoming"			"--"
+
+		
+		"Citadel_RankedSeasonCompleted_Title"			"已结束"
 
 		"Citadel_Ranked_NoSeasonActive"			"目前没有进行中的赛季"
 
@@ -822,15 +830,14 @@
 
 
 		"Citadel_Ranked_Overview_Eligibility"			"资格"
-		"Citadel_Ranked_Overview_Eligibility_Bullet1:f"	"你的账号必须拥有{d:required_account_wins}场总{required_account_wins, plural, one {胜场} other {胜场}}。你还必须拥有至少{d:required_hero_unlocks}名{required_hero_unlocks, plural, one {英雄} other {英雄}}在标准模式达到{d:required_hero_wins}场{required_hero_wins, plural, one {胜利} other {胜利}}。"
+		"Citadel_Ranked_Overview_Eligibility_Bullet1:f"	"你的账号必须拥有{d:required_account_wins}场总{required_account_wins, plural, one {胜场} other {胜场}}。"
+		"Citadel_Ranked_Overview_Eligibility_Bullet1_HeroWins:f"	"你必须在标准模式下有至少{d:required_hero_unlocks}名{required_hero_unlocks, plural, one {英雄} other {英雄}}均拥有{d:required_hero_wins}场{required_hero_wins, plural, one {胜利} other {胜利}}。"
+		"Citadel_Ranked_Overview_Eligibility_Bullet1_HeroPoints:f"	"你必须有至少{d:required_hero_unlocks}名{required_hero_unlocks, plural, one {英雄} other {英雄}}均拥有{d:required_hero_wins}场{required_hero_points, plural, one {胜利} other {胜利}}。标准模式下每场胜利为2分，每场失败为1分。"
 		"Citadel_Ranked_Overview_Eligibility_Bullet2"				"玩家只能单排或双排去匹配天梯模式。双排的玩家必须在相邻的一个段位以内。不朽之星玩家只能与相差在3个子段位的其他不朽之星玩家一起匹配。"
-		"Citadel_Ranked_Overview_Eligibility_Bullet3"				"必须完成{d:required_solo_calibration_games}场单排校准比赛。完成校准后的最高段位是{g:citadel_packed_rank_name:max_calibration_rank}。"
-
-
 		"Citadel_Ranked_Overview_PlayingMatches"		"升级"
 		"Citadel_Ranked_Overview_Playing_Bullet1"		"每场胜利/失败会使你平均获得+/-{d:ranked_point_gain}积分。具体数字会根据匹配系统对该场比赛或连胜纪录产生的期望而有所不同。在每场比赛后会通过一个可见的进度条来看到天梯积分的更新。"
-		"Citadel_Ranked_Overview_Playing_Bullet2"		"晋升到新段位或子段位时，你都会获得降级保护代币。每次徽章段位晋升时会获得5枚，子段位晋升时会获得2枚。如果在降级保护生效时比赛失败，原本应该降级实际不会降级，而是消耗一枚代币。"
-		"Citadel_Ranked_Overview_Playing_Bullet3"		"从一个子段位晋升到下一个子段位时，需要获得1 000天梯积分（如{g:citadel_packed_rank_name:'62'} -> {g:citadel_packed_rank_name:'63'}）。从一个完整的徽章段位晋升到下一个段位，需要获得2 000天梯积分（如{g:citadel_packed_rank_name:'56'} -> {g:citadel_packed_rank_name:'61'}）。"
+		"Citadel_Ranked_Overview_Playing_Bullet2:f"		"晋升到新段位或子段位时，你都会获得降级保护盾牌。每次徽章段位晋升时会获得{d:main_rank_demotion_protection}面{main_rank_demotion_protection, plural, one {盾牌} other {盾牌}}，子段位晋升时获得{d:sub_rank_demotion_protection}面{sub_rank_demotion_protection, plural, one {盾牌} other {盾牌}}。如果在降级保护生效时比赛失败，段位不会变化，同时消耗一面盾牌。{g:citadel_packed_rank_name:last_demotion_protection_packed_rank}以上的段位和子段位不会奖励降级保护。"
+		"Citadel_Ranked_Overview_Playing_Bullet3"		"从一个子段位晋升到下一个子段位时，需要获得{d:sub_rank_progress_required}天梯积分（如{g:citadel_packed_rank_name:'62'} -> {g:citadel_packed_rank_name:'63'}）。从一个完整的徽章段位晋升到下一个段位，需要获得{d:main_rank_progress_required}天梯积分（如{g:citadel_packed_rank_name:'56'} -> {g:citadel_packed_rank_name:'61'}）。"
 		"Citadel_Ranked_Overview_Playing_Bullet4"		"在最高段位时，规则稍有变化。还是和以前一样获得或失去天梯积分，但是子段位不再是固定数值。子段位会根据{g:citadel_packed_rank_rank_name:'111'}段位内的玩家百分位每天分配一次。"
 
 		"Citadel_Ranked_Overview_HeroSelection"			"赛前等候区域"
@@ -839,10 +846,8 @@
 
 		"Citadel_LeaderboardRankDesc"				"在{g:citadel_packed_rank_name:leaderboard_packed_rank}和以上的段位，不再通过提升固定数量的积分来获得徽章。所有符合条件的玩家会根据天梯积分进行排名，再根据他们的百分位来分配徽章。"
 
-
-
-
 		"Citadel_RankedSeasonName_BetaSeason1"		"测试赛季1"
+		"Citadel_RankedSeasonName_BetaSeason2"		"测试赛季 2"
 
 		"Citadel_RankedProgress_CalibratedRank"		"校准完成"
 		"Citadel_RankedProgress_GainedRank"			"段位提升"
@@ -1238,7 +1243,6 @@
 
 		"Citadel_RankedMatchStatus_Counts"							"{d:count_current} / {d:count_required}"
 		"Citadel_RankedMatchStatus_Wins"							"获胜次数"
-
 		"Citadel_ViewMatchID_Title"									"查看比赛 ID"
 		"Citadel_ViewMatchID_Desc"									"输入比赛 ID 以查看比赛详情"
 		"Citadel_ViewMatchID_Prompt"								"比赛 ID"
@@ -4606,12 +4610,16 @@
 		"Citadel_ranked_numGamesPlayed"				"已游玩{s:games_played}场比赛"
 		"Citadel_ranked_match_history"				"比赛历史记录："
 
-		"Citadel_Ranked_Validating"					"正在处理天梯匹配中……"
-		"Citadel_Ranked_ErrorTitle"					"天梯匹配错误"
+		"Citadel_Ranked_PleaseWait"					"请稍等..."
+		"Citadel_Ranked_Validating"					"正在加入天梯赛季"
+		"Citadel_Ranked_ErrorTitle"					"无法开始天梯匹配"
+		"Citadel_Ranked_Timeout"					"已超时"
 		"Citadel_Ranked_NotEnoughMatchesPlayed"		"未游玩足够的比赛。"
 		"Citadel_Ranked_NotEnoughHeroesUnlocked"	"未解锁足够的英雄。"
 		"Citadel_Ranked_InternalError"				"内部错误。"
 		"Citadel_RankedSeason_ViewNote"				"赛季结束时可查看"
+
+		"Citadel_RankedSeasonReward_Interact"		"{g:citadel_persona:nl:account_id}在{s:season_name}期间获得了{g:citadel_packed_rank_name:packed_rank}段位。"
 
 		// Old Rank Names
 		"Citadel_ranks_rank0"						"无名"

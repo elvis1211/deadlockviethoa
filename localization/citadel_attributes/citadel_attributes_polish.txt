@@ -1167,8 +1167,8 @@
 		"LifestealPercentNonHero_postvalue_label"					"kradzieży życia od celów innych niż bohaterowie"
 		"LifestealPercentNonHero_postfix"				"%"
 
-		"AbilityLifestealDuration_label"				"Czas trwania kradzieży życia z zdolności"
-		"AbilityLifestealDuration_postvalue_label"		"czasu trwania kradzieży życia z zdolności"
+		"AbilityLifestealDuration_label"				"Czas trwania kradzieży życia ze zdolności"
+		"AbilityLifestealDuration_postvalue_label"		"czasu trwania kradzieży życia ze zdolności"
 		"AbilityLifestealDuration_postfix"				" s"
 
 		"BulletLifestealPercent_prefix"						"{s:sign}"

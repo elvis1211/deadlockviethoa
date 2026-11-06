@@ -29,7 +29,7 @@
 		"SnowballCount_label"		"Fırlatılan Kar Topu"
 		"SnowballCount_postvalue_label"		"Atış"
 		"seasonal_ability_eat_halloween_candy"		"Şeker Ye"
-		"seasonal_ability_eat_halloween_candy_desc"		"İyileşmek, kuvvet yenilemek ve <span class=\"highlight\">Şeker Çılgınlığı</span> güçlendirmesini almak için bir parça şeker yiyin.<br><br><span class=\"diminish\">İyileştirme ve Şeker Çılgınlığı değerleri, maç ilerledikçe yükselir.</span>"
+		"seasonal_ability_eat_halloween_candy_desc"		"İyileşmek, kuvvet yenilemek ve <span class=\"highlight\">Şeker Çılgınlığı</span> güçlendirmesini almak için bir parça şeker yiyin.<br><br><span class=\"diminish\">İyileştirme ve Şeker Çılgınlığı değerleri, maç ilerledikçe yükselir.<br><br>Ağır Yakın Dövüş darbesi almak bir miktar şeker düşürmenize sebep olur.</span>"
 
 		"HalloweenCandy_label"		"İstif:"
 		"HalloweenCandy_postvalue_label"		"İstif:"

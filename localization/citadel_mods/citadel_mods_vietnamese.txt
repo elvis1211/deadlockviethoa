@@ -1,6 +1,6 @@
 ﻿"lang"
 {
-	"Language"		"vietnamese"
+	"Language"		"Vietnamese"
 	"Tokens"
 	{
 
@@ -1024,19 +1024,17 @@
 		"BonusFireRatePerMinute_label"		"Tốc độ bắn tăng mỗi phút"
 		"BonusMoveSpeedPerMinute_label"		"Tốc độ di chuyển tăng mỗi phút"
 
-		"cosmetic_item_voting_poster"		"Dán áp phích"
-		// Maintained additional Vietnamese-only localization keys
-		"AmbushBonusFireRate_prefix"		"+"
+		"cosmetic_item_voting_poster"		"Dán áp phích"
 		"AmbushBonusFireRate_label"		"Tốc độ bắn khi phục kích"
-		"AmbushBonusFireRate_postvalue_label"		"Tốc độ bắn khi phục kích"
 		"AmbushBonusFireRate_postfix"		"%"
-		"cosmetic_ability_snowball"		"Quả cầu tuyết"
-		"cosmetic_ability_snowball_desc"		"Ném quả cầu tuyết vào bạn bè và kẻ địch. Tầm ném và các thuộc tính khác được cải thiện khi bạn tiến triển trong <span class=\"highlight\">Thử thách Lễ hội 2025</span>.<br><br><span class=\"diminish\">Ném quả cầu tuyết vào đồng minh sẽ không gây sát thương và sẽ đặt lại thời gian hồi chiêu của nó.</span>"
-		"SnowballSpeed_label"		"Tốc độ ném"
-		"SnowballSpeed_postvalue_label"		"Vận tốc"
-		"SnowballSpeed_postfix"		"m/s"
+		"AmbushBonusFireRate_postvalue_label"		"Tốc độ bắn khi phục kích"
+		"AmbushBonusFireRate_prefix"		"+"
 		"SnowballCount_label"		"Số quả cầu tuyết đã ném"
 		"SnowballCount_postvalue_label"		"Số đạn"
-
+		"SnowballSpeed_label"		"Tốc độ ném"
+		"SnowballSpeed_postfix"		"m/s"
+		"SnowballSpeed_postvalue_label"		"Vận tốc"
+		"cosmetic_ability_snowball"		"Quả cầu tuyết"
+		"cosmetic_ability_snowball_desc"		"Ném quả cầu tuyết vào bạn bè và kẻ địch. Tầm ném và các thuộc tính khác được cải thiện khi bạn tiến triển trong <span class=\"highlight\">Thử thách Lễ hội 2025</span>.<br><br><span class=\"diminish\">Ném quả cầu tuyết vào đồng minh sẽ không gây sát thương và sẽ đặt lại thời gian hồi chiêu của nó.</span>"
 	}
 }

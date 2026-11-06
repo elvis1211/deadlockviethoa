@@ -90,9 +90,9 @@
 		"MagicBurstDamage_postvalue_label"		"pkt. premii do obrażeń"
 
 		//Improved Burst Tankbuster
-		"upgrade_magic_shock_desc"	"Sprawia, że zdolności zadające ponad <span class=\"highlight\">{s:MinimumDamage}</span> pkt. obrażeń zadają {g:citadel_inline_attribute:'BonusSpiritDamage'}. Premia skaluje się wraz z upływem czasu. <span class=\"highlight\">Ignoruje odporność duchową.</span>"
+		"upgrade_magic_shock_desc"	"Sprawia, że zdolności zadające ponad <span class=\"highlight\">{s:MinimumDamage}</span> pkt. obrażeń zadają {g:citadel_inline_attribute:'BonusSpiritDamage'}. Premia skaluje się wraz z upływem czasu i osiąga maksymalny efekt po zakończeniu czasu odnowienia. <span class=\"highlight\">Ignoruje odporność duchową.</span>"
 		"MagicShockDamage_label"		"Dodatkowe obrażenia względem obecnego zdrowia"
-		"MagicShockDamage_postvalue_label"		"pkt. dodatkowych obrażeń względem obecnego zdrowia"
+		"MagicShockDamage_postvalue_label"		"dodatkowych obrażeń względem obecnego zdrowia"
 		"MagicShockDamage_postfix"	"%"
 
 		//Mystic Reverb
@@ -565,7 +565,7 @@
 		"upgrade_aoe_root_active"		"Rzuć granatem <span class=\"highlight\">próżniowym</span> wciągającym wszystkich wrogów na mały obszar, nakładając <span class=\"highlight\">Spowalniający Urok</span>.<br><br><span class=\"diminish\">Rzuć alternatywnie, by wskazać jednostkę do obrania za cel.</span>"
 
 		//Curse
-		"upgrade_glitch_desc"					"Rzuca klątwę na wroga – <span class=\"highlight\">przerywając jego działania, uciszając, rozbrajając</span> i <span class=\"highlight\">uniemożliwiając mu użycie przedmiotów</span>. <span class=\"highlight\">Usuwa wszystkie premie z zdolności innych niż ostateczne.</span>.<br><br>W tym czasie twoje własne <span class=\"highlight\">zadawane obrażenia</span> ulegają zmniejszeniu."
+		"upgrade_glitch_desc"					"Rzuca klątwę na wroga – <span class=\"highlight\">przerywając jego działania, uciszając, rozbrajając</span> i <span class=\"highlight\">uniemożliwiając mu użycie przedmiotów</span>. <span class=\"highlight\">Usuwa wszystkie premie ze zdolności innych niż ostateczne.</span>.<br><br>W tym czasie twoje własne <span class=\"highlight\">zadawane obrażenia</span> ulegają zmniejszeniu."
 		"modifier_glitch_debuff"				"Przeklęto!"
 		"modifier_glitch_self_penalty"			"Skutek uboczny klątwy"
 
@@ -743,7 +743,7 @@
 		"upgrade_debuff_reducer_desc"			"Skraca <span class=\"highlight\">czas trwania</span> wszystkich nałożonych na ciebie negatywnych efektów."
 
 		//Debuff Remover | Dispel Magic
-		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Oczyść się ze wszystkich negatywnych efektów z zdolności innych niż ostateczne</span>, które są obecnie na ciebie nałożone. Jeśli zostały usunięte jakiekolwiek efekty, <span class=\"highlight\">ulecz się</span> i zyskaj <span class=\"highlight\">premię do szybkości ruchu</span>. <br><span class=\"diminish\">Nie można użyć w stanie ogłuszenia ani uśpienia</span>."
+		"upgrade_reduce_debuff_duration_active_desc"	"<span class=\"highlight\">Oczyść się ze wszystkich negatywnych efektów ze zdolności innych niż ostateczne</span>, które są obecnie na ciebie nałożone. Jeśli zostały usunięte jakiekolwiek efekty, <span class=\"highlight\">ulecz się</span> i zyskaj <span class=\"highlight\">premię do szybkości ruchu</span>. <br><span class=\"diminish\">Nie można użyć w stanie ogłuszenia ani uśpienia</span>."
 		"HealOnActivate_label"		"Leczenie"
 		"HealOnActivate_postvalue_label"		"pkt. leczenia"
 

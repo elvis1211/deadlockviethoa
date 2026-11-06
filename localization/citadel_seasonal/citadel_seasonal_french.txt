@@ -29,7 +29,7 @@
 		"SnowballCount_label"		"Boules de neige lancées"
 		"SnowballCount_postvalue_label"		"Projectiles"
 		"seasonal_ability_eat_halloween_candy"		"Manger un bonbon"
-		"seasonal_ability_eat_halloween_candy_desc"		"Mangez un bonbon pour vous soigner, restaurer de l'endurance et obtenir l'effet positif <span class=\"highlight\">Poussée de sucre</span>.<br><br><span class=\"diminish\">Les statistiques de soin et de Poussée de sucre deviennent plus puissantes au fil de la partie.</span>"
+		"seasonal_ability_eat_halloween_candy_desc"		"Mangez un bonbon pour vous soigner, restaurer de l'endurance et obtenir l'effet positif <span class=\"highlight\">Poussée de sucre</span>.<br><br><span class=\"diminish\">Les statistiques de soin et de Poussée de sucre deviennent plus puissantes au fil de la partie.<br><br>Vous lâchez des bonbons chaque fois que vous subissez une attaque de mêlée lourde.</span>"
 
 		"HalloweenCandy_label"		"Charges :"
 		"HalloweenCandy_postvalue_label"		"Charges :"

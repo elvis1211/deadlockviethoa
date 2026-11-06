@@ -4769,7 +4769,7 @@
 		
 		"ability_unicorn_luminousstrike"				"Strahlende Dolche"
 		"ability_unicorn_luminousstrike_desc"			"{s:hero_name} lässt mehrere Dolche auf das Zielgebiet herabfallen, die nach einer kurzen Entstehungsdauer eine Lichtsäule bilden, deren Explosion allen Zielen im Wirkungsbereich {g:citadel_inline_attribute:'SpiritDamage'} zufügt.<br><br>{s:hero_name} erhält einen sich aufsummierenden Stärkungseffekt, der ihren Magieschaden jedes Mal erhöht, wenn die Lichtsäule einen gegnerischen Helden trifft."
-		"ability_unicorn_luminousstrike_t2_desc"		"{s:AbilityCooldown} s Abklingzeit und +{s:ImpactDamage} Aufprallschaden"						"ability_unicorn_luminousstrike_t3_desc"		"Gewährt pro Instanz +{s:MagicIncreasePerStack} % Magieschadensverstärkung und +{s:FireRatePerStack} % Feuerrate"
+		"ability_unicorn_luminousstrike_t2_desc"		"{s:AbilityCooldown} s Abklingzeit, +{s:ImpactDamage} Aufprallschaden und +{s:AbilityCastRange} m Einsatzreichweite"						"ability_unicorn_luminousstrike_t3_desc"		"Gewährt pro Instanz +{s:MagicIncreasePerStack} % Magieschadensverstärkung und +{s:FireRatePerStack} % Feuerrate"
 		"ability_unicorn_luminousstrike/luminous_strike_dot_enemy"				"Brandschaden (Lichtsäule)"
 		"ability_unicorn_luminousstrike/luminous_strike_buff"				"Strahlende Dolche"
 
@@ -4844,7 +4844,7 @@
 		"ability_fencer_lunge_on_proc"		"Beim Auslösen mit max. Instanzen:"
 
 		"ability_fencer_riposte"	"Riposte"
-		"ability_fencer_riposte_desc" "{s:hero_name} bereitet sich vor, den nächsten eingehenden Angriff <span class=\"highlight\">abzuwehren</span>. Wenn der Angriff erfolgreich abgewehrt wurde, wird {s:hero_name} für kurze Zeit <span class=\"highlight\">unverwundbar</span>, visiert einen gegnerischen Helden an und sprintet dann auf diesen zu. Der Gegner wird <span class=\"highlight\">festgesetzt</span>, wodurch er nicht mehr <span class=\"highlight\">parieren</span> kann, und dessen <span class=\"highlight\">Nahkampfresistenz</span> wird reduziert.<br><br><span class=\"diminish\">{g:citadel_binding:'Ability2'} drücken, um ein Ziel auszuwählen.<br>Wird nicht bei Schaden durch Infanteristen und neutrale Einheiten ausgelöst.</span>"
+		"ability_fencer_riposte_desc" "{s:hero_name} bereitet sich vor, den nächsten eingehenden Angriff <span class=\"highlight\">abzuwehren</span>. Wenn der Angriff erfolgreich abgewehrt wurde, wird {s:hero_name} für kurze Zeit <span class=\"highlight\">unverwundbar</span>, visiert einen gegnerischen Helden an, sprintet dann auf diesen zu und trifft ihn mit dem Knauf. Der Gegner wird <span class=\"highlight\">festgesetzt</span> und <span class=\"highlight\">entwaffnet</span>, wodurch dieser nicht mehr <span class=\"highlight\">parieren</span> kann, und dessen <span class=\"highlight\">Nahkampfresistenz</span> wird reduziert.<br><br><span class=\"diminish\">{g:citadel_binding:'Ability2'} drücken, um ein Ziel auszuwählen.<br>Wird nicht bei Schaden durch Infanteristen und neutrale Einheiten ausgelöst.</span>"
 		"RiposteChannelTime_postvalue_label"	"Ablenkungsdauer"
 		"RiposteChannelTime_postfix"			" s"
 		"LungeCooldownReduction_prefix"			"−"
@@ -4864,7 +4864,7 @@
 		//"CounterTimeWindow_postfix"			"s"
 
 		"ability_fencer_riposte_attack"			"Riposte"
-		"ability_fencer_riposte_attack_desc"	"{s:hero_name} führt einen schnellen Spurt nach vorn aus und setzt einen Gegner mit dem Knauf der Waffe fest, wodurch dieser nicht parieren kann."
+		"ability_fencer_riposte_attack_desc"	"{s:hero_name} führt einen schnellen Spurt nach vorn aus, entwaffnet und setzt einen Gegner mit dem Knauf der Waffe fest, wodurch dieser nicht parieren kann."
 		"MeleeResistReductionDuration_label"			"Dauer (Nahkampfresistenzred.)"
 		"MeleeResistReductionDuration_postvalue_label"	"Schwächungsdauer"
 		"MeleeResistReductionDuration_postfix"			" s"
@@ -4979,7 +4979,7 @@
 		"AllyDamageReduction_postfix"	" %"
 		"AllyDamageReduction_label" "Schadensreduzierung"
 		"ability_ratking_standard_bearer_desc" "{s:hero_name} stürmt nach vorn und beschwört eine Flagge von Ratannia, die allen Verbündeten in der Nähe erhöhtes {g:citadel_inline_attribute:'MoveSpeed'} und <span class=\"highlight\">Immunität gegen Verlangsamung</span> gewährt sowie <span class=\"highlight\">eingehenden Schaden</span> in der Nähe der Flagge reduziert."
-		"ability_ratking_standard_bearer_t1_desc" "+{s:BonusMoveSpeed} m/s Bewegungstempo"
+		"ability_ratking_standard_bearer_t1_desc" "+{s:BonusMoveSpeed} m/s Bewegungstempo<br>{s:AbilityCooldown} s Abklingzeit"
 		"ability_ratking_standard_bearer_t2_desc" "+{s:FlagDuration} s Flaggendauer<br>+{s:Radius} m Radius"
 		"ability_ratking_standard_bearer_t3_desc" "+{s:Damage} Schaden und +{s:AllyDamageReduction} % Schadensreduzierung"
 		
@@ -5524,8 +5524,8 @@
 		"FearDuration_label"			"Furchtdauer"
 		"FearDuration_postvalue_label"	"Furchtdauer"
 		"FearDuration_postfix"			" s"
-		"FearBuildupTime_label"			"Dauer für Furchtzunahme"
-		"FearBuildupTime_postvalue_label"	"Dauer für Furchtzunahme"
+		"FearBuildupTime_label"			"Auslösedauer für Furcht"
+		"FearBuildupTime_postvalue_label"	"Auslösedauer für Furcht"
 		"FearBuildupTime_postfix"			" s"
 		"FearBuildupDecayTime_label"			"Dauer bis Verfall der Furchtzunahme"
 		"FearBuildupDecayTime_postvalue_label"	"Dauer bis Verfall der Furchtzunahme"

@@ -29,7 +29,7 @@
 		"SnowballCount_label"		"던진 눈덩이 수"
 		"SnowballCount_postvalue_label"		"투사체"
 		"seasonal_ability_eat_halloween_candy"		"사탕 먹기"
-		"seasonal_ability_eat_halloween_candy_desc"		"사탕 1개를 먹어 자신을 치유하고, 활력을 회복하며 <span class=\"highlight\">슈거 러시</span> 강화 효과를 얻습니다.<br><br><span class=\"diminish\">매치가 진행될수록 치유량과 슈거 러시 효과가 강해집니다.</span>"
+		"seasonal_ability_eat_halloween_candy_desc"		"사탕 1개를 먹어 자신을 치유하고, 활력을 회복하며 <span class=\"highlight\">슈거 러시</span> 강화 효과를 얻습니다.<br><br><span class=\"diminish\">매치가 진행될수록 치유량과 슈거 러시 효과가 강해집니다.</span><br><br>강력한 근거리 공격에 적중당하면 사탕을 일부 떨어뜨립니다.</span>"
 
 		"HalloweenCandy_label"		"중첩:"
 		"HalloweenCandy_postvalue_label"		"중첩:"

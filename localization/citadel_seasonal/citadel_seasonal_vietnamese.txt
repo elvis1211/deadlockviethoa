@@ -1,6 +1,6 @@
 ﻿"lang"
 {
-	"Language"		"vietnamese"
+	"Language"		"Vietnamese"
 	"Tokens"
 	{
 		"Citadel_Hud_Toast_SeasonalAchievement2024Unlocked"		"{g:citadel_persona:account_id} đã nhận phần thưởng lễ hội cho {s:hero_name}!"

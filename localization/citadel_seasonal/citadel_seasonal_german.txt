@@ -16,7 +16,7 @@
 		"menu_seasonal_2025"		"Weihnachtsherausforderung"
 		"Citadel_Hideout_XmasGlobeEarned_Temp"		"Souvenir, das sich {s:hideout_owner} während des Weihnachts-Updates verdient hat"
 		"Citadel_Hideout_HolidayChallenge"		"Drücke {g:citadel_binding:'Interact'}, um den Fortschritt der Weihnachtsherausforderung anzuzeigen"
-		"halloween_candy_pickup_label"		"Süßigkeiten"
+		"halloween_candy_pickup_label"		"Süßigkeit"
 		"modifier_halloween_candy_sugar_rush"		"Zuckerrausch"
 		"Citadel_Hideout_HalloweenCauldron"		"Süßigkeitenkessel: Halte {g:citadel_binding:'AbilityMelee'} gedrückt, um ihn zu zerschlagen und Süßigkeiten zu erhalten"
 		"npc_seasonal"		"Nachrichten­sprecher"
@@ -29,7 +29,7 @@
 		"SnowballCount_label"		"Schneeballwürfe"
 		"SnowballCount_postvalue_label"		"Projektil(e)"
 		"seasonal_ability_eat_halloween_candy"		"Süßigkeit essen"
-		"seasonal_ability_eat_halloween_candy_desc"		"Iss ein Stück Süßigkeit, um Dich zu heilen, Ausdauer wiederherzustellen und den Stärkungseffekt <span class=\"highlight\">Zuckerrausch</span> zu erhalten.<br><br><span class=\"diminish\">Die Werte der Heilung und des Zuckerrausch-Stärkungseffekts erhöhen sich im Verlauf der Partie.</span>"
+		"seasonal_ability_eat_halloween_candy_desc"		"Iss eine Süßigkeit, um Dich zu heilen, Ausdauer wiederherzustellen und den Stärkungseffekt <span class=\"highlight\">Zuckerrausch</span> zu erhalten.<br><br><span class=\"diminish\">Die Werte der Heilung und des Zuckerrausch-Stärkungseffekts erhöhen sich im Verlauf der Partie.<br><br>Wenn Du von schweren Nahkampfangriffen getroffen wirst, verlierst Du Süßigkeiten.</span>"
 
 		"HalloweenCandy_label"		"Instanzen:"
 		"HalloweenCandy_postvalue_label"		"Instanzen:"

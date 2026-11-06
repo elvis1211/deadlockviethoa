@@ -761,16 +761,20 @@
 
 		"Citadel_RankedSeason_SeasonEnded"			"Musim sudah Selesai"
 		"Citadel_RankedSeason_TimeRemaining"		"{t:d:t:T:time_remaining} tersisa"
+		"Citadel_RankedSeason_LastDay"				"Hari Terakhir"
 
 		"Citadel_RankedSeason_CurrentRank"			"Ranking Saat ini"
 		"Citadel_RankedSeason_SeasonRank"			"Rangking Musim"
 		"Citadel_RankedSeason_HighestRank"			"Ranking Tertinggi"
+		"Citadel_RankedSeason_FinalRank"			"Rank Tertinggi Musim Ini"
 
 		"Citadel_RankedSeason_ProtectionRemaining:f"			"Tersisa {d:demotion_protection_remaining}/{d:demotion_protection_total}"
 		"Citadel_RankedSeason_ProtectionUsed"			"Perlindungan Penurunan Ranking Digunakan"
 		"Citadel_RankedSeason_ResultingRank"			"Ranking Akhir"
 		"Citadel_RankedSeason_HeroWins:f"	"{d:hero_wins} Menang"
-		"Citadel_RankedSeason_HeroWinsRequired:f"	"<b>{d:wins_required_per_hero} kemenangan</b> dibutuhkan untuk membuka hero untuk Mode Rank"
+		"Citadel_RankedSeason_HeroWinsRequired:f"	"Jumlah <b>{d:wins_required_per_hero}</b> kemenangan yang dibutuhkan untuk membuka hero untuk Mode Rank."
+		"Citadel_RankedSeason_HeroPoints:f"	"{d:hero_points} Poin"
+		"Citadel_RankedSeason_HeroPointsRequired:f"	"Jumlah <b>{d:points_required_per_hero} kemenangan</b>yang dibutuhkan untuk membuka hero untuk Mode Rank<br />Menang = 2 Poin&nbsp;&nbsp;/&nbsp;&nbsp;Kalah = 1 Poin"
 		"Citadel_Ranked_ViewSeasonHistory"		"Lihat Riwayat Musim"
 		"Citadel_Ranked_ViewLeaderboards"		"Lihat Papan Peringkat"
 
@@ -791,19 +795,23 @@
 
 		"Citadel_RankedSeason_EligibilityTitle"				"Persyaratan kelayakan untuk bermain Mode Rank:"
 		"Citadel_RankedSeason_Eligibility_AccountWins:f"	"{d:current_account_wins}/{d:required_account_wins} kemenangan dalam mode Standar"
-		"Citadel_RankedSeason_Eligibility_HeroUnlocks:f"	"{d:current_unlocked_heroes}/{d:required_unlocked_heroes} hero dengan {d:required_hero_win_count} atau lebih banyak kemenangan"
 		"Citadel_RankedSeason_Eligibility_NotEligible"		"Mainkan pertandingan Standar untuk membuka Mode Rank"
 		"Citadel_RankedSeason_Eligibility_Eligible"			"Mode Rank tersedia di Menu Main"
+
+		"Citadel_RankedSeason_JoinSeason"				"Bergabung ke Musim"
 
 		"Citadel_RankedMatchHistory_Calibrating"		"Mengalibrasikan {d:calibrating_number}/{d:calibration_matches}"
 		"Citadel_RankedMatchHistory_Calibrated"			"Kalibrasi Selesai"
 		"Citadel_RankedMatchHistory_PointsChange"		"{s:rank_points_change} poin"
 
-		"Citadel_RankedHistory_Title"					"Musim Mode Rank"
+		"Citadel_RankedHistory_Title"					"Riwayat Musim Mode Rank"
 		"Citadel_RankedHistory_SeasonNotJoined"			"Tidak Bergabung"
 		"Citadel_RankedHistory_SeasonNotCalibrated"		"Tidak Dikalibrasi"
 		"Citadel_RankedHistory_SeasonCalibrating"		"Mengalibrasikan"
 		"Citadel_RankedHistory_SeasonUpcoming"			"--"
+
+		
+		"Citadel_RankedSeasonCompleted_Title"			"telah berakhir"
 
 		"Citadel_Ranked_NoSeasonActive"			"Tidak Ada Musim yang Aktif Saat Ini"
 
@@ -822,15 +830,14 @@
 
 
 		"Citadel_Ranked_Overview_Eligibility"			"Persyaratan"
-		"Citadel_Ranked_Overview_Eligibility_Bullet1:f"	"Kamu setidaknya harus memiliki total {d:required_account_wins} kemenangan di akunmu. Kamu juga setidaknya harus memiliki {d:required_hero_unlocks} hero, masing-masing dengan {d:required_hero_wins} kemenangan dalam Mode Standar."
+		"Citadel_Ranked_Overview_Eligibility_Bullet1:f"	"Kamu harus memiliki paling tidak total {d:required_account_wins} kemenangan di akunmu."
+		"Citadel_Ranked_Overview_Eligibility_Bullet1_HeroWins:f"	"Kamu harus memiliki paling tidak {d:required_hero_unlocks} hero dengan masing-masing {d:required_hero_wins} kemenangan dalam Mode Standar."
+		"Citadel_Ranked_Overview_Eligibility_Bullet1_HeroPoints:f"	"Kamu harus memiliki paling tidak {d:required_hero_unlocks} hero dengan masing-masing {d:required_hero_wins} kemenangan. Setiap kemengan di Mode Standar bernilai 2 poin dan kekalahan bernilai 1 poin."
 		"Citadel_Ranked_Overview_Eligibility_Bullet2"				"Pemain hanya diperbolehkan untuk mengantre di Mode Rank sebagai Solo atau Duo. Perbedaan ranking rekan dalam grup Duo hanya boleh maksimal satu ranking. Pemain Abadi hanya dapat mengantre dengan pemain Abadi lainnya, dan perbedaan ranking antar-rekan hanya boleh maksimal 3 sub-ranking."
-		"Citadel_Ranked_Overview_Eligibility_Bullet3"				"Kamu harus menyelesaikan {d:required_solo_calibration_games} pertandingan kalibrasi solo. Ranking tertinggi yang dapat kamu capai saat menyelesaikan kalibrasi adalah {g:citadel_packed_rank_name:max_calibration_rank}."
-
-
 		"Citadel_Ranked_Overview_PlayingMatches"		"Naik Level"
 		"Citadel_Ranked_Overview_Playing_Bullet1"		"Setiap kemenangan/kekalahan rata-rata akan memberimu +/- {d:ranked_point_gain} poin. Jumlah ini mungkin berbeda tergantung dari tujuan matchmaking pertandingan, atau dari kemenangan beruntun. Kamu akan melihat pembaruan Poin Ranking-mu dari bilah progres yang ditampilkan di setiap akhir pertandingan."
-		"Citadel_Ranked_Overview_Playing_Bullet2"		"Saat kamu dipromosikan ke Ranking atau Sub-ranking baru, kamu mendapatkan token Perlindungan Penurunan Ranking. Kamu mendapatkan 5 token untuk kenaikan ranking penuh dan 2 token untuk setiap kenaikan sub-ranking. Jika kamu kalah saat token perlindungan penurunan ranking aktif dan seharusnya menyebabkan ranking-mu turun, ranking-mu akan tetap dipertahankan dan satu token perlindungan akan terpakai."
-		"Citadel_Ranked_Overview_Playing_Bullet3"		"Untuk berprogres dari satu sub-ranking ke sub-ranking berikutnya, kamu harus mendapatkan 1.000 Poin Mode Rank (mis. {g:citadel_packed_rank_name:'62'} -> {g:citadel_packed_rank_name:'63'}). Untuk berprogres dari satu Ranking penuh ke yang berikutnya, kamu harus mendapatkan 2.000 Poin Mode Rank (mis. {g:citadel_packed_rank_name:'56'} -> {g:citadel_packed_rank_name:'61'})."
+		"Citadel_Ranked_Overview_Playing_Bullet2:f"		"Saat kamu dipromosikan ke Ranking atau Sub-ranking baru, kamu mendapatkan Pelindungan Penurunan Ranking. Kamu mendapatkan {d:main_rank_demotion_protection} perlindungan untuk kenaikan ranking penuh dan {d:sub_rank_demotion_protection} perlindungan untuk setiap kenaikan sub-ranking. Jika kamu kalah saat Pelindungan Penurunan Ranking aktif, dan seharusnya menyebabkan ranking-mu turun, ranking-mu akan tetap dipertahankan dan satu perlindungan akan terpakai. Perlindungan Penurunan Ranking tidak diberikan untuk Ranking atau Sub-ranking di atas {g:citadel_packed_rank_name:last_demotion_protection_packed_rank}."
+		"Citadel_Ranked_Overview_Playing_Bullet3"		"Untuk berprogres dari satu sub-ranking ke sub-ranking berikutnya, kamu harus mendapatkan {d:sub_rank_progress_required} Poin Mode Rank (mis. {g:citadel_packed_rank_name:'62'} -> {g:citadel_packed_rank_name:'63'}). Untuk berprogres dari satu Ranking penuh ke yang berikutnya, kamu harus mendapatkan {d:main_rank_progress_required} Poin Mode Rank (mis. {g:citadel_packed_rank_name:'56'} -> {g:citadel_packed_rank_name:'61'})."
 		"Citadel_Ranked_Overview_Playing_Bullet4"		"Saat mencapai ranking tertinggi, aturannya sedikit berubah. Kamu masih akan mendapatkan atau kehilangan poin Mode Rank seperti sebelumnya, tapi Sub-ranking tidak lagi memiliki nilai poin tetap. Sebagai gantinya, sekali dalam sehari Sub-Ranking akan diberikan berdasarkan persentil dari pemain di Ranking {g:citadel_packed_rank_rank_name:'111'}."
 
 		"Citadel_Ranked_Overview_HeroSelection"			"Area Tunggu Prapertandingan"
@@ -839,10 +846,8 @@
 
 		"Citadel_LeaderboardRankDesc"				"Mulai dari ranking {g:citadel_packed_rank_name:leaderboard_packed_rank} dan seterusnya, sub-ranking tidak lagi diberikan berdasarkan jumlah poin ranking yang tetap. Sebagai gantinya, semua pemain yang memenuhi syarat diberi ranking berdasarkan poin ranking mereka dan kemudian menerima sub-ranking mereka berdasarkan persentase penempatan mereka."
 
-
-
-
 		"Citadel_RankedSeasonName_BetaSeason1"		"Beta Musim 1"
+		"Citadel_RankedSeasonName_BetaSeason2"		"Musim Beta 2"
 
 		"Citadel_RankedProgress_CalibratedRank"		"Kalibrasi Selesai"
 		"Citadel_RankedProgress_GainedRank"			"Naik Ranking"
@@ -1238,7 +1243,6 @@
 
 		"Citadel_RankedMatchStatus_Counts"							"{d:count_current}/{d:count_required}"
 		"Citadel_RankedMatchStatus_Wins"							"Menang"
-
 		"Citadel_ViewMatchID_Title"									"Lihat ID Pertandingan"
 		"Citadel_ViewMatchID_Desc"									"Masukkan ID pertandingan untuk melihat rincian pertandingan"
 		"Citadel_ViewMatchID_Prompt"								"ID Pertandingan"
@@ -4606,8 +4610,10 @@
 		"Citadel_ranked_numGamesPlayed"				"{s:games_played} Game Dimainkan"
 		"Citadel_ranked_match_history"				"Riwayat Pertandingan:"
 
-		"Citadel_Ranked_Validating"					"Memproses Matchmaking Mode Rank..."
-		"Citadel_Ranked_ErrorTitle"					"Terjadi kesalahan dalam Matchmaking Mode Rank"
+		"Citadel_Ranked_PleaseWait"					"Mohon tunggu..."
+		"Citadel_Ranked_Validating"					"Bergabung ke Musim Mode Rank"
+		"Citadel_Ranked_ErrorTitle"					"Tidak Dapat Memulai Matchmaking Mode Rank"
+		"Citadel_Ranked_Timeout"					"Waktu habis"
 		"Citadel_Ranked_NotEnoughMatchesPlayed"		"Jumlah pertandingan yang dimainkan belum mencukupi."
 		"Citadel_Ranked_NotEnoughHeroesUnlocked"	"Jumlah hero yang terbuka belum mencukupi."
 		"Citadel_Ranked_InternalError"				"Eror Internal."

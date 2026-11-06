@@ -1277,7 +1277,7 @@
 		"citadel_ability_lash_desc"				"<span class=\"highlight\">Lança-se pelo ar</span> em direção a um alvo. Usar o Arpéu também permite que <span class=\"highlight\">pule e avance no ar novamente</span>."
 
 		"citadel_ability_lash_t2_desc"			"<span class=\"highlight\">+{s:AbilityCastRange} m</span> de alcance de uso e <span class=\"highlight\">+{s:WeaponDamageBonus}</span> de dano bélico por {s:WeaponDamageBonusDuration}s"
-		"citadel_ability_lash_t3_desc"			"<span class=\"highlight\">+{s:AbilityCharges}</span> cargas<br>Ao usar: <span class=\"highlight\">+{s:RestoreStaminaOnUse}</span> de vigor e <span class=\"highlight\">+{s:AirControlPercent}%</span> de controle aéreo<br><span class=\"highlight\">+{s:JumpVelocity}m</span> de velocidade do pulo"
+		"citadel_ability_lash_t3_desc"			"<span class=\"highlight\">+{s:AbilityCharges}</span> cargas<br>Ao usar: <span class=\"highlight\">+{s:RestoreStaminaOnUse}</span> de vigor e <span class=\"highlight\">+{s:AirControlPercent}%</span> de controle aéreo<br><span class=\"highlight\">+{s:JumpVelocity} m/s</span> de velocidade do pulo"
 		"LashDamage_label"						"Dano do Arpéu"
 		"LashDamage_postvalue_label"						"de dano do Arpéu"
 		"WeaponFireRateBonus_label"				"Taxa de disparo"
@@ -4618,7 +4618,7 @@ movimentação durante o atraso interrompe o teletransporte.<br><br>Após se tel
 		
 		"ability_unicorn_luminousstrike"				"Adagas Radiantes"
 		"ability_unicorn_luminousstrike_desc"			"Invoca um feixe de luz do céu. Após um breve atraso, o feixe será formado em uma explosão que causa {g:citadel_inline_attribute:'SpiritDamage'} a todos os alvos na área.<br><br> Celeste recebe um benefício acumulável que aumenta o seu dano espiritual sempre que isso atingir um herói inimigo."
-		"ability_unicorn_luminousstrike_t2_desc"		"{s:AbilityCooldown}s de recarga e +{s:ImpactDamage} de dano no impacto"						"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack}% de amplificação espiritual e +{s:FireRatePerStack}% de taxa de disparo por acúmulo"
+		"ability_unicorn_luminousstrike_t2_desc"		"{s:AbilityCooldown}s de recarga, +{s:ImpactDamage} de dano no impacto e +{s:AbilityCastRange} m de alcance de uso"						"ability_unicorn_luminousstrike_t3_desc"		"+{s:MagicIncreasePerStack}% de amplificação espiritual e +{s:FireRatePerStack}% de taxa de disparo por acúmulo"
 		"ability_unicorn_luminousstrike/luminous_strike_dot_enemy"				"Queima das Adagas Radiantes"
 		"ability_unicorn_luminousstrike/luminous_strike_buff"				"Adagas Radiantes"
 
@@ -4681,7 +4681,7 @@ movimentação durante o atraso interrompe o teletransporte.<br><br>Após se tel
 		"LungeDistance_postfix"			" m"
 		"AttackDashRange_postfix"			" m"
 		"ability_fencer_riposte"	"Riposte"
-		"ability_fencer_riposte_desc" "Prepara-se para <span class=\"highlight\">defletir</span> o próximo ataque sofrido. Ao defletir com sucesso, torna-se temporariamente <span class=\"highlight\">invulnerável</span> e avança na direção de um herói inimigo, <span class=\"highlight\">imobilizando-o</span>, impedindo-o de <span class=\"highlight\">aparar</span> e <span class=\"highlight\">reduzindo a sua resistência a golpes</span>.<br><br><span class=\"diminish\">Pressione {g:citadel_binding:'Ability2'} para selecionar um alvo.<br>Não considera dano de soldados ou inimigos neutros.</span>"
+		"ability_fencer_riposte_desc" "Prepara-se para <span class=\"highlight\">defletir</span> o próximo ataque sofrido. Ao defletir com sucesso, torna-se temporariamente <span class=\"highlight\">invulnerável</span> e avança na direção de um herói inimigo, <span class=\"highlight\">imobilizando</span>, <span class=\"highlight\">desarmando</span>, impedindo de <span class=\"highlight\">aparar</span> e <span class=\"highlight\">reduzindo a resistência a golpes</span>.<br><br><span class=\"diminish\">Pressione {g:citadel_binding:'Ability2'} para selecionar um alvo.<br>Não considera dano de soldados ou inimigos neutros.</span>"
 		"RiposteChannelTime_postvalue_label"	"de duração da deflexão"
 		"RiposteChannelTime_postfix"			"s"
 		"LungeCooldownReduction_prefix"			"-"
@@ -4699,7 +4699,7 @@ movimentação durante o atraso interrompe o teletransporte.<br><br>Após se tel
 		//"CounterTimeWindow_postfix"			"s"
 
 		"ability_fencer_riposte_attack"			"Riposte"
-		"ability_fencer_riposte_attack_desc"	"Avança rapidamente para a frente e imobiliza um inimigo com o pomo da sua arma, impedindo de aparar golpes."
+		"ability_fencer_riposte_attack_desc"	"Avança rapidamente para a frente, usando o pomo da sua arma para imobilizar, desarmar e impedir aparadas de um inimigo."
 		"MeleeResistReductionDuration_label"			"Redução da resist. a golpes"
 		"MeleeResistReductionDuration_postvalue_label"	"de malefício"
 		"MeleeResistReductionDuration_postfix"			"s"
@@ -4813,7 +4813,7 @@ movimentação durante o atraso interrompe o teletransporte.<br><br>Após se tel
 		"AllyDamageReduction_postfix"	"%"
 		"AllyDamageReduction_label" "Redução de dano"
 		"ability_ratking_standard_bearer_desc" "Avança e invoca a bandeira de Ratânia, concedendo aos aliados maior {g:citadel_inline_attribute:'MoveSpeed'}, <span class=\"highlight\">imunidade a desacelerações</span> e <span class=\"highlight\">redução de dano sofrido</span> enquanto estiverem perto dela."
-		"ability_ratking_standard_bearer_t1_desc" "+{s:BonusMoveSpeed} m/s de velocidade de movimento"
+		"ability_ratking_standard_bearer_t1_desc" "<span class=\"highlight>+{s:BonusMoveSpeed} m/s</span> de velocidade de movimento<br><span class=\"highlight>{s:AbilityCooldown}s</span> de recarga"
 		"ability_ratking_standard_bearer_t2_desc" "+{s:FlagDuration}s de duração da bandeira<br>+{s:Radius} m de raio"
 		"ability_ratking_standard_bearer_t3_desc" "+{s:Damage} de dano e +{s:AllyDamageReduction}% de redução de dano"
 		
